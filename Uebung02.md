@@ -36,7 +36,7 @@ In der Praxis wird die Hermann-Mauguin-Notation häufiger verwendet, da sie die 
 [Details zu Symmetrieelementen in Hermann-Mauguin-Symbolik](https://de.wikipedia.org/wiki/Hermann-Mauguin-Symbolik)
 
 
-### Quiz
+## Quiz
 Welche Aussagen sind richtig?
 
 [[X]] Die Schoenflies-Symbolik konzentriert sich hauptsächlich auf die Punktgruppensymmetrie.
