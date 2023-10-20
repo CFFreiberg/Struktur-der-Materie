@@ -28,4 +28,19 @@ In der Praxis wird die Hermann-Mauguin-Notation häufiger verwendet, da sie die 
 [Details zu Symmetrieelementen in Hermann-Mauguin-Symbolik](https://de.wikipedia.org/wiki/Hermann-Mauguin-Symbolik)
 
 
+### Quiz
+Welche Aussagen sind richtig?
+
+[[X]] Die Schoenflies-Symbolik konzentriert sich hauptsächlich auf die Punktgruppensymmetrie.
+[[X]] Die Hermann-Mauguin-Notation bietet eine vollständige Beschreibung der Raumgruppe, einschließlich sowohl der Punktgruppen- als auch der Translationsinformationen.
+[[ ]] Die Schoenflließ-Symbolik und die Herrman-Maugin-Symbolik beschreiben genau die gleichen Inhalte.
+[[X]] Die Hermann-Mauguin-Notation ist die vollständigere und präzisere Methode zur Beschreibung von Raumgruppen.
+[[?]] You can choose more than one correct answer!
+***
+<div class = "answer">
+
+
+
+</div>
+***
 
