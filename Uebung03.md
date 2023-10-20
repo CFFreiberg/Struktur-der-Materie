@@ -3,11 +3,22 @@
 ### Aufgabe 1
 Durch welches Bravais-Gitter lässt sich ein flächenzentriert tetragonales Gitter beschreiben. Welcher Zusammenhang besteht zwischen den Gitterkonstanten der beiden Gitter und dem Volumen der Einheitszellen?
 
-![flächenzentriertes tetragonales Gitter](/media/flaechenzentriert_tetragonal.png "flächenzentriertes tetragonales Gitter) {width=200}  by Claudia Funke licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)")
+!["flächenzentriertes tetragonales Gitter"](media/flaechenzentriert_tetragonal.png)
+
+ **Beispiel für flächenzentriertes tetragonales Gitter**
+ 
+Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 #### Lösung:
 Ein flächenzentriertes tetragonales Gitter lässt sich durch eine 45° Drehung um die z-Achse in ein innenzentriertes tetragonales Gitter mit den Gitterkonstanten $a'= \frac{a}{\sqrt{2}}$ und
 $c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen
+
+!["flächenzentriertes tetragonales Gitter"](media/flaechenzentriert_tetragonal2.png)
+ **Beispiel für flächenzentriertes tetragonales Gitter**
+ 
+
+ 
+Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ### Aufgabe 2
 Welcher Zusammenhang besteht zwischen einem ccp-Gitter (cubic close packed) mit den Gitterkonstanten a und c und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten a_{fcc}? Bestimmen Sie die daraus resultierenden Beziehungen zu a und c eines ccp-Gitters.
