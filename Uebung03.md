@@ -13,7 +13,9 @@ Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org
 Ein flächenzentriertes tetragonales Gitter lässt sich durch eine 45° Drehung um die z-Achse in ein innenzentriertes tetragonales Gitter mit den Gitterkonstanten $a'= \frac{a}{\sqrt{2}}$ und
 $c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen
 
-!["flächenzentriertes tetragonales Gitter"](media/flaechenzentriert_tetragonal2.png)
+
+!["flächenzentriertes tetragonales Gitter"](media/flaechenzentriert-tetragonal2.png)
+
  **Beispiel für flächenzentriertes tetragonales Gitter**
  
 
@@ -38,3 +40,4 @@ Zeichnen Sie das flächenzentrierte kubische Gitter. Markieren Sie die Lage von 
 
 
 [def]: /media/flaechenzentriert_tetragonal.png
+[def2]: media/flaechenzentriert_tetragonal2.png
