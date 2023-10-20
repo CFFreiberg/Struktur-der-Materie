@@ -3,7 +3,7 @@
 ### Aufgabe 1
 Durch welches Bravais-Gitter lässt sich ein flächenzentriert tetragonales Gitter beschreiben. Welcher Zusammenhang besteht zwischen den Gitterkonstanten der beiden Gitter und dem Volumen der Einheitszellen?
 
-![bla](/media/flaechenzentriert_tetragonal.png)   by Claudia Funke licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)")
+![flächenzentriertes tetragonales Gitter](/media/flaechenzentriert_tetragonal.png "flächenzentriertes tetragonales Gitter) {width=200}  by Claudia Funke licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)")
 
 #### Lösung:
 Ein flächenzentriertes tetragonales Gitter lässt sich durch eine 45° Drehung um die z-Achse in ein innenzentriertes tetragonales Gitter mit den Gitterkonstanten $a'= \frac{a}{\sqrt{2}}$ und
