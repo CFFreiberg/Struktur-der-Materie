@@ -19,7 +19,7 @@ Die Schoenflies-Symbolik und die Hermann-Mauguin-Notation sind zwei verschiedene
 
 [Details zu Symmetrieelementen in Schoenfließ-Symbolik](https://de.wikipedia.org/wiki/Schoenflies-Symbolik)
 
-## Hermann-Mauguin-Notation:
+## Hermann-Maugin-Notation:
 - Auch als "erweiterte Hermann-Mauguin-Notation" bekannt, ist diese Methode moderner und detaillierter.
 - Sie kombiniert die Information der Punktgruppe mit den Translationsinformationen und ermöglicht eine vollständige Beschreibung der Raumgruppe.
 - Die Hermann-Mauguin-Notation verwendet Buchstaben, Zahlen und Symbole, um die Punktgruppen- und Translationsinformationen zu repräsentieren.
