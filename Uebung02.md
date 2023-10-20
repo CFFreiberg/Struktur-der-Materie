@@ -34,7 +34,6 @@ Der Hauptunterschied zwischen den beiden Notationen liegt in ihrer Detailtiefe u
 
 In der Praxis wird die Hermann-Mauguin-Notation häufiger verwendet, da sie die vollständigere und präzisere Methode zur Beschreibung von Raumgruppen ist.
 
-
 ## Quiz
 Welche Aussagen sind richtig?
 
