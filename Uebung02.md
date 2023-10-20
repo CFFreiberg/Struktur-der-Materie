@@ -6,7 +6,7 @@ version: 1.0
 
 -->
 
-# Was ist der Unterschied zwischen Schoenflies-Symbolik und Hermann-Maugin-Notation?
+# Was ist der Unterschied zwischen Schoenflies-Symbolik und Hermann-Mauguin-Notation?
 Die Schoenflies-Symbolik und die Hermann-Mauguin-Notation sind zwei verschiedene Methoden zur Beschreibung der Raumgruppen, die in der Kristallographie verwendet werden.
 
 -----
@@ -19,7 +19,7 @@ Die Schoenflies-Symbolik und die Hermann-Mauguin-Notation sind zwei verschiedene
 
 [Details zu Symmetrieelementen in Schoenfließ-Symbolik](https://de.wikipedia.org/wiki/Schoenflies-Symbolik)
 
-## Hermann-Maugin-Notation:
+## Hermann-Mauguin-Notation:
 - Auch als "erweiterte Hermann-Mauguin-Notation" bekannt, ist diese Methode moderner und detaillierter.
 - Sie kombiniert die Information der Punktgruppe mit den Translationsinformationen und ermöglicht eine vollständige Beschreibung der Raumgruppe.
 - Die Hermann-Mauguin-Notation verwendet Buchstaben, Zahlen und Symbole, um die Punktgruppen- und Translationsinformationen zu repräsentieren.
@@ -30,7 +30,7 @@ Die Schoenflies-Symbolik und die Hermann-Mauguin-Notation sind zwei verschiedene
 ## Unterschied:
 Der Hauptunterschied zwischen den beiden Notationen liegt in ihrer Detailtiefe und Spezifität:
 - Die Schoenflies-Symbolik konzentriert sich hauptsächlich auf die Punktgruppensymmetrie und bietet eine intuitive Darstellung, ist jedoch weniger detailliert in Bezug auf die Translationsinformationen.
- - Die Hermann-Mauguin-Notation hingegen bietet eine vollständige Beschreibung der Raumgruppe, einschließlich sowohl der Punktgruppen- als auch der Translationsinformationen. Sie ist spezifischer und detaillierter, aber erfordert möglicherweise mehr Kenntnisse zur Interpretation.
+- Die Hermann-Mauguin-Notation hingegen bietet eine vollständige Beschreibung der Raumgruppe, einschließlich sowohl der Punktgruppen- als auch der Translationsinformationen. Sie ist spezifischer und detaillierter, aber erfordert möglicherweise mehr Kenntnisse zur Interpretation.
 
 In der Praxis wird die Hermann-Mauguin-Notation häufiger verwendet, da sie die vollständigere und präzisere Methode zur Beschreibung von Raumgruppen ist.
 
