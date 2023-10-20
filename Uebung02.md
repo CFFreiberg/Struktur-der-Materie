@@ -17,10 +17,15 @@ Die Schoenflies-Symbolik und die Hermann-Mauguin-Notation sind zwei verschiedene
 - Sie basiert auf der Punktgruppen-Symmetrie, der höchsten Symmetrie eines Kristalls, und verwendet Buchstaben und Zahlen, um die verschiedenen Punktgruppen darzustellen.
 - Diese Bezeichnung ist intuitiv und leicht zu verstehen, insbesondere für Punktgruppen, aber weniger spezifisch für Raumgruppen, da sie nicht die Translationsinformationen enthält.
 
+[Details zu Symmetrieelementen in Schoenfließ-Symbolik](https://de.wikipedia.org/wiki/Schoenflies-Symbolik)
+
 ## Hermann-Mauguin-Notation:
 - Auch als "erweiterte Hermann-Mauguin-Notation" bekannt, ist diese Methode moderner und detaillierter.
 - Sie kombiniert die Information der Punktgruppe mit den Translationsinformationen und ermöglicht eine vollständige Beschreibung der Raumgruppe.
 - Die Hermann-Mauguin-Notation verwendet Buchstaben, Zahlen und Symbole, um die Punktgruppen- und Translationsinformationen zu repräsentieren.
+
+[Details zu Symmetrieelementen in Hermann-Mauguin-Symbolik](https://de.wikipedia.org/wiki/Hermann-Mauguin-Symbolik)
+
 
 ## Unterschied:
 Der Hauptunterschied zwischen den beiden Notationen liegt in ihrer Detailtiefe und Spezifität:
@@ -31,9 +36,8 @@ In der Praxis wird die Hermann-Mauguin-Notation häufiger verwendet, da sie die 
 
 ## Links
 
-[Details zu Symmetrieelementen in Schoenfließ-Symbolik](https://de.wikipedia.org/wiki/Schoenflies-Symbolik)
 
-[Details zu Symmetrieelementen in Hermann-Mauguin-Symbolik](https://de.wikipedia.org/wiki/Hermann-Mauguin-Symbolik)
+
 
 
 ## Quiz
