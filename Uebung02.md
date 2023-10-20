@@ -6,7 +6,7 @@ version: 1.0
 
 -->
 
-# Was ist der Unterschied zwischen Schoenflies-Symbolik und Hermann -Maugin-Notation?
+# Was ist der Unterschied zwischen Schoenflies-Symbolik und Hermann-Maugin-Notation?
 Die Schoenflies-Symbolik und die Hermann-Mauguin-Notation sind zwei verschiedene Methoden zur Beschreibung der Raumgruppen, die in der Kristallographie verwendet werden.
 
 -----
