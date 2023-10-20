@@ -2,6 +2,9 @@
 ## Kristallgitter 
 ### Aufgabe 1
 Durch welches Bravais-Gitter lässt sich ein flächenzentriert tetragonales Gitter beschreiben. Welcher Zusammenhang besteht zwischen den Gitterkonstanten der beiden Gitter und dem Volumen der Einheitszellen?
+
+![bla](/media/flaechenzentriert_tetragonal.png)   by Claudia Funke licensed under [CC by 2.0](https://creativecommons.org/licenses/by/2.0/)")
+
 #### Lösung:
 Ein flächenzentriertes tetragonales Gitter lässt sich durch eine 45° Drehung um die z-Achse in ein innenzentriertes tetragonales Gitter mit den Gitterkonstanten $a'= \frac{a}{\sqrt{2}}$ und
 $c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen
@@ -21,3 +24,6 @@ Geben Sie für Steinsalz die Koordinaten der Natrium- und Clorionen in Einheiten
 Geben Sie den kürzesten Abstand zwischen zwei Ionen im Kristallgitter mit Zinkblendestruktur bezogen auf die Gitterkonstante an.
 ### Aufgabe 8
 Zeichnen Sie das flächenzentrierte kubische Gitter. Markieren Sie die Lage von oktaedrisch bzw. tetraedrisch koordinierten Zwischengitterplätzen und zählen Sie die Anzahl der Gitteratome und Zwischengitterplätze ab.
+
+
+[def]: /media/flaechenzentriert_tetragonal.png
