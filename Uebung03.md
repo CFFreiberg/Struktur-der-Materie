@@ -29,12 +29,12 @@ $c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen
 Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Aufgabe 2
-Welcher Zusammenhang besteht zwischen einem ccp-Gitter (cubic close packed) mit den Gitterkonstanten $a$ und $c$ und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten $a_\mathrm{fcc}$? 
+Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed) mit den Gitterkonstanten $a$ und $c$ und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten $a_\mathrm{fcc}$? 
 
-![Ebenen-Stapelfolge  ccp-Gitter](media/640px-DichtesteKugelpackung.png)
+![Ebenen-Stapelfolge  ccp-Gitter](media/ccpKugelpackung.png)
 
 
-Von CdangDerivative work: Muskid - Abwandlung von Empilement_compact.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=33976067
+Bildquelle: CdangDerivative work: Muskid - Abwandlung von Empilement_compact.svg, [CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=33976067) 
 
 Bestimmen Sie die daraus resultierenden Beziehungen zu $a_\mathrm{ccp}$ und $c_\mathrm{ccp}$ eines ccp-Gitters.
 
