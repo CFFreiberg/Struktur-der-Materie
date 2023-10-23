@@ -31,7 +31,8 @@ Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org
 ## Aufgabe 2
 Welcher Zusammenhang besteht zwischen einem ccp-Gitter (cubic close packed) mit den Gitterkonstanten $a$ und $c$ und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten $a_\mathrm{fcc}$? 
 
-![Ebenen-Stapelfolge  ccp-Gitter](https://de.wikipedia.org/wiki/Dichteste_Kugelpackung#/media/Datei:DichtesteKugelpackung.svg)
+![Ebenen-Stapelfolge  ccp-Gitter](media/640px-DichtesteKugelpackung.png)
+
 
 Von CdangDerivative work: Muskid - Abwandlung von Empilement_compact.svg, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=33976067
 
