@@ -78,4 +78,9 @@ Die Kombination von Translationsgruppen mit Punktgruppen ermöglicht die Beschre
 Der Fokus ist also der Unterschied
 
 #### e)	Was beschreibt eine Raumgruppe
+Eine Raumgruppe ist ein mathematisches Konzept in der Kristallographie, das die gesamte Symmetrien in einem Kristall beschreibt. Sie umfasst sowohl die Punktgruppen (Symmetrie um einen einzigen Punkt) als auch die Translationssymmetrie (räumliche Verschiebungen) der Gitterpunkte.
+
+$\Rightarrow$ Gesamtheit aller möglichen räumlichen Transformationen
+
+$\Rightarrow$ 230 Raumgruppen
 
