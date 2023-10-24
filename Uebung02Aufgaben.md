@@ -99,3 +99,9 @@ $\Rightarrow$ faszinierendes Beispiel für aperiodische Strukturen, benötigt mi
 Betrachten Sie die Ebenen mit den Millerschen Indizes (100) und (001); das Gitter habe die fcc-Struktur und die Indizes beziehen sich auf die übliche kubische Zelle. Wie lauten die Indizes dieser Ebenen, wenn sie sich auf die primitiven Achsen der folgenden Abbildung beziehen?
 Beachten Sie dabei, dass
 $$\vec{a}_1=\frac{a}{2}\left(\hat{x}+\hat{y}\right), {\vec{a}}_2=\frac{a}{2}\left(\hat{y}+\hat{z}\right), {\vec{a}}_3=\frac{a}{2}\left(\hat{x}+\hat{z}\right)$$
+
+
+![fcc-Gitter dargestellt mit primitiver Basis](media/primitiveBasisfcc.png)
+
+
+(100)-Ebene normal zur x-Achseschneidet die $\vec{a_1}$-Achse bei $2\cdot \vec{a_1}$ und die  $\vec{a_3}$-Achse bei $2\cdot \vec{a_3}$. Die Ebene ist parallel zu $\vec{a_2}$. Die Indizierung im $\vec{a_i}$-System ist also (101).
