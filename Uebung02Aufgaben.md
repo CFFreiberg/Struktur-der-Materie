@@ -31,4 +31,4 @@ mit $u_i \in  \mathbb{Z}$.
 
 ![Parallelepiped](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Parallelepiped2.svg/330px-Parallelepiped2.svg.png)
 
-Quelle: 
+Quelle: Drawing of a parallelepiped.
