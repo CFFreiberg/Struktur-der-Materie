@@ -43,7 +43,7 @@ Das ccp-Gitter weist in vertikaler Richtung die Reihenfolge ABCABCABC… dichtes
 
 ![kubische Einheitszelle kfz](media/kupfer.png)
 
-Bildquelle: http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html
+*Bildquelle: http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html *
 
 Die Raumdiagonale der kubischen Einheitszelle entspricht der
 Gitterkonstanten $c$  des ccp-Gitters: $c = \sqrt{3}\cdot a_\mathrm{fcc}$  und die Gitterkonstante $a$ der Hälfte der Flächendiagonalen:  $a = \sqrt{2} \cdot a_\mathrm{fcc}$. 
