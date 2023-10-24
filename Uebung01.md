@@ -24,3 +24,14 @@ $\mathrm{cos}({\varphi})=
 \begin{pmatrix}1\\ -1\\ -1\\\end{pmatrix}=\frac{1-1-1}{\sqrt{3}\cdot \sqrt{3}}=-\frac{1}{3}$
 
 $\Rightarrow \varphi=\mathrm{arccos(\frac{1}{3})}=109,47°  $
+
+## Lösung Aufgabe 3b
+
+Volumen der Einheitszelle: $V_\mathrm{EZ}=a^3$
+
+Nun benötigen Sie einen Zusammenhang zischen Kugelvolumen und Gitterkonstante $a$. Die dichtest benachbarten Kugel sollen Stoß auf Stoß sitzen. 
+Betrachten Sie folgende Abbildung und wenden Sie den Satz von Pythagoras zweimal an:
+
+![Detail Diamantgitters](media/diamanatdetail.png)
+
+*Quelle: A. Ambrust, H. Janetzkki, Aufgaben zur Festkörperphysik*
