@@ -17,3 +17,10 @@ Das Diamantgitter besteht aus zwei kubisch flächenzentrierten Gittern, wobei da
 <li> Bestimmen Sie den Volumenanteil im Harte-Kugel-Modell für die Diamant-Kristallstruktur </li>
 </ol>
 -----
+
+## Lösung Aufgabe 3a
+$\mathrm{cos}({\varphi})=
+\begin{pmatrix}1\\ 1\\ 1\\\end{pmatrix} \cdot 
+\begin{pmatrix}1\\ -1\\ -1\\\end{pmatrix}=\frac{1-1-1}{\sqrt{3}\cdot \sqrt{3}}=-\frac{1}{3}$
+
+$\Rightarrow \varphi=\mathrm{arccos(\frac{1}{3})}=109,47°  $
