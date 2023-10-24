@@ -1,7 +1,7 @@
 <!--
 author: Claudia Funke
 email: claudia.funke@physik.tu-freiberg.de
-title: Unterschied zwischen Schoenflies-Symbolik und Hermann -Maugin-Notation
+title: Lösung Aufgabe 3
 version: 1.0
 
 -->
