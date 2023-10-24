@@ -21,7 +21,7 @@ mit $u_i \in  \mathbb{Z}$.
 
 ![Parallelepiped](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Parallelepiped2.svg/330px-Parallelepiped2.svg.png)
 
-<<<<<<< HEAD
+
 Quelle: ["Drawing of a parallelepiped."](https://commons.wikimedia.org/wiki/File:Parallelepiped2.svg) by Niabot
 licensed under [CC BY 3.0 DEED](hhttps://creativecommons.org/licenses/by/3.0/deed.en)
 
@@ -38,22 +38,8 @@ Unter der Annahme, dass im folgenden Gitter die Punkte alle identische Atome sin
 
 ![primitive Achsen und Basis](media/basis.png)
 
-<<<<<<< HEAD
-Quelle: ["Drawing of a parallelepiped."](https://commons.wikimedia.org/wiki/File:Parallelepiped2.svg) by Niabot
-licensed under [CC BY 3.0 DEED](hhttps://creativecommons.org/licenses/by/3.0/deed.en)
 
-#### d) Wie viele Gitterpunkte liegen in einer primitiven Elementarzelle?
 
-1 Gitterpunkt pro Ecke, 8 Ecken, jede Ecke gehört zu 8 Parallelepipeden $\Rightarrow \frac{8}{8}=1$ 
-
-#### e) Wie groß ist das Volumen einer primitiven Elementarzelle, ausgedrückt durch die Gittertranslationsvektoren?
-$$V=\left |\vec{a_1}\cdot \vec{a_2} \times \vec{a_3}  \right |$$ 
-mit $\vec{a_1}$, $\vec{a_2}$, $\vec{a_3}$ primitive Basisvektoren (Gittervektoren)
-
-## Lösung Aufgabe 2
-Unter der Annahme, dass im folgenden Gitter die Punkte alle identische Atome sind, zeichnen Sie bitte im Bild die Gitterpunkte ein, ebenfalls ein mögliches Paar von primitiven Achsen, eine primitive Zelle und die Basis von Atomen, die auf einem Gitterpunkt sitzt.
-
-![primitive Achsen und Basis](media/basis.png)
 
 ## Lösung Aufgabe 3
 #### a)	Was ist ein Bravaisgitter? Beschreiben Sie ein Bravaisgitter mit einer Formel
@@ -63,21 +49,3 @@ Ein B
 #### d)	Was ist der Unterschied zwischen Bravaisgittern und Translationsgruppen
 #### e)	Was beschreibt eine Raumgruppe
 
-=======
-=======
-Quelle: ["Drawing of a parallelepiped."](https://commons.wikimedia.org/wiki/File:Parallelepiped2.svg) by Niabot
-licensed under [CC BY 3.0 DEED](hhttps://creativecommons.org/licenses/by/3.0/deed.en)
-
-#### d) Wie viele Gitterpunkte liegen in einer primitiven Elementarzelle?
-
-1 Gitterpunkt pro Ecke, 8 Ecken, jede Ecke gehört zu 8 Parallelepipeden $\Rightarrow \frac{8}{8}=1$ 
-
-#### e) Wie groß ist das Volumen einer primitiven Elementarzelle, ausgedrückt durch die Gittertranslationsvektoren?
-$$V=\left |\vec{a_1}\cdot \vec{a_2} \times \vec{a_3}  \right |$$ 
-mit $\vec{a_1}$, $\vec{a_2}$, $\vec{a_3}$ primitive Basisvektoren (Gittervektoren)
-
-## Lösung Aufgabe 2
-Unter der Annahme, dass im folgenden Gitter die Punkte alle identische Atome sind, zeichnen Sie bitte im Bild die Gitterpunkte ein, ebenfalls ein mögliches Paar von primitiven Achsen, eine primitive Zelle und die Basis von Atomen, die auf einem Gitterpunkt sitzt.
-
-![primitive Achsen und Basis](media/basis.png)
->>>>>>> 9e6e506d47a9f8ec3e2ac8b661fb7a693cc5f617
