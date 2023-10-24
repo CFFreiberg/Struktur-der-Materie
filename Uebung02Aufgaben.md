@@ -54,7 +54,19 @@ mit $u_i \in  \mathbb{Z}$ und $\vec{a_i}$ linear unabhängige Bravais-Gittervekt
 Es gibt 14 verschiedene Bravais-Gitter im 3D-Raum, die in 7 Kristallsysteme klassifiziert sind.
 
 #### b)	Was beschreiben Punktgruppen?
+
+Punktgruppen sind ein Konzept in der Kristallographie und beschreiben die symmetrischen Eigenschaften eines Kristalls. Sie repräsentieren die Gesamtheit aller möglichen räumlichen Transformationen, die den Kristall in sich selbst überführen.
+
+Die Symmetrieoperationen sind Kombination aus Drehungen, Spiegelungen und Inversionen, die um einen gemeinsamen Punkt (Symmetriezentrum) herum wirken. 
+
+Es gibt insgesamt 32 mögliche Punktgruppen im 3D. Sie spielen eine rolle bei der Beschreibung von Kristallen und ihrer physikalischen Eigenschaften.
+
 #### c)	Was beschreiben Translationsgruppen?
+Translationsgruppen beschreiben die räumlichen Verschiebungen von Gitterpunkten in einem Kristall entlang diskreter Richtungen und diskreter Beträge. 
+
+In einer Translationsgruppe werden die Gitterpunkte um Translationsvektoren verschoben.Damit können alle Gitterpunkte eines Kristalls erzeugt werden.
+Sie sind ein grundlegendes Konzept in der Kristallographie und ermöglichen die mathematische Darstellung der Kristallstruktur.
+
 #### d)	Was ist der Unterschied zwischen Bravaisgittern und Translationsgruppen
 #### e)	Was beschreibt eine Raumgruppe
 
