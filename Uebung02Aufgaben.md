@@ -84,3 +84,13 @@ $\Rightarrow$ Gesamtheit aller möglichen räumlichen Transformationen
 
 $\Rightarrow$ 230 Raumgruppen
 
+## Lösung Aufgabe 5
+Zeigt die Abbildung eines Penrose-Musters eine Translationssymmetrie? Begründen Sie Ihre Antwort
+
+![Penrose-Muster](https://upload.wikimedia.org/wikipedia/commons/7/7e/Pen0305c.gif)
+
+*Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Penrose-Parkettierung)*
+
+Nein. Ein Penrose-Miuster ist ein aperiodisches Muster, es besitzt keine periodische Wiederholungseinheit. 
+
+$\Rightarrow$ faszinierendes Beispiel für aperiodische Strukturen, benötigt mindestens 2 verschiedene Baueinheiten (Polygone): *kite* = Drachen und *dart* = Pfeile.
