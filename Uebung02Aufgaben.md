@@ -43,7 +43,16 @@ Unter der Annahme, dass im folgenden Gitter die Punkte alle identische Atome sin
 
 ## Lösung Aufgabe 3
 #### a)	Was ist ein Bravaisgitter? Beschreiben Sie ein Bravaisgitter mit einer Formel
-Ein B
+Ein Bravaisgitter ist ein mathematisches Konzept in der Kristallographie, das die periodische Anordnung von Gitterpunkten in einem Kristall beschreibt. Es beschreibt die räumliche Anordnung der Gitterpunkte und gibt die geometrische Grundstruktur des Kristalls an.
+
+Mathematisch wird ein Bravaisgitter durch die sogenannte Bravais-Gittervektorformel beschrieben:
+
+$$\vec{r'}=\vec{r}+ u_1\cdot \vec{a_1}+ u_2\cdot \vec{a_2}+u_3\cdot \vec{a_3}=\vec{r}+\vec{T}$$
+
+mit $u_i \in  \mathbb{Z}$ und $\vec{a_i}$ linear unabhängige Bravais-Gittervektoren
+
+Es gibt 14 verschiedene Bravais-Gitter im 3D-Raum, die in 7 Kristallsysteme klassifiziert sind.
+
 #### b)	Was beschreiben Punktgruppen?
 #### c)	Was beschreiben Translationsgruppen?
 #### d)	Was ist der Unterschied zwischen Bravaisgittern und Translationsgruppen
