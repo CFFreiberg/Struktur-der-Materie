@@ -1,7 +1,7 @@
 <!--
 author: Claudia Funke
 email: claudia.funke@physik.tu-freiberg.de
-title: Lösung Aufgabe 3
+title: Lösung Übung 1 Aufgabe 3
 version: 1.0
 
 -->
