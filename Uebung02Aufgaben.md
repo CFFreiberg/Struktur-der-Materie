@@ -67,6 +67,15 @@ Translationsgruppen beschreiben die räumlichen Verschiebungen von Gitterpunkten
 In einer Translationsgruppe werden die Gitterpunkte um Translationsvektoren verschoben.Damit können alle Gitterpunkte eines Kristalls erzeugt werden.
 Sie sind ein grundlegendes Konzept in der Kristallographie und ermöglichen die mathematische Darstellung der Kristallstruktur.
 
+Die Kombination von Translationsgruppen mit Punktgruppen ermöglicht die Beschreibung der vollen Symmetrie eines Kristalls.
+
 #### d)	Was ist der Unterschied zwischen Bravaisgittern und Translationsgruppen
+
+**Translationsgruppen** beschreiben die räumlichen Verschiebungen der Gitterpunkte in einem Kristall. So werdenalle Gitterpunkte erzeugt (Achtung, hier ist noch nicht die Rede von Atomen!). 
+
+**Bravaisgitter** beschreiben die geometrische Grundstruktur des Kristalls durch Basisvektoren, definierter Symmetrie und Periodizität.
+
+Der Fokus ist also der Unterschied
+
 #### e)	Was beschreibt eine Raumgruppe
 
