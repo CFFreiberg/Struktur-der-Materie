@@ -38,6 +38,8 @@ Unter der Annahme, dass im folgenden Gitter die Punkte alle identische Atome sin
 
 ![primitive Achsen und Basis](media/basis.png)
 
+*Eine der vielen Varianten für Gitterpunkte und primitive Achsen. Bildquelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
 
 
 
@@ -97,6 +99,16 @@ $\Rightarrow$ faszinierendes Beispiel für aperiodische Strukturen, benötigt mi
 
 ## Lösung Aufgabe 6
 Es gibt 7 Kristallsysteme
+
+| Kristallsystem     |       Anzahl Gitter       |  Zentrierungen |Einschränkungen| Bild|
+| :------------- |:----------------:| :-------:|:---: |:---:| 
+|triklin  | 1| primitiv | $a\ne b\ne c$, $\alpha \ne \beta \ne \gamma$ | ![triklines Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_7.jpg)|
+| monoklin | 2|   primitiv, basiszentriert |$a\ne b\ne c$, $\alpha = \gamma =90° \ne\beta$  |  ![monoklines Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_6.jpg)
+| orthorombisch | 4 | primitiv, basiszentriert, raumzentriert, flächenzentriert | |  <>
+
+![](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_1.jpg)
+
+
 ## Lösung Aufgabe 9
 Betrachten Sie die Ebenen mit den Millerschen Indizes (100) und (001); das Gitter habe die fcc-Struktur und die Indizes beziehen sich auf die übliche kubische Zelle. Wie lauten die Indizes dieser Ebenen, wenn sie sich auf die primitiven Achsen der folgenden Abbildung beziehen?
 Beachten Sie dabei, dass
