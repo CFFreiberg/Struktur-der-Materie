@@ -103,12 +103,12 @@ Es gibt 7 Kristallsysteme
 | Kristallsystem     |       Anzahl Gitter       |  Zentrierungen |Einschränkungen| Bild|
 | :------------- |:----------------:| :-------:|:---: |:---:| 
 |triklin  | 1| primitiv | $a\ne b\ne c$, $\alpha \ne \beta \ne \gamma$ | ![triklines Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_7.jpg)|
-| monoklin | 2|   primitiv, basiszentriert |$a\ne b\ne c$, $\alpha = \gamma =90° \ne\beta$  |  ![monoklines Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_6.jpg)
-| orthorhombisch | 4 | primitiv, basiszentriert, raumzentriert, flächenzentriert |$a\ne b\ne c$, $\alpha =\beta = \gamma =90° $|  ![orthorhombisches Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_5.jpg)
-| tetragonal | 2 | primitiv,  raumzentriert |$a= b\ne c$, $\alpha =\beta = \gamma =90° $|  ![tetragonales Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_4.jpg)
-| kubisch | 3 | primitiv,  raumzentriert, flächenzentriert |$a= b=c$, $\alpha =\beta = \gamma =90° $|  ![kubisches Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_1.jpg)
-| rhomboedrisch (trigonal) | 1 | primitiv |$a= b=c$, $\alpha =\beta = \gamma \ne 90° $|  ![rhomboedrisches Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_3.jpg)
-| hexagonal | 1 | primitiv |$a= b \ne c$, $\alpha =\beta = 90°$,$\gamma=120°$  |  ![hexagonales Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_2.jpg)
+| monoklin | 2|   primitiv, basiszentriert |$a\ne b\ne c$, $\alpha = \gamma =90° \ne\beta$  |  ![monoklines Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_6.jpg)|
+| orthorhombisch | 4 | primitiv, basiszentriert, raumzentriert, flächenzentriert |$a\ne b\ne c$, $\alpha =\beta = \gamma =90° $|  ![orthorhombisches Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_5.jpg)|
+| tetragonal | 2 | primitiv,  raumzentriert |$a= b\ne c$, $\alpha =\beta = \gamma =90° $|  ![tetragonales Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_4.jpg)|
+| kubisch | 3 | primitiv,  raumzentriert, flächenzentriert |$a= b=c$, $\alpha =\beta = \gamma =90° $|  ![kubisches Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_1.jpg)|
+| rhomboedrisch (trigonal) | 1 | primitiv |$a= b=c$, $\alpha =\beta = \gamma \ne 90° $|  ![rhomboedrisches Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_3.jpg)|
+| hexagonal | 1 | primitiv |$a= b \ne c$, $\alpha =\beta = 90°$,$\gamma=120°$  |  ![hexagonales Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_2.jpg)|
 
 *Bilder von [Wolfgang Below](https://www.chemieunterricht.de/dc2/kristalle/systeme.htm)*
 
@@ -129,7 +129,7 @@ Die (001)-Ebene normal zur kubischen z-Achse schneidet die $\vec{a_2}$-Achse bei
 ## Lösung Aufgabe 10
 Zeigen Sie, dass das Verhältnis c/a für eine hexagonal dichtgepackte Struktur gleich $\sqrt{8/3}$ ist.
 
-Betrachten Sie die stapelfolgen im hexagonal dichtgepacktesten Gitter:
+Betrachten Sie die Stapelfolgen im hexagonal dichtgepacktesten Gitter:
 ![Details Stapelfolge hexagonales Gitter](media/hexagonal.png)
 *Details hexagonales Gitter; Lage des Atoms in der nächsten gestapelten Ebene. Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
