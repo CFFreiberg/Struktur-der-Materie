@@ -125,3 +125,26 @@ $$\vec{a}_1=\frac{a}{2}\left(\hat{x}+\hat{y}\right), {\vec{a}}_2=\frac{a}{2}\lef
 Die (100)-Ebene normal zur kubischen x-Achse schneidet die $\vec{a_1}$-Achse bei $2\cdot \vec{a_1}$ und die  $\vec{a_3}$-Achse bei $2\cdot \vec{a_3}$. Die Ebene ist parallel zu $\vec{a_2}$. Die Indizierung der (100)-Ebene (im kubischen System) im $\vec{a_i}$-System ist also (101).
 
 Die (001)-Ebene normal zur kubischen z-Achse schneidet die $\vec{a_2}$-Achse bei $2\cdot \vec{a_2}$ und die  $\vec{a_3}$-Achse bei $2\cdot \vec{a_3}$. Die Ebene ist parallel zu $\vec{a_1}$. Die Indizierung der (100)-Ebene (im kubischen System) im $\vec{a_i}$-System ist also (011).
+
+## Lösung Aufgabe 10
+Zeigen Sie, dass das Verhältnis c/a für eine hexagonal dichtgepackte Struktur gleich $\sqrt{8/3}$ ist.
+
+Betrachten Sie die stapelfolgen im hexagonal dichtgepacktesten Gitter:
+![Details Stapelfolge hexagonales Gitter](media/hexagonal.png)
+*Details hexagonales Gitter; Lage des Atoms in der nächsten gestapelten Ebene. Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
+Es gilt 
+
+$\frac{\frac{a}{2}}{d}=\mathrm{cos}(30°) \Rightarrow d=\frac{a}{2\cdot \mathrm{cos}(30°)}=\frac{a}{2\cdot \frac{1}{2}\cdot \sqrt{3}}$.
+
+$d$ ist der auf die Grundebene projezierte Abstand der auf der Lücke plazierten (gedachten) Kugel zur zentralen Kugel, jeweils von Kugelmittelpunkt zu Kugelmittelpunkt gemessen.
+
+Wenn die umgebenden Kugeln Kontakt haben, dann gilt:
+
+$$ a^2=d^2+\left( \frac{c}{2} \right)^2=\frac{a^2}{3}+\left( \frac{c}{2} \right)^2$$
+
+$$\Rightarrow \frac{2}{3}a^2=\frac{c^2}{4} $$
+
+$$\Rightarrow\frac{c^2}{a^2}=\frac{8}{3}$$
+
+$$\Rightarrow \frac{c}{a}=\sqrt{\frac{8}{3}}=1,633.$$
