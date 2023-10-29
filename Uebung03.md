@@ -79,7 +79,13 @@ Silber hat ein fcc-Gitter. Seine Dichte beträgt $\rho_\mathrm{Ag}=10,49\,\mathr
 
 
 ### Lösung Aufgabe 5
-Allgemein gilt: $\rho=\frac{m}{V}$. Daraus folgt: $V=\frac{m}{\rho}$. Mit $N_\mathrm{A}=6,02214076\cdot 10^{23}\mathrm{\frac{1}{mol}} $ (Avogadro-Konstante) folgt also
+Allgemein gilt: 
+
+$\rho=\frac{m}{V}$. 
+
+Daraus folgt: $V=\frac{m}{\rho}$. 
+
+Mit $N_\mathrm{A}=6,02214076\cdot 10^{23}\mathrm{\frac{1}{mol}} $ (Avogadro-Konstante) folgt also
 
 $$ V_\mathrm{EZ}=a^3=\frac{\mathrm{Anzahl\, Atome\, in\ EZ}\cdot M_\mathrm{Ag}}{N_\mathrm{A}\cdot \rho_\mathrm{Ag} }$$
 
@@ -89,7 +95,7 @@ $$
 $$\Rightarrow a=4,09 \cdot 10^{-8} \mathrm{cm}= 4,09 \cdot 10^{-10} \mathrm{m}$$
 
 ## Aufgabe 6
-Geben Sie für Steinsalz die Koordinaten der Natrium- und Clorionen in Einheiten der Gitterkonstanten a an.
+Geben Sie für Steinsalz die Koordinaten der Natrium- und Clorionen in Einheiten der Gitterkonstanten $a$ an.
 
 ### Lösung Aufgabe 6
 ![](https://www.tf.uni-kiel.de/matwis/amat/mw1_ge/kap_3/illustr/nacl_gitter.png)
@@ -97,8 +103,10 @@ Geben Sie für Steinsalz die Koordinaten der Natrium- und Clorionen in Einheiten
 *Quelle: [Uni Kiel](https://www.tf.uni-kiel.de/matwis/amat/mw1_ge/kap_3/backbone/r3_3_3.html)*
 
 NaCl: fcc-Gitter mit Basis:
+
 Na auf (0,0,0) und 
 Cl auf $(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$ 
+
 Damit sitzen die Atome auf:
 
 Na: (0,0,0);  $(\frac{1}{2}, \frac{1}{2},0);  (\frac{1}{2}, 0,\frac{1}{2}),  (0, \frac{1}{2},\frac{1}{2})$
