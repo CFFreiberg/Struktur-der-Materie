@@ -120,6 +120,15 @@ $$r_0=\frac{\sqrt{3}}{4}$$
 
 Zeichnen Sie das flächenzentrierte kubische Gitter. Markieren Sie die Lage von oktaedrisch bzw. tetraedrisch koordinierten Zwischengitterplätzen und zählen Sie die Anzahl der Gitteratome und Zwischengitterplätze ab.
 
+### Lösung Aufgabe 8
+**Oktaederlücke** im fcc:
 
-[def]: /media/flaechenzentriert_tetragonal.png
-[def2]: media/flaechenzentriert_tetragonal2.png
+
+![Oktaederlücke im fcc-Gitter](https://upload.wikimedia.org/wikipedia/commons/c/c7/Oktaederl%C3%BCcke.png)
+
+*Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Oktaederl%C3%BCcke)*
+
+**Tetraederlücke** im fcc:
+![Tetraederlücke im fcc-Gitte](https://upload.wikimedia.org/wikipedia/commons/f/fc/FCC_Tetrahedral_Void.jpg)
+
+*Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Tetraederl%C3%BCcke)*
