@@ -74,8 +74,19 @@ Geben Sie die Zahl der nächsten Nachbarn (Koordinationszahl) für ein fcc-, bcc
 + hcp: 12 NN
 
 ## Aufgabe 5
-Silber hat ein fcc-Gitter. Seine Dichte beträgt 10,49 g/cm³ und die relative Atommasse 107,87. Bestimmen Sie die Gitterkonstante.
+Silber hat ein fcc-Gitter. Seine Dichte beträgt $\rho_\mathrm{Ag}=10,49\,\mathrm{\frac{g}{cm^3}}$ und die molare Masse $M_\mathrm{Ag}=107,87 \mathrm{\frac{g}{Mol}}$. Bestimmen Sie die Gitterkonstante.
+
+
+
 ### Lösung Aufgabe 5
+Allgemein gilt: $\rho=\frac{m}{V}$. Daraus folgt: $V=\frac{m}{\rho}$. Mit $N_\mathrm{A}=6,02214076\cdot 10^{23}\mathrm{\frac{1}{mol}} $ (Avogadro-Konstante) folgt also
+
+$$ V_\mathrm{EZ}=a^3=\frac{\mathrm{Anzahl\, Atome\, in\ EZ}\cdot M_\mathrm{Ag}}{N_\mathrm{A}\cdot \rho_\mathrm{Ag} }$$
+
+$$\Rightarrow a^3=\frac{4\cdot 107,87 \mathrm{\frac{g}{Mol}}}{6,02214076\cdot 10^{23}\mathrm{\frac{1}{mol}}\cdot 10,49\,\mathrm{\frac{g}{cm^3}}}=6,83025\cdot 10^{-23} \mathrm{cm^3}
+$$
+
+$$\Rightarrow a=4,09 \cdot 10^{-8} \mathrm{cm}= 4,09 \cdot 10^{-10} \mathrm{m}$$
 
 ## Aufgabe 5
 Geben Sie für Steinsalz die Koordinaten der Natrium- und Clorionen in Einheiten der Gitterkonstanten a an.
