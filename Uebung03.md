@@ -29,7 +29,9 @@ $c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen
 *Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 ## Aufgabe 2
-Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed) mit den Gitterkonstanten $a$ und $c$ und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten $a_\mathrm{fcc}$? 
+Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed) charakterisiert durch den Abstand $a$ der Atome und den Abstand $c$  (mit dem sich die Stapelung der dichtest gepackten Ebenen wiederholt) auf der einen Seite und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten $a_\mathrm{fcc}$? 
+
+Hinweis: Der Begriff fcc wird oft als Synonym für die kubisch dicht gepackte Struktur (ccp) in Metallen verwendet. Allerdings steht fcc für ein kubisch-flächenzentriertes Bravais-Gitter, das nicht unbedingt dicht gepackt ist, wenn eine Basis auf die Gitterpunkte gesetzt wird. So sind z. B. das Diamant- und das Zinkblende-Gitter fcc, aber nicht dicht gepackt. 
 
 ![Ebenen-Stapelfolge  ccp-Gitter](media/ccpKugelpackung.png)
 
@@ -43,10 +45,10 @@ Das ccp-Gitter weist in vertikaler Richtung die Reihenfolge ABCABCABC… dichtes
 
 ![kubische Einheitszelle kfz](media/kupfer.png)
 
-*Bildquelle: http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html *
+*Bildquelle: http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html*
 
 Die Raumdiagonale der kubischen Einheitszelle entspricht der
-Gitterkonstanten $c$  des ccp-Gitters: $c = \sqrt{3}\cdot a_\mathrm{fcc}$  und die Gitterkonstante $a$ der Hälfte der Flächendiagonalen:  $a = \sqrt{2} \cdot a_\mathrm{fcc}$. 
+"Gitterkonstanten" $c$  des ccp-Gitters: $c = \sqrt{3}\cdot a_\mathrm{fcc}$  und die Gitterkonstante $a$ der Hälfte der Flächendiagonalen:  $a_\mathrm{fcc} = \sqrt{2} \cdot a$. 
 Daraus folgt $c = \sqrt{6} \cdot a_\mathrm{fcc}$.
 
 ## Aufgabe 3
@@ -57,14 +59,24 @@ Wie ist das Verhältnis von $\frac{c_\mathrm{hex}}{a_\mathrm{ccp}}$ ?
 ### Lösung Aufgabe 3
 Das hcp-Gitter hat die Schichtfolge ABABAB…
 Die Höhe der Einheitszelle beträgt nur 2/3 der Höhe einer ccp-Einheitszelle.
-Daraus folgt: $c = \frac{2}{3} \cdot  \sqrt{6} \cdot  a $
+Daraus folgt mit dem Ergebnis von Aufgabe 2: 
+
+$$c_\mathrm{hex} = \frac{2}{3} \cdot  \sqrt{6} \cdot  a_\mathrm{ccp}\eqsim 1,63 \cdot a_\mathrm{ccp} $$
 
 Bemerkung: Sowohl die ccp-Kugelpackung als auch die hcp-Kugelpackung hat eine Raumausfüllung von 74 %
 
-## Aufgabe 3
-Geben Sie die Zahl der nächsten Nachbarn (Koordinationszahl) für ein fcc-, bcc- und hcp-Gitter an.
 ## Aufgabe 4
+Geben Sie die Zahl der nächsten Nachbarn (Koordinationszahl) für ein fcc-, bcc- und hcp-Gitter an.
+### Lösung Aufgabe 4
+
++ fcc: 12 NN
++ bcc: 8 NN
++ hcp: 12 NN
+
+## Aufgabe 5
 Silber hat ein fcc-Gitter. Seine Dichte beträgt 10,49 g/cm³ und die relative Atommasse 107,87. Bestimmen Sie die Gitterkonstante.
+### Lösung Aufgabe 5
+
 ## Aufgabe 5
 Geben Sie für Steinsalz die Koordinaten der Natrium- und Clorionen in Einheiten der Gitterkonstanten a an.
 
