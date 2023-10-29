@@ -105,9 +105,19 @@ Na: (0,0,0);  $(\frac{1}{2}, \frac{1}{2},0);  (\frac{1}{2}, 0,\frac{1}{2}),  (0,
 
 Cl:  $(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$;  $(0, 0,\frac{1}{2})$;  $(0, \frac{1}{2},0)$; $(\frac{1}{2}, 0,0)$
 
-## Aufgabe 6
+## Aufgabe 7
 Geben Sie den kürzesten Abstand zwischen zwei Ionen im Kristallgitter mit Zinkblendestruktur bezogen auf die Gitterkonstante an.
+
+### Lösung Aufgabe 7
+![Zinkblende-Struktur](https://upload.wikimedia.org/wikipedia/commons/1/12/Sphalerite_polyhedra.png)
+
+*Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Zinkblende-Struktur)*
+
+Der kürzeste Abstand zweier (unterschiedlicher) Atome ist 1/4 der Raumdiagonalen:
+
+$$r_0=\frac{\sqrt{3}}{4}$$
 ## Aufgabe 8
+
 Zeichnen Sie das flächenzentrierte kubische Gitter. Markieren Sie die Lage von oktaedrisch bzw. tetraedrisch koordinierten Zwischengitterplätzen und zählen Sie die Anzahl der Gitteratome und Zwischengitterplätze ab.
 
 
