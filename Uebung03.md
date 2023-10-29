@@ -29,7 +29,7 @@ $c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen
 *Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 ## Aufgabe 2
-Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed) charakterisiert durch den Abstand $a$ der Atome und den Abstand $c$  (mit dem sich die Stapelung der dichtest gepackten Ebenen wiederholt) auf der einen Seite und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten $a_\mathrm{fcc}$? 
+Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed),charakterisiert durch den kleinsten Abstand $a_\mathrm{ccp}$ der Atome und den Abstand $c_\mathrm{ccp}$  (mit dem sich die Stapelung der dichtest gepackten Ebenen wiederholt) auf der einen Seite und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten $a_\mathrm{fcc}$? 
 
 Hinweis: Der Begriff fcc wird oft als Synonym für die kubisch dicht gepackte Struktur (ccp) in Metallen verwendet. Allerdings steht fcc für ein kubisch-flächenzentriertes Bravais-Gitter, das nicht unbedingt dicht gepackt ist, wenn eine Basis auf die Gitterpunkte gesetzt wird. So sind z. B. das Diamant- und das Zinkblende-Gitter fcc, aber nicht dicht gepackt. 
 
@@ -52,8 +52,9 @@ Die Raumdiagonale der kubischen Einheitszelle entspricht der
 Daraus folgt $c = \sqrt{6} \cdot a_\mathrm{fcc}$.
 
 ## Aufgabe 3
-Vergleichen Sie die Stapelfolgen der dichtest gepackten Ebenen von ccp-Kugelpackungen und hexagonal dichtest gepackten Kugelpackungen (hcp) 
-Wie ist das Verhältnis von $\frac{c_\mathrm{hex}}{a_\mathrm{ccp}}$ ?
+Vergleichen Sie die Stapelfolgen der dichtest gepackten Ebenen von ccp-Kugelpackungen und hexagonal dichtest gepackten Kugelpackungen (hcp).
+
+Wie groß ist das Verhältnis  $\frac{c_\mathrm{hex}}{a_\mathrm{ccp}}$ ?
 
 
 ### Lösung Aufgabe 3
@@ -129,6 +130,9 @@ $$r_0=\frac{\sqrt{3}}{4}$$
 Zeichnen Sie das flächenzentrierte kubische Gitter. Markieren Sie die Lage von oktaedrisch bzw. tetraedrisch koordinierten Zwischengitterplätzen und zählen Sie die Anzahl der Gitteratome und Zwischengitterplätze ab.
 
 ### Lösung Aufgabe 8
+Das fcc Gitter hat 4 Gitteratome: Jede der acht Ecken eines Würfels werden von insgesamt 8 aneinanderstoßenden Wüfel geteilt. Dann gibt es noch 6 Flächenmitten, die jeweils von zwei Würfeln geteilt werden also: $4=8\cdot\frac{1}{8}+6 \cdot\frac{1}{2}$ 
+
+
 **Oktaederlücke** im fcc:
 
 
@@ -136,7 +140,12 @@ Zeichnen Sie das flächenzentrierte kubische Gitter. Markieren Sie die Lage von 
 
 *Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Oktaederl%C3%BCcke)*
 
+
+Es gibt 1 oktaedrische Lücke in der Mitte des Würfels und je eine an den zwölf Kanten, die aber nur zu einem Viertel zählen, da jede Kante von vier Würfeln geteilt wird: $4=1+12\cdot \frac{1}{4}$
+
 **Tetraederlücke** im fcc:
 ![Tetraederlücke im fcc-Gitte](https://upload.wikimedia.org/wikipedia/commons/f/fc/FCC_Tetrahedral_Void.jpg)
 
 *Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Tetraederl%C3%BCcke)*
+
+Es gibt je 1 tetraedrische Lücke in der Mitte eines Würfel-Achtels (Würfeloktand). Da es 8 Würfelachtel gibt, gibt es acht Tetraederlücken.
