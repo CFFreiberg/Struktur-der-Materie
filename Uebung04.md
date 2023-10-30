@@ -40,7 +40,7 @@ Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was f�
 ![bcc-Gitter, primitive Basis](media/bccprimitiveBasis.jpg
 )
 
-
+*Quelle:  Charles Kittel, Einführung in Festkörperphysik*
 
 **Lösung Aufgabe 2:**
 
@@ -80,6 +80,8 @@ $\vec{n}=\frac{\vec{G}}{|\vec{G}|}$ ist der zu $\vec{G}$ gehörige Ebenennormale
 
 ![Bild zur Erklärung der Berechnung des Ebenenabstandes](media/Ebenenabstand.png)
 
+*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
 $$d_\mathrm{hkl}=\vec{r} \cdot \frac{\vec{G}}{|\vec{G}|}=\frac{(\vec{a_1}}{h}\cdot \frac{h\vec{b_1}+k\vec{b_2}+l\vec{b_3})}{|\vec{G}|}$$
 
 Die Skalarprodukte $\vec{a_1}\cdot{\vec{b_2}}$ und $\vec{a_1}\cdot{\vec{b_3}}$ sind Null, da laut Definition $\vec{b_2}$ und  $\vec{b_3}$ senkrecht zu $\vec{a_1}$ sind. Also folgt:
@@ -88,7 +90,23 @@ $$d_\mathrm{hkl}=\frac{\vec{a_1}}{h}\left ( \frac{h\cdot 2\pi(\vec{a_2} \times\v
 
 
 ## Aufgabe 4
->__4.__
+>__4.__  Zeigen Sie für ein einfach kubisches Gitter, dass $d_\mathrm{hkl}^2=\frac{a^2}{h^2+k^2+l^2} $ gilt!
+
+
+
+**Lösung Aufgabe 4:**
+
+Für ein einfach kubisches Gitter gilt: 
+
+$$\vec{G}=\frac{2\pi}{a} \left ( h\cdot \vec{a_1}+k\cdot \vec{a_2}+l\cdot \vec{a_3}\right)$$
+
+
+$$\Rightarrow d_\mathrm{hkl} =\frac{2\pi}{|\vec{G}|}=2\pi\cdot \frac{a}{2\pi(\sqrt{h^2+k^2+l^2})}=\frac{a}{\sqrt{h^2+k^2+l^2}}$$
+
+
+
+
+
 5.	Zeigen Sie für ein einfach kubisches Gitter, dass   gilt!
 6.	Die primitiven Translationsvektoren des hexagonalen Raumgitters können geschrieben werden als  
 (a) Zeigen Sie, dass das Volumen der Einheitszelle gleich (31/2/2) a2c! 
