@@ -34,7 +34,10 @@ mit
 $\delta_{ij}=1 $ für $i=j$ und $\delta_{ij}=0 $  für $i\ne j$.
 
 ## Aufgabe 2
->__2.__ 	Die primitiven Translationsvektoren des raumzentrierten Gitters sind $\vec{a_1}=\frac{a}{2}\cdot (-\hat{x}+\hat{y}+\hat{z}) $; $\vec{a_2}=\frac{a}{2}\cdot (\hat{x}-\hat{y}+\hat{z})$; $\vec{a_3}=\frac{a}{2}\cdot (\hat{x}+\hat{y}-\hat{z})$. Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was für ein reziprokes Gitter ergibt sich?
+>__2.__ 	Die primitiven Translationsvektoren des raumzentrierten Gitters sind $\vec{a_1}=\frac{a}{2}\cdot (-\hat{x}+\hat{y}+\hat{z}) $; $\vec{a_2}=\frac{a}{2}\cdot (\hat{x}-\hat{y}+\hat{z})$; $\vec{a_3}=\frac{a}{2}\cdot (\hat{x}+\hat{y}-\hat{z})$. 
+Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was für ein reziprokes Gitter ergibt sich?
+
+![bcc-Gitter, primitive Basis](media/bcc primitive Basis.jpg)
 
 **Lösung Aufgabe 2:**
 
