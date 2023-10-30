@@ -33,8 +33,15 @@ $$\vec{b_i}\cdot \vec{a_j}=2\pi\delta_{ij}$$
 mit 
 $\delta_{ij}=1 $ für $i=j$ und $\delta_{ij}=0 $  für $i\ne j$.
 
+## Aufgabe 2
+>__2.__ 	Die primitiven Translationsvektoren des raumzentrierten Gitters sind $\vec{a_1}=\frac{a}{2}\cdot (-\hat{x}+\hat{y}+\hat{z}) $; $\vec{a_2}=\frac{a}{2}\cdot (\hat{x}-\hat{y}+\hat{z})$; $\vec{a_3}=\frac{a}{2}\cdot (\hat{x}+\hat{y}-\hat{z})$. Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was für ein reziprokes Gitter ergibt sich?
 
->__2.__ 	Die primitiven Translationsvektoren des raumzentrierten Gitters sind:  . Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was für ein reziprokes Gitter ergibt sich?
+**Lösung Aufgabe 2:**
+
+
+
+
+
 
 
 3.	Betrachten Sei eine Ebene hkl in einem Kristallgitter. Zeigen sie, dass der reziproke Gittervektor G=hb1+k b2+l b3 senkrecht auf dieser Ebene steht.
