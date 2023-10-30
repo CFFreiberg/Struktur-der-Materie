@@ -47,14 +47,19 @@ Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was f√
 Zuerst wird das Volumen der Einheitszelle im realen Gitter berechnet. Dabei wird folgende Darstellung der $\vec{a_i} $ benutzt:
 
 
-$\vec{a_1}=\frac{a}{2}\left(\begin{array}{c} -1 \\ 1 \\ 1 \end{array}\right) $, $\vec{a_2}=\frac{a}{2}\left(\begin{array}{c} 1 \\ -1 \\ 1 \end{array}\right) $; $\vec{a_3}=\frac{a}{2}\left(\begin{array}{c} -1 \\ 1 \\ -1 \end{array}\right) $; 
+$\vec{a_1}=\frac{a}{2}\left(\begin{array}{c} -1 \\ 1 \\ 1 \end{array}\right) $, $\vec{a_2}=\frac{a}{2}\left(\begin{array}{c} 1 \\ -1 \\ 1 \end{array}\right) $; $\vec{a_3}=\frac{a}{2}\left(\begin{array}{c} 1 \\ 1 \\ -1 \end{array}\right) $; 
+
+Damit ergibt sich 
 
 
 
-$$V_\mathrm{EZ}=\vec{a_1}\cdot (\vec{a_2}\times \vec{a_3})$$
+$$V_\mathrm{EZ}=\vec{a_1}\cdot (\vec{a_2}\times \vec{a_3})=\frac{a^3}{8}\left(\begin{array}{c} -1 \\ 1 \\ 1 \end{array}\right)\cdot \left [\left(\begin{array}{c} 1 \\ -1 \\ 1 \end{array}\right) \times \left(\begin{array}{c} 1 \\ 1 \\ -1 \end{array}\right) \right ]$$
 
+$$\Rightarrow V_\mathrm{EZ}=\frac{a^3}{8}\left(\begin{array}{c} -1 \\ 1 \\ 1 \end{array}\right)\cdot \left(\begin{array}{c} 0 \\ 2 \\ 2 \end{array}\right)=\frac{1}{2}a^3$$
 
+Laut Definition sind die reziproken Gittervektoren damit 
 
+$$\vec{b_1}=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a_2}\times\vec{a_3})=\frac{2\pi}{\frac{1}{2}a^3}\cdot \left (\frac{a}{2}\right )^2\left( \begin{array}{c} 1 \\ -1 \\ 1 \end{array} \right)\times \left(\begin{array}{c} 1 \\ 1 \\ -1 \end{array}\right)=\frac{\pi}{a}\cdot \left( \begin{array}{c} 0 \\ 2 \\ 2 \end{array} \right)=\frac{2\pi}{a}\cdot \left( \begin{array}{c} 0 \\ 1 \\ 1 \end{array} \right)  $$
 
 3.	Betrachten Sei eine Ebene hkl in einem Kristallgitter. Zeigen sie, dass der reziproke Gittervektor G=hb1+k b2+l b3 senkrecht auf dieser Ebene steht.
 
