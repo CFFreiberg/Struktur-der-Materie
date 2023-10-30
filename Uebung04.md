@@ -61,9 +61,26 @@ Laut Definition sind die reziproken Gittervektoren damit
 
 $$\vec{b_1}=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a_2}\times\vec{a_3})=\frac{2\pi}{\frac{1}{2}a^3}\cdot \left (\frac{a}{2}\right )^2\left( \begin{array}{c} 1 \\ -1 \\ 1 \end{array} \right)\times \left(\begin{array}{c} 1 \\ 1 \\ -1 \end{array}\right)=\frac{\pi}{a}\cdot \left( \begin{array}{c} 0 \\ 2 \\ 2 \end{array} \right)=\frac{2\pi}{a}\cdot \left( \begin{array}{c} 0 \\ 1 \\ 1 \end{array} \right)  $$
 
-3.	Betrachten Sei eine Ebene hkl in einem Kristallgitter. Zeigen sie, dass der reziproke Gittervektor G=hb1+k b2+l b3 senkrecht auf dieser Ebene steht.
 
-4.	Beweisen Sie, dass der Abstand zwischen zwei aufeinanderfolgenden parallelen Ebenen des Gitters gleich d(hkl)=2/|G| ist.
+$$\vec{b_2}=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a_2}\times\vec{a_3})=\frac{2\pi}{\frac{1}{2}a^3}\cdot \left (\frac{a}{2}\right )^2\left( \begin{array}{c} 1 \\ 1 \\ -1 \end{array} \right)\times \left(\begin{array}{c} -1 \\ 1 \\ 1 \end{array}\right)=\frac{\pi}{a}\cdot \left( \begin{array}{c} 2 \\ 0 \\ 2 \end{array} \right)=\frac{2\pi}{a}\cdot \left( \begin{array}{c} 1 \\ 0 \\ 1 \end{array} \right)  $$
+
+$$\vec{b_3}=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a_2}\times\vec{a_3})=\frac{2\pi}{\frac{1}{2}a^3}\cdot \left (\frac{a}{2}\right )^2\left( \begin{array}{c} -1 \\ 1 \\ 1 \end{array} \right)\times \left(\begin{array}{c} 1 \\ -1 \\ 1 \end{array}\right)=\frac{\pi}{a}\cdot \left( \begin{array}{c} 2 \\ 0 \\ 2 \end{array} \right)=\frac{2\pi}{a}\cdot \left( \begin{array}{c} 1 \\ 0 \\ 1 \end{array} \right)  $$
+
+Das reziproke Gitter von bcc ist damit ein fcc-Gitter.
+
+## Aufgabe 3
+>__3.__  Beweisen Sie, dass der Abstand zwischen zwei aufeinanderfolgenden parallelen Ebenen des Gitters gleich $d_\mathrm{hkl}=\frac{2\pi}{|\vec{G}_\mathrm{min}|}$ ist. Dabei ist $\vec{G}_\mathrm{min}$ der zur Ebenenschar $(h,k,l)$ gehörige kleinste reziproke Gittervektor. 
+
+
+
+**Lösung Aufgabe 3:**
+
+$\vec{n}=\frac{\vec{G}}{|\vec{G}|}$ ist der zu $\vec{G}$ gehörige Ebenennormalenvektor. Eine zu zur $(h,k,l)$ Ebene benachbarte äquivalente Ebene geht durch den Nullpunkt des Koordinatensystems.  Die Projektion eines beliebigen auf der Netzebene $\vec{G}$ gelegenen Punktes $\vec{r}$ auf $\vec{n}$ liefert den Ebenenabstand. Das gilt also auch für den Punkt  $\vec{r}=\frac{\vec{a_1}}{h} $ auf der Ebene (Schnittpunkt der Ebene mit der x-Achse): 
+
+$$d_\mathrm{hkl}=\vec{r} \cdot \frac{\vec{G}}{|\vec{G}|}=\frac{(\vec{a_1}}{h}\cdot \frac{h\vec{b_1}+k\vec{b_2}+l\vec{b_3})}{|\vec{G}|}$$
+
+## Aufgabe 4
+>__4.__
 5.	Zeigen Sie für ein einfach kubisches Gitter, dass   gilt!
 6.	Die primitiven Translationsvektoren des hexagonalen Raumgitters können geschrieben werden als  
 (a) Zeigen Sie, dass das Volumen der Einheitszelle gleich (31/2/2) a2c! 
