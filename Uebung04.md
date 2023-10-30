@@ -44,8 +44,14 @@ Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was f√
 
 **L√∂sung Aufgabe 2:**
 
+Zuerst wird das Volumen der Einheitszelle im realen Gitter berechnet. Dabei wird folgende Darstellung der $\vec{a_i} $ benutzt:
 
 
+$\vec{a_1}=\frac{a}{2}\left(\begin{array}{c} -1 \\ 1 \\ 1 \end{array}\right) $, $\vec{a_2}=\frac{a}{2}\left(\begin{array}{c} 1 \\ -1 \\ 1 \end{array}\right) $; $\vec{a_3}=\frac{a}{2}\left(\begin{array}{c} -1 \\ 1 \\ -1 \end{array}\right) $; 
+
+
+
+$$V_\mathrm{EZ}=\vec{a_1}\cdot (\vec{a_2}\times \vec{a_3})$$
 
 
 
