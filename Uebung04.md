@@ -77,7 +77,15 @@ Das reziproke Gitter von bcc ist damit ein fcc-Gitter.
 
 $\vec{n}=\frac{\vec{G}}{|\vec{G}|}$ ist der zu $\vec{G}$ gehörige Ebenennormalenvektor. Eine zu zur $(h,k,l)$ Ebene benachbarte äquivalente Ebene geht durch den Nullpunkt des Koordinatensystems.  Die Projektion eines beliebigen auf der Netzebene $\vec{G}$ gelegenen Punktes $\vec{r}$ auf $\vec{n}$ liefert den Ebenenabstand. Das gilt also auch für den Punkt  $\vec{r}=\frac{\vec{a_1}}{h} $ auf der Ebene (Schnittpunkt der Ebene mit der x-Achse): 
 
+
+![Bild zur Erklärung der Berechnung des Ebenenabstandes](media/Ebenenabstand.png)
+
 $$d_\mathrm{hkl}=\vec{r} \cdot \frac{\vec{G}}{|\vec{G}|}=\frac{(\vec{a_1}}{h}\cdot \frac{h\vec{b_1}+k\vec{b_2}+l\vec{b_3})}{|\vec{G}|}$$
+
+Die Skalarprodukte $\vec{a_1}\cdot{\vec{b_2}}$ und $\vec{a_1}\cdot{\vec{b_3}}$ sind Null, da laut Definition $\vec{b_2}$ und  $\vec{b_3}$ senkrecht zu $\vec{a_1}$ sind. Also folgt:
+
+$$d_\mathrm{hkl}=\frac{\vec{a_1}}{h}\left ( \frac{h\cdot 2\pi(\vec{a_2} \times\vec{a_3})}{ |\vec{G}|\cdot \vec{a_1}\cdot (\vec{a_2}\times \vec{a_3})} \right)=\frac{2\pi}{|\vec{G}|}$$
+
 
 ## Aufgabe 4
 >__4.__
