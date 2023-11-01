@@ -105,13 +105,13 @@ $$\Rightarrow d_\mathrm{hkl} =\frac{2\pi}{|\vec{G}|}=2\pi\cdot \frac{a}{2\pi(\sq
 
 
 
+## Aufgabe 5:
 
 
->__5.__ Die primitiven Translationsvektoren des hexagonalen Raumgitters können geschrieben werden als  
+>__5.__ Die primitiven Translationsvektoren des hexagonalen Raumgitters können geschrieben werden als  $\vec{a_1}=\frac{\sqrt{3}a}{2}\cdot \hat{x}+ \frac{a}{2}\cdot \hat{y}$ und $\vec{a_2}=-\frac{\sqrt{3}a}{2}\cdot \hat{x}+ \frac{a}{2}\cdot \hat{y}$ und $\vec{a_3}=c\cdot \hat{z}$.
 
-(a) Zeigen Sie, dass das Volumen der Einheitszelle gleich (31/2/2) a2c! 
-(b) Zeigen Sie, dass   die primitiven Gittervektoren des reziproken Gitters sind, so dass das Gitter nach einer axialen Drehung zu sich selbst reziprok ist.
+>__a.__ Zeigen Sie, dass das Volumen der Einheitszelle gleich $V_\mathrm{EZ}=\frac{\sqrt{3}\cdot a^2 \cdot c}{2}$ ist.
+
+>__b.__ Zeigen Sie, dass   die primitiven Gittervektoren des reziproken Gitters sind, so dass das Gitter nach einer axialen Drehung zu sich selbst reziprok ist.
 (c) Beschreiben und skizzieren Sie die erste Brillouin-Zone des ebenen hexagonalen Gitters!
 
->
-> __2.__ Schalten Sie den Ton für die Sprachausgabe ein.
