@@ -112,6 +112,16 @@ $$\Rightarrow d_\mathrm{hkl} =\frac{2\pi}{|\vec{G}|}=2\pi\cdot \frac{a}{2\pi(\sq
 
 >__a.__ Zeigen Sie, dass das Volumen der Einheitszelle gleich $V_\mathrm{EZ}=\frac{\sqrt{3}\cdot a^2 \cdot c}{2}$ ist.
 
+Das Volumen $V_\mathrm{EZ}$ der Einheitszelle ist das Spatprodukt:
+
+$$V_\mathrm{EZ}=\vec{a_1}\cdot\left (\vec{a_2} \times \vec{c} \right )$$
+
+$$\Rightarrow V_\mathrm{EZ}=a^2\cdot c \cdot \left (\begin{array} {c} \ \frac{1}{2} \sqrt{3}  \\ \frac{1}{2} \\ 0 \end{array}\right ) \left [ \left (\begin{array} {c} \ -\frac{1}{2} \sqrt{3}  \\ \frac{1}{2} \\0 \end{array}\right ) \times \left (\begin{array} {c} \ 0\\0\\ 1 \end{array}\right ) \right ] $$
+
+$$\Rightarrow V_\mathrm{EZ}=\left (\begin{array} {c} \ \frac{1}{2} \sqrt{3}  \\ \frac{1}{2} \\ 0 \end{array}\right )  \left (\begin{array} {c} \ \frac{1}{2}   \\ \frac{1}{2} \sqrt{3} \\0 \end{array}\right )  = \frac{\sqrt{3}\cdot a^2 \cdot c}{2}
+$$
+
+
 >__b.__ Zeigen Sie, dass   die primitiven Gittervektoren des reziproken Gitters sind, so dass das Gitter nach einer axialen Drehung zu sich selbst reziprok ist.
 (c) Beschreiben und skizzieren Sie die erste Brillouin-Zone des ebenen hexagonalen Gitters!
 
