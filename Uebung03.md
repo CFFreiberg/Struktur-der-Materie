@@ -5,7 +5,7 @@ title: Übung Struktur der Materie I, Arbeitsblatt 3
 
 -->
 
-# Kristallgitter
+# Übung 3, Kristallgitter
 ## Aufgabe 1
 >__1.__  Durch welches Bravais-Gitter lässt sich ein flächenzentriert tetragonales Gitter beschreiben. Welcher Zusammenhang besteht zwischen den Gitterkonstanten der beiden Gitter und dem Volumen der Einheitszellen?
 
