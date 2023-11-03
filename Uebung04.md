@@ -16,7 +16,7 @@ comment:  Struktur der Materie Übung 4
 # Übung 4
 
 ## Aufgabe 1
-> __1.__ 	Die Achsvektoren des reellen Gitters seien $\vec{a_1},\, \vec{a_2},\,\vec{a_3}$. Wie sind mit diesen Vektoren die reziproken Gittervektoren $\vec{b_1},\, \vec{b_2},\,\vec{b_3}$   definiert? 
+> __1.__ 	Die Achsvektoren des reellen Gitters seien $\vec{a}_1,\, \vec{a}_2,\,\vec{a}_3$. Wie sind mit diesen Vektoren die reziproken Gittervektoren $\vec{b}_1,\, \vec{b}_2,\,\vec{b}_3$   definiert? 
 
 **Lösung Aufgabe 1:**
 
@@ -148,6 +148,19 @@ $$\mathrm{cos}(\Theta)=\frac{\vec{a_1}\cdot\vec{b_1}}{|\vec{a_1}|\cdot|\vec{b_1}
 
 $$\Rightarrow \Theta=30°$$
 
+![Skizze hexagonale primitive Translationsvektoren und dazugehörige reziproke Translationsvektoren](media/hexagonal_real_reziprok.png)
 
-(c) Beschreiben und skizzieren Sie die erste Brillouin-Zone des ebenen hexagonalen Gitters!
+*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
+
+Anmerkung: Durch Anwendung der Winkelfunktionen am rechtwinkligen Dreieck bzw. des Satzes von Pythagoras in der obigen Abbildung wird deutlich, dass 
+$\vec{b'}_{1,x}=\frac{\sqrt{3}}{2}|\vec{a_1}|$ und $\vec{b'}_{1,y}=\frac{3}{2}|\vec{a_1}|$. Der sich daraus ergebenene Vektor 
+
+$$ \vec{b_1'}=|\vec{a_1}|\cdot \left (\begin{array} {c} \ \frac{\sqrt{3}}{2} \\ \frac{3}{2} \\ 0   \end{array}\right )=a\cdot \frac{3}{2}\cdot \left (\begin{array} {c} \ \frac{1}{\sqrt{3}} \\ 1\\ 0   \end{array}\right )$$
+
+ist parallel zum oben ausgerechneten:
+
+$$\vec{b_1}= \frac{2\pi  }{a} \cdot \left (\begin{array} {c} \ \frac{1}{\sqrt{3}} \\ 1   \\0 \end{array}\right )$$
+
+
+Die Längen im Reziproken Raum können nicht direkt mit denen im realen Raum verglichen werden, die einheiten sind zueinander reziprok....
