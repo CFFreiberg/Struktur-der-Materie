@@ -11,25 +11,19 @@ title: Übung Struktur der Materie I, Arbeitsblatt 3
 
 !["flächenzentriertes tetragonales Gitter"](media/flaechenzentriert_tetragonal.png)
 
- **Beispiel für flächenzentriertes tetragonales Gitter**
- 
-Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+ *Beispiel für flächenzentriertes tetragonales Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 **Lösung Aufgabe** 
 Ein flächenzentriertes tetragonales Gitter lässt sich durch eine 45° Drehung um die z-Achse in ein innenzentriertes tetragonales Gitter mit den Gitterkonstanten $a'= \frac{a}{\sqrt{2}}$ und
-$c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen
+$c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen.
 
 
 !["flächenzentriertes tetragonales Gitter"](media/flaechenzentriert-tetragonal2.png)
 
- **Beispiel für flächenzentriertes tetragonales Gitter**
- 
-
- 
-*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+ *Beispiel für flächenzentriertes tetragonales Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 ## Aufgabe 2
->__2.__  Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed),charakterisiert durch den kleinsten Abstand $a_\mathrm{ccp}$ der Atome und den Abstand $c_\mathrm{ccp}$  (mit dem sich die Stapelung der dichtest gepackten Ebenen wiederholt) auf der einen Seite und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten $a_\mathrm{fcc}$? 
+>__2.__  Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed), charakterisiert durch den kleinsten Abstand $a_\mathrm{ccp}$ der Atome und den Abstand $c_\mathrm{ccp}$  (mit dem sich die Stapelung der dichtest gepackten Ebenen wiederholt) auf der einen Seite und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten $a_\mathrm{fcc}$? 
 
 Hinweis: Der Begriff fcc wird oft als Synonym für die kubisch dicht gepackte Struktur (ccp) in Metallen verwendet. Allerdings steht fcc für ein kubisch-flächenzentriertes Bravais-Gitter, das nicht unbedingt dicht gepackt ist, wenn eine Basis auf die Gitterpunkte gesetzt wird. So sind z. B. das Diamant- und das Zinkblende-Gitter fcc, aber nicht dicht gepackt. 
 
