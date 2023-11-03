@@ -122,6 +122,32 @@ $$\Rightarrow V_\mathrm{EZ}=\left (\begin{array} {c} \ \frac{1}{2} \sqrt{3}  \\ 
 $$
 
 
->__b.__ Zeigen Sie, dass   die primitiven Gittervektoren des reziproken Gitters sind, so dass das Gitter nach einer axialen Drehung zu sich selbst reziprok ist.
+>__b.__ Zeigen Sie, dass   $\vec{b_1}=\frac{2\pi}{\sqrt{3}a}\cdot \hat{x}+ \frac{2\pi }{a}\cdot \hat{y}$ und $\vec{b_2}=-\frac{2\pi}{\sqrt{3}a}\cdot \hat{x}+ \frac{2\pi }{a}\cdot \hat{y}$ und $\vec{b_3}=\frac{2\pi}{c}\cdot \hat{z}$  die primitiven Gittervektoren des reziproken Gitters sind, so dass das Gitter nach einer axialen Drehung zu sich selbst reziprok ist.
+
+
+$$\vec{b_1}=\frac{2\pi}{V_\mathrm{EZ}}\cdot a\cdot c\cdot \left (\begin{array} {c} \ -\frac{1}{2} \sqrt{3}  \\ \frac{1}{2} \\0 \end{array}\right ) \times \left (\begin{array} {c} \ 0 \\ \ 0 \\ 1 \end{array}\right )$$
+
+$$\Rightarrow  \vec{b_1}=\frac{2\pi a c }{V_\mathrm{EZ}} \cdot \left (\begin{array} {c} \ \frac{1}{2} \\ \frac{1}{2} \sqrt{3}  \\0 \end{array}\right )= \frac{2\pi  }{a} \cdot \left (\begin{array} {c} \ \frac{1}{\sqrt{3}} \\ 1   \\0 \end{array}\right )$$
+
+
+Ferner
+
+$$\vec{b_2}=\frac{2\pi}{V_\mathrm{EZ}}\cdot a\cdot c\cdot \left (\begin{array} {c} \ 0 \\ 0 \\1 \end{array}\right ) \times \left (\begin{array} {c} \ \frac{1}{2} \sqrt{3}   \\ \frac{1}{2}  \\0 \end{array}\right )$$
+
+$$\Rightarrow  \vec{b_2}=\frac{2\pi a c }{V_\mathrm{EZ}} \cdot \left (\begin{array} {c} \ -\frac{1}{2} \\ \frac{1}{2} \sqrt{3}  \\0 \end{array}\right )= \frac{2\pi  }{a} \cdot \left (\begin{array} {c} \ -\frac{1}{\sqrt{3}} \\ 1   \\0 \end{array}\right )$$
+
+Und
+
+$$\vec{b_3}=\frac{2\pi}{V_\mathrm{EZ}}\cdot a^2 \cdot \left (\begin{array} {c} \ \frac{1}{2} \sqrt{3}   \\ \frac{1}{2}  \\0 \end{array}\right ) \times \left (\begin{array} {c} \ -\frac{1}{2} \sqrt{3}   \\ \frac{1}{2}  \\0 \end{array}\right )$$
+
+$$\Rightarrow  \vec{b_3}=\frac{2\pi a^2 }{V_\mathrm{EZ}} \cdot \left (\begin{array} {c} \ 0 \\ 0 \\ \frac{1}{2} \sqrt{3}  \end{array}\right )= \frac{2\pi  }{c} \cdot \left (\begin{array} {c} \ 0 \\ 0   \\1 \end{array}\right )$$
+
+Das reziproke Gitter eines hexagonalen Gitters ist wieder ein hexagonales Gitter, allerdings verdreht zum ursprünglichen Gitter:
+
+$$\mathrm{cos}(\Theta)=\frac{\vec{a_1}\cdot\vec{b_1}}{|\vec{a_1}|\cdot|\vec{b_1}|}=\frac{2\pi}{\sqrt{\frac{3a^2}{4}}\cdot \frac{2\pi}{a}\sqrt{\frac{1}{3}+1}}=\sqrt{\frac{3}{4}}=\frac{1}{2}\sqrt{3}$$
+
+$$\Rightarrow \Theta=30°$$
+
+
 (c) Beschreiben und skizzieren Sie die erste Brillouin-Zone des ebenen hexagonalen Gitters!
 
