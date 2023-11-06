@@ -20,7 +20,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 # Übung 4
 
-```
+``` @Kekule.load3d(mol)
 Picture 1
   PPPPPPPP          3D
 
@@ -45,7 +45,6 @@ Picture 1
   4  6  1  0  0  0  0
 M  END
 ```
-@Kekule.eval3d(mol)
 
 ## Aufgabe 1
 > __1.__ 	Die Achsvektoren des reellen Gitters seien $\vec{a}_1,\, \vec{a}_2,\,\vec{a}_3$. Wie sind mit diesen Vektoren die reziproken Gittervektoren $\vec{b}_1,\, \vec{b}_2,\,\vec{b}_3$   definiert? 
