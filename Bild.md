@@ -7,8 +7,35 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 Ich habe den Inhalt der `*.mol` - Datei mit einem Texteditor geöffnet und dann einfacher hier als Code-Fragment eingefügt. Deswegen muss dies auch in drei Backtics `\`\`\`` eingeschlossen werden. Am Anfang und am Ende. Ich habe ein neues Makro in unsere KekuleLS Bibliothek eingebaut, die es erlaubt solche Modelle zu laden, deswegen ist das import oben im Kopf wichtig und der Aufruf des `@Kekule.load3d(mol)` macros im Kopf des Blocks.
 
 
+``` @Kekule.load3d(mol)
+Picture 1
+  PPPPPPPP          3D
+
+  6 12  0  0  0  0  0  0  0  0  0
+    0.0000    1.8079    1.8079 Cu  0  0  0  1
+    3.6157    1.8079    1.8079 Cu  0  0  0  1
+    1.8079    0.0000    1.8079 Cu  0  0  0  1
+    1.8079    3.6157    1.8079 Cu  0  0  0  1
+    1.8079    1.8079    0.0000 He  0  0  0  1
+    1.8079    1.8079    3.6157 N   0  0  0  1
+  1  3  1  0  0  0  0
+  1  4  1  0  0  0  0
+  1  5  1  0  0  0  0
+  1  6  1  0  0  0  0
+  2  3  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  3  5  1  0  0  0  0
+  3  6  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+M  END
 ```
-Picture 1                                                                       
+## ganzes gitter
+
+```@Kekule.load3d(mol)
+Picture 2                                                                   
   PPPPPPPP          3D                              
 
  62132  0  0  0  0  0  0  0  0  0     
@@ -207,6 +234,4 @@ Picture 1
  14 43  1  0  0  0  0
  14 44  1  0  0  0  0
 M  END
-
 ```
-@Kekule.eval3d(mol)
