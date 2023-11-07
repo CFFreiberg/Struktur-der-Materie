@@ -9,7 +9,7 @@ language: de
 
 narrator: Deutsch Female
 
-comment:  Struktur der Materie Übung 5
+comment:  Struktur der Materie Übung 5, Komplexe Zahlen
 
 import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
@@ -18,60 +18,35 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 
 
-# Übung 4
+# Übung 5: 
 
-``` @Kekule.load3d(mol)
-Picture 1
-  PPPPPPPP          3D
 
-  6 12  0  0  0  0  0  0  0  0  0
-    0.0000    1.8079    1.8079 Cu  0  0  0  1
-    3.6157    1.8079    1.8079 Cu  0  0  0  1
-    1.8079    0.0000    1.8079 Cu  0  0  0  1
-    1.8079    3.6157    1.8079 Cu  0  0  0  1
-    1.8079    1.8079    0.0000 He  0  0  0  1
-    1.8079    1.8079    3.6157 N   0  0  0  1
-  1  3  1  0  0  0  0
-  1  4  1  0  0  0  0
-  1  5  1  0  0  0  0
-  1  6  1  0  0  0  0
-  2  3  1  0  0  0  0
-  2  4  1  0  0  0  0
-  2  5  1  0  0  0  0
-  2  6  1  0  0  0  0
-  3  5  1  0  0  0  0
-  3  6  1  0  0  0  0
-  4  5  1  0  0  0  0
-  4  6  1  0  0  0  0
-M  END
-```
+## Aufgabe 1 (Komplexe Zahlen)
+> __1.__ Komplexe Zahlen
+__a.__  Wie ist die imaginäre Einheit $i$ definiert?
 
-## Aufgabe 1
-> __1.__ 	Die Achsvektoren des reellen Gitters seien $\vec{a}_1,\, \vec{a}_2,\,\vec{a}_3$. Wie sind mit diesen Vektoren die reziproken Gittervektoren $\vec{b}_1,\, \vec{b}_2,\,\vec{b}_3$   definiert? 
+**Lösung Aufgabe 1a:**
 
-**Lösung Aufgabe 1:**
+__b.__  Wie ist die komplex konjugierte Zahl zu $z=a+ib$ definiert?
 
-Das Volumen der Einheitszelle ist 
-$$V_\mathrm{EZ}=\vec{a}_1\cdot (\vec{a}_2\times \vec{a}_3)$$
-Die reziproken Gittervektoren sind definiert als 
+__c.__  Berechnen Sie $z\cdot \bar{z}$
 
-$$\vec{b}_1=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_2\times\vec{a}_3)$$
-$$\vec{b}_2=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_3\times\vec{a}_1)$$
-$$\vec{b}_3=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_1\times\vec{a}_2)$$
+__d.__  Berechnen Sie $(a+ib)+(c+id)$
 
-Damit gilt: 
-$$\vec{b_i}\cdot \vec{a_j}=2\pi\delta_{ij}$$
-mit 
-$\delta_{ij}=1 $ für $i=j$ und $\delta_{ij}=0 $  für $i\ne j$.
+__e.__  Berechnen Sie $(a+ib)\cdot(c+id)$
+
+__f.__  Berechnen Sie $\frac{(a+ib)}{(c+id)}$
+
+
+__f.__  Es gelte $r=|z|=\sqrt{a^2+b^2} $ . Wie kann man die komplexe Zahl $z=a+ib=r\cdot e^{i\cdot \varphi}$ anschaulich darstellen? Ist $\varphi$ eindeutig definiert?
+
+
+
 
 ## Aufgabe 2
->__2.__ 	Die primitiven Translationsvektoren des raumzentrierten Gitters sind $\vec{a}_1=\frac{a}{2}\cdot (-\hat{x}+\hat{y}+\hat{z}) $; $\vec{a}_2=\frac{a}{2}\cdot (\hat{x}-\hat{y}+\hat{z})$; $\vec{a}_3=\frac{a}{2}\cdot (\hat{x}+\hat{y}-\hat{z})$. 
-Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was für ein reziprokes Gitter ergibt sich?
+>__2.__ Die Elektronendichte werde durch folgende Reihe beschrieben: $n(x)=\sum_p n_p \cdot e^{\frac{2\pi ix}{a}}$. Was muss für die Koeffizienten $n_p$ gelten, damit die Elektronendichte eine reelle Funktion wird? 
 
-![bcc-Gitter, primitive Basis](media/bccprimitiveBasis.jpg
-)
 
-*Quelle:  Charles Kittel, Einführung in Festkörperphysik*
 
 **Lösung Aufgabe 2:**
 
