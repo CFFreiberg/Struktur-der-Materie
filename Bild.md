@@ -8,8 +8,8 @@ Ich habe den Inhalt der `*.mol` - Datei mit einem Texteditor geöffnet und dann 
 
 
 ```
-Picture 1
-  PPPPPPPP          3D
+Picture 1                                                                       
+  PPPPPPPP          3D                              
 
  62132  0  0  0  0  0  0  0  0  0     
     0.0000    0.0000    0.0000 Cu  0  0  0  1
@@ -207,5 +207,6 @@ Picture 1
  14 43  1  0  0  0  0
  14 44  1  0  0  0  0
 M  END
+
 ```
 @Kekule.eval3d(mol)
