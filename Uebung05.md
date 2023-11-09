@@ -59,16 +59,22 @@ $(a+ib)\cdot(c+id)=a\cdot c -b \cdot +i\cdot (bc+ad)$
 
 
 
-**Lösung Aufgabe 1f:**
 
 __f.__  Berechnen Sie $\frac{(a+ib)}{(c+id)}$
 
- $\frac{(a+ib)}{(c+id)}=$
+**Lösung Aufgabe 1f:**
 
 
-__f.__  Es gelte $r=|z|=\sqrt{a^2+b^2} $. Wie kann man die komplexe Zahl $z=a+ib=r\cdot e^{i\cdot \varphi}$ anschaulich darstellen? Ist $\varphi$ eindeutig definiert?
+ $$\frac{(a+ib)}{(c+id)}=\frac{(a+ib)\cdot (c+id) }{(c+id)^2}=\frac{ac+bd+i(bc-ad)}{c^2+d^2}$$
 
 
+__g.__  Es gelte $r=|z|=\sqrt{a^2+b^2} $. Wie kann man die komplexe Zahl $z=a+ib=r\cdot e^{i\cdot \varphi}$ anschaulich darstellen? Ist $\varphi$ eindeutig definiert?
+
+**Lösung Aufgabe 1g:**
+
+$$r=|z|=\sqrt{a^2+b^2}$$
+
+$$z=a+i\cdot b=r\cdot e^{i\cdot \varphi}=r(\cos(\varphi)+i\cdot \sin(\varphi) )$$
 
 
 ## Aufgabe 2
