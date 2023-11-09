@@ -76,12 +76,21 @@ $$r=|z|=\sqrt{a^2+b^2}$$
 
 $$z=a+i\cdot b=r\cdot e^{i\cdot \varphi}=r(\cos(\varphi)+i\cdot \sin(\varphi) )$$
 
+für $\varphi$ gilt: $\varphi= \arctan  ( \frac{b}{a})$ mit $0 \le \varphi \le 2\pi$
+
+![komplexe Zahlenebene](media/imaginaereZahl.png)
 
 ## Aufgabe 2
 >__2.__ Die Elektronendichte werde durch folgende Reihe beschrieben: $n(x)=\sum_p n_p \cdot e^{\frac{2\pi ix}{a}}$. Was muss für die Koeffizienten $n_p$ gelten, damit die Elektronendichte eine reelle Funktion wird? 
 
 **Lösung Aufgabe 2:**
 
+Die Bragg-Bedingung für konstruktive Interferrenz ist:
+
+$n\cdot \lambda =2d\cdot \sin (\varphi)$. Es gilt immer 
+$\sin (\varphi) \le 1$ Also folgt für $n=1$ 
+
+$$\lambda \le 2\cdot d $$
 
 
 ## Aufgabe 3
