@@ -56,6 +56,7 @@ Wie groß ist das Verhältnis  $\frac{c_\mathrm{hex}}{a_\mathrm{ccp}}$ ?
 **Lösung Aufgabe 3**
 
 ![Vergleich Stapelfolgen ccp und hcp](media/VglStapelfolgen.png)
+
 *Vergleich der Stapelfolgen für ccp und hcp Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 Das ccp-Gitter (links in der Abbildung) hat die Stapelfolge ABCABC der dichtest gepackten Ebenen. Das hcp-Gitter (rechts in der Abbildung) hat die Stapelfolge ABABAB der dichtest gepackten Ebenen. 
