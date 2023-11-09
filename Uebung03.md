@@ -13,7 +13,8 @@ title: Übung Struktur der Materie I, Arbeitsblatt 3
 
  *Beispiel für flächenzentriertes tetragonales Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
-**Lösung Aufgabe** 
+**Lösung Aufgabe 1** 
+
 Ein flächenzentriertes tetragonales Gitter lässt sich durch eine 45° Drehung um die z-Achse in ein innenzentriertes tetragonales Gitter mit den Gitterkonstanten $a'= \frac{a}{\sqrt{2}}$ und
 $c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen.
 
@@ -47,14 +48,18 @@ Die Raumdiagonale der kubischen Einheitszelle entspricht der
 Daraus folgt $c = \sqrt{6} \cdot a$.
 
 ## Aufgabe 3
+
 >__3.__  Vergleichen Sie die Stapelfolgen der dichtest gepackten Ebenen von ccp-Kugelpackungen und hexagonal dichtest gepackten Kugelpackungen (hcp).
 Wie groß ist das Verhältnis  $\frac{c_\mathrm{hex}}{a_\mathrm{ccp}}$ ?
 
 
 **Lösung Aufgabe 3**
 
-Das hcp-Gitter hat die Schichtfolge ABABAB…
-Die Höhe der Einheitszelle beträgt nur 2/3 der Höhe einer ccp-Einheitszelle.
+![Vergleich Stapelfolgen ccp und hcp](media/VglStapelfolgen.png)
+*Vergleich der Stapelfolgen für ccp und hcp Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
+Das ccp-Gitter (links in der Abbildung) hat die Stapelfolge ABCABC der dichtest gepackten Ebenen. Das hcp-Gitter (rechts in der Abbildung) hat die Stapelfolge ABABAB der dichtest gepackten Ebenen. 
+Die "Wiederhollänge" beträgt bei ccp 3 Ebenenabstände, bei hcp 2 Ebenenabstände. Also ist $c_\mathrm{hcp} =\frac{2}{3}\cdot c_\mathrm{ccp} $
 Daraus folgt mit dem Ergebnis von Aufgabe 2: 
 
 $$c_\mathrm{hex} = \frac{2}{3} \cdot  \sqrt{6} \cdot  a_\mathrm{ccp}\eqsim 1,63 \cdot a_\mathrm{ccp} $$
@@ -103,14 +108,14 @@ $$\Rightarrow a=4,09 \cdot 10^{-8} \mathrm{cm}= 4,09 \cdot 10^{-10} \mathrm{m}$$
 
 NaCl: fcc-Gitter mit Basis:
 
-Na auf (0,0,0) und 
-Cl auf $(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$ 
+Cl auf (0,0,0) und 
+Na auf $(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$ 
 
 Damit sitzen die Atome auf:
 
-Na: (0,0,0);  $(\frac{1}{2}, \frac{1}{2},0);  (\frac{1}{2}, 0,\frac{1}{2}),  (0, \frac{1}{2},\frac{1}{2})$
+Cl: (0,0,0);  $(\frac{1}{2}, \frac{1}{2},0);  (\frac{1}{2}, 0,\frac{1}{2}),  (0, \frac{1}{2},\frac{1}{2})$
 
-Cl:  $(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$;  $(0, 0,\frac{1}{2})$;  $(0, \frac{1}{2},0)$; $(\frac{1}{2}, 0,0)$
+Na:  $(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$;  $(0, 0,\frac{1}{2})$;  $(0, \frac{1}{2},0)$; $(\frac{1}{2}, 0,0)$
 
 ## Aufgabe 7
 >__7.__ Geben Sie den kürzesten Abstand zwischen zwei Ionen im Kristallgitter mit Zinkblendestruktur bezogen auf die Gitterkonstante an.
@@ -121,6 +126,7 @@ Cl:  $(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$;  $(0, 0,\frac{1}{2})$;  $(0, \fra
 
 *Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Zinkblende-Struktur)*
 
+Die Zinkblende-Struktur wird auch Spahlerit genannt und ist $\alpha$-ZnS. Vergleichen Sie die Struktur mit dem Diamantgitter. Erkennen Sie Ähnlichkeiten?
 Der kürzeste Abstand zweier (unterschiedlicher) Atome ist 1/4 der Raumdiagonalen:
 
 $$r_0=\frac{\sqrt{3}}{4}$$
