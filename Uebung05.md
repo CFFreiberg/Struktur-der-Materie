@@ -52,6 +52,7 @@ $(a+ib)+(c+id)=(a+c)+i\cdot(b+f)$
 
 __e.__  Berechnen Sie $(a+ib)\cdot(c+id)$
 
+
 **Lösung Aufgabe 1e:**
 
 $(a+ib)\cdot(c+id)=a\cdot c -b \cdot +i\cdot (bc+ad)$
