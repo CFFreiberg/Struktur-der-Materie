@@ -23,19 +23,46 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 ## Aufgabe 1 (Komplexe Zahlen)
 > __1.__ Komplexe Zahlen
+
 __a.__  Wie ist die imaginäre Einheit $i$ definiert?
 
 **Lösung Aufgabe 1a:**
 
+$i=\sqrt{-1}$; $i^2=1$
+
+
 __b.__  Wie ist die komplex konjugierte Zahl zu $z=a+ib$ definiert?
+
+**Lösung Aufgabe 1b:**
+
+$\bar{z}=a-ib$ 
 
 __c.__  Berechnen Sie $z\cdot \bar{z}$
 
+**Lösung Aufgabe 1c:**
+
+$z\cdot \bar{z}=a^4+b^2=|z|^2 \ne z^2$
+
 __d.__  Berechnen Sie $(a+ib)+(c+id)$
+
+**Lösung Aufgabe 1d:**
+
+$(a+ib)+(c+id)=(a+c)+i\cdot(b+f)$
+
 
 __e.__  Berechnen Sie $(a+ib)\cdot(c+id)$
 
+**Lösung Aufgabe 1e:**
+
+$(a+ib)\cdot(c+id)=a\cdot c -b \cdot +i\cdot (bc+ad)$
+
+
+
+**Lösung Aufgabe 1f:**
+
 __f.__  Berechnen Sie $\frac{(a+ib)}{(c+id)}$
+
+ $\frac{(a+ib)}{(c+id)}=$
 
 
 __f.__  Es gelte $r=|z|=\sqrt{a^2+b^2} $. Wie kann man die komplexe Zahl $z=a+ib=r\cdot e^{i\cdot \varphi}$ anschaulich darstellen? Ist $\varphi$ eindeutig definiert?
@@ -65,6 +92,8 @@ __f.__  Es gelte $r=|z|=\sqrt{a^2+b^2} $. Wie kann man die komplexe Zahl $z=a+ib
 
 
 
+
+
 **Lösung Aufgabe 4:**
 
 
@@ -74,5 +103,16 @@ __f.__  Es gelte $r=|z|=\sqrt{a^2+b^2} $. Wie kann man die komplexe Zahl $z=a+ib
 ## Aufgabe 5:
 
 
->__5.__ Eine der Darstellung von Beugungsbedingungen (Bragg-Bedingungen) lautet $\Delta k=G$. Wie wird diese Bedingung anschaulich in der Ewaldkonstruktion dargestellt? Zeichnen Sie in die folgende Abbildung der reziproken Gitterpunkte die Ewaldkonstruktion für einen einfallenden Wellenvektor mit $\vec{k}=2\cdot \vec{b}_1$  . Markieren sie die reziproken Gitterpunkte, an denen die Bragg- Bedingung erfüllt ist.
+>__5.__ Eine der Darstellung von Beugungsbedingungen (Bragg-Bedingungen) lautet $\Delta k=G$. Wie wird diese Bedingung anschaulich in der Ewaldkonstruktion dargestellt? Zeichnen Sie in die folgende Abbildung der reziproken Gitterpunkte die Ewaldkonstruktion für einen einfallenden Wellenvektor mit $\vec{k}=1\cdot \vec{b}_1$  . Markieren sie die reziproken Gitterpunkte, an denen die Bragg- Bedingung erfüllt ist.
 
+![reziprokes Gitter für Ewaldkonstruktion](media/VorlageEwaldkonstruktion.png)
+
+
+**Lösung Aufgabe 5:**
+
+![Ewaldkonstruktion](media/Ewaldkonstruktion.png)
+
+
+## Aufgabe 6:
+
+>__6.__ 
