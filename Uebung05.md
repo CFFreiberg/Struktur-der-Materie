@@ -31,7 +31,7 @@ __a.__  Wie ist die imaginäre Einheit $i$ definiert?
 $i=\sqrt{-1}$; $i^2=1$
 
 
-__b.__  Wie ist die komplex konjugierte Zahl zu $z=a+ib$ definiert?
+__b.__  Wie ist die konjugiert komplexe  Zahl zu $z=a+ib$ definiert?
 
 **Lösung Aufgabe 1b:**
 
@@ -81,13 +81,15 @@ für $\varphi$ gilt: $\varphi= \arctan  ( \frac{b}{a})$ mit $0 \le \varphi \le 2
 ![komplexe Zahlenebene](media/imaginaereZahl.png)
 
 ## Aufgabe 2
->__2.__ Die Elektronendichte werde durch folgende Reihe beschrieben: $n(x)=\sum_p n_p \cdot e^{\frac{2\pi i\cdot p\cdot x
-}{a}}$. Was muss für die Koeffizienten $n_p$ gelten, damit die Elektronendichte eine reelle Funktion wird? 
+
+
+> __2.__ Die Elektronendichte werde durch folgende Reihe beschrieben: $n(x) =\sum_p n_p \cdot \exp(\frac{2 \pi i\cdot p\cdot x}{a}) $. Was muss für die Koeffizienten $n_p$ gelten, damit die Elektronendichte eine reelle Funktion wird? 
 
 **Lösung Aufgabe 2:**
+
 Vorgehen: Die Summanden für negatives und positives $p$ werden zusammengefasst. 
 
-Annahme: Es gilt  $n_p=\bar{n}_{-p}$ und $\frac{2\pi px}{a}=\varphi$.
+Annahme: Es gilt  $\frac{2\pi px}{a}=\varphi$.
 
 Daraus folgt dann:
 
@@ -95,12 +97,14 @@ $$n_p \cdot e^{\frac{2\pi p ix}{a}}+\bar{n}_{-p} \cdot e^{\frac{-2\pi p ix}{a}}=
 
 $$=(n_p+\bar{n}_{-p})\cdot \cos(\varphi)+ (n_p-\bar{n}_{-p})\cdot \sin(\varphi)$$
 
-$$=2\cdot \mathrm{Re}(n_p) \cdot \cos(\varphi)+ 2i \mathrm{Im}(n_p) \cdot i \cdot\sin(\varphi)$$
+Mit der Annahme  $n_p=\bar{n}_{-p}$ folgt:
+
+$$=2\cdot \mathrm{Re}(n_p) \cdot \cos(\varphi)+ 2i \cdot \mathrm{Im}(n_p) \cdot i \cdot\sin(\varphi)$$
 
 $$=2\cdot \mathrm{Re}(n_p) \cdot \cos(\varphi)- 2 \cdot  \mathrm{Im}(n_p)  \cdot\sin(\varphi)$$
 
-Beide Summanden sind also reell, und damit wäre die gesamte Elektronendichte reell. Die Voraussetzung $n_p=\bar{n}_{-p}$ führt also zu einer reellen Elektronendichte. 
-Das bedeutet unter anderem  dass aus  $n_p=a+ib$ gleichzeitig $\bar{n}_{-p}=a-ib$ gelten würde. 
+Beide Summanden wären also reell, und damit wäre die gesamte Elektronendichte reell. Die Voraussetzung $n_p=\bar{n}_{-p}$ führt also zu einer reellen Elektronendichte. 
+Das bedeutet unter anderem,  dass mit  $n_p=a+ib$ gleichzeitig $\bar{n}_{-p}=a-ib$ gelten würde. 
 
 
 ## Aufgabe 3
@@ -118,6 +122,8 @@ Die Bragg-Bedingung für konstruktive Interferrenz ist:
 
 $n\cdot \lambda =2d\cdot \sin (\Theta)$.
 
+Dann ist der Weglängenunterschied benachbarter reflektierter Strahlen ein Vielfaches von $\lambda$, und es findet keine Auslöschung sondern konstruktive Interferrenz statt.
+
 
 ## Aufgabe 4
 >__4.__  Kann man mit sichtbarem Licht Beugungserscheinungen an Festkörpern erzeugen? Was muss für die Wellenlänge $\lambda$ in Bezug auf den Gitterabstand gelten, damit überhaupt Bragg- Reflexion auftreten kann?
@@ -126,14 +132,15 @@ $n\cdot \lambda =2d\cdot \sin (\Theta)$.
 **Lösung Aufgabe 4:**
 
 
-Die Bragg-Bedingung für konstruktive Interferrenz ist:
+Die Bragg-Bedingung für konstruktive Interferrenz ist 
+$n\cdot \lambda =2d\cdot \sin (\varphi)$. 
 
-$n\cdot \lambda =2d\cdot \sin (\varphi)$. Es gilt immer 
-$\sin (\varphi) \le 1$ Also folgt für $n=1$ 
+Es gilt immer 
+$\sin (\varphi) \le 1$. Also folgt für $n=1$ 
 
 $$\lambda \le 2\cdot d $$
 
-Die Wellenlänge $\lambda$ muss also kleiner sein als der doppelte Netzebenenabstand $2d$, damit mit em-Strahlung Beugungserscheinungen erzeugt werden. Die atomaren Abstände im Festkörper liegen im Anagström-Bereich, die Wellenlängen des sichtbaren Lichtes aber im 100er nm-Bereich. Damit können keine Beugungserscheinungen auftreten.
+Die Wellenlänge $\lambda$ muss also kleiner sein als der doppelte Netzebenenabstand $2d$, damit mit elektromagnetischer Strahlung Beugungserscheinungen erzeugt werden. Die atomaren Abstände im Festkörper liegen im Angström-Bereich, die Wellenlängen des sichtbaren Lichtes aber im 100er nm-Bereich. Damit können mit sichtbarem Licht keine Beugungserscheinungen auftreten.
 
 
 ## Aufgabe 5:
@@ -147,14 +154,16 @@ Die Anordnung der Atome in der Basis bestimmt die relativen Intensitäten der ve
 ## Aufgabe 6:
 
 
->__6.__ Eine der Darstellung von Beugungsbedingungen (Bragg-Bedingungen) lautet $\Delta k=G$. Wie wird diese Bedingung anschaulich in der Ewaldkonstruktion dargestellt? Zeichnen Sie in die folgende Abbildung der reziproken Gitterpunkte die Ewaldkonstruktion für einen einfallenden Wellenvektor mit $\vec{k}=1\cdot \vec{b}_1$  . Markieren sie die reziproken Gitterpunkte, an denen die Bragg- Bedingung erfüllt ist.
+>__6.__ Eine der Darstellungen von Beugungsbedingungen (Bragg-Bedingungen) lautet $\Delta k=G$. Wie wird diese Bedingung anschaulich in der Ewaldkonstruktion dargestellt? Zeichnen Sie in die folgende Abbildung der reziproken Gitterpunkte die Ewaldkonstruktion für einen einfallenden Wellenvektor mit $\vec{k}=1\cdot \vec{b}_1$  . Markieren sie die reziproken Gitterpunkte, an denen die Bragg-Bedingung erfüllt ist.
 
 ![reziprokes Gitter für Ewaldkonstruktion](media/VorlageEwaldkonstruktion.png)
 
+*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 **Lösung Aufgabe 6:**
 
 ![Ewaldkonstruktion](media/Ewaldkonstruktion.png)
 
+*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 
