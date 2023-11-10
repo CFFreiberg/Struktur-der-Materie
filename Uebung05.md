@@ -81,16 +81,26 @@ für $\varphi$ gilt: $\varphi= \arctan  ( \frac{b}{a})$ mit $0 \le \varphi \le 2
 ![komplexe Zahlenebene](media/imaginaereZahl.png)
 
 ## Aufgabe 2
->__2.__ Die Elektronendichte werde durch folgende Reihe beschrieben: $n(x)=\sum_p n_p \cdot e^{\frac{2\pi ix}{a}}$. Was muss für die Koeffizienten $n_p$ gelten, damit die Elektronendichte eine reelle Funktion wird? 
+>__2.__ Die Elektronendichte werde durch folgende Reihe beschrieben: $n(x)=\sum_p n_p \cdot e^{\frac{2\pi i\cdot p\cdot x
+}{a}}$. Was muss für die Koeffizienten $n_p$ gelten, damit die Elektronendichte eine reelle Funktion wird? 
 
 **Lösung Aufgabe 2:**
+Vorgehen: Die Summanden für negatives und positives $p$ werden zusammengefasst. 
 
-Die Bragg-Bedingung für konstruktive Interferrenz ist:
+Annahme: Es gilt  $n_p=\bar{n}_{-p}$ und $\frac{2\pi px}{a}=\varphi$.
 
-$n\cdot \lambda =2d\cdot \sin (\varphi)$. Es gilt immer 
-$\sin (\varphi) \le 1$ Also folgt für $n=1$ 
+Daraus folgt dann:
 
-$$\lambda \le 2\cdot d $$
+$$n_p \cdot e^{\frac{2\pi p ix}{a}}+\bar{n}_{-p} \cdot e^{\frac{-2\pi p ix}{a}}=n_p (\cos(\varphi)+i\sin(\varphi))+\bar{n}_{-p} (\cos(\varphi)-i\sin(\varphi))$$
+
+$$=(n_p+\bar{n}_{-p})\cdot \cos(\varphi)+ (n_p-\bar{n}_{-p})\cdot \sin(\varphi)$$
+
+$$=2\cdot \mathrm{Re}(n_p) \cdot \cos(\varphi)+ 2i \mathrm{Im}(n_p) \cdot i \cdot\sin(\varphi)$$
+
+$$=2\cdot \mathrm{Re}(n_p) \cdot \cos(\varphi)- 2 \cdot  \mathrm{Im}(n_p)  \cdot\sin(\varphi)$$
+
+Beide Summanden sind also reell, und damit wäre die gesamte Elektronendichte reell. Die Voraussetzung $n_p=\bar{n}_{-p}$ führt also zu einer reellen Elektronendichte. 
+Das bedeutet unter anderem  dass aus  $n_p=a+ib$ gleichzeitig $\bar{n}_{-p}=a-ib$ gelten würde. 
 
 
 ## Aufgabe 3
@@ -100,7 +110,13 @@ $$\lambda \le 2\cdot d $$
 
 **Lösung Aufgabe 3:**
 
+![](https://virtuelle-experimente.de/bilder/elektronenbeugung/Bragg-Bedingung.png)
 
+*Quelle: [Darstellung der Braggbedingung für n=2](https://virtuelle-experimente.de/elektronenbeugung/einfuehrung/bragg-bedingung.php)*
+
+Die Bragg-Bedingung für konstruktive Interferrenz ist:
+
+$n\cdot \lambda =2d\cdot \sin (\Theta)$.
 
 
 ## Aufgabe 4
@@ -108,27 +124,39 @@ $$\lambda \le 2\cdot d $$
 
 
 
-
-
 **Lösung Aufgabe 4:**
 
 
 
+Die Bragg-Bedingung für konstruktive Interferrenz ist:
+
+$n\cdot \lambda =2d\cdot \sin (\varphi)$. Es gilt immer 
+$\sin (\varphi) \le 1$ Also folgt für $n=1$ 
+
+$$\lambda \le 2\cdot d $$
+
+Die Wellenlänge $\lambda$ muss also kleiner sein als der doppelte Netzebenenabstand $2d$, damit mit em-Strahlung Beugungserscheinungen erzeugt werden. Die atomaren Abstände im Festkörper liegen im Anagström-Bereich, die Wellenlängen des sichtbaren Lichtes aber im 100er nm-Bereich. Damit können keine Beugungserscheinungen auftreten.
 
 
 ## Aufgabe 5:
-
-
->__5.__ Eine der Darstellung von Beugungsbedingungen (Bragg-Bedingungen) lautet $\Delta k=G$. Wie wird diese Bedingung anschaulich in der Ewaldkonstruktion dargestellt? Zeichnen Sie in die folgende Abbildung der reziproken Gitterpunkte die Ewaldkonstruktion für einen einfallenden Wellenvektor mit $\vec{k}=1\cdot \vec{b}_1$  . Markieren sie die reziproken Gitterpunkte, an denen die Bragg- Bedingung erfüllt ist.
-
-![reziprokes Gitter für Ewaldkonstruktion](media/VorlageEwaldkonstruktion.png)
+>__5.__ Die Braggreflexion folgt dem periodischen Aufbau des Raumgitters. Welche Rolle spielt die Anordnung der Atome auf der Basis?
 
 
 **Lösung Aufgabe 5:**
 
-![Ewaldkonstruktion](media/Ewaldkonstruktion.png)
-
+Die Anordnung der Atome in der Basis bestimmt die relativen Intensitäten der verschiedenen Ordnungen $n$ (mit $n\cdot \lambda =2d\cdot \sin (\varphi)$) an einer bestimmten Schar von parallelen Netzebenen.
 
 ## Aufgabe 6:
 
->__6.__ 
+
+>__6.__ Eine der Darstellung von Beugungsbedingungen (Bragg-Bedingungen) lautet $\Delta k=G$. Wie wird diese Bedingung anschaulich in der Ewaldkonstruktion dargestellt? Zeichnen Sie in die folgende Abbildung der reziproken Gitterpunkte die Ewaldkonstruktion für einen einfallenden Wellenvektor mit $\vec{k}=1\cdot \vec{b}_1$  . Markieren sie die reziproken Gitterpunkte, an denen die Bragg- Bedingung erfüllt ist.
+
+![reziprokes Gitter für Ewaldkonstruktion](media/VorlageEwaldkonstruktion.png)
+
+
+**Lösung Aufgabe 6:**
+
+![Ewaldkonstruktion](media/Ewaldkonstruktion.png)
+
+
+
