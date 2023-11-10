@@ -37,20 +37,20 @@ __b.__  Wie ist die komplex konjugierte Zahl zu $z=a+ib$ definiert?
 
 $\bar{z}=a-ib$ 
 
-__c.__  Berechnen Sie $z\cdot \bar{z}$
+__c.__  Berechnen Sie $z\cdot \bar{z}$.
 
 **Lösung Aufgabe 1c:**
 
 $z\cdot \bar{z}=a^4+b^2=|z|^2 \ne z^2$
 
-__d.__  Berechnen Sie $(a+ib)+(c+id)$
+__d.__  Berechnen Sie $(a+ib)+(c+id)$.
 
 **Lösung Aufgabe 1d:**
 
 $(a+ib)+(c+id)=(a+c)+i\cdot(b+f)$
 
 
-__e.__  Berechnen Sie $(a+ib)\cdot(c+id)$
+__e.__  Berechnen Sie $(a+ib)\cdot(c+id)$.
 
 
 **Lösung Aufgabe 1e:**
@@ -120,12 +120,10 @@ $n\cdot \lambda =2d\cdot \sin (\Theta)$.
 
 
 ## Aufgabe 4
->__4.__  Kann man mit sichtbarem Licht Beugungserscheinungen an Festkörpern erzeugen? Was muss für die Wellenlänge in Bezug auf den Gitterabstand gelten, damit überhaupt Bragg- Reflexion auftreten kann?
-
+>__4.__  Kann man mit sichtbarem Licht Beugungserscheinungen an Festkörpern erzeugen? Was muss für die Wellenlänge $\lambda$ in Bezug auf den Gitterabstand gelten, damit überhaupt Bragg- Reflexion auftreten kann?
 
 
 **Lösung Aufgabe 4:**
-
 
 
 Die Bragg-Bedingung für konstruktive Interferrenz ist:
