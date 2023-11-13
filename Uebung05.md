@@ -93,9 +93,9 @@ Annahme: Es gilt  $\frac{2\pi px}{a}=\varphi$.
 
 Daraus folgt dann:
 
-$$n_p \cdot e^{\frac{2\pi p ix}{a}}+\bar{n}_{-p} \cdot e^{\frac{-2\pi p ix}{a}}=n_p (\cos(\varphi)+i\sin(\varphi))+\bar{n}_{-p} (\cos(\varphi)-i\sin(\varphi))$$
+$$n_p \cdot e^{\frac{2\pi p ix}{a}}+n_{-p} \cdot e^{\frac{-2\pi p ix}{a}}=n_p (\cos(\varphi)+i\sin(\varphi))+n_{-p} (\cos(\varphi)-i\sin(\varphi))$$
 
-$$=(n_p+\bar{n}_{-p})\cdot \cos(\varphi)+ (n_p-\bar{n}_{-p})\cdot \sin(\varphi)$$
+$$=(n_p+n_{-p})\cdot \cos(\varphi)+ (n_p-n_{-p}) \cdot \sin(\varphi)$$
 
 Mit der Annahme  $n_p=\bar{n}_{-p}$ folgt:
 
@@ -104,7 +104,7 @@ $$=2\cdot \mathrm{Re}(n_p) \cdot \cos(\varphi)+ 2i \cdot \mathrm{Im}(n_p) \cdot 
 $$=2\cdot \mathrm{Re}(n_p) \cdot \cos(\varphi)- 2 \cdot  \mathrm{Im}(n_p)  \cdot\sin(\varphi)$$
 
 Beide Summanden wären also reell, und damit wäre die gesamte Elektronendichte reell. Die Voraussetzung $n_p=\bar{n}_{-p}$ führt also zu einer reellen Elektronendichte. 
-Das bedeutet unter anderem,  dass mit  $n_p=a+ib$ gleichzeitig $\bar{n}_{-p}=a-ib$ gelten würde. 
+Das bedeutet unter anderem,  dass mit  $n_p=a+ib$ gleichzeitig $n_{-p}=a-ib$ gelten würde. 
 
 
 ## Aufgabe 3
