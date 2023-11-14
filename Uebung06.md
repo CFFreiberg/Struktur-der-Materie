@@ -55,7 +55,7 @@ $$\vec{b}_3=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_2\times\vec{a}_3)=\frac{2\p
 Durch den Vergleich mit den primitiven Translationsvektoren anderer Raumgitter erkennt man, dass
 es sich hierbei um ein kubisch raumzentriertes (bcc) Gitter mit Gitterkonstante $\frac{2 \pi}{a}$ handelt.
 
-> __2.__  Berechnen Sie das reziproke Gitter des orthorhombischen Gitters.
+> __2.__ Berechnen Sie das reziproke Gitter des orthorhombischen Gitters.
 
 **Lösung Aufgabe 2:**
 
@@ -127,7 +127,7 @@ $$\Rightarrow V_\mathrm{BZ}=\frac{(2\pi)^3}{(V_\mathrm{pEZ})^3}\cdot (\vec{a_2}\
 
 >__6.__ Konstruieren Sie die ersten drei Brillouin-Zonen dieses ebenen rechtwinkligen reziproken Gitters!
 
-![ebenes rechtwinkliges reziprokes Gitter](media/rwrezGitter.png)
+![ebenes rechtwinkliges reziprokes Gitter](media/rwGitter.png)
 
 *Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
@@ -146,7 +146,7 @@ Wenn sie die gleiche Grenze zweimal überqueren, zählt sie nicht mit.
 
 Die Volumina aller Brillouinzonen (bzw. Flächen im 2D) sind gleich.
 
-![1, 2, und 3. Brillouinzone vom ebenen rechtwinkligem reziproken Gitter](media/1-3BZrwrezGitter.png)
+![1, 2, und 3. Brillouinzone vom ebenen rechtwinkligem reziproken Gitter](media/1-3BZ.png)
 
 
-*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+*1. BZ gelb, 2. BZ rot und 3. BZ grün; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
