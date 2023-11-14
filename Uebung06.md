@@ -28,7 +28,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 
 
-**Lösung Aufgabe 1a:**
+**Lösung Aufgabe 1:**
 
 Zuerst wird das Volumen der Einheitszelle im realen Gitter berechnet. Dabei wird folgende Darstellung der $\vec{a_i} $ benutzt:
 
@@ -57,6 +57,8 @@ es sich hierbei um ein kubisch raumzentriertes (bcc) Gitter mit Gitterkonstante 
 
 > __2.__  Berechnen Sie das reziproke Gitter des rhombischen Gitters.
 
+**Lösung Aufgabe 2:**
+
 Angenommen, wir haben ein rhombisches Gitter mit den Gittervektoren:
 
 $$\vec{a_1}=a\cdot \vec{\hat{x}}$$
@@ -78,6 +80,18 @@ $$\vec{b}_2=\frac{2\pi}{b}\cdot \vec{\hat{y}}$$
    $$\vec{b}_3=\frac{2\pi}{c}\cdot \vec{\hat{z}}$$
 Die Beträge der reziproken Gittervektoren sind umgekehrt proportional zu den Längen der entsprechenden Gittervektoren im realen Gitter.
 
-> __3.__  Berechnen Sie den Netzebenenabstand im rhombischen Gitter.
+> __3.__  Berechnen Sie den Netzebenenabstand $d$ im orthorhombischen Gitter.
+
+**Lösung Aufgabe 3:**
+
+Zu jeder Ebenenschar gibt es rezioproke Gittervektoren $\vec{G}$ und umgekehrt gibt es zu jedem reziproken Gittervektor $\vec{G}$ eine Ebenenschar, so dass $\vec{G}$ senkrecht auf den Ebenen steht. Für den kürzesten reziproken Gittervektor $\vec{G}_\mathrm{min}=h\vec{b}_1+k\vec{b}_2+l\vec{b}_3$ gilt:
+
+$$|\vec{G}_\mathrm{min}|=\frac{2\pi}{d_{hkl}}$$
+
+Also folgt:
+$$d_{hkl}=\frac{2\pi}{|\vec{G}_\mathrm{min}|}$$
+Damit gilt für das orthorhombische Gitter:
+$$d_{hkl}=\frac{2\pi}{\sqrt{(\frac{h\cdot 2\pi}{a})^2+(\frac{k \cdot 2\pi}{b})^2+(\frac{l \cdot 2\pi}{c})^2}}=\frac{1}{\sqrt{(\frac{h}{a})^2+(\frac{k}{b})^2+(\frac{l}{c})^2}}$$
+
 
 > __4.__  Wie ist die Brillouin- Zone definiert? Zeichnen Sie für das folgende (ebene) reziproke Gitter die Brillouin- Zone!
