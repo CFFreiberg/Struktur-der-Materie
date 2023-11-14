@@ -123,3 +123,6 @@ $$V_\mathrm{BZ}=\vec{b}_1 \cdot \vec{b}_2 \times \vec{b}_3=\frac{(2\pi)^3}{(\vec
 $$\Rightarrow V_\mathrm{BZ}=\frac{(2\pi)^3}{(V_\mathrm{pEZ})^3}\cdot (\vec{a_2}\times \vec{a_3})\cdot[ \vec{a_3}\cdot (\vec{a_1}\times \vec{a_2})]\cdot \vec{a_1} $$
 
 $$\Rightarrow V_\mathrm{BZ}=\frac{(2\pi)^3}{(V_\mathrm{pEZ})^3}\cdot (\vec{a_2}\times \vec{a_3})\cdot[ V_\mathrm{pEZ}]\cdot \vec{a_1} =\frac{(2\pi)^3}{(V_\mathrm{pEZ})^3}\cdot [ V_\mathrm{pEZ}]^2= \frac{(2\pi)^3}{V_\mathrm{pEZ}}$$
+
+>__6.__ Konstruieren Sie die ersten drei Brillouin-Zonen dieses ebenen rechtwinkligen Gitters!
+
