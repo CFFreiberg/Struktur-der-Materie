@@ -94,4 +94,28 @@ Damit gilt für das orthorhombische Gitter:
 $$d_{hkl}=\frac{2\pi}{\sqrt{(\frac{h\cdot 2\pi}{a})^2+(\frac{k \cdot 2\pi}{b})^2+(\frac{l \cdot 2\pi}{c})^2}}=\frac{1}{\sqrt{(\frac{h}{a})^2+(\frac{k}{b})^2+(\frac{l}{c})^2}}$$
 
 
-> __4.__  Wie ist die Brillouin- Zone definiert? Zeichnen Sie für das folgende (ebene) reziproke Gitter die Brillouin- Zone!
+5.	Zeigen Sie, dass das Volumen der ersten Brillouin - Zone gleich (2)3/Vc ist, wobei Vc das Volumen der primitiven Zelle des Kristalls ist. Dabei ist das Volumen einer Brillouin-Zone gleich dem Volumen des primitiven Parallelepipeds im Fourier-Raum. Beachten Sie die Vektoridentität (cxa)x(axb)=(caxb)a Wie ist die Brillouin- Zone definiert? Zeichnen Sie für das folgende (ebene) reziproke Gitter die Brillouin- Zone!
+
+
+![Beispiel ebenes reziprokes Gitter](media/ebenesrezGitter.png)
+
+*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
+**Lösung Aufgabe 4:**
+
+Die Wigner-Seitz-Zelle bezeichnet eine spezielle primitive Zelle eines Kristallgitters, die durch eine eindeutige Konstruktionsregel definiert ist. Die [Wigner-Seitz-Zelle](https://de.wikipedia.org/wiki/Wigner-Seitz-Zelle) enthält nur einen Gitterpunkt in ihrem Zentrum. Alle Orte innerhalb der Wigner-Seitz-Zelle liegen näher an diesem Gitterpunkt als an den benachbarten Gitterpunkten. Ihre Entsprechung im reziproken Gitter ist die erste Brillouin-Zone.
+
+Für die Konstruktion in 2D wählt man einen Gitterpunkt und halbiert die Verbindungsstrecken zu allen anderen Punkten des Kristallgitters durch Mittelsenkrechten. So erhält man um den Gitterpunkt herum eine Fläche, die durch die Mittelsenkrechten begrenzt wird. Dies ist die Wigner-Seitz-Zelle. 
+
+![1. Brillouinzone für Beispiel von reziprokem Gitter](media/BZebenesrezGitter.png)
+
+*Quelle:  [TU Graz: Brillouin zones of two-dimensional Bravais lattices](http://lampx.tugraz.at/~hadley/ss2/fermisurface/2d_fermisurface/2dBz.php ) mit $\frac{b}{a}=1,2$ und $\gamma =70°$*
+
+Probieren Sie den Link in der Abbildungsunterschrift bitte mal aus und variieren Sie die Parameter.
+
+
+> __5.__	Zeigen Sie, dass das Volumen der ersten Brillouin - Zone $V_\mathrm{BZ}$ gleich $\frac{2\pi}{V_\mathrm{pEZ}}$ ist, wobei $V_\mathrm{pEZ}$ das Volumen der primitiven Einheitszelle des Kristalls ist. Dabei ist das Volumen einer Brillouin-Zone gleich dem Volumen des primitiven Parallelepipeds im Fourier-Raum (reziprokem Raum). Beachten Sie dabei die Vektoridentität $(\vec{c} \times\vec{a})\times (\vec{a}  \times\vec{b})=(\vec{c} \cdot\vec{a}\times \vec{b} ) \cdot\vec{a}$. 
+
+**Lösung Aufgabe 5:**
+
+$$V_\mathrm{BZ}=\vec{b}_1 \cdot \vec{b}_2 \times \vec{b}_3=\frac{(2\pi)^3}{(\vec{a}_1 \cdot \vec{a}_2 \times \vec{a}_3)^3}\cdot (\vec{a_2}\times \vec{a_3})\cdot (\vec{a_3}\times \vec{a_1})\times (\vec{a_1}\times \vec{a_2}) $$
