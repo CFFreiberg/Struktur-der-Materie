@@ -82,7 +82,7 @@ $\vec{n}=\frac{\vec{G}}{|\vec{G}|}$ ist der zu $\vec{G}$ gehörige Ebenennormale
 
 *Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
-$$d_\mathrm{hkl}=\vec{r} \cdot \frac{\vec{G}}{|\vec{G}|}=\frac{(\vec{a}_1}{h}\cdot \frac{h\vec{b}_1+k\vec{b}_2+l\vec{b}_3)}{|\vec{G}|}$$
+$$d_\mathrm{hkl}=\vec{r} \cdot \frac{\vec{G}}{|\vec{G}|}=\frac{\vec{a}_1}{h}\cdot \frac{(h\vec{b}_1+k\vec{b}_2+l\vec{b}_3)}{|\vec{G}|}$$
 
 Die Skalarprodukte $\vec{a}_1\cdot{\vec{b}_2}$ und $\vec{a}_1\cdot{\vec{b}_3}$ sind Null, da laut Definition $\vec{b}_2$ und  $\vec{b}_3$ senkrecht zu $\vec{a}_1$ sind. Also folgt:
 
