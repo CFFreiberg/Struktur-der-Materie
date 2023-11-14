@@ -21,7 +21,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 # Übung 6: 
 
 
-
+## Aufgabe 1
 
 > __1.__  Die primitiven Translationsvektoren des flächenzentrierten kubischen Gitters sind: $\vec{a}_1=\frac{a}{2}\cdot (\hat{y}+\hat{z}) $; $\vec{a}_2=\frac{a}{2}\cdot (\hat{x}+\hat{z})$; $\vec{a}_3=\frac{a}{2}\cdot (\hat{x}+\hat{y})$. Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was für ein reziprokes Gitter ergibt sich?
 
@@ -55,6 +55,7 @@ $$\vec{b}_3=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_2\times\vec{a}_3)=\frac{2\p
 Durch den Vergleich mit den primitiven Translationsvektoren anderer Raumgitter erkennt man, dass
 es sich hierbei um ein kubisch raumzentriertes (bcc) Gitter mit Gitterkonstante $\frac{2 \pi}{a}$ handelt.
 
+## Aufgabe 2
 > __2.__ Berechnen Sie das reziproke Gitter des orthorhombischen Gitters.
 
 **Lösung Aufgabe 2:**
@@ -80,6 +81,7 @@ $$\vec{b}_2=\frac{2\pi}{b}\cdot \vec{\hat{y}}$$
    $$\vec{b}_3=\frac{2\pi}{c}\cdot \vec{\hat{z}}$$
 Die Beträge der reziproken Gittervektoren sind umgekehrt proportional zu den Längen der entsprechenden Gittervektoren im realen Gitter.
 
+## Aufgabe 3
 > __3.__  Berechnen Sie den Netzebenenabstand $d$ im orthorhombischen Gitter.
 
 **Lösung Aufgabe 3:**
@@ -93,9 +95,8 @@ $$d_{hkl}=\frac{2\pi}{|\vec{G}_\mathrm{min}|}$$
 Damit gilt für das orthorhombische Gitter:
 $$d_{hkl}=\frac{2\pi}{\sqrt{(\frac{h\cdot 2\pi}{a})^2+(\frac{k \cdot 2\pi}{b})^2+(\frac{l \cdot 2\pi}{c})^2}}=\frac{1}{\sqrt{(\frac{h}{a})^2+(\frac{k}{b})^2+(\frac{l}{c})^2}}$$
 
-
-5.	Zeigen Sie, dass das Volumen der ersten Brillouin - Zone gleich (2)3/Vc ist, wobei Vc das Volumen der primitiven Zelle des Kristalls ist. Dabei ist das Volumen einer Brillouin-Zone gleich dem Volumen des primitiven Parallelepipeds im Fourier-Raum. Beachten Sie die Vektoridentität (cxa)x(axb)=(caxb)a Wie ist die Brillouin- Zone definiert? Zeichnen Sie für das folgende (ebene) reziproke Gitter die Brillouin- Zone!
-
+## Aufgabe 4
+> __4.__ Wie ist die Brillouin- Zone definiert? Zeichnen Sie für das folgende (ebene) reziproke Gitter die Brillouin- Zone!
 
 ![Beispiel ebenes reziprokes Gitter](media/ebenesrezGitter.png)
 
@@ -113,7 +114,7 @@ Für die Konstruktion in 2D wählt man einen Gitterpunkt und halbiert die Verbin
 
 Probieren Sie den Link in der Abbildungsunterschrift bitte mal aus und variieren Sie die Parameter.
 
-
+## Aufgabe 5
 > __5.__	Zeigen Sie, dass das Volumen der ersten Brillouin - Zone $V_\mathrm{BZ}$ gleich $\frac{2\pi}{V_\mathrm{pEZ}}$ ist, wobei $V_\mathrm{pEZ}$ das Volumen der primitiven Einheitszelle des Kristalls ist. Dabei ist das Volumen einer Brillouin-Zone gleich dem Volumen des primitiven Parallelepipeds im Fourier-Raum (reziprokem Raum). Beachten Sie dabei die Vektoridentität $(\vec{c} \times\vec{a})\times (\vec{a}  \times\vec{b})=(\vec{c} \cdot\vec{a}\times \vec{b} ) \cdot\vec{a}$. 
 
 **Lösung Aufgabe 5:**
@@ -124,7 +125,7 @@ $$\Rightarrow V_\mathrm{BZ}=\frac{(2\pi)^3}{(V_\mathrm{pEZ})^3}\cdot (\vec{a_2}\
 
 $$\Rightarrow V_\mathrm{BZ}=\frac{(2\pi)^3}{(V_\mathrm{pEZ})^3}\cdot (\vec{a_2}\times \vec{a_3})\cdot[ V_\mathrm{pEZ}]\cdot \vec{a_1} =\frac{(2\pi)^3}{(V_\mathrm{pEZ})^3}\cdot [ V_\mathrm{pEZ}]^2= \frac{(2\pi)^3}{V_\mathrm{pEZ}}$$
 
-
+## Aufgabe 6
 >__6.__ Konstruieren Sie die ersten drei Brillouin-Zonen dieses ebenen rechtwinkligen reziproken Gitters!
 
 ![ebenes rechtwinkliges reziprokes Gitter](media/rwGitter.png)
