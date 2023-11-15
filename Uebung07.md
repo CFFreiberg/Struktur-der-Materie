@@ -23,7 +23,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 ## Aufgabe 1
 
-> __1.__  Wie sind der Strukturfaktor und der Atomformfaktor definiert?
+> __1.__  Betrachten Sie die Streuamplitude der am Gitter gebeugten Röntgenstrahlung. Wie sind der Strukturfaktor und der Atomformfaktor definiert? Wie sind deren Zusammenhänge?
 
 **Lösung Aufgabe 1:**
 
