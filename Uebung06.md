@@ -96,7 +96,7 @@ Damit gilt für das orthorhombische Gitter:
 $$d_{hkl}=\frac{2\pi}{\sqrt{(\frac{h\cdot 2\pi}{a})^2+(\frac{k \cdot 2\pi}{b})^2+(\frac{l \cdot 2\pi}{c})^2}}=\frac{1}{\sqrt{(\frac{h}{a})^2+(\frac{k}{b})^2+(\frac{l}{c})^2}}$$
 
 ## Aufgabe 4
-> __4.__ Wie ist die Brillouin- Zone definiert? Zeichnen Sie für das folgende (ebene) reziproke Gitter die Brillouin- Zone!
+> __4.__ Wie ist die Brillouin-Zone definiert? Zeichnen Sie für das folgende (ebene) reziproke Gitter die Brillouin-Zone!
 
 ![Beispiel ebenes reziprokes Gitter](media/ebenesrezGitter.png)
 
