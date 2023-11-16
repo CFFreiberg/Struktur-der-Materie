@@ -101,10 +101,10 @@ $$\vec{G}= \left ( h\cdot \vec{b}_1+k\cdot \vec{b}_2+l\cdot \vec{b}_3\right)= \f
 
 Für das kubische System folgt mit 
 
-$\vec{a}_1=a\cdot \vec{\hat{x}}$, $\vec{a}_2=a\cdot \vec{\hat{y}}$  und  $\vec{a}_3=a\cdot \vec{\hat{z}}$
+$\vec{a}_1=a\cdot \vec{\hat{x}}$, $\,\,\,\vec{a}_2=a\cdot \vec{\hat{y}}$  und  $\,\,\,\vec{a}_3=a\cdot \vec{\hat{z}}$
  
  
-  wobei  $\vec{\hat{x}}$, $\vec{\hat{y}}$ und $\vec{\hat{z}}$ orthogonales System von Einheitsvektoren: 
+  wobei  $\vec{\hat{x}}$, $\,\,\,\vec{\hat{y}}$ und $\,\,\,\vec{\hat{z}}$ orthogonales System von Einheitsvektoren: 
 
 
 $$\vec{G}=\frac{2\pi}{a^3} \cdot (h\cdot  a^2 \cdot  \vec{\hat{y}}\times \vec{\hat{z}}  + k\cdot  a^2 \cdot \vec{\hat{z}}\times \vec{\hat{x}}+ l\cdot a^2 \cdot \vec{\hat{x}}\times \vec{\hat{y}})$$
