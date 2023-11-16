@@ -151,3 +151,4 @@ Die Volumina aller Brillouinzonen (bzw. Flächen im 2D) sind gleich.
 
 
 *1. BZ gelb, 2. BZ rot und 3. BZ grün; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+>>>>>>> 5239ad78e16d0cdf08919e4d8a0515efdcd2a0ab
