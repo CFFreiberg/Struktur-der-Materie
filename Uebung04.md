@@ -111,7 +111,7 @@ $$\vec{G}=\frac{2\pi}{a^3} \cdot (h\cdot  a^2 \cdot  \vec{\hat{y}}\times \vec{\h
 
 Für das kubische System gilt:
 
-$\vec{\hat{y}} \times \vec{\hat{z}}=\vec{\hat{x}}$, $\vec{\hat{z}} \times \vec{\hat{x}}=\vec{\hat{y}} $ und $\vec{\hat{x}} \times \vec{\hat{y}}=\vec{\hat{z}}$ .
+$\vec{\hat{y}} \times \vec{\hat{z}}=\vec{\hat{x}}$, $\,\,\,\vec{\hat{z}} \times \vec{\hat{x}}=\vec{\hat{y}} $ und $\,\,\,\vec{\hat{x}} \times \vec{\hat{y}}=\vec{\hat{z}}$ .
 
 $$\Rightarrow \vec{G}=\frac{2\pi a^2}{a} \cdot (h \vec{\hat{x}}  + k \cdot \vec{\hat{y}}+ l^2\cdot \vec{\hat{z}})$$
 
