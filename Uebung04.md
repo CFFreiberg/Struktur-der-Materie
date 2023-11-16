@@ -99,7 +99,12 @@ Für ein einfach kubisches Gitter gilt:
 
 $$\vec{G}= \left ( h\cdot \vec{b}_1+k\cdot \vec{b}_2+l\cdot \vec{b}_3\right)= \frac{2\pi}{a^3} \left ( h\cdot \vec{a}_2 \times \vec{a}_3 +k\cdot \vec{a}_3 \times \vec{a}_1+l\cdot \vec{a}_1 \times \vec{a}_2\right)$$
 
-Für das kubische System folgt mit $\vec{a}_1=a\cdot \vec{\hat{x}}$, $\vec{a}_2=a\cdot \vec{\hat{y}}$ und $\vec{a}_3=a\cdot \vec{\hat{z}}$ mit $\vec{\hat{x}}$, $\vec{\hat{y}}$ und $\vec{\hat{z}} orthogonales System von Einheitsvektoren: 
+Für das kubische System folgt mit 
+
+$\vec{a}_1=a\cdot \vec{\hat{x}}$, $\vec{a}_2=a\cdot \vec{\hat{y}}$  und  $\vec{a}_3=a\cdot \vec{\hat{z}}$
+ 
+ 
+  wobei  $\vec{\hat{x}}$, $\vec{\hat{y}}$ und $\vec{\hat{z}}$ orthogonales System von Einheitsvektoren: 
 
 
 $$\vec{G}=\frac{2\pi}{a^3} \cdot (h\cdot  a^2 \cdot  \vec{\hat{y}}\times \vec{\hat{z}}  + k\cdot  a^2 \cdot \vec{\hat{z}}\times \vec{\hat{x}}+ l\cdot a^2 \cdot \vec{\hat{x}}\times \vec{\hat{y}})$$
