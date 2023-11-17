@@ -152,6 +152,8 @@ $$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot S_{G_{hkl}}(\mathrm{Basis})$$
 
 > __b.__ Welches sind die Nullstellen von Strukturfaktors S für Diamant!
 
+**Lösung Aufgabe 4b:**
+
 | Indizes $h,k,l$    | $h+k+l$           |  $S_{hkl}$(Basis) | $S_{hkl}$(fcc)|$S_{G_{hkl}} $ |
 | ------------------- |:----------------:| :-----| :----- | :------ |
 | alle $h,k,l$ gerade  | $4n+2$    |0 | $4f_j$ | 0 |
@@ -164,10 +166,28 @@ $$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot S_{G_{hkl}}(\mathrm{Basis})$$
 Kleine Zusammenfassung: Keine Reflexe bei gemischten Indizes und keine Reflexe, wenn alle Indizes gerade sind und zusätzlich die Summe der Indizes nicht durch 4 teilbar ist. 
 
 ## Aufgabe 5
-> __5.__ Betrachten Sie ein lineares Gitter mit der Atomfolge ABAB….AB und einem Bindungsabstand A-B gleich ½a. Die Formfaktoren sind fA, fB entsprechend der Atome A, B. Der einfallende Röntgenstrahl stehe senkrecht auf der Atomkette. 
-a) Zeigen Sie, dass die Intensität des gebeugten Strahls für ungerade n proportional zu |fA-fB|2 ist und für gerade n proportional zu|fA+fB|2.
-b) Was passiert, wenn fA=fB ist?
+> __5.__ Betrachten Sie ein lineares Gitter mit der Atomfolge ABAB….AB und einem Bindungsabstand A-B gleich $\frac{1}{2}a$. Die Formfaktoren sind $f_A$ und  $f_B$ entsprechend der Atome A, B. Der einfallende Röntgenstrahl stehe senkrecht auf der Atomkette. 
 
+>__a.__ Zeigen Sie, dass die Intensität des gebeugten Strahls für ungerade $h$ proportional zu $|f_A-f_B|^2$ ist und für gerade $h$ proportional zu $|f_A+f_B|^2$.
+
+**Lösung Aufgabe 5a:**
+
+Das lineare Gitter lässt sich durch eine lineare Einheitszelle mit Atom A auf $x_A=0$ und Atom B auf $x_B=\frac{1}{2}$ beschreiben
+
+
+Für den Strukturfaktor gilt dann:
+
+$$ S_{G_{h}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j )\right\} =f_A\cdot 1+f_B \cdot \exp\left\{ -2\pi i (h\cdot \frac{1}{2} )\right\}=f_A\cdot 1+f_B \cdot \exp\left\{ -\pi i h)\right\}$$
+
+| Indize $h$    | $S_{h}$ | 
+| ------------- |:-------|
+|$h$ ungerade | $f_A-f_B$|
+|$h$ gerade | $f_A+f_B$|
+
+>__b.__ Was passiert, wenn $f_A=f_B$ ist?
+
+
+Für $f_A = f_B$ wäre die Gitterkonstante $\frac{a}{2}$. Mit dieser Gitterkonstanten gibt es keine Auswahlregeln.
 ## Aufgabe 6
 
 > __6.__ Bestrahlt man bei Strukturuntersuchungen Kristalle aus mehreren Atom- oder Ionensorten mit Röntgenstrahlen, so kann man auf die auftretenden Reflexe schließen – man muss allerdings beide Atomsorten getrennt beachten. Kupferoxid (Cu2O) bildet ein kubisch raumzentriertes Gitter mit einem O-Atom im Ursprung und in der Mitte der kubischen Zelle. Die Kupferatome sitzen tetraedrisch um das Sauerstoffatom und haben in der Basis die Koordinaten (a/4, a/4, a/4) (a/4, 3a/4, 3a/4), (3a/4, 3a/4, a/4), (3a/4, a/4, 3a/4). Für welche Millerschen Indizes treten Reflexe auf?
