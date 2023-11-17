@@ -192,7 +192,8 @@ ist parallel zum oben ausgerechneten:
 $$\vec{b}_1= \frac{2\pi  }{a} \cdot \left (\begin{array} {c} \ \frac{1}{\sqrt{3}} \\ 1   \\0 \end{array}\right )$$
 
 $\vec{b_1}$ und $\vec{b_1}'$ zeigen also in die gleiche Richtung.
-Analoges lässt sich für $\vec{b_2}$ und $\vec{b_2}'$ zeigen
+Analoges lässt sich für $\vec{b_2}$ und $\vec{b_2}'$ zeigen.
+
 Die Längen im reziproken Raum können nicht direkt mit denen im realen Raum verglichen werden, die Einheiten sind zueinander reziprok....
 
 Es bleibt noch anzumerken, dass die Winkel $\Theta_1$ und $\Theta_2$ zwar jeweils 30° sind. Bei genauem Betrachten wird jedoch deutlich, dass die Verdrehung zwischen $\vec{a}_1$ und $\vec{b}_1$ $\Theta_1=30°$ ist, zwischen $\vec{a}_2$ und $\vec{b}_2$ jedoch $\Theta_2=-30°$. Trotzdem wird von den $\vec{b}$-Vektoren ein hexagonales Gitter aufgespannt, welches durch eine 30°-Drehung (und Stauchung) in das ursprüngliche überführt werden kann.
