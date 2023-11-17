@@ -122,8 +122,7 @@ $$\Rightarrow  S_{G_{hkl}}= f_j\cdot(1+\exp \left\{ -\pi i (k+l )\right\}+\exp \
 
 
 ## Aufgabe 4
-> __4.__ Die Kristallstruktur des Diamants lässt sich durch ein kfz-Gitter mit der Basis 
-$(0,0,0)$ und $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$ beschreiben. Der übliche Würfel als Einheitszelle hat also 8 Atome.
+> __4.__ Die Kristallstruktur des Diamants lässt sich durch ein kfz-Gitter mit der Basis $(0,0,0)$ und $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$ beschreiben. Der übliche Würfel als Einheitszelle hat also 8 Atome.
 
 > __a.__ Bestimmen Sie den Strukturfaktor S für die Kombination des fcc-Gitters mit der oben beschriebenen 2-atomigen Basis. 
 
@@ -188,9 +187,10 @@ $$ S_{G_{h}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j )\right\} =f_A\cdo
 
 
 Für $f_A = f_B$ wäre die Gitterkonstante $\frac{a}{2}$. Mit dieser Gitterkonstanten gibt es keine Auswahlregeln.
+
 ## Aufgabe 6
 
-> __6.__ Bestrahlt man bei Strukturuntersuchungen Kristalle aus mehreren Atom- oder Ionensorten mit Röntgenstrahlen, so kann man auf die auftretenden Reflexe schließen. Man muss allerdings beide Atomsorten getrennt beachten. Kupferoxid ($\mathrm{Cu_2O}$) bildet ein kubisch raumzentriertes Gitter mit einem O-Atom im Ursprung und in der Mitte der kubischen Zelle. Die Kupferatome sitzen tetraedrisch um das Sauerstoffatom und haben in der Basis die Koordinaten $(\frac{a}{4}, \frac{a}{4}, \frac{a}{4})$;  $(\frac{a}{4}, \frac{3a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$. Für welche Millerschen Indizes (in Bezug auf die kubischen Einheitsvektoren ) treten Reflexe auf?
+> __6.__ Bestrahlt man bei Strukturuntersuchungen Kristalle aus mehreren Atom- oder Ionensorten mit Röntgenstrahlen, so kann man auf die auftretenden Reflexe schließen. Man muss allerdings beide Atomsorten getrennt beachten. Kupferoxid ($\mathrm{Cu_2O}$) bildet ein kubisch raumzentriertes Gitter mit einem O-Atom im Ursprung und ein O-Atom in der Mitte der kubischen Zelle. Die Kupferatome sitzen tetraedrisch um jedes Sauerstoffatom und haben in der Basis die Koordinaten $(\frac{a}{4}, \frac{a}{4}, \frac{a}{4})$;  $(\frac{a}{4}, \frac{3a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$. Für welche Millerschen Indizes (in Bezug auf die kubischen Einheitsvektoren ) treten Reflexe auf?
 
 ``` @Kekule.load3d(mol)
 Picture 2                                                                       
@@ -275,7 +275,39 @@ Picture 2
   8 40  1  0  0  0  0
   8 41  1  0  0  0  0
 M  END
+```
+
+**Lösung Aufgabe 6:**
+
+Die Kristallstruktur des $\mathrm{Cu_2O}$ lässt sich durch ein krz-Gitter mit der Basis 
+
+O auf $(0,0,0)$ 
 
 
-* Bild erzeugt mit der Software [Diamond von CrystalImpact](https://www.crystalimpact.com/diamond/), dort expoertiert als *.mol-Datei und im LiaScript  dargestellt mit KekuleJS von S. Zug, A. Dietrich
+Cu auf $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$
 
+Cu auf $(\frac{1}{4},\frac{3}{4},\frac{3}{4})$
+
+Cu auf $(\frac{3}{4},\frac{3}{4},\frac{1}{4})$
+
+Cu auf $(\frac{3}{4},\frac{1}{4},\frac{3}{4})$
+
+
+beschreiben.
+
+
+Betachten wir das Sauerstoffgitter. Wir haben O auf $(0,0,0)$ und auch O auf $(\frac{1}{2},\frac{1}{2},\frac{1}{2})$
+
+$$S_{hkl}(O)=f_O(1+\exp(-i\pi(h+k+l)))$$
+
+Betachten wir das Kupfergitter. Wir haben Cu auf $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$, Cu auf $(\frac{1}{4},\frac{3}{4},\frac{3}{4})$, Cu auf $(\frac{3}{4},\frac{3}{4},\frac{1}{4})$ und Cu auf $(\frac{3}{4},\frac{1}{4},\frac{3}{4})$
+
+$$S_{hkl}(Cu)=f_{Cu}\cdot\exp \left ( \frac{-i\pi}{2}(h+k+l)\right ) \cdot\left ( 1+ \exp \left ( -i\pi(k+l) \right ) + \exp \left ( -i\pi(h+k) \right )+ \exp \left ( -i\pi(h+l) \right )  \right )$$
+
+
+ Indizes $h,k,l$    | $S_{hkl}(O)$           |  $S_{hkl}(Cu)$ | Bemerkung|
+| ------------------- |:----------------:| :-----| :----- | 
+| alle $h,k,l$ gerade  | $f_O(1+1)=2f_O$    |$f_{Cu}\cdot 4(\pm 1)$ | Reflexe von beiden Atomsorten|
+| alle $h,k,l$ ungerade   | $f_O(1-1)=0$      |  $f_{Cu}\cdot 4(\pm i)$ |nur Reflexe vom Cu|
+| 1 grade, 2 ungerade |$f_O(1+1)=2f_O$|   $f_{Cu}\cdot (1-1+1-1)\cdot  \exp(\frac{-i\pi}{2}(h+k+l))=0$  |nur Reflexe von O  |$0$|
+| 2 grade, 1 ungerade |$f_O(1-1)=0$|    $f_{Cu}\cdot (1-1+1-1)\cdot  \exp(\frac{-i\pi}{2}(h+k+l))=0$   |keine Reflexe von Cu oder O |$0$|
