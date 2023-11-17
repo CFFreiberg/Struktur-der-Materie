@@ -93,6 +93,8 @@ $\Rightarrow  S_{G_{hkl}}=0$ für $h+k+l$ ungerade und $S_{G_{hkl}}=2f_j$ für $
 ## Aufgabe 3
 > __3.__ Was gilt für den Strukturfaktor des flächenzentrierten Gitters?
 
+**Lösung Aufgabe 3:**
+
 Das kubisch flächenzentrierte Gitter (kfz oder fcc) lässt sich durch eine kubische Einheitszelle mit identischen vier Atomen auf den Plätzen 
 
 $$(x_1,y_1,z_1)=(0,0,0)$$
@@ -117,13 +119,29 @@ $$\Rightarrow  S_{G_{hkl}}= f_j\cdot(1+\exp \left\{ -\pi i (k+l )\right\}+\exp \
 
 
 
-**Lösung Aufgabe 3:**
+
 
 ## Aufgabe 4
 > __4.__ Die Kristallstruktur des Diamants lässt sich durch ein kfz-Gitter mit der Basis 
-(0,0,0) und (¼, ¼, ¼) beschreiben. Der übliche Würfel als Einheitszelle hat also 8 Atome.
-a) Bestimmen Sie den Strukturfaktor S für die Kombination des fcc-Gitters mit der oben beschriebenen 2-atomigen Basis. 
-b) Welches sind die Nullstellen von Strukturfaktors S für Diamant!
+$(0,0,0)$ und $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$ beschreiben. Der übliche Würfel als Einheitszelle hat also 8 Atome.
+
+> __a.__ Bestimmen Sie den Strukturfaktor S für die Kombination des fcc-Gitters mit der oben beschriebenen 2-atomigen Basis. 
+
+**Lösung Aufgabe 4a:**
+
+Das Diamantgitter ist ein fcc-Gitter mit derzweiatomigen (Atom A, Atom B)  Basis $(x_A,y_A,z_A)=(0,0,0)$ und $(x_B,y_B,z_B)=(\frac{1}{4}, \frac{1}{4},\frac{1}{4})$
+Damit sitzen also die (gleichen) Atome auf den Positionen 
+
+|   A |    B         |      
+|:---| :---        |
+|$(x_{A1},y_{A1},z_{A1})=(0,0,0)$ | $(x_{B1},y_{B1},z_{B1})=(\frac{1}{4}, \frac{1}{4},\frac{1}{4})$|
+|$(x_{A2},y_{A2},z_{A2})=(0,\frac{1}{2},\frac{1}{2})$ | $(x_{B2},y_{B2},z_{B2})=(\frac{1}{4}, \frac{3}{4},\frac{3}{4})$|
+|$(x_{A3},y_{A3},z_{A3})=(\frac{1}{2},0,\frac{1}{2})$ | $(x_{B3},y_{B3},z_{B3})=(\frac{3}{4}, \frac{1}{4},\frac{3}{4})$|
+|$(x_{A4},y_{A4},z_{A4})=(\frac{1}{2},\frac{1}{2},0)$ | $(x_{B4},y_{B4},z_{B4})=(\frac{3}{4}, \frac{3}{4},\frac{1}{4})$|
+
+
+
+> __b.__ Welches sind die Nullstellen von Strukturfaktors S für Diamant!
 
 ## Aufgabe 5
 > __5.__ Betrachten Sie ein lineares Gitter mit der Atomfolge ABAB….AB und einem Bindungsabstand A-B gleich ½a. Die Formfaktoren sind fA, fB entsprechend der Atome A, B. Der einfallende Röntgenstrahl stehe senkrecht auf der Atomkette. 
