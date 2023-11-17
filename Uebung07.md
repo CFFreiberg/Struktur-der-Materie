@@ -74,8 +74,50 @@ $$ S_{G_{hkl}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j+k\cdot y_j+l\cdo
 ## Aufgabe 2
 > __2.__ Was gilt für den Strukturfaktor des raumzentrierten Gitters?
 
+**Lösung Aufgabe 2:**
+
+Das kubisch raumzentriertes Gitter (krz oder bcc) lässt sich durch eine kubische Einheitszelle mit identischen Atomen auf den Plätzen $(x_1,y_1,z_1)=(0,0,0)$ und $(x_2,y_2,z_2)=(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$ beschreiben.
+
+Für den Strukturfaktor gilt dann:
+
+$$ S_{G_{hkl}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j+k\cdot y_j+l\cdot z_j )\right\} $$
+
+$$\Rightarrow  S_{G_{hkl}}= f_j\cdot( \exp \left\{ -2\pi i (h\cdot 0+k\cdot 0+l\cdot 0 )\right\} +\exp \left\{ -2\pi i (h\cdot \frac{1}{2}+k\cdot \frac{1}{2}+l\cdot \frac{1}{2} )\right\})$$
+
+$$\Rightarrow  S_{G_{hkl}}=f_j\cdot(  \exp \left\{\ 0\right\} +\exp \left\{ \frac{-2\pi i}{2} (h+k+l )\right\})= f_j\cdot(  1 +\exp \left\{ -\pi i (h+k+l )\right\})$$
+
+$\Rightarrow  S_{G_{hkl}}=0$ für $h+k+l$ ungerade und $S_{G_{hkl}}=2f_j$ für $h+k+l$  gerade.
+
+
+
 ## Aufgabe 3
 > __3.__ Was gilt für den Strukturfaktor des flächenzentrierten Gitters?
+
+Das kubisch flächenzentrierte Gitter (kfz oder fcc) lässt sich durch eine kubische Einheitszelle mit identischen vier Atomen auf den Plätzen 
+
+$$(x_1,y_1,z_1)=(0,0,0)$$
+$$(x_2,y_2,z_2)=(0, \frac{1}{2},\frac{1}{2})$$
+$$(x_3,y_3,z_3)=( \frac{1}{2},0,\frac{1}{2})$$
+$$(x_4,y_4,z_4)=( \frac{1}{2},\frac{1}{2},0)$$
+
+beschreiben.
+
+Für den Strukturfaktor gilt dann:
+
+$$ S_{G_{hkl}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j+k\cdot y_j+l\cdot z_j )\right\} $$
+
+$$\Rightarrow  S_{G_{hkl}}= f_j\cdot(1+\exp \left\{ -\pi i (k+l )\right\}+\exp \left\{ -\pi i (h+l )\right\}+\exp \left\{ -\pi i (h+k )\right\})$$
+
+| Indizes $h,k,l$    |             |  $S_{hkl}$ |
+| ------------- |:----------------:| :-----|
+| alle $h,k,l$ gerade  | $\Rightarrow$    |$S_{hkl}=4\cdot f_j$ |
+| alle $h,k,l$ ungerade  | $\Rightarrow$         |  $S_{hkl}=4\cdot f_j$  |
+| Indizes gemischt gerade und ungerade |$\Rightarrow$ |    $S_{hkl}=0$  |
+
+
+
+
+**Lösung Aufgabe 3:**
 
 ## Aufgabe 4
 > __4.__ Die Kristallstruktur des Diamants lässt sich durch ein kfz-Gitter mit der Basis 
