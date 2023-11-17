@@ -143,10 +143,25 @@ Der Strukturfaktor berechnet sich damit zu
 
 $$ S_{G_{hkl}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j+k\cdot y_j+l\cdot z_j )\right\} $$
 
-$$\Rightarrow S_{G_{hkl}}=f\cdot \left ( 1+ \exp(-i\pi(k+l))+\exp(-i\pi(h+l))+\exp(-i\pi(h+k)) +\exp(\frac{-i\pi}{2}(h+k+l)) +\exp(\frac{-i\pi}{2}(h+3k+3l))+\exp(\frac{-i\pi}{2}(3h+k+3l)) +\exp(\frac{-i\pi}{2}(3h+3k+l)) \right )$$
+$$\Rightarrow S_{G_{hkl}}=f\cdot \left ( 1+ \exp(-i\pi(k+l))+\exp(-i\pi(h+l))+\exp(-i\pi(h+k))) +\exp(\frac{-i\pi}{2}(h+k+l)) +\exp(\frac{-i\pi}{2}(h+3k+3l))+\exp(\frac{-i\pi}{2}(3h+k+3l)) +\exp(\frac{-i\pi}{2}(3h+3k+l)) \right )$$
+
+$$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot\left ( 1+\exp\left (\frac{-i\pi}{2}(h+k+l) \right )  \right )$$
+
+$$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot S_{G_{hkl}}(\mathrm{Basis})$$
 
 
 > __b.__ Welches sind die Nullstellen von Strukturfaktors S für Diamant!
+
+| Indizes $h,k,l$    | $h+k+l$           |  $S_{hkl}$(Basis) | $S_{hkl}$(fcc)|$S_{G_{hkl}} $ |
+| ------------------- |:----------------:| :-----| :----- | :------ |
+| alle $h,k,l$ gerade  | $4n+2$    |0 | $4f_j$ | 0 |
+| alle $h,k,l$ gerade   | $4n$        |  2 |$4f_j$   |$8f_j$|
+| alle $h,k,l$ ungerade |$2n+1$, $n$ gerade|    $1-i$  |$4f_j$  |$4f_j\cdot(1-i)$|
+| alle $h,k,l$ ungerade |$2n+1$, $n$ ungerade|    $1+i$  |$4f_j$  |$4f_j\cdot(1+i)$|
+| 1 grade, 2 ungerade |gerade|    $0$  |$0$  |$0$|
+| 2 grade, 1 ungerade |ungerade|    $0$  |$0$  |$0$|
+
+Kleine Zusammenfassung: Keine Reflexe bei gemischten Indizes und keine Reflexe, wenn alle Indizes gerade sind und zusätzlich die Summe der Indizes nicht durch 4 teilbar ist. 
 
 ## Aufgabe 5
 > __5.__ Betrachten Sie ein lineares Gitter mit der Atomfolge ABAB….AB und einem Bindungsabstand A-B gleich ½a. Die Formfaktoren sind fA, fB entsprechend der Atome A, B. Der einfallende Röntgenstrahl stehe senkrecht auf der Atomkette. 
