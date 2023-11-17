@@ -147,6 +147,8 @@ $$
 
 ![primitive Gittervektoren hexagonales Gitter und reziproke Gittervektoren hexagonales Gitter](media/hexagonal_real_reziprok.png)
 
+*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
 $$\vec{b}_1=\frac{2\pi}{V_\mathrm{EZ}}\cdot a\cdot c\cdot \left (\begin{array} {c} \ -\frac{1}{2} \sqrt{3}  \\ \frac{1}{2} \\0 \end{array}\right ) \times \left (\begin{array} {c} \ 0 \\ \ 0 \\ 1 \end{array}\right )$$
 
 $$\Rightarrow  \vec{b}_1=\frac{2\pi a c }{V_\mathrm{EZ}} \cdot \left (\begin{array} {c} \ \frac{1}{2} \\ \frac{1}{2} \sqrt{3}  \\0 \end{array}\right )= \frac{2\pi  }{a} \cdot \left (\begin{array} {c} \ \frac{1}{\sqrt{3}} \\ 1   \\0 \end{array}\right )$$
