@@ -9,7 +9,7 @@ language: de
 
 narrator: Deutsch Female
 
-comment:  Struktur der Materie Übung 6
+comment:  Struktur der Materie Übung 7
 
 import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
