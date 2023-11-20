@@ -149,7 +149,7 @@ $$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot\left ( 1+\exp\left (\frac{-i\pi}
 $$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot S_{G_{hkl}}(\mathrm{Basis})$$
 
 
-> __b.__ Welches sind die Nullstellen von Strukturfaktors S für Diamant!
+> __b.__ Welches sind die Nullstellen von Strukturfaktors S für Diamant?
 
 **Lösung Aufgabe 4b:**
 
@@ -165,7 +165,7 @@ $$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot S_{G_{hkl}}(\mathrm{Basis})$$
 Kleine Zusammenfassung: Keine Reflexe bei gemischten Indizes und keine Reflexe, wenn alle Indizes gerade sind und zusätzlich die Summe der Indizes nicht durch 4 teilbar ist. 
 
 ## Aufgabe 5
-> __5.__ Betrachten Sie ein lineares Gitter mit der Atomfolge ABAB….AB und einem Bindungsabstand A-B gleich $\frac{1}{2}a$. Die Formfaktoren sind $f_A$ und  $f_B$ entsprechend der Atome A, B. Der einfallende Röntgenstrahl stehe senkrecht auf der Atomkette. 
+> __5.__ Betrachten Sie ein lineares Gitter mit der Atomfolge ABAB….AB und einem Bindungsabstand A-B gleich $\frac{1}{2}a$. Die Atomformfaktoren sind $f_A$ und  $f_B$ entsprechend der Atome A, B. Der einfallende Röntgenstrahl stehe senkrecht auf der Atomkette. 
 
 >__a.__ Zeigen Sie, dass die Intensität des gebeugten Strahls für ungerade $h$ proportional zu $|f_A-f_B|^2$ ist und für gerade $h$ proportional zu $|f_A+f_B|^2$.
 
@@ -192,7 +192,11 @@ Für $f_A = f_B$ wäre die Gitterkonstante $\frac{a}{2}$. Mit dieser Gitterkonst
 
 > __6.__ Bestrahlt man bei Strukturuntersuchungen Kristalle aus mehreren Atom- oder Ionensorten mit Röntgenstrahlen, so kann man auf die auftretenden Reflexe vorhersagen. Die Überlegungen werden vereinfacht, wenn  beide Atomsorten getrennt betrachtet werden. Kupferoxid ($\mathrm{Cu_2O}$, Cuprit) bildet ein kubisch raumzentriertes Gitter mit einem $O$-Atom im Ursprung und ein $O$-Atom in der Mitte der kubischen Zelle. Die Kupferatome sitzen tetraedrisch um jedes Sauerstoffatom. Die Basis für das kubisch raumzentrierte Gitter ist damit  $O$ auf $(0,0,0)$ und $Cu$ auf $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$. Die Kupferatome haben damit die Koordinaten $(\frac{a}{4}, \frac{a}{4}, \frac{a}{4})$;  $(\frac{a}{4}, \frac{3a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$. Für welche Millerschen Indizes (in Bezug auf die kubischen Einheitsvektoren ) treten Reflexe an Cuprit auf?
 
+![kubisch raumzentrierte Einheitszelle $Cu_2O$](media/Cu2O1000063Pic3.png)
+![kubisch raumzentrierte Einheitszelle $Cu_2O$](media/Cu2O1000063.png)
 
+
+**Lösung Aufgabe 6:**
 
 ``` @Kekule.load3d(mol)
 Picture 1                                                                       
@@ -222,7 +226,7 @@ Picture 1
   9 13  1  0  0  0  0
 M  END
 ```
-**Lösung Aufgabe 6:**
+
 
 Zuerst muss überlegt werden, auf welchen Koordinaten welche Atome sitzen. 
 
@@ -250,8 +254,14 @@ Cu auf $(\frac{3}{4},\frac{1}{4},\frac{3}{4})$
 
 
 Also:
-$$S_{hkl}(Cu)=f_{Cu}\cdot\exp \left ( \frac{-i\pi}{2}(h+k+l)\right ) \cdot\left ( 1+ \exp \left ( -i\pi(k+l) \right ) + \exp \left ( -i\pi(h+k) \right )+ \exp \left ( -i\pi(h+l) \right )  \right )$$
+$$S_{hkl}(Cu)=f_{Cu} \left (\exp \left (\frac{-i\pi}{2}(h+k+l) \right ) + \exp \left ( -i\pi(h+3k+3l) \right ) + \exp \left ( -i\pi(3h+3k+l) \right )+ \exp \left ( -i\pi(3h+k+3l) \right )  \right )$$
 
+$$\Rightarrow 
+S_{hkl}(Cu)=f_{Cu}\cdot\exp \left ( \frac{-i\pi}{2}(h+k+l)\right ) \cdot\left ( 1+ \exp \left ( -i\pi(k+l) \right ) + \exp \left ( -i\pi(h+k) \right )+ \exp \left ( -i\pi(h+l) \right )  \right )$$
+
+Für das Cuprit als Ganzes lässt sich die Streuamplitude aus den einzelnen Komponenten zusammensetzen:
+
+$$S_{hkl}​(Cu_2O)=S_{hkl}(Cu)+S_{hkl}(O)$$
 
 |Indizes $h,k,l$    | $S_{hkl}(O)$           |  $S_{hkl}(Cu)$ | Bemerkung|
 | ------------------- |:----------------:| :-----| :----- | 
