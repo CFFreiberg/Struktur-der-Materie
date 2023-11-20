@@ -188,15 +188,17 @@ $$ S_{G_{h}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j )\right\} =f_A\cdo
 
 Für $f_A = f_B$ wäre die Gitterkonstante $\frac{a}{2}$. Mit dieser Gitterkonstanten gibt es keine Auswahlregeln.
 
-## Aufgabe 6
+## Aufgabe 6 (Reflexe an Mischkristallen)
 
-> __6.__ Bestrahlt man bei Strukturuntersuchungen Kristalle aus mehreren Atom- oder Ionensorten mit Röntgenstrahlen, so kann man auf die auftretenden Reflexe schließen. Man muss allerdings beide Atomsorten getrennt beachten. Kupferoxid ($\mathrm{Cu_2O}$) bildet ein kubisch raumzentriertes Gitter mit einem O-Atom im Ursprung und ein O-Atom in der Mitte der kubischen Zelle. Die Kupferatome sitzen tetraedrisch um jedes Sauerstoffatom und haben in der Basis die Koordinaten $(\frac{a}{4}, \frac{a}{4}, \frac{a}{4})$;  $(\frac{a}{4}, \frac{3a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$. Für welche Millerschen Indizes (in Bezug auf die kubischen Einheitsvektoren ) treten Reflexe auf?
+> __6.__ Bestrahlt man bei Strukturuntersuchungen Kristalle aus mehreren Atom- oder Ionensorten mit Röntgenstrahlen, so kann man auf die auftretenden Reflexe vorhersagen. Die Überlegungen werden vereinfacht, wenn  beide Atomsorten getrennt betrachtet werden. Kupferoxid ($\mathrm{Cu_2O}$, Cuprit) bildet ein kubisch raumzentriertes Gitter mit einem $O$-Atom im Ursprung und ein $O$-Atom in der Mitte der kubischen Zelle. Die Kupferatome sitzen tetraedrisch um jedes Sauerstoffatom. Die Basis für das kubisch raumzentrierte Gitter ist damit  $O$ auf $(0,0,0)$ und $Cu$ auf $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$. Die Kupferatome haben damit die Koordinaten $(\frac{a}{4}, \frac{a}{4}, \frac{a}{4})$;  $(\frac{a}{4}, \frac{3a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$. Für welche Millerschen Indizes (in Bezug auf die kubischen Einheitsvektoren ) treten Reflexe an Cuprit auf?
+
+
 
 ``` @Kekule.load3d(mol)
-Picture 2                                                                       
+Picture 1                                                                       
   PPPPPPPP          3D                              
 
- 41 36  0  0  0  0  0  0  0  0  0     
+ 13  8  0  0  0  0  0  0  0  0  0     
     0.0000    0.0000    0.0000 O   0  6  0  1
     4.2520    0.0000    0.0000 O   0  6  0  1
     0.0000    4.2520    0.0000 O   0  6  0  1
@@ -210,34 +212,6 @@ Picture 2
     1.0630    3.1890    3.1890 Cu  0  3  0  1
     3.1890    3.1890    1.0630 Cu  0  3  0  1
     3.1890    1.0630    3.1890 Cu  0  3  0  1
-   -1.0630    1.0630   -1.0630 Cu  0  3  0  1
-    1.0630   -1.0630   -1.0630 Cu  0  3  0  1
-   -1.0630   -1.0630    1.0630 Cu  0  3  0  1
-    5.3150    1.0630    1.0630 Cu  0  3  0  1
-    3.1890    1.0630   -1.0630 Cu  0  3  0  1
-    5.3150   -1.0630   -1.0630 Cu  0  3  0  1
-    3.1890   -1.0630    1.0630 Cu  0  3  0  1
-    1.0630    5.3150    1.0630 Cu  0  3  0  1
-   -1.0630    5.3150   -1.0630 Cu  0  3  0  1
-    1.0630    3.1890   -1.0630 Cu  0  3  0  1
-   -1.0630    3.1890    1.0630 Cu  0  3  0  1
-    5.3150    5.3150    1.0630 Cu  0  3  0  1
-    3.1890    5.3150   -1.0630 Cu  0  3  0  1
-    5.3150    3.1890   -1.0630 Cu  0  3  0  1
-    1.0630    1.0630    5.3150 Cu  0  3  0  1
-   -1.0630    1.0630    3.1890 Cu  0  3  0  1
-    1.0630   -1.0630    3.1890 Cu  0  3  0  1
-   -1.0630   -1.0630    5.3150 Cu  0  3  0  1
-    5.3150    1.0630    5.3150 Cu  0  3  0  1
-    5.3150   -1.0630    3.1890 Cu  0  3  0  1
-    3.1890   -1.0630    5.3150 Cu  0  3  0  1
-    1.0630    5.3150    5.3150 Cu  0  3  0  1
-   -1.0630    5.3150    3.1890 Cu  0  3  0  1
-   -1.0630    3.1890    5.3150 Cu  0  3  0  1
-    5.3150    5.3150    5.3150 Cu  0  3  0  1
-    3.1890    5.3150    3.1890 Cu  0  3  0  1
-    5.3150    3.1890    3.1890 Cu  0  3  0  1
-    3.1890    3.1890    5.3150 Cu  0  3  0  1
   1 10  1  0  0  0  0
   4 12  1  0  0  0  0
   6 13  1  0  0  0  0
@@ -246,43 +220,24 @@ Picture 2
   9 11  1  0  0  0  0
   9 12  1  0  0  0  0
   9 13  1  0  0  0  0
-  1 14  1  0  0  0  0
-  1 15  1  0  0  0  0
-  1 16  1  0  0  0  0
-  2 17  1  0  0  0  0
-  2 18  1  0  0  0  0
-  2 19  1  0  0  0  0
-  2 20  1  0  0  0  0
-  3 21  1  0  0  0  0
-  3 22  1  0  0  0  0
-  3 23  1  0  0  0  0
-  3 24  1  0  0  0  0
-  4 25  1  0  0  0  0
-  4 26  1  0  0  0  0
-  4 27  1  0  0  0  0
-  5 28  1  0  0  0  0
-  5 29  1  0  0  0  0
-  5 30  1  0  0  0  0
-  5 31  1  0  0  0  0
-  6 32  1  0  0  0  0
-  6 33  1  0  0  0  0
-  6 34  1  0  0  0  0
-  7 35  1  0  0  0  0
-  7 36  1  0  0  0  0
-  7 37  1  0  0  0  0
-  8 38  1  0  0  0  0
-  8 39  1  0  0  0  0
-  8 40  1  0  0  0  0
-  8 41  1  0  0  0  0
 M  END
 ```
-
 **Lösung Aufgabe 6:**
 
-Die Kristallstruktur des $\mathrm{Cu_2O}$ lässt sich durch ein krz-Gitter mit der Basis 
+Zuerst muss überlegt werden, auf welchen Koordinaten welche Atome sitzen. 
+
+***Sauerstoff:***
 
 O auf $(0,0,0)$ 
 
+O auf $\frac{1}{2},\frac{1}{2},\frac{1}{2}$
+
+Also:
+$$S_{hkl}(O)=f_O(1+\exp(-i\pi(h+k+l)))$$
+
+
+
+***Kupfer:***
 
 Cu auf $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$
 
@@ -293,19 +248,12 @@ Cu auf $(\frac{3}{4},\frac{3}{4},\frac{1}{4})$
 Cu auf $(\frac{3}{4},\frac{1}{4},\frac{3}{4})$
 
 
-beschreiben.
 
-
-Betachten wir das Sauerstoffgitter. Wir haben O auf $(0,0,0)$ und auch O auf $(\frac{1}{2},\frac{1}{2},\frac{1}{2})$
-
-$$S_{hkl}(O)=f_O(1+\exp(-i\pi(h+k+l)))$$
-
-Betachten wir das Kupfergitter. Wir haben Cu auf $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$, Cu auf $(\frac{1}{4},\frac{3}{4},\frac{3}{4})$, Cu auf $(\frac{3}{4},\frac{3}{4},\frac{1}{4})$ und Cu auf $(\frac{3}{4},\frac{1}{4},\frac{3}{4})$
-
+Also:
 $$S_{hkl}(Cu)=f_{Cu}\cdot\exp \left ( \frac{-i\pi}{2}(h+k+l)\right ) \cdot\left ( 1+ \exp \left ( -i\pi(k+l) \right ) + \exp \left ( -i\pi(h+k) \right )+ \exp \left ( -i\pi(h+l) \right )  \right )$$
 
 
- Indizes $h,k,l$    | $S_{hkl}(O)$           |  $S_{hkl}(Cu)$ | Bemerkung|
+|Indizes $h,k,l$    | $S_{hkl}(O)$           |  $S_{hkl}(Cu)$ | Bemerkung|
 | ------------------- |:----------------:| :-----| :----- | 
 | alle $h,k,l$ gerade  | $f_O(1+1)=2f_O$    |$f_{Cu}\cdot 4(\pm 1)$ | Reflexe von beiden Atomsorten|
 | alle $h,k,l$ ungerade   | $f_O(1-1)=0$      |  $f_{Cu}\cdot 4(\pm i)$ |nur Reflexe vom Cu|
