@@ -192,8 +192,9 @@ Für $f_A = f_B$ wäre die Gitterkonstante $\frac{a}{2}$. Mit dieser Gitterkonst
 
 > __6.__ Bestrahlt man bei Strukturuntersuchungen Kristalle aus mehreren Atom- oder Ionensorten mit Röntgenstrahlen, so kann man auf die auftretenden Reflexe vorhersagen. Die Überlegungen werden vereinfacht, wenn  beide Atomsorten getrennt betrachtet werden. Kupferoxid ($\mathrm{Cu_2O}$, Cuprit) bildet ein kubisch raumzentriertes Gitter mit einem $O$-Atom im Ursprung und ein $O$-Atom in der Mitte der kubischen Zelle. Die Kupferatome sitzen tetraedrisch um jedes Sauerstoffatom. Die Basis für das kubisch raumzentrierte Gitter ist damit  $O$ auf $(0,0,0)$ und $Cu$ auf $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$. Die Kupferatome haben damit die Koordinaten $(\frac{a}{4}, \frac{a}{4}, \frac{a}{4})$;  $(\frac{a}{4}, \frac{3a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$. Für welche Millerschen Indizes (in Bezug auf die kubischen Einheitsvektoren ) treten Reflexe an Cuprit auf?
 
-![kubisch raumzentrierte Einheitszelle $Cu_2O$](media/Cu2O1000063Pic3.png)
-![kubisch raumzentrierte Einheitszelle $Cu_2O$](media/Cu2O1000063.png)
+![kubisch raumzentrierte Einheitszelle $Cu_2O$](media/Cu2O1000063Pic3.png)![kubisch raumzentrierte Einheitszelle $Cu_2O$](media/Cu2O1000063.png)
+
+*Quelle:  Claudia Funke, licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/) erstellt mit [Diamond](https://www.crystalimpact.com/diamond/) *
 
 
 **Lösung Aufgabe 6:**
