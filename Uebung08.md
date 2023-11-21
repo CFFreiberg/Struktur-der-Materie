@@ -67,21 +67,41 @@ $$ \sin^2(\theta)=\left (\frac{\lambda}{2a} \right )^2(h^2+k^2+l^2)$$
 
 Eine Auftragung des Beugungsspektrums über $\sin ^2\theta$ und ein Vergleich mit den vorhandenen Reflexen bei den $h^2+k^2+l^2$-Werten ermöglicht eine Unterscheidung von sc-, bcc- und fcc-Gittern.
 
-## Aufgabe 2
+## Aufgabe 2 (Breite des Beugungsmaximums)
 > __2.__  Betrachten Sie einen linearen (eindimensionalen)  Kristall mit den  Gitterpunkten $r=m\cdot a$ mit  $m \in \mathbb{Z}$ und $a=$ Gitterkonstante. Auf jedem der Gitterpunkte sitzt ein identisches, punktförmiges Streuzentrum. In Analogie zur Streuamplitude in einem realen Kristall $F=\sum_G \int n_G \cdot \exp(i(\vec{G}-\vec{\Delta k})\cdot\vec{r})\cdot dV$  ist die Gesamtstreuamplitude der Streustrahlung proportional zu  $F=\sum_{m=0}^M  \exp(-i m a \Delta k)$. Atome werden von einer kohärenten Welle $\Psi_Q=\Psi_{Q,0}e^{i(k_oy-\omega t)}$ angeregt. Die Summe über $M$ Gitterpunkte hat den Wert 
 
-$$f=\frac{1-\exp(-iM(a\cdot \Delta k))}{1-\exp(-i(a\cdot \Delta k))}$$
+$$F=\frac{1-\exp(-iM(a\cdot \Delta k))}{1-\exp(-i(a\cdot \Delta k))}$$
 >unter Verwendung der Reihenentwicklung 
 $$ \sum_{M=0}^{M-1}x^m=\frac{1-x^M}{1-x}$$
 >Die gestreute Intensität ist proportional zu $|F|^2$. 
 
 > __a)__ Zeigen Sie, dass gilt:
-$$|F|^2 \equiv F\cdot $$
+$$|F|^2 \equiv F\cdot \overline{F}=\frac{\sin^2\left( \frac{1}{2}M(a\cdot\Delta k)\right )}{\sin^2\left( \frac{1}{2}(a\cdot\Delta k)\right )}$$
 
 **Lösung Aufgabe 2a:**
 
+$|F|^2 \equiv F\cdot \bar{F}$ muss berechnet werden. Dazu benötigen wir das konjugiert Komplexe von $F$. Mit $ \overline{\left(\frac{z_1}{z_2}\right)} = \frac{\overline z_1}{\overline z_2}$ für $ z_2 \ne 0 $ folgt:
 
-In Analogie zu $F=\sum_G \int n_G \cdot \exp((i\vec{G}-\vec{\Delta k})\cdot\vec{r})$  ist die Gesamtstreuamplitude der Streustrahlung proportional zu  $F=\sum_m  n_G \cdot \exp((-i m a \Delta k))$. Die Summe über $M$ Gitterpunkte hat (unter Verwendung von $\sum_{m=0} ^{M-1}x^m=\frac{1-x^M}{1-x}$   folgenden Wert: $F=\frac{1-\exp\left(-iM(a\Delta k) \right)}{1-\exp\left(-ia\Delta k  \right)}$ . Die gestreute Intensität ist proportional zu $|F|^2$ . 
+$$\overline{F}=\frac{1-\exp(+iM(a\cdot \Delta k))}{1-\exp(+i(a\cdot \Delta k))}$$
 
-> __a.__  Zeigen Sie, dass   gilt!
-b) Für ak=2h, h ganze Zahl, erscheint ein Beugungsmaximum. Ändern wir k geringfügig und definieren uns ein  in ak=2h+  so, dass den Ort des ersten Nulldurchgangs der Funktion sin(1/2M(ak) angibt. Zeigen Sie, dass gilt /M, so dass die Breite des Beugungsmaximums proportional zu 1/M ist und dadurch für große Werte von M extrem schmal werden kann. 
+Und damit :
+
+$$|F|^2 \equiv F\cdot \bar{F}=\frac{1-\exp(-iM(a\cdot \Delta k))}{1-\exp(-i(a\cdot \Delta k))}\cdot \frac{1-\exp(+iM(a\cdot \Delta k))}{1-\exp(+i(a\cdot \Delta k))}$$
+
+$$\Rightarrow |F|^2=\frac{1-\exp(+iM(a\cdot \Delta k))-\exp(-iM(a\cdot \Delta k))+1}{1-\exp(+i(a\cdot \Delta k))-\exp(-i(a\cdot \Delta k))+1}$$ 
+
+Da $e^{ix}=\cos(x)+i\sin(x)$ folgt mit $e^{ix}+e^{-ix}=2\cos(x)$
+
+$$\Rightarrow |F|^2=\frac{2-2\cos(Ma\Delta k)}{2-2\cos(a \Delta k)}=\frac{1-\cos(Ma\Delta k)}{1-\cos(a \Delta k)}$$
+
+Mit $\cos(2x)=1-\sin^2(2x)$ folgt:
+
+$$\Rightarrow |F|^2=\frac{1-(1-2\sin^2(\frac{1}{²}Ma\Delta k))}{1-(1-2\sin^2(\frac{1}{2}a \Delta k))}=\frac{\sin^2(\frac{1}{²}Ma\Delta k)}{\sin^2(\frac{1}{2}a \Delta k)}$$
+
+
+![Beugungsmaxima](https://www.geogebra.org/calculator/nup3rbjn)
+
+
+$|F|^2$ hat damit Nullstellen bei $a\cdot \Delta k=2\pi h$, ($h \in \mathbb{Z}$)
+
+> __b.__ Für $a\Delta k=2\pi h$ mit $h \in \mathbb{Z} $ erscheint ein Beugungsmaximum. Ändern wir $\Delta k$ geringfügig und definieren uns ein $\epsilon$ in $a \Delta k=2\pi h+\epsilon$ so, dass $\epsilon$ den Ort des ersten Nulldurchgangs der Funktion $\sin(\frac{1}{²}Ma\Delta k)$ angibt. Zeigen Sie, dass gilt $\epsilon=\frac{2\pi}{M}$, so dass die Breite des Beugungsmaximums proportional zu $\frac{1}{M}$ist und dadurch für große Werte von $M$ extrem schmal werden kann. 
