@@ -68,14 +68,20 @@ $$ \sin^2(\theta)=\left (\frac{\lambda}{2a} \right )^2(h^2+k^2+l^2)$$
 Eine Auftragung des Beugungsspektrums über $\sin ^2\theta$ und ein Vergleich mit den vorhandenen Reflexen bei den $h^2+k^2+l^2$-Werten ermöglicht eine Unterscheidung von sc-, bcc- und fcc-Gittern.
 
 ## Aufgabe 2
-> __2.__  Betrachten Sie einen linearen (eindimensionalen)  Kristall mit den  Gitterpunkten $r=m\cdot a$ mit  $m \in \mathbb{Z}$ und $a=$ Gitterkonstante. Auf jedem der Gitterpunkte sitzt ein identisches, punktförmiges Streuzentrum. Diese Atome werden von einer kohärenten Welle $\Psi_Q=\Psi_{Q,0}e^{i(k_oy-\omega t)}$ angeregt. Die Atome strahlen dann selbst kohärent und ohne Phasenverschiebung Kugelwellen mit der Frequenz $\omega$ ab: $\Psi=\frac{\Psi_0}{r}e^{i(\vec{k}\vec{r}-\omega t)} $ ab.
+> __2.__  Betrachten Sie einen linearen (eindimensionalen)  Kristall mit den  Gitterpunkten $r=m\cdot a$ mit  $m \in \mathbb{Z}$ und $a=$ Gitterkonstante. Auf jedem der Gitterpunkte sitzt ein identisches, punktförmiges Streuzentrum. In Analogie zur Streuamplitude in einem realen Kristall $F=\sum_G \int n_G \cdot \exp(i(\vec{G}-\vec{\Delta k})\cdot\vec{r})\cdot dV$  ist die Gesamtstreuamplitude der Streustrahlung proportional zu  $F=\sum_{m=0}^M  \exp(-i m a \Delta k)$. Atome werden von einer kohärenten Welle $\Psi_Q=\Psi_{Q,0}e^{i(k_oy-\omega t)}$ angeregt. Die Summe über $M$ Gitterpunkte hat den Wert 
 
-> __a)__  Welche Intensität wird mit einem Detektor gemessender sich weit weg vom Gitter im Abstand $L$ auf der $x$-Achse befindet?
+$$f=\frac{1-\exp(-iM(a\cdot \Delta k))}{1-\exp(-i(a\cdot \Delta k))}$$
+>unter Verwendung der Reihenentwicklung 
+$$ \sum_{M=0}^{M-1}x^m=\frac{1-x^M}{1-x}$$
+>Die gestreute Intensität ist proportional zu $|F|^2$. 
+
+> __a)__ Zeigen Sie, dass gilt:
+$$|F|^2 \equiv F\cdot $$
 
 **Lösung Aufgabe 2a:**
 
 
-, In Analogie zu $F=\sum_G \int n_G \cdot \exp((i\vec{G}-\vec{\Delta k})\cdot\vec{r})$  ist die Gesamtstreuamplitude der Streustrahlung proportional zu  $F=\sum_m  n_G \cdot \exp((-i m a \Delta k))$. Die Summe über $M$ Gitterpunkte hat (unter Verwendung von $\sum_{m=0} ^{M-1}x^m=\frac{1-x^M}{1-x}$   folgenden Wert: $F=\frac{1-\exp\left(-iM(a\Delta k) \right)}{1-\exp\left(-ia\Delta k  \right)}$ . Die gestreute Intensität ist proportional zu $|F|^2$ . 
+In Analogie zu $F=\sum_G \int n_G \cdot \exp((i\vec{G}-\vec{\Delta k})\cdot\vec{r})$  ist die Gesamtstreuamplitude der Streustrahlung proportional zu  $F=\sum_m  n_G \cdot \exp((-i m a \Delta k))$. Die Summe über $M$ Gitterpunkte hat (unter Verwendung von $\sum_{m=0} ^{M-1}x^m=\frac{1-x^M}{1-x}$   folgenden Wert: $F=\frac{1-\exp\left(-iM(a\Delta k) \right)}{1-\exp\left(-ia\Delta k  \right)}$ . Die gestreute Intensität ist proportional zu $|F|^2$ . 
 
 > __a.__  Zeigen Sie, dass   gilt!
 b) Für ak=2h, h ganze Zahl, erscheint ein Beugungsmaximum. Ändern wir k geringfügig und definieren uns ein  in ak=2h+  so, dass den Ort des ersten Nulldurchgangs der Funktion sin(1/2M(ak) angibt. Zeigen Sie, dass gilt /M, so dass die Breite des Beugungsmaximums proportional zu 1/M ist und dadurch für große Werte von M extrem schmal werden kann. 
