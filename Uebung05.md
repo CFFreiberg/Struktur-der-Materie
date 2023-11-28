@@ -41,7 +41,7 @@ __c.__  Berechnen Sie $z\cdot \bar{z}$.
 
 **Lösung Aufgabe 1c:**
 
-$z\cdot \bar{z}=a^4+b^2=|z|^2 \ne z^2$
+$z\cdot \bar{z}=a^2+b^2=|z|^2 \ne z^2$
 
 __d.__  Berechnen Sie $(a+ib)+(c+id)$.
 
