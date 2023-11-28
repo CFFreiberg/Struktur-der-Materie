@@ -47,7 +47,7 @@ __d.__  Berechnen Sie $(a+ib)+(c+id)$.
 
 **Lösung Aufgabe 1d:**
 
-$(a+ib)+(c+id)=(a+c)+i\cdot(b+f)$
+$(a+ib)+(c+id)=(a+c)+i\cdot(b+d)$
 
 
 __e.__  Berechnen Sie $(a+ib)\cdot(c+id)$.
@@ -55,7 +55,7 @@ __e.__  Berechnen Sie $(a+ib)\cdot(c+id)$.
 
 **Lösung Aufgabe 1e:**
 
-$(a+ib)\cdot(c+id)=a\cdot c -b \cdot +i\cdot (bc+ad)$
+$(a+ib)\cdot(c+id)=a\cdot c -b \cdot d +i\cdot (bc+ad)$
 
 
 
@@ -65,7 +65,7 @@ __f.__  Berechnen Sie $\frac{(a+ib)}{(c+id)}$
 **Lösung Aufgabe 1f:**
 
 
- $$\frac{(a+ib)}{(c+id)}=\frac{(a+ib)\cdot (c+id) }{(c+id)^2}=\frac{ac+bd+i(bc-ad)}{c^2+d^2}$$
+ $$\frac{(a+ib)}{(c+id)}=\frac{(a+ib)\cdot (c-id) }{(c+id)\cdot (c-id)}=\frac{ac+bd+i(bc-ad)}{c^2+d^2}$$
 
 
 __g.__  Es gelte $r=|z|=\sqrt{a^2+b^2} $. Wie kann man die komplexe Zahl $z=a+ib=r\cdot e^{i\cdot \varphi}$ anschaulich darstellen? Ist $\varphi$ eindeutig definiert?
@@ -83,7 +83,7 @@ für $\varphi$ gilt: $\varphi= \arctan  ( \frac{b}{a})$ mit $0 \le \varphi \le 2
 ## Aufgabe 2
 
 
-> __2.__ Die Elektronendichte werde durch folgende Reihe beschrieben: $n(x) =\sum_p n_p \cdot \exp(\frac{2 \pi i\cdot p\cdot x}{a}) $. Was muss für die Koeffizienten $n_p$ gelten, damit die Elektronendichte eine reelle Funktion wird? 
+> __2.__ Die Elektronendichte $n(x)$  werde durch folgende Reihe beschrieben: $n(x) =\sum_p n_p \cdot \exp(\frac{2 \pi i\cdot p\cdot x}{a}) $. Was muss für die Koeffizienten $n_p$ gelten, damit die Elektronendichte eine reelle Funktion wird? 
 
 **Lösung Aufgabe 2:**
 
@@ -95,11 +95,11 @@ Daraus folgt dann:
 
 $$n_p \cdot e^{\frac{2\pi p ix}{a}}+n_{-p} \cdot e^{\frac{-2\pi p ix}{a}}=n_p (\cos(\varphi)+i\sin(\varphi))+n_{-p} (\cos(\varphi)-i\sin(\varphi))$$
 
-$$=(n_p+n_{-p})\cdot \cos(\varphi)+ (n_p-n_{-p}) \cdot \sin(\varphi)$$
+$$=(n_p+n_{-p})\cdot \cos(\varphi)+ i \cdot (n_p-n_{-p}) \cdot \sin(\varphi)$$
 
 Mit der Annahme  $n_p=\bar{n}_{-p}$ folgt:
 
-$$=2\cdot \mathrm{Re}(n_p) \cdot \cos(\varphi)+ 2i \cdot \mathrm{Im}(n_p) \cdot i \cdot\sin(\varphi)$$
+$$n_p \cdot e^{\frac{2\pi p ix}{a}}+n_{-p} \cdot e^{\frac{-2\pi p ix}{a}}=2\cdot \mathrm{Re}(n_p) \cdot \cos(\varphi)+ 2i \cdot \mathrm{Im}(n_p) \cdot i \cdot\sin(\varphi)$$
 
 $$=2\cdot \mathrm{Re}(n_p) \cdot \cos(\varphi)- 2 \cdot  \mathrm{Im}(n_p)  \cdot\sin(\varphi)$$
 
@@ -108,7 +108,7 @@ Das bedeutet unter anderem,  dass mit  $n_p=a+ib$ gleichzeitig $n_{-p}=a-ib$ gel
 
 
 ## Aufgabe 3
->__3.__ Leiten Sie die Bragg-Bedingung für eine Schar paralleler Netzebenen her, deren gegenseitiger Abstand gleich $d$ ist. Der Winkel zwischen Einfallsrichtung und Netzebene wird mit $\Theta$ bezeichnet. 
+>__3.__ Leiten Sie die Bragg-Bedingung für eine Schar paralleler Netzebenen her, deren gegenseitiger Abstand gleich $d$ ist. Der Winkel zwischen Einfallsrichtung und Netzebene wird mit $\theta$ bezeichnet. 
 
 
 
@@ -120,7 +120,7 @@ Das bedeutet unter anderem,  dass mit  $n_p=a+ib$ gleichzeitig $n_{-p}=a-ib$ gel
 
 Die Bragg-Bedingung für konstruktive Interferrenz ist:
 
-$n\cdot \lambda =2d\cdot \sin (\Theta)$.
+$n\cdot \lambda =2d\cdot \sin (\theta)$.
 
 Dann ist der Weglängenunterschied benachbarter reflektierter Strahlen ein Vielfaches von $\lambda$, und es findet keine Auslöschung sondern konstruktive Interferrenz statt.
 
@@ -133,10 +133,10 @@ Dann ist der Weglängenunterschied benachbarter reflektierter Strahlen ein Vielf
 
 
 Die Bragg-Bedingung für konstruktive Interferrenz ist 
-$n\cdot \lambda =2d\cdot \sin (\varphi)$. 
+$n\cdot \lambda =2d\cdot \sin (\theta)$. 
 
 Es gilt immer 
-$\sin (\varphi) \le 1$. Also folgt für $n=1$ 
+$\sin (\theta) \le 1$. Also folgt für $n=1$ 
 
 $$\lambda \le 2\cdot d $$
 
