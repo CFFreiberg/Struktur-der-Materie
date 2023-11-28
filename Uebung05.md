@@ -154,7 +154,7 @@ Die Anordnung der Atome in der Basis bestimmt die relativen Intensitäten der ve
 ## Aufgabe 6:
 
 
->__6.__ Eine der Darstellungen von Beugungsbedingungen (Bragg-Bedingungen) lautet $\Delta k=G$. Wie wird diese Bedingung anschaulich in der Ewaldkonstruktion dargestellt? Zeichnen Sie in die folgende Abbildung der reziproken Gitterpunkte die Ewaldkonstruktion für einen einfallenden Wellenvektor mit $\vec{k}=1\cdot \vec{b}_1$  . Markieren sie die reziproken Gitterpunkte, an denen die Bragg-Bedingung erfüllt ist.
+>__6.__ Eine der Darstellungen von Beugungsbedingungen (Bragg-Bedingungen) lautet $\Delta k=G$. Wie wird diese Bedingung anschaulich in der Ewaldkonstruktion dargestellt? Zeichnen Sie in die folgende Abbildung der reziproken Gitterpunkte die Ewaldkonstruktion für einen einfallenden Wellenvektor mit $\vec{k}=2\cdot \vec{b}_1$  . Markieren sie die reziproken Gitterpunkte, an denen die Bragg-Bedingung erfüllt ist.
 
 ![reziprokes Gitter für Ewaldkonstruktion](media/VorlageEwaldkonstruktion.png)
 
