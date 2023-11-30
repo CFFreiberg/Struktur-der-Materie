@@ -152,29 +152,40 @@ $\varphi$ ist der Azimutwinkel, $\theta$ der Höhenwinkel vom Pol aus gemessen u
 *[Volumenelement in Kugelkoordinaten](https://mediathek.htw-berlin.de/getMedium/50f14be8a5d003c8a5d2daa9f5f6fc79.pdf)*
 
 
-$$V = dV=\int dx \cdot dy \cdot dz= (r d\theta)\cdot(dr)\cdot(r \sin \theta d \varphi)=r^2\sin \theta \cdot dr \cdot  d\varphi \cdot d\theta=-r^2 dr \cdot  d\varphi \cdot d(\cos \theta)$$
+$$dV= dx \cdot dy \cdot dz= (r d\theta)\cdot(dr)\cdot(r \sin \theta d \varphi)=r^2\sin \theta \cdot dr \cdot  d\varphi \cdot d\theta=-r^2 dr \cdot  d\varphi \cdot d(\cos \theta)$$
 
 Damit folgt für eine allgemeine Funktion $f(x,y,z)$
-$$\Rightarrow f(x,y,z)=\int_V f(x,y,z) dx \cdot dy \cdot dz =\int_{0}^{R}\int_{0}^{2\pi}\int_{0}^{\pi}{f(r,\varphi, \theta)\cdot r^2\sin{\theta\ d\theta\ d\varphi\ dr}}$$
+$$\Rightarrow \int dV f(x,y,z)=\int_V f(x,y,z) dx \cdot dy \cdot dz =\int_{r=0}^{\infty}\int_{\varphi=0}^{2\pi}\int_{\theta=0}^{\pi}{f(r,\varphi, \theta)\cdot r^2\sin{\theta\ d\theta\ d\varphi\ dr}}$$
 Für den Atomformfaktor vom H-Atom gilt damit:
 
-$$f_H=\int_V dV \cdot n_H(r) \exp (-i \Delta \vec{ k} \cdot \vec{r}) = \int_{0}^{R}\int_{0}^{2\pi}\int_{0}^{\pi}{r^2\sin{\theta\ d\theta\ d\varphi\ dr}}$$
+$$f_H=\int_V dV \cdot n_H(r) \exp (-i \Delta \vec{ k} \cdot \vec{r}) = \int_{0}^{\infty}\int_{0}^{2\pi}\int_{0}^{\pi}  r^2\sin{\theta\ d\theta\ d\varphi\ dr} \cdot {n_H(r) \exp (-i \Delta \vec{ k} \cdot \vec{r})}$$
 
-f_H\ =\ nrexp-i∆krdV    mit ∆k r= ∆k r cos θ
 
-f_H=nrexp-i∆krcos θdVr2sinθ dθ dφ dr
-mit -dcos  = sin  d
 
- f_H\ =\ \ 0R02π-11nrexp-i∆krcos θr2dcosθ dφ dr
+$$\Rightarrow f_H= \int_{0}^{\infty}\int_{0}^{2\pi}\int_{0}^{\pi}  -r^2 (d (\cos\theta)) \ d\varphi\ dr \cdot {n_H(r) \exp (-i \Delta \vec{ k} \cdot \vec{r})}$$
 
-mit \int{\exp{\left(ax\right)}=\exp{\left(ax\right)}/a}
-f_H=2\pi\int_{0}^{R}{n\left(r\right)r^2}exp-i∆krcos θ-i∆kr-11dr
-mit exp(ix) – exp(-ix) = 2i sin x
+$$\Rightarrow f_H= 2\pi \int_{0}^{\infty}\int_{\cos \theta = 1}^{\cos \theta =-1}  -r^2 (d (\cos\theta)) \  dr \cdot {n_H(r) \exp (-i \Delta k r \cos \theta)}$$
 
-f_H=2\pi0Rnr∆krr22sin∆krdr
-Elektronendichteverteilung für H-Atom:
 
-n(r) = \frac{1}{\pi a^3}exp \left(-\frac{2r}{a}\right)      a = Bohr-Radius
+wobei $\theta$ der Winkel zwischen $\vec{r}$ und $\Delta \vec{k} $ ist. Das Integral nach $d \cos \theta$ kann einfach durchgeführt werden. Beim Vertauschen der Integrationsgrenzen fällt auch das vordere  $-$ weg.
+
+$$\Rightarrow f_H= 2\pi \int_{0}^{\infty} \left [n_H(r) \cdot   r^2 \cdot \frac{{ \exp (-i k r \cos \theta)}}{-i \Delta kr} \right]_{-1}^{1} dr $$
+
+$$\Rightarrow f_H= 2\pi \int_{0}^{\infty} \left (n_H(r) \cdot   r^2 \cdot \frac{{ \exp (-i k r 1)-\exp (-i k r (-1))}}{-i \Delta kr} \right) dr $$
+
+mit $\exp(ix) – \exp(-ix) = 2i \sin x$ folgt:
+
+$$\Rightarrow f_H= 2\pi \int_{0}^{\infty} \left (\frac{n_H(r)}{\Delta kr} \cdot   r^2 \cdot 2 \sin ( \Delta k r ) \right) dr $$
+
+An dieser Stelle kann nun die Elektronendichteverteilung für H-Atom $n(r)=\frac{1}{\pi a_0^3}\exp\left ( \frac{-2r}{a_0}\right)$
+mit $a_0$ der Bohrscher Radius eingesetzt werden:.
+
+
+$$\Rightarrow f_H= 4\pi \int_{0}^{\infty} \left (\frac{\frac{1}{\pi a_0^3}\exp\left ( \frac{-2r}{a_0}\right)}{\Delta kr} \cdot   r^2 \cdot 2 \sin ( \Delta k r ) \right) dr $$
+
+$$\Rightarrow f_H= \frac{4}{a_0^3} \int_{0}^{\infty} \left ( \exp\left ( \frac{-2r}{a_0}\right)\cdot   r^2 \cdot \frac{ \sin ( \Delta k r ) }{\Delta kr} \right) dr $$
+
+
 
 f_H=4\pi0∞1πa3exp-2rar2sin∆kr∆kr dr
 
