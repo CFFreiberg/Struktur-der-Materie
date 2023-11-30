@@ -41,7 +41,7 @@ Damit ergibt sich
 
 $$V_\mathrm{EZ}=\vec{a}_1\cdot (\vec{a}_2\times \vec{a}_3)=\frac{a^3}{8}\left(\begin{array}{c} 0 \\ 1 \\ 1 \end{array}\right)\cdot \left [\left(\begin{array}{c} 1 \\ 0 \\ 1 \end{array}\right) \times \left(\begin{array}{c} 1 \\ 1 \\ 0 \end{array}\right) \right ]$$
 
-$$\Rightarrow V_\mathrm{EZ}=\frac{a^3}{8}\left(\begin{array}{c} 1 \\ 1 \\ 0 \end{array}\right)\cdot \left(\begin{array}{c} 1 \\ 1 \\ -1 \end{array}\right)=\frac{1}{4}a^3$$
+$$\Rightarrow V_\mathrm{EZ}=\frac{a^3}{8}\left(\begin{array}{c} 0 \\ 1 \\ 1 \end{array}\right)\cdot \left(\begin{array}{c} -1 \\ 1 \\ 1 \end{array}\right)=\frac{1}{4}a^3$$
 
 Laut Definition sind die reziproken Gittervektoren damit 
 
