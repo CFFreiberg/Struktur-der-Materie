@@ -68,12 +68,15 @@ $$ \sin^2(\theta)=\left (\frac{\lambda}{2a} \right )^2(h^2+k^2+l^2)$$
 Eine Auftragung des Beugungsspektrums über $\sin ^2\theta$ und ein Vergleich mit den vorhandenen Reflexen bei den $h^2+k^2+l^2$-Werten ermöglicht eine Unterscheidung von sc-, bcc- und fcc-Gittern.
 
 ## Aufgabe 2 (Breite des Beugungsmaximums)
-> __2.__  Betrachten Sie einen linearen (eindimensionalen)  Kristall mit den  Gitterpunkten $r=m\cdot a$ mit  $m \in \mathbb{Z}$ und $a=$ Gitterkonstante. Auf jedem der Gitterpunkte sitzt ein identisches, punktförmiges Streuzentrum. In Analogie zur Streuamplitude in einem realen Kristall $F=\sum_G \int n_G \cdot \exp(i(\vec{G}-\vec{\Delta k})\cdot\vec{r})\cdot dV$  ist die Gesamtstreuamplitude der Streustrahlung proportional zu  $F=\sum_{m=0}^M  \exp(-i m a \Delta k)$. Atome werden von einer kohärenten Welle $\Psi_Q=\Psi_{Q,0}e^{i(k_oy-\omega t)}$ angeregt. Die Summe über $M$ Gitterpunkte hat den Wert 
+> __2.__  Betrachten Sie einen linearen (eindimensionalen)  Kristall mit den  Gitterpunkten $r=m\cdot a$ mit  $m \in \mathbb{Z}$ und $a=$ Gitterkonstante. Auf jedem der Gitterpunkte sitzt ein identisches, punktförmiges Streuzentrum. In Analogie zur Streuamplitude in einem realen Kristall $F=\sum_G \int n_G \cdot \exp(i(\vec{G}-\vec{\Delta k})\cdot\vec{r})\cdot dV$  ist die Gesamtstreuamplitude der Streustrahlung proportional zu  $F=\sum_{m=0}^M  \exp(-i m a \Delta k)$. Atome werden von einer kohärenten Welle $\Psi_Q=\Psi_{Q,0}e^{i(k_oy-\omega t)}$ angeregt. Die Summe über $M$ Gitterpunkte hat unter Verwendung der Reihenentwicklung 
+
+$$ \sum_{M=0}^{M-1}x^m=\frac{1-x^M}{1-x}$$
+
+> den Wert 
 
 $$F=\frac{1-\exp(-iM(a\cdot \Delta k))}{1-\exp(-i(a\cdot \Delta k))}$$
->unter Verwendung der Reihenentwicklung 
-$$ \sum_{M=0}^{M-1}x^m=\frac{1-x^M}{1-x}$$
->Die gestreute Intensität ist proportional zu $|F|^2$. 
+
+> Die gestreute Intensität ist proportional zu $|F|^2$. 
 
 > __a)__ Zeigen Sie, dass gilt:
 $$|F|^2 \equiv F\cdot \overline{F}=\frac{\sin^2\left( \frac{1}{2}M(a\cdot\Delta k)\right )}{\sin^2\left( \frac{1}{2}(a\cdot\Delta k)\right )}$$
@@ -102,7 +105,7 @@ $$\Rightarrow |F|^2=\frac{1-(1-2\sin^2(\frac{1}{2}Ma\Delta k))}{1-(1-2\sin^2(\fr
 ![Beugungsmaxima](media/BreiteBeugungsmaximum.png)
 
 
-*$|F|^2$ als Funktion von $\Delta k $ in Einheiten von $\frac{2 \pi}{a}$;  Quelle:  Claudia Funke, erstellt in GeoGebra, licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+*Intensitätsverteilung $|F|^2$ bei der Beugung an einem eindimensionalen Gitter mit $M=5$ und $M=10$ Atomen. Auf der $x$-Achse ist $\frac{\Delta ka}{2\pi}$ aufgetragen;  Quelle:  Claudia Funke, erstellt in GeoGebra, licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 $|F|^2$ hat damit Hauptmaxima bei $a\cdot \Delta k=2\pi h$, ($h \in \mathbb{Z}$)
 
@@ -113,7 +116,7 @@ $|F|^2$ hat damit Hauptmaxima bei $a\cdot \Delta k=2\pi h$, ($h \in \mathbb{Z}$)
 $|F|^2$ hat  Hauptmaxima bei $a\cdot \Delta k=2\pi h$, ($h \in \mathbb{Z}$)
 Für die Umgebung der Maxima $a\Delta k=2\pi h + \epsilon $ folgt mit der Läsung von a):
 
-$$|F|^2=\frac{\sin^2(\frac{1}{2}Ma\Delta k)}{\sin^2(\frac{1}{2}a \Delta k)}=\frac{\sin^2(\frac{1}{2}M(2\pi h+\epsilon))}{\sin^2(\frac{1}{2}a \Delta k)}$$
+$$|F|^2=\frac{\sin^2(\frac{1}{2}Ma\Delta k)}{\sin^2(\frac{1}{2}a \Delta k)}=\frac{\sin^2(\frac{1}{2}M(2\pi h+\epsilon))}{\sin^2(\frac{1}{2}(2 \pi  h + \epsilon))}$$
 
 Betrachten wir den Term im Zähler genauer. Mit den Additionstheoremen für den Sinus einer Summe $\sin(x_1​+x_2​)=\sin(x_1)\cdot  \mathrm{​cos}(x_2)​+\sin(x_2)\cdot \mathrm{​cos}(x_1)$ folgt​
 $$\sin(\frac{1}{2}M(2\pi h+\epsilon))=\sin(M \pi h+\frac{M\epsilon}{2})=\sin(M \pi h)\cdot \cos(\frac{M\epsilon}{2})+\sin(\frac{M\epsilon}{2})\cdot \cos(M\pi h)$$
@@ -149,7 +152,7 @@ $\varphi$ ist der Azimutwinkel, $\theta$ der Höhenwinkel vom Pol aus gemessen u
 
 ![Volumenelement in Kugekoordinaten](media/VolumenelemntKugelkoordinaten.png)
 
-*[Volumenelement in Kugelkoordinaten](https://mediathek.htw-berlin.de/getMedium/50f14be8a5d003c8a5d2daa9f5f6fc79.pdf)*
+*[Volumenelement in Kugelkoordinaten, Quelle HTW Berlin](https://mediathek.htw-berlin.de/getMedium/50f14be8a5d003c8a5d2daa9f5f6fc79.pdf)*
 
 
 $$dV= dx \cdot dy \cdot dz= (r d\theta)\cdot(dr)\cdot(r \sin \theta d \varphi)=r^2\sin \theta \cdot dr \cdot  d\varphi \cdot d\theta=-r^2 dr \cdot  d\varphi \cdot d(\cos \theta)$$
@@ -185,29 +188,45 @@ $$\Rightarrow f_H= 4\pi \int_{0}^{\infty} \left (\frac{\frac{1}{\pi a_0^3}\exp\l
 
 $$\Rightarrow f_H= \frac{4}{a_0^3} \int_{0}^{\infty} \left ( \exp\left ( \frac{-2r}{a_0}\right)\cdot   r^2 \cdot \frac{ \sin ( \Delta k r ) }{\Delta kr} \right) dr $$
 
+Dafür muss bei dem Ausdruck für $f_H$ folgende Substitution vorgenommen werden:
+
+$\Delta k \cdot r=x$ und $\Delta k dr=dx$
+
+$$\Rightarrow f_H= \frac{4}{a_0^3 } \int_{0}^{\infty} \frac{x^2}{\Delta k^2}e^{  \frac{-2x}{a_0\cdot \Delta k}} \cdot  \frac{ \sin ( x ) }{x} \frac{dx}{\Delta k}=  \frac{4}{a_0^3 \Delta k^3} \int_{0}^{\infty} x e^{  \frac{-2x}{a_0\cdot \Delta k}} \cdot   \sin ( x )  dx$$
+
+An dieser Stelle benötigt der Normalmensch ein [Onlinetool zum Integrallösen](https://www.wolframalpha.com/calculators/integral-calculator/) oder ein altes Tafelwerk ([Bronstein Nr. 463](https://zbmath.org/?q=an:0997.00529)) .
+
+Mit größerer Wahrscheinlichkeit kommen Sie zu folgender Erkenntnis, dass sich folgendes Integral nutzen lässt:
+
+$$\int e^{ax}\cdot x \cdot \sin(bx) dx=\frac{x\cdot e^{ax}}{a^2+b^2}[a \sin(bx)-b \cos(bx)]-\frac{ e^{ax}}{(a^2+b^2)^2}[(a^2-b^2) \sin(bx)-2ab \cos(bx)]$$
+
+Dabei ist $a=  \frac{-2}{a_0\cdot \Delta k}$ und $b=1$.
+
+Einsetzen der Integrationsgrenzen:
+
+*  für $x\rightarrow \infty$ gilt $\frac{x\cdot e^{ax}}{a^2+b^2} \rightarrow 0$, da $a=a=  \frac{-2}{a_0\cdot \Delta k}$ negativ ist.
+*  für $x\rightarrow \infty$ gilt $\frac{ e^{ax}}{a^2+b^2} \rightarrow 0$, da $a=a=  \frac{-2}{a_0\cdot \Delta k}$ negativ ist.
 
 
-f_H=4\pi0∞1πa3exp-2rar2sin∆kr∆kr dr
+*  für $x\rightarrow 0$ gilt $\frac{x\cdot e^{ax}}{a^2+b^2} \rightarrow 0$, da $x\rightarrow 0$ im Produkt steht und $e^{ax} \rightarrow1$
+*  für $x\rightarrow 0$ gilt $\frac{ e^{ax}}{a^2+b^2} \rightarrow \frac{1}{(a^2+b^2)^2}$
 
-Substitution: ∆kr = x,\ ∆kdr =dx
+Damit folgt für diesen Spezialfall der Integrationsgrenzen:
 
-f_H=4∆k3a30∞x exp-2x∆kasin x dx
-Unbestimmtes Integral siehe Bronstein Nr. 463
+$$\int_0^{\infty} e^{ax}\cdot x \cdot \sin(bx) dx=\frac{1}{(a^2+b^2)^2}\cdot 2 a b \cos(b\cdot 0)=\frac{2 a b}{(a^2+b^2)^2}$$
 
-\intxexp\left(\alpha x\right)sin\left(\beta x\right) = J1 + J2 = J
-                                   = \frac{x\ exp\left(\alpha x\right)}{\alpha^2+\beta^2}\left(\alpha\ sin\left(\beta x\right)-\beta\ cos\left(\alpha x\right)\right)-
-                                      expαx(α2+β2)²α2-β2sinβx-2αβcosβx
+Nun wird  $a=  \frac{-2}{a_0\cdot \Delta k}$ und $b=1$ zurück eingesetzt:
+$$f_H=  \frac{4}{a_0^3 \Delta k^3} \cdot \frac{2\left (-\frac{2}{\Delta k a_0} \cdot 1\right )}{\left (\left(-\frac{2}{\Delta k a_0}\right)^2 + 1^2 \right)^2}=\frac{-16}{a_0^4 \Delta k^4 \left (\left(-\frac{2}{\Delta k a_0}\right)^2 + 1^2 \right)^2}=\frac{-16}{  \left(4 +  \Delta k^2 a_0^2 \right)^2}$$
 
-Mit \alpha\ =\ -2∆ka<0 und \beta=1 ergibt sich 
-für x = \infty\ : J1 = 0 und J2 = 0
-und für x = 0 : J1 = 0 und J2 = J = \frac{2\alpha\beta}{\left(\alpha^2+\beta^2\right)^2}   
- J(\infty) – J(0) = -J2                        
+Beachten Sie:
 
-f_H=4∆k3a3-2-2∆ka-2∆ka2+12  = 16∆k4a41-2∆ka2+12    
 
-\ f_{H\ }=\ 164+∆k2a22
++ für die Vorwärtsstreuung, d. h.  $\Delta k=0$      ist $ f_{H }=1$. Das entspricht der Ladung des H-Atoms .
 
-für ∆k=0     Vorwärtsstreuung ist\ f_{H\ }=1 Ladung H-Atom
++ für die Rutherford Streuung $\Delta k \cdot  a\gg 1 $   ist $ f_{H } \sim\ \frac{1}{\Delta k^4}$
 
-für ∆ka≫ 1 (Rutherford Streuung) ist  f_{H\ }~\ 1∆k4~ 1sin4θ
+
+Bitte beachten Sie, dass bei der Streuung an einem einzelnen Atom alle Streuvektoren $\Delta k$ erlaubt sind, im Gegensatz zur Streuung am Kristall. 
+
+Geschafft!
 
