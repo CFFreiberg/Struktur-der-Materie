@@ -85,7 +85,7 @@ $$z=a+i\cdot b=r\cdot e^{i\cdot \varphi}=r(\cos(\varphi)+i\cdot \sin(\varphi) )$
 
 für $\varphi$ gilt: $\varphi= \arctan  ( \frac{b}{a})$ mit $0 \le \varphi \le 2\pi$
 
-![komplexe Zahlenebene](media/imaginaereZahl.png)
+![komplexe Zahlenebene](media/imaginaereZahl.png "*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
 ## Aufgabe 2
 
@@ -121,9 +121,9 @@ Das bedeutet unter anderem,  dass mit  $n_p=a+ib$ gleichzeitig $n_{-p}=a-ib$ gel
 
 **Lösung Aufgabe 3:**
 
-![](https://virtuelle-experimente.de/bilder/elektronenbeugung/Bragg-Bedingung.png)
+![](https://virtuelle-experimente.de/bilder/elektronenbeugung/Bragg-Bedingung.png "*Quelle: [Darstellung der Braggbedingung für n=2](https://virtuelle-experimente.de/elektronenbeugung/einfuehrung/bragg-bedingung.php)*")
 
-*Quelle: [Darstellung der Braggbedingung für n=2](https://virtuelle-experimente.de/elektronenbeugung/einfuehrung/bragg-bedingung.php)*
+
 
 Die Bragg-Bedingung für konstruktive Interferrenz ist:
 
@@ -163,14 +163,13 @@ Die Anordnung der Atome in der Basis bestimmt die relativen Intensitäten der ve
 
 >__6.__ Eine der Darstellungen von Beugungsbedingungen (Bragg-Bedingungen) lautet $\Delta k=G$. Wie wird diese Bedingung anschaulich in der Ewaldkonstruktion dargestellt? Zeichnen Sie in die folgende Abbildung der reziproken Gitterpunkte die Ewaldkonstruktion für einen einfallenden Wellenvektor mit $\vec{k}=2\cdot \vec{b}_1$  . Markieren sie die reziproken Gitterpunkte, an denen die Bragg-Bedingung erfüllt ist.
 
-![reziprokes Gitter für Ewaldkonstruktion](media/VorlageEwaldkonstruktion.png)
+![reziprokes Gitter für Ewaldkonstruktion](media/VorlageEwaldkonstruktion.png "*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
-*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
 
 **Lösung Aufgabe 6:**
 
-![Ewaldkonstruktion](media/Ewaldkonstruktion.png)
+![Ewaldkonstruktion](media/Ewaldkonstruktion.png "*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
-*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 
