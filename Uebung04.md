@@ -10,6 +10,14 @@ language: de
 narrator: Deutsch Female
 
 comment:  Struktur der Materie Übung 4
+
+@style
+.lia-toc__bottom {
+    display: none;
+}
+@end
+
+
 -->
 
 

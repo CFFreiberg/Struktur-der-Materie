@@ -3,6 +3,13 @@ author: Claudia Funke
 email: claudia.funke@physik.tu-freiberg.de
 title: Übung Struktur der Materie I, Arbeitsblatt 3
 
+@style
+.lia-toc__bottom {
+    display: none;
+}
+@end
+
+
 -->
 
 # Übung 3, Kristallgitter

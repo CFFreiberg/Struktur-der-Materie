@@ -4,6 +4,12 @@ email: claudia.funke@physik.tu-freiberg.de
 title: Übung 1 Aufgabe 3
 version: 1.0
 
+@style
+.lia-toc__bottom {
+    display: none;
+}
+@end
+
 -->
 
 # Aufgabe 3

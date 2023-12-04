@@ -4,6 +4,13 @@ email: claudia.funke@physik.tu-freiberg.de
 title: Unterschied zwischen Schoenflies-Symbolik und Hermann -Maugin-Notation
 version: 1.0
 
+@style
+.lia-toc__bottom {
+    display: none;
+}
+@end
+
+
 -->
 
 # Was ist der Unterschied zwischen Schoenflies-Symbolik und Hermann-Mauguin-Notation?

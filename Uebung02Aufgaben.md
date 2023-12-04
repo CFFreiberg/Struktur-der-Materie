@@ -4,6 +4,13 @@ email: claudia.funke@physik.tu-freiberg.de
 title: Übung 2 Aufgaben
 version: 1.0
 
+@style
+.lia-toc__bottom {
+    display: none;
+}
+@end
+
+
 -->
 ## Thema: Kristallgitter 
 ## Lösung Aufgabe 1
