@@ -125,7 +125,7 @@ $$\Rightarrow |\vec{G}|=\frac{2\pi}{a} \sqrt{h^2  + k^2 + l^2} $$
 $$\Rightarrow d_\mathrm{hkl} =\frac{2\pi}{|\vec{G}|}=2\pi\cdot \frac{a}{2\pi(\sqrt{h^2  + k^2 + l^2} }=\frac{a}{\sqrt{h^2+k^2+l^2}}$$
 
 
-## Aufgabe 5:
+## Aufgabe 5
 
 
 >__5.__ Die primitiven Translationsvektoren des hexagonalen Raumgitters können geschrieben werden als  $\vec{a}_1=\frac{\sqrt{3}a}{2}\cdot \hat{x}+ \frac{a}{2}\cdot \hat{y}$ und $\vec{a}_2=-\frac{\sqrt{3}a}{2}\cdot \hat{x}+ \frac{a}{2}\cdot \hat{y}$ und $\vec{a}_3=c\cdot \hat{z}$.
