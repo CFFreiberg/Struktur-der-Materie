@@ -11,6 +11,13 @@ narrator: Deutsch Female
 
 comment:  Struktur der Materie Übung 6
 
+@style
+.lia-toc__bottom {
+    display: none;
+}
+@end
+
+
 import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 -->
