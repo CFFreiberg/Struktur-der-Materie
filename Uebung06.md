@@ -105,9 +105,9 @@ $$d_{hkl}=\frac{2\pi}{\sqrt{(\frac{h\cdot 2\pi}{a})^2+(\frac{k \cdot 2\pi}{b})^2
 ## Aufgabe 4
 > __4.__ Wie ist die Brillouin-Zone definiert? Zeichnen Sie für das folgende (ebene) reziproke Gitter die Brillouin-Zone!
 
-![Beispiel ebenes reziprokes Gitter](media/ebenesrezGitter.png)
+![Beispiel ebenes reziprokes Gitter](media/ebenesrezGitter.png "*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
-*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
 
 **Lösung Aufgabe 4:**
 
@@ -115,9 +115,8 @@ Die Wigner-Seitz-Zelle bezeichnet eine spezielle primitive Zelle eines Kristallg
 
 Für die Konstruktion in 2D wählt man einen Gitterpunkt und halbiert die Verbindungsstrecken zu allen anderen Punkten des Kristallgitters durch Mittelsenkrechten. So erhält man um den Gitterpunkt herum eine Fläche, die durch die Mittelsenkrechten begrenzt wird. Dies ist die Wigner-Seitz-Zelle. 
 
-![1. Brillouinzone für Beispiel von reziprokem Gitter](media/BZebenesrezGitter.png)
+![1. Brillouinzone für Beispiel von reziprokem Gitter](media/BZebenesrezGitter.png "*Quelle:  [TU Graz: Brillouin zones of two-dimensional Bravais lattices](http://lampx.tugraz.at/~hadley/ss2/fermisurface/2d_fermisurface/2dBz.php ) mit $\frac{b}{a}=1,2$ und $\gamma =70°$*")
 
-*Quelle:  [TU Graz: Brillouin zones of two-dimensional Bravais lattices](http://lampx.tugraz.at/~hadley/ss2/fermisurface/2d_fermisurface/2dBz.php ) mit $\frac{b}{a}=1,2$ und $\gamma =70°$*
 
 Probieren Sie den Link in der Abbildungsunterschrift bitte mal aus und variieren Sie die Parameter.
 
@@ -135,9 +134,9 @@ $$\Rightarrow V_\mathrm{BZ}=\frac{(2\pi)^3}{(V_\mathrm{pEZ})^3}\cdot (\vec{a_2}\
 ## Aufgabe 6
 >__6.__ Konstruieren Sie die ersten drei Brillouin-Zonen dieses ebenen rechtwinkligen reziproken Gitters!
 
-![ebenes rechtwinkliges reziprokes Gitter](media/rwGitter.png)
+![ebenes rechtwinkliges reziprokes Gitter](media/rwGitter.png "*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
-*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
 
 **Lösung Aufgabe 6**
 
@@ -154,7 +153,7 @@ Wenn sie die gleiche Grenze zweimal überqueren, zählt sie nicht mit.
 
 Die Volumina aller Brillouinzonen (bzw. Flächen im 2D) sind gleich.
 
-![1, 2, und 3. Brillouinzone vom ebenen rechtwinkligem reziproken Gitter](media/1-3BZ.png)
+![1, 2, und 3. Brillouinzone vom ebenen rechtwinkligem reziproken Gitter](media/1-3BZ.png "*1. BZ gelb, 2. BZ rot und 3. BZ grün; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
 
-*1. BZ gelb, 2. BZ rot und 3. BZ grün; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
