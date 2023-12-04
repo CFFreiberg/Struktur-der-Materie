@@ -9,7 +9,7 @@ language: de
 
 narrator: Deutsch Female
 
-comment:  Struktur der Materie Übung 6
+comment:  Struktur der Materie Übung 8
 @style
 .lia-toc__bottom {
     display: none;
@@ -43,6 +43,8 @@ $S_{hkl}= f_j$ mit $f_j=$ Atomformfaktor
 ***kubisch flächenzentriert (fcc):***
 
 $S_{hkl}=4\cdot f_j$ für alle $ h,k,l$ gerade oder alle $h,k,l$ ungerade. Sonst Null
+
+<!-- data-type="none" -->
 
 |$ h^2+ k^2 +l^2$| sc $(hkl)$| bcc $(hkl)$ |fcc $(hkl)$|
 |:---|:---|:---|:---|
@@ -107,10 +109,9 @@ Mit $\cos(2x)=1-\sin^2(2x)$ folgt:
 $$\Rightarrow |F|^2=\frac{1-(1-2\sin^2(\frac{1}{2}Ma\Delta k))}{1-(1-2\sin^2(\frac{1}{2}a \Delta k))}=\frac{\sin^2(\frac{1}{²}Ma\Delta k)}{\sin^2(\frac{1}{2}a \Delta k)}$$
 
 
-![Beugungsmaxima](media/BreiteBeugungsmaximum.png)
+![Beugungsmaxima](media/BreiteBeugungsmaximum.png "*Intensitätsverteilung $|F|^2$ bei der Beugung an einem eindimensionalen Gitter mit $M=5$ und $M=10$ Atomen. Auf der $x$-Achse ist $\frac{\Delta ka}{2\pi}$ aufgetragen;  Quelle:  Claudia Funke, erstellt in GeoGebra, licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
 
-*Intensitätsverteilung $|F|^2$ bei der Beugung an einem eindimensionalen Gitter mit $M=5$ und $M=10$ Atomen. Auf der $x$-Achse ist $\frac{\Delta ka}{2\pi}$ aufgetragen;  Quelle:  Claudia Funke, erstellt in GeoGebra, licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 $|F|^2$ hat damit Hauptmaxima bei $a\cdot \Delta k=2\pi h$, ($h \in \mathbb{Z}$)
 
@@ -145,9 +146,8 @@ $$f_{\Delta k}=\frac{16}{4+\Delta k^2\cdot a_0^2}$$
 
 Für das radialsymmetrische H-Atomist es sinvoll, Kugelkordinaten $(r, \varphi, \theta)$ zu nutzen:
 
-![Definition Kugelkoordinaten](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kugelkoord-def.svg/450px-Kugelkoord-def.svg.png)
+![Definition Kugelkoordinaten](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kugelkoord-def.svg/450px-Kugelkoord-def.svg.png "*Kugelkoordinaten $(r ,\varphi ,\theta ,)$ eines Punktes P und kartesisches Koordinatensystem mit den Achsen x , y , z. Quelle: wikipedia, Author Ag2gaeh, [CC BY-SA 4.0 Deed](https://creativecommons.org/licenses/by-sa/4.0/)*")
 
-*Kugelkoordinaten $(r ,\varphi ,\theta ,)$ eines Punktes P und kartesisches Koordinatensystem mit den Achsen x , y , z. Quelle: wikipedia, Author Ag2gaeh, [CC BY-SA 4.0 Deed](https://creativecommons.org/licenses/by-sa/4.0/)*
 
 $$x = r \cdot \cos \varphi \sin \theta$$
 $$y =r \cdot \sin \varphi \sin \theta$$
@@ -155,9 +155,9 @@ $$z = r \cdot  \cos \varphi$$
 
 $\varphi$ ist der Azimutwinkel, $\theta$ der Höhenwinkel vom Pol aus gemessen und $r$ der Abstand zum Ursprung. Es gilt für das Volumenelemt $dV$:
 
-![Volumenelement in Kugekoordinaten](media/VolumenelemntKugelkoordinaten.png)
+![Volumenelement in Kugekoordinaten](media/VolumenelemntKugelkoordinaten.png "*[Volumenelement in Kugelkoordinaten, Quelle HTW Berlin](https://mediathek.htw-berlin.de/getMedium/50f14be8a5d003c8a5d2daa9f5f6fc79.pdf)*")
 
-*[Volumenelement in Kugelkoordinaten, Quelle HTW Berlin](https://mediathek.htw-berlin.de/getMedium/50f14be8a5d003c8a5d2daa9f5f6fc79.pdf)*
+
 
 
 $$dV= dx \cdot dy \cdot dz= (r d\theta)\cdot(dr)\cdot(r \sin \theta d \varphi)=r^2\sin \theta \cdot dr \cdot  d\varphi \cdot d\theta=-r^2 dr \cdot  d\varphi \cdot d(\cos \theta)$$
