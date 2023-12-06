@@ -26,7 +26,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 ## Aufgabe 1
 
-> __1.__ 
+> __1.__
 
 **Lösung Aufgabe 1:**
 
