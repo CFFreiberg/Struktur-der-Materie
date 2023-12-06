@@ -26,212 +26,71 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 ## Aufgabe 1
 
-> __1.__
+> __1.__ Edelgaskristalle werden durch das Lennard - Jones Potential beschrieben. Wie lautet die Gleichung für dieses Potential und welche Anteile sind darin wo enthalten? Welcher Anteil ist abstoßend, welcher anziehend?
 
 **Lösung Aufgabe 1:**
 
-***kubisch primitiv (sc):***
 
-$S_{hkl}= f_j$ mit $f_j=$ Atomformfaktor
-
-
-***kubisch raumzentriert (bcc):***
-
- $S_{hkl}=2f_j$ für $h+k+l$  gerade; $S_{hkl}=0$ für $h+k+l$ ungerade
-
-
-***kubisch flächenzentriert (fcc):***
-
-$S_{hkl}=4\cdot f_j$ für alle $ h,k,l$ gerade oder alle $h,k,l$ ungerade. Sonst Null
-
-<!-- data-type="none" -->
-
-|$ h^2+ k^2 +l^2$| sc $(hkl)$| bcc $(hkl)$ |fcc $(hkl)$|
-|:---|:---|:---|:---|
-|1|(1,0,0)|-|-|
-|2|(1,1,0)|(1,1,0)|-|
-|3|(1,1,1)|-|(1,1,1)|
-|4|(2,0,0)|(2,0,0)|(2,0,0)|
-|5|(2,1,0)|-|-|
-|6|(2,1,1)|(2,1,1)|-|
-|7|-|-|-|
-|8|(2,2,0)|(2,2,0)|(2,2,0)|
-|9|(3,0,0); (2,2,1)|-|-|
-|10|(3,1,0)|(3,1,0)|-|
-|11|(3,1,1)|-|(3,1,1,)|
-|12|(2,2,2)|(2,2,2)|(2,2,2)|
-|13|(3,2,0)|-|-|
-|14|(3,2,1)|(3,2,1)|-|
-|15|-|-|-|
-
-Für kubische Gitter gilt:
-
-$$d_{hkl}=\frac{a}{\sqrt{h^2+k^2+l^2}}$$
-
-Eingesetzt in die  Bragg-Bedingung für Beugung (in die erste Ordnung) $\lambda=2\cdot d_{hkl}\cdot \sin(\theta)$ ergibt sich 
-
-$$ \sin^2(\theta)=\left (\frac{\lambda}{2a} \right )^2(h^2+k^2+l^2)$$
-
-Eine Auftragung des Beugungsspektrums über $\sin ^2\theta$ und ein Vergleich mit den vorhandenen Reflexen bei den $h^2+k^2+l^2$-Werten ermöglicht eine Unterscheidung von sc-, bcc- und fcc-Gittern.
 
 ## Aufgabe 2 (Breite des Beugungsmaximums)
-> __2.__  Betrachten Sie einen linearen (eindimensionalen)  Kristall mit den  Gitterpunkten $r=m\cdot a$ mit  $m \in \mathbb{Z}$ und $a=$ Gitterkonstante. Auf jedem der Gitterpunkte sitzt ein identisches, punktförmiges Streuzentrum. Die Atome werden von einer kohärenten Welle $\Psi_Q=\Psi_{Q,0}e^{i(k_oy-\omega t)}$ angeregt. In Analogie zur Streuamplitude in einem realen Kristall $F=\sum_G \int n_G \cdot \exp(i(\vec{G}-\vec{\Delta k})\cdot\vec{r})\cdot dV$  ist die Gesamtstreuamplitude der Streustrahlung proportional zu  $F=\sum_{m=0}^M  \exp(-i m a \Delta k)$.  Die Summe über $M$ Gitterpunkte hat unter Verwendung der Reihenentwicklung 
+> __2.__ Beschreiben Sie mit Hilfe des Lennard - Jones Potentials die Kraft zwischen zwei Edelgas-Atomen!
 
-$$ \sum_{M=0}^{M-1}x^m=\frac{1-x^M}{1-x}$$
 
-> den Wert 
-
-$$F=\frac{1-\exp(-iM(a\cdot \Delta k))}{1-\exp(-i(a\cdot \Delta k))}$$
-
-> Die gestreute Intensität ist proportional zu $|F|^2$. 
-
-> __a)__ Zeigen Sie, dass gilt:
-$$|F|^2 \equiv F\cdot \overline{F}=\frac{\sin^2\left( \frac{1}{2}M(a\cdot\Delta k)\right )}{\sin^2\left( \frac{1}{2}(a\cdot\Delta k)\right )}$$
 
 **Lösung Aufgabe 2a:**
 
-$|F|^2 \equiv F\cdot \bar{F}$ muss berechnet werden. Dazu benötigen wir das konjugiert Komplexe von $F$. Mit $ \overline{\left(\frac{z_1}{z_2}\right)} = \frac{\overline z_1}{\overline z_2}$ für $ z_2 \ne 0 $ folgt:
-
-$$\overline{F}=\frac{1-\exp(+iM(a\cdot \Delta k))}{1-\exp(+i(a\cdot \Delta k))}$$
-
-Und damit :
-
-$$|F|^2 \equiv F\cdot \bar{F}=\frac{1-\exp(-iM(a\cdot \Delta k))}{1-\exp(-i(a\cdot \Delta k))}\cdot \frac{1-\exp(+iM(a\cdot \Delta k))}{1-\exp(+i(a\cdot \Delta k))}$$
-
-$$\Rightarrow |F|^2=\frac{1-\exp(+iM(a\cdot \Delta k))-\exp(-iM(a\cdot \Delta k))+1}{1-\exp(+i(a\cdot \Delta k))-\exp(-i(a\cdot \Delta k))+1}$$ 
-
-Da $e^{ix}=\cos(x)+i\sin(x)$ folgt mit $e^{ix}+e^{-ix}=2\cos(x)$
-
-$$\Rightarrow |F|^2=\frac{2-2\cos(Ma\Delta k)}{2-2\cos(a \Delta k)}=\frac{1-\cos(Ma\Delta k)}{1-\cos(a \Delta k)}$$
-
-Mit $\cos(2x)=1-\sin^2(2x)$ folgt:
-
-$$\Rightarrow |F|^2=\frac{1-(1-2\sin^2(\frac{1}{2}Ma\Delta k))}{1-(1-2\sin^2(\frac{1}{2}a \Delta k))}=\frac{\sin^2(\frac{1}{²}Ma\Delta k)}{\sin^2(\frac{1}{2}a \Delta k)}$$
 
 
-![Beugungsmaxima](media/BreiteBeugungsmaximum.png "*Intensitätsverteilung $|F|^2$ bei der Beugung an einem eindimensionalen Gitter mit $M=5$ und $M=10$ Atomen. Auf der $x$-Achse ist $\frac{\Delta ka}{2\pi}$ aufgetragen;  Quelle:  Claudia Funke, erstellt in GeoGebra, licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+## Aufgabe 3 
+> __3.__ Wie groß ist ungefähr der van der Waals - Beitrag zur anziehenden Wechselwirkung in Ionenkristallen und wie wird der Hauptbeitrag der Bindungsenergie in Ionenkristallen noch genannt?
 
-
-
-$|F|^2$ hat damit Hauptmaxima bei $a\cdot \Delta k=2\pi h$, ($h \in \mathbb{Z}$)
-
-> __b.__ Für $a\Delta k=2\pi h$ mit $h \in \mathbb{Z} $ erscheint ein Beugungsmaximum. Ändern wir $\Delta k$ geringfügig und definieren uns ein $\epsilon$ in $a \Delta k=2\pi h+\epsilon$ so, dass $\epsilon$ den Ort des ersten Nulldurchgangs der Funktion $\sin(\frac{1}{²}Ma\Delta k)$ angibt. Zeigen Sie, dass gilt $\epsilon=\frac{2\pi}{M}$, so dass die Breite des Beugungsmaximums proportional zu $\frac{1}{M} $ ist und dadurch für große Werte von $M$ extrem schmal werden kann. 
-
-**Lösung Aufgabe 2b:**
-
-$|F|^2$ hat  Hauptmaxima bei $a\cdot \Delta k=2\pi h$, ($h \in \mathbb{Z}$)
-Für die Umgebung der Maxima $a\Delta k=2\pi h + \epsilon $ folgt mit der Läsung von a):
-
-$$|F|^2=\frac{\sin^2(\frac{1}{2}Ma\Delta k)}{\sin^2(\frac{1}{2}a \Delta k)}=\frac{\sin^2(\frac{1}{2}M(2\pi h+\epsilon))}{\sin^2(\frac{1}{2}(2 \pi  h + \epsilon))}$$
-
-Betrachten wir den Term im Zähler genauer. Mit den Additionstheoremen für den Sinus einer Summe $\sin(x_1​+x_2​)=\sin(x_1)\cdot  \mathrm{​cos}(x_2)​+\sin(x_2)\cdot \mathrm{​cos}(x_1)$ folgt​
-$$\sin(\frac{1}{2}M(2\pi h+\epsilon))=\sin(M \pi h+\frac{M\epsilon}{2})=\sin(M \pi h)\cdot \cos(\frac{M\epsilon}{2})+\sin(\frac{M\epsilon}{2})\cdot \cos(M\pi h)$$
-
-Es gilt $\sin(M \pi h)=0$ und $\cos(M\pi h)=\pm 1$ , deshalb folgt:
-
-$$\sin(\frac{1}{2}M(2\pi h+\epsilon))=\pm \sin(\frac{M\epsilon}{2}) $$
-
-Die erste Nullstelle von $\sin(\frac{M\epsilon}{2})$ ist bei $ \epsilon=\frac{2\pi}{M}$. Die "Breite des Maximums" $\epsilon$ wird also kleiner, wenn $M$ größer wird. 
-
-## Aufgabe 3 (Formfaktor H-Atom)
-
-> __3.__  Für das Wasserstoffatom ist im Grundzustand die Elektronendichte gleich
-
-$$n(r)=\frac{1}{\pi a_0^3}\exp\left ( \frac{-2r}{a_0}\right)$$
-> Dabei ist $a_0$ der Bohrsche Radius. Zeigen Sie, dass der Atomformfaktor gleich 
-$$f_{\Delta k}=\frac{16}{4+\Delta k^2\cdot a_0^2}$$
-> ist, wobei $\Delta k=k-k'$ der Streuvektor ist.
 
 **Lösung Aufgabe 3:**
 
-Für das radialsymmetrische H-Atomist es sinvoll, Kugelkordinaten $(r, \varphi, \theta)$ zu nutzen:
-
-![Definition Kugelkoordinaten](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kugelkoord-def.svg/450px-Kugelkoord-def.svg.png "*Kugelkoordinaten $(r ,\varphi ,\theta ,)$ eines Punktes P und kartesisches Koordinatensystem mit den Achsen x , y , z. Quelle: wikipedia, Author Ag2gaeh, [CC BY-SA 4.0 Deed](https://creativecommons.org/licenses/by-sa/4.0/)*")
-
-
-$$x = r \cdot \cos \varphi \sin \theta$$
-$$y =r \cdot \sin \varphi \sin \theta$$
-$$z = r \cdot  \cos \varphi$$
-
-$\varphi$ ist der Azimutwinkel, $\theta$ der Höhenwinkel vom Pol aus gemessen und $r$ der Abstand zum Ursprung. Es gilt für das Volumenelemt $dV$:
-
-![Volumenelement in Kugekoordinaten](media/VolumenelemntKugelkoordinaten.png "*[Volumenelement in Kugelkoordinaten, Quelle HTW Berlin](https://mediathek.htw-berlin.de/getMedium/50f14be8a5d003c8a5d2daa9f5f6fc79.pdf)*")
+## Aufgabe 4 
+> __4.__ Wie groß ist die gesamte Gitterenergie (elektrostatische Energie) in Ionenkristallen mit 2N Atomen (Formel)?
 
 
+**Lösung Aufgabe 4:**
+
+## Aufgabe 5 
+>__5.__ Auf welche energetische Erniedrigung ist die Metallbindung zurückzuführen?
+
+**Lösung Aufgabe 5:**
 
 
-$$dV= dx \cdot dy \cdot dz= (r d\theta)\cdot(dr)\cdot(r \sin \theta d \varphi)=r^2\sin \theta \cdot dr \cdot  d\varphi \cdot d\theta=-r^2 dr \cdot  d\varphi \cdot d(\cos \theta)$$
+## Aufgabe 6 
 
-Damit folgt für eine allgemeine Funktion $f(x,y,z)$
-$$\Rightarrow \int dV f(x,y,z)=\int_V f(x,y,z) dx \cdot dy \cdot dz =\int_{r=0}^{\infty}\int_{\varphi=0}^{2\pi}\int_{\theta=0}^{\pi}{f(r,\varphi, \theta)\cdot r^2\sin{\theta\ d\theta\ d\varphi\ dr}}$$
-Für den Atomformfaktor vom H-Atom gilt damit:
-
-$$f_H=\int_V dV \cdot n_H(r) \exp (-i \Delta \vec{ k} \cdot \vec{r}) = \int_{0}^{\infty}\int_{0}^{2\pi}\int_{0}^{\pi}  r^2\sin{\theta\ d\theta\ d\varphi\ dr} \cdot {n_H(r) \exp (-i \Delta \vec{ k} \cdot \vec{r})}$$
+>__6.__ Nennen Sie Charakteristika der kovalenten Bindung!
+**Lösung Aufgabe 6:**
 
 
+## Aufgabe 7 
 
-$$\Rightarrow f_H= \int_{0}^{\infty}\int_{0}^{2\pi}\int_{0}^{\pi}  -r^2 (d (\cos\theta)) \ d\varphi\ dr \cdot {n_H(r) \exp (-i \Delta \vec{ k} \cdot \vec{r})}$$
+>__7.__ Beschreiben Sie die Wasserstoffbrückenbindung!
 
-$$\Rightarrow f_H= 2\pi \int_{0}^{\infty}\int_{\cos \theta = 1}^{\cos \theta =-1}  -r^2 (d (\cos\theta)) \  dr \cdot {n_H(r) \exp (-i \Delta k r \cos \theta)}$$
-
-
-wobei $\theta$ der Winkel zwischen $\vec{r}$ und $\Delta \vec{k} $ ist. Das Integral nach $d \cos \theta$ kann einfach durchgeführt werden. Beim Vertauschen der Integrationsgrenzen fällt auch das vordere  $-$ weg.
-
-$$\Rightarrow f_H= 2\pi \int_{0}^{\infty} \left [n_H(r) \cdot   r^2 \cdot \frac{{ \exp (-i k r \cos \theta)}}{-i \Delta kr} \right]_{-1}^{1} dr $$
-
-$$\Rightarrow f_H= 2\pi \int_{0}^{\infty} \left (n_H(r) \cdot   r^2 \cdot \frac{{ \exp (-i k r 1)-\exp (-i k r (-1))}}{-i \Delta kr} \right) dr $$
-
-mit $\exp(ix) – \exp(-ix) = 2i \sin x$ folgt:
-
-$$\Rightarrow f_H= 2\pi \int_{0}^{\infty} \left (\frac{n_H(r)}{\Delta kr} \cdot   r^2 \cdot 2 \sin ( \Delta k r ) \right) dr $$
-
-An dieser Stelle kann nun die Elektronendichteverteilung für H-Atom $n(r)=\frac{1}{\pi a_0^3}\exp\left ( \frac{-2r}{a_0}\right)$
-mit $a_0$ der Bohrscher Radius eingesetzt werden:.
+**Lösung Aufgabe 7:**
 
 
-$$\Rightarrow f_H= 4\pi \int_{0}^{\infty} \left (\frac{\frac{1}{\pi a_0^3}\exp\left ( \frac{-2r}{a_0}\right)}{\Delta kr} \cdot   r^2 \cdot 2 \sin ( \Delta k r ) \right) dr $$
-
-$$\Rightarrow f_H= \frac{4}{a_0^3} \int_{0}^{\infty} \left ( \exp\left ( \frac{-2r}{a_0}\right)\cdot   r^2 \cdot \frac{ \sin ( \Delta k r ) }{\Delta kr} \right) dr $$
-
-Dafür muss bei dem Ausdruck für $f_H$ folgende Substitution vorgenommen werden:
-
-$\Delta k \cdot r=x$ und $\Delta k dr=dx$
-
-$$\Rightarrow f_H= \frac{4}{a_0^3 } \int_{0}^{\infty} \frac{x^2}{\Delta k^2}e^{  \frac{-2x}{a_0\cdot \Delta k}} \cdot  \frac{ \sin ( x ) }{x} \frac{dx}{\Delta k}=  \frac{4}{a_0^3 \Delta k^3} \int_{0}^{\infty} x e^{  \frac{-2x}{a_0\cdot \Delta k}} \cdot   \sin ( x )  dx$$
-
-An dieser Stelle benötigt der Normalmensch ein [Onlinetool zum Integrallösen](https://www.wolframalpha.com/calculators/integral-calculator/) oder ein altes Tafelwerk ([Bronstein Nr. 463](https://zbmath.org/?q=an:0997.00529)) .
-
-Mit größerer Wahrscheinlichkeit kommen Sie zu folgender Erkenntnis, dass sich folgendes Integral nutzen lässt:
-
-$$\int e^{ax}\cdot x \cdot \sin(bx) dx=\frac{x\cdot e^{ax}}{a^2+b^2}[a \sin(bx)-b \cos(bx)]-\frac{ e^{ax}}{(a^2+b^2)^2}[(a^2-b^2) \sin(bx)-2ab \cos(bx)]$$
-
-Dabei ist $a=  \frac{-2}{a_0\cdot \Delta k}$ und $b=1$.
-
-Einsetzen der Integrationsgrenzen:
-
-*  für $x\rightarrow \infty$ gilt $\frac{x\cdot e^{ax}}{a^2+b^2} \rightarrow 0$, da $a=a=  \frac{-2}{a_0\cdot \Delta k}$ negativ ist.
-*  für $x\rightarrow \infty$ gilt $\frac{ e^{ax}}{a^2+b^2} \rightarrow 0$, da $a=a=  \frac{-2}{a_0\cdot \Delta k}$ negativ ist.
+## Aufgabe 8 
+>__8.__ Berechnen Sie zunächst die Madelungkonstante eines ebenen quadratischen Kristallgitters, berücksichtigen sie dabei Nachbarn, die in einem Quadrat mit Kantenlänge=3*nächster-Nachbar-Abstand um ein Zentralatom liegen (siehe Abbildung unten). Nachbaratome auf dieser „Grenze“ werden nur anteilsmäßig miterfasst. Berechnen Sie dann die Näherung der Madelung- Konstante für ein 3-dimensionalses Gitter wie in der folgenden Abbildung (diesen Ausschnitt):
 
 
-*  für $x\rightarrow 0$ gilt $\frac{x\cdot e^{ax}}{a^2+b^2} \rightarrow 0$, da $x\rightarrow 0$ im Produkt steht und $e^{ax} \rightarrow1$
-*  für $x\rightarrow 0$ gilt $\frac{ e^{ax}}{a^2+b^2} \rightarrow \frac{1}{(a^2+b^2)^2}$
-
-Damit folgt für diesen Spezialfall der Integrationsgrenzen:
-
-$$\int_0^{\infty} e^{ax}\cdot x \cdot \sin(bx) dx=\frac{1}{(a^2+b^2)^2}\cdot 2 a b \cos(b\cdot 0)=\frac{2 a b}{(a^2+b^2)^2}$$
-
-Nun wird  $a=  \frac{-2}{a_0\cdot \Delta k}$ und $b=1$ zurück eingesetzt:
-$$f_H=  \frac{4}{a_0^3 \Delta k^3} \cdot \frac{2\left (-\frac{2}{\Delta k a_0} \cdot 1\right )}{\left (\left(-\frac{2}{\Delta k a_0}\right)^2 + 1^2 \right)^2}=\frac{-16}{a_0^4 \Delta k^4 \left (\left(-\frac{2}{\Delta k a_0}\right)^2 + 1^2 \right)^2}=\frac{-16}{  \left(4 +  \Delta k^2 a_0^2 \right)^2}$$
-
-Beachten Sie:
+**Lösung Aufgabe 8:**
 
 
-+ für die Vorwärtsstreuung, d. h.  $\Delta k=0$      ist $ f_{H }=1$. Das entspricht der Ladung des H-Atoms .
 
-+ für die Rutherford Streuung $\Delta k \cdot  a\gg 1 $   ist $ f_{H } \sim\ \frac{1}{\Delta k^4}$
+## Aufgabe 9
+
+>__9__ Berechnen Sie das Verhältnis der Bindungsenergien und die Gleichgewichtsabstände von Neonkristallen mit einer bcc-, hcp-, und fcc- Struktur mit Hilfe des Lennard – Jones – Potentials als Funktion von , , N. Die Gittersummen sind mit ij=rij/R gegeben durch 
 
 
-Bitte beachten Sie, dass bei der Streuung an einem einzelnen Atom alle Streuvektoren $\Delta k$ erlaubt sind, im Gegensatz zur Streuung am Kristall. 
 
-Geschafft!
+Welche Struktur erwartet man theoretisch für den Neonkristall? Experimentell stellt man fest, dass Neon in der fcc - Struktur kristallisiert. Welche Gründe könnte es für die Abweichung geben?
+
+**Lösung Aufgabe 9:**
+
+## Aufgabe 4 
+
+**Lösung Aufgabe 4:**
 
