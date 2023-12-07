@@ -37,12 +37,12 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 
 
-**Lösung Aufgabe 2a:**
+**Lösung Aufgabe 2:**
 
 
 
 ## Aufgabe 3 
-> __3.__ Wie groß ist ungefähr der van der Waals - Beitrag zur anziehenden Wechselwirkung in Ionenkristallen und wie wird der Hauptbeitrag der Bindungsenergie in Ionenkristallen noch genannt?
+> __3.__ Wie groß ist ungefähr der van der Waals  Beitrag zur anziehenden Wechselwirkung in Ionenkristallen und wie wird der Hauptbeitrag der Bindungsenergie in Ionenkristallen noch genannt?
 
 
 **Lösung Aufgabe 3:**
@@ -62,6 +62,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 ## Aufgabe 6 
 
 >__6.__ Nennen Sie Charakteristika der kovalenten Bindung!
+
 **Lösung Aufgabe 6:**
 
 
@@ -73,7 +74,16 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 
 ## Aufgabe 8 
->__8.__ Berechnen Sie zunächst die Madelungkonstante eines ebenen quadratischen Kristallgitters, berücksichtigen sie dabei Nachbarn, die in einem Quadrat mit Kantenlänge=3*nächster-Nachbar-Abstand um ein Zentralatom liegen (siehe Abbildung unten). Nachbaratome auf dieser „Grenze“ werden nur anteilsmäßig miterfasst. Berechnen Sie dann die Näherung der Madelung- Konstante für ein 3-dimensionalses Gitter wie in der folgenden Abbildung (diesen Ausschnitt):
+>__8.__ Berechnen Sie zunächst die Madelungkonstante eines ebenen quadratischen Kristallgitters, berücksichtigen sie dabei Nachbarn, die in einem Quadrat mit der Kantenlänge von drei mal nächster-Nachbar-Abstand um ein Zentralatom liegen (siehe Abbildung unten). Nachbaratome auf dieser „Grenze“ werden nur anteilsmäßig miterfasst. 
+
+
+
+![Abbildung eines ebenen Ionengitters zur Veranschaulichung der Berechnung der Madelung-Konstanten](media/EbenesGitterMadelung.png "*Quelle:  A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik*")
+
+
+
+
+Berechnen Sie dann die Näherung der Madelung- Konstante für ein 3-dimensionalses Gitter wie in der folgenden Abbildung (diesen Ausschnitt):
 
 
 **Lösung Aufgabe 8:**
