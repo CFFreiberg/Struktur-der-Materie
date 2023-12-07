@@ -83,8 +83,10 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 
 
-Berechnen Sie dann die Näherung der Madelung- Konstante für ein 3-dimensionalses Gitter wie in der folgenden Abbildung (diesen Ausschnitt):
+> Berechnen Sie dann die Näherung der Madelung-Konstanten für ein 3-dimensionalses Gitter für den in der Abbildung gezeigten Ausschnitt:
 
+
+![Abbildung eines dreidimensionalen Ionengitters zur Veranschaulichung der Berechnung der Madelung-Konstanten](media/3D-GitterMadelung.png "*Quelle:  A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik*")
 
 **Lösung Aufgabe 8:**
 
@@ -92,15 +94,26 @@ Berechnen Sie dann die Näherung der Madelung- Konstante für ein 3-dimensionals
 
 ## Aufgabe 9
 
->__9__ Berechnen Sie das Verhältnis der Bindungsenergien und die Gleichgewichtsabstände von Neonkristallen mit einer bcc-, hcp-, und fcc- Struktur mit Hilfe des Lennard – Jones – Potentials als Funktion von , , N. Die Gittersummen sind mit ij=rij/R gegeben durch 
+>__9__ Berechnen Sie das Verhältnis der Bindungsenergien und die Gleichgewichtsabstände von Neonkristallen jeweils mit einer bcc-, hcp-, und fcc- Struktur mit Hilfe des Lennard – Jones – Potentials als Funktion von $\sigma$, $\varepsilon$, $N$. Die Gittersummen sind mit $\alpha_{ij}=\frac{r_{ij}}{R}$ gegeben durch 
+
+|Gitter| $A_{6}=\sum\limits_{i,j\ne i}\alpha_{ij}^{-6}$ | $A_{12}=\sum\limits_{i,j\ne i} \alpha_{ij}^{-12} $|
+|:---:|:---:|:----:|
+|bcc|12,253|9,114|
+|hcp|14,4549|12,1323|
+|fcc|14,4539|12,1319|
 
 
 
-Welche Struktur erwartet man theoretisch für den Neonkristall? Experimentell stellt man fest, dass Neon in der fcc - Struktur kristallisiert. Welche Gründe könnte es für die Abweichung geben?
+
+>Welche Struktur erwartet man theoretisch für den Neonkristall? Experimentell stellt man fest, dass Neon in der fcc - Struktur kristallisiert. Welche Gründe könnte es für die Abweichung geben?
 
 **Lösung Aufgabe 9:**
 
-## Aufgabe 4 
+## Aufgabe 10
+
+>__10__ Fester molekularer Wasserstoff: Aus Messungen in der Gasphase findet man für $H_2$, dass für die Parameter des Lennard-Jones-Potentials gilt: 
+$\varepsilon=50\cdot 10^{-16} \,\mathrm{erg= 50 \cdot 10^{-16} \,\frac{g \cdot cm^2}{s^2}= 50\cdot 10^{-16} \cdot 10^{-7} \, J}$ (und $\sigma =2,96 \, \AA$). Wie hoch ist die Bindungsenergie in $\mathrm{\frac{kJ}{mol_{H_2}}}$ ? Führen Sie die Rechnung für eine fcc - Struktur durch. Behandeln sie jedes $H_2$-Molekül als eine Kugel. 
+
 
 **Lösung Aufgabe 4:**
 
