@@ -29,48 +29,50 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 
 ## Aufgabe 1
+                                      {{0}}
 
 > __1.__  Betrachten Sie die Streuamplitude der am Gitter gebeugten Röntgenstrahlung. Wie sind der Strukturfaktor und der Atomformfaktor definiert? Wie sind deren Zusammenhänge?
 
+
+                                      {{1}}
 **Lösung Aufgabe 1:**
 
+                                      {{2}}
 Die Streuamplitude $F_G$ der am Gitter gebeugten (Röntgen)-Strahlung ist:
-
 $$F_G=N \int_\mathrm{Zelle} n(r) \exp \left\{-i\vec{G} \cdot \vec{r}\right\} \cdot dV=N\cdot S_G$$
-
 mit $N=$ Anzahl der Zellen im Kristall; $S_G=$ Strukturfaktor
 
+                                      {{3}}
 Damit ist also der Strukturfaktor $S_G$:
-
 $$S_G = \sum_ j \int  n_j (\vec{r}-\vec{r}_j) \cdot \exp \left\{-i\vec{G} \cdot \vec{r}\right\}\cdot  dV$$
 mit $j=$ alle Atome in der Einheitszelle und $\vec{r}_j =$  Ortsvektor des Atoms $j$  und $\vec{\rho}=\vec{r}-\vec{r}_j$. Das kann umgeschreiben werden zu
 
+                                      {{4}}
 $$\Rightarrow S_G = \sum_ j \exp \left\{-i\vec{G} \cdot \vec{r}_j\right\}\int  n_j (\vec{\rho}) \cdot \exp \left\{-i\vec{G} \cdot \vec{\rho}\right\} dV$$
-
 $$\Rightarrow S_G = \sum_ j \exp \left\{-i\vec{G} \cdot \vec{r}_j\right\}\cdot f_j$$
-
 $f_j$ ist der Atomformfaktor:
 
+
+                                      {{5}}
 $$f_j =\int  n_j (\vec{\rho}) \cdot \exp \left\{-i\vec{G} \cdot \vec{\rho}\right\} dV$$
-
 Das Integral wird über den gesamten Raum durchgeführt.
-
 Für die Streuamplitude gilt also
 
+                                      {{6}}
 $$F_G=N\cdot S_G=N\cdot \sum_ j  f_j \cdot \exp \left\{-i\vec{G} \cdot \vec{r}_j \right\} $$
 
+                                      {{7}}
 Die Atompositionen der Atome in der Einheitszelle seien $\vec{r}_j=x_j\cdot \vec{a}_1+y_j\cdot \vec{a}_2+z_j\cdot \vec{a}_3$ wobei die $\vec{a}_{1,2,3}$ die Basisvektoren des realen Gitters sind.
 
-
+                                      {{8}}
 Für den $(h,k,l)$-Reflex gilt dann:
-
 $$\vec{G}_{hkl}\cdot \vec{r}_j= (h\cdot \vec{b}_1+k\cdot \vec{b}_2+l\cdot \vec{b}_3)\cdot(\vec{a}_1+y_j\cdot \vec{a}_2+z_j\cdot \vec{a}_3)$$
 
-
+                                      {{9}}
 $$\Rightarrow \vec{G}_{hkl}\cdot \vec{r}_j=2\pi  (h\cdot x_j+k\cdot y_j+l\cdot z_j)$$
 
+                                      {{10}}
 Damit gilt für den zum Reflex $G_{hkl}$ gehörigen Strukturfaktor $S_G$  eines Gitters:
-
 $$ S_{G_{hkl}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j+k\cdot y_j+l\cdot z_j )\right\} $$
 
 
@@ -79,44 +81,53 @@ $$ S_{G_{hkl}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j+k\cdot y_j+l\cdo
 
 
 ## Aufgabe 2
+
+                                      {{0}}
 > __2.__ Was gilt für den Strukturfaktor des raumzentrierten Gitters?
 
+                                      {{1}}
 **Lösung Aufgabe 2:**
 
+                                      {{2}}
 Das kubisch raumzentriertes Gitter (krz oder bcc) lässt sich durch eine kubische Einheitszelle mit identischen Atomen auf den Plätzen $(x_1,y_1,z_1)=(0,0,0)$ und $(x_2,y_2,z_2)=(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$ beschreiben.
 
+                                      {{3}}
 Für den Strukturfaktor gilt dann:
-
 $$ S_{G_{hkl}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j+k\cdot y_j+l\cdot z_j )\right\} $$
 
+                                      {{4}}
 $$\Rightarrow  S_{G_{hkl}}= f_j\cdot( \exp \left\{ -2\pi i (h\cdot 0+k\cdot 0+l\cdot 0 )\right\} +\exp \left\{ -2\pi i (h\cdot \frac{1}{2}+k\cdot \frac{1}{2}+l\cdot \frac{1}{2} )\right\})$$
 
+                                      {{5}}
 $$\Rightarrow  S_{G_{hkl}}=f_j\cdot(  \exp \left\{\ 0\right\} +\exp \left\{ \frac{-2\pi i}{2} (h+k+l )\right\})= f_j\cdot(  1 +\exp \left\{ -\pi i (h+k+l )\right\})$$
 
+                                      {{6}}
 $\Rightarrow  S_{G_{hkl}}=0$ für $h+k+l$ ungerade und $S_{G_{hkl}}=2f_j$ für $h+k+l$  gerade.
 
 
 
 ## Aufgabe 3
+                                      {{0}}
 > __3.__ Was gilt für den Strukturfaktor des flächenzentrierten Gitters?
-
+                                      {{1}}
 **Lösung Aufgabe 3:**
 
+                                      {{2}}
 Das kubisch flächenzentrierte Gitter (kfz oder fcc) lässt sich durch eine kubische Einheitszelle mit identischen vier Atomen auf den Plätzen 
-
 $$(x_1,y_1,z_1)=(0,0,0)$$
 $$(x_2,y_2,z_2)=(0, \frac{1}{2},\frac{1}{2})$$
 $$(x_3,y_3,z_3)=( \frac{1}{2},0,\frac{1}{2})$$
 $$(x_4,y_4,z_4)=( \frac{1}{2},\frac{1}{2},0)$$
-
 beschreiben.
 
+                                      {{3}}
 Für den Strukturfaktor gilt dann:
-
 $$ S_{G_{hkl}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j+k\cdot y_j+l\cdot z_j )\right\} $$
 
+                                      {{4}}
 $$\Rightarrow  S_{G_{hkl}}= f_j\cdot(1+\exp \left\{ -\pi i (k+l )\right\}+\exp \left\{ -\pi i (h+l )\right\}+\exp \left\{ -\pi i (h+k )\right\})$$
 
+                                      {{5}}
 | Indizes $h,k,l$    |             |  $S_{hkl}$ |
 | ------------- |:----------------:| :-----|
 | alle $h,k,l$ gerade  | $\Rightarrow$    |$S_{hkl}=4\cdot f_j$ |
