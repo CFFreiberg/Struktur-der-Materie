@@ -140,15 +140,21 @@ $$\Rightarrow  S_{G_{hkl}}= f_j\cdot(1+\exp \left\{ -\pi i (k+l )\right\}+\exp \
 
 
 ## Aufgabe 4
+
+                                      {{1}}
 > __4.__ Die Kristallstruktur des Diamants lässt sich durch ein kfz-Gitter mit der Basis $(0,0,0)$ und $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$ beschreiben. Der übliche Würfel als Einheitszelle hat also 8 Atome.
 
-> __a.__ Bestimmen Sie den Strukturfaktor S für die Kombination des fcc-Gitters mit der oben beschriebenen 2-atomigen Basis. 
+                                      {{2}}
+> __a.__ Bestimmen Sie den Strukturfaktor $S$ für die Kombination des fcc-Gitters mit der oben beschriebenen 2-atomigen Basis. 
 
+                                      {{3}}
 **Lösung Aufgabe 4a:**
 
+                                      {{4}}
 Das Diamantgitter ist ein fcc-Gitter mit derzweiatomigen (Atom A, Atom B)  Basis $(x_A,y_A,z_A)=(0,0,0)$ und $(x_B,y_B,z_B)=(\frac{1}{4}, \frac{1}{4},\frac{1}{4})$
 Damit sitzen also die (gleichen) Atome auf den Positionen 
 
+                                      {{4}}
 |   A |    B         |      
 |:---| :---        |
 |$(x_{A1},y_{A1},z_{A1})=(0,0,0)$ | $(x_{B1},y_{B1},z_{B1})=(\frac{1}{4}, \frac{1}{4},\frac{1}{4})$|
@@ -156,21 +162,26 @@ Damit sitzen also die (gleichen) Atome auf den Positionen
 |$(x_{A3},y_{A3},z_{A3})=(\frac{1}{2},0,\frac{1}{2})$ | $(x_{B3},y_{B3},z_{B3})=(\frac{3}{4}, \frac{1}{4},\frac{3}{4})$|
 |$(x_{A4},y_{A4},z_{A4})=(\frac{1}{2},\frac{1}{2},0)$ | $(x_{B4},y_{B4},z_{B4})=(\frac{3}{4}, \frac{3}{4},\frac{1}{4})$|
 
+                                      {{5}}
 Der Strukturfaktor berechnet sich damit zu 
-
 $$ S_{G_{hkl}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j+k\cdot y_j+l\cdot z_j )\right\} $$
 
+                                      {{6}}
 $$\Rightarrow S_{G_{hkl}}=f\cdot \left ( 1+ \exp(-i\pi(k+l))+\exp(-i\pi(h+l))+\exp(-i\pi(h+k))) +\exp(\frac{-i\pi}{2}(h+k+l)) +\exp(\frac{-i\pi}{2}(h+3k+3l))+\exp(\frac{-i\pi}{2}(3h+k+3l)) +\exp(\frac{-i\pi}{2}(3h+3k+l)) \right )$$
 
+                                      {{7}}
 $$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot\left ( 1+\exp\left (\frac{-i\pi}{2}(h+k+l) \right )  \right )$$
 
+                                      {{8}}
 $$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot S_{G_{hkl}}(\mathrm{Basis})$$
 
-
+                                      {{9}}
 > __b.__ Welches sind die Nullstellen von Strukturfaktors S für Diamant?
 
+                                      {{10}}
 **Lösung Aufgabe 4b:**
 
+                                      {{11}}
 | Indizes $h,k,l$    | $h+k+l$           |  $S_{hkl}$(Basis) | $S_{hkl}$(fcc)|$S_{G_{hkl}} $ |
 | ------------------- |:----------------:| :-----| :----- | :------ |
 | alle $h,k,l$ gerade  | $4n+2$    |0 | $4f_j$ | 0 |
@@ -180,43 +191,52 @@ $$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot S_{G_{hkl}}(\mathrm{Basis})$$
 | 1 grade, 2 ungerade |gerade|    $0$  |$0$  |$0$|
 | 2 grade, 1 ungerade |ungerade|    $0$  |$0$  |$0$|
 
+                                      {{12}}
 Kleine Zusammenfassung: Keine Reflexe bei gemischten Indizes und keine Reflexe, wenn alle Indizes gerade sind und zusätzlich die Summe der Indizes nicht durch 4 teilbar ist. 
 
 ## Aufgabe 5
+
+                                      {{1}}
 > __5.__ Betrachten Sie ein lineares Gitter mit der Atomfolge ABAB….AB und einem Bindungsabstand A-B gleich $\frac{1}{2}a$. Die Atomformfaktoren sind $f_A$ und  $f_B$ entsprechend der Atome A, B. Der einfallende Röntgenstrahl stehe senkrecht auf der Atomkette. 
 
+                                      {{2}}
 >__a.__ Zeigen Sie, dass die Intensität des gebeugten Strahls für ungerade $h$ proportional zu $|f_A-f_B|^2$ ist und für gerade $h$ proportional zu $|f_A+f_B|^2$.
 
+                                      {{3}}
 **Lösung Aufgabe 5a:**
 
+                                      {{4}}
 Das lineare Gitter lässt sich durch eine lineare Einheitszelle mit Atom A auf $x_A=0$ und Atom B auf $x_B=\frac{1}{2}$ beschreiben
 
-
+                                      {{5}}
 Für den Strukturfaktor gilt dann:
-
 $$ S_{G_{h}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j )\right\} =f_A\cdot 1+f_B \cdot \exp\left\{ -2\pi i (h\cdot \frac{1}{2} )\right\}=f_A\cdot 1+f_B \cdot \exp\left\{ -\pi i h)\right\}$$
 
+                                      {{6}}
 | Indize $h$    | $S_{h}$ | 
 | ------------- |:-------|
 |$h$ ungerade | $f_A-f_B$|
 |$h$ gerade | $f_A+f_B$|
 
+                                      {{7}}
 >__b.__ Was passiert, wenn $f_A=f_B$ ist?
 
-
+                                      {{8}}
 Für $f_A = f_B$ wäre die Gitterkonstante $\frac{a}{2}$. Mit dieser Gitterkonstanten gibt es keine Auswahlregeln.
 
 ## Aufgabe 6 (Reflexe an Mischkristallen)
 
+                                      {{0}}
 > __6.__ Bestrahlt man bei Strukturuntersuchungen Kristalle aus mehreren Atom- oder Ionensorten mit Röntgenstrahlen, so kann man auf die auftretenden Reflexe vorhersagen. Die Überlegungen werden vereinfacht, wenn  beide Atomsorten getrennt betrachtet werden. Kupferoxid ($\mathrm{Cu_2O}$, Cuprit) bildet ein kubisch raumzentriertes Gitter mit einem $O$-Atom im Ursprung und ein $O$-Atom in der Mitte der kubischen Zelle. Die Kupferatome sitzen tetraedrisch um jedes Sauerstoffatom. Die Basis für das kubisch raumzentrierte Gitter ist damit  $O$ auf $(0,0,0)$ und $Cu$ auf $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$. Die Kupferatome haben damit die Koordinaten $(\frac{a}{4}, \frac{a}{4}, \frac{a}{4})$;  $(\frac{a}{4}, \frac{3a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$. Für welche Millerschen Indizes (in Bezug auf die kubischen Einheitsvektoren ) treten Reflexe an Cuprit auf?
 
 ![kubisch raumzentrierte Einheitszelle $Cu_2O$](media/Cu2O1000063Pic3.png)![kubisch raumzentrierte Einheitszelle $Cu_2O$](media/Cu2O1000063.png)
 
 *Quelle:  Claudia Funke, licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/), erstellt mit [Diamond](https://www.crystalimpact.com/diamond/) *
 
-
+                                      {{1}}
 **Lösung Aufgabe 6:**
 
+                                      {{2}}
 ``` @Kekule.load3d(mol)
 Picture 1                                                                       
   PPPPPPPP          3D                              
@@ -246,43 +266,42 @@ Picture 1
 M  END
 ```
 
+                                      {{2}}
 *Quelle:  Claudia Funke, licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/), erstellt mit [Diamond](https://www.crystalimpact.com/diamond/)  dargestellt in Liascript über Kekule.load3d(mol) von Andre Dietrich*
 
+                                      {{3}}
 Zuerst muss überlegt werden, auf welchen Koordinaten welche Atome sitzen. 
 
-***Sauerstoff:***
 
-O auf $(0,0,0)$ 
+                                      {{4}}
+***Sauerstoff:*** 
+ $(0,0,0)$; $\left (\frac{1}{2},\frac{1}{2},\frac{1}{2}\right )$; 
 
-O auf $\frac{1}{2},\frac{1}{2},\frac{1}{2}$
-
-Also:
-$$S_{hkl}(O)=f_O(1+\exp(-i\pi(h+k+l)))$$
-
+                                       {{4}} 
+Also:  $$S_{hkl}(O)=f_O(1+\exp(-i\pi(h+k+l)))$$
 
 
+
+
+                                      {{5}}
 ***Kupfer:***
-
-Cu auf $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$
-
-Cu auf $(\frac{1}{4},\frac{3}{4},\frac{3}{4})$
-
-Cu auf $(\frac{3}{4},\frac{3}{4},\frac{1}{4})$
-
-Cu auf $(\frac{3}{4},\frac{1}{4},\frac{3}{4})$
+$(\frac{1}{4},\frac{1}{4},\frac{1}{4})$; $(\frac{1}{4},\frac{3}{4},\frac{3}{4})$; $(\frac{3}{4},\frac{3}{4},\frac{1}{4})$; $(\frac{3}{4},\frac{1}{4},\frac{3}{4})$
 
 
-
+                                      {{5}}
 Also:
 $$S_{hkl}(Cu)=f_{Cu} \left (\exp \left (\frac{-i\pi}{2}(h+k+l) \right ) + \exp \left ( -i\pi(h+3k+3l) \right ) + \exp \left ( -i\pi(3h+3k+l) \right )+ \exp \left ( -i\pi(3h+k+3l) \right )  \right )$$
 
+                                      {{6}}
 $$\Rightarrow 
 S_{hkl}(Cu)=f_{Cu}\cdot\exp \left ( \frac{-i\pi}{2}(h+k+l)\right ) \cdot\left ( 1+ \exp \left ( -i\pi(k+l) \right ) + \exp \left ( -i\pi(h+k) \right )+ \exp \left ( -i\pi(h+l) \right )  \right )$$
 
+                                      {{7}}
 Für das Cuprit als Ganzes lässt sich die Streuamplitude aus den einzelnen Komponenten zusammensetzen:
-
 $$S_{hkl}​(Cu_2O)=S_{hkl}(Cu)+S_{hkl}(O)$$
 
+                                      {{8}}
+<!-- data-type="none" --> 
 |Indizes $h,k,l$    | $S_{hkl}(O)$           |  $S_{hkl}(Cu)$ | Bemerkung|
 | ------------------- |:----------------:| :-----| :----- | 
 | alle $h,k,l$ gerade  | $f_O(1+1)=2f_O$    |$f_{Cu}\cdot 4(\pm 1)$ | Reflexe von beiden Atomsorten|
