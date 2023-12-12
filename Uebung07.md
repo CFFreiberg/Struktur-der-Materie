@@ -45,7 +45,7 @@ mit $N=$ Anzahl der Zellen im Kristall; $S_G=$ Strukturfaktor
                                       {{3}}
 Damit ist also der Strukturfaktor $S_G$:
 $$S_G = \sum_ j \int  n_j (\vec{r}-\vec{r}_j) \cdot \exp \left\{-i\vec{G} \cdot \vec{r}\right\}\cdot  dV$$
-mit $j=$ alle Atome in der Einheitszelle und $\vec{r}_j =$  Ortsvektor des Atoms $j$  und $\vec{\rho}=\vec{r}-\vec{r}_j$. Das kann umgeschreiben werden zu
+mit $j=$ alle Atome in der Einheitszelle,  $\vec{r}_j =$  Ortsvektor des Atoms $j$, $n_j(\vec{r}-\vec{r_j})=$ Elektronendichte des $j$-Atoms am Ort $\vec{r}$  und $\vec{\rho}=\vec{r}-\vec{r}_j$. Der Strukturfaktor ist also  die Fouriertransformierte der Elektronenverteilung innerhalb einer Elementarzelle. Das kann umgeschrieben werden zu
 
                                       {{4}}
 $$\Rightarrow S_G = \sum_ j \exp \left\{-i\vec{G} \cdot \vec{r}_j\right\}\int  n_j (\vec{\rho}) \cdot \exp \left\{-i\vec{G} \cdot \vec{\rho}\right\} dV$$
@@ -66,7 +66,7 @@ Die Atompositionen der Atome in der Einheitszelle seien $\vec{r}_j=x_j\cdot \vec
 
                                       {{8}}
 Für den $(h,k,l)$-Reflex gilt dann:
-$$\vec{G}_{hkl}\cdot \vec{r}_j= (h\cdot \vec{b}_1+k\cdot \vec{b}_2+l\cdot \vec{b}_3)\cdot(\vec{a}_1+y_j\cdot \vec{a}_2+z_j\cdot \vec{a}_3)$$
+$$\vec{G}_{hkl}\cdot \vec{r}_j= (h\cdot \vec{b}_1+k\cdot \vec{b}_2+l\cdot \vec{b}_3)\cdot(x_j \cdot \vec{a}_1+y_j\cdot \vec{a}_2+z_j\cdot \vec{a}_3)$$
 
                                       {{9}}
 $$\Rightarrow \vec{G}_{hkl}\cdot \vec{r}_j=2\pi  (h\cdot x_j+k\cdot y_j+l\cdot z_j)$$
@@ -128,6 +128,7 @@ $$ S_{G_{hkl}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j+k\cdot y_j+l\cdo
 $$\Rightarrow  S_{G_{hkl}}= f_j\cdot(1+\exp \left\{ -\pi i (k+l )\right\}+\exp \left\{ -\pi i (h+l )\right\}+\exp \left\{ -\pi i (h+k )\right\})$$
 
                                       {{5}}
+ <!-- data-type="none" --> 
 | Indizes $h,k,l$    |             |  $S_{hkl}$ |
 | ------------- |:----------------:| :-----|
 | alle $h,k,l$ gerade  | $\Rightarrow$    |$S_{hkl}=4\cdot f_j$ |
@@ -151,7 +152,7 @@ $$\Rightarrow  S_{G_{hkl}}= f_j\cdot(1+\exp \left\{ -\pi i (k+l )\right\}+\exp \
 **Lösung Aufgabe 4a:**
 
                                       {{4}}
-Das Diamantgitter ist ein fcc-Gitter mit derzweiatomigen (Atom A, Atom B)  Basis $(x_A,y_A,z_A)=(0,0,0)$ und $(x_B,y_B,z_B)=(\frac{1}{4}, \frac{1}{4},\frac{1}{4})$
+Das Diamantgitter ist ein fcc-Gitter mit der zweiatomigen (Atom A, Atom B)  Basis $(x_A,y_A,z_A)=(0,0,0)$ und $(x_B,y_B,z_B)=(\frac{1}{4}, \frac{1}{4},\frac{1}{4})$
 Damit sitzen also die (gleichen) Atome auf den Positionen 
 
                                       {{4}}
@@ -167,13 +168,13 @@ Der Strukturfaktor berechnet sich damit zu
 $$ S_{G_{hkl}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j+k\cdot y_j+l\cdot z_j )\right\} $$
 
                                       {{6}}
-$$\Rightarrow S_{G_{hkl}}=f\cdot \left ( 1+ \exp(-i\pi(k+l))+\exp(-i\pi(h+l))+\exp(-i\pi(h+k))) +\exp(\frac{-i\pi}{2}(h+k+l)) +\exp(\frac{-i\pi}{2}(h+3k+3l))+\exp(\frac{-i\pi}{2}(3h+k+3l)) +\exp(\frac{-i\pi}{2}(3h+3k+l)) \right )$$
+$$\Rightarrow S_{G_{hkl}}=f\cdot \left ( 1+ \exp(-i\pi(k+l))+\exp(-i\pi(h+l))+\exp(-i\pi(h+k)) +\exp(\frac{-i\pi}{2}(h+k+l)) +\exp(\frac{-i\pi}{2}(h+3k+3l))+\exp(\frac{-i\pi}{2}(3h+k+3l)) +\exp(\frac{-i\pi}{2}(3h+3k+l)) \right )$$
 
                                       {{7}}
-$$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot\left ( 1+\exp\left (\frac{-i\pi}{2}(h+k+l) \right )  \right )$$
+$$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(\mathrm{fcc})\cdot\left ( 1+\exp\left (\frac{-i\pi}{2}(h+k+l) \right )  \right )$$
 
                                       {{8}}
-$$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot S_{G_{hkl}}(\mathrm{Basis})$$
+$$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(\mathrm{fcc})\cdot S_{G_{hkl}}(\mathrm{Basis})$$
 
                                       {{9}}
 > __b.__ Welches sind die Nullstellen von Strukturfaktors S für Diamant?
@@ -182,6 +183,7 @@ $$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(fcc)\cdot S_{G_{hkl}}(\mathrm{Basis})$$
 **Lösung Aufgabe 4b:**
 
                                       {{11}}
+ <!-- data-type="none" --> 
 | Indizes $h,k,l$    | $h+k+l$           |  $S_{hkl}$(Basis) | $S_{hkl}$(fcc)|$S_{G_{hkl}} $ |
 | ------------------- |:----------------:| :-----| :----- | :------ |
 | alle $h,k,l$ gerade  | $4n+2$    |0 | $4f_j$ | 0 |
