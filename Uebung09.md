@@ -25,10 +25,22 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 
 ## Aufgabe 1
-
+                                      {{0}}
 > __1.__ Edelgaskristalle werden durch das Lennard - Jones Potential beschrieben. Wie lautet die Gleichung für dieses Potential und welche Anteile sind darin wo enthalten? Welcher Anteil ist abstoßend, welcher anziehend?
 
+
+
+                                      {{1}}
 **Lösung Aufgabe 1:**
+
+Lennard- Jones Potential:
+$$ U(r)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\sigma}{R}\right)^6\right]$$
+Der positive  hoch-12-Term ist abstoßend (Pauli Prinzip)  
+Der negative hoch 6-Term ist anziehend (van der Waals-Wechselwirkung)  
+
+
+![Lennard-Jones-Potential mit abstoßendem und anziehendem Anteil](media/Lennard-Jones-potential.png "[Dieter Herlach: Lennard-Jones potential](https://www.researchgate.net/figure/Interaction-potentials-Lennard-Jones-potential-as-a-function-of-the-particle-distance-r_fig1_311461802)")
+
 
 
 
