@@ -27,7 +27,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 # Übung 7: 
 
-## Streuamplitude, Strukturfaktor, Atomformfaktor?
+## Strukturfaktor?
 
 <details>
 
