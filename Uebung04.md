@@ -82,7 +82,7 @@ Das reziproke Gitter von bcc ist damit ein fcc-Gitter.
 
 **Lösung Aufgabe 3:**
 
-$\vec{n}=\frac{\vec{G}}{|\vec{G}|}$ ist der zu $\vec{G}$ gehörige Ebenennormalenvektor. Eine zu zur $(h,k,l)$ Ebene benachbarte äquivalente Ebene geht durch den Nullpunkt des Koordinatensystems.  Die Projektion eines beliebigen auf der Netzebene $\vec{G}$ gelegenen Punktes $\vec{r}$ auf $\vec{n}$ liefert den Ebenenabstand. Das gilt also auch für den Punkt  $\vec{r}=\frac{\vec{a}_1}{h} $ auf der Ebene (Schnittpunkt der Ebene mit der x-Achse): 
+$\vec{n}=\frac{\vec{G}_{hkl}}{|\vec{G}_{hkl}|}$ ist der zu $\vec{G}_{hkl}$ gehörige Ebenennormalenvektor. Eine zu zur $(h,k,l)$ Ebene benachbarte äquivalente Ebene geht durch den Nullpunkt des Koordinatensystems.  Die Projektion eines beliebigen auf der Netzebene $\vec{G}$ gelegenen Punktes $\vec{r}$ auf $\vec{n}$ liefert den Ebenenabstand. Das gilt also auch für den Punkt  $\vec{r}=\frac{\vec{a}_1}{h} $ auf der Ebene (Schnittpunkt der Ebene mit der x-Achse): 
 
 
 ![Bild zur Erklärung der Berechnung des Ebenenabstandes](media/Ebenenabstand.png)
