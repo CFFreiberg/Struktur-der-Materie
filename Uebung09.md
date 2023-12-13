@@ -39,25 +39,32 @@ Der positive  hoch-12-Term ist abstoßend (Pauli Prinzip)
 Der negative hoch 6-Term ist anziehend (van der Waals-Wechselwirkung)  
 
 
-![Lennard-Jones-Potential mit abstoßendem und anziehendem Anteil](media/Lennard-Jones-potential.png "[Dieter Herlach: Lennard-Jones potential](https://www.researchgate.net/figure/Interaction-potentials-Lennard-Jones-potential-as-a-function-of-the-particle-distance-r_fig1_311461802)")
+![Lennard-Jones-Potential mit abstoßendem und anziehendem Anteil](media/Lennard-Jones-potential2.png "[Lennard-Jones-Potential; Quelle: MSU Department of Physics and Astronomy, Computational Math Science and Engineering and the Lyman Briggs College](https://physicsatmcl.commons.msu.edu/lennard-jones-potential/), [CC BY-NC-SA 4.0 Deed](https://creativecommons.org/licenses/by-nc-sa/4.0/)")
 
 
 
 
-## Aufgabe 2 (Breite des Beugungsmaximums)
+## Aufgabe 2
 > __2.__ Beschreiben Sie mit Hilfe des Lennard - Jones Potentials die Kraft zwischen zwei Edelgas-Atomen!
 
 
 
 **Lösung Aufgabe 2:**
 
+$$F=\ -\frac{dU(r)}{dr}$$
 
+$$\Rightarrow F=\ -4\varepsilon\left(\frac{-12\sigma^{12}}{R^{13}}-\ \frac{-6\sigma^6}{R^7}\right)$$
+$$\Rightarrow F=\ \frac{24\varepsilon}{R}\ \left[2\left(\frac{\sigma}{R}\right)^{12}-\left(\frac{\sigma}{R}\right)^6\right] $$
 
 ## Aufgabe 3 
-> __3.__ Wie groß ist ungefähr der van der Waals  Beitrag zur anziehenden Wechselwirkung in Ionenkristallen und wie wird der Hauptbeitrag der Bindungsenergie in Ionenkristallen noch genannt?
+> __3.__ Wie groß ist ungefähr der van der Waals Beitrag zur anziehenden Wechselwirkung in Ionenkristallen und wie wird der Hauptbeitrag der Bindungsenergie in Ionenkristallen noch genannt?
 
 
 **Lösung Aufgabe 3:**
+
+Der Beitrag der  van der Waals-Wechselwirkung zur anziehenden Wechselwirkung beträgt ca. 1 – 2%  
+Der Hauptbeitrag der anziehenden Wechselwirkung ist die elektrostatische Anziehung, die auch **Madelung-Energie** genannt wird.
+
 
 ## Aufgabe 4 
 > __4.__ Wie groß ist die gesamte Gitterenergie (elektrostatische Energie) in Ionenkristallen mit 2N Atomen (Formel)?
