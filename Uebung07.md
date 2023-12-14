@@ -209,21 +209,36 @@ Der Strukturfaktor berechnet sich damit zu
 $$ S_{G_{hkl}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j+k\cdot y_j+l\cdot z_j )\right\} $$
 
                                       {{6}}
-$$\Rightarrow S_{G_{hkl}}=f\cdot \left ( 1+ \exp(-i\pi(k+l))+\exp(-i\pi(h+l))+\exp(-i\pi(h+k)) +\exp(\frac{-i\pi}{2}(h+k+l)) +\exp(\frac{-i\pi}{2}(h+3k+3l))+\exp(\frac{-i\pi}{2}(3h+k+3l)) +\exp(\frac{-i\pi}{2}(3h+3k+l)) \right )$$
+
+Alle Atome sind gleich, es gilt also $f_j=f$. Damit ergibt sich:
+ 
+
+                                      {{6}}
+$$\begin{align*}
+   \Rightarrow S_{G_{hkl}} &=f\cdot \bigg( 1+ \exp(-i\pi(k+l))+\exp(-i\pi(h+l))+\exp(-i\pi(h+k) ) \\
+   &+\exp(\frac{-i\pi}{2}(h+k+l)) +\exp(\frac{-i\pi}{2}(h+3k+3l)) \\
+   &+\exp(\frac{-i\pi}{2}(3h+k+3l)) +\exp(\frac{-i\pi}{2}(3h+3k+l)) \bigg)
+\end{align*}$$
 
                                       {{7}}
-$$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(\mathrm{fcc})\cdot\left ( 1+\exp\left (\frac{-i\pi}{2}(h+k+l) \right )  \right )$$
+$$\begin{align*}
+   \Rightarrow S_{G_{hkl}} &={S_{G_{hkl}}(\mathrm{fcc})}+ f\cdot  \bigg( \exp(\frac{-i\pi}{2}(h+k+l)) +\exp(\frac{-i\pi}{2}(h+3k+3l)) 
+  +\exp(\frac{-i\pi}{2}(3h+k+3l)) +\exp(\frac{-i\pi}{2}(3h+3k+l)) \bigg) \\
+  &=S_{G_{hkl}}(\mathrm{fcc})+ \bigg(\exp(\frac{-i\pi}{2}(h+k+l)) \bigg) \cdot f\cdot  \bigg(1+ \exp(-i\pi(k+l))+\exp(-i\pi(h+l))+\exp(-i\pi(h+k) ) \bigg) \\
+  &=S_{G_{hkl}}^{fcc}+  \exp(\frac{-i\pi}{2}(h+k+l)) \cdot S_{G_{hkl}}(\mathrm{fcc}) \\
+  &=S_{G_{hkl}}(\mathrm{fcc})\cdot\left ( 1+\exp\left (\frac{-i\pi}{2}(h+k+l) \right )  \right ) \\
+  &=S_{G_{hkl}}(\mathrm{fcc})\cdot S_{G_{hkl}}(\mathrm{Basis})
+\end{align*}$$
+
+
 
                                       {{8}}
-$$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(\mathrm{fcc})\cdot S_{G_{hkl}}(\mathrm{Basis})$$
-
-                                      {{9}}
 > __b.__ Welches sind die Nullstellen von Strukturfaktors S für Diamant?
 
-                                      {{10}}
+                                      {{9}}
 **Lösung Aufgabe 4b:**
 
-                                      {{11}}
+                                      {{10}}
  <!-- data-type="none" --> 
 | Indizes $h,k,l$    | $h+k+l$           |  $S_{hkl}$(Basis) | $S_{hkl}$(fcc)|$S_{G_{hkl}} $ |
 | ------------------- |:----------------:| :-----| :----- | :------ |
@@ -234,7 +249,7 @@ $$\Rightarrow S_{G_{hkl}}=S_{G_{hkl}}(\mathrm{fcc})\cdot S_{G_{hkl}}(\mathrm{Bas
 | 1 grade, 2 ungerade |gerade|    $0$  |$0$  |$0$|
 | 2 grade, 1 ungerade |ungerade|    $0$  |$0$  |$0$|
 
-                                      {{12}}
+                                      {{11}}
 Kleine Zusammenfassung: Keine Reflexe bei gemischten Indizes und keine Reflexe, wenn alle Indizes gerade sind und zusätzlich die Summe der Indizes nicht durch 4 teilbar ist. 
 
 ## Aufgabe 5
@@ -253,7 +268,11 @@ Das lineare Gitter lässt sich durch eine lineare Einheitszelle mit Atom A auf $
 
                                       {{5}}
 Für den Strukturfaktor gilt dann:
-$$ S_{G_{h}}=\sum_j f_j\cdot \exp \left\{ -2\pi i (h\cdot x_j )\right\} =f_A\cdot 1+f_B \cdot \exp\left\{ -2\pi i (h\cdot \frac{1}{2} )\right\}=f_A\cdot 1+f_B \cdot \exp\left\{ -\pi i h)\right\}$$
+$$\begin{align*} 
+S_{G_{h}}&=\sum_j f_j\cdot \exp \bigg(-2\pi i (h\cdot x_j )\bigg)\\
+&=f_A\cdot 1+f_B \cdot \exp\bigg(-2\pi i \big(h\cdot \frac{1}{2} \big)\bigg) \\
+&=f_A\cdot 1+f_B \cdot \exp \bigg(-\pi i h\bigg)
+\end{align*}$$
 
                                       {{6}}
 | Indize $h$    | $S_{h}$ | 
@@ -318,7 +337,10 @@ Zuerst muss überlegt werden, auf welchen Koordinaten welche Atome sitzen.
 
                                       {{4}}
 ***Sauerstoff:*** 
- $(0,0,0)$; $\left (\frac{1}{2},\frac{1}{2},\frac{1}{2}\right )$; 
+ $$\begin{align*} 
+ &\bigg(0,0,0 \bigg) \\
+ &\bigg(\frac{1}{2},\frac{1}{2},\frac{1}{2}\bigg)
+\end{align*}$$
 
                                        {{4}} 
 Also:  $$S_{hkl}(O)=f_O(1+\exp(-i\pi(h+k+l)))$$
@@ -328,22 +350,27 @@ Also:  $$S_{hkl}(O)=f_O(1+\exp(-i\pi(h+k+l)))$$
 
                                       {{5}}
 ***Kupfer:***
-$(\frac{1}{4},\frac{1}{4},\frac{1}{4})$; $(\frac{1}{4},\frac{3}{4},\frac{3}{4})$; $(\frac{3}{4},\frac{3}{4},\frac{1}{4})$; $(\frac{3}{4},\frac{1}{4},\frac{3}{4})$
+$$\begin{align*} 
+ &\bigg(\frac{1}{4},\frac{1}{4},\frac{1}{4} \bigg) \\
+ &\bigg(\frac{1}{4},\frac{3}{4},\frac{3}{4}\bigg)\\
+ &\bigg(\frac{3}{4},\frac{3}{4},\frac{1}{4}\bigg)\\
+ &\bigg(\frac{3}{4},\frac{1}{4},\frac{3}{4}\bigg)\\
+\end{align*}$$
 
-
-                                      {{5}}
-Also:
-$$S_{hkl}(Cu)=f_{Cu} \left (\exp \left (\frac{-i\pi}{2}(h+k+l) \right ) + \exp \left ( -i\pi(h+3k+3l) \right ) + \exp \left ( -i\pi(3h+3k+l) \right )+ \exp \left ( -i\pi(3h+k+3l) \right )  \right )$$
 
                                       {{6}}
-$$\Rightarrow 
-S_{hkl}(Cu)=f_{Cu}\cdot\exp \left ( \frac{-i\pi}{2}(h+k+l)\right ) \cdot\left ( 1+ \exp \left ( -i\pi(k+l) \right ) + \exp \left ( -i\pi(h+k) \right )+ \exp \left ( -i\pi(h+l) \right )  \right )$$
+Also:
+$$\begin{align*} 
+S_{hkl}(Cu)&=f_{Cu} \left (\exp \left (\frac{-i\pi}{2}(h+k+l) \right ) + \exp \left ( -i\pi(h+3k+3l) \right ) + \exp \left ( -i\pi(3h+3k+l) \right )+ \exp \left ( -i\pi(3h+k+3l) \right )  \right ) \\
 
-                                      {{7}}
-Für das Cuprit als Ganzes lässt sich die Streuamplitude aus den einzelnen Komponenten zusammensetzen:
-$$S_{hkl}​(Cu_2O)=S_{hkl}(Cu)+S_{hkl}(O)$$
+&=f_{Cu}\cdot\exp \left ( \frac{-i\pi}{2}(h+k+l)\right ) \cdot\left ( 1+ \exp \left ( -i\pi(k+l) \right ) + \exp \left ( -i\pi(h+k) \right )+ \exp \left ( -i\pi(h+l) \right )  \right )
+\end{align*}$$
 
                                       {{8}}
+Für das Cuprit als Ganzes lässt sich die gesamte Streuamplitude wegen der Summenbildung über alle Atome aus den einzelnen Komponenten zusammensetzen:
+$$S_{hkl}​(Cu_2O)=S_{hkl}(Cu)+S_{hkl}(O)$$
+
+                                      {{9}}
 <!-- data-type="none" --> 
 |Indizes $h,k,l$    | $S_{hkl}(O)$           |  $S_{hkl}(Cu)$ | Bemerkung|
 | ------------------- |:----------------:| :-----| :----- | 
