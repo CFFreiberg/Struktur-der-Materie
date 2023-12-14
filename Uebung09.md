@@ -51,10 +51,12 @@ Der negative hoch 6-Term ist anziehend (van der Waals-Wechselwirkung)
 
 **Lösung Aufgabe 2:**
 
-$$F=\ -\frac{dU(r)}{dr}$$
 
-$$\Rightarrow F=\ -4\varepsilon\left(\frac{-12\sigma^{12}}{R^{13}}-\ \frac{-6\sigma^6}{R^7}\right)$$
-$$\Rightarrow F=\ \frac{24\varepsilon}{R}\ \left[2\left(\frac{\sigma}{R}\right)^{12}-\left(\frac{\sigma}{R}\right)^6\right] $$
+$$\begin{align*}
+F&=\ -\frac{dU(r)}{dr} \\
+\Rightarrow F&=\ -4\varepsilon\left(\frac{-12\sigma^{12}}{R^{13}}-\ \frac{-6\sigma^6}{R^7}\right)\\
+&=\ \frac{24\varepsilon}{R}\ \left[2\left(\frac{\sigma}{R}\right)^{12}-\left(\frac{\sigma}{R}\right)^6\right] 
+\end{align*}$$
 
 ## Aufgabe 3 
 > __3.__ Wie groß ist ungefähr der van der Waals Beitrag zur anziehenden Wechselwirkung in Ionenkristallen und wie wird der Hauptbeitrag der Bindungsenergie in Ionenkristallen noch genannt?
@@ -71,6 +73,33 @@ Der Hauptbeitrag der anziehenden Wechselwirkung ist die elektrostatische Anziehu
 
 
 **Lösung Aufgabe 4:**
+
+Die gesamte Gitterenergie ist die Summe über alle Wechselwirkungsenergien zwischen allen $2N$ Atomen:
+
+$$U_i=\ \sum_{j\ \neq i}\ U_{ij}$$
+
+Dabei ist die Wechselwirkungsenergie 
+
+
+
+$$U_{ij}\ = \begin{cases}
+\lambda \cdot  \exp\bigg(\frac{-R}{\rho}\bigg)\ -\frac{q^2}{4 \pi \varepsilon_0 R}  &\text{für nächste Nachbarn}\\
+\pm\frac{1}{p_{ij}}\frac{q^2}{4\pi\varepsilon_0 \cdot R}  &\text{alle anderen geometrischen Fälle}  
+\end{cases} $$
+
+
+Dabei sind $\lambda$ und $\rho$  materialabhängige Parameter und $p_{ij}=\frac{r_{ij}}{R}$ der relative Abstand .
+
+Mit der **Madelung-Konstanten**
+
+$$\alpha =\ \sum_{j}\pm\frac{1}{p_{ij}} $$
+
+und der Anzahl der nächsten Nachbarn $z$ ergibt sich
+
+$$U_G=\ N\cdot U_i=N\bigg(z \cdot \lambda\cdot \exp\left(\frac{-R}{\rho}\right)-\frac{\alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R}\bigg)$$
+
+Der Gleichgewichtsabstand ergibt sich aus $\frac{dU_G}{dR} = 0$ 
+
 
 ## Aufgabe 5 
 >__5.__ Auf welche energetische Erniedrigung ist die Metallbindung zurückzuführen?
