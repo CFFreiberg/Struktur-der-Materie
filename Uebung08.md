@@ -81,6 +81,11 @@ $$ \sin^2(\theta)=\left (\frac{\lambda}{2a} \right )^2(h^2+k^2+l^2)$$
                                       {{8}}
 Eine Auftragung des Beugungsspektrums über $\sin ^2\theta$ und ein Vergleich mit den vorhandenen Reflexen bei den $h^2+k^2+l^2$-Werten ermöglicht eine Unterscheidung von sc-, bcc- und fcc-Gittern.
 
+![Intensität in Abhängigkeit von $sin^2 \theta$](media/intensities.png "*Intensitätsverteilung in Abhängigkeit des Beugungswinkels;  Quelle:  [Rueddiger Mitdank](https://www.researchgate.net/profile/Ruediger-Mitdank/post/What-is-the-significance-of-h2-k2-l2/attachment/5d1b42d83843b0b982591bbc/AS%3A776182228332547%401562067672794/download/intensities.png?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InF1ZXN0aW9uIiwicGFnZSI6InF1ZXN0aW9uIn19)*")
+
+
+
+
 ## Aufgabe 2 (Breite des Beugungsmaximums)
 
 
@@ -133,7 +138,7 @@ $|F|^2$ hat damit Hauptmaxima bei $a\cdot \Delta k=2\pi h$, ($h \in \mathbb{Z}$)
 
                                       {{9}}
 $|F|^2$ hat  Hauptmaxima bei $a\cdot \Delta k=2\pi h$, ($h \in \mathbb{Z}$)
-Für die Umgebung der Maxima $a\Delta k=2\pi h + \epsilon $ folgt mit der Läsung von a):
+Für die Umgebung der Maxima $a\Delta k=2\pi h + \epsilon $ folgt mit der Lösung von a):
 
                                       {{9}}
 $$|F|^2=\frac{\sin^2(\frac{1}{2}Ma\Delta k)}{\sin^2(\frac{1}{2}a \Delta k)}=\frac{\sin^2(\frac{1}{2}M(2\pi h+\epsilon))}{\sin^2(\frac{1}{2}(2 \pi  h + \epsilon))}$$
