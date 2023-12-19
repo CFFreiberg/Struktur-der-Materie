@@ -81,6 +81,7 @@ $$ \sin^2(\theta)=\left (\frac{\lambda}{2a} \right )^2(h^2+k^2+l^2)$$
                                       {{8}}
 Eine Auftragung des Beugungsspektrums über $\sin ^2\theta$ und ein Vergleich mit den vorhandenen Reflexen bei den $h^2+k^2+l^2$-Werten ermöglicht eine Unterscheidung von sc-, bcc- und fcc-Gittern.
 
+                                      {{8}}
 ![Intensität in Abhängigkeit vom Beugungswinkel](media/intensities.png "*Intensitätsverteilung in Abhängigkeit des Beugungswinkels;  Quelle:  [Rueddiger Mitdank](https://www.researchgate.net/profile/Ruediger-Mitdank/post/What-is-the-significance-of-h2-k2-l2/attachment/5d1b42d83843b0b982591bbc/AS%3A776182228332547%401562067672794/download/intensities.png?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InF1ZXN0aW9uIiwicGFnZSI6InF1ZXN0aW9uIn19)*")
 
 
@@ -178,7 +179,7 @@ Für das radialsymmetrische H-Atomist es sinvoll, Kugelkordinaten $(r, \varphi, 
                                       {{2}}
 $$x = r \cdot \cos \varphi \sin \theta$$
 $$y =r \cdot \sin \varphi \sin \theta$$
-$$z = r \cdot  \cos \varphi$$
+$$z = r \cdot  \cos \theta$$
 
                                       {{3}}
 $\varphi$ ist der Azimutwinkel, $\theta$ der Höhenwinkel vom Pol aus gemessen und $r$ der Abstand zum Ursprung. Es gilt für das Volumenelemt $dV$:
@@ -201,7 +202,7 @@ $$f_H=\int_V dV \cdot n_H(r) \exp (-i \Delta \vec{ k} \cdot \vec{r}) = \int_{0}^
 
 
                                       {{8}}
-$$\Rightarrow f_H= \int_{0}^{\infty}\int_{0}^{2\pi}\int_{0}^{\pi}  -r^2 (d (\cos\theta)) \ d\varphi\ dr \cdot {n_H(r) \exp (-i \Delta \vec{ k} \cdot \vec{r})}$$
+$$\Rightarrow f_H= \int_{0}^{\infty}\int_{0}^{2\pi}\int_{\cos \theta = 1}^{\cos \theta =-1}  -r^2 (d (\cos\theta)) \ d\varphi\ dr \cdot {n_H(r) \exp (-i \Delta \vec{ k} \cdot \vec{r})}$$
 
                                       {{9}}
 $$\Rightarrow f_H= 2\pi \int_{0}^{\infty}\int_{\cos \theta = 1}^{\cos \theta =-1}  -r^2 (d (\cos\theta)) \  dr \cdot {n_H(r) \exp (-i \Delta k r \cos \theta)}$$
@@ -210,12 +211,12 @@ $$\Rightarrow f_H= 2\pi \int_{0}^{\infty}\int_{\cos \theta = 1}^{\cos \theta =-1
 wobei $\theta$ der Winkel zwischen $\vec{r}$ und $\Delta \vec{k} $ ist. Das Integral nach $d \cos \theta$ kann einfach durchgeführt werden. Beim Vertauschen der Integrationsgrenzen fällt auch das vordere  $-$ weg.
 
                                       {{11}}
-$$\Rightarrow f_H= 2\pi \int_{0}^{\infty} \left [n_H(r) \cdot   r^2 \cdot \frac{{ \exp (-i k r \cos \theta)}}{-i \Delta kr} \right]_{-1}^{1} dr $$
+$$\Rightarrow f_H= 2\pi \int_{0}^{\infty} \left [n_H(r) \cdot   r^2 \cdot \frac{{ \exp (-i \Delta k r \cos \theta)}}{-i \Delta kr} \right]_{-1}^{1} dr $$
 
 
                                       {{12}}
-$$\Rightarrow f_H= 2\pi \int_{0}^{\infty} \left (n_H(r) \cdot   r^2 \cdot \frac{{ \exp (-i k r 1)-\exp (-i k r (-1))}}{-i \Delta kr} \right) dr $$
-mit $\exp(ix) – \exp(-ix) = 2i \sin x$ folgt:
+$$\Rightarrow f_H= 2\pi \int_{0}^{\infty} \left (n_H(r) \cdot   r^2 \cdot \frac{{ \exp (-i \Delta k r 1)-\exp (-i \Delta k r (-1))}}{-i \Delta k r} \right) dr $$
+ folgt:
 
 
                                       {{13}}
