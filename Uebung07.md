@@ -361,8 +361,8 @@ $$\begin{align*}
                                       {{6}}
 Also:
 $$\begin{align*} 
-S_{hkl}(Cu)&=f_{Cu} \bigg(\exp  \bigg(\frac{-i\pi}{2}(h+k+l)  \bigg) + \exp \left ( -i\pi(h+3k+3l) \right ) \\
-&+ \exp \left ( -i\pi(3h+3k+l) \right )+ \exp \left ( -i\pi(3h+k+3l) \right )  \bigg)  \\
+S_{hkl}(Cu)&=f_{Cu} \bigg(\exp  \bigg(\frac{-i\pi}{2}(h+k+l)  \bigg) + \exp \left ( \frac{-i\pi}{2}(h+3k+3l) \right ) \\
+&+ \exp \left ( \frac{-i\pi}{2}(3h+3k+l) \right )+ \exp \left ( \frac{-i\pi}{2}(3h+k+3l) \right )  \bigg)  \\
 &=f_{Cu}\cdot\exp \bigg( \frac{-i\pi}{2}(h+k+l)\bigg) \cdot \bigg( 1+ \exp \left ( -i\pi(k+l) \right ) + \exp \left ( -i\pi(h+k) \right )+ \exp \left ( -i\pi(h+l) \right )  \bigg)
 \end{align*}$$
 
