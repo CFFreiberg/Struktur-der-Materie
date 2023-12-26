@@ -237,9 +237,11 @@ Die erste Nullstelle von $\sin(\frac{M\epsilon}{2})$ ist bei $ \epsilon=\frac{2\
 > __3.__  Für das Wasserstoffatom ist im Grundzustand die Elektronendichte gleich
 
 $$n(r)=\frac{1}{\pi a_0^3}\exp\left ( \frac{-2r}{a_0}\right)$$
-> Dabei ist $a_0$ der Bohrsche Radius. Zeigen Sie, dass der Atomformfaktor gleich 
+
+>  Dabei ist $a_0$ der Bohrsche Radius. Zeigen Sie, dass der Atomformfaktor gleich 
 $$f_{\Delta k}=\frac{16}{\bigg(4+\Delta k^2\cdot a_0^2\bigg)^2}$$
-> ist, wobei $\Delta k=k-k'$ der Streuvektor ist.
+
+>  ist, wobei $\Delta k=k-k'$ der Streuvektor ist.
 
                                       {{0}}
 **Lösung Aufgabe 3:**
