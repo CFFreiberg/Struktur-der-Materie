@@ -205,7 +205,17 @@ $ U(r)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\
 
 $$U_G=4\frac{N}{2}\varepsilon\left[A_{12}\left(\frac{\sigma}{R}\right)^{12}-A_6\left(\frac{\sigma}{R}\right)^6\right]$$
 
-Für den Gleichgewichtsabstand $R_0$ muss die Gesamtenergie ein Minimum haben, also $\frac{dU_G}{dr}=0$ gelten:  
+Für den Gleichgewichtsabstand $R_0$ muss die Gesamtenergie ein Minimum haben, also $\frac{dU_G}{dR}\vert_{R_0}=0$ gelten:  
+
+$$\frac{dU_G}{dR}\vert_{R_0}=-2N\varepsilon \left[12A_{12}\frac{\sigma^{12}}{R_0^{13}}-6 A_6\frac{\sigma^6}{R_0^7} \right]=0\\$$
+
+$$\Rightarrow 2A_{12}\frac{\sigma^{12}}{R_0^{13}}=A_6\frac{\sigma^6}{R_0^7}$$
+
+$$\Rightarrow \frac{2A_{12}}{A_6}\sigma^6=R_0^6$$
+
+$$\Rightarrow R_0=\sigma\bigg(\frac{2A_{12}}{A_6}\bigg)^\frac{1}{6} $$
+
+Damit ergibt sich die gesamte Bindungsenergie zu 
 
 ## Aufgabe 10
 
