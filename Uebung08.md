@@ -247,7 +247,7 @@ $$f_{\Delta k}=\frac{16}{\bigg(4+\Delta k^2\cdot a_0^2\bigg)^2}$$
 **Lösung Aufgabe 3:**
 
                                       {{1}}
-Für das radialsymmetrische H-Atomist es sinvoll, Kugelkordinaten $(r, \varphi, \theta)$ zu nutzen:
+Für das radialsymmetrische H-Atomist es sinnvoll, Kugelkordinaten $(r, \varphi, \theta)$ zu nutzen:
 
                                       {{1}}
 ![Definition Kugelkoordinaten](https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Kugelkoord-def.svg/450px-Kugelkoord-def.svg.png "*Kugelkoordinaten $(r ,\varphi ,\theta ,)$ eines Punktes P und kartesisches Koordinatensystem mit den Achsen x , y , z. Quelle: wikipedia, Author Ag2gaeh, [CC BY-SA 4.0 Deed](https://creativecommons.org/licenses/by-sa/4.0/)*")
