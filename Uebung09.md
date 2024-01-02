@@ -137,7 +137,7 @@ Da die metallische Bindung ungerichtet ist, kristallisieren Metalle hauptsächli
 
 **Lösung Aufgabe 7:**
 
-- ein Wasserstoff-Atom oder Proton (H+) wird von zwei Atomen mit starken Kräften angezogen
+- ein Wasserstoff-Atom oder Proton (H+) wird von zwei Atomen mit starken Kräften angezogen. An dem einem Atom ist es kovalent gebunden, das andere elektronegativere Atom hat ein freies Elektronenpaar.
 - weitgehend ionische Bindung (Bindungsenergie ~ 0.1 eV)
 - Brücke zwischen **maximal 2 Atomen**
 - besonders zwischen F–H...F, O-H...O, N-H...F, C-H...N 
@@ -195,10 +195,17 @@ $$\begin{align*}
 
 
 
-
 >Welche Struktur erwartet man theoretisch für den Neonkristall? Experimentell stellt man fest, dass Neon in der fcc - Struktur kristallisiert. Welche Gründe könnte es für die Abweichung geben?
 
 **Lösung Aufgabe 9:**
+
+
+Mit dem Lennard- Jones Potential 
+$ U(r)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\sigma}{R}\right)^6\right]$ ergibt sich für die Gesamtenergie $U_\mathrm{G}$ bei insgesamt $N$ Atomen und damit $\frac{N}{2}$ Atompaaren
+
+$$U_G=4\frac{N}{2}\varepsilon\left[A_{12}\left(\frac{\sigma}{R}\right)^{12}-A_6\left(\frac{\sigma}{R}\right)^6\right]$$
+
+Für den Gleichgewichtsabstand $R_0$ muss die Gesamtenergie ein Minimum haben, also $\frac{dU_G}{dr}=0$ gelten:  
 
 ## Aufgabe 10
 
