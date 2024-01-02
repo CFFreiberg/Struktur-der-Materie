@@ -100,12 +100,23 @@ $$U_G=\ N\cdot U_i=N\bigg(z \cdot \lambda\cdot \exp\left(\frac{-R}{\rho}\right)-
 
 Der Gleichgewichtsabstand ergibt sich aus $\frac{dU_G}{dR} = 0$ 
 
+$$-\frac{N}{\rho}z\ \lambda \exp \left(\frac{-R_{0}}{\rho}\right)+\frac{N\ \alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R_0^2}\ = 0$$
+
+$$\Rightarrow z\ \lambda \exp \left(\frac{-R_0}{\rho}\right)= \frac{ \rho \cdot \alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R_0^2} $$
+
+Damit ergibt sich für den Gleichgewichtsabstand $R_0$ die gesamte Gitterenergie
+
+$$U_G=-N\frac{\alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R_0}\bigg(1-\frac{\rho}{R_0}\bigg)$$
 
 ## Aufgabe 5 
 >__5.__ Auf welche energetische Erniedrigung ist die Metallbindung zurückzuführen?
 
 **Lösung Aufgabe 5:**
 
+Bei der metallischen Bindung sind die Valenzelektronen gleichmäßig über das ganze Metall "verschmiert" und sind nicht an einem oder zwei Atomen lokalisiert (im Gegensatz zur kovalenten Bindung). Diese Valenzelktronen bilden einen "See" von ungebundenen, delokalisierten Elektronen, in dem die verbleibenden positiven Ionenrümpfe eingebettet sind. Die Bindungsenergie der metallischen Bindung kommt durch die Reduktion der kinetischen Energie der Valenzelektronen zustande.
+
+Zusatzinfos:
+Da die metallische Bindung ungerichtet ist, kristallisieren Metalle hauptsächlich in dicht gepackten Strukturen. Die Bindungsenergie ist mit ca. 1 eV eher klein. Die Bindungsenergie von Alkalimetallen (Li, Na, K, Rb, Cs, Fr) ist wesentlich kleiner als die von Alkali-Halogenid-Kristallen (LiF, NaCl), da bei ersteren die interatomaren Abstände größer sind, was zu einer Verringerung der kinetischen Energie der Valenzeleektronen führt. Bei Übergangsmetallen gibt es wegen der Wechselwirkung zwischen inneren Elektronenschalen (d-Elektronen) höhrere Bindungsenergien.
 
 ## Aufgabe 6 
 
@@ -113,12 +124,24 @@ Der Gleichgewichtsabstand ergibt sich aus $\frac{dU_G}{dR} = 0$
 
 **Lösung Aufgabe 6:**
 
+- stark gerichtete Bindung
+- Überlappung von Ladungsverteilungen von Elektronen mit antiparallelem Spin (Elektronenpaar-Bindung)
+- Die überlappenden Elektronen binden ihre zugehörigen Ionenrümpfe durch die spinabhängige Coulombenergie (elektrostatische Anziehung, Austauschwechselwirkung)
+- hohe Bindungsenergie
+- Beispiele: $\mathrm{H_2}$-Molekül, Diamant, Silizium
+
 
 ## Aufgabe 7 
 
 >__7.__ Beschreiben Sie die Wasserstoffbrückenbindung!
 
 **Lösung Aufgabe 7:**
+
+- ein Wasserstoff-Atom oder Proton (H+) wird von zwei Atomen mit starken Kräften angezogen
+- weitgehend ionische Bindung (Bindungsenergie ~ 0.1 eV)
+- Brücke zwischen **maximal 2 Atomen**
+- besonders zwischen F–H...F, O-H...O, N-H...F, C-H...N 
+- Wechselwirkung zwischen Wassermolekühlen
 
 
 ## Aufgabe 8 
@@ -138,8 +161,28 @@ Der Gleichgewichtsabstand ergibt sich aus $\frac{dU_G}{dR} = 0$
 
 **Lösung Aufgabe 8:**
 
+Die Madelung Konstante $\alpha$ ist definiert als 
 
+$$\alpha\ =\ \sum_{j}\frac{\pm}{p_{ij}}$$
 
+wobei $R\cdot p_{ij}$ der Abstand  der Atome zueinander ist.
+
+Für das ebene Gitter gilt: 
+
+$$\begin{align*} 
+\alpha_{3\ }&=\ 4\frac{+1}{1}\ +\ 4\frac{-1}{\sqrt2} &\text{erstes Quadrat}\\
+ &+\ 4\frac{-1}{2}+8\frac{+1}{\sqrt5}+4\frac{-1}{2\sqrt2} &\text{zweites Quadrat}\\
+&+4\frac{+1}{3}\frac{1}{2}+8\frac{-1}{\sqrt{10}}\frac{1}{2}
++8\frac{+1}{\sqrt{13}}\frac{1}{2}+4\frac{-1}{3\sqrt2}\frac{1}{4}  &\text{drittes Quadrat}\\
+&=\ 1,611..
+\end{align*}$$
+
+Für das gezeigte 3D-Gitter gilt:
+
+$$\begin{align*} 
+\alpha_1 &=\ 6\frac{+1}{1}\frac{1}{2}\ +12\frac{-1}{\sqrt2}\frac{1}{4}+8\frac{+1}{\sqrt3}\frac{1}{8}\\
+ &=\ 1,456..
+\end{align*}$$
 ## Aufgabe 9
 
 >__9__ Berechnen Sie das Verhältnis der Bindungsenergien und die Gleichgewichtsabstände von Neonkristallen jeweils mit einer bcc-, hcp-, und fcc- Struktur mit Hilfe des Lennard – Jones – Potentials als Funktion von $\sigma$, $\varepsilon$, $N$. Die Gittersummen sind mit $\alpha_{ij}=\frac{r_{ij}}{R}$ gegeben durch 
