@@ -33,25 +33,27 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
                                       {{1}}
 **Lösung Aufgabe 1:**
 
+                                      {{2}}
 Lennard- Jones Potential:
 $$ U(r)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\sigma}{R}\right)^6\right]$$
 Der positive  hoch-12-Term ist abstoßend (Pauli Prinzip)  
 Der negative hoch 6-Term ist anziehend (van der Waals-Wechselwirkung)  
 
-
+                                      {{2}}
 ![Lennard-Jones-Potential mit abstoßendem und anziehendem Anteil](media/Lennard-Jones-potential2.png "[Lennard-Jones-Potential; Quelle: MSU Department of Physics and Astronomy, Computational Math Science and Engineering and the Lyman Briggs College](https://physicsatmcl.commons.msu.edu/lennard-jones-potential/), [CC BY-NC-SA 4.0 Deed](https://creativecommons.org/licenses/by-nc-sa/4.0/)")
 
 
 
 
 ## Aufgabe 2
+                                      {{0}}
 > __2.__ Beschreiben Sie mit Hilfe des Lennard - Jones Potentials die Kraft zwischen zwei Edelgas-Atomen!
 
 
-
+                                      {{1}}
 **Lösung Aufgabe 2:**
 
-
+                                      {{2}}
 $$\begin{align*}
 F&=\ -\frac{dU(r)}{dr} \\
 \Rightarrow F&=\ -4\varepsilon\left(\frac{-12\sigma^{12}}{R^{13}}-\ \frac{-6\sigma^6}{R^7}\right)\\
@@ -59,39 +61,41 @@ F&=\ -\frac{dU(r)}{dr} \\
 \end{align*}$$
 
 ## Aufgabe 3 
+                                      {{0}}
 > __3.__ Wie groß ist ungefähr der van der Waals Beitrag zur anziehenden Wechselwirkung in Ionenkristallen und wie wird der Hauptbeitrag der Bindungsenergie in Ionenkristallen noch genannt?
 
-
+                                      {{1}}
 **Lösung Aufgabe 3:**
 
+                                      {{2}}
 Der Beitrag der  van der Waals-Wechselwirkung zur anziehenden Wechselwirkung beträgt ca. 1 – 2%  
 Der Hauptbeitrag der anziehenden Wechselwirkung ist die elektrostatische Anziehung, die auch **Madelung-Energie** genannt wird.
 
 
 ## Aufgabe 4 
+
+                                      {{0}}
 > __4.__ Wie groß ist die gesamte Gitterenergie (elektrostatische Energie) in Ionenkristallen mit 2N Atomen (Formel)?
 
-
+                                      {{1}}
 **Lösung Aufgabe 4:**
 
+                                      {{2}}
 Die gesamte Gitterenergie ist die Summe über alle Wechselwirkungsenergien zwischen allen $2N$ Atomen:
-
 $$U_i=\ \sum_{j\ \neq i}\ U_{ij}$$
 
+                                      {{3}}
 Dabei ist die Wechselwirkungsenergie 
-
-
-
 $$U_{ij}\ = \begin{cases}
 \lambda \cdot  \exp\bigg(\frac{-R}{\rho}\bigg)\ -\frac{q^2}{4 \pi \varepsilon_0 R}  &\text{für nächste Nachbarn}\\
 \pm\frac{1}{p_{ij}}\frac{q^2}{4\pi\varepsilon_0 \cdot R}  &\text{alle anderen geometrischen Fälle}  
 \end{cases} $$
 
-
+                                      {{3}}
 Dabei sind $\lambda$ und $\rho$  materialabhängige Parameter und $p_{ij}=\frac{r_{ij}}{R}$ der relative Abstand .
 
+                                      {{4}}
 Mit der **Madelung-Konstanten**
-
 $$\alpha =\ \sum_{j}\pm\frac{1}{p_{ij}} $$
 
 und der Anzahl der nächsten Nachbarn $z$ ergibt sich
@@ -154,7 +158,7 @@ Da die metallische Bindung ungerichtet ist, kristallisieren Metalle hauptsächli
 
 
 
-> Berechnen Sie dann die Näherung der Madelung-Konstanten für ein 3-dimensionalses Gitter für den in der Abbildung gezeigten Ausschnitt:
+> Berechnen Sie dann die Näherung der Madelung-Konstanten für ein 3-dimensionalses Gitter für den in der Abbildung gezeigten Ausschnitt!
 
 
 ![Abbildung eines dreidimensionalen Ionengitters zur Veranschaulichung der Berechnung der Madelung-Konstanten](media/3D-GitterMadelung.png "*Quelle:  A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik*")
