@@ -246,7 +246,7 @@ Experimentell wird aber das fcc-Gitter und dort ein größerer Gleichgewichtsabs
 
 ## Aufgabe 10
 
->__10__ Fester molekularer Wasserstoff: Betrachten Sie die Bindungsenergie von $H_2$-Molekülen im fcc-Gitter, wobei jedes $H_2$-Molekül als eine Kugel vereinfacht wird . Mit Messungen in der Gasphase werden die Parameter des Lennard-Jones-Potentials für $H_2$ bestimmt, es gilt 
+>__10__ Fester molekularer Wasserstoff: Betrachten Sie die Bindungsenergie von $H_2$-Molekülen im hcp-Gitter, wobei jedes $H_2$-Molekül als eine Kugel vereinfacht wird. Mit Messungen in der Gasphase werden die Parameter des Lennard-Jones-Potentials für $H_2$ bestimmt, es gilt 
 $\varepsilon= 50\cdot 10^{-23} \, \mathrm{J}$ und $\sigma =2,96 \, \AA$. Wie hoch (in $\mathrm{\frac{kJ}{mol_{H_2}}})$ ist die Bindungsenergie? 
 
 
@@ -256,8 +256,11 @@ In Aufgabe 9 wurde errechnet:
 
 $$
 \begin{align*}U_\mathrm{G}(R_0)&=-\frac{N\varepsilon}{2}\frac{A_6^2}{A_{12}}\\
-&=-8,61016 \cdot N\varepsilon\\
-&=-8,61016 \cdot \frac{6,023 \cdot 10^{23}}{\mathrm{mol}} \cdot 50\cdot 10^{-23} \, \mathrm{J}\\
+&=-8,61107 \cdot N\varepsilon\\
+&=-8,61107 \cdot \frac{6,023 \cdot 10^{23}}{\mathrm{mol}} \cdot 50\cdot 10^{-23} \, \mathrm{J}\\
 &=-2593\, \mathrm{\frac{J}{mol}} =-2,59 \, \mathrm{\frac{kJ}{mol}}
 \end{align*}$$
 
+Anmerkung: Der beobachtete Wert der Bindungsenergie ist $-0,751 \mathrm{\frac{kJ}{mol}}$, also wesentlich weniger als berechnet. Quantenmechanische Korrekturen spielen hier eine wichtige Rolle.
+
+Einen kristallinen Festkörper mit hcp Struktur  bildet Wasserstoff unterhalb von 14,02 K. 
