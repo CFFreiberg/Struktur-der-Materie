@@ -208,8 +208,8 @@ $$\begin{align*}
 \end{align*}$$
 
 ## Aufgabe 9
-
->__9__ Berechnen Sie das Verhältnis der Bindungsenergien und die Gleichgewichtsabstände von Neonkristallen jeweils mit einer bcc-, hcp-, und fcc- Struktur mit Hilfe des Lennard – Jones – Potentials als Funktion von $\sigma$, $\varepsilon$, $N$. Die Gittersummen sind mit $\alpha_{ij}=\frac{r_{ij}}{R}$ gegeben durch 
+                                      {{0}}
+>__9.__ Berechnen Sie das Verhältnis der Bindungsenergien und die Gleichgewichtsabstände von Neonkristallen jeweils mit einer bcc-, hcp-, und fcc- Struktur mit Hilfe des Lennard – Jones – Potentials als Funktion von $\sigma$, $\varepsilon$, $N$. Die Gittersummen sind mit $\alpha_{ij}=\frac{r_{ij}}{R}$ gegeben durch 
 
 |Gitter| $A_{6}=\sum\limits_{i,j\ne i}\alpha_{ij}^{-6}$ | $A_{12}=\sum\limits_{i,j\ne i} \alpha_{ij}^{-12} $|
 |:---:|:---:|:----:|
@@ -217,31 +217,37 @@ $$\begin{align*}
 |hcp|14,4549|12,1323|
 |fcc|14,4539|12,1319|
 
-
-
 >Welche Struktur erwartet man theoretisch für den Neonkristall? Experimentell stellt man fest, dass Neon in der fcc - Struktur kristallisiert. Welche Gründe könnte es für die Abweichung geben?
 
+                                      {{1}}
 **Lösung Aufgabe 9:**
 
-
+                                      {{2}}
 Mit dem Lennard- Jones Potential 
 $ U(r)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\sigma}{R}\right)^6\right]$ ergibt sich für die Gesamtenergie $U_\mathrm{G}$ bei insgesamt $N$ Atomen und damit $\frac{N}{2}$ Atompaaren
 
+                                      {{3}}
 $$\begin {align*}
 U_\mathrm{G}&=\frac{4N}{2} \varepsilon\left[\sum\limits_{i,j\ne i}{\left(\frac{\sigma}{r_{ij}}\right)^{12}}-\sum\limits_{i,j\ne i}\left(\frac{\sigma}{r_{i,j}}\right)^6\right]\\
 &= 2N\varepsilon\left[\sum\limits_{i,j\ne i}{\left(\frac{\sigma}{\alpha_{ij}\cdot R}\right)^{12}}-\sum\limits_{i,j\ne i}\left(\frac{\sigma}{\alpha_{i,j}\cdot R}\right)^6\right]\\
 &=2N\varepsilon\left[A_{12}\left(\frac{\sigma}{R}\right)^{12}-A_6\left(\frac{\sigma}{R}\right)^6\right]\end{align*}$$
 
+                                      {{4}}
 Für den Gleichgewichtsabstand $R_0$ muss die Gesamtenergie ein Minimum haben, also $\frac{dU_\mathrm{G}}{dR}\vert_{R_0}=0$ gelten:  
 
+                                      {{5}}
 $$\frac{dU_\mathrm{G}}{dR} \bigg|_{R_0}=-2N\varepsilon \left[12A_{12}\frac{\sigma^{12}}{R_0^{13}}-6 A_6\frac{\sigma^6}{R_0^7} \right]=0\\$$
 
+                                      {{6}}
 $$\Rightarrow 2A_{12}\frac{\sigma^{12}}{R_0^{13}}=A_6\frac{\sigma^6}{R_0^7}$$
 
+                                      {{7}}
 $$\Rightarrow \frac{2A_{12}}{A_6}\sigma^6=R_0^6$$
 
+                                      {{8}}
 $$\Rightarrow \color{blue} R_0=\sigma\bigg(\frac{2A_{12}}{A_6}\bigg)^\frac{1}{6} $$
 
+                                      {{9}}
 Damit ergibt sich die gesamte Bindungsenergie zu 
 $$
 \begin{align*}U_\mathrm{G}(R_0)&=4\frac{N}{2}\varepsilon\left[A_{12}\left(\frac{\sigma}{\color{blue}\sigma\bigg(\frac{2A_{12}}{A_6}\bigg)^\frac{1}{6}}\right)^{12}-A_6\left(\frac{\sigma}{\color{blue}\sigma\bigg(\frac{2A_{12}}{A_6}\bigg)^\frac{1}{6}}\right)^6\right] \\
@@ -250,34 +256,39 @@ $$
 &=-\frac{N\varepsilon}{2}\frac{A_6^2}{A_{12}}
 \end{align*}$$
 
+                                      {{10}}
 Mit dieser Formel kann für jede Gittervariante mit den gegebenen $A_6$ und $A_{12}$ der Gleichgewichtsabstand $R_0$ und die gesamte Bindungsenergie berechnet werden:
 
+                                {{11}}
 |Gitter| $R_0$ | $U_\mathrm{G}$|
 |:---:|:---:|:----:|
 |bcc|$1,068438\cdot \sigma$|$-8,23656 \cdot N\varepsilon$ |
 |hcp|$1,090167\cdot \sigma$|$\color{red}-8,61107 \cdot N\varepsilon$|
 |fcc|$1,090173\cdot \sigma$|$-8,61016 \cdot N\varepsilon$|
 
+                                {{12}}
 Daraus folgt:
 
+                                {{13}}
 $$U_\mathrm{G}^{\mathrm{hcp}}:U_\mathrm{G}^{\mathrm{fcc}}:U_\mathrm{G}^{\mathrm{bcc}}=1:0,99989:0,95660$$
 
+                                {{14}}
 - Theoretisch wäre also das hcp-Gitter am stabilsten, aber die energetischen Unterschiede zum fcp-Gitter sind klein. 
-- Das bcc-Gitter solte nicht vorkommen 
+- Das bcc-Gitter sollte nicht vorkommen 
 
+                                {{15}}
 Experimentell wird aber das fcc-Gitter und dort ein größerer Gleichgewichtsabsatand von $R_0=1,14\cdot \sigma$ beobachtet. Die Ursache sind die Nullpunktsschwingungen der Atome (gekoppelte harmonische Oszillatoren).
 
 
 ## Aufgabe 10
+                                      {{0}}
+>__10.__ Fester molekularer Wasserstoff: Betrachten Sie die Bindungsenergie von $H_2$-Molekülen im hcp-Gitter, wobei jedes $H_2$-Molekül als eine Kugel vereinfacht wird. Mit Messungen in der Gasphase werden die Parameter des Lennard-Jones-Potentials für $H_2$ bestimmt, es gilt $\varepsilon= 50\cdot 10^{-23} \, \mathrm{J}$ und $\sigma =2,96 \, \AA$. Wie hoch ist die Bindungsenergie (in $\mathrm{\frac{kJ}{mol_{H_2}}}$)? 
 
->__10__ Fester molekularer Wasserstoff: Betrachten Sie die Bindungsenergie von $H_2$-Molekülen im hcp-Gitter, wobei jedes $H_2$-Molekül als eine Kugel vereinfacht wird. Mit Messungen in der Gasphase werden die Parameter des Lennard-Jones-Potentials für $H_2$ bestimmt, es gilt 
-$\varepsilon= 50\cdot 10^{-23} \, \mathrm{J}$ und $\sigma =2,96 \, \AA$. Wie hoch (in $\mathrm{\frac{kJ}{mol_{H_2}}})$ ist die Bindungsenergie? 
-
-
+                                      {{1}}
 **Lösung Aufgabe 10:**
 
+                                      {{2}}
 In Aufgabe 9 wurde errechnet:
-
 $$
 \begin{align*}U_\mathrm{G}(R_0)&=-\frac{N\varepsilon}{2}\frac{A_6^2}{A_{12}}\\
 &=-8,61107 \cdot N\varepsilon\\
@@ -285,6 +296,6 @@ $$
 &=-2593\, \mathrm{\frac{J}{mol}} =-2,59 \, \mathrm{\frac{kJ}{mol}}
 \end{align*}$$
 
+                                      {{3}}
 Anmerkung: Der beobachtete Wert der Bindungsenergie ist $-0,751 \mathrm{\frac{kJ}{mol}}$, also wesentlich weniger als berechnet. Quantenmechanische Korrekturen spielen hier eine wichtige Rolle.
-
 Einen kristallinen Festkörper mit hcp Struktur  bildet Wasserstoff unterhalb von 14,02 K. 
