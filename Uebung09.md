@@ -203,31 +203,61 @@ $$\begin{align*}
 Mit dem Lennard- Jones Potential 
 $ U(r)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\sigma}{R}\right)^6\right]$ ergibt sich für die Gesamtenergie $U_\mathrm{G}$ bei insgesamt $N$ Atomen und damit $\frac{N}{2}$ Atompaaren
 
-$$U_G=4\frac{N}{2}\varepsilon\left[A_{12}\left(\frac{\sigma}{R}\right)^{12}-A_6\left(\frac{\sigma}{R}\right)^6\right]$$
+$$\begin {align*}
+U_\mathrm{G}&=\frac{4N}{2} \varepsilon\left[\sum\limits_{i,j\ne i}{\left(\frac{\sigma}{r_{ij}}\right)^{12}}-\sum\limits_{i,j\ne i}\left(\frac{\sigma}{r_{i,j}}\right)^6\right]\\
+&= 2N\varepsilon\left[\sum\limits_{i,j\ne i}{\left(\frac{\sigma}{\alpha_{ij}\cdot R}\right)^{12}}-\sum\limits_{i,j\ne i}\left(\frac{\sigma}{\alpha_{i,j}\cdot R}\right)^6\right]\\
+&=2N\varepsilon\left[A_{12}\left(\frac{\sigma}{R}\right)^{12}-A_6\left(\frac{\sigma}{R}\right)^6\right]\end{align*}$$
 
-Für den Gleichgewichtsabstand $R_0$ muss die Gesamtenergie ein Minimum haben, also $\frac{dU_G}{dR}\vert_{R_0}=0$ gelten:  
+Für den Gleichgewichtsabstand $R_0$ muss die Gesamtenergie ein Minimum haben, also $\frac{dU_\mathrm{G}}{dR}\vert_{R_0}=0$ gelten:  
 
-$$\frac{dU_G}{dR}\vert_{R_0}=-2N\varepsilon \left[12A_{12}\frac{\sigma^{12}}{R_0^{13}}-6 A_6\frac{\sigma^6}{R_0^7} \right]=0\\$$
+$$\frac{dU_\mathrm{G}}{dR} \bigg|_{R_0}=-2N\varepsilon \left[12A_{12}\frac{\sigma^{12}}{R_0^{13}}-6 A_6\frac{\sigma^6}{R_0^7} \right]=0\\$$
 
 $$\Rightarrow 2A_{12}\frac{\sigma^{12}}{R_0^{13}}=A_6\frac{\sigma^6}{R_0^7}$$
 
 $$\Rightarrow \frac{2A_{12}}{A_6}\sigma^6=R_0^6$$
 
-$$\Rightarrow R_0=\sigma\bigg(\frac{2A_{12}}{A_6}\bigg)^\frac{1}{6} $$
+$$\Rightarrow \color{blue} R_0=\sigma\bigg(\frac{2A_{12}}{A_6}\bigg)^\frac{1}{6} $$
 
 Damit ergibt sich die gesamte Bindungsenergie zu 
+$$
+\begin{align*}U_\mathrm{G}(R_0)&=4\frac{N}{2}\varepsilon\left[A_{12}\left(\frac{\sigma}{\color{blue}\sigma\bigg(\frac{2A_{12}}{A_6}\bigg)^\frac{1}{6}}\right)^{12}-A_6\left(\frac{\sigma}{\color{blue}\sigma\bigg(\frac{2A_{12}}{A_6}\bigg)^\frac{1}{6}}\right)^6\right] \\
+&=2N\varepsilon \left[A_{12}\bigg(\frac{A_6}{2A_{12}}\bigg)^2-A_6\frac{A_6}{2A_{12}} \right] \\
+&=2N\varepsilon \left[\frac{A_6^2}{4A_{12}}-\frac{A_6^2}{2A_{12}} \right]\\
+&=-\frac{N\varepsilon}{2}\frac{A_6^2}{A_{12}}
+\end{align*}$$
+
+Mit dieser Formel kann für jede Gittervariante mit den gegebenen $A_6$ und $A_{12}$ der Gleichgewichtsabstand $R_0$ und die gesamte Bindungsenergie berechnet werden:
+
+|Gitter| $R_0$ | $U_\mathrm{G}$|
+|:---:|:---:|:----:|
+|bcc|$1,068438\cdot \sigma$|$-8,23656 \cdot N\varepsilon$ |
+|hcp|$1,090167\cdot \sigma$|$\color{red}-8,61107 \cdot N\varepsilon$|
+|fcc|$1,090173\cdot \sigma$|$-8,61016 \cdot N\varepsilon$|
+
+Daraus folgt:
+
+$$U_\mathrm{G}^{\mathrm{hcp}}:U_\mathrm{G}^{\mathrm{fcc}}:U_\mathrm{G}^{\mathrm{bcc}}=1:0,99989:0,95660$$
+
+- Theoretisch wäre also das hcp-Gitter am stabilsten, aber die energetischen Unterschiede zum fcp-Gitter sind klein. 
+- Das bcc-Gitter solte nicht vorkommen 
+
+Experimentell wird aber das fcc-Gitter und dort ein größerer Gleichgewichtsabsatand von $R_0=1,14\cdot \sigma$ beobachtet. Die Ursache sind die Nullpunktsschwingungen der Atome (gekoppelte harmonische Oszillatoren).
+
 
 ## Aufgabe 10
 
->__10__ Fester molekularer Wasserstoff: Aus Messungen in der Gasphase findet man für $H_2$, dass für die Parameter des Lennard-Jones-Potentials gilt:
+>__10__ Fester molekularer Wasserstoff: Betrachten Sie die Bindungsenergie von $H_2$-Molekülen im fcc-Gitter, wobei jedes $H_2$-Molekül als eine Kugel vereinfacht wird . Mit Messungen in der Gasphase werden die Parameter des Lennard-Jones-Potentials für $H_2$ bestimmt, es gilt 
+$\varepsilon= 50\cdot 10^{-23} \, \mathrm{J}$ und $\sigma =2,96 \, \AA$. Wie hoch (in $\mathrm{\frac{kJ}{mol_{H_2}}})$ ist die Bindungsenergie? 
 
 
-$\varepsilon=50\cdot 10^{-16} \,\mathrm{erg= 50 \cdot 10^{-16} \,\frac{g \cdot cm^2}{s^2}= 50\cdot 10^{-16} \cdot 10^{-7} \, J}$
+**Lösung Aufgabe 10:**
 
- $\sigma =2,96 \, \AA$
- 
- >Wie hoch (in $\mathrm{\frac{kJ}{mol_{H_2}}})$ ist die Bindungsenergie? Führen Sie die Rechnung für eine fcc - Struktur durch. Behandeln sie jedes $H_2$-Molekül als eine Kugel. 
+In Aufgabe 9 wurde errechnet:
 
-
-**Lösung Aufgabe 4:**
+$$
+\begin{align*}U_\mathrm{G}(R_0)&=-\frac{N\varepsilon}{2}\frac{A_6^2}{A_{12}}\\
+&=-8,61016 \cdot N\varepsilon\\
+&=-8,61016 \cdot \frac{6,023 \cdot 10^{23}}{\mathrm{mol}} \cdot 50\cdot 10^{-23} \, \mathrm{J}\\
+&=-2593\, \mathrm{\frac{J}{mol}} =-2,59 \, \mathrm{\frac{kJ}{mol}}
+\end{align*}$$
 
