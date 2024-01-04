@@ -60,7 +60,20 @@ Photon, Phonon, Plasmon, Magnon, Polaron, Exiton. Welche Felder gehören zu dies
 **Lösung Aufgabe 2:**
 
                                       {{2}}
-Für elastische Wellen, die ja von real existierenden Atomen getragen werden, liegt der Wellenvektor $\vec{k}$ sinvollerweise in der ersten Brillouin-Zone. Also:
+Es gibt keine Wellenlängen, die größer sind als die Abmessungen des Kristalls. "Lange" Wellen passen genauso wenig in einen kurzen Kristall wie tiefe Töne in eine Piccoloflöte.
+Also: $\lambda \le b$, wobei $b$ die Abmessung des Kristalls sein soll.
+
+Wellenlängen, die kleiner sind als der (halbe) Abstand zwischen den Atomen, gibt es auch nicht. Das ist etwas schwieriger zu sehen, aber folgendes Bild  hilft:
+
+![Beschränkung des Wellenvektors bei Phononen](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/phonon1.png "[Beschränkung des Wellenvektors bei Phononen; Quelle: Uni Kiel, Materialwissenschaften](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/advanced/t2_1_1.html)")
+
+Also: $\frac{\lambda}{2} \ge a$, wobei $a$ die Gitterkonstante ist.
+
+Es gilt allgemein: 
+
+$$ k=\frac{2 \pi}{\lambda}$$
+
+Für elastische Wellen, die ja von real existierenden Atomen getragen werden, folgt für den  Wellenvektor $\vec{k}$ sinvollerweise also
 
 $$
 \begin{align*}
@@ -68,7 +81,16 @@ $$
 -\frac{\pi}{a} &\le k \le \frac{\pi}{a}
 
 \end{align*}$$
-![](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/phonon1.png)
+
+Damit kann der Wellenvektor von Phononen nur in der ersten Brillouinzone liegen.
+
+Ganz genau betrachtet müssten wegen der endlichen Ausdehnung des Kristalls $b$ noch $k$-Werte in der Nähe des Ursprungs ausgeklammert werden:
+
+$$\begin{align*}
+ |\frac{\pi}{\lambda}| &\ge b \\
+ |k| &\ge 2\pi b 
+ \end{align*}$$
+
                                       {{3}}
 
 
