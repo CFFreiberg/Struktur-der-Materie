@@ -24,84 +24,51 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 9: 
+# Übung 10: 
 
 
 ## Aufgabe 1
                                       {{0}}
-> __1.__ Edelgaskristalle werden durch das Lennard-Jones Potential beschrieben. Wie lautet die Gleichung für dieses Potential und welche Anteile sind darin wo enthalten? Welcher Anteil ist abstoßend, welcher anziehend?
-
-
+> __1.__ Beschreiben Sie folgende Quasiteilchen beziehungsweise  Elementaranregungen im Festkörper:
+Photon, Phonon, Plasmon, Magnon, Polaron, Exiton. Welche Felder gehören zu diesen Elementaranregungen?
 
                                       {{1}}
 **Lösung Aufgabe 1:**
 
-                                      {{2}}
- 
+{{2}}
 
-                                      {{3}}
+|Quasiteilchen      |       Wechselwirkung, Welle      
+| :------------- |:----------------| 
+| Photon  | elektromagnetische Welle     | 
+| Phonon  | elastische (mechanische) Welle        |   
+| Plasmon | kollektive Elektronenschwingung (Dichteschwankung von Ladungsträgern)|   
+|Magnon|magnetische Spin-Welle, Magnetisierungswelle | 
+|Polaron| Elektron-Phonon WW (Elektron und elastische Deformation)|
+|Exiton| Elektron- Loch- Paar (Polarisationswelle)|
+|Polariton| Phonon- Photon WW, starke Kopplung von Photon + Phonon|
 
-
-{{3}}
-
-``` python
-# Quelle: zusammenkopiert aus https://matplotlib.org
-
-import sys
-import numpy as np
-import matplotlib.pyplot as plt
-
-
-# The parametrized function to be plotted
-def f1(variable):
-    return 1/variable**12
-def f2(variable):
-    return -1/variable**6
-def f3(variable):
-    return (1/variable**12)-(1/variable**6)
-
-
-def main():
-    x_min = 0.8
-    x_max = 1.8
-    x_num = 100
-    y_min = -1
-    y_max = 1
-    x_label = r"$\\dfrac{R }{\\sigma}$"
-    y_label = r"$\\dfrac{U }{\\varepsilon}$"
-    x = np.linspace(x_min, x_max, x_num)
-    fig, ax = plt.subplots()
-    line, = ax.plot(x, f1(x),'r--')
-    line, = ax.plot(x, f2(x),'b--')
-    line, = ax.plot(x, f3(x),'g')
-    plt.legend((r"$+\\left (\\dfrac{\\sigma}{R}\\right)^{12}$", r"$-\\left (\\dfrac{\\sigma}{R}\\right)^{6}$", r"$+\\left (\\dfrac{\\sigma}{R}\\right)^{12}-\\left (\\dfrac{\\sigma}{R}\\right)^{6}$" ),loc='upper center', shadow=True)
-    plt.grid(True)
-    ax.set_xlabel(x_label)
-    ax.set_ylabel(y_label)
-    ax.set_ylim(y_min, y_max)
-    
-    plt.show()
-main()
-```
-@Pyodide.eval(`["main.py"]`, `python3 -m compileall .`, `python3 main.py`)
-
-                                      {{4}}
-![Lennard-Jones-Potential mit abstoßendem und anziehendem Anteil](media/Lennard-Jones-potential2.png "[Lennard-Jones-Potential; Quelle: MSU Department of Physics and Astronomy, Computational Math Science and Engineering and the Lyman Briggs College](https://physicsatmcl.commons.msu.edu/lennard-jones-potential/), [CC BY-NC-SA 4.0 Deed](https://creativecommons.org/licenses/by-nc-sa/4.0/)")
 
 
 
 
 ## Aufgabe 2
                                       {{0}}
-> __2.__ Welcher Bereich vom Wellenvektor K hat für elastische Wellen eine sinnvolle physikalische Bedeutung und warum?
+> __2.__ Welcher Bereich vom Wellenvektor $\vec{k}$ hat für elastische Wellen eine sinnvolle physikalische Bedeutung und warum?
 
 
                                       {{1}}
 **Lösung Aufgabe 2:**
 
                                       {{2}}
+Für elastische Wellen, die ja von real existierenden Atomen getragen werden, liegt der Wellenvektor $\vec{k}$ sinvollerweise in der ersten Brillouin-Zone. Also:
 
+$$
+\begin{align*}
+-\pi &\le k\cdot a \le\pi  \\
+-\frac{\pi}{a} &\le k \le \frac{\pi}{a}
 
+\end{align*}$$
+![](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/phonon1.png)
                                       {{3}}
 
 
