@@ -57,24 +57,19 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 **Lösung Aufgabe 2:**
 
                                       {{2}}
-Es gibt keine Wellenlängen, die größer sind als die Abmessungen des Kristalls. "Lange" Wellen passen genauso wenig in einen kurzen Kristall wie tiefe Töne in eine Piccoloflöte.
-Also: $\lambda \le b$, wobei $b$ die Abmessung des Kristalls sein soll.
+Wellenlängen, die kleiner sind als der (halbe) Abstand zwischen den Atomen, gibt es auch nicht. Das ist etwas schwierig zu sehen, aber folgendes Bild  hilft:
 
-![Beschränkung Wellenlänge durch Außenabmessungen](media/Piccolofloete.png "große Wellenlängen passen genauso wenig in einen kurzen Kristall wie tiefe Töne in eine Piccoloflöte")
                                       {{3}}
-Wellenlängen, die kleiner sind als der (halbe) Abstand zwischen den Atomen, gibt es auch nicht. Das ist etwas schwieriger zu sehen, aber folgendes Bild  hilft:
+![Beschränkung des Wellenvektors bei Phononen](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/phonon1.png "*[Beschränkung des Wellenvektors bei Phononen; Quelle: H. Föll (MaWi 2 Skript), Uni Kiel](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/advanced/t2_1_1.html)*")
 
                                       {{4}}
-![Beschränkung des Wellenvektors bei Phononen](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/phonon1.png "[Beschränkung des Wellenvektors bei Phononen; Quelle: H. Föll (MaWi 2 Skript), Uni Kiel](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/advanced/t2_1_1.html)")
-
-                                      {{5}}
 Also: $\frac{\lambda}{2} \ge a$, wobei $a$ die Gitterkonstante ist.
 
-                                      {{6}}
+                                      {{5}}
 Es gilt allgemein: 
 $$ k=\frac{2 \pi}{\lambda}$$
 
-                                      {{7}}
+                                      {{6}}
 Für elastische Wellen, die ja von real existierenden Atomen getragen werden, folgt für den  Wellenvektor $\vec{k}$ sinvollerweise also
 $$
 \begin{align*}
@@ -83,13 +78,25 @@ $$
 
 \end{align*}$$
 
-                                      {{8}}
+                                      {{7}}
 Damit kann der Wellenvektor von Phononen nur in der ersten Brillouinzone liegen.
 
-                                      {{9}}
+                                      {{8}}
 Ganz genau betrachtet müssten wegen der endlichen Ausdehnung des Kristalls $b$ noch $k$-Werte in der Nähe des Ursprungs ausgeklammert werden:
+
+                                      {{9}}
+Es gibt keine Wellenlängen, die größer sind als die Abmessungen des Kristalls. "Lange" Wellen passen genauso wenig in einen kurzen Kristall wie tiefe Töne in eine Piccoloflöte.
+Also: $\lambda \le b$, wobei $b$ die Abmessung des Kristalls sein soll.
+
+{{9}}
+![Beschränkung Wellenlänge durch Außenabmessungen](media/Piccolofloete.png "*Große Wellenlängen passen genauso wenig in einen kurzen Kristall wie tiefe Töne in eine Piccoloflöte; Quelle: C. Funke*")
+
+
+{{10}}
+Also:
 $$\begin{align*}
- |\frac{\pi}{\lambda}| &\ge b \\
+\lambda &\le b \\
+ |\frac{2\pi}{\lambda}| &\ge 2\pi b \\
  |k| &\ge 2\pi b 
  \end{align*}$$
 
