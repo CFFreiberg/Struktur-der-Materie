@@ -179,14 +179,36 @@ Dabei ist $u_n(t)$ die Auslenkung aus der Ruhelage.
 
 Sei $M$ die Masse eines Atoms, $C_p$ die Kraftkonstante zum $p$-ten Nachbarn und $F_n$ die Kraft auf das Atom $n$. Dann gilt:
 
-$$\sum_{p\ne 0}C_p[u_n(t)-u_{n+p}(t)]$$
+$$\sum_{p\ne 0}C_p[u_{n+p}(t)-u_{n}(t)]$$
+
+Mit dem 2. Newtonschen Gesetz $F=m\cdot \ddot{x}$ folgt:
+
+$$M\cdot\frac{\partial^2 u_n(t)}{\partial t^2}=F_n=\sum_{p\ne 0}C_p[u_{n+p}(t)-u_{n}(t)]$$
+
+Unter der Annahme $C_p=C_{-p}$ lässt sich die Summe umschreiben:
+
+$$ \begin{align*}
+M\cdot \ddot{u}_n(t)&= \sum_{p> 0}C_p[u_{n+p}(t)-u_{n}(t)]+\underbrace{ \sum_{p< 0}C_p[u_{n+p}(t)-u_{n}(t)]}_{\sum_{p> 0}C_{-p}[u_{n-p}(t)-u_{n}(t)]}\\
+&=-\sum_{p>0}C_p[2u_n-u_{n+p}-u_{n-p}]
+\end{align*}$$
+
+Betrachten wir nur die Wechselwirkungen zwischen nächsten nachbarn, d.h. $C_1=C=C_{-1}$. Dann erhalten wir
+
+$$ \begin{align*}
+M\cdot \ddot{u}_n(t)&=C[u_{n+p}(t)-u_{n}(t)]+C[u_{n-1}(t)-u_{n}(t)]\\
+&=-C \left[2u_n(t)-u_{n+1}(t)-u_{n-1}(t)\right]
+\end{align*}$$
+was zu zu war.
 
 $$F_n = C(u_{n+1} – u_n) + C(u_{n-1} – u_n )$$
 Bewegungsgleichung: Md²undt² = C(un+1 + un-1  –2un) 
 Lösungsansatz: un(t) = u(t) * exp(iKna) mit u(t) = exp(-iωt)
 
+**Lösung Aufgabe 5b:**
 
-                                      {{3}}
+Wir wählen für die Auslenkung den Ansatz
+
+$$u_n(t)=u_0(t)\cdot e^{iKna}$$
 
 
 ## Aufgabe 6 
