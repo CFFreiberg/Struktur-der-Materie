@@ -138,7 +138,13 @@ Benachbarte Netzebenen haben also engegengesetzte Auslenkungen (entgegengesetzte
 Die Gruppengeschwindigkeit $v_{\mathrm {g}}$ eines Wellenpaketes ist die Geschwindigkeit, mit der sich die Hüllkurve eines Wellenpakets fortbewegt. Es gilt: 
 
 $$v_\mathrm{g}=\frac{\partial \omega}{\partial K}$$
-
+Oder, wenn die Richtung mit berücksichtigt wird:
+$$\vec{v}_\mathrm{g}=\mathrm{grad}_K(\omega (K))=\begin{pmatrix}
+   \frac{\partial \omega}{\partial K_a} \\
+   \frac{\partial \omega}{\partial K_b} \\
+   \frac{\partial \omega}{\partial K_c} \\
+\end{pmatrix}$$
+Dabei sind $a,b,c$ die drei Koordinatenrichtungen. Die Gruppengeschwindigkeit it die Geschwindigkeit des Energietransportes.
 
                                       {{3}}
 ![Bild zu Gruppengeschwindigkeit und Phasengeschwindigkeit](https://upload.wikimedia.org/wikipedia/commons/b/bd/Wave_group.gif "*[Die grünen Punkte bewegen sich mit Gruppengeschwindigkeit, der rote mit Phasengeschwindigkeit;  Quelle: Kraaiennest](https://de.wikipedia.org/wiki/Gruppengeschwindigkeit#/media/Datei:Wave_group.gif), [CC BY-NC-SA 4.0 Deed](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
@@ -150,19 +156,34 @@ $$v_\mathrm{p}=\frac{\omega}{K}$$
 
 ## Aufgabe 5 
                                       {{0}}
->__5.__ Betrachten Sie eine lineare monoatomare Kette aus äquidistanten Atomen der Masse M im Abstand a, die um ihre Gleichgewichtslage kleine Schwingungen ausführen können (longitudinale Polarisation, harmonische Näherung). Eine Wechselwirkung bestehe ausschließlich zwischen nächsten Nachbarn und sei durch die Federkonstante C charakterisiert. Die Position des n–ten Atoms sei durch xn(t) = na + un(t) beschrieben.
+>__5.__ Betrachten Sie eine lineare monoatomare Kette aus äquidistanten Atomen der Masse $M$ im Abstand $a$, die um ihre Gleichgewichtslage kleine Schwingungen ausführen können (longitudinale Polarisation, harmonische Näherung). Eine Wechselwirkung bestehe ausschließlich zwischen nächsten Nachbarn und sei durch die Federkonstante C charakterisiert. Die Position des n–ten Atoms sei durch $x_n(t) = n\cdot a + u_n(t)$ beschrieben.
 
+>__a)__ Zeigen Sie, dass die Auslenkung $u_n(t)$ des n–ten Atoms der Differentialgleichung 
 
->__a)__ Zeigen Sie, dass die Auslenkung un(t) des n–ten Atoms der Differentialgleichung $M\cdot \frac{\partial u_n(t)}{\partial t^2}=-C \left[2u_n(t)-u_{n+1}(t)-u_{n-1}(t)\right]$ genügt.
+$$M\cdot \frac{\partial u_n(t)}{\partial t^2}=-C \left[2u_n(t)-u_{n+1}(t)-u_{n-1}(t)\right]$$
+> genügt.
 
->__b)__ Lösen Sie obige Gleichung mit dem Ansatz un(t) = u0(t) eiKna und leiten Sie eine Dispersionsrelation zwischen Frequenz ω und der Wellenzahl K ab. 
+>__b)__ Lösen Sie obige Gleichung mit dem Ansatz $u_n(t) = u_0(t) e^{iKna}$ und leiten Sie eine Dispersionsrelation zwischen Frequenz $\omega$ und der Wellenzahl $K$  ab. 
 
->__c)__ Diskutieren Sie den langwelligen Limes Ka <<1 und zeigen Sie insbesondere, dass sich aus obiger Gleichung die (Schall–) Wellengeichung  $ \frac{\partial^2 u(x,t)}{\partial t^2}-v_s^2\frac{\partial^2 u(x,t)}{\partial x^2}=0$   ergibt, wenn man zur Kontinuumsbeschreibung un±1(t) = u(x ± a, t) übergeht.
+>__c)__ Diskutieren Sie den langwelligen Grenzfall $Ka \ll 1$ und zeigen Sie insbesondere, dass sich aus obiger Gleichung die (Schall–) Wellengeichung  $ \frac{\partial^2 u(x,t)}{\partial t^2}-v_s^2\frac{\partial^2 u(x,t)}{\partial x^2}=0$   ergibt, wenn man zur Kontinuumsbeschreibung $u_{n±1}(t) = u(x ± a, t)$ übergeht.
 
                                       {{1}}
-**Lösung Aufgabe 5:**
+**Lösung Aufgabe 5a:**
 
                                       {{2}}
+Die Position des $n$-ten Atoms in der lineraren Kette aus gleichen Atomen mit äquidistanten mittlerem Abstand $a$ und Federkonstante $C$ ist bei longitudinaler Polarisation für das $n$-te Atom : 
+
+$$x_n(t) = n\cdot a + u_n(t)$$
+
+Dabei ist $u_n(t)$ die Auslenkung aus der Ruhelage. 
+
+Sei $M$ die Masse eines Atoms, $C_p$ die Kraftkonstante zum $p$-ten Nachbarn und $F_n$ die Kraft auf das Atom $n$. Dann gilt:
+
+$$\sum_{p\ne 0}C_p[u_n(t)-u_{n+p}(t)]$$
+
+$$F_n = C(u_{n+1} – u_n) + C(u_{n-1} – u_n )$$
+Bewegungsgleichung: Md²undt² = C(un+1 + un-1  –2un) 
+Lösungsansatz: un(t) = u(t) * exp(iKna) mit u(t) = exp(-iωt)
 
 
                                       {{3}}
