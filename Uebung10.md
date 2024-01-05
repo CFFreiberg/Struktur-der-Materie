@@ -50,7 +50,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 ## Aufgabe 2
                                       {{0}}
-> __2.__ Welcher Bereich vom Wellenvektor $\vec{k}$ hat für elastische Wellen eine sinnvolle physikalische Bedeutung und warum?
+> __2.__ Welcher Bereich vom Wellenvektor $\vec{K}$ hat für elastische Wellen eine sinnvolle physikalische Bedeutung und warum?
 
 
                                       {{1}}
@@ -67,23 +67,23 @@ Also: $\frac{\lambda}{2} \ge a$, wobei $a$ die Gitterkonstante ist.
 
                                       {{5}}
 Es gilt allgemein: 
-$$ k=\frac{2 \pi}{\lambda}$$
+$$ K=\frac{2 \pi}{\lambda}$$
 
                                       {{6}}
 Für elastische Wellen, die ja von real existierenden Atomen getragen werden, folgt für den  Wellenvektor $\vec{k}$ sinvollerweise also
 $$
 \begin{align*}
--\pi &\le k\cdot a \le\pi  \\
--\frac{\pi}{a} &\le k \le \frac{\pi}{a}
+-\pi &\le K\cdot a \le\pi  \\
+-\frac{\pi}{a} &\le K \le \frac{\pi}{a}
 
 \end{align*}$$
-Größere Wellenvektoren können über $k'=k-\frac{n\cdot 2\pi}{a}$ immer auf Wellenvektoren innerhalb der 1. Brillouinzone zurückgeführt werden.
+Größere Wellenvektoren können über $K'=K-\frac{n\cdot 2\pi}{a}$ immer auf Wellenvektoren innerhalb der 1. Brillouinzone zurückgeführt werden.
 
                                       {{7}}
 Damit kann der Wellenvektor von Phononen nur in der ersten Brillouinzone liegen.
 
                                       {{8}}
-Ganz genau betrachtet müssten wegen der endlichen Ausdehnung des Kristalls $b$ noch $k$-Werte in der Nähe des Ursprungs ausgeklammert werden:
+Ganz genau betrachtet müssten wegen der endlichen Ausdehnung des Kristalls $b$ noch $K$-Werte in der Nähe des Ursprungs ausgeklammert werden:
 
                                       {{9}}
 Es gibt keine Wellenlängen, die größer sind als die Abmessungen des Kristalls. "Lange" Wellen passen genauso wenig in einen kurzen Kristall wie tiefe Töne in eine Piccoloflöte.
@@ -98,7 +98,7 @@ Also:
 $$\begin{align*}
 \lambda &\le b \\
  |\frac{2\pi}{\lambda}| &\ge 2\pi b \\
- |k| &\ge 2\pi b 
+ |K| &\ge 2\pi b 
  \end{align*}$$
 
 
@@ -112,7 +112,7 @@ $$\begin{align*}
 
                                       {{2}}
 Wenn der Wellenvektor $k$ auf den Grenze der 1. Brillouin-Zone liegt, dann gilt 
-$$k=\frac{\pi}{a}$$
+$$K=\frac{\pi}{a}$$
 
 
                                       {{3}}
@@ -124,7 +124,7 @@ u_s&=u\cdot \exp(iska)\\
 \end{align*} $$
 
                                       {{4}}
-Benachbarte Netzebenen haben also engegengesetzte Auslenkungen (entgegengesetzte Phase), da &U_s=\pm \cdot u$, je nachdem , ob $s$ gerade oder ungerade ist. Damit handelt es sich um eine stehende Welle.
+Benachbarte Netzebenen haben also engegengesetzte Auslenkungen (entgegengesetzte Phase), da $U_s=\pm \cdot u$, je nachdem , ob $s$ gerade oder ungerade ist. Damit handelt es sich um eine stehende Welle.
 
 ## Aufgabe 4 
 
@@ -135,13 +135,18 @@ Benachbarte Netzebenen haben also engegengesetzte Auslenkungen (entgegengesetzte
 **Lösung Aufgabe 4:**
 
                                       {{2}}
+Die Gruppengeschwindigkeit $v_{\mathrm {g}}$ eines Wellenpaketes ist die Geschwindigkeit, mit der sich die Hüllkurve eines Wellenpakets fortbewegt. Es gilt: 
+
+$$v_\mathrm{g}=\frac{\partial \omega}{\partial K}$$
 
 
                                       {{3}}
+![Bild zu Gruppengeschwindigkeit und Phasengeschwindigkeit](https://upload.wikimedia.org/wikipedia/commons/b/bd/Wave_group.gif "*[Die grünen Punkte bewegen sich mit Gruppengeschwindigkeit, der rote mit Phasengeschwindigkeit;  Quelle: Kraaiennest](https://de.wikipedia.org/wiki/Gruppengeschwindigkeit#/media/Datei:Wave_group.gif), [CC BY-NC-SA 4.0 Deed](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
-
-                                      {{3}}
-
+                                      
+{{4}}
+Ergänzung: Die Phasengeschwindigkeit $v_\mathrm{p}$ ist
+$$v_\mathrm{p}=\frac{\omega}{K}$$
 
 ## Aufgabe 5 
                                       {{0}}
