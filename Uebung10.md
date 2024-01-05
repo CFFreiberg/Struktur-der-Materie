@@ -29,15 +29,14 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 ## Aufgabe 1
                                       {{0}}
-> __1.__ Beschreiben Sie folgende Quasiteilchen beziehungsweise  Elementaranregungen im Festkörper:
-Photon, Phonon, Plasmon, Magnon, Polaron, Exiton. Welche Felder gehören zu diesen Elementaranregungen?
+> __1.__ Beschreiben Sie folgende Quasiteilchen beziehungsweise  Elementaranregungen im Festkörper: Photon, Phonon, Plasmon, Magnon, Polaron, Exiton. Welche Felder oder Wellen gehören zu diesen Elementaranregungen?
 
                                       {{1}}
 **Lösung Aufgabe 1:**
 
 {{2}}
 
-|Quasiteilchen      |       Wechselwirkung, Welle      
+|Quasiteilchen      |       Wechselwirkung, Welle    |  
 | :------------- |:----------------| 
 | Photon  | elektromagnetische Welle     | 
 | Phonon  | elastische (mechanische) Welle        |   
@@ -46,8 +45,6 @@ Photon, Phonon, Plasmon, Magnon, Polaron, Exiton. Welche Felder gehören zu dies
 |Polaron| Elektron-Phonon WW (Elektron und elastische Deformation)|
 |Exiton| Elektron- Loch- Paar (Polarisationswelle)|
 |Polariton| Phonon- Photon WW, starke Kopplung von Photon + Phonon|
-
-
 
 
 
@@ -63,18 +60,22 @@ Photon, Phonon, Plasmon, Magnon, Polaron, Exiton. Welche Felder gehören zu dies
 Es gibt keine Wellenlängen, die größer sind als die Abmessungen des Kristalls. "Lange" Wellen passen genauso wenig in einen kurzen Kristall wie tiefe Töne in eine Piccoloflöte.
 Also: $\lambda \le b$, wobei $b$ die Abmessung des Kristalls sein soll.
 
+![Beschränkung Wellenlänge durch Außenabmessungen](media/Piccolofloete.png "große Wellenlängen passen genauso wenig in einen kurzen Kristall wie tiefe Töne in eine Piccoloflöte")
+                                      {{3}}
 Wellenlängen, die kleiner sind als der (halbe) Abstand zwischen den Atomen, gibt es auch nicht. Das ist etwas schwieriger zu sehen, aber folgendes Bild  hilft:
 
+                                      {{4}}
 ![Beschränkung des Wellenvektors bei Phononen](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/phonon1.png "[Beschränkung des Wellenvektors bei Phononen; Quelle: H. Föll (MaWi 2 Skript), Uni Kiel](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/advanced/t2_1_1.html)")
 
+                                      {{5}}
 Also: $\frac{\lambda}{2} \ge a$, wobei $a$ die Gitterkonstante ist.
 
+                                      {{6}}
 Es gilt allgemein: 
-
 $$ k=\frac{2 \pi}{\lambda}$$
 
+                                      {{7}}
 Für elastische Wellen, die ja von real existierenden Atomen getragen werden, folgt für den  Wellenvektor $\vec{k}$ sinvollerweise also
-
 $$
 \begin{align*}
 -\pi &\le k\cdot a \le\pi  \\
@@ -82,16 +83,16 @@ $$
 
 \end{align*}$$
 
+                                      {{8}}
 Damit kann der Wellenvektor von Phononen nur in der ersten Brillouinzone liegen.
 
+                                      {{9}}
 Ganz genau betrachtet müssten wegen der endlichen Ausdehnung des Kristalls $b$ noch $k$-Werte in der Nähe des Ursprungs ausgeklammert werden:
-
 $$\begin{align*}
  |\frac{\pi}{\lambda}| &\ge b \\
  |k| &\ge 2\pi b 
  \end{align*}$$
 
-                                      {{3}}
 
 
 
