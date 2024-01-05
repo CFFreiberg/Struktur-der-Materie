@@ -77,6 +77,7 @@ $$
 -\frac{\pi}{a} &\le k \le \frac{\pi}{a}
 
 \end{align*}$$
+Größere Wellenvektoren können über $k'=k-\frac{n\cdot 2\pi}{a}$ immer auf Wellenvektoren innerhalb der 1. Brillouinzone zurückgeführt werden.
 
                                       {{7}}
 Damit kann der Wellenvektor von Phononen nur in der ersten Brillouinzone liegen.
@@ -102,17 +103,28 @@ $$\begin{align*}
 
 
 
-
-
 ## Aufgabe 3 
                                       {{0}}
-> __3.__ Welche Bedeutung kommt einer elastischen Welle zu, wenn dessen Wellenvektor K auf den Grenzen der 1. Brillouin-Zone liegt?
+> __3.__ Welche Bedeutung kommt einer elastischen Welle zu, wenn deren Wellenvektor $k$ auf den Grenzen der 1. Brillouin-Zone liegt?
 
                                       {{1}}
 **Lösung Aufgabe 3:**
 
                                       {{2}}
+Wenn der Wellenvektor $k$ auf den Grenze der 1. Brillouin-Zone liegt, dann gilt 
+$$k=\frac{\pi}{a}$$
 
+
+                                      {{3}}
+Damit folgt für die Auslenkung $u$ der Kristallebene $s$ der elastischen Welle:
+$$\begin{align*}
+u_s&=u\cdot \exp(iska)\\
+&=u\cdot \exp(\pm is\pi)\\
+&=u\cdot(-1)^s
+\end{align*} $$
+
+                                      {{4}}
+Benachbarte Netzebenen haben also engegengesetzte Auslenkungen (entgegengesetzte Phase), da &U_s=\pm \cdot u$, je nachdem , ob $s$ gerade oder ungerade ist. Damit handelt es sich um eine stehende Welle.
 
 ## Aufgabe 4 
 
