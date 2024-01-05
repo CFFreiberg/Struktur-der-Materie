@@ -54,6 +54,9 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 
+# So that the axis labels are not cut off
+from matplotlib import rcParams
+rcParams.update({'figure.autolayout': True})
 
 # The parametrized function to be plotted
 def f1(variable):
@@ -71,7 +74,7 @@ def main():
     y_min = -1
     y_max = 1
     x_label = r"$\\dfrac{R }{\\sigma}$"
-    y_label = r"$\\dfrac{U }{4\\varepsilon}$"
+    y_label = r"$\\dfrac{U }{4\\cdot\\varepsilon}$"
     x = np.linspace(x_min, x_max, x_num)
     fig, ax = plt.subplots()
     line, = ax.plot(x, f1(x),'r--')

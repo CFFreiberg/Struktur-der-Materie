@@ -65,7 +65,7 @@ Also: $\lambda \le b$, wobei $b$ die Abmessung des Kristalls sein soll.
 
 Wellenlängen, die kleiner sind als der (halbe) Abstand zwischen den Atomen, gibt es auch nicht. Das ist etwas schwieriger zu sehen, aber folgendes Bild  hilft:
 
-![Beschränkung des Wellenvektors bei Phononen](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/phonon1.png "[Beschränkung des Wellenvektors bei Phononen; Quelle: Uni Kiel, Materialwissenschaften](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/advanced/t2_1_1.html)")
+![Beschränkung des Wellenvektors bei Phononen](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/phonon1.png "[Beschränkung des Wellenvektors bei Phononen; Quelle: H. Föll (MaWi 2 Skript), Uni Kiel](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/advanced/t2_1_1.html)")
 
 Also: $\frac{\lambda}{2} \ge a$, wobei $a$ die Gitterkonstante ist.
 
