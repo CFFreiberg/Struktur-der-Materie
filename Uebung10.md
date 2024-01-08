@@ -205,6 +205,7 @@ was zu zeigen war.
 
 
 **Lösung Aufgabe 5b:**
+
 Bei der Lösusng von Aufgabenteil b) beschränken wir uns zur Abwechselung gleich auf die Wechselwiwrkungen der nächsten Nachbarn.
 
 Wir wählen für die Auslenkung den Ansatz
@@ -233,7 +234,31 @@ $$\begin{align*}\omega^2&=\frac{2C}{M}\bigg(2\sin^2\bigg(\frac{Ka}{2}\bigg)\bigg
 \Rightarrow \omega&=2\sqrt{\frac{C}{M}}\sin\bigg(\frac{Ka}{2}\bigg)
 \end{align*}$$
 
-![Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis](media/Dispersionsrelation.png "*Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis; Quelle: (Ulrich Schwarz)[https://www.tu-chemnitz.de/physik/EXSE/KondensierteMaterie/Festk%C3%B6rperphysik%20-%2005%20Gitterschwingungen.pdf]*")
+![Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis](media/Dispersionsrelation.png "*Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis; Quelle: [TU Chemnitz, Ulrich Schwarz](https://www.tu-chemnitz.de/physik/EXSE/KondensierteMaterie/Festk%C3%B6rperphysik%20-%2005%20Gitterschwingungen.pdf)*")
+
+
+**Lösung Aufgabe 5c:**
+
+Für die Phasengeschwindigkeit im langwelligen Grenzfall, d.h. $K\cdot a \rightarrow 0$, gilt mit $\sin(x)\approx x$:
+
+$$
+\omega=2\sqrt{\frac{C}{M}}\frac{Ka}{2}=\sqrt{\frac{C}{M}}Ka
+$$
+
+Damit wird die Phasengeschwindigkeit $v_p$
+$$v_p=\frac{\omega}{K}=a\sqrt{\frac{C}{M}}$$
+
+und die Gruppengeschwindigkeit $v_g$
+$$v_g=\frac{\partial \omega}{\partial K}=a\sqrt{\frac{C}{M}}$$
+
+Für die Schall-Wellengleichung kann $u_n(t)$ als kontinuierliche Funktion der reellen Variablen $x$ aufgefasst werden:
+
+$$\begin{align}
+u_n(t) &\rightarrow u(x,t)\\
+u_{n\pm p}(t) &\rightarrow u(x+pa,t)
+\end{align*}
+$$
+
 
 ## Aufgabe 6 
 
