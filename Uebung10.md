@@ -236,6 +236,15 @@ $$\begin{align*}\omega^2&=\frac{2C}{M}\bigg(2\sin^2\bigg(\frac{Ka}{2}\bigg)\bigg
 
 ![Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis](media/Dispersionsrelation.png "*Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis; Quelle: [TU Chemnitz, Ulrich Schwarz](https://www.tu-chemnitz.de/physik/EXSE/KondensierteMaterie/Festk%C3%B6rperphysik%20-%2005%20Gitterschwingungen.pdf)*")
 
+Ergänzung: Eigenschaften von $\omega(K)$
+
+|Formel|Eigenschaft|
+|:-----|-----|
+$\omega(K)=\omega(K+n\cdot\frac{2\pi}{a})$
+
+
+
+
 
 **Lösung Aufgabe 5c:**
 
@@ -251,13 +260,37 @@ $$v_p=\frac{\omega}{K}=a\sqrt{\frac{C}{M}}$$
 und die Gruppengeschwindigkeit $v_g$
 $$v_g=\frac{\partial \omega}{\partial K}=a\sqrt{\frac{C}{M}}$$
 
+Für den langwelligen Grenzfall gilt für die monoatomare lineare Kette:
+
+$$v_g=v_p=v_s$$
+
 Für die Schall-Wellengleichung kann $u_n(t)$ als kontinuierliche Funktion der reellen Variablen $x$ aufgefasst werden:
 
-$$\begin{align}
+$$\begin{align*}
 u_n(t) &\rightarrow u(x,t)\\
 u_{n\pm p}(t) &\rightarrow u(x+pa,t)
 \end{align*}
 $$
+
+Nun wird eine Taylorreihenentwicklung für die Position der Nachbaratome $u_{n\pm 1}$ vorgenommen, Terme ab 3. Ordnung in $a$ werden vernachlässigt.
+
+$$u_{n \pm 1 }(t) = u(x \pm a, t) = u(x, t)\pm\ a\frac{\partial u}{\partial x}\ + a^2 \frac{\partial ^2 u}{\partial x^2}\pm...$$
+
+Also:
+$$\begin{align*}
+F&=-C [u_{n+1}-u_n(t) +u_{n-1}-u_{n}(t)]\\
+&=C [2u_n(t)-u_{n+1}-u_{n-1}]\\
+&=C[2u(x,t)-u(x+a,t)-u(x-a,t)]\\
+&=C[a^2 \frac{\partial ^2 u}{\partial x^2}]
+\end{align*}
+$$
+Mit dem 2. Newtonschen Gesetz $F=M\cdot \ddot{x}$ folgt:
+
+$$M\cdot \frac{\partial ^2 u}{\partial t^2}=Ca^2 \frac{\partial ^2 u}{\partial x^2}$$
+
+$$\Rightarrow \frac{\partial ^2 u}{\partial t^2}=\underbrace{a^2\frac{C}{M}}_{v_s^2}\frac{\partial ^2 u}{\partial x^2}$$
+
+$$\Rightarrow \frac{\partial ^2 u}{\partial t^2}=v_s^2\frac{\partial ^2 u}{\partial x^2}$$
 
 
 ## Aufgabe 6 
