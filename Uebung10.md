@@ -105,20 +105,20 @@ $$\begin{align*}
 
 ## Aufgabe 3 
                                       {{0}}
-> __3.__ Welche Bedeutung kommt einer elastischen Welle zu, wenn deren Wellenvektor $k$ auf den Grenzen der 1. Brillouin-Zone liegt?
+> __3.__ Welche Bedeutung kommt einer elastischen Welle zu, wenn deren Wellenvektor $K$ auf den Grenzen der 1. Brillouin-Zone liegt?
 
                                       {{1}}
 **Lösung Aufgabe 3:**
 
                                       {{2}}
-Wenn der Wellenvektor $k$ auf den Grenze der 1. Brillouin-Zone liegt, dann gilt 
+Wenn der Wellenvektor $K$ auf den Grenze der 1. Brillouin-Zone liegt, dann gilt 
 $$K=\frac{\pi}{a}$$
 
 
                                       {{3}}
 Damit folgt für die Auslenkung $u$ der Kristallebene $s$ der elastischen Welle:
 $$\begin{align*}
-u_s&=u\cdot \exp(iska)\\
+u_s&=u\cdot \exp(isKa)\\
 &=u\cdot \exp(\pm is\pi)\\
 &=u\cdot(-1)^s
 \end{align*} $$
@@ -156,7 +156,7 @@ $$v_\mathrm{p}=\frac{\omega}{K}$$
 
 ## Aufgabe 5 
                                       {{0}}
->__5.__ Betrachten Sie eine lineare monoatomare Kette aus äquidistanten Atomen der Masse $M$ im Abstand $a$, die um ihre Gleichgewichtslage kleine Schwingungen ausführen können (longitudinale Polarisation, harmonische Näherung). Eine Wechselwirkung bestehe ausschließlich zwischen nächsten Nachbarn und sei durch die Federkonstante C charakterisiert. Die Position des n–ten Atoms sei durch $x_n(t) = n\cdot a + u_n(t)$ beschrieben.
+>__5.__ Betrachten Sie eine lineare monoatomare Kette aus äquidistanten Atomen der Masse $M$ im Abstand $a$, die um ihre Gleichgewichtslage kleine Schwingungen ausführen können (longitudinale Polarisation, harmonische Näherung). Eine Wechselwirkung bestehe ausschließlich zwischen nächsten Nachbarn und sei durch die Federkonstante $C$ charakterisiert. Die Position des n–ten Atoms sei durch $x_n(t) = n\cdot a + u_n(t)$ beschrieben.
 
 >__a)__ Zeigen Sie, dass die Auslenkung $u_n(t)$ des n–ten Atoms der Differentialgleichung 
 
@@ -176,6 +176,8 @@ Die Position des $n$-ten Atoms in der lineraren Kette aus gleichen Atomen mit ä
 $$x_n(t) = n\cdot a + u_n(t)$$
 
 Dabei ist $u_n(t)$ die Auslenkung aus der Ruhelage. 
+
+Wir leiten einfach mal eine Lösung für alle Wechselwirkungen her und beschränken uns dann auf die nächsten Nachbar. (Natürlich könnte das auch gleich an dieser stelle passieren;))
 
 Sei $M$ die Masse eines Atoms, $C_p$ die Kraftkonstante zum $p$-ten Nachbarn und $F_n$ die Kraft auf das Atom $n$. Dann gilt:
 
@@ -198,18 +200,40 @@ $$ \begin{align*}
 M\cdot \ddot{u}_n(t)&=C[u_{n+p}(t)-u_{n}(t)]+C[u_{n-1}(t)-u_{n}(t)]\\
 &=-C \left[2u_n(t)-u_{n+1}(t)-u_{n-1}(t)\right]
 \end{align*}$$
-was zu zu war.
+was zu zeigen war.
 
-$$F_n = C(u_{n+1} – u_n) + C(u_{n-1} – u_n )$$
-Bewegungsgleichung: Md²undt² = C(un+1 + un-1  –2un) 
-Lösungsansatz: un(t) = u(t) * exp(iKna) mit u(t) = exp(-iωt)
+
 
 **Lösung Aufgabe 5b:**
+Bei der Lösusng von Aufgabenteil b) beschränken wir uns zur Abwechselung gleich auf die Wechselwiwrkungen der nächsten Nachbarn.
 
 Wir wählen für die Auslenkung den Ansatz
 
 $$u_n(t)=u_0(t)\cdot e^{iKna}$$
 
+Damit folgt: 
+$$M\cdot \ddot{u}_0(t)\cdot e^{iKna}=C \cdot  [e^{i(n+1)Ka}-e^{i(n)Ka}+e^{i(n-1)Ka}-e^{i(n)Ka}]\cdot u_0(t)$$
+
+
+$$
+\begin{align*}
+\Rightarrow M\cdot \ddot{u}_0(t)\cdot e^{iKna}&=C \cdot  [e^{i(n+1)Ka}-e^{i(n)Ka}+e^{i(n-1)Ka}-e^{i(n)Ka}]\cdot u_0(t)\\
+&=C \cdot  [e^{i(n+1)Ka}+e^{i(n-1)Ka}-2e^{i(n)Ka}]\cdot u_0(t)\\
+
+\Rightarrow M\cdot \ddot{u}_0(t)&=C\cdot  [\underbrace{ e^{i(+1)Ka}+e^{i(-1)Ka}}_{2\cos(Ka)}-2]\cdot u_0(t)\\
+\Rightarrow -M\cdot \omega^2{u}_0(t)&=C\cdot[2\cdot\cos(Ka)-2]\cdot u_0(t)
+\end{align*}$$
+
+Damit folgt dann:
+$$\omega^2=\frac{2C}{M}(1-\cos(Ka))$$
+
+Jetzt wird noch die Gleichheit $1-\cos(x)=2\sin^2(\frac{x}{2})$ eingesetzt:
+
+$$\begin{align*}\omega^2&=\frac{2C}{M}\bigg(2\sin^2\bigg(\frac{Ka}{2}\bigg)\bigg)\\
+\Rightarrow \omega&=2\sqrt{\frac{C}{M}}\sin\bigg(\frac{Ka}{2}\bigg)
+\end{align*}$$
+
+![Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis](media/Dispersionsrelation.png "*Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis; Quelle: (Ulrich Schwarz)[https://www.tu-chemnitz.de/physik/EXSE/KondensierteMaterie/Festk%C3%B6rperphysik%20-%2005%20Gitterschwingungen.pdf]*")
 
 ## Aufgabe 6 
 
