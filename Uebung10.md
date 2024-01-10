@@ -236,11 +236,13 @@ $$\begin{align*}\omega^2&=\frac{2C}{M}\bigg(2\sin^2\bigg(\frac{Ka}{2}\bigg)\bigg
 
 ![Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis](media/Dispersionsrelation.png "*Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis; Quelle: [TU Chemnitz, Ulrich Schwarz](https://www.tu-chemnitz.de/physik/EXSE/KondensierteMaterie/Festk%C3%B6rperphysik%20-%2005%20Gitterschwingungen.pdf)*")
 
-Ergänzung: Eigenschaften von $\omega(K)$
+**Ergänzung: Eigenschaften von $\omega(K)$**
 
 |Formel|Eigenschaft|
 |:-----|-----|
-$\omega(K)=\omega(K+n\cdot\frac{2\pi}{a})$
+|$\omega(K)=\omega(K+n\cdot\frac{2\pi}{a})$ mit $n=0, \pm1,\pm2,...$|Periodizität|
+|$\omega(K)=\omega(-K)$|Parität|
+|$\omega_\mathrm{max}=2\sqrt{\frac{C}{M}}$|Maximum|
 
 
 
@@ -296,17 +298,40 @@ $$\Rightarrow \frac{\partial ^2 u}{\partial t^2}=v_s^2\frac{\partial ^2 u}{\part
 ## Aufgabe 6 
 
                                       {{0}}
->__6.__ Gegeben sei eine lineare, monoatomare, quasi-elastische Kette aus Atomen der Masse M = 200amu. Der Abstand zwischen benachbarten Atomen sei a = 4Å. Beachten Sie nur Wechselwirkungen zwischen nächsten Nachbarn. 
-a) Die Schallgeschwindigkeit sei 4000m/s. Wie groß ist die Koppelungskonstante C zwischen benachbarten Atomen?
-b) Wie groß ist die maximale Frequenz der (ungedämpften) Welle?
+>__6.__ Gegeben sei eine lineare, monoatomare, quasi-elastische Kette aus Atomen der Masse $M = 200 \,\mathrm{u}=200 \cdot 1,66054\cdot 10^{-24} \mathrm{g}$. Der Abstand zwischen benachbarten Atomen sei $a = 4 \, \mathrm{\AA}$. Beachten Sie nur Wechselwirkungen zwischen nächsten Nachbarn.
+
+>__a)__ Die Schallgeschwindigkeit sei $4000\, \mathrm{\frac{m}{s}}$. Wie groß ist die Koppelungskonstante $C$ zwischen benachbarten Atomen?
+
+>__b)__ Wie groß ist die maximale Frequenz der (ungedämpften) Welle?
 
 
                                       {{1}}
-**Lösung Aufgabe 6:**
+**Lösung Aufgabe 6a):**
 
                                       {{2}}
+**Gegeben:**
 
+ $M = 200 \,\mathrm{u}=200 \cdot 1,66054\cdot 10^{-27} \mathrm{kg}$
 
+ $a = 4 \, \mathrm{\AA}= 4 \cdot 10^{-10} \mathrm{m}$
+
+ $v_s = 4000 \, \mathrm{\frac{m}{s}}$
+
+Aus $v_s=\frac{\omega}{K}=a\sqrt{\frac{C}{M}}$ folgt:
+$$\begin{align*} C=&\frac{v_s^2\cdot M}{a^2}\\
+&=\frac{(4000 \, \mathrm{\frac{m}{s}})^2\cdot 200 \cdot 1,66054\cdot 10^{-27} \mathrm{kg}}{( 4 \cdot 10^{-10} \mathrm{m})^2}\\
+&=33.2 \, \mathrm{\frac{kg\cdot m}{s^2}\frac{ m}{m^2}}=33.2 \,\mathrm{\frac{ N}{m}}
+\end{align*}$$
+
+**Lösung Aufgabe 6b):**
+
+$$\omega=2\sqrt{\frac{C}{M}}\sin\bigg(\frac{Ka}{2}\bigg)$$
+
+$$\begin{align*}\Rightarrow \omega_\mathrm{max}&=2\sqrt{\frac{C}{M}}\cdot 1\\
+&=2\sqrt{\frac{33,2\,\mathrm{\frac{ N}{m}}}{1,66054\cdot 10^{-27} \mathrm{kg}}} \\
+&=2\cdot 10^{12}\,\mathrm{\frac{kg \cdot m}{s^2 \cdot m \cdot kg}}\\
+&=2\cdot 10^{12}\,\mathrm{\frac{1}{s}}
+\end{align*}$$
 
 ## Aufgabe 7 
 
@@ -317,7 +342,13 @@ b) Wie groß ist die maximale Frequenz der (ungedämpften) Welle?
 **Lösung Aufgabe 7:**
 
                                       {{2}}
+Optische Moden können nur bei einer mehratomigen Basis auftreten.
 
+optische Mode: Auslenkung gegenphasig, Atome/Ionen schwingen gegeneinander. Lassen sich bei Ionen durch Lichtwellen anregen, daher der Name
+
+akustische Mode: Auslenkung gleichphasig, Atome/Ionen schwingen miteinander.
+
+![Vergleich von optischen und akustischen Transversalwellen von Phononen bei 2-atomiger Basis für kleine K](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Vergleich_optische_akustische_transversalwellen.svg/1280px-Vergleich_optische_akustische_transversalwellen.svg.png "*Vergleich von optischen und akustischen Transversalwellen von Phononen bei 2-atomiger Basis für kleine K; Quelle [wikipedia, wdwd](https://de.wikipedia.org/wiki/Phonon#/media/Datei:Vergleich_optische_akustische_transversalwellen.svg); [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/))*")
 
 
 ## Aufgabe 8 
@@ -325,52 +356,115 @@ b) Wie groß ist die maximale Frequenz der (ungedämpften) Welle?
 >__8.__ Wie viele „Äste“ liefert die Dispersionsrelation für elastische Wellen, wenn die Elementarzelle p Atome besitzt. Wie viele davon sind akustische und optische Äste?
 
 
-                                      {{0}}
-![XX](media/EbenesGitterMadelung.png "*Quelle:  A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik*")
-
-
-
                                       {{1}}
 **Lösung Aufgabe 8:**
 
                                       {{2}}
 
+zusammmen $3p$ -Äste. $3$ akustische und $(3p-3)$ optische Äste
+
+
+|p|akustische Moden|optische Moden|Bezeichnung|
+|:---|:---|:---|:---|
+|1| 3 |- |LA, TA1, TA2|
+|2|3| 3| LA, TA1, TA2, LO, TO1, TO2|
+
+
 
 ## Aufgabe 9
                                       {{0}}
->__9.__ 9.	Wie heißt der Energiequant einer elastischen Welle?
+>__9.__ Wie heißt der Energiequant einer elastischen Welle?
 
 **Lösung Aufgabe 9:**
 
                                       {{2}}
 
-
+**Phonon**
 
 ## Aufgabe 10
                                       {{0}}
->__10.__ Wie groß ist die Energie eines elastischen Schwingungszustandes mit der Kreisfrequenz wenn der Zustand zu Quantenzahl n angeregt ist?
+>__10.__ Wie groß ist die Energie eines elastischen Schwingungszustandes mit der Kreisfrequenz $\omega$, wenn der Zustand zu Quantenzahl $n$ angeregt ist?
 
                                       {{1}}
 **Lösung Aufgabe 10:**
 
                                       {{2}}
+$$\varepsilon=\bigg(n+\frac{1}{2}\bigg) \hslash\cdot  \omega$$
 
+wobei $ \hslash=\frac{h}{2\pi}=\mathrm{\frac{6.626\cdot 10^{-34} Js}{2\pi}}=\mathrm{1.055\cdot 10^{-34} \,Js} $
 
 ## Aufgabe 11
                                       {{0}}
->__11.__ Was ist ein weiches Phonon?
+
+>__11.__ Für ein Gitter mit zwei Atomen in der primitiven Einheitszelle sollen die Amplitudenverhältnisse $\frac{u}{v}$ für beide Äste der elastischen Welle bei $K_\mathrm{max}=\frac{\pi}{a}$ bestimmt werden! Zeigen Sie, dass bei diesem $K$-Wert die beiden Gitter entkoppelt erscheinen: Ein Gitter bleibt in Ruhe, während das andere schwingt.
 
                                       {{1}}
 **Lösung Aufgabe 11:**
 
                                       {{2}}
+Wir betrachten eine unendlich lange  Kette aus der regelmäßigen Abfolge von den sich abwechselten Atomen der Massen $M_1$ und $M_2$ ($M_2 < M_1$) mit der Gitterkonstanten $a$ und der Federkonstanten $C$.
 
+Die Auslenkung des Atoms "$s$" mit der Masse $M_1$ sei $u_s$
+Die Auslenkung des Atome "$s$" mit der Masse $M_2$ sei $v_s$
 
-## Aufgabe 12
-                                      {{0}}
->__12.__ Für ein Gitter mit zwei Atomen in der primitiven Einheitszelle sollen die Amplitudenverhältnisse u/v für beide Äste der elastischen Welle bei Kmax=/a bestimmt werden! Zeigen Sie, dass bei diesem K-Wert die beiden Gitter entkoppelt erscheinen: Ein Gitter bleibt in Ruhe, während das andere schwingt.
+Analog zur obigen Aufgabe 5 erhält gelten die Bewegungsgleichungen:
 
-                                      {{1}}
-**Lösung Aufgabe 12:**
+$$\begin{align*}
+M_1\frac{\partial^2 u_s}{\partial t^2} &= C(v_s + v_{s-1}  –2u_s)\\
+M_2\frac{\partial^2 v_s}{\partial t^2} &= C(u_{s+1} + u_s  –2v_s)
+\end{align*}$$
 
-                                      {{2}}
+Lösungsansatz:
+$$\begin{align*}
+u_s &= u\cdot e^{isKa} \cdot e^{-iωt}\\
+v_s &= v \cdot e^{isKa} \cdot e^{-iωt}
+\end{align*}$$
+
+Das Einsetzen des Lösusngsansatz in die obigen Bewegungsgleichungen ergibt zwei gekoppelte Differentailgleichungen:
+
+$$\begin{align*}
+-M_1 \omega^2 u &= C\cdot v [1+e^{-iKa}]-2C\cdot u\\
+-M_2 \omega^2 v &= C\cdot u [e^{-iKa}+1]-2C\cdot v\\
+\end{align*}$$
+
+Betrachtet werden sollen die Amplitudenverhältnisse $\frac{u}{v}$ für beide Äste der elastischen Welle bei $K_\mathrm{max}=\frac{\pi}{a}$. Also setzen wir $K=K_\mathrm{max}=\frac{\pi}{a}$, d.h. $K$ liegt auf der Zonengrenze. 
+
+$$\begin{align*}
+\Rightarrow -M_1 \omega^2 u &= C\cdot v [1+e^{-i\frac{\pi}{a}a}]-2C\cdot u\\
+-M_2 \omega^2 v &= C\cdot u [e^{-i\frac{\pi}{a}a}+1]-2C\cdot v\\
+\end{align*}$$
+
+$$\begin{align*}
+\Rightarrow -M_1 \omega^2 u &= C\cdot v [1+e^{-i\frac{\pi}{a}a}]-2C\cdot u\\
+-M_2 \omega^2 v &= C\cdot u [e^{-i\frac{\pi}{a}a}+1]-2C\cdot v\\
+\end{align*}$$
+
+$$\begin{align*}
+\Rightarrow -M_1 \omega^2 u &= -2C\cdot u\\
+-M_2 \omega^2 v &= -2C\cdot v\\
+\end{align*}$$
+
+Für diesen Spezialfall sind die Gleichungen entkoppelt, damit bewegen sich die Untergitter unabhängig. Wir erhalten als Lösung:
+
+$$\begin{align*}
+\omega &= \sqrt{\frac{2C}{M_1}}\, \text{für das u-Gitter, akkustischer Zweig}\\
+\omega &= \sqrt{\frac{2C}{M_2}}\, \text{für das v-Gitter, optischer Zweig}\\
+\end{align*}$$
+
+Zwischen diesen beiden Frequenzen gibt es für $K_\mathrm{max}=\frac{\pi}{a}$ keine Lösung. 
+
+Ergänzung:
+
+Die allgemeine Lösung für beliebige Wellenvektoren ist 
+$$\omega^2=C\left(\frac{1}{M_1}+\frac{1}{M_{2\ }}\right)\pm C\sqrt{ \bigg(\frac{1}{M_1}+\frac{1}{M_2}\bigg)^2-\frac{4}{M_1M_2} \sin^2\bigg(\frac{Ka}{2}\bigg)}$$
+
+Für den langwelligen Grenzfall ($K \cdot a \approx 0$) gilt:
+
+$$\begin {align*}\omega^2&=C\left(\frac{1}{M_1}+\frac{1}{M_{2\ }}\right)\pm C\sqrt{ \bigg(\frac{1}{M_1}+\frac{1}{M_2}\bigg)^2}\\
+&=\begin{cases}
+   2C\left(\frac{1}{M_1}+\frac{1}{M_{2\ }}\right) &\text{und } \frac{u}{v}\ =\ -\frac{M_2}{M_1},  &\text{optischer Zweig, gegenphasig }  \\
+   0 &\text{und }  &\text{akustischer Zweig, gleichphasig}
+\end{cases}
+\end{align*}$$
+
+![Dispersionsrelation für ein Gitter mit zwei Atomen der Masse $M_1$ und $M_2$ in einer primitiven Elementarzelle](media/Dispersionsrelation1.png "Dispersionsrelation für ein Gitter mit zwei Atomen der Masse $M_1$ und $M_2$ in einer primitiven Elementarzelle; Quelle Claudia Funke")
