@@ -31,7 +31,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 ## Aufgabe 1
                                       {{0}}
-> __1.__ Beschreiben Sie folgende Quasiteilchen beziehungsweise  Elementaranregungen im Festkörper: Photon, Phonon, Plasmon, Magnon, Polaron, Exiton. Welche Felder oder Wellen gehören zu diesen Elementaranregungen?
+> __1.__ Beschreiben Sie folgende Quasiteilchen beziehungsweise Elementaranregungen im Festkörper: Photon, Phonon, Plasmon, Magnon, Polaron, Exiton. Welche Felder oder Wellen gehören zu diesen Elementaranregungen?
 
                                       {{1}}
 **Lösung Aufgabe 1:**

@@ -40,7 +40,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 Lennard-Jones Potential:
 $$ U(r)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\sigma}{R}\right)^6\right]$$
 Der positive  hoch-12-Term ist abstoßend (Pauli Prinzip).  
-Der negative hoch 6-Term ist anziehend (van der Waals-Wechselwirkung)  
+Der negative hoch 6-Term ist anziehend (van der Waals-Wechselwirkung = induzierte Dipol-Dipol Welchselwirkung)  
 
                                       {{3}}
 Im folgenden Python-Code können Sie unten links auf Ausführen (</>) drücken, dann bekommen Sie eine abbildung der einzelnen Anteile des Lennard-Jones Potentials
@@ -196,7 +196,7 @@ Da die metallische Bindung ungerichtet ist, kristallisieren Metalle hauptsächli
 - stark gerichtete Bindung
 - Überlappung von Ladungsverteilungen von Elektronen mit antiparallelem Spin (Elektronenpaar-Bindung)
 - Die überlappenden Elektronen binden ihre zugehörigen Ionenrümpfe durch die spinabhängige Coulombenergie (elektrostatische Anziehung, Austauschwechselwirkung)
-- hohe Bindungsenergie
+- hohe Bindungsenergie. Viele kovalente, räumlich ausgerichtete Bindungen haben eine größere Bindungsenergie als ungerichtete ionische Bindungen.
 - Beispiele: $\mathrm{H_2}$-Molekül, Diamant, Silizium
 
 
