@@ -163,7 +163,9 @@ $$v_\mathrm{p}=\frac{\omega}{K}$$
 
                                       {{0}}
 >__a)__ Zeigen Sie, dass die Auslenkung $u_n(t)$ des n–ten Atoms folgender Differentialgleichung genügt:
-$$M\cdot \frac{\partial u_n(t)}{\partial t^2}=-C \left[2u_n(t)-u_{n+1}(t)-u_{n-1_}(t)\right]$$
+
+                                      {{0}}
+$$ M\cdot \frac{\partial u_n(t)}{\partial t^2}=-C \left[2u_n(t)-u_{n+1}(t)-u_{n-1}(t)\right]$$
 
 
                                       {{0}}
