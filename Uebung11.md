@@ -31,27 +31,26 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 ## Aufgabe 1
                                       {{0}}
-> __1.__   
+> __1.__	Singularität in der Zustandsdichte. 
+
+>__a)__ Ausgehend von der Dispersionsrelation $\omega=\omega_m\left|sin{\left(\frac{1}{2}Ka\right)}\right|$ für ein einatomiges lineares Gitter aus $N$ Atomen mit Wechselwirkungen nur zwischen nächsten Nachbarn soll gezeigt werden, dass die Zustandsdichtes $D(\omega)=\frac{2N}{\pi}\cdot \frac{1}{(\omega_m^2-\omega^2)^\frac{1}{2}}$ ist, wobei $\omega_m$ die maximale Frequenz ist.
+
+>__b)__ Angenommen, ein optischer Phononenast habe im Dreidimensionalen nahe $K=0$ die Form $\omega(K) = \omega_m – A\cdot K^2$. Zeigen Sie, dass dann für $\omega < \omega_m$ gilt: $D(\omega)=\big(\frac{L}{2\pi}\big)^3\bigg(\frac{2\pi}{A^{\frac{3}{2}}}\bigg)\sqrt{\big(\omega_m-\omega\big)}$. $\omega > \omega_m$ gilt $D(\omega) = 0$. Warum? In diesem Fall ist also die Ableitung der Zustandsdichte unstetig.
+   
                                       {{1}}
 **Lösung Aufgabe 1:**
 
 {{2}}
 
-|Quasiteilchen      |       Wechselwirkung, Welle    |  
-| :------------- |:----------------| 
-| Photon  | elektromagnetische Welle     | 
-| Phonon  | elastische (mechanische) Welle        |   
-| Plasmon | kollektive Elektronenschwingung (Dichteschwankung von Ladungsträgern)|   
-|Magnon|magnetische Spin-Welle, Magnetisierungswelle | 
-|Polaron| Elektron-Phonon WW (Elektron und elastische Deformation)|
-|Exiton| Elektron- Loch- Paar (Polarisationswelle)|
-|Polariton| Phonon- Photon WW, starke Kopplung von Photon + Phonon|
-
 
 
 ## Aufgabe 2
                                       {{0}}
-> __2.__ Welcher Bereich vom Wellenvektor $\vec{K}$ hat für elastische Wellen eine sinnvolle physikalische Bedeutung und warum?
+> __2.__ Mittlere Wärmeausdehnung einer Kristallzelle (Na). 
+
+>__a)__ Schätzen Sie für eine primitive Elementarzelle eines Natriumkristalls bei $T=300\, \mathrm{K}$ die mittlere Wärmeausdehnung $\frac{\Delta V}{V}$ ab. Nehmen Sie dazu den Kompressionsmodul $B$ zu $\mathrm{7 \cdot 10^{10} erg \cdot cm^{-3}= 7 \cdot 10^3 \,J\cdot cm^{-3}=  7 \cdot 10^9 \,J\cdot m^{-3}}$ an und $a_\mathrm{Na}=4,225\, \AA$. Beachten Sie, dass die Debye-Temperatur mit 158 K geringer als 300 K ist, so dass die thermische Energie von der Größenordnung von kBT ist (klassische Betrachtung).
+(b) Benutzen Sie dieses Ergebnis, um die mittlere thermische Schwankung a/a der Gitterkonstanten abzuschätzen.
+
 
 
                                       {{1}}
