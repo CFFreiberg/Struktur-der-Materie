@@ -537,3 +537,4 @@ $$\begin {align*}\omega^2&=C\left(\frac{1}{M_1}+\frac{1}{M_{2\ }}\right)\pm C\sq
 {{20}}
 
 ![Dispersionsrelation für ein Gitter mit zwei Atomen der Masse $M_1$ und $M_2$ in einer primitiven Elementarzelle](media/Dispersionsrelation2.png "*Dispersionsrelation für ein Gitter mit zwei Atomen der Masse $M_1$ und $M_2$ in einer primitiven Elementarzelle; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)* " )
+>>>>>>> 1dfe574d7ad896bbc4c062b9471c6e9da290234d
