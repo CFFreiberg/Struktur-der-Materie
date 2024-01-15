@@ -33,7 +33,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
                                       {{0}}
 > __1.__	Singularität in der Zustandsdichte. 
 
->__a)__ Ausgehend von der Dispersionsrelation $\omega=\omega_m\left|sin{\left(\frac{1}{2}Ka\right)}\right|$ für ein einatomiges lineares Gitter aus $N$ Atomen mit Wechselwirkungen nur zwischen nächsten Nachbarn soll gezeigt werden, dass die Zustandsdichtes $D(\omega)=\frac{2N}{\pi}\cdot \frac{1}{(\omega_m^2-\omega^2)^\frac{1}{2}}$ ist, wobei $\omega_m$ die maximale Frequenz ist.
+>__a)__ Ausgehend von der Dispersionsrelation $\omega=\omega_m\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$ für ein einatomiges lineares Gitter aus $N$ Atomen mit Wechselwirkungen nur zwischen nächsten Nachbarn soll gezeigt werden, dass die Zustandsdichtes $D(\omega)=\frac{2N}{\pi}\cdot \frac{1}{(\omega_m^2-\omega^2)^\frac{1}{2}}$ ist, wobei $\omega_m$ die maximale Frequenz ist.
 
 >__b)__ Angenommen, ein optischer Phononenast habe im Dreidimensionalen nahe $K=0$ die Form $\omega(K) = \omega_m – A\cdot K^2$. Zeigen Sie, dass dann für $\omega < \omega_m$ gilt: $D(\omega)=\big(\frac{L}{2\pi}\big)^3\bigg(\frac{2\pi}{A^{\frac{3}{2}}}\bigg)\sqrt{\big(\omega_m-\omega\big)}$. $\omega > \omega_m$ gilt $D(\omega) = 0$. Warum? In diesem Fall ist also die Ableitung der Zustandsdichte unstetig.
    
@@ -41,8 +41,40 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 **Lösung Aufgabe 1:**
 
 {{2}}
+Für die Zahl der Zustände (pro Zweig) gilt:
+$$N=\int{D(\omega)d\omega=\int{D(K)dK}}\ $$
+und damit für die Zustandsdichte: 
+$$D(\omega) = D(K)dK/d\omega$$
 
+Für die Zahl $N$ der Zustände im $n$-dimensionalen $K$-Raum gilt:
+$$N(K) = \text{Dichte der Zustände} \cdot \text{Volumen des K-Raums}$$
 
+$$\text{Dichte der Zustände}= \left (\frac{L}{2\pi}\right )^n $$
+
+Das Volumen des 1-dim K-Raums ist 2K
+
+**Lösung Aufgabe 1a):**
+
+$$\omega=\omega_m\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$$
+
+wobei für die maximale Frequenz gilt: $\omega_\mathrm{max}=\sqrt{\frac{4C}{M}}$.
+
+$$\Rightarrow K=\frac{2}{a}\arcsin \bigg(\frac{\omega}{\omega_\mathrm{max}})$$
+
+$$\begin{align*}
+\Rightarrow \frac{dK}{d\omega}&=\frac{2}{a}\frac{1}{\sqrt{1-\big(\frac{\omega}{\omega_\mathrm{max}}\big)^2}}\frac{1}{\omega_\mathrm{max}}\\
+&=\frac{2}{a} \frac{1}{\sqrt{\omega_\mathrm{max}^2-\omega^2}}
+\end{align*}$$
+
+Mit der Zustandsdichte für eine Dimension
+
+$$D(\omega)d\omega=\bigg(\frac{L}{2\pi}\bigg)^1\cdot \frac{dK}{d\omega}\cdot d\omega$$
+
+folgt mit $N\cdot a=L$
+
+$$\begin{align*}D(\omega)&=\frac{N\cdot a}{2\pi}\cdot dK\\&=\frac{N\cdot a}{2\pi}\cdot\frac{2}{a}\cdot 
+
+\end{align*}$$
 
 ## Aufgabe 2
                                       {{0}}
