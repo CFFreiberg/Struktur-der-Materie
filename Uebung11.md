@@ -72,7 +72,8 @@ $$D(\omega)d\omega=\bigg(\frac{L}{2\pi}\bigg)^1\cdot \frac{dK}{d\omega}\cdot d\o
 
 folgt mit $N\cdot a=L$
 
-$$\begin{align*}D(\omega)&=\frac{N\cdot a}{2\pi}\cdot dK\\&=\frac{N\cdot a}{2\pi}\cdot\frac{2}{a}\cdot 
+$$\begin{align*}D(\omega)&=\frac{N\cdot a}{2\pi}\cdot \frac{dK}{d\omega}\\&=\frac{N\cdot a}{2\pi}\cdot\frac{2}{a}\cdot  (\omega_\mathrm{max}^2-\omega^2)^{-\frac{1}{2}}\\
+&=\frac{N}{\pi}\frac{1}{\sqrt{\omega_\mathrm{max}^2-\omega^2}}
 
 \end{align*}$$
 
