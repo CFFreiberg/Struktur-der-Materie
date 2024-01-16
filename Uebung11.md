@@ -215,4 +215,27 @@ d\omega&=\frac{k_B T}{\hbar} dx
 
 Folgt
 
-$$U(T)=\frac{3N k_B T^2}{\Theta_D}\int_0^{x_D}\frac{x}{e^x -1}dx
+$$U(T)=\frac{3N k_B T^2}{\Theta_D}\int_0^{x_D}\frac{x}{e^x -1}dx$$
+
+**Fall 1, hohe Temperaturen, $T \gg\Theta_D$, $x \rightarrow 0$**
+
+Aus $e^x \approx 1+x$ folgt  
+$$\int_0^{x_D}\frac{x}{e^x -1}dx=\int_0^{x_D}\frac{x}{1+x -1}dx=\int_0^{x_D}1=x_D$$
+
+$$\Rightarrow U(T)=\frac{3N k_B T^2}{\Theta_D}x_D=3N k_B T$$
+
+Für die spezifische Wäreme gilt also
+
+$$c_V=\frac{dU}{dT}=3Nk_B$$
+
+Das entspricht der [Regel von Dulong-Petit](Dulong-Petit-Gesetz).
+
+**Fall 2, niedrige Temperaturen, $T \ll\Theta_D$, $x \rightarrow \infty$**
+
+$$\int_0^{\infty}\frac{x}{e^x -1}dx=\frac{\pi^2}{6}$$
+
+$$\Rightarrow U(T)=\frac{3N k_B T^2}{\Theta_D}\frac{\pi^2}{6}=\frac{\pi^2N k_B T^2}{2\Theta_D}$$
+
+$$c_V=\frac{dU}{dT}=\frac{\pi^2N k_B T}{\Theta_D}\propto T$$
+
+Achtung, die letzte Formel gilt nur in 1D
