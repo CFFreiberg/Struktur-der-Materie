@@ -148,7 +148,7 @@ $$\begin{align*}
                                       {{3}}
 
 
-**Lösung Aufgabe 3a)**
+**Lösung Aufgabe 3b)**
 
 für isotrope kubische Systeme folgt:
 $$\Delta V=(a+\Delta a)^3-a^3=a^3+3a^2\Delta a+......-a^3 \overbrace{\eqsim}^{\Delta a \ll a}3a^2\Delta a$$
@@ -184,19 +184,35 @@ Die Wärmeausdehnung lässt sich nur durch anharmonische Terme der Gitterenergie
 ## Aufgabe 5 
 
                                       {{0}}
-> __4.__ Spezifische Wärme einer linearen einatomigen Kette:   Mit Hilfe der Debye-Näherung $D(\omega)= \frac{N}{\omega_\mathrm{D}}$, wobei $\omega_\mathrm{D}=k_\mathrm{B} \cdot \Theta_\mathrm{D}$, berechne man für akustische Phononen die innere Energie und die spezifische Wärme einer einatomigen Kette für die Grenzfälle einer hohen und einer niedrigen Temperatur .
+> __4.__ Spezifische Wärme einer linearen einatomigen Kette: Berechnen Sie  für akustische Phononen die innere Energie und die spezifische Wärme einer einatomigen Kette für die Grenzfälle einer hohen und einer niedrigen Temperatur. Verwenden Sie dazu die Debye-Näherung.  $D(\omega)= \frac{N}{\omega_\mathrm{D}}$ mit $\omega_\mathrm{D}=k_\mathrm{B} \cdot \Theta_\mathrm{D}$, wobei $ \Theta_\mathrm{D}=$ Debey-Temperatur
 
                                       {{1}}
 **Lösung Aufgabe 4:**
 
                                       {{2}}
+Mit der [Besetzungswahrscheinlichkeit $f$ für Bosonen](https://de.wikipedia.org/wiki/Bose-Einstein-Statistik) (Bose-Einstein-Verteilung) folgt für die innere Energie der linearen einatomigen Kette
+$$f(\omega,T)=\frac{1}{e^{\frac{\hbar \omega}{k_B T}}-1}$$
 
 
                                       {{3}}
+$$U(T)=3\int_0^{\omega_D} \hbar \omega D(\omega)f(\omega,T)d\omega$$
 
+Die 3 steht für zwei transversale und einen longitudinalen akustischen Ast. Einsetzen ergibt:
 
                                       {{4}}
 
-                                      
+$$U(T)=3\int_0^{\omega_D} \hbar \omega \frac{N}{\omega_\mathrm{D}}\frac{1}{e^{\frac{\hbar \omega}{k_B T}}-1}d\omega$$  
+
 {{5}}
 
+Mit den Substitutionen 
+
+$$\begin {align*}\\
+x&=\frac{\hbar\omega}{k_B T}\\
+x_D&=\frac{\hbar\omega_D}{k_B T}=\frac{\Theta_D}{T}\\
+d\omega&=\frac{k_B T}{\hbar} dx
+\end{align*}$$
+
+Folgt
+
+$$U(T)=\frac{3N k_B T^2}{\Theta_D}\int_0^{x_D}\frac{x}{e^x -1}dx
