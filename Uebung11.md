@@ -31,55 +31,84 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 ## Aufgabe 1
                                       {{0}}
-> __1.__	Singularität in der Zustandsdichte. 
+> __1.__	Singularität in der Zustandsdichte:  Ausgehend von der Dispersionsrelation $\omega=\omega_m\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$ für ein einatomiges lineares Gitter aus $N$ Atomen mit Wechselwirkungen nur zwischen nächsten Nachbarn soll gezeigt werden, dass die Zustandsdichtes $D(\omega)=\frac{2N}{\pi}\cdot \frac{1}{(\omega_m^2-\omega^2)^\frac{1}{2}}$ ist, wobei $\omega_m$ die maximale Frequenz ist.
 
->__a)__ Ausgehend von der Dispersionsrelation $\omega=\omega_m\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$ für ein einatomiges lineares Gitter aus $N$ Atomen mit Wechselwirkungen nur zwischen nächsten Nachbarn soll gezeigt werden, dass die Zustandsdichtes $D(\omega)=\frac{2N}{\pi}\cdot \frac{1}{(\omega_m^2-\omega^2)^\frac{1}{2}}$ ist, wobei $\omega_m$ die maximale Frequenz ist.
 
->__b)__ Angenommen, ein optischer Phononenast habe im Dreidimensionalen nahe $K=0$ die Form $\omega(K) = \omega_m – A\cdot K^2$. Zeigen Sie, dass dann für $\omega < \omega_m$ gilt: $D(\omega)=\big(\frac{L}{2\pi}\big)^3\bigg(\frac{2\pi}{A^{\frac{3}{2}}}\bigg)\sqrt{\big(\omega_m-\omega\big)}$. $\omega > \omega_m$ gilt $D(\omega) = 0$. Warum? In diesem Fall ist also die Ableitung der Zustandsdichte unstetig.
-   
                                       {{1}}
+
 **Lösung Aufgabe 1:**
-
-{{2}}
-Für die Zahl der Zustände (pro Zweig) gilt:
-$$N=\int{D(\omega)d\omega=\int{D(K)dK}}\ $$
-und damit für die Zustandsdichte: 
-$$D(\omega) = D(K)dK/d\omega$$
-
-Für die Zahl $N$ der Zustände im $n$-dimensionalen $K$-Raum gilt:
-$$N(K) = \text{Dichte der Zustände} \cdot \text{Volumen des K-Raums}$$
-
-$$\text{Dichte der Zustände}= \left (\frac{L}{2\pi}\right )^n $$
-
-Das Volumen des 1-dim K-Raums ist 2K
-
-**Lösung Aufgabe 1a):**
 
 $$\omega=\omega_m\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$$
 
-wobei für die maximale Frequenz gilt: $\omega_\mathrm{max}=\sqrt{\frac{4C}{M}}$.
+wobei für die maximale Frequenz gilt: $\omega_\mathrm{m}=\sqrt{\frac{4C}{M}}$.
 
-$$\Rightarrow K=\frac{2}{a}\arcsin \bigg(\frac{\omega}{\omega_\mathrm{max}})$$
+$$\Rightarrow K=\frac{2}{a}\arcsin \bigg(\frac{\omega}{\omega_\mathrm{m}}\bigg)$$
+
+Mit $\frac{d(\arcsin)}{dx}=\frac{1}{\sqrt{1-x^2}}$ folgt
 
 $$\begin{align*}
-\Rightarrow \frac{dK}{d\omega}&=\frac{2}{a}\frac{1}{\sqrt{1-\big(\frac{\omega}{\omega_\mathrm{max}}\big)^2}}\frac{1}{\omega_\mathrm{max}}\\
-&=\frac{2}{a} \frac{1}{\sqrt{\omega_\mathrm{max}^2-\omega^2}}
+\Rightarrow \frac{dK}{d\omega}&=\frac{2}{a}\frac{1}{\sqrt{1-\big(\frac{\omega}{\omega_\mathrm{m}}\big)^2}}\frac{1}{\omega_\mathrm{m}}\\
+&=\frac{2}{a} \frac{1}{\sqrt{\omega_\mathrm{m}^2-\omega^2}}
 \end{align*}$$
 
-Mit der Zustandsdichte für eine Dimension
+Die mit den endlichen Abmessungen des Kristalls verbundenen Randbedingungen bewirken, dass nur eine bestimmte Anzahl von Wellenvektoren möglich ist. Wenn wir den Wellenvektor $K$ auf die erste Brillouin-Zone beschränken, finden wir wegen $K\le\frac{\pi}{a}$ folgenden Satz von erlaubten Wellenvektoren: 
 
-$$D(\omega)d\omega=\bigg(\frac{L}{2\pi}\bigg)^1\cdot \frac{dK}{d\omega}\cdot d\omega$$
+$$K=\frac{\pi}{a}\cdot\frac{p}{N};\, p=0,1,2,3,....N$$
 
-folgt mit $N\cdot a=L$
+Für die Zustandsdichte $D(K)$ im 1-dimensionalen Impulsraum gilt dann: 
 
-$$\begin{align*}D(\omega)&=\frac{N\cdot a}{2\pi}\cdot \frac{dK}{d\omega}\\&=\frac{N\cdot a}{2\pi}\cdot\frac{2}{a}\cdot  (\omega_\mathrm{max}^2-\omega^2)^{-\frac{1}{2}}\\
-&=\frac{N}{\pi}\frac{1}{\sqrt{\omega_\mathrm{max}^2-\omega^2}}
+$$D(K) = \frac{\text{Anzahl der Zustände}}{ \text{zugehöriges Volumen im K-Raum}}=\frac{N}{\frac{2\pi}{a}}=\frac{Na}{2\pi}=\frac{L}{2\pi}$$
+
+Die Anzahl der Zustände muss im realen Raum und im Impulsraum gleich sein:
+$$\int_0^{\omega_m}D(\omega)d\omega=\int_{-\frac{\pi}{a}}^{+\frac{\pi}{a}}D(K)dK=2\int_{0}^{+\frac{\pi}{a}}D(K)dK$$
+
+Mit $D(K) =\frac{L}{2\pi}$ folgt also 
+
+$$D(\omega)d\omega=2D(K)dK=\frac{L}{\pi}\cdot dK\cdot =\frac{L}{\pi}\cdot \frac{dK}{d\omega}\cdot d\omega$$
+
+Daraus folgt
+
+$$\begin{align*}D(\omega)&=\frac{N\cdot a}{\pi}\cdot \frac{dK}{d\omega}\\&=\frac{N\cdot a}{\pi}\cdot\frac{2}{a}\cdot  (\omega_\mathrm{m}^2-\omega^2)^{-\frac{1}{2}}\\
+&=\frac{2N}{\pi}\frac{1}{\sqrt{\omega_\mathrm{m}^2-\omega^2}}
 
 \end{align*}$$
 
-## Aufgabe 2
+Diese Funktion hat eine Singularität bei $\omega=\omega_\mathrm{m}$
+
+## Aufgabe 2 
+> __2.__	Singularität in der Zustandsdichte:  Angenommen, ein optischer Phononenast habe im Dreidimensionalen nahe $K=0$ die Form $\omega(K) = \omega_0 – A\cdot K^2$. Zeigen Sie, dass dann für $\omega < \omega_0$ gilt: $D(\omega)=\big(\frac{L}{2\pi}\big)^3\bigg(\frac{2\pi}{A^{\frac{3}{2}}}\bigg)\sqrt{\big(\omega_0-\omega\big)}$. Für  $\omega > \omega_0$ gilt $D(\omega) = 0$. Warum? In diesem Fall ist also die Ableitung der Zustandsdichte unstetig.
+
+**Lösung Aufgabe 2:**
+
+Die Formel $\omega(K)$ wird nach $K$ umgestellt:
+
+$$K=\pm\sqrt{\frac{\omega_0-\omega(K)}{A}}$$
+
+Das Volumer der Kugel mit Radius $K$ im reziproken Raum ist damit:
+$$\Omega=\frac{4\pi}{3}K^3=\frac{4\pi}{3}\bigg(\pm\sqrt{\frac{\omega_0-\omega(K)}{A}}\bigg)^3$$
+
+Das Volumen eines $K$-Wertes im reziproken Raum ist:
+
+$$\Omega_K=\bigg(\frac{2\pi}{L}\bigg)^3$$
+
+Die Anzahl der Zustände $N$ mit Wellenvektor kleiner als $K$ ist damit $N=\frac{\Omega}{\Omega_K}$
+
+Mit $D(\omega)d\omega=dN$ folgt für $\omega < \omega_0$:
+
+$$\begin{align*}
+D(\omega)&=\bigg|\frac{dN}{d\omega}\bigg|\\
+&=\bigg|\frac{d}{d\omega}\Bigg(\frac{\frac{4\pi}{3}\bigg(\sqrt{\frac{\omega_0-\omega(K)}{A}}\bigg)^3}{\bigg(\frac{2\pi}{L}\bigg)^3}\Bigg)\bigg|\\
+&=\bigg|\bigg(\frac{L}{2\pi}\bigg)^3\frac{4\pi}{3}A^{-3/2}\cdot \frac{d}{d\omega}\bigg((\omega_0-\omega(K))^{3/2}\bigg)\bigg|\\
+&=\bigg|\bigg(\frac{L}{2\pi}\bigg)^3\frac{4\pi}{3}A^{-3/2}\cdot(-1)\cdot  \frac{3}{2}\cdot (\omega_0-\omega(K))^{1/2}\bigg|\\
+&=\bigg(\frac{L}{2\pi}\bigg)^3\frac{2\pi}{A^{3/2}}\cdot (\omega_0-\omega(K))^{1/2}
+\end{align*}$$
+
+
+$D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf $-\frac{\pi}{a}\le K \le \frac{\pi}{a}$. $\omega_0$ ist die Frequenz, die zu $K_{max}=\pm\frac{\pi}{a}$ gehört. Größere Wellenvektoren sind nicht möglich, deshalb muss bei den zugehörigen Frequenzen auch die Zustandsdichte Null sein. 
+
+## Aufgabe 3
                                       {{0}}
-> __2.__ Mittlere Wärmeausdehnung einer Kristallzelle (Na). 
+> __§.__ Mittlere Wärmeausdehnung einer Kristallzelle (Na). 
 
 >__a)__ Schätzen Sie für eine primitive Elementarzelle eines Natriumkristalls bei $T=300\, \mathrm{K}$ die mittlere Wärmeausdehnung $\frac{\Delta V}{V}$ ab. Nehmen Sie dazu die  Gitterkonstante $a_\mathrm{Na}=4,225\, \AA$ an und den Kompressionsmodul $B$ zu $\mathrm{7 \cdot 10^{10} erg \cdot cm^{-3}= 7 \cdot 10^3 \,J\cdot cm^{-3}=  7 \cdot 10^9 \,J\cdot m^{-3}}$ . Beachten Sie, dass die Debye-Temperatur mit $\mathrm{158\, K}$ geringer als $\mathrm{300\, K}$ ist, so dass die thermische Energie von der Größenordnung von $k_\mathrm{B}\cdot T$ ist (klassische Betrachtung).
 
