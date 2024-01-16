@@ -37,64 +37,74 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
                                       {{1}}
 
 **Lösung Aufgabe 1:**
-
+                                      {{2}}
 $$\omega=\omega_m\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$$
-
 wobei für die maximale Frequenz gilt: $\omega_\mathrm{m}=\sqrt{\frac{4C}{M}}$.
 
+                                      {{3}}
 $$\Rightarrow K=\frac{2}{a}\arcsin \bigg(\frac{\omega}{\omega_\mathrm{m}}\bigg)$$
 
+                                      {{4}}
 Mit $\frac{d(\arcsin)}{dx}=\frac{1}{\sqrt{1-x^2}}$ folgt
 
+                                      {{5}}
 $$\begin{align*}
 \Rightarrow \frac{dK}{d\omega}&=\frac{2}{a}\frac{1}{\sqrt{1-\big(\frac{\omega}{\omega_\mathrm{m}}\big)^2}}\frac{1}{\omega_\mathrm{m}}\\
 &=\frac{2}{a} \frac{1}{\sqrt{\omega_\mathrm{m}^2-\omega^2}}
 \end{align*}$$
 
+                                      {{6}}
 Die mit den endlichen Abmessungen des Kristalls verbundenen Randbedingungen bewirken, dass nur eine bestimmte Anzahl von Wellenvektoren möglich ist. Wenn wir den Wellenvektor $K$ auf die erste Brillouin-Zone beschränken, finden wir wegen $K\le\frac{\pi}{a}$ folgenden Satz von erlaubten Wellenvektoren: 
-
 $$K=\frac{\pi}{a}\cdot\frac{p}{N};\, p=0,1,2,3,....N$$
 
+                                      {{7}}
 Für die Zustandsdichte $D(K)$ im 1-dimensionalen Impulsraum gilt dann: 
 
+                                      {{8}}
 $$D(K) = \frac{\text{Anzahl der Zustände}}{ \text{zugehöriges Volumen im K-Raum}}=\frac{N}{\frac{2\pi}{a}}=\frac{Na}{2\pi}=\frac{L}{2\pi}$$
 
+                                      {{9}}
 Die Anzahl der Zustände muss im realen Raum und im Impulsraum gleich sein:
 $$\int_0^{\omega_m}D(\omega)d\omega=\int_{-\frac{\pi}{a}}^{+\frac{\pi}{a}}D(K)dK=2\int_{0}^{+\frac{\pi}{a}}D(K)dK$$
 
+                                      {{10}}
 Mit $D(K) =\frac{L}{2\pi}$ folgt also 
-
 $$D(\omega)d\omega=2D(K)dK=\frac{L}{\pi}\cdot dK\cdot =\frac{L}{\pi}\cdot \frac{dK}{d\omega}\cdot d\omega$$
 
+                                      {{11}}
 Daraus folgt
-
 $$\begin{align*}D(\omega)&=\frac{N\cdot a}{\pi}\cdot \frac{dK}{d\omega}\\&=\frac{N\cdot a}{\pi}\cdot\frac{2}{a}\cdot  (\omega_\mathrm{m}^2-\omega^2)^{-\frac{1}{2}}\\
 &=\frac{2N}{\pi}\frac{1}{\sqrt{\omega_\mathrm{m}^2-\omega^2}}
-
 \end{align*}$$
 
+                                      {{12}}
 Diese Funktion hat eine Singularität bei $\omega=\omega_\mathrm{m}$
 
 ## Aufgabe 2 
+
+                                      {{0}}
 > __2.__	Singularität in der Zustandsdichte:  Angenommen, ein optischer Phononenast habe im Dreidimensionalen nahe $K=0$ die Form $\omega(K) = \omega_0 – A\cdot K^2$. Zeigen Sie, dass dann für $\omega < \omega_0$ gilt: $D(\omega)=\big(\frac{L}{2\pi}\big)^3\bigg(\frac{2\pi}{A^{\frac{3}{2}}}\bigg)\sqrt{\big(\omega_0-\omega\big)}$. Für  $\omega > \omega_0$ gilt $D(\omega) = 0$. Warum? In diesem Fall ist also die Ableitung der Zustandsdichte unstetig.
 
+                                      {{1}}
 **Lösung Aufgabe 2:**
 
+                                      {{2}}
 Die Formel $\omega(K)$ wird nach $K$ umgestellt:
-
 $$K=\pm\sqrt{\frac{\omega_0-\omega(K)}{A}}$$
 
-Das Volumer der Kugel mit Radius $K$ im reziproken Raum ist damit:
+                                      {{3}}
+Das Volumen der Kugel mit Radius $K$ im reziproken Raum ist damit:
 $$\Omega=\frac{4\pi}{3}K^3=\frac{4\pi}{3}\bigg(\pm\sqrt{\frac{\omega_0-\omega(K)}{A}}\bigg)^3$$
 
+                                      {{4}}
 Das Volumen eines $K$-Wertes im reziproken Raum ist:
-
 $$\Omega_K=\bigg(\frac{2\pi}{L}\bigg)^3$$
 
+                                      {{5}}
 Die Anzahl der Zustände $N$ mit Wellenvektor kleiner als $K$ ist damit $N=\frac{\Omega}{\Omega_K}$
 
+                                      {{6}}
 Mit $D(\omega)d\omega=dN$ folgt für $\omega < \omega_0$:
-
 $$\begin{align*}
 D(\omega)&=\bigg|\frac{dN}{d\omega}\bigg|\\
 &=\bigg|\frac{d}{d\omega}\Bigg(\frac{\frac{4\pi}{3}\bigg(\sqrt{\frac{\omega_0-\omega(K)}{A}}\bigg)^3}{\bigg(\frac{2\pi}{L}\bigg)^3}\Bigg)\bigg|\\
@@ -103,7 +113,7 @@ D(\omega)&=\bigg|\frac{dN}{d\omega}\bigg|\\
 &=\bigg(\frac{L}{2\pi}\bigg)^3\frac{2\pi}{A^{3/2}}\cdot (\omega_0-\omega(K))^{1/2}
 \end{align*}$$
 
-
+                                      {{7}}
 $D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf $-\frac{\pi}{a}\le K \le \frac{\pi}{a}$. $\omega_0$ ist die Frequenz, die zu $K_{max}=\pm\frac{\pi}{a}$ gehört. Größere Wellenvektoren sind nicht möglich, deshalb muss bei den zugehörigen Frequenzen auch die Zustandsdichte Null sein. 
 
 ## Aufgabe 3
