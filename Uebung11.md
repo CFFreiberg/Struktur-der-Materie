@@ -173,7 +173,7 @@ Die Wärmeausdehnung lässt sich nur durch anharmonische Terme der Gitterenergie
 
                                       {{3}}
 
-![Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte](media/thermischeAusdehnunganharmonischeEffekte.png "aaa")
+![Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte](media/thermischeAusdehnunganharmonischeEffekte.png "Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte. Bei höherer Temperatur werden höhere Schwingungszustände besetzt, deren Schwerpunkte für ein anharmonisches Potenzial bei größeren Gleichgewichtsabständen liegen. Dies führt im thermischen Mittel zu einem größeren Atomabstand. Quelle: Vorlesungsskript zur Vorlesung "Festkörperphysik" WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut")
 
 
 
