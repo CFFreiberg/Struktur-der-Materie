@@ -108,7 +108,7 @@ $D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf
 
 ## Aufgabe 3
                                       {{0}}
-> __§.__ Mittlere Wärmeausdehnung einer Kristallzelle (Na). 
+> __3.__ Mittlere Wärmeausdehnung einer Kristallzelle (Na). 
 
 >__a)__ Schätzen Sie für eine primitive Elementarzelle eines Natriumkristalls bei $T=300\, \mathrm{K}$ die mittlere Wärmeausdehnung $\frac{\Delta V}{V}$ ab. Nehmen Sie dazu die  Gitterkonstante $a_\mathrm{Na}=4,225\, \AA$ an und den Kompressionsmodul $B$ zu $\mathrm{7 \cdot 10^{10} erg \cdot cm^{-3}= 7 \cdot 10^3 \,J\cdot cm^{-3}=  7 \cdot 10^9 \,J\cdot m^{-3}}$ . Beachten Sie, dass die Debye-Temperatur mit $\mathrm{158\, K}$ geringer als $\mathrm{300\, K}$ ist, so dass die thermische Energie von der Größenordnung von $k_\mathrm{B}\cdot T$ ist (klassische Betrachtung).
 
@@ -117,17 +117,48 @@ $D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf
 
 
                                       {{1}}
-**Lösung Aufgabe 2:**
+**Lösung Aufgabe 3a)**
 
-                                      {{2}}
+Da Kompressionsmodul b ist definiert über die zweite Ableitung der  potentiellen Energie des Kristalls $U'$ nach der Volumenänderung $\Delta V$, also 
 
+$$B=V\frac{d^2U(\Delta V)}{d(\Delta V)^2}$$
+
+
+
+Nach zweimaligem Interieren nach $\Delta V$ auf beiden Seiten folgt:
+
+$$\Rightarrow B \cdot\frac{\Delta V^2}{2}=V\cdot U(\Delta V)$$
+
+$$\Rightarrow U(\Delta V)=\frac{1}{2}B\cdot V \cdot \bigg(\frac{\Delta V}{V}\bigg)^2 \eqsim\frac{1}{2}k_\mathrm{B} T$$
+
+
+                                   {{2}}
+Diese potentielle Energie entspricht der potentiellen Energie einer gespannten Feder $\frac{1}{²}Cx^2$ mit der Federkonstanten $C$. Bei der tehrmischen Energie wird nur der Beitrag der reinen Volumenausdenhnung mit $\frac{1}{2}k_\mathrm{B} T$ berücksichtigt. Die Freiheitsgrade der Verzerrung (Schermodul) und der Verdrehung (Torsionsmodul) werden nicht angesprochen, dehalb nicht $\frac{3}{2}k_\mathrm{B} T$. 
+
+Damit folgt:
+
+$$\bigg(\frac{\Delta V}{V}\bigg)^2=\frac{k_\mathrm{B} T}{B\cdot V} \Rightarrow$$
+
+$$\begin{align*}
+\bigg(\frac{\Delta V}{V}\bigg)&=\sqrt{\frac{k_\mathrm{B} T}{B\cdot V}}\\
+&=\mathrm{\sqrt{\frac{1.38065\cdot 10^{-23}\frac{J}{K}\cdot 300\, K }{7\cdot 10^9\frac{J}{m^3}\cdot (4.225\cdot 10^{-10} m)^3}}}\\
+&=0,088
+\end{align*}$$
 
                                       {{3}}
 
 
+**Lösung Aufgabe 3a)**
 
+für isotrope kubische Systeme folgt:
+$$\Delta V=(a+\Delta a)^3-a^3=a^3+3a^2\Delta a+......-a^3 \overbrace{\eqsim}^{\Delta a \ll a}3a^2\Delta a$$
 
+und damit 
+$$\frac{\Delta V}{V}=\frac{3a^2\Delta a}{a^3}=\frac{3 \Delta a}{a}$$
 
+Mit dieser Gleichung und dem Ergebnis von Aufgabenteil a) folgt 
+
+$$\frac{\Delta a}{a}=\frac{1}{3}\frac{\Delta V}{V} \eqsim0.029$$
 ## Aufgabe 3 
                                       {{0}}
 > __3.__ Nullpunkts-Gitterauslenkung und Wärmeausdehnung.   Experimentelle Messungen zeigen, dass mit steigender Temperatur die Gitterkonstante wächst. Wie ist das mittels eines Potential-Modells erklärbar?
