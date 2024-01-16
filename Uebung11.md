@@ -181,7 +181,7 @@ Die Wärmeausdehnung lässt sich nur durch anharmonische Terme der Gitterenergie
                                       {{4}}
 
 
-## Aufgabe 4 
+## Aufgabe 5 
 
                                       {{0}}
 > __4.__ Spezifische Wärme einer linearen einatomigen Kette:   Mit Hilfe der Debye-Näherung $D(\omega)= \frac{N}{\omega_\mathrm{D}}$, wobei $\omega_\mathrm{D}=k_\mathrm{B} \cdot \Theta_\mathrm{D}$, berechne man für akustische Phononen die innere Energie und die spezifische Wärme einer einatomigen Kette für die Grenzfälle einer hohen und einer niedrigen Temperatur .
