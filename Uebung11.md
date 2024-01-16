@@ -159,19 +159,22 @@ $$\frac{\Delta V}{V}=\frac{3a^2\Delta a}{a^3}=\frac{3 \Delta a}{a}$$
 Mit dieser Gleichung und dem Ergebnis von Aufgabenteil a) folgt 
 
 $$\frac{\Delta a}{a}=\frac{1}{3}\frac{\Delta V}{V} \eqsim0.029$$
-## Aufgabe 3 
+
+## Aufgabe 4 
                                       {{0}}
-> __3.__ Nullpunkts-Gitterauslenkung und Wärmeausdehnung.   Experimentelle Messungen zeigen, dass mit steigender Temperatur die Gitterkonstante wächst. Wie ist das mittels eines Potential-Modells erklärbar?
+> __4.__ Nullpunkts-Gitterauslenkung und Wärmeausdehnung.   Experimentelle Messungen zeigen, dass mit steigender Temperatur die Gitterkonstante wächst. Wie ist das mittels eines Potential-Modells erklärbar?
 
 
                                       {{1}}
-**Lösung Aufgabe 3:**
+**Lösung Aufgabe 4:**
 
                                       {{2}}
-
+Die Wärmeausdehnung lässt sich nur durch anharmonische Terme der Gitterenergie $\propto(r-r_0)^3$ und höherer Ordnung erklären, siehe folgende Abbildung
 
                                       {{3}}
-
+![Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte](media/thermischeAusdehnunganharmonischeEffekte.png "Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte. Bei höherer Temperatur werden höhere Schwingungszustände besetzt, deren Schwerpunkte für ein anharmonisches Potenzial bei größeren Gleichgewichtsabständen liegen. Dies führt im thermischen Mittel zu einem größeren
+Atomabstand; Quelle:Festkörperphysik, Vorlesungsskript zur Vorlesung im WS 1998/1999 und SS 1999 Prof. Dr. Rudolf Gross
+und Dr. Achim Marx ")
 
                                       {{4}}
 
