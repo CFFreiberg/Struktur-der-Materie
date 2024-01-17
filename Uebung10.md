@@ -116,7 +116,7 @@ Hinweis: Aus den endlichen Abmessungen eines Kristalls folgen Randbedingungen f�
 
                                       {{2}}
 Wenn der Wellenvektor $K$ auf den Grenze der 1. Brillouin-Zone liegt, dann gilt 
-$$K=\frac{\pi}{a}$$
+$$K=\pm \frac{\pi}{a}$$
 
 
                                       {{3}}
@@ -124,11 +124,12 @@ Damit folgt für die Auslenkung $u$ der Kristallebene $s$ der elastischen Welle:
 $$\begin{align*}
 u_s&=u\cdot \exp(isKa)\\
 &=u\cdot \exp(\pm is\pi)\\
+&=u \cdot (e^{\pm i \pi})^s\\
 &=u\cdot(-1)^s
 \end{align*} $$
 
                                       {{4}}
-Benachbarte Netzebenen haben also engegengesetzte Auslenkungen (entgegengesetzte Phase), da $U_s=\pm \cdot u$, je nachdem , ob $s$ gerade oder ungerade ist. Damit handelt es sich um eine stehende Welle.
+Benachbarte Netzebenen haben also engegengesetzte Auslenkungen (entgegengesetzte Phase), da $u_s=\pm \cdot u$, je nachdem , ob $s$ gerade oder ungerade ist. Damit handelt es sich um eine stehende Welle.
 
 ## Aufgabe 4 
 
@@ -171,7 +172,7 @@ $$ M\cdot \frac{\partial u_n(t)}{\partial t^2}=-C \left[2u_n(t)-u_{n+1}(t)-u_{n-
 
 
                                       {{0}}
->__b)__ Lösen Sie obige Gleichung mit dem Ansatz $u_n(t) = u_0(t) e^{iKna}$ und leiten Sie eine Dispersionsrelation zwischen Frequenz $\omega$ und der Wellenzahl $K$  ab. 
+>__b)__ Lösen Sie obige Gleichung mit dem Ansatz $u_n(t) = u_0 e^{i\omega t}e^{iKna}$ und leiten Sie eine Dispersionsrelation zwischen Frequenz $\omega$ und der Wellenzahl $K$  ab. 
 
                                       {{0}}
 >__c)__ Diskutieren Sie den langwelligen Grenzfall $Ka \ll 1$ und zeigen Sie insbesondere, dass sich aus obiger Gleichung die (Schall–) Wellengeichung  $ \frac{\partial^2 u(x,t)}{\partial t^2}-v_s^2\frac{\partial^2 u(x,t)}{\partial x^2}=0$   ergibt, wenn man zur Kontinuumsbeschreibung $u_{n±1}(t) = u(x ± a, t)$ übergeht.
@@ -187,7 +188,7 @@ $$x_n(t) = n\cdot a + u_n(t)$$
 Dabei ist $u_n(t)$ die Auslenkung aus der Ruhelage. 
 
                                       {{4}}
-Wir leiten einfach mal eine Lösung für unter Berücksichtigung aller Wechselwirkungen her und beschränken uns dann auf die nächsten Nachbar. (Natürlich könnte das auch gleich an dieser Stelle passieren;))
+Wir leiten einfach mal eine Lösung unter Berücksichtigung aller Wechselwirkungen her und beschränken uns dann auf die nächsten Nachbar. (Natürlich könnte das auch gleich an dieser Stelle passieren;))
 
                                       {{4}}
 Sei $M$ die Masse eines Atoms, $C_p$ die Kraftkonstante zum $p$-ten Nachbarn und $F_n$ die Kraft auf das Atom $n$. Dann gilt:
@@ -231,20 +232,20 @@ Bei der Lösung von Aufgabenteil b) beschränken wir uns zur Abwechselung gleich
 Wir wählen für die Auslenkung den Ansatz
 
                                       {{15}}
-$$u_n(t)=u_0(t)\cdot e^{iKna}$$
+$$u_n(t)=u e^{i\omega t}\cdot e^{iKna}$$
 
                                       {{16}}
 Damit folgt: 
-$$M\cdot \ddot{u}_0(t)\cdot e^{iKna}=C \cdot  [e^{i(n+1)Ka}-e^{i(n)Ka}+e^{i(n-1)Ka}-e^{i(n)Ka}]\cdot u_0(t)$$
+$$M\cdot \ddot{u}_n(t)=C \cdot  [e^{i(n+1)Ka}-e^{i(n)Ka}+e^{i(n-1)Ka}-e^{i(n)Ka}]\cdot u e^{i\omega t}$$
 
                                       {{17}}
 $$
 \begin{align*}
-\Rightarrow M\cdot \ddot{u}_0(t)\cdot e^{iKna}&=C \cdot  [e^{i(n+1)Ka}-e^{i(n)Ka}+e^{i(n-1)Ka}-e^{i(n)Ka}]\cdot u_0(t)\\
-&=C \cdot  [e^{i(n+1)Ka}+e^{i(n-1)Ka}-2e^{i(n)Ka}]\cdot u_0(t)\\
+\Rightarrow -M\cdot \omega ^2 \cdot u e^{i\omega t}\cdot e^{iKna}&=C \cdot  [e^{i(n+1)Ka}-e^{i(n)Ka}+e^{i(n-1)Ka}-e^{i(n)Ka}]\cdot u e^{i\omega t}\\
+&=C \cdot  [e^{i(n+1)Ka}+e^{i(n-1)Ka}-2e^{i(n)Ka}]\cdot u e^{i\omega t}\\
 
-\Rightarrow M\cdot \ddot{u}_0(t)&=C\cdot  [\underbrace{ e^{i(+1)Ka}+e^{i(-1)Ka}}_{2\cos(Ka)}-2]\cdot u_0(t)\\
-\Rightarrow -M\cdot \omega^2{u}_0(t)&=C\cdot[2\cdot\cos(Ka)-2]\cdot u_0(t)
+\Rightarrow  -M\cdot \omega^2&=C\cdot  [\underbrace{ e^{i(+1)Ka}+e^{i(-1)Ka}}_{2\cos(Ka)}-2]\\
+\Rightarrow -M\cdot \omega^2&=C\cdot[2\cdot\cos(Ka)-2]\cdot 
 \end{align*}$$
 
                                       {{18}}
