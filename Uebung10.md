@@ -69,17 +69,18 @@ Also: $\frac{\lambda}{2} \ge a$, wobei $a$ die Gitterkonstante ist.
 
                                       {{5}}
 Es gilt allgemein: 
-$$ K=\frac{2 \pi}{\lambda}$$
+$$ |K|=\frac{2 \pi}{\lambda} \Rightarrow \lambda=\frac{2\pi}{|K|}$$
 
                                       {{6}}
 Für elastische Wellen, die ja von real existierenden Atomen getragen werden, folgt für den  Wellenvektor $\vec{k}$ sinvollerweise also
 $$
 \begin{align*}
+-\frac{2\pi}{2|K|} &\ge a \Rightarrow  \\
 -\pi &\le K\cdot a \le\pi  \\
 -\frac{\pi}{a} &\le K \le \frac{\pi}{a}
 
 \end{align*}$$
-Größere Wellenvektoren können über $K'=K-\frac{n\cdot 2\pi}{a}$ immer auf Wellenvektoren innerhalb der 1. Brillouinzone zurückgeführt werden.
+Anmerkung: Größere Wellenvektoren können über $K'=K-\frac{n\cdot 2\pi}{a}$ immer auf Wellenvektoren innerhalb der 1. Brillouinzone zurückgeführt werden.
 
                                       {{7}}
 Damit kann der Wellenvektor von Phononen nur in der ersten Brillouinzone liegen.
@@ -103,7 +104,7 @@ $$\begin{align*}
  |K| &\ge \frac{2\pi}{b} 
  \end{align*}$$
 
-
+Hinweis: Aus den endlichen Abmessungen eines Kristalls folgen Randbedingungen für die Schwingungsgleichungen. Lösungen sind nur möglich, wenn an den Rändern des Kristalls Knoten der Wellen liegen. Daraus folgt dann eine Quantisierung des Wellenvektors $K$
 
 ## Aufgabe 3 
                                       {{0}}
@@ -147,7 +148,7 @@ $$\vec{v}_\mathrm{g}=\mathrm{grad}_K(\omega (K))=\begin{pmatrix}
    \frac{\partial \omega}{\partial K_b} \\
    \frac{\partial \omega}{\partial K_c} \\
 \end{pmatrix}$$
-Dabei sind $a,b,c$ die drei Koordinatenrichtungen. Die Gruppengeschwindigkeit it die Geschwindigkeit des Energietransportes.
+Dabei sind $a,b,c$ die drei Koordinatenrichtungen. Die Gruppengeschwindigkeit ist die Geschwindigkeit des Energietransportes.
 
                                       {{4}}
 ![Bild zu Gruppengeschwindigkeit und Phasengeschwindigkeit](https://upload.wikimedia.org/wikipedia/commons/b/bd/Wave_group.gif "*[Die grünen Punkte bewegen sich mit Gruppengeschwindigkeit, der rote mit Phasengeschwindigkeit;  Quelle: Kraaiennest](https://de.wikipedia.org/wiki/Gruppengeschwindigkeit#/media/Datei:Wave_group.gif), [CC BY-NC-SA 4.0 Deed](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
@@ -185,7 +186,7 @@ $$x_n(t) = n\cdot a + u_n(t)$$
 Dabei ist $u_n(t)$ die Auslenkung aus der Ruhelage. 
 
                                       {{4}}
-Wir leiten einfach mal eine Lösung für alle Wechselwirkungen her und beschränken uns dann auf die nächsten Nachbar. (Natürlich könnte das auch gleich an dieser Stelle passieren;))
+Wir leiten einfach mal eine Lösung für unter Berücksichtigung aller Wechselwirkungen her und beschränken uns dann auf die nächsten Nachbar. (Natürlich könnte das auch gleich an dieser Stelle passieren;))
 
                                       {{4}}
 Sei $M$ die Masse eines Atoms, $C_p$ die Kraftkonstante zum $p$-ten Nachbarn und $F_n$ die Kraft auf das Atom $n$. Dann gilt:
@@ -223,7 +224,7 @@ was zu zeigen war.
 **Lösung Aufgabe 5b:**
 
                                       {{13}}
-Bei der Lösusng von Aufgabenteil b) beschränken wir uns zur Abwechselung gleich auf die Wechselwiwrkungen der nächsten Nachbarn.
+Bei der Lösung von Aufgabenteil b) beschränken wir uns zur Abwechselung gleich auf die Wechselwirkungen der nächsten Nachbarn.
 
                                       {{14}}
 Wir wählen für die Auslenkung den Ansatz
@@ -254,7 +255,7 @@ Jetzt wird noch die Gleichheit $1-\cos(x)=2\sin^2(\frac{x}{2})$ eingesetzt:
 
                                       {{20}}
 $$\begin{align*}\omega^2&=\frac{2C}{M}\bigg(2\sin^2\bigg(\frac{Ka}{2}\bigg)\bigg)\\
-\Rightarrow \omega&=2\sqrt{\frac{C}{M}}\sin\bigg(\frac{Ka}{2}\bigg)
+\Rightarrow \omega&=2\sqrt{\frac{C}{M}}\bigg|\sin\bigg(\frac{Ka}{2}\bigg)\bigg|
 \end{align*}$$
 
 {{20}}
@@ -443,6 +444,10 @@ $$\varepsilon=\bigg(n+\frac{1}{2}\bigg) \hslash\cdot  \omega$$
                                       {{2}}
 wobei $ \hslash=\frac{h}{2\pi}=\mathrm{\frac{6.626\cdot 10^{-34} Js}{2\pi}}=\mathrm{1.055\cdot 10^{-34} \,Js} $
 
+                                      {{3}}
+Der Summand $\frac{1}{2} \hbar \omega$ ist die Nullpunktsenergie des Schwingungszustandes.
+
+
 ## Aufgabe 11
                                       {{0}}
 
@@ -459,7 +464,7 @@ Die Auslenkung des Atoms "$s$" mit der Masse $M_1$ sei $u_s$
 Die Auslenkung des Atome "$s$" mit der Masse $M_2$ sei $v_s$
 
                                       {{4}}
-Analog zur obigen Aufgabe 5 erhält gelten die Bewegungsgleichungen:
+Analog zur obigen Aufgabe 5 gelten die Bewegungsgleichungen:
 
                                       {{5}}
 $$\begin{align*}
