@@ -35,11 +35,11 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 
                                       {{1}}
-
 **Lösung Aufgabe 1:**
+
                                       {{2}}
-$$\omega=\omega_m\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$$
-wobei für die maximale Frequenz gilt: $\omega_\mathrm{m}=\sqrt{\frac{4C}{M}}$.
+$$\omega=\omega_\mathrm{m}\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$$
+wobei für die maximale Frequenz  $\omega_\mathrm{m}=\sqrt{\frac{4C}{M}}$ gilt.
 
                                       {{3}}
 $$\Rightarrow K=\frac{2}{a}\arcsin \bigg(\frac{\omega}{\omega_\mathrm{m}}\bigg)$$
@@ -114,14 +114,16 @@ D(\omega)&=\bigg|\frac{dN}{d\omega}\bigg|\\
 \end{align*}$$
 
                                       {{7}}
-$D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf $-\frac{\pi}{a}\le K \le \frac{\pi}{a}$. $\omega_0$ ist die Frequenz, die zu $K_{max}=\pm\frac{\pi}{a}$ gehört. Größere Wellenvektoren sind nicht möglich, deshalb muss bei den zugehörigen Frequenzen auch die Zustandsdichte Null sein. 
+$D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf $-\frac{\pi}{a}\le K \le \frac{\pi}{a}$. Die Frequenz, die zu $K_{max}=\pm\frac{\pi}{a}$ gehört, ist $\omega_0$. Größere Wellenvektoren sind nicht möglich, deshalb muss bei den zugehörigen Frequenzen auch die Zustandsdichte Null sein. 
 
 ## Aufgabe 3
                                       {{0}}
 > __3.__ Mittlere Wärmeausdehnung einer Kristallzelle (Na). 
 
+                                      {{0}}
 >__a)__ Schätzen Sie für eine primitive Elementarzelle eines Natriumkristalls bei $T=300\, \mathrm{K}$ die mittlere Wärmeausdehnung $\frac{\Delta V}{V}$ ab. Nehmen Sie dazu die  Gitterkonstante $a_\mathrm{Na}=4,225\, \AA$ an und den Kompressionsmodul $B$ zu $\mathrm{7 \cdot 10^{10} erg \cdot cm^{-3}= 7 \cdot 10^3 \,J\cdot cm^{-3}=  7 \cdot 10^9 \,J\cdot m^{-3}}$ . Beachten Sie, dass die Debye-Temperatur mit $\mathrm{158\, K}$ geringer als $\mathrm{300\, K}$ ist, so dass die thermische Energie von der Größenordnung von $k_\mathrm{B}\cdot T$ ist (klassische Betrachtung).
 
+                                      {{0}}
 >__b)__ Benutzen Sie dieses Ergebnis, um die mittlere thermische Schwankung $\frac{\Delta a}{a}$ der Gitterkonstanten abzuschätzen.
 
 
@@ -129,46 +131,50 @@ $D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf
                                       {{1}}
 **Lösung Aufgabe 3a)**
 
-Da Kompressionsmodul b ist definiert über die zweite Ableitung der  potentiellen Energie des Kristalls $U'$ nach der Volumenänderung $\Delta V$, also 
-
+                                      {{2}}
+Da Kompressionsmodul $B$ ist definiert über die zweite Ableitung der  potentiellen Energie des Kristalls $U$ nach der Volumenänderung $\Delta V$, also 
 $$B=V\frac{d^2U(\Delta V)}{d(\Delta V)^2}$$
 
-
-
+                                      {{3}}
 Nach zweimaligem Interieren nach $\Delta V$ auf beiden Seiten folgt:
 
+                                      {{4}}
 $$\Rightarrow B \cdot\frac{\Delta V^2}{2}=V\cdot U(\Delta V)$$
 
+                                      {{5}}
 $$\Rightarrow U(\Delta V)=\frac{1}{2}B\cdot V \cdot \bigg(\frac{\Delta V}{V}\bigg)^2 \eqsim\frac{1}{2}k_\mathrm{B} T$$
 
-
-                                   {{2}}
+                                   {{6}}
 Diese potentielle Energie entspricht der potentiellen Energie einer gespannten Feder $\frac{1}{²}Cx^2$ mit der Federkonstanten $C$. Bei der tehrmischen Energie wird nur der Beitrag der reinen Volumenausdenhnung mit $\frac{1}{2}k_\mathrm{B} T$ berücksichtigt. Die Freiheitsgrade der Verzerrung (Schermodul) und der Verdrehung (Torsionsmodul) werden nicht angesprochen, dehalb nicht $\frac{3}{2}k_\mathrm{B} T$. 
 
+                                      {{7}}
 Damit folgt:
-
 $$\bigg(\frac{\Delta V}{V}\bigg)^2=\frac{k_\mathrm{B} T}{B\cdot V} \Rightarrow$$
 
+                                      {{8}}
 $$\begin{align*}
 \bigg(\frac{\Delta V}{V}\bigg)&=\sqrt{\frac{k_\mathrm{B} T}{B\cdot V}}\\
 &=\mathrm{\sqrt{\frac{1.38065\cdot 10^{-23}\frac{J}{K}\cdot 300\, K }{7\cdot 10^9\frac{J}{m^3}\cdot (4.225\cdot 10^{-10} m)^3}}}\\
 &=0,088
 \end{align*}$$
 
-                                      {{3}}
-
-
+                                      {{9}}
 **Lösung Aufgabe 3b)**
 
+                                      {{10}}
 für isotrope kubische Systeme folgt:
 $$\Delta V=(a+\Delta a)^3-a^3=a^3+3a^2\Delta a+......-a^3 \overbrace{\eqsim}^{\Delta a \ll a}3a^2\Delta a$$
 
+                                      {{11}}
 und damit 
 $$\frac{\Delta V}{V}=\frac{3a^2\Delta a}{a^3}=\frac{3 \Delta a}{a}$$
 
+                                      {{12}}
 Mit dieser Gleichung und dem Ergebnis von Aufgabenteil a) folgt 
 
+                                      {{13}}
 $$\frac{\Delta a}{a}=\frac{1}{3}\frac{\Delta V}{V} \eqsim0.029$$
+
 
 ## Aufgabe 4 
                                       {{0}}
@@ -182,7 +188,6 @@ $$\frac{\Delta a}{a}=\frac{1}{3}\frac{\Delta V}{V} \eqsim0.029$$
 Die Wärmeausdehnung lässt sich nur durch anharmonische Terme der Gitterenergie $\propto(r-r_0)^3$ und höherer Ordnung erklären, siehe folgende Abbildung. Bei höherer Temperatur werden höhere Schwingungszustände besetzt, deren Schwerpunkte für ein anharmonisches Potenzial bei größeren Gleichgewichtsabständen liegen. Dies führt im thermischen Mittel zu einem größeren Atomabstand.
 
                                       {{3}}
-
 ![Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte](media/thermischeAusdehnunganharmonischeEffekte.png "*Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte.  Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")
 
 
@@ -195,13 +200,13 @@ Die Wärmeausdehnung lässt sich nur durch anharmonische Terme der Gitterenergie
 **Lösung Aufgabe 5:**
 
 Die Debye-Näherung (akustische Phononen) ist eine Kontinuums-Näherung bis zur Debye-Grenzfrequenz $\omega_D$, wobei $\hbar \omega_D = k_B \Theta_D$ mit $\Theta_D=$ Debye-Temperatur. 
+
                                       {{2}}
 Mit der [Besetzungswahrscheinlichkeit $f$ für Bosonen](https://de.wikipedia.org/wiki/Bose-Einstein-Statistik) (Bose-Einstein-Verteilung) folgt für die innere Energie der linearen einatomigen Kette
 $$f(\omega,T)=\frac{1}{e^{\frac{\hbar \omega}{k_B T}}-1}$$
 
                                       {{3}}
 $$U(T)=3\int_0^{\omega_D} \hbar \omega D(\omega)f(\omega,T)d\omega$$
-
 Die 3 steht für zwei transversale und einen longitudinalen akustischen Ast. Einsetzen ergibt:
 
                                       {{4}}
@@ -209,38 +214,43 @@ Die 3 steht für zwei transversale und einen longitudinalen akustischen Ast. Ein
 $$U(T)=3\int_0^{\omega_D} \hbar \omega \frac{N}{\omega_\mathrm{D}}\frac{1}{e^{\frac{\hbar \omega}{k_B T}}-1}d\omega$$  
 
 {{5}}
-
 Mit den Substitutionen 
-
 $$\begin {align*}\\
 x&=\frac{\hbar\omega}{k_B T}\\
 x_D&=\frac{\hbar\omega_D}{k_B T}=\frac{\Theta_D}{T}\\
 d\omega&=\frac{k_B T}{\hbar} dx
 \end{align*}$$
 
+                                      {{6}}
 Folgt
-
 $$U(T)=\frac{3N k_B T^2}{\Theta_D}\int_0^{x_D}\frac{x}{e^x -1}dx$$
 
+                                      {{7}}
 **Fall 1, hohe Temperaturen, $T \gg\Theta_D$, $x \rightarrow 0$**
 
+                                      {{8}}
 Aus $e^x \approx 1+x$ folgt  
 $$\int_0^{x_D}\frac{x}{e^x -1}dx=\int_0^{x_D}\frac{x}{1+x -1}dx=\int_0^{x_D}1=x_D$$
 
+                                      {{9}}
 $$\Rightarrow U(T)=\frac{3N k_B T^2}{\Theta_D}x_D=3N k_B T$$
 
+                                      {{10}}
 Für die spezifische Wäreme gilt also
-
 $$c_V=\frac{dU}{dT}=3Nk_B$$
 
+                                      {{11}}
 Das entspricht der [Regel von Dulong-Petit](Dulong-Petit-Gesetz).
 
+                                      {{12}}
 **Fall 2, niedrige Temperaturen, $T \ll\Theta_D$, $x \rightarrow \infty$**
 
+                                      {{13}}
 $$\int_0^{\infty}\frac{x}{e^x -1}dx=\frac{\pi^2}{6}$$
 
+                                      {{14}}
 $$\Rightarrow U(T)=\frac{3N k_B T^2}{\Theta_D}\frac{\pi^2}{6}=\frac{\pi^2N k_B T^2}{2\Theta_D}$$
 
+                                      {{15}}
 $$c_V=\frac{dU}{dT}=\frac{\pi^2N k_B T}{\Theta_D}\propto T$$
-
 Achtung, die letzte Formel gilt nur in 1D
