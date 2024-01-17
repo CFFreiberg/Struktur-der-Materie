@@ -172,7 +172,7 @@ $$ M\cdot \frac{\partial u_n(t)}{\partial t^2}=-C \left[2u_n(t)-u_{n+1}(t)-u_{n-
 
 
                                       {{0}}
->__b)__ Lösen Sie obige Gleichung mit dem Ansatz $u_n(t) = u_0 e^{i\omega t}e^{iKna}$ und leiten Sie eine Dispersionsrelation zwischen Frequenz $\omega$ und der Wellenzahl $K$  ab. 
+>__b)__ Lösen Sie obige Gleichung mit dem Ansatz $u_n(t) = u  e^{i\omega t}e^{iKna}$ und leiten Sie eine Dispersionsrelation zwischen Frequenz $\omega$ und der Wellenzahl $K$  ab. 
 
                                       {{0}}
 >__c)__ Diskutieren Sie den langwelligen Grenzfall $Ka \ll 1$ und zeigen Sie insbesondere, dass sich aus obiger Gleichung die (Schall–) Wellengeichung  $ \frac{\partial^2 u(x,t)}{\partial t^2}-v_s^2\frac{\partial^2 u(x,t)}{\partial x^2}=0$   ergibt, wenn man zur Kontinuumsbeschreibung $u_{n±1}(t) = u(x ± a, t)$ übergeht.
@@ -374,9 +374,9 @@ $$\omega=2\sqrt{\frac{C}{M}}\sin\bigg(\frac{Ka}{2}\bigg)$$
 
                                       {{5}}
 $$\begin{align*}\Rightarrow \omega_\mathrm{max}&=2\sqrt{\frac{C}{M}}\cdot 1\\
-&=2\sqrt{\frac{33,2\,\mathrm{\frac{ N}{m}}}{1,66054\cdot 10^{-27} \mathrm{kg}}} \\
+&=2\sqrt{\frac{33.2\,\mathrm{\frac{ N}{m}}}{200 \cdot 1.66054\cdot 10^{-27} \mathrm{kg}}} \\
 &=2\cdot 10^{12}\,\mathrm{\frac{kg \cdot m}{s^2 \cdot m \cdot kg}}\\
-&=2\cdot 10^{12}\,\mathrm{\frac{1}{s}}
+&=2\cdot 10^{12}\,\mathrm{\frac{1}{s}}=20\, \mathrm{THz}
 \end{align*}$$
 
 
