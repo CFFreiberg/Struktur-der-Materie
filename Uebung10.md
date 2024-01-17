@@ -260,7 +260,7 @@ $$\begin{align*}\omega^2&=\frac{2C}{M}\bigg(2\sin^2\bigg(\frac{Ka}{2}\bigg)\bigg
 \end{align*}$$
 
 {{20}}
-![Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis](media/dispersionsrelation_Gitter_miteinatomiger_Basis.png "*Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis; Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")
+![Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis](media/dispersionsrelation_Gitter_miteinatomiger_Basis.png "*Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis ($q=K$); Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")
 
                                       {{21}}
 **Ergänzung: Eigenschaften von $\omega(K)$**
@@ -354,7 +354,6 @@ $$\Rightarrow \frac{\partial ^2 u}{\partial t^2}=v_s^2\frac{\partial ^2 u}{\part
 
                                       {{2}}
 **Gegeben:**
-
  $$M = 200 \,\mathrm{u}=200 \cdot 1,66054\cdot 10^{-27} \mathrm{kg}$$
 $$a = 4 \, \mathrm{\AA}= 4 \cdot 10^{-10} \mathrm{m}$$
  $$v_s = 4000 \, \mathrm{\frac{m}{s}}$$
