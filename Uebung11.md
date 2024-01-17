@@ -179,30 +179,25 @@ $$\frac{\Delta a}{a}=\frac{1}{3}\frac{\Delta V}{V} \eqsim0.029$$
 **Lösung Aufgabe 4:**
 
                                       {{2}}
-Die Wärmeausdehnung lässt sich nur durch anharmonische Terme der Gitterenergie $\propto(r-r_0)^3$ und höherer Ordnung erklären, siehe folgende Abbildung
+Die Wärmeausdehnung lässt sich nur durch anharmonische Terme der Gitterenergie $\propto(r-r_0)^3$ und höherer Ordnung erklären, siehe folgende Abbildung. Bei höherer Temperatur werden höhere Schwingungszustände besetzt, deren Schwerpunkte für ein anharmonisches Potenzial bei größeren Gleichgewichtsabständen liegen. Dies führt im thermischen Mittel zu einem größeren Atomabstand.
 
                                       {{3}}
 
-![Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte](media/thermischeAusdehnunganharmonischeEffekte.png "Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte. Bei höherer Temperatur werden höhere Schwingungszustände besetzt, deren Schwerpunkte für ein anharmonisches Potenzial bei größeren Gleichgewichtsabständen liegen. Dies führt im thermischen Mittel zu einem größeren Atomabstand. Quelle: Vorlesungsskript zur Vorlesung "Festkörperphysik" WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut")
-
-
-
-
-                                      {{4}}
+![Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte](media/thermischeAusdehnunganharmonischeEffekte.png "*Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte.  Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")
 
 
 ## Aufgabe 5 
 
                                       {{0}}
-> __4.__ Spezifische Wärme einer linearen einatomigen Kette: Berechnen Sie  für akustische Phononen die innere Energie und die spezifische Wärme einer einatomigen Kette für die Grenzfälle einer hohen und einer niedrigen Temperatur. Verwenden Sie dazu die Debye-Näherung.  $D(\omega)= \frac{N}{\omega_\mathrm{D}}$ mit $\omega_\mathrm{D}=k_\mathrm{B} \cdot \Theta_\mathrm{D}$, wobei $ \Theta_\mathrm{D}=$ Debey-Temperatur
+> __5.__ Spezifische Wärme einer linearen einatomigen Kette:  Berechnen Sie für akustische Phononen die innere Energie und die spezifische Wärme einer einatomigen Kette für die Grenzfälle einer hohen und einer niedrigen Temperatur. Nutzen Sie dabei die Debye-Näherung $D(\omega)= \frac{N}{\omega_\mathrm{D}}$, wobei $\omega_\mathrm{D}=k_\mathrm{B} \cdot \Theta_\mathrm{D}$
 
                                       {{1}}
-**Lösung Aufgabe 4:**
+**Lösung Aufgabe 5:**
 
+Die Debye-Näherung (akustische Phononen) ist eine Kontinuums-Näherung bis zur Debye-Grenzfrequenz $\omega_D$, wobei $\hbar \omega_D = k_B \Theta_D$ mit $\Theta_D=$ Debye-Temperatur. 
                                       {{2}}
 Mit der [Besetzungswahrscheinlichkeit $f$ für Bosonen](https://de.wikipedia.org/wiki/Bose-Einstein-Statistik) (Bose-Einstein-Verteilung) folgt für die innere Energie der linearen einatomigen Kette
 $$f(\omega,T)=\frac{1}{e^{\frac{\hbar \omega}{k_B T}}-1}$$
-
 
                                       {{3}}
 $$U(T)=3\int_0^{\omega_D} \hbar \omega D(\omega)f(\omega,T)d\omega$$
