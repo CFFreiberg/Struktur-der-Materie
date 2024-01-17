@@ -104,6 +104,7 @@ $$\begin{align*}
  |K| &\ge \frac{2\pi}{b} 
  \end{align*}$$
 
+{{11}}
 Hinweis: Aus den endlichen Abmessungen eines Kristalls folgen Randbedingungen für die Schwingungsgleichungen. Lösungen sind nur möglich, wenn an den Rändern des Kristalls Knoten der Wellen liegen. Daraus folgt dann eine Quantisierung des Wellenvektors $K$
 
 ## Aufgabe 3 
@@ -259,7 +260,7 @@ $$\begin{align*}\omega^2&=\frac{2C}{M}\bigg(2\sin^2\bigg(\frac{Ka}{2}\bigg)\bigg
 \end{align*}$$
 
 {{20}}
-![Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis](media/Dispersionsrelation.png "*Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis; Quelle: [TU Chemnitz, Ulrich Schwarz](https://www.tu-chemnitz.de/physik/EXSE/KondensierteMaterie/Festk%C3%B6rperphysik%20-%2005%20Gitterschwingungen.pdf)*")
+![Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis](media/dispersionsrelation_Gitter_miteinatomiger_Basis.png "*Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis; Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")
 
                                       {{21}}
 **Ergänzung: Eigenschaften von $\omega(K)$**
