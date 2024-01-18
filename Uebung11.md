@@ -86,7 +86,7 @@ $$\begin{align*}D(\omega)&=\frac{N\cdot a}{\pi}\cdot \frac{dK}{d\omega}\\&=\frac
 Diese Funktion hat eine Singularität bei $\omega=\omega_\mathrm{m}$
 
 {{12}}
-![Bild Zustandsdichte](media/Zustandsdichte.png "*Zustandsdichte $\omega(K)$; Quelle: C. Funke*")
+![Bild Zustandsdichte](media/Zustandsdichte.png "*Zustandsdichte $D(\omega)$; Quelle: C. Funke*")
 
 ## Aufgabe 2 
 
