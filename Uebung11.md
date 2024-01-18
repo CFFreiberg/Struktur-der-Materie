@@ -40,8 +40,10 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
                                       {{2}}
 $$\omega=\omega_\mathrm{m}\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$$
 
-![Bild Dispersionsrelation](media/A1_Omega_K.png "Dispersionsrelation $\omega(K)$")
+{{2}}
+![Bild Dispersionsrelation](media/A1_Omega_K.png "*Dispersionsrelation $\omega(K)$; Quelle: C. Funke*")
 
+                                      {{2}}
 wobei für die maximale Frequenz  $\omega_\mathrm{m}=\sqrt{\frac{4C}{M}}$ gilt.
 
                                       {{3}}
@@ -82,6 +84,9 @@ $$\begin{align*}D(\omega)&=\frac{N\cdot a}{\pi}\cdot \frac{dK}{d\omega}\\&=\frac
 
                                       {{12}}
 Diese Funktion hat eine Singularität bei $\omega=\omega_\mathrm{m}$
+
+{{12}}
+![Bild Zustandsdichte](media/Zustandsdichte.png "*Zustandsdichte $\omega(K)$; Quelle: C. Funke*")
 
 ## Aufgabe 2 
 
