@@ -39,6 +39,9 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
                                       {{2}}
 $$\omega=\omega_\mathrm{m}\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$$
+
+![Bild Dispersionsrelation](media/A1_Omega_K.png "Dispersionsrelation $\omega(K)$")
+
 wobei für die maximale Frequenz  $\omega_\mathrm{m}=\sqrt{\frac{4C}{M}}$ gilt.
 
                                       {{3}}
