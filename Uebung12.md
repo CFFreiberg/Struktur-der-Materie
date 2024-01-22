@@ -87,17 +87,17 @@ Für Umklapp-Prozesse müssen $K_1$ und $K_2$  $\ge \frac{1}{2}G$ bzw. $E_1$ und
 
 
                                       {{1}}
-- Streuung an Fremdatomen
-- Streuung an Isotopen bzw. Isotopenverteilung
-- Streuung an Gitterfehlern
-- Streuung an Kristallgrenzen
-- Streuung an chemischer Ferunreinigung (Fremdatomen)
+
 
 
 **Lösung Aufgabe 3:**
 
                                       {{2}}
-
+- Streuung an Fremdatomen
+- Streuung an Isotopen bzw. Isotopenverteilung
+- Streuung an Gitterfehlern
+- Streuung an Kristallgrenzen
+- Streuung an chemischer Ferunreinigung (Fremdatomen)
 
 ## Aufgabe 4 
                                       {{0}}
@@ -108,6 +108,19 @@ Für Umklapp-Prozesse müssen $K_1$ und $K_2$  $\ge \frac{1}{2}G$ bzw. $E_1$ und
 **Lösung Aufgabe 4:**
 
                                       {{2}}
+
+Bose-Einstein Verteilungsfunktion für Bosonen (ganzzahliger Spin, Zustände mehrfach besetzbar) z.B. Phononen:
+
+$$f(E)=\frac{1}{e^{\frac{E-E_F}{k_B T}  }-1}$$
+
+Fermi- Dirac Verteilungsfunktion für Fermionen (halbzahliger SpinZustände nur einfach besetzbar), z.B. Elektronen
+
+$$f(E)=\frac{1}{e^{\frac{E-E_F}{k_B T}}  +1}   $$
+
+Maxwell-Boltzman Verteilungsfunktion
+
+$$f(E)=\frac{1}{e^{\frac{E-E_F}{k_B T}} }= e^{-\frac{E-E_F}{k_B T}}  $$
+
 
 
 ## Aufgabe 5 
