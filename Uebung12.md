@@ -87,7 +87,14 @@ Für Umklapp-Prozesse müssen $K_1$ und $K_2$  $\ge \frac{1}{2}G$ bzw. $E_1$ und
 
 
                                       {{1}}
-**Lösung Aufgabe 3a)**
+- Streuung an Fremdatomen
+- Streuung an Isotopen bzw. Isotopenverteilung
+- Streuung an Gitterfehlern
+- Streuung an Kristallgrenzen
+- Streuung an chemischer Ferunreinigung (Fremdatomen)
+
+
+**Lösung Aufgabe 3:**
 
                                       {{2}}
 
