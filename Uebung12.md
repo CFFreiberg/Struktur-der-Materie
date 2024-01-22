@@ -51,7 +51,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 
 
-![molare Wärmekapazität](media/MolareWaermekapazitaet.png "*Molare Wärmekapazität der Festkörper nach den Theorien von Einstein, Debye und Dulong-Petit Quelle: (Hering, E., Martin, R., Stohrer, M., Käß, H. (2016). Festkörperphysik. In: Physik für Ingenieure. Springer Vieweg, Berlin, Heidelberg.)[https://doi.org/10.1007/978-3-662-49355-7_9]* ")
+![molare Wärmekapazität](media/MolareWaermekapazitaet.png "*Molare Wärmekapazität der Festkörper nach den Theorien von Einstein, Debye und Dulong-Petit Quelle: Hering, E., Martin, R., Stohrer, M., Käß, H. (2016). [Festkörperphysik In: Physik für Ingenieure](https://link.springer.com/chapter/10.1007/978-3-662-49355-7_9). Springer Vieweg, Berlin, Heidelberg.* ")
 
 
 ## Aufgabe 2 
@@ -65,7 +65,20 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
                                       {{2}}
 Die Umklapp-Streuung (auch U-Prozess oder Umklapp-Prozess) ist ein Streuprozess, der zu einem Wellenvektor $K$ führt, der außerhalb der ersten Brillouin-Zone liegt. Der Wellenvektor wird durch einen reziproken Gittervektor $G$ in die erste Brillouin-Zone transformiert. Diese Transformation ermöglicht Streuprozesse, die andernfalls gegen den Impulserhaltungssatz verstoßen würden: Zwei nach rechts gerichtete Wellenvektoren können sich zu einem nach links gerichteten Wellenvektor verbinden. Diese Nichterhaltung ist der Grund, warum der Kristallimpuls kein echter Impuls ist.
 
-![](https://upload.wikimedia.org/wikipedia/commons/e/ef/Phonon_nu_process.svg "Normal process (N-process) and Umklapp process (U-process). While the N-process conserves total phonon momentum, the U-process changes phonon momentum; Quelle: [Wikipedia DanielSchwen](https://en.wikipedia.org/wiki/Umklapp_scattering) , [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/&gt);")
+![Bild von  Normal- und Umklappprozess ](https://upload.wikimedia.org/wikipedia/commons/e/ef/Phonon_nu_process.svg "*Normal process (N-process) and Umklapp process (U-process). While the N-process conserves total phonon momentum, the U-process changes phonon momentum; Quelle: [Wikipedia Daniel Schwen](https://en.wikipedia.org/wiki/Umklapp_scattering) , [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/&gt)*")
+
+Es gilt der Energieerhaltungssatz:
+$$\begin{align*}
+E_1+E_2&=E_3\\
+\hbar\omega_1+\hbar\omega_2&=\hbar\omega_3\\
+\omega_1+\omega_2&=\omega_3
+\end{align*}$$
+
+Und der Impulserhaltungssatz:
+$$K_1+K_2=K_3+G$$
+Bei $G=0$ liegt ein Normalprozeß vor, bei $G\ne 0$ ein Umklappprozeß. 
+
+Für Umklapp-Prozesse müssen $K_1$ und $K_2$  $\ge \frac{1}{2}G$ bzw. $E_1$ und $E_2$ $\ge \frac{1}{2}k_B \Theta$ sein, da jeder Phononenwellenvektor in der Größenordnung von $ \frac{1}{2}G$ sein muss.
 
 
 ## Aufgabe 3
