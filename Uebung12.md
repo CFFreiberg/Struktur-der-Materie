@@ -51,7 +51,8 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 
 
-![molare Wärmekapazität](media/MolareWaermekapazitaet.png "Molare Wärmekapazität der Festkörper nach den Theorien von Einstein, Debye und Dulong-Petit Quelle: (Hering, E., Martin, R., Stohrer, M., Käß, H. (2016). Festkörperphysik. In: Physik für Ingenieure. Springer Vieweg, Berlin, Heidelberg.)[https://doi.org/10.1007/978-3-662-49355-7_9] ")
+![molare Wärmekapazität](media/MolareWaermekapazitaet.png "*Molare Wärmekapazität der Festkörper nach den Theorien von Einstein, Debye und Dulong-Petit Quelle: (Hering, E., Martin, R., Stohrer, M., Käß, H. (2016). Festkörperphysik. In: Physik für Ingenieure. Springer Vieweg, Berlin, Heidelberg.)[https://doi.org/10.1007/978-3-662-49355-7_9]* ")
+
 
 ## Aufgabe 2 
 
@@ -62,6 +63,10 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 **Lösung Aufgabe 2:**
 
                                       {{2}}
+Die Umklapp-Streuung (auch U-Prozess oder Umklapp-Prozess) ist ein Streuprozess, der zu einem Wellenvektor $K$ führt, der außerhalb der ersten Brillouin-Zone liegt. Der Wellenvektor wird durch einen reziproken Gittervektor $G$ in die erste Brillouin-Zone transformiert. Diese Transformation ermöglicht Streuprozesse, die andernfalls gegen den Impulserhaltungssatz verstoßen würden: Zwei nach rechts gerichtete Wellenvektoren können sich zu einem nach links gerichteten Wellenvektor verbinden. Diese Nichterhaltung ist der Grund, warum der Kristallimpuls kein echter Impuls ist.
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/ef/Phonon_nu_process.svg "Normal process (N-process) and Umklapp process (U-process). While the N-process conserves total phonon momentum, the U-process changes phonon momentum; Quelle: [Wikipedia DanielSchwen](https://en.wikipedia.org/wiki/Umklapp_scattering) , [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/&gt);")
+
 
 ## Aufgabe 3
                                       {{0}}
