@@ -122,14 +122,58 @@ Maxwell-Boltzman Verteilungsfunktion
 $$f(E)=\frac{1}{e^{\frac{E-E_F}{k_B T}} }= e^{-\frac{E-E_F}{k_B T}}  $$
 
 
+[Abbildung](https://demonstrations.wolfram.com/BoseEinsteinFermiDiracAndMaxwellBoltzmannStatistics/)
+
 
 ## Aufgabe 5 
 
                                       {{0}}
-> __5.__ Wie viele Gitterschwingungen gibt es nach der Bose-Einstein-Verteilung bei $T=300\,\mathrm{K}$ in einem Kristall mit einem Volumen von $\mathrm{1\, cm^3}$ Frequenz-bereich zwischen $4,0$ und $4,1\,\mathrm{MHz}$ (Schallgeschwindigkeit = $6000\,\mathrm{\frac{m}{s}}$)?
+> __5.__ Wie viele Gitterschwingungen $\Delta N$ gibt es nach der Bose-Einstein-Verteilung bei $T=300\,\mathrm{K}$ in einem Kristall mit einem Volumen von $\mathrm{1\, cm^3}$ im Frequenzbereich zwischen $4,0$ und $4,1\,\mathrm{MHz}$ (Schallgeschwindigkeit = $6000\,\mathrm{\frac{m}{s}}$)?
 
                                       {{1}}
 **Lösung Aufgabe 5:**
+
+Zahl der Phononen im Bereich $\omega_1$ bis $\omega_2$ im 3D:
+
+$$ \begin{align*}
+\Delta N&=3\int_{\omega_1}^{\omega_2} D(\omega)\cdot \frac{1}{e^\frac{\hbar \omega}{k_B T}-1} d\omega\\
+&=3\int_{\omega_1}^{\omega_2} \frac{l^3 \omega^2}{2\pi^2 v_s^3}\cdot \frac{1}{e^\frac{\hbar \omega}{k_B T}-1} d\omega\\
+\end{align*}$$
+
+
+mit $\omega = 2\pi f$ und $x =\frac{hf}{k_B T}$ folgt
+
+$$ \begin{align*}
+\Delta N&=3\int_{f_1}^{f_2} \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{e^\frac{\hbar 2\pi f}{k_B T}-1} d(2\pi f)\\
+&=3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{e^x-1} d f\\
+&\overbrace{\approxeq}^{hf \ll k_BT} 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{1+x-1} d f\\
+&= 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{\frac{hf}{k_B T}} d f\\
+&=\frac{12\pi l^3 k_B T}{v_s^3 h}\int_{f_1}^{f_2}fdf\\
+&=\frac{12\pi l^3 k_B T}{v_s^3 h}\bigg(\frac{f_2^2-f_1^2}{2}\bigg)\\
+\end{align*}$$
+
+
+
+
+Mit 
+- $f_1 = 4,0 \cdot 10^6\, \frac{1}{s}$ , 
+- $f_2 = 4,1 \cdot 10^6\, \frac{1}{s}$,
+- $v_s = 6000 \, \mathrm{\frac{m}{s}}$,
+- $T = 300 \, \mathrm{K}$,
+- $l^3 = 1\, \mathrm{cm^3}$
+- $h = 6,63 \cdot  10^{-34} \,\mathrm{Js}$, und 
+- $k_B = 1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}}$ folgt:
+
+$$ \Delta N = 4,4 \cdot  10^8$$
+
+
+Die Zahl der verschiedenen Schwingungen (Energie-Eigenwerte)
+im gleichen Frequenzbereich ist dabei:
+
+$$D(\omega)d(\omega)=3 \frac{l^3 \omega^2}{2\pi^2 v_s^3}\cdot \Delta \omega \approxeq 279$$
+
+ 
+
 
 ## Aufgabe 6 
 
