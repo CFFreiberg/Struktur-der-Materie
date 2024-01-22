@@ -178,7 +178,47 @@ $$D(\omega)d(\omega)=3 \frac{l^3 \omega^2}{2\pi^2 v_s^3}\cdot \Delta \omega \app
 ## Aufgabe 6 
 
                                       {{0}}
-> __6.__ Ein Laserstrahl (Wellenlänge 694 nm) durchläuft einen Quarzkristall. Dabei findet eine Wechselwirkung zwischen Photonen und Phononen ohne Gitter-Rückstoß statt (Brillouin-Streunung). Berechnen Sie die maximale Frequenz der hierdurch ausgelösten mechanischen Schwingungen und geben Sie die Frequenzverschiebung des gestreuten Lichtes an. (Schallgeschwindigkeit = 6000 m/s, Brechungsindex des Kristalls 1,54)
+> __6.__ Ein Laserstrahl  der Wellenlänge $\lambda=694\, \mathrm{nm}$ durchläuft einen Quarzkristall. Dabei findet eine inelastische Wechselwirkung zwischen Photonen und akustischen Phononen ohne Gitter-Rückstoß statt (Brillouin-Streunung). Berechnen Sie die maximale Frequenz der hierdurch ausgelösten mechanischen Schwingungen und geben Sie die Frequenzverschiebung des gestreuten Lichtes an. (Schallgeschwindigkeit $v_s = 6000 \,\mathrm{\frac{m}{s}}$, Brechungsindex des Kristalls $n=1,54$)
+
+**Lösung Aufgabe 6:**
+
+Seien $\omega, k$ die Frequenzen und Wellenvektoren  der Photonen und $\Omega, K$ die der Phononen
+
+Energieerhaltungssatz: $\hbar \omega_0=\hbar \omega_1 + \hbar \Omega $
+
+Impulserhaltungssatz: $k_0=k_1+K$
+
+Für Rückstreuung gibt es den maximalen Impulsübertragung $k_1 = -k_0$  und damit $K = 2k_0$
+
+Mit dem Zusammenhang $k=\frac{2\pi}{\lambda_n}=n\frac{2\pi}{\lambda_\mathrm{vac}}$ 
+
+und der 
+Dispersionsrelation für akustische Phononen: $\Omega = v_s \cdot K =$  folgt:
+
+$$\begin{align*}
+\Omega&=v_s \cdot K\\
+&=v_s \cdot 2k_0\\
+&=v_s \cdot 2 \cdot n\frac{2\pi}{\lambda_\mathrm{vac}}\\
+&=6000 \,\mathrm{\frac{m}{s}} \cdot 2 \cdot 1,54 \cdot \frac{2\pi}{694\cdot 10^{-9} \mathrm{m}}\\
+&=1,67 \cdot 10^{11} \mathrm{\frac{1}{s}}
+\end{align*}$$
+
+Die Frequenzverschiebung $\Delta \omega=\omega_1-\omega_0$ folgt aus dem Energieerhaltungssatz:
+$$- \Omega= \omega_1 -  \omega_0 $$
+$$\begin{align*}-\frac{\Omega}{2\pi}&=f_1 -  f_0\\
+-\frac{1,67 \cdot 10^{11} \mathrm{\frac{1}{s}}}{2\pi}&=f_1 -  f_0\\
+2,66 \cdot 10^{10}\mathrm{\frac{1}{s}}&=\Delta f
+
+\end{align*} $$
+
+
+
+Mit der ursprünglichen Frequenz des Lasers $f_0 = \frac{c}{\lambda}=\frac{3\cdot 10^8 \mathrm{\frac{m}{s} }}{694\cdot 10^{-9} \mathrm{m}}= 4,32 \cdot  10^{14} \mathrm{Hz}$
+
+Die relative Frequenzabnahme beträgt damit:
+
+$$\frac{\Delta f}{f_0}  = \frac{2,66 \cdot 10^{10}\mathrm{\frac{1}{s}}}{4,32 \cdot  10^{14} \mathrm{\frac{1}{s}}}=6,15 \cdot 10^{-5}$$
+
 
 ## Aufgabe 7
 
