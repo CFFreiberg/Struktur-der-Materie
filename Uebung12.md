@@ -46,9 +46,12 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 |$\omega_D=\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot v_s^3 N}{V}}}=v_s\cdot K_D$|$\omega_0$, nur eine Frequenz| |
 |$D_{3d}(\omega)=\frac{V}{2\pi^2v_s^3} \omega^2$|$D(\omega)=N \delta(\omega-\omega_E)$|
 |$K_D=\sqrt[{3}]{6\cdot \pi^2\frac{N}{V}}=\frac{\omega_D}{v_s}$| | |
-|für $T \ll \Theta_D$ gilt $C_V^D=\frac{12 \pi^4}{5} N k_B (\frac{T}{\Theta})^3 \propto T^3$| $C_V^E=\begin{cases}   3Nk_B \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_B &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_B$
+|für $T \ll \Theta_D$ gilt $C_V^D=\frac{12 \pi^4}{5} N k_B (\frac{T}{\Theta})^3 \propto T^3$| $C_V^E=\begin{cases}   3Nk_B \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_B &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_B$|
 
-![molare Wärmekapazität](media/Molare Wärmekapazität.png)
+
+
+
+![molare Wärmekapazität](media/MolareWaermekapazitaet.png "Molare Wärmekapazität der Festkörper nach den Theorien von Einstein, Debye und Dulong-Petit Quelle: (Hering, E., Martin, R., Stohrer, M., Käß, H. (2016). Festkörperphysik. In: Physik für Ingenieure. Springer Vieweg, Berlin, Heidelberg.)[https://doi.org/10.1007/978-3-662-49355-7_9] ")
 
 ## Aufgabe 2 
 
