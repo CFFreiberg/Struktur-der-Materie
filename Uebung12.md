@@ -48,6 +48,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 |$K_D=\sqrt[{3}]{6\cdot \pi^2\frac{N}{V}}=\frac{\omega_D}{v_s}$| | |
 |für $T \ll \Theta_D$ gilt $C_V^D=\frac{12 \pi^4}{5} N k_B (\frac{T}{\Theta})^3 \propto T^3$| $C_V^E=\begin{cases}   3Nk_B \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_B &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_B$
 
+![molare Wärmekapazität](media/Molare Wärmekapazität.png)
 
 ## Aufgabe 2 
 
