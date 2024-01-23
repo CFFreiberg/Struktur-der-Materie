@@ -253,21 +253,29 @@ $$\frac{\Delta f}{f_0}  = \frac{2,66 \cdot 10^{10}\mathrm{\frac{1}{s}}}{4,32 \cd
                                       {{0}}
 >__7.__ Welche obere Grenzfrequenz haben Gitterschwingungen in NaCl (Debye-Temperatur $\Theta_\mathrm{D}=\mathrm{ 322 \,K}$)?
 
+                                      {{1}}
 **Lösung Aufgabe 7:**
+
+                                      {{2}}
 $$\Theta_\mathrm{D}=\mathrm{ 322 \,K}$$
 
-$$\Rightarrow \omega_m=\frac{k_\mathrm{B} \Theta_\mathrm{D}}{\hbar}=\frac{1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}} \cdot  \mathrm{ 322 \,K}}{1,0546 \cdot  10^{-34} \,\mathrm{Js}}=4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}$$
+                                      {{3}}
+$$\Rightarrow \omega_\mathrm{m}=\frac{k_\mathrm{B} \Theta_\mathrm{D}}{\hbar}=\frac{1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}} \cdot  \mathrm{ 322 \,K}}{1,0546 \cdot  10^{-34} \,\mathrm{Js}}=4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}$$
 
-$$\Rightarrow f_m=\frac{\omega_m}{2\pi}=\frac{4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}}{2\pi}=6,71 \cdot 10^{12}\mathrm{\frac{1}{s}}=6,71 \cdot 10^{12}\mathrm{Hz
+                                      {{4}}
+$$\Rightarrow f_\mathrm{m}=\frac{\omega_\mathrm{m}}{2\pi}=\frac{4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}}{2\pi}=6,71 \cdot 10^{12}\mathrm{\frac{1}{s}}=6,71 \cdot 10^{12}\mathrm{Hz
 }$$
 
 
 ## Aufgabe 8
 
+                                      {{0}}
 >__8.__ Wie groß ist die molare Wärmekapazität für Aluminium bei einer Temperatur von $T=50\, \mathrm{K}$ ($\Theta_\mathrm{D}=\mathrm{400 \,K}$)?
 
+                                      {{1}}
 **Lösung Aufgabe 8**
 
+                                      {{2}}
 $$\begin{align*}
 C_V&=\frac{12 \pi^4 }{5}Nk_\mathrm{B}\bigg(\frac{T}{\Theta_\mathrm{D}}\bigg)^3\\
 &=\mathrm{\frac{12 \pi^4 }{5}\cdot 6,02214\cdot 10^{23} \frac{1}{mol}\cdot 1,38 \cdot 10^{-23}\mathrm{\frac{J}{K}}\bigg(\frac{50\, K}{400\, K}\bigg)^3}\\
