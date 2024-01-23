@@ -40,10 +40,10 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 |Debye|Einstein|Dulong-Petit|
 |:---|:---|:---|
 |tiefe T| mittlere T| hohe T|
-|Schallgeschwindigkeit für jeden Polarisationstyp konstant|$N$ Oszillatoren der selben Frequenz|kinetische Energie $\frac{1}{2} k_B T$ pro Freiheitsgrad |
+|Schallgeschwindigkeit für jeden Polarisationstyp konstant|$N$ Oszillatoren der selben Frequenz. Die Gitterschwingungen des Kristalls werden gequantelt, d. h. der Festkörper kann Schwingungsenergie nur in diskreten Quanten $ \hbar \cdot \omega _{\mathrm {E} }$ aufnehmen|kinetische Energie $\frac{1}{2} k_B T$ pro Freiheitsgrad |
 |nur Schwingungszustände mit $K \le K_D$|  optische Phononen|plus nochmal gleiche potentielle Energie|
 |$T_D=\Theta _{{\mathrm {D}}}={\frac {\hbar \cdot \omega _{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}={\frac {\hbar \cdot v_{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}\cdot {\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot N}{V}}}}$| $\Theta_E=\frac{\hbar \omega_0 }{K_\mathrm{0}}$|
-|$\omega_D=\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot v_s^3 N}{V}}}=v_s\cdot K_D$|$\omega_0$, nur eine Frequenz| |
+|$\omega_D=\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot v_s^3 N}{V}}}=v_s\cdot K_D$|$\omega_E$, nur eine Frequenz| |
 |$D_{3d}(\omega)=\frac{V}{2\pi^2v_s^3} \omega^2$|$D(\omega)=N \delta(\omega-\omega_E)$|
 |$K_D=\sqrt[{3}]{6\cdot \pi^2\frac{N}{V}}=\frac{\omega_D}{v_s}$| | |
 |für $T \ll \Theta_D$ gilt $C_V^D=\frac{12 \pi^4}{5} N k_B (\frac{T}{\Theta})^3 \propto T^3$| $C_V^E=\begin{cases}   3Nk_B \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_B &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_B$|
