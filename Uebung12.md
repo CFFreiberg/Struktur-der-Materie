@@ -40,13 +40,13 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 |Debye|Einstein|Dulong-Petit|
 |:---|:---|:---|
 |tiefe T| mittlere T| hohe T|
-|Schallgeschwindigkeit für jeden Polarisationstyp konstant|$N$ Oszillatoren der selben Frequenz. Die Gitterschwingungen des Kristalls werden gequantelt, d. h. der Festkörper kann Schwingungsenergie nur in diskreten Quanten $ \hbar \cdot \omega _{\mathrm {E} }$ aufnehmen|kinetische Energie $\frac{1}{2} k_B T$ pro Freiheitsgrad |
+|Schallgeschwindigkeit für jeden Polarisationstyp konstant|$N$ Oszillatoren der selben Frequenz. Die Gitterschwingungen des Kristalls werden gequantelt, d. h. der Festkörper kann Schwingungsenergie nur in diskreten Quanten $ \hbar \cdot \omega _{\mathrm {E} }$ aufnehmen|kinetische Energie $\frac{1}{2} k_\mathrm{B} T$ pro Freiheitsgrad |
 |nur Schwingungszustände mit $K \le K_D$|  optische Phononen|plus nochmal gleiche potentielle Energie|
 |$T_D=\Theta _{{\mathrm {D}}}={\frac {\hbar \cdot \omega _{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}={\frac {\hbar \cdot v_{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}\cdot {\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot N}{V}}}}$| $\Theta_E=\frac{\hbar \omega_0 }{K_\mathrm{0}}$|
 |$\omega_D=\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot v_s^3 N}{V}}}=v_s\cdot K_D$|$\omega_E$, nur eine Frequenz| |
 |$D_{3d}(\omega)=\frac{V}{2\pi^2v_s^3} \omega^2$|$D(\omega)=N \delta(\omega-\omega_E)$|
 |$K_D=\sqrt[{3}]{6\cdot \pi^2\frac{N}{V}}=\frac{\omega_D}{v_s}$| | |
-|für $T \ll \Theta_D$ gilt $C_V^D=\frac{12 \pi^4}{5} N k_B (\frac{T}{\Theta})^3 \propto T^3$| $C_V^E=\begin{cases}   3Nk_B \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_B &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_B$|
+|für $T \ll \Theta_D$ gilt $C_V^D=\frac{12 \pi^4}{5} N k_\mathrm{B} (\frac{T}{\Theta})^3 \propto T^3$| $C_V^E=\begin{cases}   3Nk_\mathrm{B} \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_\mathrm{B} &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_\mathrm{B}$|
 
 
 
@@ -78,7 +78,7 @@ Und der Impulserhaltungssatz:
 $$K_1+K_2=K_3+G$$
 Bei $G=0$ liegt ein Normalprozeß vor, bei $G\ne 0$ ein Umklappprozeß. 
 
-Für Umklapp-Prozesse müssen $K_1$ und $K_2$  $\ge \frac{1}{2}G$ bzw. $E_1$ und $E_2$ $\ge \frac{1}{2}k_B \Theta$ sein, da jeder Phononenwellenvektor in der Größenordnung von $ \frac{1}{2}G$ sein muss.
+Für Umklapp-Prozesse müssen $K_1$ und $K_2$  $\ge \frac{1}{2}G$ bzw. $E_1$ und $E_2$ $\ge \frac{1}{2}k_\mathrm{B} \Theta$ sein, da jeder Phononenwellenvektor in der Größenordnung von $ \frac{1}{2}G$ sein muss.
 
 
 ## Aufgabe 3
@@ -111,15 +111,15 @@ Für Umklapp-Prozesse müssen $K_1$ und $K_2$  $\ge \frac{1}{2}G$ bzw. $E_1$ und
 
 Bose-Einstein Verteilungsfunktion für Bosonen (ganzzahliger Spin, Zustände mehrfach besetzbar) z.B. Phononen:
 
-$$f(E)=\frac{1}{e^{\frac{E-E_F}{k_B T}  }-1}$$
+$$f(E)=\frac{1}{e^{\frac{E-E_F}{k_\mathrm{B} T}  }-1}$$
 
 Fermi- Dirac Verteilungsfunktion für Fermionen (halbzahliger SpinZustände nur einfach besetzbar), z.B. Elektronen
 
-$$f(E)=\frac{1}{e^{\frac{E-E_F}{k_B T}}  +1}   $$
+$$f(E)=\frac{1}{e^{\frac{E-E_F}{k_\mathrm{B} T}}  +1}   $$
 
 Maxwell-Boltzman Verteilungsfunktion
 
-$$f(E)=\frac{1}{e^{\frac{E-E_F}{k_B T}} }= e^{-\frac{E-E_F}{k_B T}}  $$
+$$f(E)=\frac{1}{e^{\frac{E-E_F}{k_\mathrm{B} T}} }= e^{-\frac{E-E_F}{k_\mathrm{B} T}}  $$
 
 
 [Abbildung](https://demonstrations.wolfram.com/BoseEinsteinFermiDiracAndMaxwellBoltzmannStatistics/)
@@ -136,20 +136,20 @@ $$f(E)=\frac{1}{e^{\frac{E-E_F}{k_B T}} }= e^{-\frac{E-E_F}{k_B T}}  $$
 Zahl der Phononen im Bereich $\omega_1$ bis $\omega_2$ im 3D:
 
 $$ \begin{align*}
-\Delta N&=3\int_{\omega_1}^{\omega_2} D(\omega)\cdot \frac{1}{e^\frac{\hbar \omega}{k_B T}-1} d\omega\\
-&=3\int_{\omega_1}^{\omega_2} \frac{l^3 \omega^2}{2\pi^2 v_s^3}\cdot \frac{1}{e^\frac{\hbar \omega}{k_B T}-1} d\omega\\
+\Delta N&=3\int_{\omega_1}^{\omega_2} D(\omega)\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} d\omega\\
+&=3\int_{\omega_1}^{\omega_2} \frac{l^3 \omega^2}{2\pi^2 v_s^3}\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} d\omega\\
 \end{align*}$$
 
 
-mit $\omega = 2\pi f$ und $x =\frac{hf}{k_B T}$ folgt
+mit $\omega = 2\pi f$ und $x =\frac{hf}{k_\mathrm{B} T}$ folgt
 
 $$ \begin{align*}
-\Delta N&=3\int_{f_1}^{f_2} \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{e^\frac{\hbar 2\pi f}{k_B T}-1} d(2\pi f)\\
+\Delta N&=3\int_{f_1}^{f_2} \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{e^\frac{\hbar 2\pi f}{k_\mathrm{B} T}-1} d(2\pi f)\\
 &=3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{e^x-1} d f\\
-&\overbrace{\approxeq}^{hf \ll k_BT} 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{1+x-1} d f\\
-&= 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{\frac{hf}{k_B T}} d f\\
-&=\frac{12\pi l^3 k_B T}{v_s^3 h}\int_{f_1}^{f_2}fdf\\
-&=\frac{12\pi l^3 k_B T}{v_s^3 h}\bigg(\frac{f_2^2-f_1^2}{2}\bigg)\\
+&\overbrace{\approxeq}^{hf \ll k_\mathrm{B}T} 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{1+x-1} d f\\
+&= 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{\frac{hf}{k_\mathrm{B} T}} d f\\
+&=\frac{12\pi l^3 k_\mathrm{B} T}{v_s^3 h}\int_{f_1}^{f_2}fdf\\
+&=\frac{12\pi l^3 k_\mathrm{B} T}{v_s^3 h}\bigg(\frac{f_2^2-f_1^2}{2}\bigg)\\
 \end{align*}$$
 
 
@@ -162,7 +162,7 @@ Mit
 - $T = 300 \, \mathrm{K}$,
 - $l^3 = 1\, \mathrm{cm^3}$
 - $h = 6,63 \cdot  10^{-34} \,\mathrm{Js}$, und 
-- $k_B = 1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}}$ folgt:
+- $k_\mathrm{B} = 1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}}$ folgt:
 
 $$ \Delta N = 4,4 \cdot  10^8$$
 
@@ -228,7 +228,7 @@ $$\frac{\Delta f}{f_0}  = \frac{2,66 \cdot 10^{10}\mathrm{\frac{1}{s}}}{4,32 \cd
 **Lösung Aufgabe 7:**
 $$\Theta_D=\mathrm{ 322 \,K}$$
 
-$$\Rightarrow \omega_m=\frac{k_B \Theta_D}{\hbar}=\frac{1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}} \cdot  \mathrm{ 322 \,K}}{1,0546 \cdot  10^{-34} \,\mathrm{Js}}=4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}$$
+$$\Rightarrow \omega_m=\frac{k_\mathrm{B} \Theta_D}{\hbar}=\frac{1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}} \cdot  \mathrm{ 322 \,K}}{1,0546 \cdot  10^{-34} \,\mathrm{Js}}=4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}$$
 
 $$\Rightarrow f_m=\frac{\omega_m}{2\pi}=\frac{4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}}{2\pi}=6,71 \cdot 10^{12}\mathrm{\frac{1}{s}}=6,71 \cdot 10^{12}\mathrm{Hz
 }$$
@@ -241,7 +241,7 @@ $$\Rightarrow f_m=\frac{\omega_m}{2\pi}=\frac{4,21 \cdot 10^{13}\mathrm{\frac{1}
 **Lösung Aufgabe 8**
 
 $$\begin{align*}
-C_V&=\frac{12 \pi^4 }{5}Nk_B\bigg(\frac{T}{\Theta_D}\bigg)^3\\
+C_V&=\frac{12 \pi^4 }{5}Nk_\mathrm{B}\bigg(\frac{T}{\Theta_D}\bigg)^3\\
 &=\mathrm{\frac{12 \pi^4 }{5}\cdot 6,02214\cdot 10^{23} \frac{1}{mol}\cdot 1,38 \cdot 10^{-23}\mathrm{\frac{J}{K}}\bigg(\frac{50\, K}{400\, K}\bigg)^3}\\
 &=\mathrm{3,79 \frac{J}{mol\cdot K} }
 \end{align*}$$
