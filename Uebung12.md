@@ -41,12 +41,12 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 |:---|:---|:---|
 |tiefe T| mittlere T| hohe T|
 |Schallgeschwindigkeit für jeden Polarisationstyp konstant|$N$ Oszillatoren der selben Frequenz. Die Gitterschwingungen des Kristalls werden gequantelt, d. h. der Festkörper kann Schwingungsenergie nur in diskreten Quanten $ \hbar \cdot \omega _{\mathrm {E} }$ aufnehmen|kinetische Energie $\frac{1}{2} k_\mathrm{B} T$ pro Freiheitsgrad |
-|nur Schwingungszustände mit $K \le K_D$|  optische Phononen|plus nochmal gleiche potentielle Energie|
-|$T_D=\Theta _{{\mathrm {D}}}={\frac {\hbar \cdot \omega _{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}={\frac {\hbar \cdot v_{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}\cdot {\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot N}{V}}}}$| $\Theta_E=\frac{\hbar \omega_0 }{K_\mathrm{0}}$|
-|$\omega_D=\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot v_s^3 N}{V}}}=v_s\cdot K_D$|$\omega_E$, nur eine Frequenz| |
-|$D_{3d}(\omega)=\frac{V}{2\pi^2v_s^3} \omega^2$|$D(\omega)=N \delta(\omega-\omega_E)$|
-|$K_D=\sqrt[{3}]{6\cdot \pi^2\frac{N}{V}}=\frac{\omega_D}{v_s}$| | |
-|für $T \ll \Theta_D$ gilt $C_V^D=\frac{12 \pi^4}{5} N k_\mathrm{B} (\frac{T}{\Theta})^3 \propto T^3$| $C_V^E=\begin{cases}   3Nk_\mathrm{B} \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_\mathrm{B} &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_\mathrm{B}$|
+|nur Schwingungszustände mit $K \le K_\mathrm{D}$|  optische Phononen|plus nochmal gleiche potentielle Energie|
+|$T_\mathrm{D}=\Theta _{{\mathrm {D}}}={\frac {\hbar \cdot \omega _{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}={\frac {\hbar \cdot v_{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}\cdot {\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot N}{V}}}}$| $\Theta_E=\frac{\hbar \omega_0 }{K_\mathrm{0}}$|
+|$\omega_\mathrm{D}=\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot v_\mathrm{s}^3 N}{V}}}=v_\mathrm{s}\cdot K_\mathrm{D}$|$\omega_E$, nur eine Frequenz| |
+|$D_{3d}(\omega)=\frac{V}{2\pi^2v_\mathrm{s}^3} \omega^2$|$D(\omega)=N \delta(\omega-\omega_E)$|
+|$K_\mathrm{D}=\sqrt[{3}]{6\cdot \pi^2\frac{N}{V}}=\frac{\omega_\mathrm{D}}{v_\mathrm{s}}$| | |
+|für $T \ll \Theta_\mathrm{D}$ gilt $C_V^D=\frac{12 \pi^4}{5} N k_\mathrm{B} (\frac{T}{\Theta})^3 \propto T^3$| $C_V^E=\begin{cases}   3Nk_\mathrm{B} \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_\mathrm{B} &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_\mathrm{B}$|
 
 
 
@@ -121,6 +121,8 @@ Maxwell-Boltzman Verteilungsfunktion
 
 $$f(E)=\frac{1}{e^{\frac{E-E_F}{k_\mathrm{B} T}} }= e^{-\frac{E-E_F}{k_\mathrm{B} T}}  $$
 
+![Bose-Einstein-, Fermi-Dirac- und Maxwell-Boltzmann-Verteilungen in Abh ¨angigkeit von
+der Energie.](media/Fermi-Dirac-Bose-Einstein-Maxwell.png )
 
 [Abbildung](https://demonstrations.wolfram.com/BoseEinsteinFermiDiracAndMaxwellBoltzmannStatistics/)
 
@@ -137,19 +139,19 @@ Zahl der Phononen im Bereich $\omega_1$ bis $\omega_2$ im 3D:
 
 $$ \begin{align*}
 \Delta N&=3\int_{\omega_1}^{\omega_2} D(\omega)\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} d\omega\\
-&=3\int_{\omega_1}^{\omega_2} \frac{l^3 \omega^2}{2\pi^2 v_s^3}\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} d\omega\\
+&=3\int_{\omega_1}^{\omega_2} \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} d\omega\\
 \end{align*}$$
 
 
 mit $\omega = 2\pi f$ und $x =\frac{hf}{k_\mathrm{B} T}$ folgt
 
 $$ \begin{align*}
-\Delta N&=3\int_{f_1}^{f_2} \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{e^\frac{\hbar 2\pi f}{k_\mathrm{B} T}-1} d(2\pi f)\\
-&=3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{e^x-1} d f\\
-&\overbrace{\approxeq}^{hf \ll k_\mathrm{B}T} 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{1+x-1} d f\\
-&= 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_s^3}\cdot \frac{1}{\frac{hf}{k_\mathrm{B} T}} d f\\
-&=\frac{12\pi l^3 k_\mathrm{B} T}{v_s^3 h}\int_{f_1}^{f_2}fdf\\
-&=\frac{12\pi l^3 k_\mathrm{B} T}{v_s^3 h}\bigg(\frac{f_2^2-f_1^2}{2}\bigg)\\
+\Delta N&=3\int_{f_1}^{f_2} \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^\frac{\hbar 2\pi f}{k_\mathrm{B} T}-1} d(2\pi f)\\
+&=3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^x-1} d f\\
+&\overbrace{\approxeq}^{hf \ll k_\mathrm{B}T} 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{1+x-1} d f\\
+&= 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{\frac{hf}{k_\mathrm{B} T}} d f\\
+&=\frac{12\pi l^3 k_\mathrm{B} T}{v_\mathrm{s}^3 h}\int_{f_1}^{f_2}fdf\\
+&=\frac{12\pi l^3 k_\mathrm{B} T}{v_\mathrm{s}^3 h}\bigg(\frac{f_2^2-f_1^2}{2}\bigg)\\
 \end{align*}$$
 
 
@@ -158,7 +160,7 @@ $$ \begin{align*}
 Mit 
 - $f_1 = 4,0 \cdot 10^6\, \frac{1}{s}$ , 
 - $f_2 = 4,1 \cdot 10^6\, \frac{1}{s}$,
-- $v_s = 6000 \, \mathrm{\frac{m}{s}}$,
+- $v_\mathrm{s} = 6000 \, \mathrm{\frac{m}{s}}$,
 - $T = 300 \, \mathrm{K}$,
 - $l^3 = 1\, \mathrm{cm^3}$
 - $h = 6,63 \cdot  10^{-34} \,\mathrm{Js}$, und 
@@ -170,7 +172,7 @@ $$ \Delta N = 4,4 \cdot  10^8$$
 Die Zahl der verschiedenen Schwingungen (Energie-Eigenwerte)
 im gleichen Frequenzbereich ist dabei:
 
-$$D(\omega)d(\omega)=3 \frac{l^3 \omega^2}{2\pi^2 v_s^3}\cdot \Delta \omega \approxeq 279$$
+$$D(\omega)d(\omega)=3 \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \Delta \omega \approxeq 279$$
 
  
 
@@ -178,7 +180,7 @@ $$D(\omega)d(\omega)=3 \frac{l^3 \omega^2}{2\pi^2 v_s^3}\cdot \Delta \omega \app
 ## Aufgabe 6 
 
                                       {{0}}
-> __6.__ Ein Laserstrahl  der Wellenlänge $\lambda=694\, \mathrm{nm}$ durchläuft einen Quarzkristall. Dabei findet eine inelastische Wechselwirkung zwischen Photonen und akustischen Phononen ohne Gitter-Rückstoß statt (Brillouin-Streunung). Berechnen Sie die maximale Frequenz der hierdurch ausgelösten mechanischen Schwingungen und geben Sie die Frequenzverschiebung des gestreuten Lichtes an. (Schallgeschwindigkeit $v_s = 6000 \,\mathrm{\frac{m}{s}}$, Brechungsindex des Kristalls $n=1,54$)
+> __6.__ Ein Laserstrahl  der Wellenlänge $\lambda=694\, \mathrm{nm}$ durchläuft einen Quarzkristall. Dabei findet eine inelastische Wechselwirkung zwischen Photonen und akustischen Phononen ohne Gitter-Rückstoß statt (Brillouin-Streunung). Berechnen Sie die maximale Frequenz der hierdurch ausgelösten mechanischen Schwingungen und geben Sie die Frequenzverschiebung des gestreuten Lichtes an. (Schallgeschwindigkeit $v_\mathrm{s} = 6000 \,\mathrm{\frac{m}{s}}$, Brechungsindex des Kristalls $n=1,54$)
 
 **Lösung Aufgabe 6:**
 
@@ -193,12 +195,12 @@ Für Rückstreuung gibt es den maximalen Impulsübertragung $k_1 = -k_0$  und da
 Mit dem Zusammenhang $k=\frac{2\pi}{\lambda_n}=n\frac{2\pi}{\lambda_\mathrm{vac}}$ 
 
 und der 
-Dispersionsrelation für akustische Phononen: $\Omega = v_s \cdot K =$  folgt:
+Dispersionsrelation für akustische Phononen: $\Omega = v_\mathrm{s} \cdot K =$  folgt:
 
 $$\begin{align*}
-\Omega&=v_s \cdot K\\
-&=v_s \cdot 2k_0\\
-&=v_s \cdot 2 \cdot n\frac{2\pi}{\lambda_\mathrm{vac}}\\
+\Omega&=v_\mathrm{s} \cdot K\\
+&=v_\mathrm{s} \cdot 2k_0\\
+&=v_\mathrm{s} \cdot 2 \cdot n\frac{2\pi}{\lambda_\mathrm{vac}}\\
 &=6000 \,\mathrm{\frac{m}{s}} \cdot 2 \cdot 1,54 \cdot \frac{2\pi}{694\cdot 10^{-9} \mathrm{m}}\\
 &=1,67 \cdot 10^{11} \mathrm{\frac{1}{s}}
 \end{align*}$$
@@ -223,12 +225,12 @@ $$\frac{\Delta f}{f_0}  = \frac{2,66 \cdot 10^{10}\mathrm{\frac{1}{s}}}{4,32 \cd
 ## Aufgabe 7
 
                                       {{0}}
->__7.__ Welche obere Grenzfrequenz haben Gitterschwingungen in NaCl (Debye-Temperatur $\Theta_D=\mathrm{ 322 \,K}$)?
+>__7.__ Welche obere Grenzfrequenz haben Gitterschwingungen in NaCl (Debye-Temperatur $\Theta_\mathrm{D}=\mathrm{ 322 \,K}$)?
 
 **Lösung Aufgabe 7:**
-$$\Theta_D=\mathrm{ 322 \,K}$$
+$$\Theta_\mathrm{D}=\mathrm{ 322 \,K}$$
 
-$$\Rightarrow \omega_m=\frac{k_\mathrm{B} \Theta_D}{\hbar}=\frac{1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}} \cdot  \mathrm{ 322 \,K}}{1,0546 \cdot  10^{-34} \,\mathrm{Js}}=4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}$$
+$$\Rightarrow \omega_m=\frac{k_\mathrm{B} \Theta_\mathrm{D}}{\hbar}=\frac{1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}} \cdot  \mathrm{ 322 \,K}}{1,0546 \cdot  10^{-34} \,\mathrm{Js}}=4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}$$
 
 $$\Rightarrow f_m=\frac{\omega_m}{2\pi}=\frac{4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}}{2\pi}=6,71 \cdot 10^{12}\mathrm{\frac{1}{s}}=6,71 \cdot 10^{12}\mathrm{Hz
 }$$
@@ -236,12 +238,12 @@ $$\Rightarrow f_m=\frac{\omega_m}{2\pi}=\frac{4,21 \cdot 10^{13}\mathrm{\frac{1}
 
 ## Aufgabe 8
 
->__8.__ Wie groß ist die molare Wärmekapazität für Aluminium bei einer Temperatur von $T=50\, \mathrm{K}$ ($\Theta_D=\mathrm{400 \,K}$)?
+>__8.__ Wie groß ist die molare Wärmekapazität für Aluminium bei einer Temperatur von $T=50\, \mathrm{K}$ ($\Theta_\mathrm{D}=\mathrm{400 \,K}$)?
 
 **Lösung Aufgabe 8**
 
 $$\begin{align*}
-C_V&=\frac{12 \pi^4 }{5}Nk_\mathrm{B}\bigg(\frac{T}{\Theta_D}\bigg)^3\\
+C_V&=\frac{12 \pi^4 }{5}Nk_\mathrm{B}\bigg(\frac{T}{\Theta_\mathrm{D}}\bigg)^3\\
 &=\mathrm{\frac{12 \pi^4 }{5}\cdot 6,02214\cdot 10^{23} \frac{1}{mol}\cdot 1,38 \cdot 10^{-23}\mathrm{\frac{J}{K}}\bigg(\frac{50\, K}{400\, K}\bigg)^3}\\
 &=\mathrm{3,79 \frac{J}{mol\cdot K} }
 \end{align*}$$
