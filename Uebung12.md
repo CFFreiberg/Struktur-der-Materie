@@ -121,11 +121,11 @@ Maxwell-Boltzman Verteilungsfunktion
 
 $$f(E)=\frac{1}{e^{\frac{E-E_F}{k_\mathrm{B} T}} }= e^{-\frac{E-E_F}{k_\mathrm{B} T}}  $$
 
-![Bose-Einstein-, Fermi-Dirac- und Maxwell-Boltzmann-Verteilungen in Abh ¨angigkeit von
-der Energie.](media/Fermi-Dirac-Bose-Einstein-Maxwell.png)
 
 
-[Abbildung](https://demonstrations.wolfram.com/BoseEinsteinFermiDiracAndMaxwellBoltzmannStatistics/)
+![Bild der Bose-Einstein Verteilung, der Fermi-dirac-Verteilung und der Maxwell-BoilzmannVerteilung ](media/Fermi-Dirac-Bose-Einstein-Maxwell.png "*Bose-Einstein-, Fermi-Dirac- und Maxwell-Boltzmann-Verteilungen in Abhängigkeit von der Energie. Für die Bose-Einstein-Verteilung wurde μ = 0, f ür die Fermi-Dirac-Verteilung μ = 5kBT gewählt. Für die Maxwell-Boltzmann-Verteilungen wurde ebenfalls μ = 0 und 5kBT gewählt, so dass die klassische Verteilung mit der quantenmechanischen Verteilung für große Werte von ε/kBT zusammenfallen; Quelle: [Rudolf Gross, Physik IV Atome, Moleküle, Wärmestatistik, Walther-Meissner-Institut](https://www.wmi.badw.de/fileadmin/WMI/Lecturenotes/Physics_4/Physik4_Kapitel13.pdf)*")
+
+oder zum Ausprobieren eine [Online-Mathematica-Demonstration](https://demonstrations.wolfram.com/BoseEinsteinFermiDiracAndMaxwellBoltzmannStatistics/)
 
 
 ## Aufgabe 5 
