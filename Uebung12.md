@@ -141,7 +141,7 @@ oder zum Ausprobieren eine [Online-Mathematica-Demonstration](https://demonstrat
 ## Aufgabe 5 
 
                                       {{0}}
-> __5.__ Wie viele Gitterschwingungen $\Delta N$ gibt es nach der Bose-Einstein-Verteilung bei $T=300\,\mathrm{K}$ in einem Kristall mit einem Volumen von $\mathrm{1\, cm^3}$ im Frequenzbereich zwischen $4,0$ und $4,1\,\mathrm{MHz}$ (Schallgeschwindigkeit = $6000\,\mathrm{\frac{m}{s}}$)?
+> __5.__ Wie viele Gitterschwingungen $\Delta N$ gibt es nach der Bose-Einstein-Verteilung bei $T=300\,\mathrm{K}$ in einem Kristall mit einem Volumen von $\mathrm{1\, cm^3}$ im Frequenzbereich zwischen $4,0$ und $4,1\,\mathrm{MHz}$ (Schallgeschwindigkeit  $v_\mathrm{s}=6000\,\mathrm{\frac{m}{s}}$)?
 
                                       {{1}}
 **Lösung Aufgabe 5:**
