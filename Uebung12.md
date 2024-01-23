@@ -46,11 +46,11 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 |$\omega_\mathrm{D}=\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot v_\mathrm{s}^3 N}{V}}}=v_\mathrm{s}\cdot K_\mathrm{D}$|$\omega_E$, nur eine Frequenz| |
 |$D_{3d}(\omega)=\frac{V}{2\pi^2v_\mathrm{s}^3} \omega^2$|$D(\omega)=N \delta(\omega-\omega_E)$|
 |$K_\mathrm{D}=\sqrt[{3}]{6\cdot \pi^2\frac{N}{V}}=\frac{\omega_\mathrm{D}}{v_\mathrm{s}}$| | |
-|für $T \ll \Theta_\mathrm{D}$ gilt $C_V^D=\frac{12 \pi^4}{5} N k_\mathrm{B} (\frac{T}{\Theta})^3 \propto T^3$| $C_V^E=\begin{cases}   3Nk_\mathrm{B} \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_\mathrm{B} &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_\mathrm{B}$|
+|für $T \ll \Theta_\mathrm{D}$ gilt $C_V^\mathrm{D}=\frac{12 \pi^4}{5} N k_\mathrm{B} (\frac{T}{\Theta})^3 \propto T^3$| $C_V^\mathrm{E}=\begin{cases}   3Nk_\mathrm{B} \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_\mathrm{B} &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_\mathrm{B}$|
 
 
 
-
+                                      {{3}}
 ![molare Wärmekapazität](media/MolareWaermekapazitaet.png "*Molare Wärmekapazität der Festkörper nach den Theorien von Einstein, Debye und Dulong-Petit Quelle: Hering, E., Martin, R., Stohrer, M., Käß, H. (2016). [Festkörperphysik In: Physik für Ingenieure](https://link.springer.com/chapter/10.1007/978-3-662-49355-7_9). Springer Vieweg, Berlin, Heidelberg.* ")
 
 
@@ -65,8 +65,10 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
                                       {{2}}
 Die Umklapp-Streuung (auch U-Prozess oder Umklapp-Prozess) ist ein Streuprozess, der zu einem Wellenvektor $K$ führt, der außerhalb der ersten Brillouin-Zone liegt. Der Wellenvektor wird durch einen reziproken Gittervektor $G$ in die erste Brillouin-Zone transformiert. Diese Transformation ermöglicht Streuprozesse, die andernfalls gegen den Impulserhaltungssatz verstoßen würden: Zwei nach rechts gerichtete Wellenvektoren können sich zu einem nach links gerichteten Wellenvektor verbinden. Diese Nichterhaltung ist der Grund, warum der Kristallimpuls kein echter Impuls ist.
 
+                                      {{3}}
 ![Bild von  Normal- und Umklappprozess ](https://upload.wikimedia.org/wikipedia/commons/e/ef/Phonon_nu_process.svg "*Normal process (N-process) and Umklapp process (U-process). While the N-process conserves total phonon momentum, the U-process changes phonon momentum; Quelle: [Wikipedia Daniel Schwen](https://en.wikipedia.org/wiki/Umklapp_scattering) , [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/&gt)*")
 
+                                      {{4}}
 Es gilt der Energieerhaltungssatz:
 $$\begin{align*}
 E_1+E_2&=E_3\\
@@ -74,11 +76,13 @@ E_1+E_2&=E_3\\
 \omega_1+\omega_2&=\omega_3
 \end{align*}$$
 
+                                      {{5}}
 Und der Impulserhaltungssatz:
 $$K_1+K_2=K_3+G$$
 Bei $G=0$ liegt ein Normalprozeß vor, bei $G\ne 0$ ein Umklappprozeß. 
 
-Für Umklapp-Prozesse müssen $K_1$ und $K_2$  $\ge \frac{1}{2}G$ bzw. $E_1$ und $E_2$ $\ge \frac{1}{2}k_\mathrm{B} \Theta$ sein, da jeder Phononenwellenvektor in der Größenordnung von $ \frac{1}{2}G$ sein muss.
+                                      {{6}}
+Für Umklapp-Prozesse müssen $K_1$ und $K_2$  $\ge \frac{1}{2}G$ bzw. $E_1$ und $E_2$ $\ge \frac{1}{2}k_\mathrm{B} \Theta_\mathrm{D}$ sein, da jeder Phononenwellenvektor in der Größenordnung von $ \frac{1}{2}G$ sein muss.
 
 
 ## Aufgabe 3
@@ -97,7 +101,7 @@ Für Umklapp-Prozesse müssen $K_1$ und $K_2$  $\ge \frac{1}{2}G$ bzw. $E_1$ und
 - Streuung an Isotopen bzw. Isotopenverteilung
 - Streuung an Gitterfehlern
 - Streuung an Kristallgrenzen
-- Streuung an chemischer Ferunreinigung (Fremdatomen)
+
 
 ## Aufgabe 4 
                                       {{0}}
@@ -111,20 +115,26 @@ Für Umklapp-Prozesse müssen $K_1$ und $K_2$  $\ge \frac{1}{2}G$ bzw. $E_1$ und
 
 Bose-Einstein Verteilungsfunktion für Bosonen (ganzzahliger Spin, Zustände mehrfach besetzbar) z.B. Phononen:
 
-$$f(E)=\frac{1}{e^{\frac{E-E_F}{k_\mathrm{B} T}  }-1}$$
+                                      {{3}}
+$$f(E)=\frac{1}{e^{\frac{E-E_\mathrm{F}}{k_\mathrm{B} T}  }-1}$$
 
+                                      {{4}}
 Fermi- Dirac Verteilungsfunktion für Fermionen (halbzahliger SpinZustände nur einfach besetzbar), z.B. Elektronen
 
-$$f(E)=\frac{1}{e^{\frac{E-E_F}{k_\mathrm{B} T}}  +1}   $$
+                                      {{5}}
+$$f(E)=\frac{1}{e^{\frac{E-E_\mathrm{F}}{k_\mathrm{B} T}}  +1}   $$
 
+                                      {{6}}
 Maxwell-Boltzman Verteilungsfunktion
 
-$$f(E)=\frac{1}{e^{\frac{E-E_F}{k_\mathrm{B} T}} }= e^{-\frac{E-E_F}{k_\mathrm{B} T}}  $$
+                                      {{7}}
+$$f(E)=\frac{1}{e^{\frac{E-E_\mathrm{F}}{k_\mathrm{B} T}} }= e^{-\frac{E-E_\mathrm{F}}{k_\mathrm{B} T}}  $$
 
 
-
+                                      {{8}}
 ![Bild der Bose-Einstein Verteilung, der Fermi-dirac-Verteilung und der Maxwell-BoilzmannVerteilung ](media/Fermi-Dirac-Bose-Einstein-Maxwell.png "*Bose-Einstein-, Fermi-Dirac- und Maxwell-Boltzmann-Verteilungen in Abhängigkeit von der Energie. Für die Bose-Einstein-Verteilung wurde $\mu = 0$, für die Fermi-Dirac-Verteilung $\mu = 5 k_\mathrm{B}T $ gewählt. Für die Maxwell-Boltzmann-Verteilungen wurde ebenfalls $\mu = 0$ und  $\mu = 5 k_\mathrm{B}T $ gewählt, so dass die klassische Verteilung mit der quantenmechanischen Verteilung für große Werte von $\varepsilon /k_\mathrm{B}T$ zusammenfallen; Quelle: [Rudolf Gross, Physik IV Atome, Moleküle, Wärmestatistik, Walther-Meissner-Institut](https://www.wmi.badw.de/fileadmin/WMI/Lecturenotes/Physics_4/Physik4_Kapitel13.pdf)*")
 
+                                      {{8}}
 oder zum Ausprobieren eine [Online-Mathematica-Demonstration](https://demonstrations.wolfram.com/BoseEinsteinFermiDiracAndMaxwellBoltzmannStatistics/)
 
 
@@ -136,16 +146,19 @@ oder zum Ausprobieren eine [Online-Mathematica-Demonstration](https://demonstrat
                                       {{1}}
 **Lösung Aufgabe 5:**
 
+                                      {{2}}
 Zahl der Phononen im Bereich $\omega_1$ bis $\omega_2$ im 3D:
 
+                                      {{3}}
 $$ \begin{align*}
 \Delta N&=3\int_{\omega_1}^{\omega_2} D(\omega)\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} d\omega\\
 &=3\int_{\omega_1}^{\omega_2} \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} d\omega\\
 \end{align*}$$
 
-
+                                      {{4}}
 mit $\omega = 2\pi f$ und $x =\frac{hf}{k_\mathrm{B} T}$ folgt
 
+                                      {{5}}
 $$ \begin{align*}
 \Delta N&=3\int_{f_1}^{f_2} \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^\frac{\hbar 2\pi f}{k_\mathrm{B} T}-1} d(2\pi f)\\
 &=3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^x-1} d f\\
@@ -155,24 +168,27 @@ $$ \begin{align*}
 &=\frac{12\pi l^3 k_\mathrm{B} T}{v_\mathrm{s}^3 h}\bigg(\frac{f_2^2-f_1^2}{2}\bigg)\\
 \end{align*}$$
 
-
-
-
+                                      {{6}}
 Mit 
+
+                                      {{6}}
 - $f_1 = 4,0 \cdot 10^6\, \frac{1}{s}$ , 
 - $f_2 = 4,1 \cdot 10^6\, \frac{1}{s}$,
 - $v_\mathrm{s} = 6000 \, \mathrm{\frac{m}{s}}$,
 - $T = 300 \, \mathrm{K}$,
 - $l^3 = 1\, \mathrm{cm^3}$
 - $h = 6,63 \cdot  10^{-34} \,\mathrm{Js}$, und 
-- $k_\mathrm{B} = 1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}}$ folgt:
+- $k_\mathrm{B} = 1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}}$ 
 
+                                      {{7}}
+folgt:
+
+                                      {{7}}
 $$ \Delta N = 4,4 \cdot  10^8$$
 
-
+                                      {{8}}
 Die Zahl der verschiedenen Schwingungen (Energie-Eigenwerte)
 im gleichen Frequenzbereich ist dabei:
-
 $$D(\omega)d(\omega)=3 \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \Delta \omega \approxeq 279$$
 
  
@@ -183,21 +199,28 @@ $$D(\omega)d(\omega)=3 \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \Delta \o
                                       {{0}}
 > __6.__ Ein Laserstrahl  der Wellenlänge $\lambda=694\, \mathrm{nm}$ durchläuft einen Quarzkristall. Dabei findet eine inelastische Wechselwirkung zwischen Photonen und akustischen Phononen ohne Gitter-Rückstoß statt (Brillouin-Streunung). Berechnen Sie die maximale Frequenz der hierdurch ausgelösten mechanischen Schwingungen und geben Sie die Frequenzverschiebung des gestreuten Lichtes an. (Schallgeschwindigkeit $v_\mathrm{s} = 6000 \,\mathrm{\frac{m}{s}}$, Brechungsindex des Kristalls $n=1,54$)
 
+                                      {{1}}
 **Lösung Aufgabe 6:**
 
+                                      {{2}}
 Seien $\omega, k$ die Frequenzen und Wellenvektoren  der Photonen und $\Omega, K$ die der Phononen
 
+                                      {{3}}
 Energieerhaltungssatz: $\hbar \omega_0=\hbar \omega_1 + \hbar \Omega $
 
+                                      {{4}}
 Impulserhaltungssatz: $k_0=k_1+K$
 
+                                      {{5}}
 Für Rückstreuung gibt es den maximalen Impulsübertragung $k_1 = -k_0$  und damit $K = 2k_0$
 
+                                      {{6}}
 Mit dem Zusammenhang $k=\frac{2\pi}{\lambda_n}=n\frac{2\pi}{\lambda_\mathrm{vac}}$ 
 
-und der 
-Dispersionsrelation für akustische Phononen: $\Omega = v_\mathrm{s} \cdot K =$  folgt:
+                                      {{7}}
+und der Dispersionsrelation für akustische Phononen: $\Omega = v_\mathrm{s} \cdot K =$  folgt:
 
+                                      {{8}}
 $$\begin{align*}
 \Omega&=v_\mathrm{s} \cdot K\\
 &=v_\mathrm{s} \cdot 2k_0\\
@@ -206,20 +229,22 @@ $$\begin{align*}
 &=1,67 \cdot 10^{11} \mathrm{\frac{1}{s}}
 \end{align*}$$
 
+                                      {{9}}
 Die Frequenzverschiebung $\Delta \omega=\omega_1-\omega_0$ folgt aus dem Energieerhaltungssatz:
 $$- \Omega= \omega_1 -  \omega_0 $$
 $$\begin{align*}-\frac{\Omega}{2\pi}&=f_1 -  f_0\\
 -\frac{1,67 \cdot 10^{11} \mathrm{\frac{1}{s}}}{2\pi}&=f_1 -  f_0\\
-2,66 \cdot 10^{10}\mathrm{\frac{1}{s}}&=\Delta f
-
+-2,66 \cdot 10^{10}\mathrm{\frac{1}{s}}&=\Delta f
 \end{align*} $$
 
 
-
+                                      {{10}}
 Mit der ursprünglichen Frequenz des Lasers $f_0 = \frac{c}{\lambda}=\frac{3\cdot 10^8 \mathrm{\frac{m}{s} }}{694\cdot 10^{-9} \mathrm{m}}= 4,32 \cdot  10^{14} \mathrm{Hz}$
 
+                                      {{11}}
 Die relative Frequenzabnahme beträgt damit:
 
+                                      {{12}}
 $$\frac{\Delta f}{f_0}  = \frac{2,66 \cdot 10^{10}\mathrm{\frac{1}{s}}}{4,32 \cdot  10^{14} \mathrm{\frac{1}{s}}}=6,15 \cdot 10^{-5}$$
 
 
