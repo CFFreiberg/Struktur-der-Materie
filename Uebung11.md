@@ -69,11 +69,21 @@ Für die Zustandsdichte $D(K)$ im 1-dimensionalen Impulsraum gilt dann:
 $$D(K) = \frac{\text{Anzahl der Zustände}}{ \text{zugehöriges Volumen im K-Raum}}=\frac{N}{\frac{2\pi}{a}}=\frac{Na}{2\pi}=\frac{L}{2\pi}$$
 
                                       {{9}}
-Die Anzahl der Zustände muss im realen Raum und im Impulsraum gleich sein:
-$$\int_0^{\omega_m}D(\omega)d\omega=\int_{-\frac{\pi}{a}}^{+\frac{\pi}{a}}D(K)dK=2\int_{0}^{+\frac{\pi}{a}}D(K)dK$$
+Die Anzahl der Zustände muss im realen Raum und im Impulsraum gleich sein, und zwar der Anzahl der Atome:
+$$\begin{align*}
+N&=\int_{1.\mathrm{BZ}}D(K)dK\overbrace{=}^{1\mathrm{dim}}\int_{-\frac{\pi}{a}}^{+\frac{\pi}{a}}D(K)dK
+=\int_0^{\omega_m}D(\omega)d\omega\\
+&=2\int_{0}^{+\frac{\pi}{a}}D(K)dK
+\end{align*}$$
+
+                                      {{9}}
+Die konstante Zustandsdichte im $K$- Raum übersetzt sich über eine nichtlineare Dispersionskurve $\omega(K)$ in eine Zustandsdichte $D(\omega)$
+
+![Herleitung der Zustandsdichte im Frequenzintervall mit Hilfe der Dispersionsrelation](media/Zustandsdichte_aus_Dispersionsrelation.png "*Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")
+
 
                                       {{10}}
-Mit $D(K) =\frac{L}{2\pi}$ folgt also 
+Mit $D(K) =\frac{L}{2\pi}$ folgt also für 1 Dimension
 $$D(\omega)d\omega=2D(K)dK=\frac{L}{\pi}\cdot dK\cdot =\frac{L}{\pi}\cdot \frac{dK}{d\omega}\cdot d\omega$$
 
                                       {{11}}
