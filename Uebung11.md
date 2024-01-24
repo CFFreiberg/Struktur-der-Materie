@@ -76,26 +76,27 @@ N&=\int_{1.\mathrm{BZ}}D(K)dK\overbrace{=}^{1\mathrm{dim}}\int_{-\frac{\pi}{a}}^
 &=2\int_{0}^{+\frac{\pi}{a}}D(K)dK
 \end{align*}$$
 
-                                      {{9}}
+                                      {{10}}
 Die konstante Zustandsdichte im $K$- Raum übersetzt sich über eine nichtlineare Dispersionskurve $\omega(K)$ in eine Zustandsdichte $D(\omega)$
 
-![Herleitung der Zustandsdichte im Frequenzintervall mit Hilfe der Dispersionsrelation](media/Zustandsdichte_aus_Dispersionsrelation.png "*Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")
+                                      {{11}}
+![Herleitung der Zustandsdichte im Frequenzintervall mit Hilfe der Dispersionsrelation](media/Zustandsdichte_aus_Dispersionsrelation.png "*Herleitung der Zustandsdichte im Frequenzintervall mit Hilfe der Dispersionsrelation; $q=K$; Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")
 
 
-                                      {{10}}
+                                      {{12}}
 Mit $D(K) =\frac{L}{2\pi}$ folgt also für 1 Dimension
 $$D(\omega)d\omega=2D(K)dK=\frac{L}{\pi}\cdot dK\cdot =\frac{L}{\pi}\cdot \frac{dK}{d\omega}\cdot d\omega$$
 
-                                      {{11}}
+                                      {{13}}
 Daraus folgt
 $$\begin{align*}D(\omega)&=\frac{N\cdot a}{\pi}\cdot \frac{dK}{d\omega}\\&=\frac{N\cdot a}{\pi}\cdot\frac{2}{a}\cdot  (\omega_\mathrm{m}^2-\omega^2)^{-\frac{1}{2}}\\
 &=\frac{2N}{\pi}\frac{1}{\sqrt{\omega_\mathrm{m}^2-\omega^2}}
 \end{align*}$$
 
-                                      {{12}}
+                                      {{14}}
 Diese Funktion hat eine Singularität bei $\omega=\omega_\mathrm{m}$
 
-{{12}}
+{{15}}
 ![Bild Zustandsdichte](media/Zustandsdichte.png "*Zustandsdichte $D(\omega)$; Quelle: C. Funke*")
 
 ## Aufgabe 2 
