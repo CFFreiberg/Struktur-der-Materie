@@ -102,6 +102,30 @@ Die periodischen Randbedingungen für die ebenen Wellen (Knotenpunkte am Kristal
 
 $$D(k)=2\cdot \frac{V}{(2\pi)^3}$$
 
+Damit kann die linke Seite der obigen Gleichung umgestellt werden:
+$$\int_{k(E)}^{k(E+\Delta E)} D(k)dk^3=\int_{k(E)}^{k(E+\Delta E)} 2\cdot \frac{V}{(2\pi)^3}d^3k=2\cdot \frac{V}{(2\pi)^3}\int_{k(E)}^{k(E+\Delta E)} d^3k$$
+
+Da die Flächen konstanter Energie im k-Raum wegen der Dispersionsrelation $E(k)=\frac{\hbar^2 k^2}{2m}$ Kugeloberflächen sind und wir damit die Anzahl der Zustände in einer Kugelschale berechnen , erhalten wir für einen dreidimensionalen Festkörper für den Ausruck auf der rechten Seite: 
+
+$$2\cdot \frac{V}{(2\pi)^3}\int_{k(E)}^{k(E+\Delta E)} d^3k=2\cdot \frac{V}{(2\pi)^3} \cdot \overbrace{4\pi k^2 \Delta k}^\text{Volumen deiner Schale im K-Raum}$$
+
+Damit ergibt sich insgesamt: 
+
+$$2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi k^2 \Delta k=D(E)\Delta E$$
+
+Und damit 
+$$D(E)=2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi k^2\frac{ \Delta k}{\Delta E}$$
+Aus der bekannten Dispersionsrelation $E=\frac{\hbar^2 k^2}{2m}$ für freie Elektonen ergibt sich:
+
+$$k=\sqrt{\frac{2mE}{\hbar^2}}$$
+
+Für die Ableitung gilt damit:
+
+$$\frac{dk}{dE}=\sqrt{\frac{2m}{\hbar^2}}\cdot \frac{1}{2}\cdot E^{-\frac{1}{2}}$$
+
+Damit gilt ffür $D(E)$:
+
+$$D(E)=2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi k^2\sqrt{\frac{2m}{\hbar^2}}\cdot \frac{1}{2}\cdot E^{-\frac{1}{2}}$$
 
 
 Die Anzahl $N$ der Zustände für freie Elektronen im 3-dimensionalem Raum in einer Kugel mit dem Radius $k$ ist damit:
