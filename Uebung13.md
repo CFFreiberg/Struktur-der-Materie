@@ -61,16 +61,29 @@ $$\begin{align*}n &=\frac{\text{Anzahl}}{\text{Volumen}}\\
 
 Damit folgt für den Fermi-Wellenvektor
 
-$$k_F=\sqrt[3]{3\pi^2n} = \sqrt[3]{3\pi^2 \cdot 5,86 \cdot 10^{22}\, \mathrm{cm^{-3}}} =1,2 \cdot  10^8 \,\mathrm{cm^{-1}}\$$
-E_F=ћ22mekF²  = 8,82 x 10-19 J = 5,5 eV
-TF = EF/kB = 63900 K
-vF = ћkF/me = 1,39 x 108 cm/s
+$$k_F=\sqrt[3]{3\pi^2n} = \sqrt[3]{3\pi^2 \cdot 5,86 \cdot 10^{22}\, \mathrm{cm^{-3}}} =1,20 \cdot  10^8 \,\mathrm{cm^{-1}}\$$
+
+und die Fermi-Energie
+
+$$\begin{align*}
+E_F&=\frac{\hbar^2}{2m_\mathrm{e}} k_\mathrm{F}^2  \\ 
+&=\frac{(1,05457\cdot 10^{-34} \mathrm{Js})^2}{2\cdot 9,109382 \cdot 10^{-31} \mathrm {kg}}\cdot  (1,20 \cdot  10^8 \,\mathrm{\frac{1}{10^{-2} m}})^2\\
+&= 8,82 \cdot 10^{-19} \mathrm{J} \\
+&= 8,82 \cdot 10^{-19} \mathrm{\frac{eV}{1,60218\cdot 10^{-19}}}= 5,5 \,\mathrm{eV}\end{align*}$$
+
+Die Fermi-Temperatur ist:
+
+$$T_\mathrm{F} = \frac{E_\mathrm{F}}{k_\mathrm{B}} = \frac{8,82 \cdot 10^{-19} \mathrm{J}}{1,380665 \cdot 10^{-23}\frac{J}{K}}= 63913\, \mathrm{K}\approx 63,9 \cdot 10^3\, \mathrm{K}$$
+
+Die Fermi-Geschwindigkeit ist:
+
+$$v_\mathrm{F} = \frac{\hbar}{m_\mathrm{e}} k_\mathrm{F}= \frac{1,05457\cdot 10^{-34} \mathrm{Js}}{9,109382 \cdot 10^{-31} \mathrm {kg}} \cdot 1,20 \cdot  10^8 \cdot  10^2\,\mathrm{m^{-1}}=1,39 \cdot10^8 \mathrm{\frac{m}{s}}$$
 
 
 
 ## Aufgabe 3
                                       {{0}}
-> __3.__ Berechnen Sie Zustandsdichtefunktionen D(k) und D(E) eines dreidimensionalen freien Elektronengases.
+> __3.__ Wie groß ist die Zustandsdichte eines dreidimensionalen freien Elektronengases $D(k)$ im reziproken Raum und $D(E)$ im realen Raum?
 
 
                                       {{1}}
@@ -80,6 +93,23 @@ vF = ћkF/me = 1,39 x 108 cm/s
 **Lösung Aufgabe 3:**
 
                                       {{2}}
+Es gilt wieder:
+
+$$\int_{k(E)}^{k(E+\Delta E)} D(k)dk^3=\int_{E}^{E+\Delta E}D(E)dE$$
+
+
+Die periodischen Randbedingungen für die ebenen Wellen (Knotenpunkte am Kristallrand) bedingen wieder (wie bei den Phononen) eine Quantelung der erlaubten Zustände (Wellenvektoren). Das Volumen pro Zustand im 3D-Impulsraum ist $\frac{(2\pi)^3}{V}$. Da jeder $k$-Wellenvektor von 2 Elektronen mit entgegengesetztem Spin besetzt werden kann, ist die Zustandsdichte damit 
+
+$$D(k)=2\cdot \frac{V}{(2\pi)^3}$$
+
+
+
+Die Anzahl $N$ der Zustände für freie Elektronen im 3-dimensionalem Raum in einer Kugel mit dem Radius $k$ ist damit:
+
+$$N(k)=2\cdot\frac{\frac{4\pi}{3}k^3}{\frac{(2\pi)^3}{V}}=\frac{Vk^3}{3\pi^2}$$
+
+Die 2 kommt von den beiden Spin-Möglichkeiten für jeden Wellenvektor $k$
+
 
 
 
