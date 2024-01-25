@@ -37,22 +37,31 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 **Lösung Aufgabe 1:**
 
                                       {{2}}
-Kondensierte Materie ist für Elektronen aus zwei Günden "durchässig". Erstens wird ein Leitungselektron von den Ionenrümpfen eines periodischen Gitters nicht abgelenkt, da seine Ausbreitung auf einer Wellenbewegung beruht, die an das periodische Potential der Ionenrümpfe im Kristallgitter angepaßt ist. Zweitens wird ein Elektron nur selten an einem anderen gestreut, da zwei Elektronen aufgrund des Pauli
+Kondensierte Materie ist für Elektronen aus zwei Günden "durchässig". 
+- Erstens wird ein Leitungselektron von den Ionenrümpfen eines periodischen Gitters nicht abgelenkt, da seine Ausbreitung auf einer Wellenbewegung beruht, die an das periodische Potential der Ionenrümpfe im Kristallgitter angepaßt ist. 
+- Zweitens wird ein Elektron nur selten an einem anderen gestreut, da zwei Elektronen aufgrund des Pauli
 Prinzips nie auf dem selben Elektronenniveau sind.
 
 
 ## Aufgabe 2 
 
                                       {{0}}
-> __2.__ Berechnen Sie unter Annahme eines freien Elektronengases die Fermi-Energie, die Fermi-Wellenzahl, die Fermi-Temperatur und die Fermi- Geschwindigkeit für Silber. Silber hat eine Dichte von $10,5\,\mathrm{\frac{g}{cm}}$ und liefert ein Elektron pro Atom.
+> __2.__ Berechnen Sie unter Annahme eines freien Elektronengases die Fermi-Energie, die Fermi-Wellenzahl, die Fermi-Temperatur und die Fermi- Geschwindigkeit für Silber. Silber hat eine Dichte von $10,5\,\mathrm{\frac{g}{cm^3}}$ und liefert ein Elektron pro Atom.
 
                                       {{1}}
 **Lösung Aufgabe 2:**
 
                                       {{2}}
 Für die Elektronenkonzentration $n$ in Ag gilt:                                            
-$$n = \frac{N\cdot A \cdot \rho}{M} = 5,86 \cdot 10^{22}\, \mathrm{cm^{-3}}$$
-k_F=\ (3π²n)1/3 = 1.2 x 108 cm-1
+$$\begin{align*}n &=\frac{\text{Anzahl}}{\text{Volumen}}\\
+&=1\cdot N_\mathrm{A} \cdot \frac{ \rho}{M_\text{mol}} \\
+&=\mathrm{1\cdot 6,022 \cdot 10^{23}\frac{1}{mol} \cdot \frac{ 10,5 \frac{10^{-3}\,kg}{(10^{-2} \, m)^3}}{107,8682 \frac{10^{-3}kg}{mol}}}\\
+&= 5,86 \cdot 10^{28}\, \mathrm{m^{-3}}\\
+&=5,86 \cdot 10^{22}\, \mathrm{cm^{-3}}\end{align*}$$
+
+Damit folgt für den Fermi-Wellenvektor
+
+$$k_F=\sqrt[3]{3\pi^2n} = \sqrt[3]{3\pi^2 \cdot 5,86 \cdot 10^{22}\, \mathrm{cm^{-3}}} =1,2 \cdot  10^8 \,\mathrm{cm^{-1}}\$$
 E_F=ћ22mekF²  = 8,82 x 10-19 J = 5,5 eV
 TF = EF/kB = 63900 K
 vF = ћkF/me = 1,39 x 108 cm/s
