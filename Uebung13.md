@@ -211,7 +211,7 @@ $$p_\mathrm{Gas}=N\cdot k_B \frac{T}{V}$$
 
                                       {{1}}
 **Lösung Aufgabe 6:**
-![Abbildung der erste, zweiten und dritten Brioullin-Zone eines ebenen quadratischen Gitters](media/quadratisches_Gitter_BZ.png)
+![Abbildung der erste, zweiten und dritten Brioullin-Zone eines ebenen quadratischen Gitters](media/quadratisches_Gitter_BZ.png "*Erste (gelb), zweite (grün) und dritte (rot) Brillouinzone eines ebenen quadratischen Gitters; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
 
 ## Aufgabe 7
@@ -223,8 +223,15 @@ $$p_\mathrm{Gas}=N\cdot k_B \frac{T}{V}$$
 **Lösung Aufgabe 7:**
 
                                       {{2}}
+Die Energie eines freien Elektrons ist 
+$$E(K)=\frac{\hbar^2k^2}{2m}$$
 
+![Abbildung reziprokes quadratisches Gitter](media/quadr_Gitter_beschriftet.png "Wellenvektoren in der ersten Brillouinzone eines ebenen quadratischen Gitters; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*" )
 
+Für die Wellenvektoren in der Ecke der ersten Brillouinzone gilt:
+$$k_\mathrm{Ecke}=\sqrt{2}k_\mathrm{Mitte}$$
+
+$$\Rightarrow E_\mathrm{Ecke}=2\cdot E_\mathrm{Mitte}$$
 ## Aufgabe 8
 
                                       {{0}}
@@ -234,4 +241,12 @@ $$p_\mathrm{Gas}=N\cdot k_B \frac{T}{V}$$
 **Lösung Aufgabe 8**
 
                                       {{2}}
-$
+Die 1. Brillouin- Zone eines sc-Gitters im 3D mit Gitterkonstante $a$ ist Würfel mit Kantenlänge $\frac{2\pi}{a}$
+
+Die Raumdiagonale im Impulsraum hat damit die Länge
+
+$$\sqrt{3}\cdot \frac{\pi}{a}$$
+
+Damit gilt für die Energie in der Ecke des 3D-Würfels ([111]-Richtung) im Verhältnis fur Energie in [100]-Richtung:
+
+$$E_{[111]} = 3 \cdot E_{[100]}$$
