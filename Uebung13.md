@@ -211,7 +211,7 @@ $$p_\mathrm{Gas}=N\cdot k_B \frac{T}{V}$$
 
                                       {{1}}
 **Lösung Aufgabe 6:**
-
+![Abbildung der erste, zweiten und dritten Brioullin-Zone eines ebenen quadratischen Gitters](media/quadratisches_Gitter_BZ.png)
 
 
 ## Aufgabe 7
