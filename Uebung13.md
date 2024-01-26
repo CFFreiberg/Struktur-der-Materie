@@ -189,9 +189,21 @@ $$U=N\cdot \overline{E}=N\cdot \frac{3}{5}E_F$$
  
 Mit der Fermienergie $E_F=\frac{\hbar^2}{2m_e}\big(3\pi^2\frac{N}{V}\big)^{\frac{2}{3}}$ ergibt sich:
 
-$$U=N\cdot \frac{3}{5}E_F=N\cdot \frac{3}{5}\frac{\hbar^2}{2m_e}\big(3\pi^2 \frac{N}{V}\big)^{\frac{2}{3}}$$
+$$U=N\cdot \frac{3}{5}E_F=N\cdot \frac{3}{5}\frac{\hbar^2}{2m_e}\bigg(3\pi^2 \frac{N}{V}\bigg)^{\frac{2}{3}}$$
 
 Der Druck ist definiert als $p=-\frac{\partial U}{\partial V}$, also gilt
+
+$$\begin{align*}
+p&=-\frac{\partial U}{\partial V}\\
+&=-\frac{\partial }{\partial V}\bigg(N\cdot \frac{3}{5}\frac{\hbar^2}{2m_e}\bigg(3\pi^2 \frac{N}{V}\bigg)^{\frac{2}{3}}\bigg)\\
+&=N\cdot \frac{3}{5}\frac{\hbar^2(3\pi^2N)^{\frac{2}{3}}}{2m_e}\cdot (-\frac{2}{3})V^{-\frac{5}{3}}\\
+&=N\cdot V^{-1}\cdot \frac{2}{5}\frac{\hbar^2}{2m_e}\cdot (\frac{3\pi^2N}{V})^{\frac{2}{3}}\\
+&=\frac{2}{5}\frac{N}{V}\cdot E_F
+\end{align*}$$
+
+Der Fermi-Druck ist nicht von der Temperatur abhängig und auch bei $T=0\, \mathrm{K}$ vorhanden. Ein klassisches ideales Gas mit $N$ Teilchen hat den Druck 
+
+$$p_\mathrm{Gas}=N\cdot k_B \frac{T}{V}$$
 ## Aufgabe 6 
 
                                       {{0}}
