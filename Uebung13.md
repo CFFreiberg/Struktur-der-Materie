@@ -178,16 +178,20 @@ $$\begin{align*}
 ## Aufgabe 5 
 
                                       {{0}}
-> __5.__ Zeigen Sie, dass ein Fermi- Gas mit der Fermi-Energie EF auch am Temperaturnullpunkt einen Fermi- Druck    besitzt. Man vergleiche das Ergebnis mit dem eines klassischen idealen Gases.
+> __5.__ Zeigen Sie, dass ein Fermi-Gas mit der Fermi-Energie $E_F$ auch am Temperaturnullpunkt einen Fermi-Druck besitzt. Vergleichen Sie das Ergebnis mit dem eines klassischen idealen Gases.
 
                                       {{1}}
 **Lösung Aufgabe 5:**
 
                                       {{2}}
-
+Die innere Energie $U$ eines Fermigases bei $T=0\, \mathrm{K}$ ist (siehe Aufgabe 4)
+$$U=N\cdot \overline{E}=N\cdot \frac{3}{5}E_F$$
  
+Mit der Fermienergie $E_F=\frac{\hbar^2}{2m_e}\big(3\pi^2\frac{N}{V}\big)^{\frac{2}{3}}$ ergibt sich:
 
+$$U=N\cdot \frac{3}{5}E_F=N\cdot \frac{3}{5}\frac{\hbar^2}{2m_e}\big(3\pi^2 \frac{N}{V}\big)^{\frac{2}{3}}$$
 
+Der Druck ist definiert als $p=-\frac{\partial U}{\partial V}$, also gilt
 ## Aufgabe 6 
 
                                       {{0}}
