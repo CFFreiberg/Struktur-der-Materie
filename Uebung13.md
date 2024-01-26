@@ -105,11 +105,12 @@ $$D(k)=2\cdot \frac{V}{(2\pi)^3}$$
 Damit kann die linke Seite der obigen Gleichung umgestellt werden:
 $$\int_{k(E)}^{k(E+\Delta E)} D(k)dk^3=\int_{k(E)}^{k(E+\Delta E)} 2\cdot \frac{V}{(2\pi)^3}d^3k=2\cdot \frac{V}{(2\pi)^3}\int_{k(E)}^{k(E+\Delta E)} d^3k$$
 
-Da die Flächen konstanter Energie im k-Raum wegen der Dispersionsrelation $E(k)=\frac{\hbar^2 k^2}{2m}$ Kugeloberflächen sind und wir damit die Anzahl der Zustände in einer Kugelschale berechnen , erhalten wir für einen dreidimensionalen Festkörper für den Ausruck auf der rechten Seite: 
+Die Flächen konstanter Energie im k-Raum sind wegen der Dispersionsrelation $E(k)=\frac{\hbar^2 k^2}{2m}$ Kugeloberflächen. $\Delta k$ sei die zu $\Delta E$ gehörige Änderung des Wellenvektors.  
+Für einen dreidimensionalen Festkörper erhalten wir für den Ausruck auf der rechten Seite: 
 
-$$2\cdot \frac{V}{(2\pi)^3}\int_{k(E)}^{k(E+\Delta E)} d^3k=2\cdot \frac{V}{(2\pi)^3} \cdot \overbrace{4\pi k^2 \Delta k}^\text{Volumen deiner Schale im K-Raum}$$
+$$2\cdot \frac{V}{(2\pi)^3}\int_{k(E)}^{k(E+\Delta E)} d^3k=2\cdot \frac{V}{(2\pi)^3} \cdot \overbrace{4\pi k^2 \Delta k}^\text{Volumen von Kugelschale im k-Raum}$$
 
-Damit ergibt sich insgesamt: 
+Damit ergibt sich mit für $\Delta k$ insgesamt: 
 
 $$2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi k^2 \Delta k=D(E)\Delta E$$
 
@@ -123,25 +124,20 @@ Für die Ableitung gilt damit:
 
 $$\frac{dk}{dE}=\sqrt{\frac{2m}{\hbar^2}}\cdot \frac{1}{2}\cdot E^{-\frac{1}{2}}$$
 
-Damit gilt ffür $D(E)$:
+Damit gilt für $D(E)$:
 
 $$\begin{align*}D(E)&=2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi k^2\sqrt{\frac{2m}{\hbar^2}}\cdot \frac{1}{2}\cdot E^{-\frac{1}{2}}\\
 &=2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi \frac{2mE}{\hbar^2}\sqrt{\frac{2m}{\hbar^2}}\cdot \frac{1}{2}\cdot E^{-\frac{1}{2}}\\
 &=\frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\end{align*}$$
 
 
-Die Anzahl $N$ der Zustände für freie Elektronen im 3-dimensionalem Raum in einer Kugel mit dem Radius $k$ ist damit:
-
-$$N(k)=2\cdot\frac{\frac{4\pi}{3}k^3}{\frac{(2\pi)^3}{V}}=\frac{Vk^3}{3\pi^2}$$
-
-Die 2 kommt von den beiden Spin-Möglichkeiten für jeden Wellenvektor $k$
-
 
 
 
 ## Aufgabe 4 
                                       {{0}}
-> __4.__ Kinetische Energie des Elektronengases: Zeigen Sie, dass die kinetische Energie eines dreidimensionalen Elektronengases aus N freien Elektronen bei 0 K gleich folgendem Ausdruck ist!
+> __4.__ Zeigen Sie, dass die mittlere kinetische Energie von Elektronen in einem dreidimensionalen freien Elektronengases aus $N$ Elektronen bei $T=0\,\mathrm{K}$ gleich $\overline{E}=\frac{3}{5}E_\mathrm{F}$ ist.
+
 
 
                                       {{1}}
@@ -149,7 +145,35 @@ Die 2 kommt von den beiden Spin-Möglichkeiten für jeden Wellenvektor $k$
 
                                       {{2}}
 
+Die Elektronen befolgen auf Grund ihres halbzahligen Spins die Fermi-Dirac-Statistic mit der Verteilungsfunktion
 
+$$f(E,T)=\frac{1}{e^{(E-E_F)/k_BT}+1}$$
+
+Für $T=0\,\mathrm{K}$ ist das eine Stufenfunktion mit Sprung bei $E_F$, unterhalb von $E_F$ ist der Wert 1, oberhalb Null.
+
+Die Gesamtenergie der Elektronen ist gegeben durch
+
+$$E_\mathrm{ges}=\int_0^{E_F}E\cdot D(E)\cdot f(E,T)\cdot dE $$
+
+Die mittlere Energie pro Elekron läßt sich berechnen zu:
+
+$$\begin{align*}\overline{E}&=\frac{E_\mathrm{ges}}{N}\\
+&=\frac{\int_0^{E_F}E\cdot D(E)\cdot f(E,T)\cdot dE}{\int_0^{E_F} D(E)\cdot f(E,T)\cdot dE}\\
+\end{align*}$$
+
+Jetzt können die Zustandsdichte $D(E)$ (siehe Aufgabe 3) und die Verteilungsfunktion $f(E,T)$ eingesetzt werden:
+
+$$\begin{align*}\overline{E}
+&=\frac{\int_0^{E_F}E\cdot \frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\cdot \frac{1}{e^{(E-E_F)/k_BT}+1}\cdot dE}{\int_0^{E_F} \frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\cdot \frac{1}{e^{(E-E_F)/k_BT}+1}\cdot dE}\\
+\end{align*}$$
+
+Für $T=0\,\mathrm{K}$ ist die Verteilungsfunktion eine Stufenfunktion mit Sprung bei $E_F$, unterhalb von $E_F$ ist der Wert 1, oberhalb Null.
+$$\begin{align*}
+\overline{E}
+&=\frac{\int_0^{E_F}E^{\frac{3}{2}}dE}{\int_0^{E_F}E^{\frac{1}{2}}dE}\\
+&=\frac{\frac{2}{5}E_F^{\frac{5}{2}}}{\frac{2}{3}E_F^{\frac{3}{2}}}\\
+&=\frac{3}{5}E_F
+\end{align*}$$
 
 ## Aufgabe 5 
 
