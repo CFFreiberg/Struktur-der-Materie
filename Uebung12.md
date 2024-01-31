@@ -138,6 +138,7 @@ $$f(E)=\frac{1}{e^{\frac{E-E_\mathrm{F}}{k_\mathrm{B} T}} }= e^{-\frac{E-E_\math
 oder zum Ausprobieren eine [Online-Mathematica-Demonstration](https://demonstrations.wolfram.com/BoseEinsteinFermiDiracAndMaxwellBoltzmannStatistics/)
 
 
+
 ## Aufgabe 5 
 
                                       {{0}}
