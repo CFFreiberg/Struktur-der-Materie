@@ -39,7 +39,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
                                       {{2}}
 |Debye|Einstein|Dulong-Petit|
 |:---|:---|:---|
-|komplexe Festkörper, tiefe T| einfacheFestkörper, mittlere T| hohe T|
+|komplexe Festkörper, tiefe T| einfache Festkörper, mittlere T| hohe T|
 |Schallgeschwindigkeit für jeden Polarisationstyp konstant $\omega=v_sK$|$N$ Oszillatoren der selben Frequenz. Die Gitterschwingungen des Kristalls werden gequantelt, d. h. der Festkörper kann Schwingungsenergie nur in diskreten Quanten $ \hbar \cdot \omega _{\mathrm {E} }$ aufnehmen|kinetische Energie $\frac{1}{2} k_\mathrm{B} T$ pro Freiheitsgrad |
 |nur Schwingungszustände mit $K \le K_\mathrm{D}$, Vernachlässigung optischer Moden|  optische Phononen|plus nochmal gleiche potentielle Energie|
 |$T_\mathrm{D}=\Theta _{{\mathrm {D}}}={\frac {\hbar \cdot \omega _{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}={\frac {\hbar \cdot v_{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}\cdot {\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot N}{V}}}}$| $\Theta_E=\frac{\hbar \omega_0 }{K_\mathrm{0}}$|
@@ -154,25 +154,33 @@ Zahl der Phononen im Bereich $\omega_1$ bis $\omega_2$ im 3D:
 $$ \begin{align*}
 \Delta N&=3\int_{\omega_1}^{\omega_2} D(\omega)\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} d\omega\\
 &=3\int_{\omega_1}^{\omega_2} \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} d\omega\\
+&=3\int_{f_1}^{f_2} \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^\frac{\hbar 2\pi f}{k_\mathrm{B} T}-1} d(2\pi f)
 \end{align*}$$
 
                                       {{4}}
-mit $\omega = 2\pi f$ und $x =\frac{hf}{k_\mathrm{B} T}$ folgt
+mit $\omega = 2\pi f$ 
 
                                       {{5}}
+Betrachten wir den Exponenten im Exponentialterm für die größte Frequenz $4,1\,\mathrm{MHz}$:
+$$\frac{hf}{k_\mathrm{B} T}=\mathrm{\frac{6,6\cdot 10^{-34}Js\cdot 4,1 \, MHz}{1,381\cdot 10^{-23}\frac{J}{K} \cdot 300\,K}}=6,5\cdot 10^{-7}$$
+
+                                      {{6}}
+Der Exponent ist also sehr klein, die Exponentailfunktion lässt sich deshalb gut als Taylorreihenentwicklung $e^x=1+x+\frac{x^2}{2!}+\frac{x^2}{3!}+...$  darstellen, wobei die Reihe naxh dem quadratischen Term abgebrochen werden kann.
+
+                                      {{7}}
+
 $$ \begin{align*}
-\Delta N&=3\int_{f_1}^{f_2} \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^\frac{\hbar 2\pi f}{k_\mathrm{B} T}-1} d(2\pi f)\\
-&=3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^x-1} d f\\
+
 &\overbrace{\approxeq}^{hf \ll k_\mathrm{B}T} 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{1+x-1} d f\\
 &= 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{\frac{hf}{k_\mathrm{B} T}} d f\\
 &=\frac{12\pi l^3 k_\mathrm{B} T}{v_\mathrm{s}^3 h}\int_{f_1}^{f_2}fdf\\
 &=\frac{12\pi l^3 k_\mathrm{B} T}{v_\mathrm{s}^3 h}\bigg(\frac{f_2^2-f_1^2}{2}\bigg)\\
 \end{align*}$$
 
-                                      {{6}}
+                                      {{8}}
 Mit 
 
-                                      {{6}}
+                                      {{8}}
 - $f_1 = 4,0 \cdot 10^6\, \frac{1}{s}$ , 
 - $f_2 = 4,1 \cdot 10^6\, \frac{1}{s}$,
 - $v_\mathrm{s} = 6000 \, \mathrm{\frac{m}{s}}$,
@@ -181,15 +189,14 @@ Mit
 - $h = 6,63 \cdot  10^{-34} \,\mathrm{Js}$, und 
 - $k_\mathrm{B} = 1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}}$ 
 
-                                      {{7}}
+                                      {{9}}
 folgt:
 
-                                      {{7}}
+                                      {{9}}
 $$ \Delta N = 4,4 \cdot  10^8$$
 
-                                      {{8}}
-Die Zahl der verschiedenen Schwingungen (Energie-Eigenwerte)
-im gleichen Frequenzbereich ist dabei:
+                                      {{10}}
+Die Zahl der verschiedenen Energie-Eigenwerte im gleichen Frequenzbereich ist dabei:
 $$D(\omega)d(\omega)=3 \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \Delta \omega \approxeq 279$$
 
  
