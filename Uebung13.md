@@ -225,7 +225,8 @@ $$p_\mathrm{Gas}=N\cdot k_B \frac{T}{V}$$
                                       {{0}}
 > __6.__ Konstruieren Sie die ersten drei Brillouin-Zonen eines ebenen quadratischen Gitters.
 
-![quadratisches Gitter]{media/quadratisches_Gitter.png}
+![quadratisches Gitter](media/quadratisches_Gitter.png)
+
                                       {{1}}
 **Lösung Aufgabe 6:**
 ![Abbildung der erste, zweiten und dritten Brioullin-Zone eines ebenen quadratischen Gitters](media/quadratisches_Gitter_BZ.png "*Erste (gelb), zweite (grün) und dritte (rot) Brillouinzone eines ebenen quadratischen Gitters; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
@@ -234,7 +235,7 @@ $$p_\mathrm{Gas}=N\cdot k_B \frac{T}{V}$$
 ## Aufgabe 7
 
                                       {{0}}
->__7.__ Betrachten Sie ein einfaches ebenes quadratisches Gitter in zwei Dimensionen. Zeigen Sie, dass die kinetische Energie eines freien Elektrons an einer Ecke der ersten Brillouin - Zone doppelt so groß ist wie die eines Elektrons im Mittelpunkt einer Seitenfläche der Zone.
+>__7.__ Betrachten Sie ein einfaches ebenes quadratisches Gitter in zwei Dimensionen. Zeigen Sie, dass die kinetische Energie eines freien Elektrons an einer Ecke der ersten Brillouin-Zone doppelt so groß ist wie die eines Elektrons im Mittelpunkt einer Seitenfläche der Zone.
 
                                       {{1}}
 **Lösung Aufgabe 7:**
@@ -243,27 +244,35 @@ $$p_\mathrm{Gas}=N\cdot k_B \frac{T}{V}$$
 Die Energie eines freien Elektrons ist 
 $$E(K)=\frac{\hbar^2k^2}{2m}$$
 
-![Abbildung reziprokes quadratisches Gitter](media/quadr_Gitter_beschriftet.png "Wellenvektoren in der ersten Brillouinzone eines ebenen quadratischen Gitters; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*" )
+                                      {{2}}
+![Abbildung reziprokes quadratisches Gitter](media/quadr_Gitter_beschriftet.png "*Wellenvektoren in der ersten Brillouinzone eines ebenen quadratischen Gitters; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*" )
 
+                                      {{3}}
 Für die Wellenvektoren in der Ecke der ersten Brillouinzone gilt:
 $$k_\mathrm{Ecke}=\sqrt{2}k_\mathrm{Mitte}$$
 
+                                      {{4}}
 $$\Rightarrow E_\mathrm{Ecke}=2\cdot E_\mathrm{Mitte}$$
 ## Aufgabe 8
 
                                       {{0}}
->__8.__ Wie groß ist dieses Verhältnis für ein einfaches kubisches Gitter in drei Dimensionen?
+>__8.__ Wie groß ist das Verhältnis  der kinetischen Energien eines freien Elektrons an einer Ecke der ersten Brillouin-Zone zu der eines Elektrons im Mittelpunkt einer Seitenfläche der Zone im einfachen dreidimensionalen kubischen Gitter?
 
                                       {{1}}
 **Lösung Aufgabe 8**
 
                                       {{2}}
-Die 1. Brillouin- Zone eines sc-Gitters im 3D mit Gitterkonstante $a$ ist Würfel mit Kantenlänge $\frac{2\pi}{a}$
+Die 1. Brillouin- Zone eines sc-Gitters im 3D mit Gitterkonstante $a$ ist ein Würfel mit der Kantenlänge $\frac{2\pi}{a}$
 
+                                      {{3}}
+Die [Raumdiagonale vom Würfel](https://www.matheretter.de/wiki/wurfel-raumdiagonale) errechnet sich mit Hilfe vom Satz des Pythagoras, wobei die Raumdiagonale durch eine Flächendiagonale und eine Kantenlänge aufgespannt wird. 
 Die Raumdiagonale im Impulsraum hat damit die Länge
 
+                                      {{4}}
 $$\sqrt{3}\cdot \frac{\pi}{a}$$
 
+                                      {{5}}
 Damit gilt für die Energie in der Ecke des 3D-Würfels ([111]-Richtung) im Verhältnis fur Energie in [100]-Richtung:
 
+                                      {{6}}
 $$E_{[111]} = 3 \cdot E_{[100]}$$
