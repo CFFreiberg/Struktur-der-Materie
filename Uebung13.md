@@ -276,3 +276,40 @@ Damit gilt für die Energie in der Ecke des 3D-Würfels ([111]-Richtung) im Verh
 
                                       {{6}}
 $$E_{[111]} = 3 \cdot E_{[100]}$$
+
+## Aufgabe 9
+>__9.__ Warum tragen nicht alle Leitungselektronen im Metall mit $\frac{1}{2}k_\mathrm{B}$ pro Freiheitsgrad zur spezifischen Wärme bei?
+
+**Lösung Aufgabe 9**
+
+![freie Elektronen: Zustandsdichte mal Fermiverteilung](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/waermekapazitaet1.png "*Freie Elektronen: Zustandsdichte mal Fermiverteilung (rot); Quelle [H. Föll (MaWi 2 Skript), Uni Kiel](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/backbone/r2_4_1.html)*")
+
+Im Modell des freien Elektronengases sitzen die meisten der Elektronen auf vollbesetzten Zuständen oder anders ausgedrückt, auf Plätzen im $k$-Raum, bei denen alle Nachbarplätze besetzt sind.  Wegen des Pauli-Prinzips können nur solche Elektronen thermisch angeregt werden, die sich in einem Energiebereich von der Größenordnung $\frac{1}{2}k_\mathrm{B}\cdot T$ in der Nähe der Fermienergie $E_\mathrm{F}$ befinden, denn nur dort sind leere Zustände in der Nähe, in die sie angeregt werden können. Nur Elektronen in dem oben gelb markierten Gebiet (Breite ca. $\frac{1}{2}k_\mathrm{B}\cdot T$ ) können also angeregt werden 
+
+## Aufgabe 10
+
+>__10.__ Was beschreiben die Sommerfeld- Parameter?
+
+
+
+**Lösung Aufgabe 10**
+
+Für die spezifische Wärme von Metallen gilt bei tiefen Temperaturen:
+$$C = \gamma \cdot  T + A\cdot T^3$$
+
+In der Darstellung $\frac{C}{T}$ über $T^2$ ergibt sich dann eine Gerade. Der Schnittpunkt dieser Gerade mit der $y$-Achse ist der Sommerfeld-Koeffizient $\gamma$.
+
+
+## Aufgabe 11
+
+Was versteht man unter der „thermisch effektiven Masse“?
+
+**Lösung Aufgabe 11**
+
+
+Für die thermisch effektive Masse $m_\mathrm{th}$ gilt: 
+
+$$\frac{m_\mathrm{th}}{m_\mathrm{e}}=\frac{\gamma_\mathrm{exp}}{\gamma_\mathrm{Theorie}}$$
+
+
+$$\gamma_\mathrm{Theorie}\ =\frac{\pi^2}{3} \cdot k_\mathrm{B}^2D(E_\mathrm{F})=\frac{\pi^2}{2}\frac{N_e}{N}\frac{R}{T_F}$$ 
