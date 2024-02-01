@@ -165,7 +165,7 @@ Betrachten wir den Exponenten im Exponentialterm für die größte Frequenz $4,1
 $$\frac{hf}{k_\mathrm{B} T}=\mathrm{\frac{6,6\cdot 10^{-34}Js\cdot 4,1 \, MHz}{1,381\cdot 10^{-23}\frac{J}{K} \cdot 300\,K}}=6,5\cdot 10^{-7}$$
 
                                       {{6}}
-Der Exponent ist also sehr klein, die Exponentailfunktion lässt sich deshalb gut als Taylorreihenentwicklung $e^x=1+x+\frac{x^2}{2!}+\frac{x^2}{3!}+...$  darstellen, wobei die Reihe naxh dem quadratischen Term abgebrochen werden kann.
+Der Exponent ist also sehr klein, die Exponentailfunktion lässt sich deshalb gut als Taylorreihenentwicklung $e^x=1+x+\frac{x^2}{2!}+\frac{x^2}{3!}+...$  darstellen, wobei die Reihe nach dem linearen Term abgebrochen werden kann.
 
                                       {{7}}
 
@@ -268,10 +268,10 @@ $$\frac{\Delta f}{f_0}  = \frac{2,66 \cdot 10^{10}\mathrm{\frac{1}{s}}}{4,32 \cd
 $$\Theta_\mathrm{D}=\mathrm{ 322 \,K}$$
 
                                       {{3}}
-$$\Rightarrow \omega_\mathrm{m}=\frac{k_\mathrm{B} \Theta_\mathrm{D}}{\hbar}=\frac{1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}} \cdot  \mathrm{ 322 \,K}}{1,0546 \cdot  10^{-34} \,\mathrm{Js}}=4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}$$
+$$\Rightarrow \omega_\mathrm{D}=\frac{k_\mathrm{B} \Theta_\mathrm{D}}{\hbar}=\frac{1,38 \cdot 10^{-23}\, \mathrm{\frac{J}{K}} \cdot  \mathrm{ 322 \,K}}{1,0546 \cdot  10^{-34} \,\mathrm{Js}}=4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}$$
 
                                       {{4}}
-$$\Rightarrow f_\mathrm{m}=\frac{\omega_\mathrm{m}}{2\pi}=\frac{4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}}{2\pi}=6,71 \cdot 10^{12}\mathrm{\frac{1}{s}}=6,71 \cdot 10^{12}\mathrm{Hz
+$$\Rightarrow f_\mathrm{D}=\frac{\omega_\mathrm{D}}{2\pi}=\frac{4,21 \cdot 10^{13}\mathrm{\frac{1}{s}}}{2\pi}=6,71 \cdot 10^{12}\mathrm{\frac{1}{s}}=6,71 \cdot 10^{12}\mathrm{Hz
 }$$
 
 
