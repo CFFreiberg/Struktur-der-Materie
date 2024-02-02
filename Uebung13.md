@@ -302,14 +302,23 @@ In der Darstellung $\frac{C}{T}$ über $T^2$ ergibt sich dann eine Gerade. Der S
 
 ## Aufgabe 11
 
-Was versteht man unter der „thermisch effektiven Masse“?
+Welche Gründe kann es für Abweichungen der theoretischen Sommerfeld-Koeffizienten $\gamma_\mathrm{theo}$ und dem dazugehörigen gemessenen Koeffizienten $\gamma_\mathrm{exp}$ geben?
 
 **Lösung Aufgabe 11**
 
+Der theoretische Sommerfeld-Koeffizent $\gamma_\mathrm{theo}$ ergibt sich aus der aus der inneren Energie $U$ eines Elektonengases abgeleiteten spezifischen Wärmekapazität des Elektronengases:
+$$C_\mathrm{V}=\frac{\pi^2}{3}k_B^2 T D(E_F)=\frac{\pi^2}{2}Nk_B\frac{T}{T_F}=\gamma_\mathrm{theo}\cdot T$$
 
-Für die thermisch effektive Masse $m_\mathrm{th}$ gilt: 
+mit dem Sommerfeld Koeffizienten 
+$$\gamma_\mathrm{theo}=\frac{\pi^2}{3}k_B^2  D(E_F)=\frac{\pi^2Nk_B}{2T_F}$$
 
-$$\frac{m_\mathrm{th}}{m_\mathrm{e}}=\frac{\gamma_\mathrm{exp}}{\gamma_\mathrm{Theorie}}$$
+Die beobachteten Abweichungen zwischen $\gamma_\mathrm{theo}$ und $\gamma_\mathrm{exp}$ können folgende Ursachen haben:
 
+- Wechselwirkung der Elektronen mit dem Kristallpotential. Das Elektron ist also nicht richtig "frei".
 
-$$\gamma_\mathrm{Theorie}\ =\frac{\pi^2}{3} \cdot k_\mathrm{B}^2D(E_\mathrm{F})=\frac{\pi^2}{2}\frac{N_e}{N}\frac{R}{T_F}$$ 
+- Wechselwirkung der Elektronen mit Phononen. Anschaulich gesprochen verformen die Elektronen bei ihrer Bewegung durch das Kristallgitter das Kristallgitter und müssen bei ihrer Bewegung diese Verformung mitschleppen. Dadurch werden sie gebremst (höhere effektive Masse).
+
+- Die Wechselwirkung von Elektronen untereinander führt ebenfalls zu einer höheren effektiven Masse.
+
+Insbesondere die 3d-Übergangsmetalle liefern große Abweichungen, weil die 3d-Elektronen zwar wesentlich zur Zustandsdichte an der Fermi-Kante beitragen, aber stark lokalisiert sind und schlecht durch freie Elektronen beschrieben werden.
+
