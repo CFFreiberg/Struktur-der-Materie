@@ -348,7 +348,7 @@ Insbesondere die 3d-Übergangsmetalle liefern große Abweichungen, weil die 3d-E
 ## Aufgabe 12
 
                                       {{0}}
->__11.__ Geben Sie eine anschauliche Erklärung dafür, dass Umklapp-Streuungen von Elektronen durch Phononen bei niedrigeren Temperaturen unwahrscheinlicher werden.
+>__12.__ Welcher Sachverhalt wird mit der Matthiesenschen Regel beschrieben?
 
                                       {{1}}
 **Lösung Aufgabe 12**
