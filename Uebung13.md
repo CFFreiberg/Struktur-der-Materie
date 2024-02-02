@@ -154,7 +154,7 @@ $$\begin{align*}D(E)&=2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi k^2\sqrt{\frac{2m}{\h
 Die Elektronen befolgen auf Grund ihres halbzahligen Spins die Fermi-Dirac-Statistic mit der Verteilungsfunktion
 
                                       {{2}}
-$$f(E,T)=\frac{1}{e^{(E-E_\mathrm{F})/k_BT}+1}$$
+$$f(E,T)=\frac{1}{e^{(E-E_\mathrm{F})/k_\mathrm{B}T}+1}$$
 
 
 
@@ -173,7 +173,7 @@ Jetzt können die Zustandsdichte $D(E)$ (siehe Aufgabe 3) und die Verteilungsfun
 
                                       {{6}}
 $$\begin{align*}\overline{E}
-&=\frac{\int_0^{\infin}E\cdot \frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\cdot \frac{1}{e^{(E-E_\mathrm{F})/k_BT}+1}\cdot dE}{\int_0^{\infin} \frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\cdot \frac{1}{e^{(E-E_\mathrm{F})/k_BT}+1}\cdot dE}\\
+&=\frac{\int_0^{\infin}E\cdot \frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\cdot \frac{1}{e^{(E-E_\mathrm{F})/k_\mathrm{B}T}+1}\cdot dE}{\int_0^{\infin} \frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\cdot \frac{1}{e^{(E-E_\mathrm{F})/k_\mathrm{B}T}+1}\cdot dE}\\
 \end{align*}$$
 
 {{7}}       
@@ -219,7 +219,7 @@ p&=-\frac{\partial U}{\partial V}\\
 Der Fermi-Druck ist nicht von der Temperatur abhängig und auch bei $T=0\, \mathrm{K}$ vorhanden. Ein klassisches ideales Gas mit $N$ Teilchen hat den Druck 
 
                                       {{8}}
-$$p_\mathrm{Gas}=N\cdot k_B \frac{T}{V}$$
+$$p_\mathrm{Gas}=N\cdot k_\mathrm{B} \frac{T}{V}$$
 ## Aufgabe 6 
 
                                       {{0}}
@@ -295,9 +295,13 @@ Im Modell des freien Elektronengases sitzen die meisten der Elektronen auf vollb
 **Lösung Aufgabe 10**
 
 Für die spezifische Wärme von Metallen gilt bei tiefen Temperaturen:
-$$C = \gamma \cdot  T + A\cdot T^3$$
+$$C_p = \underbrace{\gamma \cdot T}_\text{elektronischer Anteil} + \underbrace{A\cdot T^3}_\text{Phononenanteil}$$
 
 In der Darstellung $\frac{C}{T}$ über $T^2$ ergibt sich dann eine Gerade. Der Schnittpunkt dieser Gerade mit der $y$-Achse ist der Sommerfeld-Koeffizient $\gamma$.
+
+![Spezifische Wärme von Kalium bei tiefen Temperaturen](media/spezifische_Wärme_Kalium.png "Spezifische Wärme von Kalium bei tiefen Temperaturen. Geplottet ist Cp=T gegen T2 (Daten aus W.H. Lien, N.E. Phillips, Phys. Rev. 133, A1370 (1964)); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut ")
+
+
 
 
 ## Aufgabe 11
@@ -307,10 +311,10 @@ Welche Gründe kann es für Abweichungen der theoretischen Sommerfeld-Koeffizien
 **Lösung Aufgabe 11**
 
 Der theoretische Sommerfeld-Koeffizent $\gamma_\mathrm{theo}$ ergibt sich aus der aus der inneren Energie $U$ eines Elektonengases abgeleiteten spezifischen Wärmekapazität des Elektronengases:
-$$C_\mathrm{V}=\frac{\pi^2}{3}k_B^2 T D(E_F)=\frac{\pi^2}{2}Nk_B\frac{T}{T_F}=\gamma_\mathrm{theo}\cdot T$$
+$$C_V=\frac{\pi^2}{3}k_\mathrm{B}^2 T D(E_\mathrm{F})=\frac{\pi^2}{2}Nk_\mathrm{B}\frac{T}{T_\mathrm{F}}=\gamma_\mathrm{theo}\cdot T$$
 
 mit dem Sommerfeld Koeffizienten 
-$$\gamma_\mathrm{theo}=\frac{\pi^2}{3}k_B^2  D(E_F)=\frac{\pi^2Nk_B}{2T_F}$$
+$$\gamma_\mathrm{theo}=\frac{\pi^2}{3}k_\mathrm{B}^2  D(E_\mathrm{F})=\frac{\pi^2Nk_\mathrm{B}}{2T_\mathrm{F}}$$
 
 Die beobachteten Abweichungen zwischen $\gamma_\mathrm{theo}$ und $\gamma_\mathrm{exp}$ können folgende Ursachen haben:
 
@@ -321,4 +325,43 @@ Die beobachteten Abweichungen zwischen $\gamma_\mathrm{theo}$ und $\gamma_\mathr
 - Die Wechselwirkung von Elektronen untereinander führt ebenfalls zu einer höheren effektiven Masse.
 
 Insbesondere die 3d-Übergangsmetalle liefern große Abweichungen, weil die 3d-Elektronen zwar wesentlich zur Zustandsdichte an der Fermi-Kante beitragen, aber stark lokalisiert sind und schlecht durch freie Elektronen beschrieben werden.
+
+## Aufgabe 12
+
+>__11.__ Geben Sie eine anschauliche Erklärung dafür, dass Umklapp-Streuungen von Elektronen durch Phononen bei niedrigeren Temperaturen unwahrscheinlicher werden.
+
+**Lösung Aufgabe 12**
+
+Die mittlere Stoßzeit $\tau$ der Elektronen ergibt sich aus der Stoßzeit für Stöße mit Phononen $\tau_\text{P}$ und der Stoßzeit für Stöße mit Gitterfehlern $\tau_\text{i}$ zu:
+
+$$\frac{1}{\tau }=\frac{1}{{ \tau}_\text{P}} +{\frac{1}{\tau_\text{i}}}$$
+
+(Hinweis: bei der Addition der reziproken Terme "übernimmt der keinste Term das Kommando")
+
+Für die spezifischen Widerstände von Metallen folgt dann:
+$$\rho\ = \rho_\text{P} + \rho_\text{i}$$
+
+Dabei ist $\rho_\text{i}$ der Restwiderstand (unabhängig von $T$) und $\rho_\text{P}$ der  durch Gitterschwingungen verursachte Widerstand (für höhere Temperaturen       proportional zu T)
+
+Die verschiedenen Stoßprozesse 1, 2, 3, ... können näherungsweise als von- einander unabhängig betrachtet werden. Es gilt allgemein:
+
+$$\frac{1}{\tau} =\frac{1}{\tau_1} +\frac{1}{\tau}_2+\frac{1}{\ \tau_3}\ +\ ....$$
+
+
+
+## Aufgabe 13
+>__12.__ Geben Sie eine anschauliche Erklärung dafür, dass Umklapp-Streuungen von Elektronen durch Phononen bei niedrigeren Temperaturen unwahrscheinlicher werden.
+
+
+**Lösung Aufgabe 13**
+
+Umklapp-Streuung: Elektron-Phonon-Streuung
+
+Es gilt der Impulserhaltungssatz, wobei $G$ ein reziproker Gittervektor ist, $k$ und $k'$ Wellenvektoren des Elektrons und $K$ der Wellenvektor des Phonons:
+$$k' = k + K+ G  $$
+
+![Elektron-Phonon-Streung: Umklappprozess](media/Umklappstreuung_Elektronen.png "Elektron-Phonon-Streung: Umklappprozess ($q=K$); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut ")
+
+Nur Elektronen nahe der Fermikante $E_\mathrm{F}$ können (in freie Zustände) gestreut werden. Für eine Umpkappstreuung eines Elektrons an einen Phonon wird aber eine minimales $K_0=q_\text{min}$ benötigt. Bei tiefen Temperaturen wird diese Anregung unwahrscheinlicher.
+
 
