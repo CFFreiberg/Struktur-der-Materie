@@ -253,6 +253,7 @@ $$k_\mathrm{Ecke}=\sqrt{2}k_\mathrm{Mitte}$$
 
                                       {{4}}
 $$\Rightarrow E_\mathrm{Ecke}=2\cdot E_\mathrm{Mitte}$$
+
 ## Aufgabe 8
 
                                       {{0}}
@@ -278,27 +279,37 @@ Damit gilt für die Energie in der Ecke des 3D-Würfels ([111]-Richtung) im Verh
 $$E_{[111]} = 3 \cdot E_{[100]}$$
 
 ## Aufgabe 9
+
+                                      {{0}}
 >__9.__ Warum tragen nicht alle Leitungselektronen im Metall mit $\frac{1}{2}k_\mathrm{B}$ pro Freiheitsgrad zur spezifischen Wärme bei?
 
+                                      {{1}}
 **Lösung Aufgabe 9**
 
+                                      {{2}}
 ![freie Elektronen: Zustandsdichte mal Fermiverteilung](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/waermekapazitaet1.png "*Freie Elektronen: Zustandsdichte mal Fermiverteilung (rot); Quelle [H. Föll (MaWi 2 Skript), Uni Kiel](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/backbone/r2_4_1.html)*")
 
+                                      {{3}}
 Im Modell des freien Elektronengases sitzen die meisten der Elektronen auf vollbesetzten Zuständen oder anders ausgedrückt, auf Plätzen im $k$-Raum, bei denen alle Nachbarplätze besetzt sind.  Wegen des Pauli-Prinzips können nur solche Elektronen thermisch angeregt werden, die sich in einem Energiebereich von der Größenordnung $\frac{1}{2}k_\mathrm{B}\cdot T$ in der Nähe der Fermienergie $E_\mathrm{F}$ befinden, denn nur dort sind leere Zustände in der Nähe, in die sie angeregt werden können. Nur Elektronen in dem oben gelb markierten Gebiet (Breite ca. $\frac{1}{2}k_\mathrm{B}\cdot T$ ) können also angeregt werden 
+
 
 ## Aufgabe 10
 
+                                      {{0}}
 >__10.__ Was beschreiben die Sommerfeld- Parameter?
 
 
-
+                                      {{1}}
 **Lösung Aufgabe 10**
 
+                                      {{2}}
 Für die spezifische Wärme von Metallen gilt bei tiefen Temperaturen:
 $$C_p = \underbrace{\gamma \cdot T}_\text{elektronischer Anteil} + \underbrace{A\cdot T^3}_\text{Phononenanteil}$$
 
+                                      {{3}}
 In der Darstellung $\frac{C}{T}$ über $T^2$ ergibt sich dann eine Gerade. Der Schnittpunkt dieser Gerade mit der $y$-Achse ist der Sommerfeld-Koeffizient $\gamma$.
 
+                                      {{4}}
 ![Spezifische Wärme von Kalium bei tiefen Temperaturen](media/spezifische_Wärme_Kalium.png "Spezifische Wärme von Kalium bei tiefen Temperaturen. Geplottet ist Cp=T gegen T2 (Daten aus W.H. Lien, N.E. Phillips, Phys. Rev. 133, A1370 (1964)); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut ")
 
 
@@ -306,62 +317,85 @@ In der Darstellung $\frac{C}{T}$ über $T^2$ ergibt sich dann eine Gerade. Der S
 
 ## Aufgabe 11
 
-Welche Gründe kann es für Abweichungen der theoretischen Sommerfeld-Koeffizienten $\gamma_\mathrm{theo}$ und dem dazugehörigen gemessenen Koeffizienten $\gamma_\mathrm{exp}$ geben?
+                                      {{0}}
+>__11.__ Welche Gründe kann es für Abweichungen der theoretischen Sommerfeld-Koeffizienten $\gamma_\mathrm{theo}$ und dem dazugehörigen gemessenen Koeffizienten $\gamma_\mathrm{exp}$ geben?
 
+                                      {{1}}
 **Lösung Aufgabe 11**
 
+                                      {{2}}
 Der theoretische Sommerfeld-Koeffizent $\gamma_\mathrm{theo}$ ergibt sich aus der aus der inneren Energie $U$ eines Elektonengases abgeleiteten spezifischen Wärmekapazität des Elektronengases:
+
+                                      {{3}}
 $$C_V=\frac{\pi^2}{3}k_\mathrm{B}^2 T D(E_\mathrm{F})=\frac{\pi^2}{2}Nk_\mathrm{B}\frac{T}{T_\mathrm{F}}=\gamma_\mathrm{theo}\cdot T$$
 
+                                      {{3}}
 mit dem Sommerfeld Koeffizienten 
 $$\gamma_\mathrm{theo}=\frac{\pi^2}{3}k_\mathrm{B}^2  D(E_\mathrm{F})=\frac{\pi^2Nk_\mathrm{B}}{2T_\mathrm{F}}$$
 
+                                      {{4}}
 Die beobachteten Abweichungen zwischen $\gamma_\mathrm{theo}$ und $\gamma_\mathrm{exp}$ können folgende Ursachen haben:
 
+                                      {{5}}
 - Wechselwirkung der Elektronen mit dem Kristallpotential. Das Elektron ist also nicht richtig "frei".
-
 - Wechselwirkung der Elektronen mit Phononen. Anschaulich gesprochen verformen die Elektronen bei ihrer Bewegung durch das Kristallgitter das Kristallgitter und müssen bei ihrer Bewegung diese Verformung mitschleppen. Dadurch werden sie gebremst (höhere effektive Masse).
-
 - Die Wechselwirkung von Elektronen untereinander führt ebenfalls zu einer höheren effektiven Masse.
 
+                                      {{6}}
 Insbesondere die 3d-Übergangsmetalle liefern große Abweichungen, weil die 3d-Elektronen zwar wesentlich zur Zustandsdichte an der Fermi-Kante beitragen, aber stark lokalisiert sind und schlecht durch freie Elektronen beschrieben werden.
+
 
 ## Aufgabe 12
 
+                                      {{0}}
 >__11.__ Geben Sie eine anschauliche Erklärung dafür, dass Umklapp-Streuungen von Elektronen durch Phononen bei niedrigeren Temperaturen unwahrscheinlicher werden.
 
+                                      {{1}}
 **Lösung Aufgabe 12**
 
+                                      {{2}}
 Die mittlere Stoßzeit $\tau$ der Elektronen ergibt sich aus der Stoßzeit für Stöße mit Phononen $\tau_\text{P}$ und der Stoßzeit für Stöße mit Gitterfehlern $\tau_\text{i}$ zu:
 
+                                      {{3}}
 $$\frac{1}{\tau }=\frac{1}{{ \tau}_\text{P}} +{\frac{1}{\tau_\text{i}}}$$
 
+                                      {{4}}
 (Hinweis: bei der Addition der reziproken Terme "übernimmt der keinste Term das Kommando")
 
+                                      {{5}}
 Für die spezifischen Widerstände von Metallen folgt dann:
 $$\rho\ = \rho_\text{P} + \rho_\text{i}$$
 
+                                      {{6}}
 Dabei ist $\rho_\text{i}$ der Restwiderstand (unabhängig von $T$) und $\rho_\text{P}$ der  durch Gitterschwingungen verursachte Widerstand (für höhere Temperaturen       proportional zu T)
 
+                                      {{7}}
 Die verschiedenen Stoßprozesse 1, 2, 3, ... können näherungsweise als von- einander unabhängig betrachtet werden. Es gilt allgemein:
 
+                                      {{8}}
 $$\frac{1}{\tau} =\frac{1}{\tau_1} +\frac{1}{\tau}_2+\frac{1}{\ \tau_3}\ +\ ....$$
 
 
 
 ## Aufgabe 13
->__12.__ Geben Sie eine anschauliche Erklärung dafür, dass Umklapp-Streuungen von Elektronen durch Phononen bei niedrigeren Temperaturen unwahrscheinlicher werden.
 
+                                      {{0}}
+>__13.__ Geben Sie eine anschauliche Erklärung dafür, dass Umklapp-Streuungen von Elektronen durch Phononen bei niedrigeren Temperaturen unwahrscheinlicher werden.
 
+                                      {{1}}
 **Lösung Aufgabe 13**
 
+                                      {{2}}
 Umklapp-Streuung: Elektron-Phonon-Streuung
 
+                                      {{3}}
 Es gilt der Impulserhaltungssatz, wobei $G$ ein reziproker Gittervektor ist, $k$ und $k'$ Wellenvektoren des Elektrons und $K$ der Wellenvektor des Phonons:
 $$k' = k + K+ G  $$
 
+                                      {{4}}
 ![Elektron-Phonon-Streung: Umklappprozess](media/Umklappstreuung_Elektronen.png "Elektron-Phonon-Streung: Umklappprozess ($q=K$); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut ")
 
+                                      {{5}}
 Nur Elektronen nahe der Fermikante $E_\mathrm{F}$ können (in freie Zustände) gestreut werden. Für eine Umpkappstreuung eines Elektrons an einen Phonon wird aber eine minimales $K_0=q_\text{min}$ benötigt. Bei tiefen Temperaturen wird diese Anregung unwahrscheinlicher.
 
 
