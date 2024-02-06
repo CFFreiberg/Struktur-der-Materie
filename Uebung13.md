@@ -38,9 +38,10 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
                                       {{2}}
 Kondensierte Materie ist für Elektronen aus zwei Günden "durchässig". 
+
+                                      {{2}}
 - Erstens wird ein Leitungselektron von den Ionenrümpfen eines periodischen Gitters nicht abgelenkt, da seine Ausbreitung auf einer Wellenbewegung beruht, die an das periodische Potential der Ionenrümpfe im Kristallgitter angepaßt ist. 
-- Zweitens wird ein Elektron nur selten an einem anderen gestreut, da zwei Elektronen aufgrund des Pauli
-Prinzips nie auf dem selben Elektronenniveau sind.
+- Zweitens wird ein Elektron nur selten an einem anderen gestreut, da zwei Elektronen aufgrund des Pauli Prinzips nie auf dem selben Elektronenniveau sind.
 
 
 ## Aufgabe 2 
