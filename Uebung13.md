@@ -143,7 +143,7 @@ $$\begin{align*}D(E)&=2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi k^2\sqrt{\frac{2m}{\h
 
 ## Aufgabe 4 
                                       {{0}}
-> __4.__ Zeigen Sie, dass die mittlere kinetische Energie von Elektronen in einem dreidimensionalen freien Elektronengases aus $N$ Elektronen bei $T=0\,\mathrm{K}$ gleich $\overline{E}=\frac{3}{5}E_\mathrm{F}$ ist.
+> __4.__ Zeigen Sie, dass die mittlere (kinetische) Energie von freien Elektronen in einem dreidimensionalen freien Elektronengases aus $N$ Elektronen bei $T=0\,\mathrm{K}$ gleich $\overline{E}=\frac{3}{5}E_\mathrm{F}$ ist.
 
 
 
