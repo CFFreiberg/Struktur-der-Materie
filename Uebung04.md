@@ -142,7 +142,7 @@ $$\Rightarrow d_\mathrm{hkl} =\frac{2\pi}{|\vec{G}|}=2\pi\cdot \frac{a}{2\pi(\sq
 
 Das Volumen $V_\mathrm{EZ}$ der Einheitszelle ist das Spatprodukt:
 
-$$V_\mathrm{EZ}=\vec{a}_1\cdot\left (\vec{a}_2 \times \vec{c} \right )$$
+$$V_\mathrm{EZ}=\vec{a}_1\cdot\left (\vec{a}_2 \times \vec{a}_3 \right )$$
 
 $$\Rightarrow V_\mathrm{EZ}=a^2\cdot c \cdot \left (\begin{array} {c} \ \frac{1}{2} \sqrt{3}  \\ \frac{1}{2} \\ 0 \end{array}\right ) \left [ \left (\begin{array} {c} \ -\frac{1}{2} \sqrt{3}  \\ \frac{1}{2} \\0 \end{array}\right ) \times \left (\begin{array} {c} \ 0\\0\\ 1 \end{array}\right ) \right ] $$
 
