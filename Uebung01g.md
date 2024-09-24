@@ -21,19 +21,19 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 # Übung 1
 
+## Aufgabe 1
+> __1.__ Bitte absolvieren sie den im Opal-Kurs bei der Übung 1 hinterlegten [Test zur Vektorrechnung](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/1013219356/CourseNode/1692325844519000012).
+
 ## Aufgabe 3
 
-> __3.__ Das Diamantgitter besteht aus zwei kubisch flächenzentrierten Gittern, wobei das Zweite um ein Viertel der Raumdiagonalen gegenüber dem Ersten verschoben ist. 
-Die Winkel zwischen den tetraedrischen Bindungen der Diamantstruktur sind dieselben wie die Winkel zwischen den Raumdiagonalen eines Würfels, z. B. zwischen [1,1,1] und [1,-1,-1]. 
+> __3.__ Das Diamantgitter besteht aus zwei kubisch flächenzentrierten Gittern, wobei das Zweite um ein Viertel der Raumdiagonalen gegenüber dem Ersten verschoben ist. Die Winkel zwischen den tetraedrischen Bindungen der Diamantstruktur sind dieselben wie die Winkel zwischen den Raumdiagonalen eines Würfels, z. B. zwischen [1,1,1] und [1,-1,-1]. 
 
-![Diamantgitter](media/diamant.png) ![Diamantgitter aus 2 Untergittern](media/SiC.png)
+![Diamantgitter](media/diamant.png "*Diamantgitter; Abbildung erstellt mit VESTA, Quelle: C. Funke*") ![Diamantgitter aus 2 Untergittern](media/SiC.png "*SiC-Gitter; Abbildung erstellt mit VESTA, Quelle: C. Funke*")
+*Hinweis: Im SiC-Gitter sind die 2 kubisch-flächenzentrierten Untergitter durch die beiden Atomsorten C und Si besetzt. Dadurch sind die jeweiligen Untergitter besser zu erkennen*
 
+> __a)__ Bestimmen Sie mit Hilfe der elementaren Vektoranalysis die Größe dieses Winkels!
 
-### a)
-Bestimmen Sie mit Hilfe der elementaren Vektoranalysis die Größe dieses Winkels!
-
-### b) 
- Bestimmen Sie den Volumenanteil im Harte-Kugel-Modell für die Diamant-Kristallstruktur 
+> __b)__ Bestimmen Sie den Volumenanteil im Harte-Kugel-Modell für die Diamant-Kristallstruktur!
 
 
 
@@ -52,9 +52,8 @@ Volumen der Einheitszelle: $V_\mathrm{EZ}=a^3$
 Nun benötigen Sie einen Zusammenhang zischen Kugelvolumen und Gitterkonstante $a$. Die dichtest benachbarten Kugel sollen Stoß auf Stoß sitzen. 
 Betrachten Sie folgende Abbildung und wenden Sie den Satz von Pythagoras zweimal an:
 
-![Detail Diamantgitters](media/diamanatdetail.png)
+![Detail Diamantgitters](media/diamanatdetail.png "*Ausschnitt aus Diamantgitter (ein Achtel der Einheitszelle) zum Erkennen der geometrischen Zusammenhänge zwischen $l$, $x$ und $\frac{a}{4}$; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*")
 
-*Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*
 
 Dann folgt:
 $$l^2=\left(\frac{a}{4}\right)^2+x^2$$
@@ -66,7 +65,7 @@ Die zweite Gleichung in die erste Gleichung eingesetzt ergibt
 
 $$l^2=\left(\frac{a}{4}\right)^2+\frac{a^2}{8} \Rightarrow l=\frac{\sqrt{3}\cdot a}{4}$$
 
-Dieses Distanz $l$ gibt aber genau den Abstand zweier sich auf Stoß berührender Kugel-(Mittelpunkte) an. Das bedeutert $l= 2 \cdot r$ (mit $r=$ Kugelradius).
+Diese Distanz $l$ gibt aber genau den Abstand zweier sich auf Stoß berührender Kugel-(Mittelpunkte) an. Das bedeutert $l= 2 \cdot r$ (mit $r=$ Kugelradius).
 
 Also gilt für das Kugelvolumen der auf Stoß sitzenden Kugeln im Diamantgitter:
 $$V_\mathrm{K}=\frac{4\pi}{3}\left(\frac{l}{2}\right)^3= \frac{4\pi}{3}\cdot \frac{3\cdot \sqrt{3} \cdot a^3}{4^3 \cdot 2^3 }=\frac{\pi \cdot \sqrt{3}\cdot a^3}{128}$$
@@ -77,15 +76,6 @@ Damit ergibt sich:
 $$\frac{N\cdot V_\mathrm{K}}{V_\mathrm{EZ}}=\frac{8 \cdot \frac{\pi \cdot \sqrt{3}\cdot a^3}{128}}{a^3}=\frac{8\cdot \pi \cdot \sqrt{3}}{128}=\frac{\pi \cdot \sqrt{3}}{16}=0,34$$
 
 Die Volumenausfüllung eines so dicht wie möglich gepackten Diamantgitters ist also nur 34 %.
-
-
-
-### a)
-Die Winkel zwischen den tetraedrischen Bindungen der Diamantstruktur sind dieselben wie die Winkel zwischen den Raumdiagonalen eines Würfels, z. B. zwischen [1,1,1] und [1,-1,-1]. Bestimmen Sie mit Hilfe der elementaren Vektoranalysis die Größe dieses Winkels!
-  ![](media/diamant.png)
-
-  <li>Bestimmen Sie den Volumenanteil im Harte-Kugel-Modell für die Diamant-Kristallstruktur</li>
-
 
 
 
