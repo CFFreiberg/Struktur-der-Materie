@@ -24,6 +24,14 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 ## Aufgabe 1
 > __1.__ Bitte absolvieren sie den im Opal-Kurs bei der Übung 1 hinterlegten [Test zur Vektorrechnung](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/1013219356/CourseNode/1692325844519000012).
 
+## Aufgabe 2
+> __2.__ Um eine ungefähre Vorstellung von der Verteilung der Gitterbausteine zu bekommen, kann man sich die Atome auf den Gitterplätzen als starre Kugeln vorstellen, die „auf Stoß“ aneinander liegen. Daraus lässt sich der Anteil des Volumens einer Gitterzelle berechnen, der von den Atomen eingenommen wird. (Aufgabe aus A. Armbrust, H. Janetzki, „Aufgaben zur Festkörperphysik“)
+
+> __a)__ Wie groß ist in diesem „starren Kugelmodell“ der Volumenanteil der Kugeln in einem einfachen kubischn Gitter? 
+
+![Einfach kubisches Gitter](media/sc.png "*einfach kubisches Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
+
+
 ## Aufgabe 3
 
 > __3.__ Das Diamantgitter besteht aus zwei kubisch flächenzentrierten Gittern, wobei das Zweite um ein Viertel der Raumdiagonalen gegenüber dem Ersten verschoben ist. Die Winkel zwischen den tetraedrischen Bindungen der Diamantstruktur sind dieselben wie die Winkel zwischen den Raumdiagonalen eines Würfels, z. B. zwischen [1,1,1] und [1,-1,-1]. 
