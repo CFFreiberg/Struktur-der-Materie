@@ -27,10 +27,27 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 ## Aufgabe 2
 > __2.__ Um eine ungefähre Vorstellung von der Verteilung der Gitterbausteine zu bekommen, kann man sich die Atome auf den Gitterplätzen als starre Kugeln vorstellen, die „auf Stoß“ aneinander liegen. Daraus lässt sich der Anteil des Volumens einer Gitterzelle berechnen, der von den Atomen eingenommen wird. (Aufgabe aus A. Armbrust, H. Janetzki, „Aufgaben zur Festkörperphysik“)
 
-> __a)__ Wie groß ist in diesem „starren Kugelmodell“ der Volumenanteil der Kugeln in einem einfachen kubischn Gitter? 
+> __a)__ Wie groß ist in diesem „starren Kugelmodell“ der Volumenanteil der Kugeln in einem einfachen kubischen Gitter? 
 
-![Einfach kubisches Gitter](media/sc.png "*einfach kubisches Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
+![Einfach kubisches Gitter](media/sc.png "*Einfach kubisches Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
 
+**Lösung Aufgabe 2a**
+
+
+
+
+ 
+> __b)__ Wie groß ist in diesem „starren Kugelmodell“ der Volumenanteil der Kugeln in einem kubisch raumzentrierten Gitter? 
+
+![Einfach kubisches Gitter](media/bcc.png "*Kubisch raumzentriertes Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
+
+> __c)__ Wie groß ist in diesem „starren Kugelmodell“ der Volumenanteil der Kugeln in einem kubisch flächenzentrierten Gitter? 
+
+![Einfach kubisches Gitter](media/fcc.png "*Kubisch flächenzentriertes Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
+
+> __d)__ Wie groß ist in diesem „starren Kugelmodell“ der Volumenanteil der Kugeln in einem hexagonalem dichtest gepacktem Gitter? 
+
+![Einfach kubisches Gitter](media/hex.png "*Hexagonales Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
 
 ## Aufgabe 3
 
