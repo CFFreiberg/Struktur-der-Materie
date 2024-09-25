@@ -77,7 +77,7 @@ $$\frac{N_K \cdot V_K}{V_Z}=\frac{4}{a^3}\cdot \frac{\pi a^3 2\sqrt{2}}{3 \cdot 
 ![Einfach kubisches Gitter](media/hex.png "*Hexagonales Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
 
 
-**Lösung Aufgabe 2c**
+**Lösung Aufgabe 2d**
 
 **Volumen der Einheitszelle:** $V_Z=a^3$
 
