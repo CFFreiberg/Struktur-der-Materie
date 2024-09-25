@@ -48,6 +48,16 @@ $$\frac{N_K \cdot V_K}{V_Z}=\frac{1  \cdot \frac{4 \pi}{3} \left( \frac{a}{2}\ri
 
 ![Einfach kubisches Gitter](media/bcc.png "*Kubisch raumzentriertes Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
 
+**Lösung Aufgabe 2b**
+
+**Volumen der Einheitszelle:** $V_Z=a^3$
+
+**Volumen der Kugel** (mit $r=\frac{a\cdot \sqrt{3}}{4}$):  $V_K=\frac{4 \pi}{3} \left( \frac{a\cdot \sqrt{3}}{4}\right)^3=\frac{\pi a^3 \sqrt{3}}{4^2}$
+
+**Anzahl der Kugeln:** $N_K=8\cdot \frac{1}{8}+1=2$
+
+$$\frac{N_K \cdot V_K}{V_Z}=\frac{2}{a^3}\cdot \frac{\pi a^3 \sqrt{3}}{4^2}=\frac{\pi\sqrt{3}}{8}=0,68=68 \%$$
+
 > __c)__ Wie groß ist in diesem „starren Kugelmodell“ der Volumenanteil der Kugeln in einem kubisch flächenzentrierten Gitter? 
 
 ![Einfach kubisches Gitter](media/fcc.png "*Kubisch flächenzentriertes Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
