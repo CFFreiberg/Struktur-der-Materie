@@ -33,10 +33,13 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 **Lösung Aufgabe 2a**
 
-|      | |
-|:--|:--|
-|Volumen der Einheitszelle| $V_Z=a^3$|
-|Volumen der Kugel mit $r=\frac{a}{2}$| $V_K=\frac{4 \pi}{3} \left( \frac{a}{2}\right)^3$|
+**Volumen der Einheitszelle:** $V_Z=a^3$
+
+**Volumen der Kugel** (mit $r=\frac{a}{2}$):  $V_K=\frac{4 \pi}{3} \left( \frac{a}{2}\right)^3$
+
+**Anzahl der Kugeln:** $N_K=8\cdot \frac{1}{8}$
+
+$$\frac{N_K \cdot V_K}{V_Z}=\frac{1  \cdot \frac{4 \pi}{3} \left( \frac{a}{2}\right)^3}{a^3}=\frac{\pi}{6}=0,52=52 \%$$
 
 
 
