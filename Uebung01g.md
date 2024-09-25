@@ -62,6 +62,16 @@ $$\frac{N_K \cdot V_K}{V_Z}=\frac{2}{a^3}\cdot \frac{\pi a^3 \sqrt{3}}{4^2}=\fra
 
 ![Einfach kubisches Gitter](media/fcc.png "*Kubisch flächenzentriertes Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
 
+**Lösung Aufgabe 2c**
+
+**Volumen der Einheitszelle:** $V_Z=a^3$
+
+**Volumen der Kugel** (mit $r=\frac{a\cdot \sqrt{2}}{4}$):  $V_K=\frac{4 \pi}{3} \left( \frac{a\cdot \sqrt{2}}{4}\right)^3=\frac{\pi a^3 \cdot 2 \cdot \sqrt{2}}{3 \cdot 4^2}$
+
+**Anzahl der Kugeln:** $N_K=8\cdot \frac{1}{8}+6\cdot \frac{1}{2}=4$
+
+$$\frac{N_K \cdot V_K}{V_Z}=\frac{4}{a^3}\cdot \frac{\pi a^3 2\sqrt{2}}{3 \cdot 4^2}=\frac{\pi}{3\cdot\sqrt{2}}=0,74=74 \%$$
+
 > __d)__ Wie groß ist in diesem „starren Kugelmodell“ der Volumenanteil der Kugeln in einem hexagonalem dichtest gepacktem Gitter? 
 
 ![Einfach kubisches Gitter](media/hex.png "*Hexagonales Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
