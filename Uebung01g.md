@@ -79,9 +79,11 @@ $$\frac{N_K \cdot V_K}{V_Z}=\frac{4}{a^3}\cdot \frac{\pi a^3 2\sqrt{2}}{3 \cdot 
 
 **Lösung Aufgabe 2d**
 
-Für Berechnung des Volumens der Einheitszelle wird erst die Grundfläche $A$ berechnet und dann mit der Höhe  $c$ der Einheitszelle multipliziert. Für die Berechnung der Grundfläche ist folgende Abbildung hilfreich:
+Für Berechnung des Volumens der Einheitszelle wird erst die Grundfläche $A$ berechnet und dann mit der Höhe  $c$ der Einheitszelle multipliziert. Für die Berechnung der Grundfläche ist folgende Abbildung hilfreich, denn dort wird deutlich, dass die Grundfläche ein PArallelogramm ist.
 
-![hexagonales Gitter in der Ebene](media/hexagonal2d.png"*Hexagonales Gitter; Quelle: C. Funke*") 
+![hexagonales Gitter in der Ebene](media/hexagonal2d.png "*Hexagonales Gitter; Quelle: C. Funke*") 
+
+**Grundfläche:** $A$=a\cdot h=a\cdot \\sqrt{a^2-\left( \frac{a}{2} \right)^2}
 
 **Volumen der Einheitszelle:** $V_Z=a^3$
 
