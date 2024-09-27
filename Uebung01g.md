@@ -83,9 +83,9 @@ Für Berechnung des Volumens der Einheitszelle wird erst die Grundfläche $A$ be
 
 ![hexagonales Gitter in der Ebene](media/hexagonal2d.png "*Hexagonales Gitter; Quelle: C. Funke*") 
 
-**Grundfläche:** $A$=a\cdot h=a\cdot \\sqrt{a^2-\left( \frac{a}{2} \right)^2}
+**Grundfläche:** $A=a\cdot h=a\cdot \sqrt{a^2-\left( \frac{a}{2} \right)^2}=a^2 \cdot\sqrt{1-\frac{1}{4}}=\frac{a^2 \cdot \sqrt{3}}{4}$
 
-**Volumen der Einheitszelle:** $V_Z=a^3$
+**Volumen der Einheitszelle:** $V_Z=A\cdot c=\frac{a^2 \cdot c\cdot \sqrt{3}}{4}$
 
 **Volumen der Kugel** (mit $r=\frac{a\cdot \sqrt{2}}{4}$):  $V_K=\frac{4 \pi}{3} \left( \frac{a\cdot \sqrt{2}}{4}\right)^3=\frac{\pi a^3 \cdot 2 \cdot \sqrt{2}}{3 \cdot 4^2}$
 
