@@ -89,10 +89,21 @@ Für Berechnung des Volumens der Einheitszelle wird erst die Grundfläche $A$ be
 
 ![hexagonales Gitter in der Ebene](media/hexagonal2d.png "*Hexagonales Gitter; Quelle: C. Funke*") 
 
-Der Zusammenhanag zwischen den auf Stoß zusammensitzenden Kugeln mit dem Kugelradius $r$ und den Gitterparametern $a$ und $C$ des hexagonal dichtest gepackten Gitters ist etwas komplexer. Zur Herleitung wird folgende Skizze betrachtet:
+Der Zusammenhanag zwischen den auf Stoß zusammensitzenden Kugeln mit dem Kugelradius $r$ und den Gitterparametern $a$ und $c$ des hexagonal dichtest gepackten Gitters ist etwas komplexer. Zur Herleitung wird folgende Skizze betrachtet:
 
 ![hexagonales Gitter in der Ebene](media/hexagonalLoesung.png "*Geometrische  Zusammenhänge im Hexagonalen Gitter; Quelle: links A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik; rechts C. Funke*") 
 
+Wenn die Kugeln dichtest gepackt sind und auf Stoß sitzen, dann gilt:
+
+$$l=a=2\cdot r$$
+
+Aus dem linken Teilbild der Abbildung gilt für das senkrecht stehende rechtwinklige Dreieck
+
+$$\left( \frac{c}{2} \right)^2=l^2-x^2$$
+
+$x$ kann durch die Gitterkonsante a ausgedrückt werden, siehe rechte Teilabbildung:
+
+$$x^2+\left( \frac{1}{3}a \right)^2=  \left( \frac{2}{3}a \right)^2$$
 
 **Volumen der Einheitszelle:** $V_Z=a^3$
 
