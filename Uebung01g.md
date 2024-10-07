@@ -25,78 +25,97 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 > __1.__ Bitte absolvieren sie den im Opal-Kurs bei der Übung 1 hinterlegten [Test zur Vektorrechnung](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/1013219356/CourseNode/1692325844519000012).
 
 ## Aufgabe 2
+
+{{0}}
 > __2.__ Um eine ungefähre Vorstellung von der Verteilung der Gitterbausteine zu bekommen, kann man sich die Atome auf den Gitterplätzen als starre Kugeln vorstellen, die „auf Stoß“ aneinander liegen. Daraus lässt sich der Anteil des Volumens einer Gitterzelle berechnen, der von den Atomen eingenommen wird. (Aufgabe aus A. Armbrust, H. Janetzki, „Aufgaben zur Festkörperphysik“)
 
 > __a)__ Wie groß ist in diesem „starren Kugelmodell“ der Volumenanteil der Kugeln in einem einfachen kubischen Gitter? 
 
 ![Einfach kubisches Gitter](media/sc.png "*Einfach kubisches Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
 
+{{1}}
 **Lösung Aufgabe 2a**
 
 **Volumen der Einheitszelle:** $V_Z=a^3$
 
+{{2}}
 **Volumen der Kugel** (mit $r=\frac{a}{2}$):  $V_K=\frac{4 \pi}{3} \left( \frac{a}{2}\right)^3$
 
+{{3}}
 **Anzahl der Kugeln:** $N_K=8\cdot \frac{1}{8}$
 
+{{4}}
 $$\frac{N_K \cdot V_K}{V_Z}=\frac{1  \cdot \frac{4 \pi}{3} \left( \frac{a}{2}\right)^3}{a^3}=\frac{\pi}{6}=0,52=52 \%$$
 
 
 
- 
+{{5}} 
 > __b)__ Wie groß ist in diesem „starren Kugelmodell“ der Volumenanteil der Kugeln in einem kubisch raumzentrierten Gitter? 
 
 ![Einfach kubisches Gitter](media/bcc.png "*Kubisch raumzentriertes Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
 
+{{6}}
 **Lösung Aufgabe 2b**
 
+{{6}}
 **Volumen der Einheitszelle:** $V_Z=a^3$
 
+{{7}}
 **Volumen der Kugel** (mit $r=\frac{a\cdot \sqrt{3}}{4}$):  $V_K=\frac{4 \pi}{3} \left( \frac{a\cdot \sqrt{3}}{4}\right)^3=\frac{\pi a^3 \sqrt{3}}{4^2}$
 
+{{8}}
 **Anzahl der Kugeln:** $N_K=8\cdot \frac{1}{8}+1=2$
 
 $$\frac{N_K \cdot V_K}{V_Z}=\frac{2}{a^3}\cdot \frac{\pi a^3 \sqrt{3}}{4^2}=\frac{\pi\sqrt{3}}{8}=0,68=68 \%$$
 
+{{9}}
 > __c)__ Wie groß ist in diesem „starren Kugelmodell“ der Volumenanteil der Kugeln in einem kubisch flächenzentrierten Gitter? 
 
 ![Einfach kubisches Gitter](media/fcc.png "*Kubisch flächenzentriertes Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
 
+{{10}}
 **Lösung Aufgabe 2c**
 
+{{11}}
 **Volumen der Einheitszelle:** $V_Z=a^3$
 
+{{12}}
 **Volumen der Kugel** (mit $r=\frac{a\cdot \sqrt{2}}{4}$):  $V_K=\frac{4 \pi}{3} \left( \frac{a\cdot \sqrt{2}}{4}\right)^3=\frac{\pi a^3 \cdot 2 \cdot \sqrt{2}}{3 \cdot 4^2}$
 
+
+{{13}}
 **Anzahl der Kugeln:** $N_K=8\cdot \frac{1}{8}+6\cdot \frac{1}{2}=4$
 
 $$\frac{N_K \cdot V_K}{V_Z}=\frac{4}{a^3}\cdot \frac{\pi a^3 2\sqrt{2}}{3 \cdot 4^2}=\frac{\pi}{3\cdot\sqrt{2}}=0,74=74 \%$$
 
+{{14}}
 > __d)__ Wie groß ist in diesem „starren Kugelmodell“ der Volumenanteil der Kugeln in einem hexagonalem dichtest gepacktem Gitter? 
 
 ![Hexagonales Gitter](media/hex.png "*Hexagonales Gitter; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*") 
 
 
+{{15}}
 **Lösung Aufgabe 2d**
 
+{{16}}
 Für Berechnung des Volumens der Einheitszelle wird erst die Grundfläche $A$ berechnet und dann mit der Höhe  $c$ der Einheitszelle multipliziert. Für die Berechnung der Grundfläche ist folgende Abbildung hilfreich, denn dort wird deutlich, dass die Grundfläche ein Parallelogramm ist.
 
 
-
+{{17}}
 **Grundfläche:** $A=a\cdot h=a\cdot \sqrt{a^2-\left( \frac{a}{2} \right)^2}=a^2 \cdot\sqrt{1-\frac{1}{4}}=\frac{a^2 \cdot \sqrt{3}}{2}$
-
-
 
 ![hexagonales Gitter in der Ebene](media/hexagonal2d.png "*Hexagonales Gitter; Quelle: C. Funke*") 
 
+{{18}}
 Der **Zusammenhang zwischen den auf Stoß zusammensitzenden Kugeln mit dem Kugelradius $r$ und den Gitterparametern $a$ und $c$ ** des hexagonal dichtest gepackten Gitters ist etwas komplexer. Zur Herleitung wird folgende Skizze betrachtet:
 
 ![hexagonales Gitter in der Ebene](media/hexagonalLoesung.png "*Geometrische  Zusammenhänge im Hexagonalen Gitter; Quelle: links A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik; rechts C. Funke*") 
 
+{{19}}
 Wenn die Kugeln dichtest gepackt sind und auf Stoß sitzen, dann gilt:
-
 $$l=a=2\cdot r$$
 
+{{20}}
 Aus dem linken Teilbild der Abbildung gilt für das senkrecht stehende rechtwinklige Dreieck
 
 $$\left( \frac{c}{2} \right)^2=l^2-x^2$$
