@@ -83,13 +83,13 @@ Für Berechnung des Volumens der Einheitszelle wird erst die Grundfläche $A$ be
 
 
 
-**Grundfläche:** $A=a\cdot h=a\cdot \sqrt{a^2-\left( \frac{a}{2} \right)^2}=a^2 \cdot\sqrt{1-\frac{1}{4}}=\frac{a^2 \cdot \sqrt{3}}{4}$
+**Grundfläche:** $A=a\cdot h=a\cdot \sqrt{a^2-\left( \frac{a}{2} \right)^2}=a^2 \cdot\sqrt{1-\frac{1}{4}}=\frac{a^2 \cdot \sqrt{3}}{2}$
 
 
 
 ![hexagonales Gitter in der Ebene](media/hexagonal2d.png "*Hexagonales Gitter; Quelle: C. Funke*") 
 
-Der Zusammenhanag zwischen den auf Stoß zusammensitzenden Kugeln mit dem Kugelradius $r$ und den Gitterparametern $a$ und $c$ des hexagonal dichtest gepackten Gitters ist etwas komplexer. Zur Herleitung wird folgende Skizze betrachtet:
+Der **Zusammenhang zwischen den auf Stoß zusammensitzenden Kugeln mit dem Kugelradius $r$ und den Gitterparametern $a$ und $c$ ** des hexagonal dichtest gepackten Gitters ist etwas komplexer. Zur Herleitung wird folgende Skizze betrachtet:
 
 ![hexagonales Gitter in der Ebene](media/hexagonalLoesung.png "*Geometrische  Zusammenhänge im Hexagonalen Gitter; Quelle: links A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik; rechts C. Funke*") 
 
@@ -101,17 +101,24 @@ Aus dem linken Teilbild der Abbildung gilt für das senkrecht stehende rechtwink
 
 $$\left( \frac{c}{2} \right)^2=l^2-x^2$$
 
-$x$ kann durch die Gitterkonsante a ausgedrückt werden, siehe rechte Teilabbildung:
+$x$ kann durch die Gitterkonsante $a$ ausgedrückt werden, siehe rechte Teilabbildung der obigen Abbildung:
 
 $$x^2+\left( \frac{1}{3}a \right)^2=  \left( \frac{2}{3}a \right)^2$$
+$$\Rightarrow x^2= \frac{4}{9}a^2- \frac{1}{9}a^2=\frac{1}{3}a^2$$
 
-**Volumen der Einheitszelle:** $V_Z=a^3$
+Dieser Ausdruck für $x^2$ wird nun zusammen mit $l=a$ in die obige Gleichung mit $\frac{c}{2}$ eingesetzt:
+$$\left( \frac{c}{2} \right)^2=l^2-\frac{1}{3}a^2=\frac{2}{3}a^2$$
+Damit folgt für $c$
+$$c=\sqrt{\frac{4 \cdot 2}{3}a^2}=\sqrt{\frac{8}{3}}a$$
+Damit gilt für das Volumen der Einheitszelle
 
-**Volumen der Kugel** (mit $r=\frac{a\cdot \sqrt{2}}{4}$):  $V_K=\frac{4 \pi}{3} \left( \frac{a\cdot \sqrt{2}}{4}\right)^3=\frac{\pi a^3 \cdot 2 \cdot \sqrt{2}}{3 \cdot 4^2}$
+**Volumen der Einheitszelle:** $V_Z=A\cdot c=\frac{a^2 \cdot \sqrt{3}}{2} \cdot \sqrt{\frac{8}{3}}a=\sqrt{2}a^3$
 
-**Anzahl der Kugeln:** $N_K=8\cdot \frac{1}{8}+6\cdot \frac{1}{2}=4$
+**Volumen der Kugel** (mit $r=\frac{a}{2}$):  $V_K=\frac{4 \pi}{3} \left( \frac{a}{2}\right)^3=\frac{\pi a^3 }{6}$
 
-$$\frac{N_K \cdot V_K}{V_Z}=\frac{4}{a^3}\cdot \frac{\pi a^3 2\sqrt{2}}{3 \cdot 4^2}=\frac{\pi}{3\cdot\sqrt{2}}=0,74=74 \%$$
+**Anzahl der Kugeln:** $N_K=8\cdot \frac{1}{8}+1=2$
+
+$$\frac{N_K \cdot V_K}{V_Z}=\frac{2\cdot \frac{\pi a^3 }{6}}{\sqrt{2}a^3}=\frac{\pi}{3 \cdot \sqrt{2}}=0,74=74 \%$$
 
 ## Aufgabe 3
 
