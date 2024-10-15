@@ -162,6 +162,8 @@ $$\frac{N_K \cdot V_K}{V_Z}=\frac{2\cdot \frac{\pi a^3 }{6}}{\sqrt{2}a^3}=\frac{
 
 {{1}}
 ![Diamantgitter](media/diamant.png "*Diamantgitter; Abbildung erstellt mit VESTA, Quelle: C. Funke*") ![Diamantgitter aus 2 Untergittern](media/SiC.png "*SiC-Gitter; Abbildung erstellt mit VESTA, Quelle: C. Funke*")
+
+{{1}}
 *Hinweis: Im SiC-Gitter sind die 2 kubisch-flächenzentrierten Untergitter durch die beiden Atomsorten C und Si besetzt. Dadurch sind die jeweiligen Untergitter besser zu erkennen*
 
 {{1}}
@@ -218,7 +220,7 @@ Damit ergibt sich:
 $$\frac{N\cdot V_\mathrm{K}}{V_\mathrm{EZ}}=\frac{8 \cdot \frac{\pi \cdot \sqrt{3}\cdot a^3}{128}}{a^3}=\frac{8\cdot \pi \cdot \sqrt{3}}{128}=\frac{\pi \cdot \sqrt{3}}{16}=0,34$$
 
 {{14}}
-Die Volumenausfüllung eines so dicht wie möglich gepackten Diamantgitters ist also nur 34 %.
+**Die Volumenausfüllung eines so dicht wie möglich gepackten Diamantgitters ist also nur 34 %.**
 
 
 
