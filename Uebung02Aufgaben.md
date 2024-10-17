@@ -134,8 +134,10 @@ $\Rightarrow$ 230 Raumgruppen
 |4|![90](media/Drehung90.png)<!--width="20%"--> | Drehung um 90°|
 |6| ![60](media/Drehung60.png)<!--width="20%"-->| Drehung um 60°|
 |$\bar{1}$|  ![Invesionszentrum](media/Invesionszentrum.png)<!--width="10%"--> | Inversionszentrum|
-|$\bar{2}$| |Spiegelebene in der Zeichenebene oder Spiegelebene senkrecht zur Zeichenebene |
+|$\bar{2}=m$| |zweizählige Drehinversionsachse bzw. Spiegelebene |
 |$\bar{3}=3+\bar{1}$|![Drehinversion](media/Drehinvesion120.png)<!--width="20%"-->|Drehung um 120° gefolgt von Inversion|
+|$\bar{4}$|![Drehinversion](media/Drehinvesion90.png)<!--width="20%"-->|Drehung um 90° gefolgt von Inversion|
+|$\bar{6}=3+m \perp 3$|![Drehinversion](media/Drehinvesion60.png)<!--width="20%"-->|Drehung um 120° gefolgt von Inversion|
 
 
 
