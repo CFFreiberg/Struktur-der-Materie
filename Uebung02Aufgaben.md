@@ -128,13 +128,16 @@ $\Rightarrow$ 230 Raumgruppen
 <!-- data-type="none" --> 
 | int. Symbol     |       grafisches Symbol       |  Symmetrieoperation |
 | :------------- |:----------------:| :-------:|
-|1|  | Identität|
+|1| - | Identität|
+|2|![invasionszentrum](media/Drehung180.png)<!--width="5%"-->| Drehung um 180°|
+|3| | Drehung um 120°|
+|4| | Drehung um 90°|
+|6| | Drehung um 60°|
+|$\bar{1}$|  ![invasionszentrum](media/Invasionszentrum.png)<!--width="5%"--> | Inversionszentrum|
+|$\bar{Spiegelebene in der Zeichenebene oder Spiegelebene senkrecht zur Zeichenebene }$|  ![invasionszentrum](media/Invasionszentrum.png)<!--width="5%"--> | Inversionszentrum|
 
-|2|$\bar{2}$| Drehung um 180°|
 
-
-![invasionszentrum](media/Invasionszentrum.png<!--width="50%"-->)
-
+$\bar{2}$
 
 ## Aufgabe 5
 > __5) __Zeigt die Abbildung eines Penrose-Musters eine Translationssymmetrie? Begründen Sie Ihre Antwort
