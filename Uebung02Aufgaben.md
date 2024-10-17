@@ -36,11 +36,8 @@ mit $u_i \in  \mathbb{Z}$ und $\vec{T}$ = Translationsvektor.
 [Parallelepiped](https://de.wiktionary.org/wiki/Parallelepiped "Bild Parallelepiped auf Wikipedia"), das durch primitive Achsen  $\vec{a_1}$, $\vec{a_2}$, $\vec{a_3}$ aufgespannt wird. eine primitive Elementarzelle ist eine Zelle mit kleinstem Volumen.
 
 
-![Parallelepiped](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Parallelepiped2.svg/330px-Parallelepiped2.svg.png)
+![Parallelepiped](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Parallelepiped2.svg/330px-Parallelepiped2.svg.png "* Quelle: ["Drawing of a parallelepiped."](https://commons.wikimedia.org/wiki/File:Parallelepiped2.svg) by Niabot licensed under [CC BY 3.0 DEED](hhttps://creativecommons.org/licenses/by/3.0/deed.en *")
 
-
-Quelle: ["Drawing of a parallelepiped."](https://commons.wikimedia.org/wiki/File:Parallelepiped2.svg) by Niabot
-licensed under [CC BY 3.0 DEED](hhttps://creativecommons.org/licenses/by/3.0/deed.en)
 
 #### d) Wie viele Gitterpunkte liegen in einer primitiven Elementarzelle?
 
@@ -168,3 +165,6 @@ $$\Rightarrow \frac{2}{3}a^2=\frac{c^2}{4} $$
 $$\Rightarrow\frac{c^2}{a^2}=\frac{8}{3}$$
 
 $$\Rightarrow \frac{c}{a}=\sqrt{\frac{8}{3}}=1,633.$$
+
+
+[def]: https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Parallelepiped2.svg/330px-Parallelepiped2.svg.png
