@@ -135,6 +135,7 @@ $\Rightarrow$ 230 Raumgruppen
 |6| | Drehung um 60°|
 |$\bar{1}$|  ![invasionszentrum](media/Invasionszentrum.png)<!--width="5%"--> | Inversionszentrum|
 |$\bar{Spiegelebene in der Zeichenebene oder Spiegelebene senkrecht zur Zeichenebene }$|  ![invasionszentrum](media/Invasionszentrum.png)<!--width="5%"--> | Inversionszentrum|
+>>>>>>> ca165aa5ed2801a19b10c4e3d7f2f7aaadbcccc8
 
 
 $\bar{2}$
