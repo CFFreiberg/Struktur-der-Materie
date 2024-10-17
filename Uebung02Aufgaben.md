@@ -2,7 +2,12 @@
 author: Claudia Funke
 email: claudia.funke@physik.tu-freiberg.de
 title: Übung 2 Aufgaben
-version: 1.0
+version: 2.0
+
+language: de
+
+narrator: Deutsch Female
+comment:  Struktur der Materie Übung 02
 
 @style
 .lia-toc__bottom {
@@ -118,6 +123,18 @@ $\Rightarrow$ 230 Raumgruppen
 ## Aufgabe 4
 > __5) __Listen Sie alle 10 möglichen Symmetrieoperationen in einer Tabelle auf und notieren Sie dazu das internationale Symbol und das grafische Symbol!
 
+**Lösung Aufgabe 4**
+
+<!-- data-type="none" --> 
+| int. Symbol     |       grafisches Symbol       |  Symmetrieoperation |
+| :------------- |:----------------:| :-------:|
+|1|  | Identität|
+
+|2|$\bar{2}$| Drehung um 180°|
+
+
+![invasionszentrum](media/Invasionszentrum.png<!--width="50%"-->)
+
 
 ## Aufgabe 5
 > __5) __Zeigt die Abbildung eines Penrose-Musters eine Translationssymmetrie? Begründen Sie Ihre Antwort
@@ -134,6 +151,7 @@ $\Rightarrow$ faszinierendes Beispiel für aperiodische Strukturen, benötigt mi
 ## Lösung Aufgabe 6
 Es gibt 7 Kristallsysteme
 
+<!-- data-type="none" --> 
 | Kristallsystem     |       Anzahl Gitter       |  Zentrierungen |Einschränkungen| Bild|
 | :------------- |:----------------:| :-------:|:---: |:---:| 
 |triklin  | 1| primitiv | $a\ne b\ne c$, $\alpha \ne \beta \ne \gamma$ | ![triklines Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_7.jpg)|
