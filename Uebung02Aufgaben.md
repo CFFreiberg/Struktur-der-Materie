@@ -129,13 +129,14 @@ $\Rightarrow$ 230 Raumgruppen
 | int. Symbol     |       grafisches Symbol       |  Symmetrieoperation |
 | :------------- |:----------------:| :-------:|
 |1| - | Identität|
-|2|![invasionszentrum](media/Drehung180.png)<!--width="5%"-->| Drehung um 180°|
-|3| | Drehung um 120°|
-|4| | Drehung um 90°|
-|6| | Drehung um 60°|
-|$\bar{1}$|  ![invasionszentrum](media/Invasionszentrum.png)<!--width="5%"--> | Inversionszentrum|
-|$\bar{Spiegelebene in der Zeichenebene oder Spiegelebene senkrecht zur Zeichenebene }$|  ![invasionszentrum](media/Invasionszentrum.png)<!--width="5%"--> | Inversionszentrum|
->>>>>>> ca165aa5ed2801a19b10c4e3d7f2f7aaadbcccc8
+|2|![180](media/Drehung180.png)<!--width="10%"-->| Drehung um 180°|
+|3|![120](media/Drehung120.png)<!--width="20%"--> | Drehung um 120°|
+|4|![90](media/Drehung90.png)<!--width="20%"--> | Drehung um 90°|
+|6| ![60](media/Drehung60.png)<!--width="20%"-->| Drehung um 60°|
+|$\bar{1}$|  ![Invesionszentrum](media/Invesionszentrum.png)<!--width="10%"--> | Inversionszentrum|
+|$\bar{2}$| |Spiegelebene in der Zeichenebene oder Spiegelebene senkrecht zur Zeichenebene |
+|$\bar{3}=3+\bar{1}$|![Drehinversion](media/Drehinvesion120.png)<!--width="20%"-->|Drehung um 120° gefolgt von Inversion|
+
 
 
 $\bar{2}$
