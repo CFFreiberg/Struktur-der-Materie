@@ -140,9 +140,6 @@ $\Rightarrow$ 230 Raumgruppen
 |$\bar{6}=3+m \perp 3$|![Drehinversion](media/Drehinvesion60.png)<!--width="20%"-->|Drehung um 120° gefolgt von Inversion|
 
 
-
-$\bar{2}$
-
 ## Aufgabe 5
 > __5) __Zeigt die Abbildung eines Penrose-Musters eine Translationssymmetrie? Begründen Sie Ihre Antwort
 
@@ -151,11 +148,18 @@ $\bar{2}$
 
 **Lösung Aufgabe 5**
 
-Nein. Ein Penrose-Miuster ist ein aperiodisches Muster, es besitzt keine periodische Wiederholungseinheit. 
+Nein. Ein Penrose-Muster ist ein aperiodisches Muster, es besitzt keine periodische Wiederholungseinheit. 
 
 $\Rightarrow$ faszinierendes Beispiel für aperiodische Strukturen, benötigt mindestens 2 verschiedene Baueinheiten (Polygone): *kite* = Drachen und *dart* = Pfeile.
 
-## Lösung Aufgabe 6
+
+## Aufgabe 6
+> __6) __Die Kristallsysteme wurden nach größtmöglicher Symmetrie des ausgewählten Achssystems unterschieden. 
+> __a) __Wie viele verschiedene Möglichkeiten erhält man, wenn von primitiven Elementarzellen ausgeht und daraus Gitter verschiedener Symmetrie aufbaut? 
+> __b) __Welche Kristallsysteme gibt es konkret, welche der Varianten (primitiv, basiszentriert, flächenzentriert, raumzentriert) kommen vor, welche Bedingungen gelten für die Winkel und Längen der Basisvektoren? Erstellen Sie bitte eine Tabelle? 
+
+**Lösung Aufgabe 6**
+
 Es gibt 7 Kristallsysteme
 
 <!-- data-type="none" --> 
@@ -171,6 +175,17 @@ Es gibt 7 Kristallsysteme
 
 *Bilder von [Wolfgang Below](https://www.chemieunterricht.de/dc2/kristalle/systeme.htm)*
 
+## Aufgabe 7
+
+> __7) __Zeichnen Sie für die folgenden Würfel die gefragten Symmetrieelemente in die Würfel ein.
+
+<!-- data-type="none" --> 
+|       |               |
+| :-------------: |:----------------:|
+|zwei Spiegelebenen (mindestens 2 kristallographisch verschiedene)|alle 4-zähligen Drehachsen|
+| | |
+|alle 3-zähligen Drehachsen|alle 2-zähligen Drehachsen (ohne die 4-zähligen)|
+| | |
 
 ## Lösung Aufgabe 9
 Betrachten Sie die Ebenen mit den Millerschen Indizes (100) und (001); das Gitter habe die fcc-Struktur und die Indizes beziehen sich auf die übliche kubische Zelle. Wie lauten die Indizes dieser Ebenen, wenn sie sich auf die primitiven Achsen der folgenden Abbildung beziehen?
