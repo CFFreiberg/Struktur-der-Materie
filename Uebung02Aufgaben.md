@@ -183,9 +183,19 @@ Es gibt 7 Kristallsysteme
 |       |               |
 | :-------------: |:----------------:|
 |zwei Spiegelebenen (mindestens 2 kristallographisch verschiedene)|alle 4-zähligen Drehachsen|
-| | |
+|![Würfel](media/Wuerfel.png) |![Würfel](media/Wuerfel.png) |
 |alle 3-zähligen Drehachsen|alle 2-zähligen Drehachsen (ohne die 4-zähligen)|
-| | |
+|![Würfel](media/Wuerfel.png) | ![Würfel](media/Wuerfel.png)|
+
+**Lösung Aufgabe 7**
+<!-- data-type="none" --> 
+|       |               |
+| :-------------: |:----------------:|
+|zwei Spiegelebenen (mindestens 2 kristallographisch verschiedene)|alle 4-zähligen Drehachsen|
+|![Würfel](media/Wuerfel.png) |![Würfel](media/Wuerfel.png) |
+|alle 3-zähligen Drehachsen|alle 2-zähligen Drehachsen (ohne die 4-zähligen)|
+|![Würfel](media/Wuerfel.png) | ![Würfel](media/Wuerfel.png)|
+
 
 ## Lösung Aufgabe 9
 Betrachten Sie die Ebenen mit den Millerschen Indizes (100) und (001); das Gitter habe die fcc-Struktur und die Indizes beziehen sich auf die übliche kubische Zelle. Wie lauten die Indizes dieser Ebenen, wenn sie sich auf die primitiven Achsen der folgenden Abbildung beziehen?
