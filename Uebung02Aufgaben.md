@@ -188,13 +188,14 @@ Es gibt 7 Kristallsysteme
 |![Würfel](media/Wuerfel.png) | ![Würfel](media/Wuerfel.png)|
 
 **Lösung Aufgabe 7**
+
 <!-- data-type="none" --> 
 |       |               |
 | :-------------: |:----------------:|
 |zwei Spiegelebenen (mindestens 2 kristallographisch verschiedene)|alle 4-zähligen Drehachsen|
-|![Würfel](media/Wuerfel.png) |![Würfel](media/Wuerfel.png) |
+|![Würfel](media/WuerfelSpiegel.png) |![Würfel](media/Wuerfel4zDrehachse.png) |
 |alle 3-zähligen Drehachsen|alle 2-zähligen Drehachsen (ohne die 4-zähligen)|
-|![Würfel](media/Wuerfel.png) | ![Würfel](media/Wuerfel.png)|
+|![Würfel](media/3zDrehachse.png) | ![Würfel](media/Wuerfel2zDrehachse.png)|
 
 
 ## Lösung Aufgabe 9
