@@ -201,8 +201,24 @@ Es gibt 7 Kristallsysteme
 
 Geben sie für die in der folgenden Abbildung eingezeichneten Ebenen die Millerschen Indices an. (Achsen: rot a, grün b, blau c)
 
+<!-- data-type="none" --> 
+|       |               | |
+| :-------------: |:----------------:|:----------------:|
+|![Millersche Indices?](media/Mi1.png)|![Millersche Indices?](media/Mi2.png)| ![Millersche Indices?](media/Mi3.png)|
+|![Millersche Indices?](media/Mi4.png)|![Millersche Indices?](media/Mi5.png)| ![Millersche Indices?](media/Mi6.png)|
 
-**## **Lösung Aufgabe 9**
+**Lösung Aufgabe 8**
+
+<!-- data-type="none" --> 
+|       |               | |
+| :-------------: |:----------------:|:----------------:|
+|![Millersche Indices?](media/Mi1.png)|![Millersche Indices?](media/Mi2.png)| ![Millersche Indices?](media/Mi3.png)|
+|(100)|(110)|(111)|
+|![Millersche Indices?](media/Mi4.png)|![Millersche Indices?](media/Mi5.png)| ![Millersche Indices?](media/Mi6.png)|
+|(123)|(200)|(211)|
+
+**Lösung Aufgabe 9**
+
 Betrachten Sie die Ebenen mit den Millerschen Indizes (100) und (001); das Gitter habe die fcc-Struktur und die Indizes beziehen sich auf die übliche kubische Zelle. Wie lauten die Indizes dieser Ebenen, wenn sie sich auf die primitiven Achsen der folgenden Abbildung beziehen?
 Beachten Sie dabei, dass
 $$\vec{a}_1=\frac{a}{2}\left(\hat{x}+\hat{y}\right), {\vec{a}}_2=\frac{a}{2}\left(\hat{y}+\hat{z}\right), {\vec{a}}_3=\frac{a}{2}\left(\hat{x}+\hat{z}\right)$$
