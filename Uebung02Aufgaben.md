@@ -214,7 +214,7 @@ Geben sie für die in der folgenden Abbildung eingezeichneten Ebenen die Millers
 | :-------------: |:----------------:|:----------------:|
 |![Millersche Indices?](media/Mi1.png)|![Millersche Indices?](media/Mi2.png)| ![Millersche Indices?](media/Mi3.png)|
 |(100)|(110)|(111)|
-|![Millersche Indices?](media/Mi4.png)|![Millersche Indices?](media/Mi5.png)| ![Millersche Indices?](media/Mi6.png)|
+|![Millersche Indices?](media/Mi4L.png)|![Millersche Indices?](media/Mi5L.png)| ![Millersche Indices?](media/Mi6L.png)|
 |(123)|(200)|(211)|
 
 **Lösung Aufgabe 9**
