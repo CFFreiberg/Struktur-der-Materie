@@ -224,7 +224,7 @@ Beachten Sie dabei, dass
 $${\vec{a}}_1=\frac{a}{2}\left(\hat{x}+\hat{y}\right), {\vec{a}}_2=\frac{a}{2}\left(\hat{y}+\hat{z}\right), {\vec{a}}_3=\frac{a}{2}\left(\hat{x}+\hat{z}\right)$$
 
 
-![fcc-Gitter dargestellt mit primitiver Basis](media/primitiveBasisfcc.png)
+![fcc-Gitter dargestellt mit primitiver Basis](media/primitiveBasisfcc.png)<!--width="100%"--> 
 
 **Lösung Aufgabe 9**
 
@@ -237,10 +237,14 @@ Die (001)-Ebene normal zur kubischen z-Achse schneidet die $\vec{a_2}$-Achse bei
 > __10) __Zeigen Sie, dass das Verhältnis c/a für eine hexagonal dichtgepackte Struktur gleich $\sqrt{8/3}$ ist.
 
 **Lösung Aufgabe 10**
+Betrachten Sie das Modell von einem hexagonalen Gitter:
+
+![Modell hexagonales Gitter](media/hexagonalFotoSeite.png "*Seitenansicht Modell hexagonales Gitter Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")![Modell hexagonales Gitter](media/hexagonalFotodrauf.png "*Draufsicht Modell hexagonales Gitter Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+
 
 Betrachten Sie die Stapelfolgen im hexagonal dichtgepacktesten Gitter:
-![Details Stapelfolge hexagonales Gitter](media/hexagonal.png)
-*Details hexagonales Gitter; Lage des Atoms in der nächsten gestapelten Ebene. Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+![Details Stapelfolge hexagonales Gitter](media/hexagonal.png "*Details hexagonales Gitter; Lage des Atoms in der nächsten gestapelten Ebene. Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="60%"--> 
+
 
 Es gilt 
 
@@ -258,6 +262,3 @@ $$\Rightarrow \frac{2}{3}a^2=\frac{c^2}{4} $$
 $$\Rightarrow\frac{c^2}{a^2}=\frac{8}{3}$$
 
 $$\Rightarrow \frac{c}{a}=\sqrt{\frac{8}{3}}=1,633.$$
-
-
-[def]: https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Parallelepiped2.svg/330px-Parallelepiped2.svg.png
