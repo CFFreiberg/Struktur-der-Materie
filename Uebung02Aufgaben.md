@@ -199,7 +199,7 @@ Es gibt 7 Kristallsysteme
 
 ## Aufgabe 8
 
-Geben sie für die in der folgenden Abbildung eingezeichneten Ebenen die Millerschen Indices an. (Achsen: rot a, grün b, blau c)
+> __8) __Geben sie für die in der folgenden Abbildung eingezeichneten Ebenen die Millerschen Indices an. (Achsen: rot a, grün b, blau c)
 
 <!-- data-type="none" --> 
 |       |               | |
@@ -217,30 +217,32 @@ Geben sie für die in der folgenden Abbildung eingezeichneten Ebenen die Millers
 |![Millersche Indices?](media/Mi4L.png)|![Millersche Indices?](media/Mi5L.png)| ![Millersche Indices?](media/Mi6L.png)|
 |(123)|(200)|(211)|
 
-**Lösung Aufgabe 9**
+## Aufgabe 9
 
-Betrachten Sie die Ebenen mit den Millerschen Indizes (100) und (001); das Gitter habe die fcc-Struktur und die Indizes beziehen sich auf die übliche kubische Zelle. Wie lauten die Indizes dieser Ebenen, wenn sie sich auf die primitiven Achsen der folgenden Abbildung beziehen?
-Beachten Sie dabei, dass
-$$\vec{a}_1=\frac{a}{2}\left(\hat{x}+\hat{y}\right), {\vec{a}}_2=\frac{a}{2}\left(\hat{y}+\hat{z}\right), {\vec{a}}_3=\frac{a}{2}\left(\hat{x}+\hat{z}\right)$$
+> __9) __Betrachten Sie die Ebenen mit den Millerschen Indizes (100) und (001); das Gitter habe die fcc-Struktur und die Indizes beziehen sich auf die übliche kubische Zelle. Wie lauten die Indizes dieser Ebenen, wenn sie sich auf die primitiven Achsen der folgenden Abbildung beziehen?
+Beachten Sie dabei, dass 
+$${\vec{a}}_1=\frac{a}{2}\left(\hat{x}+\hat{y}\right), {\vec{a}}_2=\frac{a}{2}\left(\hat{y}+\hat{z}\right), {\vec{a}}_3=\frac{a}{2}\left(\hat{x}+\hat{z}\right)$$
 
 
 ![fcc-Gitter dargestellt mit primitiver Basis](media/primitiveBasisfcc.png)
 
+**Lösung Aufgabe 9**
 
 Die (100)-Ebene normal zur kubischen x-Achse schneidet die $\vec{a_1}$-Achse bei $2\cdot \vec{a_1}$ und die  $\vec{a_3}$-Achse bei $2\cdot \vec{a_3}$. Die Ebene ist parallel zu $\vec{a_2}$. Die Indizierung der (100)-Ebene (im kubischen System) im $\vec{a_i}$-System ist also (101).
 
 Die (001)-Ebene normal zur kubischen z-Achse schneidet die $\vec{a_2}$-Achse bei $2\cdot \vec{a_2}$ und die  $\vec{a_3}$-Achse bei $2\cdot \vec{a_3}$. Die Ebene ist parallel zu $\vec{a_1}$. Die Indizierung der (100)-Ebene (im kubischen System) im $\vec{a_i}$-System ist also (011).
 
-## Lösung Aufgabe 10
-Zeigen Sie, dass das Verhältnis c/a für eine hexagonal dichtgepackte Struktur gleich $\sqrt{8/3}$ ist.
+## Aufgabe 10
+
+> __10) __Zeigen Sie, dass das Verhältnis c/a für eine hexagonal dichtgepackte Struktur gleich $\sqrt{8/3}$ ist.
+
+**Lösung Aufgabe 10**
 
 Betrachten Sie die Stapelfolgen im hexagonal dichtgepacktesten Gitter:
 ![Details Stapelfolge hexagonales Gitter](media/hexagonal.png)
 *Details hexagonales Gitter; Lage des Atoms in der nächsten gestapelten Ebene. Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 Es gilt 
-
-
 
 $$\frac{\frac{a}{2}}{d}=\mathrm{cos}(30°) \Rightarrow d=\frac{a}{2\cdot \mathrm{cos}(30°)}=\frac{a}{2\cdot \frac{1}{2}\cdot \sqrt{3}}$$
 
