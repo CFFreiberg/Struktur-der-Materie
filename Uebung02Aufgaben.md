@@ -20,46 +20,60 @@ comment:  Struktur der Materie Übung 02
 
 # Übung 2 (Kristallgitter)
 
+
 ## Aufgabe 1
 > __1.a) __Aus welchen beiden Elementen setzt sich jede Kristallstruktur zusammen? 
 
+{{0}}
 **Lösung Aufgabe 1a**
 
+{{1}}
  Kristallstruktur = Gitter + Basis
 
+{{2}}
 > __1.b) __Was beschreiben Gittertranslationsvektoren?
 
+
+{{3}}
 Gittertranslationsvektoren $\vec{a_1}$, $\vec{a_2}$, $\vec{a_3}$ werden so gewählt, dass von jedem Punkt $\vec{r'}$ aus betrachtet das Gitter in jeder Hinsicht gleich aussieht wie vom Punkt $\vec{r}$ 
 
+{{4}}
 Es gilt
 $$\vec{r'}=\vec{r}+ u_1\cdot \vec{a_1}+ u_2\cdot \vec{a_2}+u_3\cdot \vec{a_3}=\vec{r}+\vec{T}$$
 mit $u_i \in  \mathbb{Z}$ und $\vec{T}$ = Translationsvektor.
 
+{{5}}
 > __1.c) __Wie ist die primitive Elementarzelle eines Gitters definiert?
 
-
+{{6}}
 [Parallelepiped](https://de.wiktionary.org/wiki/Parallelepiped "Bild Parallelepiped auf Wikipedia"), das durch primitive Achsen  $\vec{a_1}$, $\vec{a_2}$, $\vec{a_3}$ aufgespannt wird. eine primitive Elementarzelle ist eine Zelle mit kleinstem Volumen.
 
-
+{{7}}
 ![Parallelepiped](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Parallelepiped2.svg/330px-Parallelepiped2.svg.png "* Quelle: ["Drawing of a parallelepiped."](https://commons.wikimedia.org/wiki/File:Parallelepiped2.svg) by Niabot licensed under [CC BY 3.0 DEED](hhttps://creativecommons.org/licenses/by/3.0/deed.en *")
 
+{{8}}
 > __1.d) __Wie viele Gitterpunkte liegen in einer primitiven Elementarzelle?
 
+{{9}}
 1 Gitterpunkt pro Ecke, 8 Ecken, jede Ecke gehört zu 8 Parallelepipeden $\Rightarrow \frac{8}{8}=1$ 
 
+{{10}}
 > __1.e) __Wie groß ist das Volumen einer primitiven Elementarzelle, ausgedrückt durch die Gittertranslationsvektoren?
 
+
+{{11}}
 $$V=\left |\vec{a_1}\cdot \vec{a_2} \times \vec{a_3}  \right |$$ 
 mit $\vec{a_1}$, $\vec{a_2}$, $\vec{a_3}$ primitive Basisvektoren (Gittervektoren)
 
 ## Aufgabe 2
+
 > __2) __Unter der Annahme, dass im folgenden Gitter die Punkte alle identische Atome sind, zeichnen Sie bitte im Bild die Gitterpunkte ein, ebenfalls ein mögliches Paar von primitiven Achsen, eine primitive Zelle und die Basis von Atomen, die auf einem Gitterpunkt sitzt.
 ![Gitter: Bitte zeichnen Sie Gitterpunkte und ein Paar primitive Achsen ein sowie eine Basis](media/GitterundBasis.png "*Bildquelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
+{{0}}
 **Lösung Aufgabe 2**
 
-Unter der Annahme, dass im folgenden Gitter die Punkte alle identische Atome sind, zeichnen Sie bitte im Bild die Gitterpunkte ein, ebenfalls ein mögliches Paar von primitiven Achsen, eine primitive Zelle und die Basis von Atomen, die auf einem Gitterpunkt sitzt.
-
+{{1}}
 ![primitive Achsen und Basis](media/basis.png "*Eine der vielen Varianten für Gitterpunkte und primitive Achsen. Bildquelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
 
@@ -67,16 +81,21 @@ Unter der Annahme, dass im folgenden Gitter die Punkte alle identische Atome sin
 
 > __3a) __Was ist ein Bravaisgitter? Beschreiben Sie ein Bravaisgitter mit einer Formel
 
+{{0}}
 **Lösung Aufgabe 3a**
 
+
+{{1}}
 Ein Bravaisgitter ist ein mathematisches Konzept in der Kristallographie, das die periodische Anordnung von Gitterpunkten in einem Kristall beschreibt. Es beschreibt die räumliche Anordnung der Gitterpunkte und gibt die geometrische Grundstruktur des Kristalls an.
 
+{{2}}
 Mathematisch wird ein Bravaisgitter durch die sogenannte Bravais-Gittervektorformel beschrieben:
-
 $$\vec{r'}=\vec{r}+ u_1\cdot \vec{a_1}+ u_2\cdot \vec{a_2}+u_3\cdot \vec{a_3}=\vec{r}+\vec{T}$$
 
+{{2}}
 mit $u_i \in  \mathbb{Z}$ und $\vec{a_i}$ linear unabhängige Bravais-Gittervektoren
 
+{{3}}
 Es gibt 14 verschiedene Bravais-Gitter im 3-dimensionalem Raum, die in 7 Kristallsysteme klassifiziert sind.
 
 > __3b) __Was beschreiben Punktgruppen?
