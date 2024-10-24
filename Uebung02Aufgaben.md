@@ -307,7 +307,7 @@ Die (001)-Ebene normal zur kubischen z-Achse schneidet die $\vec{a_2}$-Achse bei
 Betrachten Sie das Modell von einem hexagonalen Gitter:
 
 {{0}}
-![Modell hexagonales Gitter](media/hexagonalFotoSeite.png "*Seitenansicht Modell hexagonales Gitter Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")![Modell hexagonales Gitter](media/hexagonalFotodrauf.png "*Draufsicht Modell hexagonales Gitter Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+![Modell hexagonales Gitter](media/hexagonalFotoSeite.png "*Seitenansicht Modell hexagonales Gitter Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")![Modell hexagonales Gitter](media/hexagonalFotodrauf2.png "*Draufsicht Modell hexagonales Gitter Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
 {{1}}
 Betrachten Sie die Stapelfolgen im hexagonal dichtgepacktesten Gitter:
