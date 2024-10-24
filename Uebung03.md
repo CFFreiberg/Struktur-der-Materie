@@ -16,9 +16,8 @@ title: Übung Struktur der Materie I, Arbeitsblatt 3
 ## Aufgabe 1
 >__1.__  Durch welches Bravais-Gitter lässt sich ein flächenzentriert tetragonales Gitter beschreiben. Welcher Zusammenhang besteht zwischen den Gitterkonstanten der beiden Gitter und dem Volumen der Einheitszellen?
 
-!["flächenzentriertes tetragonales Gitter"](media/flaechenzentriert_tetragonal.png)
+![flächenzentriertes tetragonales Gitter](media/flaechenzentriert_tetragonal.png "*Beispiel für flächenzentriertes tetragonales Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
- *Beispiel für flächenzentriertes tetragonales Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 **Lösung Aufgabe 1** 
 
@@ -26,19 +25,17 @@ Ein flächenzentriertes tetragonales Gitter lässt sich durch eine 45° Drehung 
 $c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen.
 
 
-!["flächenzentriertes tetragonales Gitter"](media/flaechenzentriert-tetragonal2.png)
+![flächenzentriertes tetragonales Gitter](media/flaechenzentriert-tetragonal2.png "*Beispiel für flächenzentriertes tetragonales Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
- *Beispiel für flächenzentriertes tetragonales Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
-
+ 
 ## Aufgabe 2
 >__2.__  Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed), charakterisiert durch den kleinsten Abstand $a_\mathrm{ccp}$ der Atome und den Abstand $c_\mathrm{ccp}$  (mit dem sich die Stapelung der dichtest gepackten Ebenen wiederholt) auf der einen Seite und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten $a_\mathrm{fcc}$? 
 
-Hinweis: Der Begriff fcc wird oft als Synonym für die kubisch dicht gepackte Struktur (ccp) in Metallen verwendet. Allerdings steht fcc für ein kubisch-flächenzentriertes Bravais-Gitter, das nicht unbedingt dicht gepackt ist, wenn eine Basis auf die Gitterpunkte gesetzt wird. So sind z. B. das Diamant- und das Zinkblende-Gitter fcc, aber nicht dicht gepackt. 
+Hinweis: Der Begriff fcc wird oft als Synonym für die kubisch dicht gepackte Struktur (ccp) in Metallen verwendet. Allerdings steht fcc für ein kubisch-flächenzentriertes Bravais-Gitter, das nicht unbedingt dicht gepackt ist, wenn eine Basis mit mehr als einem Atom auf die Gitterpunkte gesetzt wird. So sind z. B. das Diamant- und das Zinkblende-Gitter fcc, aber nicht dicht gepackt. 
 
-![Ebenen-Stapelfolge  ccp-Gitter](media/ccpKugelpackung.png)
+![Ebenen-Stapelfolge  ccp-Gitter](media/ccpKugelpackung.png "*Bildquelle: CdangDerivative work: Muskid - Abwandlung von Empilement_compact.svg, [CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=33976067)*")
 
 
-*Bildquelle: CdangDerivative work: Muskid - Abwandlung von Empilement_compact.svg, [CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=33976067)*
 
 Bestimmen Sie die daraus resultierenden Beziehungen zu $a_\mathrm{ccp}$ und $c_\mathrm{ccp}$ eines ccp-Gitters.
 
@@ -46,9 +43,8 @@ Bestimmen Sie die daraus resultierenden Beziehungen zu $a_\mathrm{ccp}$ und $c_\
 
 Das ccp-Gitter weist in vertikaler Richtung die Reihenfolge ABCABCABC… dichtest gepackter Ebenen auf.
 
-![kubische Einheitszelle kfz](media/kupfer.png)
+![kubische Einheitszelle kfz](media/kupfer.png "* Blick auf kubische fcc Zelle n [111]-Richtung; [Bildquelle](http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html)*" )
 
-*Bildquelle: http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html*
 
 Die Raumdiagonale der kubischen Einheitszelle entspricht der
 "Gitterkonstanten" $c$  des ccp-Gitters: $c = \sqrt{3}\cdot a_\mathrm{fcc}$  und die Gitterkonstante $a$ der Hälfte der Flächendiagonalen:  $a_\mathrm{fcc} = \sqrt{2} \cdot a$. 
@@ -62,9 +58,9 @@ Wie groß ist das Verhältnis  $\frac{c_\mathrm{hex}}{a_\mathrm{ccp}}$ ?
 
 **Lösung Aufgabe 3**
 
-![Vergleich Stapelfolgen ccp und hcp](media/VglStapelfolgen.png)
+![Vergleich Stapelfolgen ccp und hcp](media/VglStapelfolgen.png "*Vergleich der Stapelfolgen für ccp und hcp Gitter; Quelle:  Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/), Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
-*Vergleich der Stapelfolgen für ccp und hcp Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
 
 Das ccp-Gitter (links in der Abbildung) hat die Stapelfolge ABCABC der dichtest gepackten Ebenen. Das hcp-Gitter (rechts in der Abbildung) hat die Stapelfolge ABABAB der dichtest gepackten Ebenen. 
 Die "Wiederhollänge" beträgt bei ccp 3 Ebenenabstände, bei hcp 2 Ebenenabstände. Also ist $c_\mathrm{hcp} =\frac{2}{3}\cdot c_\mathrm{ccp} $
@@ -106,13 +102,13 @@ $$
 $$\Rightarrow a=4,09 \cdot 10^{-8} \mathrm{cm}= 4,09 \cdot 10^{-10} \mathrm{m}$$
 
 ## Aufgabe 6
->__6.__ Geben Sie für Steinsalz die Koordinaten der Natrium- und Clorionen in Einheiten der Gitterkonstanten $a$ an.
+>__6.__ Geben Sie für Steinsalz die Koordinaten der Natrium- und Chlorionen in Einheiten der Gitterkonstanten $a$ an.
 
 **Lösung Aufgabe 6**
 
-![](https://www.tf.uni-kiel.de/matwis/amat/mw1_ge/kap_3/illustr/nacl_gitter.png)
+![NACl-Gitter](https://www.tf.uni-kiel.de/matwis/amat/mw1_ge/kap_3/illustr/nacl_gitter.png "*NaCl-Gitter, Quelle: [Uni Kiel](https://www.tf.uni-kiel.de/matwis/amat/mw1_ge/kap_3/backbone/r3_3_3.html)*")
 
-*Quelle: [Uni Kiel](https://www.tf.uni-kiel.de/matwis/amat/mw1_ge/kap_3/backbone/r3_3_3.html)*
+
 
 NaCl: fcc-Gitter mit Basis:
 
@@ -130,9 +126,8 @@ Na:  $(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$;  $(0, 0,\frac{1}{2})$;  $(0, \fra
 
 **Lösung Aufgabe 7**
 
-![Zinkblende-Struktur](https://upload.wikimedia.org/wikipedia/commons/1/12/Sphalerite_polyhedra.png)
+![Zinkblende-Struktur](https://upload.wikimedia.org/wikipedia/commons/1/12/Sphalerite_polyhedra.png "*Zinkblende-Struktur, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Zinkblende-Struktur)*")
 
-*Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Zinkblende-Struktur)*
 
 Die Zinkblende-Struktur wird auch Spahlerit genannt und ist $\alpha$-ZnS. Vergleichen Sie die Struktur mit dem Diamantgitter. Erkennen Sie Ähnlichkeiten?
 Der kürzeste Abstand zweier (unterschiedlicher) Atome ist 1/4 der Raumdiagonalen:
@@ -145,22 +140,23 @@ $$r_0=\frac{\sqrt{3}}{4}$$
 
 **Lösung Aufgabe 8**
 
-Das fcc Gitter hat 4 Gitteratome: Jede der acht Ecken eines Würfels werden von insgesamt 8 aneinanderstoßenden Wüfel geteilt. Dann gibt es noch 6 Flächenmitten, die jeweils von zwei Würfeln geteilt werden also: $4=8\cdot\frac{1}{8}+6 \cdot\frac{1}{2}$ 
+Das fcc Gitter hat 4 Gitteratome pro kubischer Einheitszelle: Jede der acht Ecken eines Würfels werden von insgesamt 8 aneinanderstoßenden Wüfel geteilt. Dann gibt es noch 6 Flächenmitten, die jeweils von zwei Würfeln geteilt werden also insgesamt: 
+$$N_\mathrm{Atome/EZ}=8\cdot\frac{1}{8}+6 \cdot\frac{1}{2}=4$$ 
 
 
 **Oktaederlücke** im fcc:
 
 
-![Oktaederlücke im fcc-Gitter](https://upload.wikimedia.org/wikipedia/commons/c/c7/Oktaederl%C3%BCcke.png)
-
-*Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Oktaederl%C3%BCcke)*
+![Oktaederlücke im fcc-Gitter](https://upload.wikimedia.org/wikipedia/commons/c/c7/Oktaederl%C3%BCcke.png "*Oktaederlücke im fcc-Gitter, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Oktaederl%C3%BCcke)*")
 
 
-Es gibt 1 oktaedrische Lücke in der Mitte des Würfels und je eine an den zwölf Kanten, die aber nur zu einem Viertel zählen, da jede Kante von vier Würfeln geteilt wird: $4=1+12\cdot \frac{1}{4}$
+Es gibt 1 oktaedrische Lücke in der Mitte des Würfels und je eine an den zwölf Kanten, die aber nur zu einem Viertel zählen, da jede Kante von vier Würfeln geteilt wird: 
+$$N_{\mathrm{Oktaederlücke}}=1+12\cdot \frac{1}{4}=4$$
 
 **Tetraederlücke** im fcc:
-![Tetraederlücke im fcc-Gitte](https://upload.wikimedia.org/wikipedia/commons/f/fc/FCC_Tetrahedral_Void.jpg)
+![Tetraederlücke im fcc-Gitter](https://upload.wikimedia.org/wikipedia/commons/f/fc/FCC_Tetrahedral_Void.jpg "*Tetraederlücke im fcc-Gitter, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Tetraederl%C3%BCcke)* ")
 
-*Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Tetraederl%C3%BCcke)*
+
 
 Es gibt je 1 tetraedrische Lücke in der Mitte eines Würfel-Achtels (Würfeloktand). Da es 8 Würfelachtel gibt, gibt es acht Tetraederlücken.
+$$N_{\mathrm{Tetraederlücke}}=1\cdot 8=8$$
