@@ -250,7 +250,7 @@ Es gibt 7 Kristallsysteme
 |![Würfel](media/Wuerfel3zDrehachse.png) | ![Würfel](media/Wuerfel2zDrehachse.png)|
 
 {{1}}
-*Bildquelle:*
+*[Bildquelle ETHzürich, Geometrie, Tom Ilmanen](https://metaphor.ethz.ch/x/2020/hs/401-1511-00L/sc/lec11.pdf)*
 
 ## Aufgabe 8
 
