@@ -106,7 +106,7 @@ Es gibt 14 verschiedene Bravais-Gitter im 3-dimensionalem Raum, die in 7 Kristal
 **Lösung Aufgabe 3b**
 
 {{6}}
-Punktgruppen sind ein Konzept in der Kristallographie und beschreiben die symmetrischen Eigenschaften eines Kristalls. Sie repräsentieren die Gesamtheit aller möglichen räumlichen Transformationen, die den Kristall in sich selbst überführen.
+Punktgruppen sind ein Konzept in der Kristallographie und beschreiben die symmetrischen Eigenschaften eines Kristalls. Sie repräsentieren die Gesamtheit aller möglichen räumlichen Transformationen (Symmetrieoperationen), die den Kristall in sich selbst überführen.
 
 {{6}}
 Die Symmetrieoperationen sind Kombination aus Drehungen, Spiegelungen und Inversionen, die um einen gemeinsamen Punkt (Symmetriezentrum) herum wirken. 
@@ -124,7 +124,7 @@ Es gibt insgesamt 32 mögliche Punktgruppen im 3D. Sie spielen eine Rolle bei de
 Translationsgruppen beschreiben die räumlichen Verschiebungen von Gitterpunkten in einem Kristall entlang diskreter Richtungen und diskreter Beträge. 
 
 {{9}}
-In einer Translationsgruppe werden die Gitterpunkte um Translationsvektoren verschoben.Damit können alle Gitterpunkte eines Kristalls erzeugt werden.
+In einer Translationsgruppe werden die Gitterpunkte um Translationsvektoren verschoben. Damit können alle Gitterpunkte eines Kristalls erzeugt werden.
 Sie sind ein grundlegendes Konzept in der Kristallographie und ermöglichen die mathematische Darstellung der Kristallstruktur.
 
 
@@ -181,7 +181,7 @@ $\Rightarrow$ 230 Raumgruppen
 |$\bar{2}=m$|![Spiegelebene](media/Spiegelebene1.png)<!--width="20%"--> oder ![Spiegelebene](media/Spiegelebene2.png)<!--width="20%"-->  |zweizählige Drehinversionsachse bzw. Spiegelebene senkrecht zur Zeichenebene (oben) oder in der Zeichenebene (unten) |
 |$\bar{3}=3+\bar{1}$|![Drehinversion](media/Drehinvesion120.png)<!--width="20%"-->|Drehung um 120° gefolgt von Inversion|
 |$\bar{4}$|![Drehinversion](media/Drehinvesion90.png)<!--width="20%"-->|Drehung um 90° gefolgt von Inversion|
-|$\bar{6}=3+m \perp 3$|![Drehinversion](media/Drehinvesion60.png)<!--width="20%"-->|Drehung um 120° gefolgt von Inversion|
+|$\bar{6}=3+m \perp 3$|![Drehinversion](media/Drehinvesion60.png)<!--width="20%"-->|Drehung um 60° gefolgt von Inversion|
 
 
 ## Aufgabe 5
@@ -250,7 +250,7 @@ Es gibt 7 Kristallsysteme
 |![Würfel](media/Wuerfel3zDrehachse.png) | ![Würfel](media/Wuerfel2zDrehachse.png)|
 
 {{1}}
-*Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+*Bildquelle:*
 
 ## Aufgabe 8
 
@@ -303,6 +303,7 @@ Die (001)-Ebene normal zur kubischen z-Achse schneidet die $\vec{a_2}$-Achse bei
 
 {{0}}
 **Lösung Aufgabe 10**
+
 Betrachten Sie das Modell von einem hexagonalen Gitter:
 
 {{0}}
