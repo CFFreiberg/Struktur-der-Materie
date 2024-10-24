@@ -161,10 +161,13 @@ $\Rightarrow$ Gesamtheit aller möglichen räumlichen Transformationen
 $\Rightarrow$ 230 Raumgruppen
 
 ## Aufgabe 4
+
 > __5) __Listen Sie alle 10 möglichen Symmetrieoperationen in einer Tabelle auf und notieren Sie dazu das internationale Symbol und das grafische Symbol!
 
+{{0}}
 **Lösung Aufgabe 4**
 
+{{1}}
 <!-- data-type="none" --> 
 | int. Symbol     |       grafisches Symbol       |  Symmetrieoperation |
 | :------------- |:----------------:| :-------:|
@@ -185,11 +188,13 @@ $\Rightarrow$ 230 Raumgruppen
 
 ![Penrose-Muster](https://upload.wikimedia.org/wikipedia/commons/7/7e/Pen0305c.gif "*Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Penrose-Parkettierung)*")
 
-
+{{0}}
 **Lösung Aufgabe 5**
 
+{{1}}
 Nein. Ein Penrose-Muster ist ein aperiodisches Muster, es besitzt keine periodische Wiederholungseinheit. 
 
+{{1}}
 $\Rightarrow$ faszinierendes Beispiel für aperiodische Strukturen, benötigt mindestens 2 verschiedene Baueinheiten (Polygone): *kite* = Drachen und *dart* = Pfeile.
 
 
@@ -198,10 +203,13 @@ $\Rightarrow$ faszinierendes Beispiel für aperiodische Strukturen, benötigt mi
 > __a) __Wie viele verschiedene Möglichkeiten erhält man, wenn von primitiven Elementarzellen ausgeht und daraus Gitter verschiedener Symmetrie aufbaut? 
 > __b) __Welche Kristallsysteme gibt es konkret, welche der Varianten (primitiv, basiszentriert, flächenzentriert, raumzentriert) kommen vor, welche Bedingungen gelten für die Winkel und Längen der Basisvektoren? Erstellen Sie bitte eine Tabelle? 
 
+{{0}}
 **Lösung Aufgabe 6**
 
+{{1}}
 Es gibt 7 Kristallsysteme
 
+{{1}}
 <!-- data-type="none" --> 
 | Kristallsystem     |       Anzahl Gitter       |  Zentrierungen |Einschränkungen| Bild|
 | :------------- |:----------------:| :-------:|:---: |:---:| 
@@ -227,8 +235,10 @@ Es gibt 7 Kristallsysteme
 |alle 3-zähligen Drehachsen|alle 2-zähligen Drehachsen (ohne die 4-zähligen)|
 |![Würfel](media/Wuerfel.png) | ![Würfel](media/Wuerfel.png)|
 
+{{0}}
 **Lösung Aufgabe 7**
 
+{{1}}
 <!-- data-type="none" --> 
 |       |               |
 | :-------------: |:----------------:|
@@ -247,8 +257,10 @@ Es gibt 7 Kristallsysteme
 |![Millersche Indices?](media/Mi1.png)|![Millersche Indices?](media/Mi2.png)| ![Millersche Indices?](media/Mi3.png)|
 |![Millersche Indices?](media/Mi4.png)|![Millersche Indices?](media/Mi5.png)| ![Millersche Indices?](media/Mi6.png)|
 
+{{0}}
 **Lösung Aufgabe 8**
 
+{{1}}
 <!-- data-type="none" --> 
 |       |               | |
 | :-------------: |:----------------:|:----------------:|
@@ -266,39 +278,50 @@ $${\vec{a}}_1=\frac{a}{2}\left(\hat{x}+\hat{y}\right), {\vec{a}}_2=\frac{a}{2}\l
 
 ![fcc-Gitter dargestellt mit primitiver Basis](media/primitiveBasisfcc.png)<!--width="100%"--> 
 
+{{0}}
 **Lösung Aufgabe 9**
 
+{{1}}
 Die (100)-Ebene normal zur kubischen x-Achse schneidet die $\vec{a_1}$-Achse bei $2\cdot \vec{a_1}$ und die  $\vec{a_3}$-Achse bei $2\cdot \vec{a_3}$. Die Ebene ist parallel zu $\vec{a_2}$. Die Indizierung der (100)-Ebene (im kubischen System) im $\vec{a_i}$-System ist also (101).
 
+{{1}}
 Die (001)-Ebene normal zur kubischen z-Achse schneidet die $\vec{a_2}$-Achse bei $2\cdot \vec{a_2}$ und die  $\vec{a_3}$-Achse bei $2\cdot \vec{a_3}$. Die Ebene ist parallel zu $\vec{a_1}$. Die Indizierung der (100)-Ebene (im kubischen System) im $\vec{a_i}$-System ist also (011).
 
 ## Aufgabe 10
 
 > __10) __Zeigen Sie, dass das Verhältnis c/a für eine hexagonal dichtgepackte Struktur gleich $\sqrt{8/3}$ ist.
 
+{{0}}
 **Lösung Aufgabe 10**
 Betrachten Sie das Modell von einem hexagonalen Gitter:
 
+{{0}}
 ![Modell hexagonales Gitter](media/hexagonalFotoSeite.png "*Seitenansicht Modell hexagonales Gitter Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")![Modell hexagonales Gitter](media/hexagonalFotodrauf.png "*Draufsicht Modell hexagonales Gitter Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
-
+{{1}}
 Betrachten Sie die Stapelfolgen im hexagonal dichtgepacktesten Gitter:
 ![Details Stapelfolge hexagonales Gitter](media/hexagonal.png "*Details hexagonales Gitter; Lage des Atoms in der nächsten gestapelten Ebene. Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="60%"--> 
 
-
+{{2}}
 Es gilt 
 
+{{2}}
 $$\frac{\frac{a}{2}}{d}=\mathrm{cos}(30°) \Rightarrow d=\frac{a}{2\cdot \mathrm{cos}(30°)}=\frac{a}{2\cdot \frac{1}{2}\cdot \sqrt{3}}$$
 
-
+{{3}}
 $d$ ist der auf die Grundebene projezierte Abstand der auf der Lücke plazierten (gedachten) Kugel zur zentralen Kugel, jeweils von Kugelmittelpunkt zu Kugelmittelpunkt gemessen.
 
+{{3}}
 Wenn die umgebenden Kugeln Kontakt haben, dann gilt:
 
+{{4}}
 $$ a^2=d^2+\left( \frac{c}{2} \right)^2=\frac{a^2}{3}+\left( \frac{c}{2} \right)^2$$
 
+{{5}}
 $$\Rightarrow \frac{2}{3}a^2=\frac{c^2}{4} $$
 
+{{6}}
 $$\Rightarrow\frac{c^2}{a^2}=\frac{8}{3}$$
 
+{{7}}
 $$\Rightarrow \frac{c}{a}=\sqrt{\frac{8}{3}}=1,633.$$
