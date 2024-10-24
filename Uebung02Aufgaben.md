@@ -235,7 +235,7 @@ Es gibt 7 Kristallsysteme
 |![Würfel](media/Wuerfel.png) |![Würfel](media/Wuerfel.png) |
 |alle 3-zähligen Drehachsen|alle 2-zähligen Drehachsen (ohne die 4-zähligen)|
 |![Würfel](media/Wuerfel.png) | ![Würfel](media/Wuerfel.png)|
-*Bilder erstellt mit VESTA:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+*Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 {{0}}
 **Lösung Aufgabe 7**
@@ -249,6 +249,9 @@ Es gibt 7 Kristallsysteme
 |alle 3-zähligen Drehachsen|alle 2-zähligen Drehachsen (ohne die 4-zähligen)|
 |![Würfel](media/Wuerfel3zDrehachse.png) | ![Würfel](media/Wuerfel2zDrehachse.png)|
 
+{{1}}
+*Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
 ## Aufgabe 8
 
 > __8) __Geben sie für die in der folgenden Abbildung eingezeichneten Ebenen die Millerschen Indices an. (Achsen: rot a, grün b, blau c)
@@ -258,6 +261,8 @@ Es gibt 7 Kristallsysteme
 | :-------------: |:----------------:|:----------------:|
 |![Millersche Indices?](media/Mi1.png)|![Millersche Indices?](media/Mi2.png)| ![Millersche Indices?](media/Mi3.png)|
 |![Millersche Indices?](media/Mi4.png)|![Millersche Indices?](media/Mi5.png)| ![Millersche Indices?](media/Mi6.png)|
+
+*Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 {{0}}
 **Lösung Aufgabe 8**
@@ -271,6 +276,9 @@ Es gibt 7 Kristallsysteme
 |![Millersche Indices?](media/Mi4L.png)|![Millersche Indices?](media/Mi5L.png)| ![Millersche Indices?](media/Mi6L.png)|
 |(123)|(200)|(211)|
 
+{{1}}
+*Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
+
 ## Aufgabe 9
 
 > __9) __Betrachten Sie die Ebenen mit den Millerschen Indizes (100) und (001); das Gitter habe die fcc-Struktur und die Indizes beziehen sich auf die übliche kubische Zelle. Wie lauten die Indizes dieser Ebenen, wenn sie sich auf die primitiven Achsen der folgenden Abbildung beziehen?
@@ -278,7 +286,7 @@ Beachten Sie dabei, dass
 $${\vec{a}}_1=\frac{a}{2}\left(\hat{x}+\hat{y}\right), {\vec{a}}_2=\frac{a}{2}\left(\hat{y}+\hat{z}\right), {\vec{a}}_3=\frac{a}{2}\left(\hat{x}+\hat{z}\right)$$
 
 
-![fcc-Gitter dargestellt mit primitiver Basis](media/primitiveBasisfcc.png)<!--width="100%"--> 
+![fcc-Gitter dargestellt mit primitiver Basis](media/primitiveBasisfcc.png "*Bild erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="100%"--> 
 
 {{0}}
 **Lösung Aufgabe 9**
