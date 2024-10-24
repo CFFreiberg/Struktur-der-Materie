@@ -67,7 +67,7 @@ mit $\vec{a_1}$, $\vec{a_2}$, $\vec{a_3}$ primitive Basisvektoren (Gittervektore
 
 ## Aufgabe 2
 
-> __2) __Unter der Annahme, dass im folgenden Gitter die Punkte alle identische Atome sind, zeichnen Sie bitte im Bild die Gitterpunkte ein, ebenfalls ein mögliches Paar von primitiven Achsen, eine primitive Zelle und die Basis von Atomen, die auf einem Gitterpunkt sitzt.
+> __2) __Unter der Annahme, dass im folgenden Gitter die Punkte alle identische Atome sind, zeichnen Sie bitte im Bild die **Gitterpunkte** ein, ebenfalls ein mögliches Paar von **primitiven Achsen**, eine **primitive Zelle** und die **Basis** von Atomen, die auf einem Gitterpunkt sitzt.
 ![Gitter: Bitte zeichnen Sie Gitterpunkte und ein Paar primitive Achsen ein sowie eine Basis](media/GitterundBasis.png "*Bildquelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
 {{0}}
@@ -146,18 +146,19 @@ Die Kombination von Translationsgruppen mit Punktgruppen ermöglicht die Beschre
 {{13}}
 Der Fokus ist also der Unterschied
 
+{{14}}
 >__3e) __Was beschreibt eine Raumgruppe
 
-{{14}}
+{{15}}
 **Lösung Aufgabe 3e**
 
-{{15}}
+{{16}}
 Eine Raumgruppe ist ein mathematisches Konzept in der Kristallographie, das die gesamte Symmetrien in einem Kristall beschreibt. Sie umfasst sowohl die Punktgruppen (Symmetrie um einen einzigen Punkt) als auch die Translationssymmetrie (räumliche Verschiebungen) der Gitterpunkte.
 
-{{15}}
+{{17}}
 $\Rightarrow$ Gesamtheit aller möglichen räumlichen Transformationen
 
-{{15}}
+{{18}}
 $\Rightarrow$ 230 Raumgruppen
 
 ## Aufgabe 4
@@ -234,6 +235,7 @@ Es gibt 7 Kristallsysteme
 |![Würfel](media/Wuerfel.png) |![Würfel](media/Wuerfel.png) |
 |alle 3-zähligen Drehachsen|alle 2-zähligen Drehachsen (ohne die 4-zähligen)|
 |![Würfel](media/Wuerfel.png) | ![Würfel](media/Wuerfel.png)|
+*Bilder erstellt mit VESTA:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 {{0}}
 **Lösung Aufgabe 7**
