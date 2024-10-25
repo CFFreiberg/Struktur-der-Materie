@@ -163,7 +163,7 @@ $\Rightarrow$ 230 Raumgruppen
 
 ## Aufgabe 4
 
-> __5) __Listen Sie alle 10 möglichen Symmetrieoperationen in einer Tabelle auf und notieren Sie dazu das internationale Symbol und das grafische Symbol!
+> __4) __Listen Sie alle 10 möglichen Symmetrieoperationen in einer Tabelle auf und notieren Sie dazu das internationale Symbol und das grafische Symbol!
 
 {{0}}
 **Lösung Aufgabe 4**
