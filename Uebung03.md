@@ -54,8 +54,7 @@ Die Raumdiagonale der kubischen Einheitszelle entspricht der
 Daraus folgt $c = \sqrt{6} \cdot a$.
 
 ## Aufgabe 3
->__3.__  Vergleichen Sie die Stapelfolgen der dichtest gepackten Ebenen von ccp-Kugelpackungen und hexagonal dichtest gepackten Kugelpackungen (hcp).
-Wie groß ist das Verhältnis  $\frac{c_\mathrm{hex}}{a_\mathrm{ccp}}$ ?
+>__3.__  Vergleichen Sie die Stapelfolgen der dichtest gepackten Ebenen von ccp-Kugelpackungen und hexagonal dichtest gepackten Kugelpackungen (hcp). Wie groß ist das Verhältnis  $\frac{c_\mathrm{hex}}{a_\mathrm{ccp}}$ ?
 
 {{0}}
 **Lösung Aufgabe 3**
