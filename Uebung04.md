@@ -23,113 +23,126 @@ comment:  Struktur der Materie Übung 4
 
 # Übung 4
 
+
 ## Aufgabe 1
 > __1.__ 	Die Achsvektoren des reellen Gitters seien $\vec{a}_1,\, \vec{a}_2,\,\vec{a}_3$. Wie sind mit diesen Vektoren die reziproken Gittervektoren $\vec{b}_1,\, \vec{b}_2,\,\vec{b}_3$   definiert? 
 
+{{1}}
 **Lösung Aufgabe 1:**
 
+{{2}}
 Das Volumen der Einheitszelle ist 
 $$V_\mathrm{EZ}=\vec{a}_1\cdot (\vec{a}_2\times \vec{a}_3)$$
-Die reziproken Gittervektoren sind definiert als 
 
+{{3}}
+Die reziproken Gittervektoren sind definiert als 
 $$\vec{b}_1=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_2\times\vec{a}_3)$$
 $$\vec{b}_2=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_3\times\vec{a}_1)$$
 $$\vec{b}_3=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_1\times\vec{a}_2)$$
 
+{{4}}
 Damit gilt: 
 $$\vec{b_i}\cdot \vec{a_j}=2\pi\delta_{ij}$$
 mit 
 $\delta_{ij}=1 $ für $i=j$ und $\delta_{ij}=0 $  für $i\ne j$.
 
+
 ## Aufgabe 2
->__2.__ 	Die primitiven Translationsvektoren des raumzentrierten Gitters sind $\vec{a}_1=\frac{a}{2}\cdot (-\hat{x}+\hat{y}+\hat{z}) $; $\vec{a}_2=\frac{a}{2}\cdot (\hat{x}-\hat{y}+\hat{z})$; $\vec{a}_3=\frac{a}{2}\cdot (\hat{x}+\hat{y}-\hat{z})$. 
-Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was für ein reziprokes Gitter ergibt sich?
+>__2.__ 	Die primitiven Translationsvektoren des raumzentrierten Gitters sind $\vec{a}_1=\frac{a}{2}\cdot (-\hat{x}+\hat{y}+\hat{z}) $; $\vec{a}_2=\frac{a}{2}\cdot (\hat{x}-\hat{y}+\hat{z})$; $\vec{a}_3=\frac{a}{2}\cdot (\hat{x}+\hat{y}-\hat{z})$. Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was für ein reziprokes Gitter ergibt sich?
 
-![bcc-Gitter, primitive Basis](media/bccprimitiveBasis.jpg)
+![bcc-Gitter, primitive Basis](media/bccprimitiveBasis.jpg "*Quelle:  Charles Kittel, Einführung in Festkörperphysik*")
 
-*Quelle:  Charles Kittel, Einführung in Festkörperphysik*
 
+{{1}}
 **Lösung Aufgabe 2:**
 
+{{2}}
 Zuerst wird das Volumen der Einheitszelle im realen Gitter berechnet. Dabei wird folgende Darstellung der $\vec{a_i} $ benutzt:
 
-
+{{3}}
 $\vec{a}_1=\frac{a}{2}\left(\begin{array}{c} -1 \\ 1 \\ 1 \end{array}\right) $, $\vec{a}_2=\frac{a}{2}\left(\begin{array}{c} 1 \\ -1 \\ 1 \end{array}\right) $; $\vec{a}_3=\frac{a}{2}\left(\begin{array}{c} 1 \\ 1 \\ -1 \end{array}\right) $; 
 
+{{4}}
 Damit ergibt sich 
-
-
-
 $$V_\mathrm{EZ}=\vec{a}_1\cdot (\vec{a}_2\times \vec{a}_3)=\frac{a^3}{8}\left(\begin{array}{c} -1 \\ 1 \\ 1 \end{array}\right)\cdot \left [\left(\begin{array}{c} 1 \\ -1 \\ 1 \end{array}\right) \times \left(\begin{array}{c} 1 \\ 1 \\ -1 \end{array}\right) \right ]$$
 
+{{5}}
 $$\Rightarrow V_\mathrm{EZ}=\frac{a^3}{8}\left(\begin{array}{c} -1 \\ 1 \\ 1 \end{array}\right)\cdot \left(\begin{array}{c} 0 \\ 2 \\ 2 \end{array}\right)=\frac{1}{2}a^3$$
 
+{{6}}
 Laut Definition sind die reziproken Gittervektoren damit 
 
+{{7}}
 $$\vec{b}_1=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_2\times\vec{a}_3)=\frac{2\pi}{\frac{1}{2}a^3}\cdot \left (\frac{a}{2}\right )^2\left( \begin{array}{c} 1 \\ -1 \\ 1 \end{array} \right)\times \left(\begin{array}{c} 1 \\ 1 \\ -1 \end{array}\right)=\frac{\pi}{a}\cdot \left( \begin{array}{c} 0 \\ 2 \\ 2 \end{array} \right)=\frac{2\pi}{a}\cdot \left( \begin{array}{c} 0 \\ 1 \\ 1 \end{array} \right)  $$
 
-
+{{8}}
 $$\vec{b}_2=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_2\times\vec{a}_3)=\frac{2\pi}{\frac{1}{2}a^3}\cdot \left (\frac{a}{2}\right )^2\left( \begin{array}{c} 1 \\ 1 \\ -1 \end{array} \right)\times \left(\begin{array}{c} -1 \\ 1 \\ 1 \end{array}\right)=\frac{\pi}{a}\cdot \left( \begin{array}{c} 2 \\ 0 \\ 2 \end{array} \right)=\frac{2\pi}{a}\cdot \left( \begin{array}{c} 1 \\ 0 \\ 1 \end{array} \right)  $$
 
+{{9}}
 $$\vec{b}_3=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_2\times\vec{a}_3)=\frac{2\pi}{\frac{1}{2}a^3}\cdot \left (\frac{a}{2}\right )^2\left( \begin{array}{c} -1 \\ 1 \\ 1 \end{array} \right)\times \left(\begin{array}{c} 1 \\ -1 \\ 1 \end{array}\right)=\frac{\pi}{a}\cdot \left( \begin{array}{c} 2 \\ 2 \\ 0 \end{array} \right)=\frac{2\pi}{a}\cdot \left( \begin{array}{c} 1 \\ 1 \\ 0 \end{array} \right)  $$
 
+{{10}}
 Das reziproke Gitter von bcc ist damit ein fcc-Gitter.
 
 ## Aufgabe 3
 >__3.__  Beweisen Sie, dass der Abstand zwischen zwei aufeinanderfolgenden parallelen Ebenen des Gitters gleich $d_\mathrm{hkl}=\frac{2\pi}{|\vec{G}_\mathrm{min}|}$ ist. Dabei ist $\vec{G}_\mathrm{min}$ der zur Ebenenschar $(h,k,l)$ gehörige kleinste reziproke Gittervektor. 
 
 
-
+{{1}}
 **Lösung Aufgabe 3:**
 
+{{2}}
 $\vec{n}=\frac{\vec{G}_{hkl}}{|\vec{G}_{hkl}|}$ ist der zu $\vec{G}_{hkl}$ gehörige Ebenennormalenvektor. Eine zu zur $(h,k,l)$ Ebene benachbarte äquivalente Ebene geht durch den Nullpunkt des Koordinatensystems.  Die Projektion eines beliebigen auf der Netzebene $\vec{G}$ gelegenen Punktes $\vec{r}$ auf $\vec{n}$ liefert den Ebenenabstand. Das gilt also auch für den Punkt  $\vec{r}=\frac{\vec{a}_1}{h} $ auf der Ebene (Schnittpunkt der Ebene mit der x-Achse): 
 
+{{2}}
+![Bild zur Erklärung der Berechnung des Ebenenabstandes](media/Ebenenabstand.png "*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
-![Bild zur Erklärung der Berechnung des Ebenenabstandes](media/Ebenenabstand.png)
 
-*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
-
+{{3}}
 $$d_\mathrm{hkl}=\vec{r} \cdot \frac{\vec{G}}{|\vec{G}|}=\frac{\vec{a}_1}{h}\cdot \frac{(h\vec{b}_1+k\vec{b}_2+l\vec{b}_3)}{|\vec{G}|}$$
 
+{{4}}
 Die Skalarprodukte $\vec{a}_1\cdot{\vec{b}_2}$ und $\vec{a}_1\cdot{\vec{b}_3}$ sind Null, da laut Definition $\vec{b}_2$ und  $\vec{b}_3$ senkrecht zu $\vec{a}_1$ sind. Also folgt:
 
+{{5}}
 $$d_\mathrm{hkl}=\frac{\vec{a}_1}{h}\left ( \frac{h\cdot 2\pi(\vec{a}_2 \times\vec{a}_3)}{ |\vec{G}|\cdot \vec{a}_1\cdot (\vec{a}_2\times \vec{a}_3)} \right)=\frac{2\pi}{|\vec{G}|}$$
 
 
 ## Aufgabe 4
 >__4.__  Zeigen Sie für ein einfach kubisches Gitter, dass $d_\mathrm{hkl}^2=\frac{a^2}{h^2+k^2+l^2} $ gilt!
 
-
+{{1}}
 **Lösung Aufgabe 4:**
 
+{{2}}
 Für ein einfach kubisches Gitter gilt: 
-
 $$\vec{G}= \left ( h\cdot \vec{b}_1+k\cdot \vec{b}_2+l\cdot \vec{b}_3\right)= \frac{2\pi}{a^3} \left ( h\cdot \vec{a}_2 \times \vec{a}_3 +k\cdot \vec{a}_3 \times \vec{a}_1+l\cdot \vec{a}_1 \times \vec{a}_2\right)$$
 
+{{3}}
 Für das kubische System folgt mit 
 
-$\vec{a}_1=a\cdot \vec{\hat{x}}$, $\,\,\,\vec{a}_2=a\cdot \vec{\hat{y}}$  und  $\,\,\,\vec{a}_3=a\cdot \vec{\hat{z}}$
- 
+{{3}}
+$\vec{a}_1=a\cdot \vec{\hat{x}}$, $\,\,\,\vec{a}_2=a\cdot \vec{\hat{y}}$  und  $\,\,\,\vec{a}_3=a\cdot \vec{\hat{z}}$,
  
   wobei  $\vec{\hat{x}}$, $\,\,\,\vec{\hat{y}}$ und $\,\,\,\vec{\hat{z}}$ orthogonales System von Einheitsvektoren: 
 
-
+{{4}}
 $$\vec{G}=\frac{2\pi}{a^3} \cdot (h\cdot  a^2 \cdot  \vec{\hat{y}}\times \vec{\hat{z}}  + k\cdot  a^2 \cdot \vec{\hat{z}}\times \vec{\hat{x}}+ l\cdot a^2 \cdot \vec{\hat{x}}\times \vec{\hat{y}})$$
 
+{{5}}
 Für das kubische System gilt:
 
+{{5}}
 $\vec{\hat{y}} \times \vec{\hat{z}}=\vec{\hat{x}}$, $\,\,\,\vec{\hat{z}} \times \vec{\hat{x}}=\vec{\hat{y}} $ und $\,\,\,\vec{\hat{x}} \times \vec{\hat{y}}=\vec{\hat{z}}$ .
 
+{{6}}
 $$\Rightarrow \vec{G}=\frac{2\pi a^2}{a} \cdot (h \vec{\hat{x}}  + k \cdot \vec{\hat{y}}+ l\cdot \vec{\hat{z}})$$
 
 
-
+{{7}}
 $$\Rightarrow |\vec{G}|=\frac{2\pi}{a} \sqrt{h^2  + k^2 + l^2} $$
 
-
-
-
-
+{{8}}
 $$\Rightarrow d_\mathrm{hkl} =\frac{2\pi}{|\vec{G}|}=2\pi\cdot \frac{a}{2\pi(\sqrt{h^2  + k^2 + l^2} }=\frac{a}{\sqrt{h^2+k^2+l^2}}$$
 
 
