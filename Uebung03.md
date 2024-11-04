@@ -47,12 +47,26 @@ Hinweis: Der Begriff fcc wird oft als Synonym für die kubisch dicht gepackte St
 Das ccp-Gitter weist in vertikaler Richtung die Reihenfolge ABCABCABC… dichtest gepackter Ebenen auf.
 
 {{1}}
-![kubische Einheitszelle kfz](media/kupfer.png "* Blick auf kubische fcc Zelle n [111]-Richtung; [Bildquelle](http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html)*" )
+![kubische Einheitszelle kfz](media/kupfer.png "* Blick auf kubische fcc Zelle in [111]-Richtung; [Bildquelle](http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html)*" )<!--width="100%"--> 
 
 {{2}}
 Die Raumdiagonale der kubischen Einheitszelle entspricht der
-"Gitterkonstanten" $c_\mathrm{ccp}$  des ccp-Gitters: $c_\mathrm{ccp} = \sqrt{3}\cdot a_\mathrm{fcc}$  und die Gitterkonstante $a_\mathrm{ccp}$ der Hälfte der Flächendiagonalen:  $a_\mathrm{fcc} = \sqrt{2} \cdot a$. 
-Daraus folgt $c = \sqrt{6} \cdot a$.
+"Gitterkonstanten" $c_\mathrm{ccp}$  des ccp-Gitters: $c_\mathrm{ccp} = \sqrt{3}\cdot a_\mathrm{fcc}$  
+
+{{3}}
+Der Zusammenhang zwischen der Gitterkonstanten $a_\mathrm{ccp}$ und dem normalen kubishen Gitterparameter $a_\mathrm{fcc}$ kann über folgende Abbildung hergeleitet werden:
+
+{{3}}
+![Zusammenhang zwischen $a_\mathrm{ccp}$ und dem normalen kubishen Gitterparameter $a_\mathrm{fcc}$](media/a_ccp_a_fcc.png "*Blick auf kubische fcc Zelle in $[\bar{1}00]$-Richtung Bild erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="100%"--> 
+
+{{4}}
+$$(2\cdot a_\mathrm{ccp})^2=2 \cdot a_\mathrm{fcc}^2$$
+$$\Rightarrow \sqrt{2} \cdot a_\mathrm{ccp}=a_\mathrm{fcc}$$
+
+{{5}}
+Einsetzen in der obigen Gleichung ergibt:
+$$c_\mathrm{ccp} = \sqrt{6} \cdot a_\mathrm{ccp}$$
+
 
 ## Aufgabe 3
 >__3.__  Vergleichen Sie die Stapelfolgen der dichtest gepackten Ebenen von ccp-Kugelpackungen und hexagonal dichtest gepackten Kugelpackungen (hcp). Wie groß ist das Verhältnis  $\frac{c_\mathrm{hex}}{a_\mathrm{ccp}}$ ?
