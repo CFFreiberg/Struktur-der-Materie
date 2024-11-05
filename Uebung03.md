@@ -9,6 +9,7 @@ title: Übung Struktur der Materie I, Arbeitsblatt 3
 }
 @end
 
+import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 -->
 
