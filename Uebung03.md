@@ -191,6 +191,64 @@ $$N_\mathrm{Atome/EZ}=8\cdot\frac{1}{8}+6 \cdot\frac{1}{2}=4$$
 {{2}}
 ![Oktaederlücke im fcc-Gitter](https://upload.wikimedia.org/wikipedia/commons/c/c7/Oktaederl%C3%BCcke.png "*Oktaederlücke im fcc-Gitter, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Oktaederl%C3%BCcke)*")
 
+``` @Kekule.load3d(mol)
+Picture 1                                                                       
+  PPPPPPPP          3D                              
+
+ 14 36  0  0  0  0  0  0  0  0  0     
+    0.0000    0.0000    3.5819 Cu  0  0  0  1
+    3.5819    0.0000    3.5819 Cu  0  0  0  1
+    0.0000    1.7910    1.7910 Cu  0  0  0  1
+    3.5819    1.7910    1.7910 Cu  0  0  0  1
+    1.7910    0.0000    1.7910 Cu  0  0  0  1
+    1.7910    1.7910    3.5819 Cu  0  0  0  1
+    0.0000   -1.7910    1.7910 Cu  0  0  0  1
+    0.0000   -1.7910    5.3729 Cu  0  0  0  1
+    0.0000    1.7910    5.3729 Cu  0  0  0  1
+    1.7910   -1.7910    3.5819 Cu  0  0  0  1
+    1.7910    0.0000    5.3729 Cu  0  0  0  1
+    3.5819   -1.7910    1.7910 Cu  0  0  0  1
+    3.5819   -1.7910    5.3729 Cu  0  0  0  1
+    3.5819    1.7910    5.3729 Cu  0  0  0  1
+  1  3  1  0  0  0  0
+  1  5  1  0  0  0  0
+  1  6  1  0  0  0  0
+  1  7  1  0  0  0  0
+  1  8  1  0  0  0  0
+  1  9  1  0  0  0  0
+  1 10  1  0  0  0  0
+  1 11  1  0  0  0  0
+  2  4  1  0  0  0  0
+  2  5  1  0  0  0  0
+  2  6  1  0  0  0  0
+  2 10  1  0  0  0  0
+  2 11  1  0  0  0  0
+  2 12  1  0  0  0  0
+  2 13  1  0  0  0  0
+  2 14  1  0  0  0  0
+  3  5  1  0  0  0  0
+  3  6  1  0  0  0  0
+  4  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  5  6  1  0  0  0  0
+  5  7  1  0  0  0  0
+  5 10  1  0  0  0  0
+  5 12  1  0  0  0  0
+  6  9  1  0  0  0  0
+  6 11  1  0  0  0  0
+  6 14  1  0  0  0  0
+  7 10  1  0  0  0  0
+  8 10  1  0  0  0  0
+  8 11  1  0  0  0  0
+  9 11  1  0  0  0  0
+ 10 11  1  0  0  0  0
+ 10 12  1  0  0  0  0
+ 10 13  1  0  0  0  0
+ 11 13  1  0  0  0  0
+ 11 14  1  0  0  0  0
+M  END
+```
+
 {{3}}
 Es gibt 1 oktaedrische Lücke in der Mitte des Würfels und je eine an den zwölf Kanten, die aber nur zu einem Viertel zählen, da jede Kante von vier Würfeln geteilt wird: 
 $$N_{\mathrm{Oktaederlücke}}=1+12\cdot \frac{1}{4}=4$$
