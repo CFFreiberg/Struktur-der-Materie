@@ -9,7 +9,7 @@ language: de
 
 narrator: Deutsch Female
 
-comment:  Struktur der Materie Übung 5, Komplexe Zahlen
+comment:  Struktur der Materie Übung 5
 
 @style
 .lia-toc__bottom {
