@@ -70,7 +70,7 @@ Der Strukturfaktor bietet eine mathematische Darstellung der Wechselwirkungen zw
 </details>
 
 ## Berechnung Strukturfaktor
-![Abbildung zur Berechnung des Phasenunterschiedes](/media/BerechnungWegunterschied_1.png "Abbildung zur Veranschaulichung der Berechnung des Phasenunterschiedes")
+![Abbildung zur Berechnung des Phasenunterschiedes](/media/BerechnungWegunterschied_1.png "*Abbildung zur Veranschaulichung der Berechnung des Phasenunterschiedes*")
 
 $r\cdot \mathrm{sin}(\varphi)$ ist der Wegunterschied zwischen dem abgebildten oberen und unteren Weg der (linken) einfallenden Welle. Der dazugehörige Phasenunterschied zwischen oberem und unterem Weg ist 
 $$2\pi\cdot\frac{r\cdot \mathrm{sin}(\varphi)}{\lambda}=\frac{2\pi}{\lambda}\cdot r\cdot \mathrm{sin}(\varphi)=\vec{k}\cdot\vec{r}$$
