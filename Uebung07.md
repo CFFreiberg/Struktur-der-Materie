@@ -69,6 +69,9 @@ Der Strukturfaktor bietet eine mathematische Darstellung der Wechselwirkungen zw
 
 </details>
 
+## Berechnung Strukturfaktor
+
+
 ## Aufgabe 1
                                       {{0}}
 
