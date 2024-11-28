@@ -33,7 +33,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 <summary>**Welleninterferenz: **</summary>
 
-Wenn Röntgen- oder Neutronenstrahlen auf einen Kristall treffen, verhalten sie sich wie Wellen. Diese Strahlen werden von den Atomen im Kristall gestreut, und die gestreuten Wellen überlagern sich. Die Wechselwirkung zwischen den Wellen, die von den verschiedenen Atomen ausgehen, führt zu konstruktiver Interferenz, wenn die Wellen in Phase sind, und destruktiver Interferenz, wenn sie außer Phase sind.
+Wenn Röntgen-, Elektronen- oder Neutronenstrahlen auf einen Kristall treffen, verhalten sie sich wie Wellen. Diese Strahlen werden von den Atomen im Kristall gestreut, und die gestreuten Wellen überlagern sich. Die Wechselwirkung zwischen den Wellen, die von den verschiedenen Atomen ausgehen, führt zu konstruktiver Interferenz, wenn die Wellen in Phase sind, und destruktiver Interferenz, wenn sie außer Phase sind.
 
 </details>
 
@@ -41,7 +41,7 @@ Wenn Röntgen- oder Neutronenstrahlen auf einen Kristall treffen, verhalten sie 
 
 <summary>**Atomare Positionen im Kristallgitter:**</summary>
 
-Der Strukturfaktor hängt von den Positionen der Atome im Kristallgitter ab. Die genaue räumliche Anordnung und die elektronische Verteilung der Atome beeinflussen die Art und Weise, wie die gestreuten Wellen interferieren.
+Der Strukturfaktor hängt von den Positionen der Atome im Kristallgitter ab. Die genaue räumliche Anordnung und insbesondere räumliche Verteilung der Elektronen (der Atome) beeinflusst die Art und Weise, wie die gestreuten Wellen interferieren.
 
 </details>
 
@@ -49,7 +49,7 @@ Der Strukturfaktor hängt von den Positionen der Atome im Kristallgitter ab. Die
 
 <summary>**Mathematische Darstellung:**</summary>
 
-Der Strukturfaktor wird mathematisch durch eine Gleichung dargestellt. Für ein Atom im Kristallgitter hängt der Strukturfaktor von der Position des Atoms, seiner Atomzahl (Anzahl der Elektronen) und anderen Faktoren ab.
+Der Strukturfaktor wird mathematisch durch eine Gleichung dargestellt. Für eine Kristallgitter hängt der Strukturfaktor von der Position der Atome in der sich wiederholenden Einheitszelle und damit auch von der Position der Atome in der Basis ab, ebenso wie von der Art und Anzahl der Atome in der Basis.
 
 </details>
 
