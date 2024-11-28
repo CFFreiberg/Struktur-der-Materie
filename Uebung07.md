@@ -79,7 +79,7 @@ Mit der gleichen Begründung ist die Phasendifferenz für den oberen Weg bei der
 Bei der einfallenden Welle ist die Phase vom oberen Weg bei $\mathrm{d}V$ schon weiter fortgeschritten im vergleich zum unteren Weg (über O). Achtung, beim gestreuten Röntgenstrahl ist die Phasse des oberen Weges vor dem Bilden der gemeinsamen Wellenfront schon vone weg gelaufen, deshalb hier das Minuszeichen. 
 Damit hat die Welle, die im Volumenelement $\mathrm{d}V$ gestreut wird, gegenüber der im Ursprung O gestreueten einen Phasenfaktor von $e^{i(\vec{k}-\vec{k}')\cdot \vec{r}}$
 
-Die gesamte Amplitude der in die Richtung $\vec{k}'$ gestreute Welle ist proportional zu 
+Die gesamte Amplitude der aus $\vec{k}'$ in die Richtung $\vec{k}'$ gestreute Welle ist proportional zu 
 $$\int_{dV} n(r)\cdot e^{i(\vec{k}-\vec{k}')\cdot \vec{r}} $$
 
 ## Aufgabe 1
