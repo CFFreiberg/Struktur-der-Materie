@@ -70,7 +70,7 @@ Der Strukturfaktor bietet eine mathematische Darstellung der Wechselwirkungen zw
 </details>
 
 ## Berechnung Strukturfaktor
-
+![Abbildung zur Berechnung des Phasenunterschiedes](/media/BerechnungWegunterschied.png "Abbildung zur Veranschaulichung der Berechnung des Phasenunterschiedes")
 
 ## Aufgabe 1
                                       {{0}}
