@@ -92,16 +92,13 @@ Eine Auftragung des Beugungsspektrums über $\sin ^2\theta$ und ein Vergleich mi
 
 
 
-## Aufgabe 2 (Breite des Beugungsmaximums)
+## Aufgabe 2 (Zusammenhang der Breite des Beugungsmaximums mit der Größe des Kristalls)
 
 
-> __2.__  Betrachten Sie einen linearen (eindimensionalen)  Kristall mit den  Gitterpunkten $r=m\cdot a$ mit  $m \in \mathbb{Z}$ und $a=$ Gitterkonstante. Auf jedem der Gitterpunkte sitzt ein identisches, punktförmiges Streuzentrum. Die Atome werden von einer kohärenten Welle $\Psi_Q=\Psi_{Q,0}e^{i(k_oy-\omega t)}$ angeregt. In Analogie zur Streuamplitude in einem realen Kristall $F=\sum_G \int n_G \cdot \exp(i(\vec{G}-\vec{\Delta k})\cdot\vec{r})\cdot dV$  ist die Gesamtstreuamplitude der Streustrahlung proportional zu  $F=\sum_{m=0}^M  \exp(-i m a \Delta k)$.  Die Summe über $M$ Gitterpunkte hat unter Verwendung der Reihenentwicklung 
-$$ \sum_{M=0}^{M-1}x^m=\frac{1-x^M}{1-x}$$
-
+> __2.__  Betrachten Sie einen linearen (eindimensionalen)  Kristall mit den  Gitterpunkten $r=m\cdot a$ mit  $m \in \mathbb{Z}$ und $a=$ Gitterkonstante. Auf jedem der Gitterpunkte sitzt ein identisches, punktförmiges Streuzentrum. Die Atome werden von einer kohärenten Welle angeregt. In Analogie zur Streuamplitude in einem realen Kristall $F=\sum_G \int n_G \cdot \exp(-i\vec{G}\cdot\vec{r})\cdot dV$  ist die Gesamtstreuamplitude der Streustrahlung proportional zu  $F=f\cdot \sum_{m=0}^M  \exp(-i\Delta k \cdot m \cdot a )$.  Die Summe über $M$ Gitterpunkte hat unter Verwendung der Reihenentwicklung 
+> $$ \sum_{m=0}^{M-1}x^m=\frac{1-x^M}{1-x}$$
 > den Wert 
-
-$$F=\frac{1-\exp(-iM(a\cdot \Delta k))}{1-\exp(-i(a\cdot \Delta k))}$$
-
+> $$F=\frac{1-\exp(-iM(a\cdot \Delta k))}{1-\exp(-i(a\cdot \Delta k))}$$
 > Die gestreute Intensität ist proportional zu $|F|^2$. 
 
 > __a)__ Zeigen Sie, dass gilt:
@@ -235,12 +232,9 @@ Die erste Nullstelle von $\sin(\frac{M\epsilon}{2})$ ist bei $ \epsilon=\frac{2\
 
 
 > __3.__  Für das Wasserstoffatom ist im Grundzustand die Elektronendichte gleich
-
-$$n(r)=\frac{1}{\pi a_0^3}\exp\left ( \frac{-2r}{a_0}\right)$$
-
+> $$n(r)=\frac{1}{\pi a_0^3}\exp\left ( \frac{-2r}{a_0}\right)$$
 >  Dabei ist $a_0$ der Bohrsche Radius. Zeigen Sie, dass der Atomformfaktor gleich 
-$$f_{\Delta k}=\frac{16}{\bigg(4+\Delta k^2\cdot a_0^2\bigg)^2}$$
-
+> $$f_{\Delta k}=\frac{16}{\bigg(4+\Delta k^2\cdot a_0^2\bigg)^2}$$
 >  ist, wobei $\Delta k=k-k'$ der Streuvektor ist.
 
                                       {{0}}
