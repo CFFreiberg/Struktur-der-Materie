@@ -162,7 +162,7 @@ $\Rightarrow  S_{G_{hkl}}=0$ für $h+k+l$ ungerade und $S_{G_{hkl}}=2f_j$ für $
 
 ## Aufgabe 3
                                       {{0}}
-> __3.__ Was gilt für den Strukturfaktor des flächenzentrierten Gitters?
+> __3.__ Was gilt für den Strukturfaktor des kubisch flächenzentrierten Gitters?
                                       {{1}}
 **Lösung Aufgabe 3:**
 
@@ -238,7 +238,7 @@ $$\begin{align*}
    \Rightarrow S_{G_{hkl}} &={S_{G_{hkl}}(\mathrm{fcc})}+ f\cdot  \bigg( \exp(\frac{-i\pi}{2}(h+k+l)) +\exp(\frac{-i\pi}{2}(h+3k+3l)) 
   +\exp(\frac{-i\pi}{2}(3h+k+3l)) +\exp(\frac{-i\pi}{2}(3h+3k+l)) \bigg) \\
   &=S_{G_{hkl}}(\mathrm{fcc})+ \bigg(\exp(\frac{-i\pi}{2}(h+k+l)) \bigg) \cdot f\cdot  \bigg(1+ \exp(-i\pi(k+l))+\exp(-i\pi(h+l))+\exp(-i\pi(h+k) ) \bigg) \\
-  &=S_{G_{hkl}}^{fcc}+  \exp(\frac{-i\pi}{2}(h+k+l)) \cdot S_{G_{hkl}}(\mathrm{fcc}) \\
+  &=S_{G_{hkl}}(\mathrm{fcc})+ \exp(\frac{-i\pi}{2}(h+k+l)) \cdot S_{G_{hkl}}(\mathrm{fcc}) \\
   &=S_{G_{hkl}}(\mathrm{fcc})\cdot\left ( 1+\exp\left (\frac{-i\pi}{2}(h+k+l) \right )  \right ) \\
   &=S_{G_{hkl}}(\mathrm{fcc})\cdot S_{G_{hkl}}(\mathrm{Basis})
 \end{align*}$$
@@ -255,10 +255,10 @@ $$\begin{align*}
  <!-- data-type="none" --> 
 | Indizes $h,k,l$    | $h+k+l$           |  $S_{hkl}$(Basis) | $S_{hkl}$(fcc)|$S_{G_{hkl}} $ |
 | ------------------- |:----------------:| :-----| :----- | :------ |
-| alle $h,k,l$ gerade  | $4n+2$    |0 | $4f_j$ | 0 |
-| alle $h,k,l$ gerade   | $4n$        |  2 |$4f_j$   |$8f_j$|
-| alle $h,k,l$ ungerade |$2n+1$, $n$ gerade|    $1-i$  |$4f_j$  |$4f_j\cdot(1-i)$|
-| alle $h,k,l$ ungerade |$2n+1$, $n$ ungerade|    $1+i$  |$4f_j$  |$4f_j\cdot(1+i)$|
+| alle $h,k,l$ gerade  | $4n+2$    |0 | $4f$ | 0 |
+| alle $h,k,l$ gerade   | $4n$        |  2 |$4f$   |$8f$|
+| alle $h,k,l$ ungerade |$2n+1$, $n$ gerade|    $1-i$  |$4f$  |$4f\cdot(1-i)$|
+| alle $h,k,l$ ungerade |$2n+1$, $n$ ungerade|    $1+i$  |$4f$  |$4f\cdot(1+i)$|
 | 1 grade, 2 ungerade |gerade|    $0$  |$0$  |$0$|
 | 2 grade, 1 ungerade |ungerade|    $0$  |$0$  |$0$|
 
@@ -302,7 +302,7 @@ Für $f_A = f_B$ wäre die Gitterkonstante $\frac{a}{2}$. Mit dieser Gitterkonst
 ## Aufgabe 6 (Reflexe an Mischkristallen)
 
                                       {{0}}
-> __6.__ Bestrahlt man bei Strukturuntersuchungen Kristalle aus mehreren Atom- oder Ionensorten mit Röntgenstrahlen, so kann man auf die auftretenden Reflexe vorhersagen. Die Überlegungen werden vereinfacht, wenn  beide Atomsorten getrennt betrachtet werden. Kupferoxid ($\mathrm{Cu_2O}$, Cuprit) bildet ein kubisch raumzentriertes Gitter mit einem $O$-Atom im Ursprung und ein $O$-Atom in der Mitte der kubischen Zelle. Die Kupferatome sitzen tetraedrisch um jedes Sauerstoffatom. Die Basis für das kubisch raumzentrierte Gitter ist damit  $O$ auf $(0,0,0)$ und $Cu$ auf $(\frac{1}{4},\frac{1}{4},\frac{1}{4})$. Die Kupferatome haben damit die Koordinaten $(\frac{a}{4}, \frac{a}{4}, \frac{a}{4})$;  $(\frac{a}{4}, \frac{3a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$. Für welche Millerschen Indizes (in Bezug auf die kubischen Einheitsvektoren ) treten Reflexe an Cuprit auf?
+> __6.__ Bestrahlt man bei Strukturuntersuchungen Kristalle aus mehreren Atom- oder Ionensorten mit Röntgenstrahlen, so kann man auf die auftretenden Reflexe vorhersagen. Die Überlegungen werden vereinfacht, wenn  beide Atomsorten getrennt betrachtet werden. Kupferoxid ($\mathrm{Cu_2O}$, Cuprit) bildet ein kubisch raumzentriertes Gitter mit einem $O$-Atom im Ursprung und ein $O$-Atom in der Mitte der kubischen Zelle. Die Kupferatome sitzen tetraedrisch um jedes Sauerstoffatom und haben in der Basis die Koordinaten  $(\frac{a}{4}, \frac{a}{4}, \frac{a}{4})$;  $(\frac{a}{4}, \frac{3a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$; $(\frac{3a}{4}, \frac{a}{4}, \frac{3a}{4})$. Für welche Millerschen Indizes (in Bezug auf die kubischen Einheitsvektoren ) treten Reflexe an Cuprit auf?
 
 ![kubisch raumzentrierte Einheitszelle $Cu_2O$](media/Cu2O1000063Pic3.png)![kubisch raumzentrierte Einheitszelle $Cu_2O$](media/Cu2O1000063.png)
 
