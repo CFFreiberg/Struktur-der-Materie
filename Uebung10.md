@@ -515,7 +515,7 @@ Für diesen Spezialfall sind die Gleichungen entkoppelt, damit bewegen sich die 
 
                                       {{14}}
 $$\begin{align*}
-\omega &= \sqrt{\frac{2C}{M_1}}\, \text{für das u-Gitter, akkustischer Zweig}\\
+\omega &= \sqrt{\frac{2C}{M_1}}\, \text{für das u-Gitter, akustischer Zweig}\\
 \omega &= \sqrt{\frac{2C}{M_2}}\, \text{für das v-Gitter, optischer Zweig}\\
 \end{align*}$$
 
