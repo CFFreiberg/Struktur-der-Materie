@@ -38,7 +38,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
                                       {{2}}
 Lennard-Jones Potential:
-$$ U(r)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\sigma}{R}\right)^6\right]$$
+$$ U(R)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\sigma}{R}\right)^6\right]$$
 Der positive  hoch-12-Term ist abstoßend (Pauli Prinzip).  
 Der negative hoch 6-Term ist anziehend (van der Waals-Wechselwirkung = induzierte Dipol-Dipol Welchselwirkung)  
 
@@ -106,7 +106,7 @@ main()
 **Lösung Aufgabe 2:**
 
                                       {{2}}
-$$F=-\frac{dU(r)}{dr}$$
+$$F=-\frac{dU(R)}{dR}$$
 
                                       {{3}}
 $$\begin{align*}
@@ -142,7 +142,7 @@ $$U_i=\ \sum_{j\ \neq i}\ U_{ij}$$
                                       {{3}}
 Dabei ist die Wechselwirkungsenergie 
 $$U_{ij}\ = \begin{cases}
-\lambda \cdot  \exp\bigg(\frac{-R}{\rho}\bigg)\ -\frac{q^2}{4 \pi \varepsilon_0 R}  &\text{für nächste Nachbarn}\\
+\lambda \cdot  \exp\bigg(\frac{-R}{\rho}\bigg)\ -\frac{q^2}{4 \pi \varepsilon_0 R}  &\text{für nächste Nachbarn, Abstoßung}\\
 \pm\frac{1}{p_{ij}}\frac{q^2}{4\pi\varepsilon_0 \cdot R}  &\text{alle anderen geometrischen Fälle}  
 \end{cases} $$
 
@@ -238,7 +238,7 @@ Da die metallische Bindung ungerichtet ist, kristallisieren Metalle hauptsächli
                                       {{2}}
 Die Madelung Konstante $\alpha$ ist definiert als 
 $$\alpha\ =\ \sum_{j}\frac{\pm}{p_{ij}}$$
-wobei $R\cdot p_{ij}$ der Abstand  der Atome zueinander ist.
+wobei $R\cdot p_{ij}$ der Abstand  der Atome zueinander ist. Für Ionen mit gleichem Vorzeichen wird per Definition ein "+" verwendet, für Ionenpaare mit unterschiedlichem Vorzeichen der Ladung ein "-".
 
                                       {{3}}
 Für das ebene Gitter gilt: $\alpha_{3\ }=$
