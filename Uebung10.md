@@ -93,7 +93,7 @@ Es gibt keine Wellenlängen, die größer sind als die Abmessungen des Kristalls
 Also: $\lambda \le b$, wobei $b$ die Abmessung des Kristalls sein soll.
 
 {{9}}
-![Beschränkung Wellenlänge durch Außenabmessungen](media/Piccolofloete.png "*Große Wellenlängen passen genauso wenig in einen kurzen Kristall wie tiefe Töne in eine Piccoloflöte; Quelle: C. Funke*")
+![Beschränkung Wellenlänge durch Außenabmessungen](media/Piccolofloete.png "*Große Wellenlängen passen genauso wenig in einen kurzen Kristall wie tiefe Töne in eine Piccoloflöte; Quelle: C. Funke*"){ width: 200px; }
 
 
 {{10}}
