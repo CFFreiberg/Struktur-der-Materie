@@ -99,9 +99,9 @@ Also: $\lambda \le b$, wobei $b$ die Abmessung des Kristalls sein soll.
 {{10}}
 Also:
 $$\begin{align*}
-\lambda &\le b \\
- |\frac{2\pi}{\lambda}| &\ge \frac{2\pi}{b}  \\
- |K| &\ge \frac{2\pi}{b} 
+\ \frac{\lambda}{2} &\le b \\
+ |\frac{2 \cdot 2\pi}{\lambda}| &\ge \frac{2\pi}{b}  \\
+ |K| &\ge \frac{\pi}{b} 
  \end{align*}$$
 
 {{11}}
@@ -109,7 +109,7 @@ Hinweis: Aus den endlichen Abmessungen eines Kristalls folgen Randbedingungen f�
 
 ## Aufgabe 3 
                                       {{0}}
-> __3.__ Welche Bedeutung kommt einer elastischen Welle zu, wenn deren Wellenvektor $K$ auf den Grenzen der 1. Brillouin-Zone liegt?
+> __3.__ Welche Bedeutung kommt einer elastischen Welle zu, wenn deren Wellenvektor $\vec{K}$ auf den Grenzen der 1. Brillouin-Zone liegt?
 
                                       {{1}}
 **Lösung Aufgabe 3:**
@@ -313,7 +313,7 @@ $$
 Nun wird eine Taylorreihenentwicklung für die Position der Nachbaratome $u_{n\pm 1}$ vorgenommen, Terme ab 3. Ordnung in $a$ werden vernachlässigt.
 
                                       {{32}}
-$$u_{n \pm 1 }(t) = u(x \pm a, t) = u(x, t)\pm\ a\frac{\partial u}{\partial x}\ + a^2 \frac{\partial ^2 u}{\partial x^2}\pm...$$
+$$u_{n \pm 1 }(t) = u(x \pm a, t) = u(x, t)\pm\ a\frac{\partial u}{\partial x}\ + \frac{1}{2}a^2 \frac{\partial ^2 u}{\partial x^2}\pm...$$
 
                                       {{33}}
 Also:
@@ -498,41 +498,36 @@ $$\begin{align*}
 -M_2 \omega^2 v &= C\cdot u [e^{-i\frac{\pi}{a}a}+1]-2C\cdot v\\
 \end{align*}$$
 
-                                      {{11}}
-$$\begin{align*}
-\Rightarrow -M_1 \omega^2 u &= C\cdot v [1+e^{-i\frac{\pi}{a}a}]-2C\cdot u\\
--M_2 \omega^2 v &= C\cdot u [e^{-i\frac{\pi}{a}a}+1]-2C\cdot v\\
-\end{align*}$$
 
-                                      {{12}}
+                                      {{11}}
 $$\begin{align*}
 \Rightarrow -M_1 \omega^2 u &= -2C\cdot u\\
 -M_2 \omega^2 v &= -2C\cdot v\\
 \end{align*}$$
 
-                                      {{13}}
+                                      {{12}}
 Für diesen Spezialfall sind die Gleichungen entkoppelt, damit bewegen sich die Untergitter unabhängig. Wir erhalten als Lösung:
 
-                                      {{14}}
+                                      {{13}}
 $$\begin{align*}
 \omega &= \sqrt{\frac{2C}{M_1}}\, \text{für das u-Gitter, akustischer Zweig}\\
 \omega &= \sqrt{\frac{2C}{M_2}}\, \text{für das v-Gitter, optischer Zweig}\\
 \end{align*}$$
 
-                                      {{15}}
+                                      {{14}}
 Zwischen diesen beiden Frequenzen gibt es für $K_\mathrm{max}=\frac{\pi}{a}$ keine Lösung. 
 
-                                      {{16}}
+                                      {{15}}
 Ergänzung:
 
-                                      {{17}}
+                                      {{16}}
 Die allgemeine Lösung für beliebige Wellenvektoren ist 
 $$\omega^2=C\left(\frac{1}{M_1}+\frac{1}{M_{2\ }}\right)\pm C\sqrt{ \bigg(\frac{1}{M_1}+\frac{1}{M_2}\bigg)^2-\frac{4}{M_1M_2} \sin^2\bigg(\frac{Ka}{2}\bigg)}$$
 
-                                      {{18}}
+                                      {{17}}
 Für den langwelligen Grenzfall ($K \cdot a \approx 0$) gilt:
 
-                                      {{19}}
+                                      {{18}}
 $$\begin {align*}\omega^2&=C\left(\frac{1}{M_1}+\frac{1}{M_{2\ }}\right)\pm C\sqrt{ \bigg(\frac{1}{M_1}+\frac{1}{M_2}\bigg)^2}\\
 &=\begin{cases}
    2C\left(\frac{1}{M_1}+\frac{1}{M_{2\ }}\right) &\text{und } \frac{u}{v}\ =\ -\frac{M_2}{M_1},  &\text{optischer Zweig, gegenphasig }  \\
@@ -540,8 +535,8 @@ $$\begin {align*}\omega^2&=C\left(\frac{1}{M_1}+\frac{1}{M_{2\ }}\right)\pm C\sq
 \end{cases}
 \end{align*}$$
 
-{{20}}
+{{19}}
 ![Dispersionsrelation für ein Gitter mit zwei Atomen der Masse $M_1 <M_2$ in einer primitiven Elementarzelle](media/Dispersionsrelation2.png "*Dispersionsrelation für ein Gitter mit zwei Atomen der Masse $M_1 <M_2$ in einer primitiven Elementarzelle; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)* " )
 
-{{20}}
+{{19}}
 In der Abbildung sieht man den Verlauf der Dispersionsrelation. Für die eindimensionale Anordnung mit zwei Atomen in der primitiven Basis gibt es genau einen akustischen und einen optischen Zweig. zwischen denen eine Frequenzlücke existiert.
