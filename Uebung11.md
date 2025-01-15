@@ -33,42 +33,20 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
                                       {{0}}
 > __1.__	Singularität in der Zustandsdichte:  Ausgehend von der Dispersionsrelation $\omega=\omega_m\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$ für ein einatomiges lineares Gitter aus $N$ Atomen mit Wechselwirkungen nur zwischen nächsten Nachbarn soll gezeigt werden, dass die Zustandsdichte $D(\omega)=\frac{2N}{\pi}\cdot \frac{1}{(\omega_m^2-\omega^2)^\frac{1}{2}}$ ist, wobei $\omega_m$ die maximale Frequenz ist.
 
-
                                       {{1}}
 **Lösung Aufgabe 1:**
 
                                       {{2}}
-$$\omega=\omega_\mathrm{m}\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$$
-
-{{2}}
-![Bild Dispersionsrelation](media/A1_Omega_K.png "*Dispersionsrelation $\omega(K)$; Quelle: C. Funke*")
-
-                                      {{2}}
-wobei für die maximale Frequenz  $\omega_\mathrm{m}=\sqrt{\frac{4C}{M}}$ gilt.
-
-                                      {{3}}
-$$\Rightarrow K=\frac{2}{a}\arcsin \bigg(\frac{\omega}{\omega_\mathrm{m}}\bigg)$$
-
-                                      {{4}}
-Mit $\frac{d(\arcsin)}{dx}=\frac{1}{\sqrt{1-x^2}}$ folgt
-
-                                      {{5}}
-$$\begin{align*}
-\Rightarrow \frac{dK}{d\omega}&=\frac{2}{a}\frac{1}{\sqrt{1-\big(\frac{\omega}{\omega_\mathrm{m}}\big)^2}}\frac{1}{\omega_\mathrm{m}}\\
-&=\frac{2}{a} \frac{1}{\sqrt{\omega_\mathrm{m}^2-\omega^2}}
-\end{align*}$$
-
-                                      {{6}}
-Die mit den endlichen Abmessungen des Kristalls verbundenen Randbedingungen bewirken, dass nur eine bestimmte Anzahl von Wellenvektoren möglich ist. Wenn wir den Wellenvektor $K$ auf die erste Brillouin-Zone beschränken, finden wir wegen $K\le\frac{\pi}{a}$ folgenden Satz von erlaubten Wellenvektoren: 
+Vorüberlegung zum Zusammenhang von $D(\omega)$ und $D(K)$: Die mit den endlichen Abmessungen des Kristalls verbundenen Randbedingungen (Knoten am Rand) bewirken, dass nur eine bestimmte Anzahl von Wellenvektoren möglich ist. Wenn wir den Wellenvektor $K$ auf die erste Brillouin-Zone beschränken, finden wir wegen $K\le\frac{\pi}{a}$ folgenden Satz von erlaubten Wellenvektoren: 
 $$K=\frac{\pi}{a}\cdot\frac{p}{N};\, p=0,1,2,3,....N$$
 
-                                      {{7}}
+                                      {{3}}
 Für die Zustandsdichte $D(K)$ im 1-dimensionalen Impulsraum gilt dann: 
 
-                                      {{8}}
+                                      {{4}}
 $$D(K) = \frac{\text{Anzahl der Zustände}}{ \text{zugehöriges Volumen im K-Raum}}=\frac{N}{\frac{2\pi}{a}}=\frac{Na}{2\pi}=\frac{L}{2\pi}$$
 
-                                      {{9}}
+                                      {{5}}
 Die Anzahl der Zustände muss im realen Raum und im Impulsraum gleich sein, und zwar der Anzahl der Atome:
 $$\begin{align*}
 N&=\int_{1.\mathrm{BZ}}D(K)dK\overbrace{=}^{1\mathrm{dim}}\int_{-\frac{\pi}{a}}^{+\frac{\pi}{a}}D(K)dK
@@ -76,27 +54,53 @@ N&=\int_{1.\mathrm{BZ}}D(K)dK\overbrace{=}^{1\mathrm{dim}}\int_{-\frac{\pi}{a}}^
 &=2\int_{0}^{+\frac{\pi}{a}}D(K)dK
 \end{align*}$$
 
-                                      {{10}}
+                                      {{6}}
 Die konstante Zustandsdichte im $K$- Raum übersetzt sich über eine nichtlineare Dispersionskurve $\omega(K)$ in eine Zustandsdichte $D(\omega)$
 
-                                      {{11}}
+                                      {{7}}
 ![Herleitung der Zustandsdichte im Frequenzintervall mit Hilfe der Dispersionsrelation](media/Zustandsdichte_aus_Dispersionsrelation.png "*Herleitung der Zustandsdichte im Frequenzintervall mit Hilfe der Dispersionsrelation; $q=K$; Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")
 
 
-                                      {{12}}
+                                      {{8}}
 Mit $D(K) =\frac{L}{2\pi}$ folgt also für 1 Dimension
 $$D(\omega)d\omega=2D(K)dK=\frac{L}{\pi}\cdot dK\cdot =\frac{L}{\pi}\cdot \frac{dK}{d\omega}\cdot d\omega$$
 
+
+
+                                      {{9}}
+Nun muss also $\frac{dK}{d\omega}$ oder $\frac{d\omega}{dK}$ hergeleitet werden. Dazu wird die Dispersionsrelation genutzt:
+$$\omega=\omega_\mathrm{m}\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$$
+
+{{10}}
+![Bild Dispersionsrelation](media/A1_Omega_K.png "*Dispersionsrelation $\omega(K)$; Quelle: C. Funke*")
+
+                                      {{11}}
+wobei für die maximale Frequenz  $\omega_\mathrm{m}=\sqrt{\frac{4C}{M}}$ gilt.
+
+                                      {{12}}
+$$\Rightarrow K=\frac{2}{a}\arcsin \bigg(\frac{\omega}{\omega_\mathrm{m}}\bigg)$$
+
                                       {{13}}
-Daraus folgt
+Mit $\frac{d(\arcsin)}{dx}=\frac{1}{\sqrt{1-x^2}}$ folgt
+
+                                      {{14}}
+$$\begin{align*}
+\Rightarrow \frac{dK}{d\omega}&=\frac{2}{a}\frac{1}{\sqrt{1-\big(\frac{\omega}{\omega_\mathrm{m}}\big)^2}}\frac{1}{\omega_\mathrm{m}}\\
+&=\frac{2}{a} \frac{1}{\sqrt{\omega_\mathrm{m}^2-\omega^2}}
+\end{align*}$$
+
+
+
+                                      {{15}}
+Daraus folgt insgesamt
 $$\begin{align*}D(\omega)&=\frac{N\cdot a}{\pi}\cdot \frac{dK}{d\omega}\\&=\frac{N\cdot a}{\pi}\cdot\frac{2}{a}\cdot  (\omega_\mathrm{m}^2-\omega^2)^{-\frac{1}{2}}\\
 &=\frac{2N}{\pi}\frac{1}{\sqrt{\omega_\mathrm{m}^2-\omega^2}}
 \end{align*}$$
 
-                                      {{14}}
+                                      {{16}}
 Diese Funktion hat eine Singularität bei $\omega=\omega_\mathrm{m}$
 
-{{15}}
+{{17}}
 ![Bild Zustandsdichte](media/Zustandsdichte.png "*Zustandsdichte $D(\omega)$; Quelle: C. Funke*")
 
 ## Aufgabe 2 
@@ -152,7 +156,7 @@ $D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf
 **Lösung Aufgabe 3a)**
 
                                       {{2}}
-Da Kompressionsmodul $B$ ist definiert über die zweite Ableitung der  potentiellen Energie des Kristalls $U$ nach der Volumenänderung $\Delta V$, also 
+Das Kompressionsmodul $B$ ist definiert über die zweite Ableitung der  potentiellen Energie des Kristalls $U$ nach der Volumenänderung $\Delta V$, also 
 $$B=V\frac{d^2U(\Delta V)}{d(\Delta V)^2}$$
 
                                       {{3}}
@@ -165,7 +169,7 @@ $$\Rightarrow B \cdot\frac{\Delta V^2}{2}=V\cdot U(\Delta V)$$
 $$\Rightarrow U(\Delta V)=\frac{1}{2}B\cdot V \cdot \bigg(\frac{\Delta V}{V}\bigg)^2 \eqsim\frac{1}{2}k_\mathrm{B} T$$
 
                                    {{6}}
-Diese potentielle Energie entspricht der potentiellen Energie einer gespannten Feder $\frac{1}{²}Cx^2$ mit der Federkonstanten $C$. Bei der tehrmischen Energie wird nur der Beitrag der reinen Volumenausdenhnung mit $\frac{1}{2}k_\mathrm{B} T$ berücksichtigt. Die Freiheitsgrade der Verzerrung (Schermodul) und der Verdrehung (Torsionsmodul) werden nicht angesprochen, dehalb nicht $\frac{3}{2}k_\mathrm{B} T$. 
+Diese potentielle Energie entspricht der potentiellen Energie einer gespannten Feder $\frac{1}{²}Cx^2$ mit der Federkonstanten $C$. Bei der thermischen Energie wird nur der Beitrag der reinen Volumenausdenhnung mit $\frac{1}{2}k_\mathrm{B} T$ berücksichtigt. Die Freiheitsgrade der Verzerrung (Schermodul) und der Verdrehung (Torsionsmodul) werden nicht angesprochen, dehalb nicht $\frac{3}{2}k_\mathrm{B} T$. 
 
                                       {{7}}
 Damit folgt:
