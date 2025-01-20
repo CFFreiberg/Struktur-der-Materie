@@ -254,7 +254,7 @@ $$U(T)=\frac{3N k_\mathrm{B} T^2}{\Theta_\mathrm{D}}\int_0^{x_\mathrm{D}}\frac{x
 
                                       {{8}}
 Aus $e^x \approx 1+x$ folgt  
-$$\int_0^{x_\mathrm{D}}\frac{x}{e^x -1}dx=\int_0^{x_\mathrm{D}}\frac{x}{1+x -1}dx=\int_0^{x_\mathrm{D}}1=x_\mathrm{D}$$
+$$\int_0^{x_\mathrm{D}}\frac{x}{e^x -1}dx=\int_0^{x_\mathrm{D}}\frac{x}{1+x -1}dx=\int_0^{x_\mathrm{D}}1dx=x_\mathrm{D}$$
 
                                       {{9}}
 $$\Rightarrow U(T)=\frac{3N k_\mathrm{B} T^2}{\Theta_\mathrm{D}}x_\mathrm{D}=3N k_\mathrm{B} T$$
@@ -277,4 +277,4 @@ $$\Rightarrow U(T)=\frac{3N k_\mathrm{B} T^2}{\Theta_\mathrm{D}}\frac{\pi^2}{6}=
 
                                       {{15}}
 $$c_\mathrm{V}=\frac{dU}{dT}=\frac{\pi^2N k_\mathrm{B} T}{\Theta_\mathrm{D}}\propto T$$
-Achtung, die letzte Formel gilt nur in 1D
+Achtung, $c_\mathrm{V}\propto T$ gilt nur in 1D. Für 2D gilt $c_\mathrm{V}\propto T^2$ und für 3D gilt $c_\mathrm{V}\propto T^3$.
