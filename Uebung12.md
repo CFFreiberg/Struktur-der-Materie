@@ -39,11 +39,11 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
                                       {{2}}
 |Debye|Einstein|Dulong-Petit|
 |:---|:---|:---|
-|komplexe Festkörper, tiefe T| einfache Festkörper, mittlere T| hohe T|
+|komplexe Festkörper, tiefe T $\Rightarrow$ nur akk. Phononen| einfache Festkörper, mittlere T| hohe T|
 |Schallgeschwindigkeit für jeden Polarisationstyp konstant $\omega=v_sK$|$N$ Oszillatoren der selben Frequenz. Die Gitterschwingungen des Kristalls werden gequantelt, d. h. der Festkörper kann Schwingungsenergie nur in diskreten Quanten $ \hbar \cdot \omega _{\mathrm {E} }$ aufnehmen|kinetische Energie $\frac{1}{2} k_\mathrm{B} T$ pro Freiheitsgrad |
 |nur Schwingungszustände mit $K \le K_\mathrm{D}$, Vernachlässigung optischer Moden|  optische Phononen|plus nochmal gleiche potentielle Energie|
-|$T_\mathrm{D}=\Theta _{{\mathrm {D}}}={\frac {\hbar \cdot \omega _{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}={\frac {\hbar \cdot v_{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}\cdot {\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot N}{V}}}}$| $\Theta_E=\frac{\hbar \omega_0 }{K_\mathrm{0}}$|
-|$\omega_\mathrm{D}=\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot v_\mathrm{s}^3 N}{V}}}=v_\mathrm{s}\cdot K_\mathrm{D}$|$\omega_E$, nur eine Frequenz| |
+|$T_\mathrm{D}=\Theta _{{\mathrm {D}}}={\frac {\hbar \cdot \omega _{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}={\frac {\hbar \cdot v_{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}\cdot {\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot N}{V}}}}$| $\Theta_\mathrm{E}=\frac{\hbar \omega_\mathrm{E}}{k_\mathrm{B}}$|
+|$\omega_\mathrm{D}=\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot v_\mathrm{s}^3 N}{V}}}=v_\mathrm{s}\cdot K_\mathrm{D}$|$\omega_\mathrm{E}$, nur eine Frequenz| |
 |$D_{3d}(\omega)=\frac{V}{2\pi^2v_\mathrm{s}^3} \omega^2$|$D(\omega)=N \delta(\omega-\omega_E)$|
 |$K_\mathrm{D}=\sqrt[{3}]{6\cdot \pi^2\frac{N}{V}}=\frac{\omega_\mathrm{D}}{v_\mathrm{s}}$| | |
 |für $T \ll \Theta_\mathrm{D}$ gilt $C_V^\mathrm{D}=\frac{12 \pi^4}{5} N k_\mathrm{B} (\frac{T}{\Theta})^3 \propto T^3$| $C_V^\mathrm{E}=\begin{cases}   3Nk_\mathrm{B} \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_\mathrm{B} &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_\mathrm{B}$|
@@ -197,7 +197,14 @@ $$ \Delta N = 4,4 \cdot  10^8$$
 
                                       {{10}}
 Die Zahl der verschiedenen Energie-Eigenwerte im gleichen Frequenzbereich ist dabei:
-$$D(\omega)d(\omega)=3 \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \Delta \omega \approxeq 279$$
+
+$$ \begin{align*}
+D(\omega)d(\omega) &=3 \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \Delta \omega\\
+&=3\cdot\frac{(0,01\mathrm{m})^3\cdot \left( 2\cdot \pi\frac{4,0 \cdot 10^6 \mathrm{\frac{1}{s}}+4,1 \cdot 10^6 \mathrm{\frac{1}{s}}}{2}\right)^2}{2\cdot \pi^2\cdot (6000\mathrm{\frac{m}{s}})^3}\cdot (4,1 \cdot 10^6 \mathrm{\frac{1}{s}}-4,0 \cdot 10^6 \mathrm{\frac{1}{s}})\\
+&\approxeq 286
+
+
+\end{align*}$$
 
  
 
@@ -238,7 +245,7 @@ $$\begin{align*}
 \end{align*}$$
 
                                       {{9}}
-Die Frequenzverschiebung $\Delta \omega=\omega_1-\omega_0$ folgt aus dem Energieerhaltungssatz:
+Die Frequenzverschiebung $\Delta \omega=-\Omega=\omega_1-\omega_0$ folgt aus dem Energieerhaltungssatz:
 $$- \Omega= \omega_1 -  \omega_0 $$
 $$\begin{align*}-\frac{\Omega}{2\pi}&=f_1 -  f_0\\
 -\frac{1,67 \cdot 10^{11} \mathrm{\frac{1}{s}}}{2\pi}&=f_1 -  f_0\\
