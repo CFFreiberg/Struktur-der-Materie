@@ -375,8 +375,8 @@ $$\omega=2\sqrt{\frac{C}{M}}\sin\bigg(\frac{Ka}{2}\bigg)$$
                                       {{5}}
 $$\begin{align*}\Rightarrow \omega_\mathrm{max}&=2\sqrt{\frac{C}{M}}\cdot 1\\
 &=2\sqrt{\frac{33.2\,\mathrm{\frac{ N}{m}}}{200 \cdot 1.66054\cdot 10^{-27} \mathrm{kg}}} \\
-&=2\cdot 10^{12}\,\mathrm{\frac{kg \cdot m}{s^2 \cdot m \cdot kg}}\\
-&=2\cdot 10^{12}\,\mathrm{\frac{1}{s}}=20\, \mathrm{THz}
+&=2\cdot 10^{13}\,\mathrm{\frac{kg \cdot m}{s^2 \cdot m \cdot kg}}\\
+&=2\cdot 10^{13}\,\mathrm{\frac{1}{s}}=20\, \mathrm{THz}
 \end{align*}$$
 
 
