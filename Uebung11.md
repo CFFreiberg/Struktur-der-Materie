@@ -145,7 +145,7 @@ $D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf
 > __3.__ Mittlere Wärmeausdehnung einer Kristallzelle (Na). 
 
                                       {{0}}
->__a)__ Schätzen Sie für eine primitive Elementarzelle eines Natriumkristalls bei $T=300\, \mathrm{K}$ die mittlere Wärmeausdehnung $\frac{\Delta V}{V}$ ab. Nehmen Sie dazu die  Gitterkonstante $a_\mathrm{Na}=4,225\, \AA$ an und den Kompressionsmodul $B$ zu $\mathrm{7 \cdot 10^{10} erg \cdot cm^{-3}= 7 \cdot 10^3 \,J\cdot cm^{-3}=  7 \cdot 10^9 \,J\cdot m^{-3}}$. Beachten Sie, dass die Debye-Temperatur mit $\mathrm{158\, K}$ geringer als $\mathrm{300\, K}$ ist, so dass die thermische Energie von der Größenordnung von $\frac{1}{2}k_\mathrm{B}\cdot T$ ist (klassische Betrachtung).
+>__a)__ Schätzen Sie für eine primitive Elementarzelle eines Natriumkristalls bei $T=300\, \mathrm{K}$ die mittlere Wärmeausdehnung $\frac{\Delta V}{V}$ ab. Nehmen Sie dazu die  Gitterkonstante $a_\mathrm{Na}=4,225\, \AA$ an und den Kompressionsmodul $B$ zu $\mathrm{7 \cdot 10^{10} erg \cdot cm^{-3}= 7 \cdot 10^3 \,J\cdot cm^{-3}=  7 \cdot 10^9 \,J\cdot m^{-3}}$.  Beachten Sie, dass die Debye-Temperatur mit $\mathrm{158\, K}$ geringer als $\mathrm{300\, K}$ ist, so dass die thermische Energie von der Größenordnung von $\frac{1}{2}k_\mathrm{B}\cdot T$ ist (klassische Betrachtung).
 
                                       {{0}}
 >__b)__ Benutzen Sie dieses Ergebnis, um die mittlere thermische Schwankung $\frac{\Delta a}{a}$ der Gitterkonstanten abzuschätzen.
@@ -218,11 +218,12 @@ Die Wärmeausdehnung lässt sich nur durch anharmonische Terme der Gitterenergie
 ## Aufgabe 5 
 
                                       {{0}}
-> __5.__ Spezifische Wärme einer linearen einatomigen Kette:  Berechnen Sie für akustische Phononen die innere Energie und die spezifische Wärme einer einatomigen Kette für die Grenzfälle einer hohen und einer niedrigen Temperatur. Nutzen Sie dabei die Debye-Näherung $D(\omega)= \frac{N}{\omega_\mathrm{D}}$, wobei $\omega_\mathrm{D}=k_\mathrm{B} \cdot \Theta_\mathrm{D}$
+> __5.__ Spezifische Wärme einer linearen einatomigen Kette:  Berechnen Sie für akustische Phononen die innere Energie und die spezifische Wärme einer einatomigen Kette für die Grenzfälle einer hohen und einer niedrigen Temperatur. Nutzen Sie dabei die Debye-Näherung $D(\omega)= \frac{N}{\omega_\mathrm{D}}= $, wobei $\omega_\mathrm{D}=k_\mathrm{B} \cdot \Theta_\mathrm{D}$
 
-                                      {{1}}
+
 **Lösung Aufgabe 5:**
 
+                                      {{1}}
 Die Debye-Näherung (akustische Phononen) ist eine Kontinuums-Näherung bis zur Debye-Grenzfrequenz $\omega_\mathrm{D}$, wobei $\hbar \omega_\mathrm{D} = k_\mathrm{B} \Theta_\mathrm{D}$ mit $\Theta_\mathrm{D}=$ Debye-Temperatur. 
 
                                       {{2}}
