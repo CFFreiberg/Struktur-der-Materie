@@ -37,13 +37,14 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 **Lösung Aufgabe 1:**
 
                                       {{2}}
-Kondensierte Materie ist für Elektronen aus zwei Günden "durchässig". 
+Die Ladungsträger können durch das Modell des "Freien Elektronengases" beschrieben werden. Das bedeutet, dass die Elektronen nicht mit den Atomrümpfen und nicht miteinander wechselwirken. Die kondensierte Materie erscheint daher "durchlässig", weil  
 
                                       {{2}}
-- Erstens wird ein Leitungselektron von den Ionenrümpfen eines periodischen Gitters nicht abgelenkt, da seine Ausbreitung auf einer Wellenbewegung beruht, die an das periodische Potential der Ionenrümpfe im Kristallgitter angepaßt ist. 
-- Zweitens wird ein Elektron nur selten an einem anderen gestreut, da zwei Elektronen aufgrund des Pauli Prinzips nie auf dem selben Elektronenniveau sind.
+- ein Leitungselektron von den Ionenrümpfen eines periodischen Gitters nicht abgelenkt wird, da seine Ausbreitung auf einer Wellenbewegung beruht, die an das periodische Potential der Ionenrümpfe im Kristallgitter angepaßt ist. 
+- ein Elektron nur selten an einem anderen gestreut wird, da zwei Elektronen aufgrund des Pauli Prinzips nie auf dem selben Energieniveau sind.
 
-
+                                      {{3}}
+Anmerkung zu den Energieniveaus von (fast) freien Elektronen: Die zeitunabhängige Schrödingergleichung $$-\frac{\hbar^2}{2m} \nabla^2 \psi(r) = E \psi(r)$$ hat als Lösung ebene Wellen $$\psi_k(r) = \frac{1}{\sqrt{V}} e^{i\cdot k \cdot r},$$ wobei $V$ das Volumen des Potentialkastens ist. Die Energieeigenwerte sind $$E_n=\frac{\hbar^2}{2m}\left(\frac{(2\pi)^2}{L_x^2}\cdot n_x^2+\frac{(2\pi)^2}{L_y^2}\cdot n_y^2+\frac{(2\pi)^2}{L_z^2}\cdot n_z^2\right)=\frac{\hbar^2\cdot k^2}{2m}$$
 ## Aufgabe 2 
 
                                       {{0}}
@@ -54,7 +55,7 @@ Kondensierte Materie ist für Elektronen aus zwei Günden "durchässig".
 **Lösung Aufgabe 2:**
 
                                       {{2}}
-Für die Elektronenkonzentration $n$ in Ag gilt:                                            
+Für die Elektronenkonzentration $n$ in Ag gilt (mit $V_\mathrm{mol}=\frac{M_\mathrm{mol}}{\rho}$):                                            
 $$\begin{align*}n &=\frac{\text{Anzahl}}{\text{Volumen}}\\
 &=1\cdot N_\mathrm{A} \cdot \frac{ \rho}{M_\text{mol}} \\
 &=\mathrm{1\cdot 6,022 \cdot 10^{23}\frac{1}{mol} \cdot \frac{ 10,5 \frac{10^{-3}\,kg}{(10^{-2} \, m)^3}}{107,8682 \frac{10^{-3}kg}{mol}}}\\
@@ -78,7 +79,7 @@ Die Fermi-Temperatur ist:
 $$T_\mathrm{F} = \frac{E_\mathrm{F}}{k_\mathrm{B}} = \frac{8,82 \cdot 10^{-19} \mathrm{J}}{1,380665 \cdot 10^{-23}\frac{J}{K}}= 63913\, \mathrm{K}\approx 63,9 \cdot 10^3\, \mathrm{K}$$
 
                                       {{6}}
-Die Fermi-Geschwindigkeit ist:
+Die Fermi-Geschwindigkeit wird über den Impuls $m\cdot v_\mathrm{F}=\hbar\cdot k$ bestimmt:
 $$v_\mathrm{F} = \frac{\hbar}{m_\mathrm{e}} k_\mathrm{F}= \frac{1,05457\cdot 10^{-34} \mathrm{Js}}{9,109382 \cdot 10^{-31} \mathrm {kg}} \cdot 1,20 \cdot  10^8 \cdot  10^2\,\mathrm{m^{-1}}=1,39 \cdot10^8 \mathrm{\frac{cm}{s}}$$
 
 
@@ -189,7 +190,7 @@ $$\begin{align*}
 ## Aufgabe 5 
 
                                       {{0}}
-> __5.__ Zeigen Sie, dass ein Fermi-Gas mit der Fermi-Energie $E_\mathrm{F}$ auch am Temperaturnullpunkt einen Fermi-Druck besitzt. Vergleichen Sie das Ergebnis mit dem eines klassischen idealen Gases.
+> __5.__ Zeigen Sie, dass ein Fermi-Gas mit der Fermi-Energie $E_\mathrm{F}$ auch am Temperaturnullpunkt einen Fermi-Druck ($p=-\frac{\partial U}{\partial V}$) besitzt. Vergleichen Sie das Ergebnis mit dem eines klassischen idealen Gases.
 
                                       {{1}}
 **Lösung Aufgabe 5:**
@@ -246,7 +247,7 @@ Die Energie eines freien Elektrons ist
 $$E(K)=\frac{\hbar^2k^2}{2m}$$
 
                                       {{2}}
-![Abbildung reziprokes quadratisches Gitter](media/quadr_Gitter_beschriftet.png "*Wellenvektoren in der ersten Brillouinzone eines ebenen quadratischen Gitters; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*" )
+![Abbildung reziprokes quadratisches Gitter](media/quadr_Gitter_beschriftet.png "*Wellenvektoren in der ersten Brillouinzone eines ebenen quadratischen Gitters; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="60%"-->
 
                                       {{3}}
 Für die Wellenvektoren in der Ecke der ersten Brillouinzone gilt:
