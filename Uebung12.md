@@ -39,14 +39,15 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
                                       {{2}}
 |Debye|Einstein|Dulong-Petit|
 |:---|:---|:---|
-|komplexe Festkörper, tiefe T $\Rightarrow$ nur akk. Phononen| einfache Festkörper, mittlere T| hohe T|
-|Schallgeschwindigkeit für jeden Polarisationstyp konstant $\omega=v_sK$|$N$ Oszillatoren der selben Frequenz. Die Gitterschwingungen des Kristalls werden gequantelt, d. h. der Festkörper kann Schwingungsenergie nur in diskreten Quanten $ \hbar \cdot \omega _{\mathrm {E} }$ aufnehmen|kinetische Energie $\frac{1}{2} k_\mathrm{B} T$ pro Freiheitsgrad |
+|1912|1907|1819|
+|komplexe Festkörper, speziell für tiefe $T\ll T_\mathrm{D} \Rightarrow$ nur akk. Phononen, Vernachlässigung optischer Phononen; aber auch für den gesamten T-Bereich anwendbar| einfache Festkörper, wird vor allem für mittlere T verwendet, unterschätzt Wärmekapazität bei niedrigen T| hohe $T\gg T_\mathrm{D}$, alle Schwingungsmoden sind thermisch angeregt, so dass klassische Annahme gilt|
+|Schallgeschwindigkeit für jeden Polarisationstyp konstant $\Rightarrow \omega=v_sK$|$N$ Oszillatoren der selben Frequenz. Die Gitterschwingungen des Kristalls werden gequantelt, d. h. der Festkörper kann Schwingungsenergie nur in diskreten Quanten $ \hbar \cdot \omega _{\mathrm {E} }$ aufnehmen|kinetische Energie $\frac{1}{2} k_\mathrm{B} T$ pro Freiheitsgrad |
 |nur Schwingungszustände mit $K \le K_\mathrm{D}$, Vernachlässigung optischer Moden|  optische Phononen|plus nochmal gleiche potentielle Energie|
 |$T_\mathrm{D}=\Theta _{{\mathrm {D}}}={\frac {\hbar \cdot \omega _{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}={\frac {\hbar \cdot v_{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}\cdot {\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot N}{V}}}}$| $\Theta_\mathrm{E}=\frac{\hbar \omega_\mathrm{E}}{k_\mathrm{B}}$|
 |$\omega_\mathrm{D}=\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot v_\mathrm{s}^3 N}{V}}}=v_\mathrm{s}\cdot K_\mathrm{D}$|$\omega_\mathrm{E}$, nur eine Frequenz| |
 |$D_{3d}(\omega)=\frac{V}{2\pi^2v_\mathrm{s}^3} \omega^2$|$D(\omega)=N \delta(\omega-\omega_E)$|
 |$K_\mathrm{D}=\sqrt[{3}]{6\cdot \pi^2\frac{N}{V}}=\frac{\omega_\mathrm{D}}{v_\mathrm{s}}$| | |
-|für $T \ll \Theta_\mathrm{D}$ gilt $C_V^\mathrm{D}=\frac{12 \pi^4}{5} N k_\mathrm{B} (\frac{T}{\Theta})^3 \propto T^3$| $C_V^\mathrm{E}=\begin{cases}   3Nk_\mathrm{B} \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_\mathrm{B} &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_\mathrm{B}$|
+|für $T \ll \Theta_\mathrm{D}$ gilt $C_V^\mathrm{D}=\frac{12 \pi^4}{5} N k_\mathrm{B} (\frac{T}{\Theta_\mathrm{D}})^3 \propto T^3$| $C_V^\mathrm{E}=\begin{cases}   3Nk_\mathrm{B} \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_\mathrm{B} &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_\mathrm{B}$|
 
 
 
@@ -57,7 +58,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 ## Aufgabe 2 
 
                                       {{0}}
-> __2.__ Was versteht man bei einer Phonon-Phonon-Wechselwirkung unter einem Normalprozess und unter einem Umklappprozess? Was muss für die Phononen gelten, damit Umklappprozess überhaupt möglich sind?
+> __2.__ Was versteht man bei einer Phonon-Phonon-Wechselwirkung (3-Phononen Prozess) unter einem Normalprozess und unter einem Umklappprozess? Was muss für die Phononen gelten, damit Umklappprozess überhaupt möglich sind?
 
                                       {{1}}
 **Lösung Aufgabe 2:**
@@ -111,24 +112,24 @@ Für Umklapp-Prozesse müssen $K_1$ und $K_2$  $\ge \frac{1}{2}G$ bzw. $E_1$ und
                                       {{1}}
 **Lösung Aufgabe 4:**
 
-                                      {{2}}
-
+                                      {{2}} 
 Bose-Einstein Verteilungsfunktion für Bosonen (ganzzahliger Spin, Zustände mehrfach besetzbar) z.B. Phononen:
 
                                       {{3}}
-$$f(E)=\frac{1}{e^{\frac{E-E_\mathrm{F}}{k_\mathrm{B} T}  }-1}$$
+$$f(E)=\frac{1}{e^{\frac{E-\mu}{k_\mathrm{B} T}  }-1}$$
 
                                       {{4}}
 Fermi- Dirac Verteilungsfunktion für Fermionen (halbzahliger SpinZustände nur einfach besetzbar), z.B. Elektronen
 
                                       {{5}}
-$$f(E)=\frac{1}{e^{\frac{E-E_\mathrm{F}}{k_\mathrm{B} T}}  +1}   $$
+$$f(E)=\frac{1}{e^{\frac{E-\mu}{k_\mathrm{B} T}}  +1}   $$
 
                                       {{6}}
-Maxwell-Boltzman Verteilungsfunktion
+Maxwell-Boltzman Verteilungsfunktion (für hohe Energien)
 
                                       {{7}}
-$$f(E)=\frac{1}{e^{\frac{E-E_\mathrm{F}}{k_\mathrm{B} T}} }= e^{-\frac{E-E_\mathrm{F}}{k_\mathrm{B} T}}  $$
+$$f(E)=\frac{1}{e^{\frac{E-\mu}{k_\mathrm{B} T}} }= e^{-\frac{E-E_\mathrm{F}}{k_\mathrm{B} T}}  $$
+wobei $\mu$ sei das chemische Potential ist. Häufig wird $E_\mathrm{F}=\mu$ genähert. Allerdings ist für Bosonen keine Femienergie definiert, da jeder Zustand beliebig häufig besetzt werden kann. Das chemische Potential $\mu$ kann bei Bosonen kleiner sein als null und geht gegen null beim Übergang in die Bose-Einstein-Kondensation (nur Zustände in demselben niedrigsten Energiezustand sind besetzt).
 
 
                                       {{8}}
@@ -142,7 +143,7 @@ oder zum Ausprobieren eine [Online-Mathematica-Demonstration](https://demonstrat
 ## Aufgabe 5 
 
                                       {{0}}
-> __5.__ Wie viele Gitterschwingungen $\Delta N$ gibt es nach der Bose-Einstein-Verteilung bei $T=300\,\mathrm{K}$ in einem Kristall mit einem Volumen von $\mathrm{1\, cm^3}$ im Frequenzbereich zwischen $4,0$ und $4,1\,\mathrm{MHz}$ (Schallgeschwindigkeit  $v_\mathrm{s}=6000\,\mathrm{\frac{m}{s}}$)?
+> __5.__ Wie viele Gitterschwingungen $\Delta N$ gibt es nach der Bose-Einstein-Verteilung (unter Verwendung des Debeye-Modells) bei $T=300\,\mathrm{K}\le \Theta_\mathrm{D}$ in einem Kristall mit einem Volumen von $\mathrm{1\, cm^3}$ im Frequenzbereich zwischen $4,0$ und $4,1\,\mathrm{MHz}$ (Schallgeschwindigkeit  $v_\mathrm{s}=6000\,\mathrm{\frac{m}{s}}$)?
 
                                       {{1}}
 **Lösung Aufgabe 5:**
@@ -198,6 +199,7 @@ $$ \Delta N = 4,4 \cdot  10^8$$
                                       {{10}}
 Die Zahl der verschiedenen Energie-Eigenwerte im gleichen Frequenzbereich ist dabei:
 
+                                      {{11}}
 $$ \begin{align*}
 D(\omega)d(\omega) &=3 \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \Delta \omega\\
 &=3\cdot\frac{(0,01\mathrm{m})^3\cdot \left( 2\cdot \pi\frac{4,0 \cdot 10^6 \mathrm{\frac{1}{s}}+4,1 \cdot 10^6 \mathrm{\frac{1}{s}}}{2}\right)^2}{2\cdot \pi^2\cdot (6000\mathrm{\frac{m}{s}})^3}\cdot (4,1 \cdot 10^6 \mathrm{\frac{1}{s}}-4,0 \cdot 10^6 \mathrm{\frac{1}{s}})\\
@@ -212,13 +214,16 @@ D(\omega)d(\omega) &=3 \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \Delta \o
 ## Aufgabe 6 
 
                                       {{0}}
-> __6.__ Ein Laserstrahl  der Wellenlänge $\lambda=694\, \mathrm{nm}$ durchläuft einen Quarzkristall. Dabei findet eine inelastische Wechselwirkung zwischen Photonen und akustischen Phononen ohne Gitter-Rückstoß statt (Brillouin-Streunung). Berechnen Sie die maximale Frequenz der hierdurch ausgelösten mechanischen Schwingungen und geben Sie die Frequenzverschiebung des gestreuten Lichtes an. (Schallgeschwindigkeit $v_\mathrm{s} = 6000 \,\mathrm{\frac{m}{s}}$, Brechungsindex des Kristalls $n=1,54$)
+> __6.__ Ein Laserstrahl  der Wellenlänge $\lambda=694\, \mathrm{nm}$ durchläuft einen Quarzkristall. Dabei findet eine inelastische Wechselwirkung zwischen Photonen und akustischen Phononen (Dispersionsrelation: $\Omega = v_\mathrm{s} \cdot K$) ohne Gitter-Rückstoß statt (Brillouin-Streunung). Berechnen Sie die maximale Frequenz der hierdurch ausgelösten mechanischen Schwingungen und geben Sie die Frequenzverschiebung des gestreuten Lichtes an. (Schallgeschwindigkeit $v_\mathrm{s} = 6000 \,\mathrm{\frac{m}{s}}$, Brechungsindex des Kristalls $n=1,54$)
+
+                                      {{0}}
+Hinweis: Benutzen Sie in dieser Aufgabe wird $\Omega$, $K$ für die Beschreibung von Phononen, und $\omega$,$k$ für die Beschreibung von Photonen.
 
                                       {{1}}
 **Lösung Aufgabe 6:**
 
-                                      {{2}}
-Seien $\omega, k$ die Frequenzen und Wellenvektoren  der Photonen und $\Omega, K$ die der Phononen
+                                      {{1}}
+Seien $\omega, k$ die Frequenzen und Wellenvektoren  der Photonen und $\Omega, K$ die der Phononen.
 
                                       {{3}}
 Energieerhaltungssatz: $\hbar \omega_0=\hbar \omega_1 + \hbar \Omega $
@@ -230,7 +235,7 @@ Impulserhaltungssatz: $k_0=k_1+K$
 Für Rückstreuung gibt es den maximalen Impulsübertragung $k_1 = -k_0$  und damit $K = 2k_0$
 
                                       {{6}}
-Mit dem Zusammenhang $k=\frac{2\pi}{\lambda_n}=n\frac{2\pi}{\lambda_\mathrm{vac}}$ 
+Mit dem Zusammenhang $k=\frac{2\pi}{\lambda_n}=\frac{2\pi}{\frac{\lambda_\mathrm{vac}}{n}}=n\frac{2\pi}{\lambda_\mathrm{vac}}$ 
 
                                       {{7}}
 und der Dispersionsrelation für akustische Phononen: $\Omega = v_\mathrm{s} \cdot K =$  folgt:
@@ -238,10 +243,10 @@ und der Dispersionsrelation für akustische Phononen: $\Omega = v_\mathrm{s} \cd
                                       {{8}}
 $$\begin{align*}
 \Omega&=v_\mathrm{s} \cdot K\\
-&=v_\mathrm{s} \cdot 2k_0\\
+\Omega_\mathrm{m}&=v_\mathrm{s} \cdot 2k_0\\
 &=v_\mathrm{s} \cdot 2 \cdot n\frac{2\pi}{\lambda_\mathrm{vac}}\\
 &=6000 \,\mathrm{\frac{m}{s}} \cdot 2 \cdot 1,54 \cdot \frac{2\pi}{694\cdot 10^{-9} \mathrm{m}}\\
-&=1,67 \cdot 10^{11} \mathrm{\frac{1}{s}}
+\Omega_\mathrm{m}&=1,67 \cdot 10^{11} \mathrm{\frac{1}{s}}
 \end{align*}$$
 
                                       {{9}}
@@ -254,7 +259,7 @@ $$\begin{align*}-\frac{\Omega}{2\pi}&=f_1 -  f_0\\
 
 
                                       {{10}}
-Mit der ursprünglichen Frequenz des Lasers $f_0 = \frac{c}{\lambda}=\frac{3\cdot 10^8 \mathrm{\frac{m}{s} }}{694\cdot 10^{-9} \mathrm{m}}= 4,32 \cdot  10^{14} \mathrm{Hz}$
+Aus der Dispersionsrelation für elektromagnetische Wellen im Vakuum ergibt sich die ursprüngliche Frequenz des Lasers: $$f_0 = \frac{c}{\lambda}=\frac{3\cdot 10^8 \mathrm{\frac{m}{s} }}{694\cdot 10^{-9} \mathrm{m}}= 4,32 \cdot  10^{14} \mathrm{Hz}$$
 
                                       {{11}}
 Die relative Frequenzabnahme beträgt damit:
