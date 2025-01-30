@@ -37,6 +37,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 **Lösung Aufgabe 1:**
 
                                       {{2}}
+ <!-- data-type="none" --> 
 |Debye|Einstein|Dulong-Petit|
 |:---|:---|:---|
 |1912|1907|1819|
