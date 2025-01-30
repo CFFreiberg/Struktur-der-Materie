@@ -395,7 +395,7 @@ Es gilt der Impulserhaltungssatz, wobei $G$ ein reziproker Gittervektor ist, $k$
 $$k' = k + K+ G  $$
 
                                       {{4}}
-![Elektron-Phonon-Streung: Umklappprozess](media/Umklappstreuung_Elektronen.png "Elektron-Phonon-Streung: Umklappprozess ($q=K$); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut ")<!--width="60%"-->
+![Elektron-Phonon-Streung: Umklappprozess](media/Umklappstreuung_Elektronen.png "Elektron-Phonon-Streung: Umklappprozess ($q=K$); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut ")<!--width="50%"-->
 
                                       {{5}}
 Nur Elektronen nahe der Fermikante $E_\mathrm{F}$ können (in freie Zustände) gestreut werden. Für eine Umpkappstreuung eines Elektrons an einen Phonon wird aber eine minimales $K_0=q_\text{min}$ benötigt. Bei tiefen Temperaturen wird diese Anregung unwahrscheinlicher.
