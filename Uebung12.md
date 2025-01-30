@@ -164,7 +164,7 @@ mit $\omega = 2\pi f$
 
                                       {{5}}
 Betrachten wir den Exponenten im Exponentialterm für die größte Frequenz $4,1\,\mathrm{MHz}$:
-$$\frac{hf}{k_\mathrm{B} T}=\mathrm{\frac{6,6\cdot 10^{-34}Js\cdot 4,1 \, MHz}{1,381\cdot 10^{-23}\frac{J}{K} \cdot 300\,K}}=6,5\cdot 10^{-7}$$
+$$\frac{\hbar 2\pi f}{k_\mathrm{B} T}=\frac{hf}{k_\mathrm{B} T}=\mathrm{\frac{6,6\cdot 10^{-34}Js\cdot 4,1 \, MHz}{1,381\cdot 10^{-23}\frac{J}{K} \cdot 300\,K}}=6,5\cdot 10^{-7}$$
 
                                       {{6}}
 Der Exponent ist also sehr klein, die Exponentailfunktion lässt sich deshalb gut als Taylorreihenentwicklung $e^x=1+x+\frac{x^2}{2!}+\frac{x^2}{3!}+...$  darstellen, wobei die Reihe nach dem linearen Term abgebrochen werden kann.
