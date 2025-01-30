@@ -173,7 +173,7 @@ Der Exponent ist also sehr klein, die Exponentailfunktion lässt sich deshalb gu
 
 $$ \begin{align*}
 
-&\overbrace{\approxeq}^{hf \ll k_\mathrm{B}T} 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{1+x-1} d f\\
+\Delta N&\overbrace{\approxeq}^{hf \ll k_\mathrm{B}T} 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{1+x-1} d f\\
 &= 3\int_{f_1}^{f_2} 2\pi \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{\frac{hf}{k_\mathrm{B} T}} d f\\
 &=\frac{12\pi l^3 k_\mathrm{B} T}{v_\mathrm{s}^3 h}\int_{f_1}^{f_2}fdf\\
 &=\frac{12\pi l^3 k_\mathrm{B} T}{v_\mathrm{s}^3 h}\bigg(\frac{f_2^2-f_1^2}{2}\bigg)\\
