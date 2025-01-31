@@ -298,7 +298,7 @@ $$\Rightarrow f_\mathrm{D}=\frac{\omega_\mathrm{D}}{2\pi}=\frac{4,21 \cdot 10^{1
 
                                       {{2}}
 $$\begin{align*}
-C_V&=\frac{12 \pi^4 }{5}Nk_\mathrm{B}\bigg(\frac{T}{\Theta_\mathrm{D}}\bigg)^3\\
+C_V&=\frac{12 \pi^4 }{5}N_\mathrm{A}k_\mathrm{B}\bigg(\frac{T}{\Theta_\mathrm{D}}\bigg)^3\\
 &=\mathrm{\frac{12 \pi^4 }{5}\cdot 6,02214\cdot 10^{23} \frac{1}{mol}\cdot 1,38 \cdot 10^{-23}\mathrm{\frac{J}{K}}\bigg(\frac{50\, K}{400\, K}\bigg)^3}\\
 &=\mathrm{3,79 \frac{J}{mol\cdot K} }
 \end{align*}$$
