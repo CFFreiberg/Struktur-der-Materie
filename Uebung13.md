@@ -289,8 +289,8 @@ $$E_{[111]} = 3 \cdot E_{[100]}$$
 **Lösung Aufgabe 9**
 
                                       {{2}}
-![freie Elektronen: Zustandsdichte mal Fermiverteilung](http://web.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/waermekapazitaet1.png "*Freie Elektronen: Zustandsdichte mal Fermiverteilung (rot); Quelle [H. Föll (MaWi 2 Skript), Uni Kiel](http://web.tf.uni-kiel.de/matwis/amat/mw2_ge/index.html)*")
-![](http://web.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/illustr/waermekapazitaet1.png)
+![freie Elektronen: Zustandsdichte mal Fermiverteilung](media/waermekapazitaet1.png "*Freie Elektronen: Zustandsdichte mal Fermiverteilung (rot); Quelle [H. Föll (MaWi 2 Skript), Uni Kiel](http://web.tf.uni-kiel.de/matwis/amat/mw2_ge/index.html)*")<!--width="60%"-->
+
                                       {{3}}
 Im Modell des freien Elektronengases sitzen die meisten der Elektronen auf vollbesetzten Zuständen oder anders ausgedrückt, auf Plätzen im $k$-Raum, bei denen alle Nachbarplätze besetzt sind.  Wegen des Pauli-Prinzips können nur solche Elektronen thermisch angeregt werden, die sich in einem Energiebereich von der Größenordnung $\frac{1}{2}k_\mathrm{B}\cdot T$ in der Nähe der Fermienergie $E_\mathrm{F}$ befinden, denn nur dort sind leere Zustände in der Nähe, in die sie angeregt werden können. Nur Elektronen in dem oben gelb markierten Gebiet (Breite ca. $\frac{1}{2}k_\mathrm{B}\cdot T$ ) können also angeregt werden 
 
