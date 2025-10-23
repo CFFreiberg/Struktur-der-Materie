@@ -151,11 +151,11 @@ Damit gilt für das Volumen der Einheitszelle
 
 {{29}}
 **Anzahl der Kugeln:** 
-Für die Kugeln an den Prismaecken ist das jetzt etwas diffizieler. Es gibt Prisma-Ecken mit $60°$ und Prisma-Ecken mit $120°$, siehe Abbildung "*Hexagonales Gitter*" oben. Dort ist ersichtlich, dass eine Kugel in der $60°$-Ecke nur $\frac{60°}{360°}=\frac{1}{6}$ in der Ebene einnimmt (statt $\frac{1}{4}$ im kubischen Gitter). Von diesen Ecken gibt es in dem rot eingezeichneten Prisma oben zwei und unten zwei, also insgesamt vier. 
+Für die Berechnung der Anzahl der Kugeln an den Prisma-Ecken ist das jetzt etwas diffizieler. Es gibt Prisma-Ecken mit $60°$ und Prisma-Ecken mit $120°$, siehe Abbildung "*Hexagonales Gitter*" oben. Dort ist ersichtlich, dass eine Kugel in der $60°$-Ecke nur $\frac{60°}{360°}=\frac{1}{6}$ in der Ebene einnimmt (statt $\frac{1}{4}$ im kubischen Gitter). Von diesen Ecken gibt es in dem rot eingezeichneten Prisma oben zwei und unten zwei, also insgesamt vier. 
 Dann gibt es noch Kugeln in der $120°$-Ecke, die  $\frac{120°}{360°}=\frac{1}{3}$ in der Ebene einnehmen (statt $\frac{1}{4}$ im kubischen Gitter). Von diesen Ecken gibt es in dem rot eingezeichneten Prisma ebenfalls oben zwei und unten zwei, also insgesamt 4. 
 Außerdem werden die Kugeln an den Ecken jeweils von dem darüberliegenden/darunterliegenden Prisma zur Hälfte beansprucht (Faktor $\frac{1}{2}$. )
-Diese Kugeln zählen dann insgesamt für das rot eingezeichnete Prisma: $\frac{4\cdot \frac{1}{6}+4 \cdot \frac{1}{3}}{2}=\frac{4}{2} \cdot \frac{6}{12}=1$.
-Das eentspricht der im Mittel ebenfalls richtigen Rechnung mit $8\cdot\frac{1}{8}$.
+Diese Kugeln zählen dann insgesamt für das rot eingezeichnete Prisma: $\frac{4\cdot \frac{1}{6}+4 \cdot \frac{1}{3}}{2}=\frac{4}{2} \cdot \frac{3}{6}=1$.
+Das entspricht der im Mittel ebenfalls richtigen Rechnung mit $8\cdot\frac{1}{8}$ (für die Ecke eines kubischen Gitters).
 Zusätzlich kommt noch die "orangene" Kugel im kompletten Volumen hinzu. Also gilt:
 
  $N_K=1+1=2$
