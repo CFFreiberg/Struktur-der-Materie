@@ -46,7 +46,7 @@ mit $u_i \in  \mathbb{Z}$ und $\vec{T}$ = Translationsvektor.
 > __1.c) __Wie ist die primitive Elementarzelle eines Gitters definiert?
 
 {{6}}
-[Parallelepiped](https://de.wiktionary.org/wiki/Parallelepiped "Bild Parallelepiped auf Wikipedia"), das durch primitive Achsen  $\vec{a_1}$, $\vec{a_2}$, $\vec{a_3}$ aufgespannt wird. eine primitive Elementarzelle ist eine Zelle mit kleinstem Volumen.
+[Parallelepiped](https://de.wiktionary.org/wiki/Parallelepiped "Bild Parallelepiped auf Wikipedia"), das durch primitive Achsen  $\vec{a_1}$, $\vec{a_2}$, $\vec{a_3}$ aufgespannt wird. Eine primitive Elementarzelle ist eine Zelle mit kleinstem Volumen.
 
 {{7}}
 ![Parallelepiped](https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Parallelepiped2.svg/330px-Parallelepiped2.svg.png "* Quelle: ["Drawing of a parallelepiped."](https://commons.wikimedia.org/wiki/File:Parallelepiped2.svg) by Niabot licensed under [CC BY 3.0 DEED](hhttps://creativecommons.org/licenses/by/3.0/deed.en *")
@@ -201,7 +201,7 @@ $\Rightarrow$ faszinierendes Beispiel für aperiodische Strukturen, benötigt mi
 
 ## Aufgabe 6
 > __6) __Die Kristallsysteme wurden nach größtmöglicher Symmetrie des ausgewählten Achssystems unterschieden. 
-> __a) __Wie viele verschiedene Möglichkeiten erhält man, wenn von primitiven Elementarzellen ausgeht und daraus Gitter verschiedener Symmetrie aufbaut? 
+> __a) __Wie viele verschiedene Möglichkeiten erhält man, wenn man von primitiven Elementarzellen ausgeht und daraus Gitter verschiedener Symmetrie aufbaut? 
 > __b) __Welche Kristallsysteme gibt es konkret, welche der Varianten (primitiv, basiszentriert, flächenzentriert, raumzentriert) kommen vor, welche Bedingungen gelten für die Winkel und Längen der Basisvektoren? Erstellen Sie bitte eine Tabelle? 
 
 {{0}}
