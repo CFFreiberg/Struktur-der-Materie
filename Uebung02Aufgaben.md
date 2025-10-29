@@ -214,13 +214,13 @@ Es gibt 7 Kristallsysteme
 <!-- data-type="none" --> 
 | Kristallsystem     |       Anzahl Gitter       |  Zentrierungen |Einschränkungen| Bild|
 | :------------- |:----------------:| :-------:|:---: |:---:| 
-|triklin  | 1| primitiv | $a\ne b\ne c$, $\alpha \ne \beta \ne \gamma$ | ![triklines Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_7.jpg)|
-| monoklin | 2|   primitiv, basiszentriert |$a\ne b\ne c$, $\alpha = \gamma =90° \ne\beta$  |  ![monoklines Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_6.jpg)|
-| orthorhombisch | 4 | primitiv, basiszentriert, raumzentriert, flächenzentriert |$a\ne b\ne c$, $\alpha =\beta = \gamma =90° $|  ![orthorhombisches Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_5.jpg)|
+|triklin  | 1| primitiv | $a\ne b\ne c$, $\alpha \ne \beta \ne \gamma$ | ![triklines Gitter](media/7Ktriklin.png)|
+| monoklin | 2|   primitiv, basiszentriert |$a\ne b\ne c$, $\alpha = \gamma =90° \ne\beta$  |  ![monoklines Gitter](media/7Kmonoklin.png)|
+| orthorhombisch | 4 | primitiv, basiszentriert, raumzentriert, flächenzentriert |$a\ne b\ne c$, $\alpha =\beta = \gamma =90° $|  ![orthorhombisches Gitter](media/7Korthorombisch.png)|
 | tetragonal | 2 | primitiv,  raumzentriert |$a= b\ne c$, $\alpha =\beta = \gamma =90° $|  ![tetragonales Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_4.jpg)|
-| kubisch | 3 | primitiv,  raumzentriert, flächenzentriert |$a= b=c$, $\alpha =\beta = \gamma =90° $|  ![kubisches Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_1.jpg)|
-| rhomboedrisch (trigonal) | 1 | primitiv |$a= b=c$, $\alpha =\beta = \gamma \ne 90° $|  ![rhomboedrisches Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_3.jpg)|
-| hexagonal | 1 | primitiv |$a= b \ne c$, $\alpha =\beta = 90°$,$\gamma=120°$  |  ![hexagonales Gitter](https://www.chemieunterricht.de/dc2/kristalle/images/krisys_2.jpg)|
+| kubisch | 3 | primitiv,  raumzentriert, flächenzentriert |$a= b=c$, $\alpha =\beta = \gamma =90° $|  ![kubisches Gitter](media/7Kkubisch.png)|
+| rhomboedrisch (trigonal) | 1 | primitiv |$a= b=c$, $\alpha =\beta = \gamma \ne 90° $|  ![rhomboedrisches Gitter](media/7Krhomboedrisch.png)|
+| hexagonal | 1 | primitiv |$a= b \ne c$, $\alpha =\beta = 90°$,$\gamma=120°$  |  ![hexagonales Gitter](media/7Khexagonal.png)|
 
 *Bilder von [Wolfgang Below](https://www.chemieunterricht.de/dc2/kristalle/systeme.htm)*
 
