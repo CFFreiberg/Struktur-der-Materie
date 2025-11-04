@@ -23,12 +23,13 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 **Lösung Aufgabe 1** 
 
 {{1}}
+************************************
 Ein flächenzentriertes tetragonales Gitter lässt sich durch eine 45° Drehung um die z-Achse in ein innenzentriertes tetragonales Gitter mit den Gitterkonstanten $a'= \frac{a}{\sqrt{2}}$ und
 $c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen.
 
-{{1}}
-![flächenzentriertes tetragonales Gitter](media/flaechenzentriert-tetragonal2.png "*Beispiel für flächenzentriertes tetragonales Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
+![flächenzentriertes tetragonales Gitter](media/flaechenzentriert-tetragonal2.png "*Beispiel für flächenzentriertes tetragonales Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+************************************
  
 ## Aufgabe 2
 >__2.__  Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed), charakterisiert durch den kleinsten Abstand $a_\mathrm{ccp}$ der Atome und den Abstand $c_\mathrm{ccp}$  (mit dem sich die Stapelung der dichtest gepackten Ebenen wiederholt) auf der einen Seite und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten $a_\mathrm{fcc}$? Bestimmen Sie die daraus resultierenden Beziehungen zu $a_\mathrm{ccp}$ und $c_\mathrm{ccp}$ eines ccp-Gitters.
@@ -45,20 +46,24 @@ Hinweis: Der Begriff fcc wird oft als Synonym für die kubisch dicht gepackte St
 **Lösung Aufgabe 2**
 
 {{1}}
+************************************
 Das ccp-Gitter weist in vertikaler Richtung die Reihenfolge ABCABCABC… dichtest gepackter Ebenen auf.
 
-{{1}}
+
 ![kubische Einheitszelle kfz](media/kupfer.png "* Blick auf kubische fcc Zelle in [111]-Richtung; [Bildquelle](http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html)*" )<!--width="100%"--> 
+************************************
 
 {{2}}
 Die Raumdiagonale der kubischen Einheitszelle entspricht der
 "Gitterkonstanten" $c_\mathrm{ccp}$  des ccp-Gitters: $c_\mathrm{ccp} = \sqrt{3}\cdot a_\mathrm{fcc}$  
 
 {{3}}
+************************************
 Der Zusammenhang zwischen der Gitterkonstanten $a_\mathrm{ccp}$ und dem normalen kubishen Gitterparameter $a_\mathrm{fcc}$ kann über folgende Abbildung hergeleitet werden:
 
-{{3}}
+
 ![Zusammenhang zwischen $a_\mathrm{ccp}$ und dem normalen kubishen Gitterparameter $a_\mathrm{fcc}$](media/a_ccp_a_fcc.png "*Blick auf kubische fcc Zelle in $[\bar{1}00]$-Richtung Bild erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="100%"--> 
+************************************
 
 {{4}}
 $$(2\cdot a_\mathrm{ccp})^2=2 \cdot a_\mathrm{fcc}^2$$
@@ -112,10 +117,12 @@ Bemerkung: Sowohl die ccp-Kugelpackung als auch die hcp-Kugelpackung hat eine Ra
 **Lösung Aufgabe 5**
 
 {{1}}
+************************************
 Allgemein gilt: 
 
-{{1}}
-$$\rho=\frac{m}{V}$$. 
+
+$\rho=\frac{m}{V}$. 
+************************************
 
 {{2}}
 Daraus folgt: $V=\frac{m}{\rho}$. 
@@ -140,7 +147,7 @@ $$\Rightarrow a=4,09 \cdot 10^{-8} \mathrm{cm}= 4,09 \cdot 10^{-10} \mathrm{m}$$
 **Lösung Aufgabe 6**
 
 {{1}}
-![NACl-Gitter](https://www.tf.uni-kiel.de/matwis/amat/mw1_ge/kap_3/illustr/nacl_gitter.png "*NaCl-Gitter, Quelle: [Uni Kiel](https://www.tf.uni-kiel.de/matwis/amat/mw1_ge/kap_3/backbone/r3_3_3.html)*")
+![NACl-Gitter](http://web.tf.uni-kiel.de/matwis/amat/mw1_ge/kap_3/illustr/nacl_gitter.png "*NaCl-Gitter, Quelle: [Uni Kiel](http://web.tf.uni-kiel.de/matwis/amat/mw1_ge/index.html)*")
 
 
 {{2}}
