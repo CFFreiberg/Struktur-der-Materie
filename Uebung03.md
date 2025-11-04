@@ -147,33 +147,43 @@ $$\Rightarrow a=4,09 \cdot 10^{-8} \mathrm{cm}= 4,09 \cdot 10^{-10} \mathrm{m}$$
 **Lösung Aufgabe 6**
 
 {{1}}
+<<<<<<< HEAD
+![NaCl-Gitter](media/nacl_gitter.png "*NaCl-Gitter, Quelle: [Uni Kiel](http://web.tf.uni-kiel.de/matwis/amat/mw1_ge/index.html)*")
+=======
 ![NaCl-Gitter](http://web.tf.uni-kiel.de/matwis/amat/mw1_ge/kap_3/illustr/nacl_gitter.png "*NaCl-Gitter, Quelle: [Uni Kiel](http://web.tf.uni-kiel.de/matwis/amat/mw1_ge/index.html)*")
+>>>>>>> c75856964c8f4f59f8cb0cbca4ffe48f71f74455
 
 
 {{2}}
+************************************
 NaCl: fcc-Gitter mit Basis:
 
-{{2}}
+
 Cl auf (0,0,0) und 
 Na auf $(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$ 
+************************************
 
 {{3}}
 Damit sitzen die Atome auf:
 
 {{3}}
+************************************
 Cl: (0,0,0);  $(\frac{1}{2}, \frac{1}{2},0);  (\frac{1}{2}, 0,\frac{1}{2}),  (0, \frac{1}{2},\frac{1}{2})$
 
-{{3}}
+
 Na:  $(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$;  $(0, 0,\frac{1}{2})$;  $(0, \frac{1}{2},0)$; $(\frac{1}{2}, 0,0)$
+************************************
 
 ## Aufgabe 7
 >__7.__ Geben Sie den kürzesten Abstand zwischen zwei Ionen im Kristallgitter mit Zinkblendestruktur bezogen auf die Gitterkonstante an.
 
 {{0}}
+************************************
 **Lösung Aufgabe 7**
 
-{{0}}
+
 ![Zinkblende-Struktur](https://upload.wikimedia.org/wikipedia/commons/1/12/Sphalerite_polyhedra.png "*Zinkblende-Struktur, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Zinkblende-Struktur)*")
+************************************
 
 {{1}}
 Die Zinkblende-Struktur wird auch Spahlerit genannt und ist $\alpha$-ZnS. Vergleichen Sie die Struktur mit dem Diamantgitter. Erkennen Sie Ähnlichkeiten?
@@ -194,12 +204,13 @@ Das fcc Gitter hat 4 Gitteratome pro kubischer Einheitszelle: Jede der acht Ecke
 $$N_\mathrm{Atome/EZ}=8\cdot\frac{1}{8}+6 \cdot\frac{1}{2}=4$$ 
 
 {{2}}
+************************************
 **Oktaederlücke** im fcc:
 
-{{2}}
+
 ![Oktaederlücke im fcc-Gitter](https://upload.wikimedia.org/wikipedia/commons/c/c7/Oktaederl%C3%BCcke.png "*Oktaederlücke im fcc-Gitter, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Oktaederl%C3%BCcke)*")
 
-{{2}}
+
 ``` @Kekule.load3d(mol)
 Picture 1                                                                       
   PPPPPPPP          3D                              
@@ -258,16 +269,19 @@ Picture 1
 M  END
 ```
 *Quelle:  Claudia Funke, licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/), erstellt mit [Diamond](https://www.crystalimpact.com/diamond/)  dargestellt in Liascript über Kekule.load3d(mol) von Andre Dietrich*
+************************************
 
 {{3}}
 Es gibt 1 oktaedrische Lücke in der Mitte des Würfels und je eine an den zwölf Kanten, die aber nur zu einem Viertel zählen, da jede Kante von vier Würfeln geteilt wird: 
 $$N_{\mathrm{Oktaederlücke}}=1+12\cdot \frac{1}{4}=4$$
 
 {{4}}
+************************************
 **Tetraederlücke** im fcc:
 ![Tetraederlücke im fcc-Gitter](https://upload.wikimedia.org/wikipedia/commons/f/fc/FCC_Tetrahedral_Void.jpg "*Tetraederlücke im fcc-Gitter, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Tetraederl%C3%BCcke)* ")
 
 
-{{4}}
+
 Es gibt je 1 tetraedrische Lücke in der Mitte eines Würfel-Achtels (Würfeloktand). Da es 8 Würfelachtel gibt, gibt es acht Tetraederlücken.
 $$N_{\mathrm{Tetraederlücke}}=1\cdot 8=8$$
+************************************
