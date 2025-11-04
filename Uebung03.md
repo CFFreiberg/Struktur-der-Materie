@@ -147,7 +147,7 @@ $$\Rightarrow a=4,09 \cdot 10^{-8} \mathrm{cm}= 4,09 \cdot 10^{-10} \mathrm{m}$$
 **Lösung Aufgabe 6**
 
 {{1}}
-![NACl-Gitter](http://web.tf.uni-kiel.de/matwis/amat/mw1_ge/kap_3/illustr/nacl_gitter.png "*NaCl-Gitter, Quelle: [Uni Kiel](http://web.tf.uni-kiel.de/matwis/amat/mw1_ge/index.html)*")
+![NaCl-Gitter](http://web.tf.uni-kiel.de/matwis/amat/mw1_ge/kap_3/illustr/nacl_gitter.png "*NaCl-Gitter, Quelle: [Uni Kiel](http://web.tf.uni-kiel.de/matwis/amat/mw1_ge/index.html)*")
 
 
 {{2}}
