@@ -90,7 +90,7 @@ Die "Wiederhollänge" beträgt bei ccp 3 Ebenenabstände, bei hcp 2 Ebenenabstä
 Daraus folgt mit dem Ergebnis von Aufgabe 2: 
 
 {{3}}
-$$c_\mathrm{hex} = \frac{2}{3} \cdot  \sqrt{6} \cdot  a_\mathrm{ccp}= \sqrt{\frac{8}{3} }\cdot a_\mathrm{ccp}\eqsim 1,63 \cdot a_\mathrm{ccp} $$
+$$c_\mathrm{hcp} = \frac{2}{3} \cdot  \sqrt{6} \cdot  a_\mathrm{ccp}= \sqrt{\frac{8}{3} }\cdot a_\mathrm{ccp}\eqsim 1,63 \cdot a_\mathrm{ccp} $$
 
 {{4}}
 ************************************
