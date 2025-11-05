@@ -81,7 +81,7 @@ $$c_\mathrm{ccp} = \sqrt{6} \cdot a_\mathrm{ccp}$$
 **Lösung Aufgabe 3**
 
 {{1}}
-![Vergleich Stapelfolgen ccp und hcp](media/VGLStapelfolgen.png "*Vergleich der Stapelfolgen für ccp und hcp Gitter; Quelle:  Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/), Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+![Vergleich Stapelfolgen ccp und hcp](media/VGLStapelfolgen.png "*Vergleich der Stapelfolgen für ccp und hcp Gitter; Quelle:  Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/), Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width=60%"-->
 
 
 {{2}}
