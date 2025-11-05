@@ -50,7 +50,7 @@ Hinweis: Der Begriff fcc wird oft als Synonym für die kubisch dicht gepackte St
 Das ccp-Gitter weist in vertikaler Richtung die Reihenfolge ABCABCABC… dichtest gepackter Ebenen auf.
 
 
-![kubische Einheitszelle kfz](media/kupfer.png "* Blick auf kubische fcc Zelle in [111]-Richtung; [Bildquelle](http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html)*" )<!--width="100%"--> 
+![kubische Einheitszelle kfz](media/kupfer.png "* Blick auf kubische fcc Zelle in [111]-Richtung; [Bildquelle](http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html)*" )<!--width=60%"--> 
 ************************************
 
 {{2}}
@@ -62,7 +62,7 @@ Die Raumdiagonale der kubischen Einheitszelle entspricht der
 Der Zusammenhang zwischen der Gitterkonstanten $a_\mathrm{ccp}$ und dem normalen kubishen Gitterparameter $a_\mathrm{fcc}$ kann über folgende Abbildung hergeleitet werden:
 
 
-![Zusammenhang zwischen $a_\mathrm{ccp}$ und dem normalen kubishen Gitterparameter $a_\mathrm{fcc}$](media/a_ccp_a_fcc.png "*Blick auf kubische fcc Zelle in $[\bar{1}00]$-Richtung Bild erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="100%"--> 
+![Zusammenhang zwischen $a_\mathrm{ccp}$ und dem normalen kubishen Gitterparameter $a_\mathrm{fcc}$](media/a_ccp_a_fcc.png "*Blick auf kubische fcc Zelle in $[\bar{1}00]$-Richtung Bild erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="60%"--> 
 ************************************
 
 {{4}}
