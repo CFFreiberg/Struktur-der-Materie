@@ -50,7 +50,7 @@ Hinweis: Der Begriff fcc wird oft als Synonym für die kubisch dicht gepackte St
 Das ccp-Gitter weist in vertikaler Richtung die Reihenfolge ABCABCABC… dichtest gepackter Ebenen auf.
 
 
-![kubische Einheitszelle kfz](media/kupfer.png "* Blick auf kubische fcc Zelle in [111]-Richtung; [Bildquelle](http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html)*" )<!--width=60%"--> 
+![kubische Einheitszelle kfz](media/kupfer.png "* Blick auf kubische fcc Zelle in [111]-Richtung; [Bildquelle](http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html)*")<!--width="60%"--> 
 ************************************
 
 {{2}}
