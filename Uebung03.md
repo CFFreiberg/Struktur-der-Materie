@@ -81,7 +81,7 @@ $$c_\mathrm{ccp} = \sqrt{6} \cdot a_\mathrm{ccp}$$
 **Lösung Aufgabe 3**
 
 {{1}}
-![Vergleich Stapelfolgen ccp und hcp](media/VGLStapelfolgen.png "*Vergleich der Stapelfolgen für ccp und hcp Gitter; Quelle:  Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/), Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width=60%"-->
+![Vergleich Stapelfolgen ccp und hcp](media/VGLStapelfolgen.png "*Vergleich der Stapelfolgen für ccp und hcp Gitter; Quelle:  Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/), Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="60%"-->
 
 
 {{2}}
@@ -149,7 +149,7 @@ $$\Rightarrow a=4,09 \cdot 10^{-8} \mathrm{cm}= 4,09 \cdot 10^{-10} \mathrm{m}$$
 **Lösung Aufgabe 6**
 
 {{1}}
-![NaCl-Gitter](media/nacl_gitter.png "*NaCl-Gitter, Quelle: [Uni Kiel](http://web.tf.uni-kiel.de/matwis/amat/mw1_ge/index.html)*")
+![NaCl-Gitter](media/nacl_gitter.png "*NaCl-Gitter, Quelle: [Uni Kiel](http://web.tf.uni-kiel.de/matwis/amat/mw1_ge/index.html)*")<!--width="60%"-->
 
 
 {{2}}
@@ -180,7 +180,7 @@ Na:  $(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$;  $(0, 0,\frac{1}{2})$;  $(0, \fra
 **Lösung Aufgabe 7**
 
 
-![Zinkblende-Struktur](https://upload.wikimedia.org/wikipedia/commons/1/12/Sphalerite_polyhedra.png "*Zinkblende-Struktur, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Zinkblende-Struktur)*")
+![Zinkblende-Struktur](https://upload.wikimedia.org/wikipedia/commons/1/12/Sphalerite_polyhedra.png "*Zinkblende-Struktur, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Zinkblende-Struktur)*")<!--width="60%"-->
 ************************************
 
 {{1}}
@@ -206,7 +206,7 @@ $$N_\mathrm{Atome/EZ}=8\cdot\frac{1}{8}+6 \cdot\frac{1}{2}=4$$
 **Oktaederlücke** im fcc:
 
 
-![Oktaederlücke im fcc-Gitter](https://upload.wikimedia.org/wikipedia/commons/c/c7/Oktaederl%C3%BCcke.png "*Oktaederlücke im fcc-Gitter, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Oktaederl%C3%BCcke)*")
+![Oktaederlücke im fcc-Gitter](https://upload.wikimedia.org/wikipedia/commons/c/c7/Oktaederl%C3%BCcke.png "*Oktaederlücke im fcc-Gitter, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Oktaederl%C3%BCcke)*")<!--width="60%"-->
 
 
 ``` @Kekule.load3d(mol)
@@ -276,7 +276,7 @@ $$N_{\mathrm{Oktaederlücke}}=1+12\cdot \frac{1}{4}=4$$
 {{4}}
 ************************************
 **Tetraederlücke** im fcc:
-![Tetraederlücke im fcc-Gitter](https://upload.wikimedia.org/wikipedia/commons/f/fc/FCC_Tetrahedral_Void.jpg "*Tetraederlücke im fcc-Gitter, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Tetraederl%C3%BCcke)* ")
+![Tetraederlücke im fcc-Gitter](https://upload.wikimedia.org/wikipedia/commons/f/fc/FCC_Tetrahedral_Void.jpg "*Tetraederlücke im fcc-Gitter, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Tetraederl%C3%BCcke)* ")<!--width="60%"-->
 
 
 
