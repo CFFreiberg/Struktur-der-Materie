@@ -95,7 +95,7 @@ Das reziproke Gitter von bcc ist damit ein fcc-Gitter.
 $\vec{n}=\frac{\vec{G}_{hkl}}{|\vec{G}_{hkl}|}$ ist der zu $\vec{G}_{hkl}$ gehörige Ebenennormalenvektor. Eine zu zur $(h,k,l)$ Ebene benachbarte äquivalente Ebene geht durch den Nullpunkt des Koordinatensystems.  Die Projektion eines beliebigen auf der Netzebene $\vec{G}$ gelegenen Punktes $\vec{r}$ auf $\vec{n}$ liefert den Ebenenabstand. Das gilt also auch für den Punkt  $\vec{r}=\frac{\vec{a}_1}{h} $ auf der Ebene (Schnittpunkt der Ebene mit der x-Achse): 
 
 {{2}}
-![Bild zur Erklärung der Berechnung des Ebenenabstandes](media/Ebenenabstand.png "*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+![Bild zur Erklärung der Berechnung des Ebenenabstandes](media/Ebenenabstand.png "*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="40%"-->
 
 
 {{3}}
@@ -155,7 +155,7 @@ $$\Rightarrow d_\mathrm{hkl} =\frac{2\pi}{|\vec{G}|}=2\pi\cdot \frac{a}{2\pi(\sq
 
 >__b.__ Zeigen Sie, dass   $\vec{b}_1=\frac{2\pi}{\sqrt{3}a}\cdot \hat{x}+ \frac{2\pi }{a}\cdot \hat{y}$ und $\vec{b}_2=-\frac{2\pi}{\sqrt{3}a}\cdot \hat{x}+ \frac{2\pi }{a}\cdot \hat{y}$ und $\vec{b}_3=\frac{2\pi}{c}\cdot \hat{z}$  die primitiven Gittervektoren des reziproken Gitters sind. Wie groß ist der Drehwinkel $\Theta$ zwischen den primitiven Translationsvektoren $\vec{a}_i$ und den Basisvektoren $\vec{b}_i$ des dazugehörigen reziproken Gitters?
 
-![primitive Gittervektoren hexagonales Gitter und reziproke Gittervektoren hexagonales Gitter](media/hexagonal_real_reziprok.png "*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="60%"-->
+![primitive Gittervektoren hexagonales Gitter und reziproke Gittervektoren hexagonales Gitter](media/hexagonal_real_reziprok.png "*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="50%"-->
 
 
 {{1}}
