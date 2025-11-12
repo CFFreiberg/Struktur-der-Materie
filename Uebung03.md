@@ -188,7 +188,7 @@ Die Zinkblende-Struktur wird auch Spahlerit genannt und ist $\alpha$-ZnS. Vergle
 Der kürzeste Abstand zweier (unterschiedlicher) Atome ist 1/4 der Raumdiagonalen:
 
 {{2}}
-$$r_0=\frac{\sqrt{3}}{4}$$
+$$r_0=\frac{\sqrt{3}}{4}\cdot a$$
 
 ## Aufgabe 8
 
