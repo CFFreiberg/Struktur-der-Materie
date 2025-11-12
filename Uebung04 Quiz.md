@@ -21,7 +21,7 @@ comment:  Struktur der Materie Übung 4
 -->
 
 
-# Übung 4 Quizz
+# Übung 4 Quiz
 
 
 ## Frage 1
