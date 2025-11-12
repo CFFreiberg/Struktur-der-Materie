@@ -44,7 +44,23 @@ $$
 Welche der folgenden Aussagen sind korrekt?
 
 
-- [(x)] Die Basisvektoren des reziproken Gitters stehen senkrecht zu den Ebenen des direkten Gitters.
-- [(x)] Das Skalarprodukt $\vec{a}_i \cdot \vec{b}_j = 2\pi \delta_{ij} $ gilt.
-- [( )] Das reziproke Gitter hat dieselben Längenmaße wie das direkte Gitter.
-- [( )] Das reziproke Gitter existiert nur für Bravais-Gitter mit kubischer Symmetrie.
+- [[X]] Die Basisvektoren des reziproken Gitters stehen senkrecht zu den Ebenen des direkten Gitters.
+- [[X]] Das Skalarprodukt $\vec{a}_i \cdot \vec{b}_j = 2\pi \delta_{ij} $ gilt.
+- [[ ]] as reziproke Gitter hat dieselben Längenmaße wie das direkte Gitter.
+- [[ ]] Das reziproke Gitter existiert nur für Bravais-Gitter mit kubischer Symmetrie.
+
+## Frage 3
+> __3.__  Welcher Zusammenhang gilt zwischen bcc- und fcc-Gittern?
+- [[X]] Das reziproke Gitter eines bcc-Gitters ist ein fcc-Gitter..
+- [[X]] Das reziproke Gitter eines FCC-Gitters ist ein bcc-Gitter.
+- [[ ]] Das reziproke Gitter eines bcc-Gitters ist wieder bcc.
+- [[ ]] Das reziproke Gitter eines fcc-Gitters ist wieder fcc. 
+
+
+## Frage 4
+> __4.__ Angenommen, ein einfach kubisches Gitter mit Gitterkonstante $ a $ wird betrachtet. Geben Sie die Länge des reziproken Gittervektors $ |\vec{b}_1|$ an. 
+*Hinweis:* $\pi$ wird als  `\pi` eingegeben, und ein Bruch durch  `/`. $\cdot$   `*` oder $\cdot$ als Malzeichen bitte weglassen.
+
+
+    [[2 \pi/a]]
+
