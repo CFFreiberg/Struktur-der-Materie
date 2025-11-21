@@ -46,6 +46,37 @@ $$\vec{b_i}\cdot \vec{a_j}=2\pi\delta_{ij}$$
 mit 
 $\delta_{ij}=1 $ für $i=j$ und $\delta_{ij}=0 $  für $i\ne j$.
 
+---
+Der Vorfaktor $2\pi$ taucht auf, weil das reziproke Gitter so definiert wird, dass **Wellen mit Wellenvektoren aus dem reziproken Gitter** genau die **Translationssymmetrie des realen Gitters** besitzen.
+
+
+Ein periodischer Kristall im realen Raum lässt sich durch Translationen des Bravais-Gitters beschreiben:
+
+$$\vec{r} \to \vec{r} + \vec{T}, \quad \text{mit } \vec{T} = n_1 \vec{a}_1 + n_2 \vec{a}_2 + n_3 \vec{a}_3$$
+
+Eine Wellenfunktion oder ebene Welle $e^{i \vec{k} \cdot \vec{r}} $ soll **dieselbe Periodizität** haben, d. h.:
+
+$$
+e^{i \vec{k} \cdot (\vec{r} + \vec{T})} = e^{i \vec{k} \cdot \vec{r}}
+$$
+
+Dies ist genau dann erfüllt, wenn
+
+$$
+e^{i \vec{k} \cdot \vec{T}} = 1
+$$
+
+oder anders geschrieben:
+
+$$
+\vec{k} \cdot \vec{T} = 2\pi m, \quad m \in \mathbb{Z}
+$$
+
+Damit sehen wir:
+Die erlaubten Wellenvektoren $\vec{k}$ müssen so beschaffen sein,
+dass ihr Skalarprodukt mit den Realraum-Vektoren Vielfache von $2\pi$ ergibt.
+
+---
 
 ## Aufgabe 2
 >__2.__ 	Die primitiven Translationsvektoren des raumzentrierten Gitters sind $\vec{a}_1=\frac{a}{2}\cdot (-\hat{x}+\hat{y}+\hat{z}) $; $\vec{a}_2=\frac{a}{2}\cdot (\hat{x}-\hat{y}+\hat{z})$; $\vec{a}_3=\frac{a}{2}\cdot (\hat{x}+\hat{y}-\hat{z})$. Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was für ein reziprokes Gitter ergibt sich?
