@@ -31,7 +31,7 @@ comment:  Struktur der Materie Übung 4
 - [( )] Es ist ein reales Gitter im Kristallraum.
 - [(x)] Es ist eine mathematische Konstruktion, die durch Fourier-Transformation des realen Gitters entsteht.
 - [( )] Es beschreibt die Position der Atome im Kristall.
-- [( )]Es ist nur für kubische Gitter definiert.
+- [( )] Es ist nur für kubische Gitter definiert.
 
 ## Frage 2
 > __2.__ 	Gegeben ist ein direktes Gitter mit Basisvektoren $\vec{a_1}$, $\vec{a_2}$, $\vec{a_3}$.  
@@ -46,7 +46,7 @@ Welche der folgenden Aussagen sind korrekt?
 
 - [[X]] Die Basisvektoren des reziproken Gitters stehen senkrecht zu den Ebenen des direkten Gitters.
 - [[X]] Das Skalarprodukt $\vec{a}_i \cdot \vec{b}_j = 2\pi \delta_{ij} $ gilt.
-- [[ ]] as reziproke Gitter hat dieselben Längenmaße wie das direkte Gitter.
+- [[ ]] Das reziproke Gitter hat dieselben Längenmaße wie das direkte Gitter.
 - [[ ]] Das reziproke Gitter existiert nur für Bravais-Gitter mit kubischer Symmetrie.
 
 ## Frage 3
