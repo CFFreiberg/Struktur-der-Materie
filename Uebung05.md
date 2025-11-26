@@ -101,7 +101,7 @@ $$z=a+i\cdot b=r\cdot e^{i\cdot \varphi}=r(\cos(\varphi)+i\cdot \sin(\varphi) )$
 für $\varphi$ gilt: $\varphi= \arctan  ( \frac{b}{a})$ mit $0 \le \varphi \le 2\pi$
 
 {{23}}
-![komplexe Zahlenebene](media/imaginaereZahl.png "*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
+![komplexe Zahlenebene](media/imaginaereZahl.png "*Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="50%"-->
 
 ## Aufgabe 2
 
