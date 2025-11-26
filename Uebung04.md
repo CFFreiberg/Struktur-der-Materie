@@ -46,6 +46,8 @@ $$\vec{b_i}\cdot \vec{a_j}=2\pi\delta_{ij}$$
 mit 
 $\delta_{ij}=1 $ für $i=j$ und $\delta_{ij}=0 $  für $i\ne j$.
 
+{{5}}
+************************************
 ---
 Der Vorfaktor $2\pi$ taucht auf, weil das reziproke Gitter so definiert wird, dass **Wellen mit Wellenvektoren aus dem reziproken Gitter** genau die **Translationssymmetrie des realen Gitters** besitzen.
 
@@ -77,6 +79,7 @@ Die erlaubten Wellenvektoren $\vec{k}$ müssen so beschaffen sein,
 dass ihr Skalarprodukt mit den Realraum-Vektoren Vielfache von $2\pi$ ergibt.
 
 ---
+************************************
 
 ## Aufgabe 2
 >__2.__ 	Die primitiven Translationsvektoren des raumzentrierten Gitters sind $\vec{a}_1=\frac{a}{2}\cdot (-\hat{x}+\hat{y}+\hat{z}) $; $\vec{a}_2=\frac{a}{2}\cdot (\hat{x}-\hat{y}+\hat{z})$; $\vec{a}_3=\frac{a}{2}\cdot (\hat{x}+\hat{y}-\hat{z})$. Berechnen Sie die primitiven Translationsvektoren des reziproken Gitters! Was für ein reziprokes Gitter ergibt sich?
