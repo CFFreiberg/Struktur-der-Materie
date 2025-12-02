@@ -104,7 +104,7 @@ $$\vec{b}_2=\frac{2\pi}{b}\cdot \vec{\hat{y}}$$
 Die Beträge der reziproken Gittervektoren sind umgekehrt proportional zu den Längen der entsprechenden Gittervektoren im realen Gitter.
 
 ## Aufgabe 3
-> __3.__  Berechnen Sie den Netzebenenabstand $d$ im orthorhombischen Gitter.
+> __3.__  Berechnen Sie den Netzebenenabstand $d_{hkl}$ im orthorhombischen Gitter.
 
 {{1}}
 **Lösung Aufgabe 3:**
