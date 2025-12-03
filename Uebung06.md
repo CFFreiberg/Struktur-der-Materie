@@ -143,7 +143,7 @@ Für die Konstruktion in 2D wählt man einen Gitterpunkt und halbiert die Verbin
 Probieren Sie den Link in der Abbildungsunterschrift bitte mal aus und variieren Sie die Parameter.
 
 ## Aufgabe 5
-> __5.__	Zeigen Sie, dass das Volumen der ersten Brillouin - Zone $V_\mathrm{BZ}$ gleich $\frac{2\pi}{V_\mathrm{pEZ}}$ ist, wobei $V_\mathrm{pEZ}$ das Volumen der primitiven Einheitszelle des Kristalls ist. Dabei ist das Volumen einer Brillouin-Zone gleich dem Volumen des primitiven Parallelepipeds im Fourier-Raum (reziprokem Raum). Beachten Sie dabei die Vektoridentität $(\vec{c} \times\vec{a})\times (\vec{a}  \times\vec{b})=(\vec{c} \cdot\vec{a}\times \vec{b} ) \cdot\vec{a}$. 
+> __5.__	Zeigen Sie, dass das Volumen der ersten Brillouin - Zone $V_\mathrm{BZ}$ gleich $\frac{(2\pi)^3}{V_\mathrm{pEZ}}$ ist, wobei $V_\mathrm{pEZ}$ das Volumen der primitiven Einheitszelle des Kristalls ist. Dabei ist das Volumen einer Brillouin-Zone gleich dem Volumen des primitiven Parallelepipeds im Fourier-Raum (reziprokem Raum). Beachten Sie dabei die Vektoridentität $(\vec{c} \times\vec{a})\times (\vec{a}  \times\vec{b})=(\vec{c} \cdot\vec{a}\times \vec{b} ) \cdot\vec{a}$. 
 
 {{1}}
 **Lösung Aufgabe 5:**
