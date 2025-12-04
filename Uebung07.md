@@ -41,7 +41,7 @@ Wenn Röntgen-, Elektronen- oder Neutronenstrahlen auf einen Kristall treffen, v
 
 <summary>**Atomare Positionen im Kristallgitter:**</summary>
 
-Der Strukturfaktor hängt von den Positionen der Atome im Kristallgitter ab. Die genaue räumliche Anordnung und insbesondere räumliche Verteilung der Elektronen (der Atome) beeinflusst die Art und Weise, wie die gestreuten Wellen interferieren.
+Der Strukturfaktor hängt von den Positionen der Atome im Kristallgitter ab. Die genaue räumliche Anordnung und Verteilung der Elektronen (bzw. Atome) beeinflusst die Interferenz der gestreuten Wellen.
 
 </details>
 
@@ -76,7 +76,7 @@ $r\cdot \mathrm{sin}(\varphi)$ ist der Wegunterschied zwischen dem abgebildten o
 $$2\pi\cdot\frac{r\cdot \mathrm{sin}(\varphi)}{\lambda}=\frac{2\pi}{\lambda}\cdot r\cdot \mathrm{sin}(\varphi)=\vec{k}\cdot\vec{r}$$
 
 Mit der gleichen Begründung ist die Phasendifferenz für den oberen Weg bei der gestreuten Welle $-\vec{k}'\cdot\vec{r}$.
-Bei der einfallenden Welle ist die Phase vom oberen Weg bei $\mathrm{d}V$ schon weiter fortgeschritten im vergleich zum unteren Weg (über O). Achtung, beim gestreuten Röntgenstrahl ist die Phasse des oberen Weges vor dem Bilden der gemeinsamen Wellenfront schon vone weg gelaufen, deshalb hier das Minuszeichen. 
+Bei der einfallenden Welle ist die Phase vom oberen Weg bei $\mathrm{d}V$ schon weiter fortgeschritten im Vergleich zum unteren Weg (über O). Achtung, beim gestreuten Röntgenstrahl ist die Phasse des oberen Weges vor dem Bilden der gemeinsamen Wellenfront schon vone weg gelaufen, deshalb hier das Minuszeichen. 
 Damit hat die Welle, die im Volumenelement $\mathrm{d}V$ gestreut wird, gegenüber der im Ursprung O gestreueten einen Phasenfaktor von $e^{i(\vec{k}-\vec{k}')\cdot \vec{r}}$
 
 Die gesamte Amplitude $F_{\vec{k}'-\vec{k}}$ der aus $\vec{k}$ in die Richtung $\vec{k}'$ gestreute Welle ist proportional zu 
