@@ -156,7 +156,9 @@ def main():
     x_num = 1000
     y_min = 0
     y_max = 100
-    x_label = r"$\\frac{\\Delta k \\cdot a }{2\\pi}$"
+    x_label = "$\\frac{\\Delta k \\cdot a }{2\\pi}$"
+    #x_label = "xlabel"
+    #y_label = "ylabel"
     y_label = "$\\|F|^2$"
     
     # Define slider parameters
@@ -191,7 +193,7 @@ def main():
     def reset(event):
         m_slider.reset()
     # register the update function with each slider
-    m_slider.on_changed(update)
+    # m_slider.on_changed(update)
 
     resetax = fig.add_axes([0.8, 0.025, 0.1, 0.04])
     button = Button(resetax, 'Reset', hovercolor='0.975')
