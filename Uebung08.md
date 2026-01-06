@@ -139,8 +139,9 @@ In der folgenden, inhaltlich gleichen Abbildung können Sie den Python-Quellcode
 
 {{7}}
                                       
-``` python
+``` python @plot_script
 # Quelle: https://matplotlib.org/stable/gallery/widgets/slider_snap_demo.html
+
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
