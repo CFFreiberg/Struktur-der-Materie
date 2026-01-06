@@ -20,7 +20,11 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 import: https://github.com/liascript/CodeRunner
 
-import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
+@binder:
+  url: https://mybinder.org
+  repo: YOUR_GITHUB_USER/YOUR_REPO
+  ref: main
+
 
 
 -->
