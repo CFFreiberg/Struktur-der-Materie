@@ -146,6 +146,8 @@ import sys
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Button, Slider
+from matplotlib.widgets import Slider
+
 # The parametrized function to be plotted
 def f(variable, m):
     return np.sin(np.pi*variable*m)**2//np.sin(np.pi*variable)**2
@@ -194,7 +196,7 @@ def main():
     def reset(event):
         m_slider.reset()
     # register the update function with each slider
-    # m_slider.on_changed(update)
+    m_slider.on_changed(update)
 
     resetax = fig.add_axes([0.8, 0.025, 0.1, 0.04])
     button = Button(resetax, 'Reset', hovercolor='0.975')
@@ -204,6 +206,10 @@ def main():
 main()
 ```
 @Pyodide.eval(`["main.py"]`, `python3 -m compileall .`, `python3 main.py`)
+
+
+
+
 
                                       {{8}}
 > __b.__ Für $a\Delta k=2\pi h$ mit $h \in \mathbb{Z} $ erscheint ein Beugungsmaximum. Ändern wir $\Delta k$ geringfügig und definieren uns ein $\epsilon$ in $a \Delta k=2\pi h+\epsilon$ so, dass $\epsilon$ den Ort des ersten Nulldurchgangs der Funktion $\sin(\frac{1}{²}Ma\Delta k)$ angibt. Zeigen Sie, dass gilt $\epsilon=\frac{2\pi}{M}$, so dass die Breite des Beugungsmaximums proportional zu $\frac{1}{M} $ ist und dadurch für große Werte von $M$ extrem schmal werden kann. 
