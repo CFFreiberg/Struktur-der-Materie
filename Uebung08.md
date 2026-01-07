@@ -142,7 +142,7 @@ $|F|^2$ hat damit Hauptmaxima bei $a\cdot \Delta k=2\pi h$, ($h \in \mathbb{Z}$)
 In der folgenden, inhaltlich gleichen Abbildung können Sie den Python-Quellcode ausführen, indem sie links unten auf den runden Knopf mit dem </> Zeichen drücken. Dann wird eine Abbildung mit der Intensitätsverteilung $|F|^2$ bei der Beugung an einem eindimensionalen Gitter erzeugt. Die Anzahl der an der Beugung beteiligten Atome kann über die Bewegung des *sliders* variiert werden.
 
 {{7}}
- @input(range, min=1, max=30, step=1, value=4) @m
+
  
 ``` python @plot_script
 # Quelle: https://matplotlib.org/stable/gallery/widgets/slider_snap_demo.html
