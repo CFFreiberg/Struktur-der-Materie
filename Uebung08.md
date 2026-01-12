@@ -20,6 +20,10 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 import: https://github.com/liascript/CodeRunner
 
+import: https://raw.githubusercontent.com/liaTemplates/Pyodide/master/README.md
+
+import: https://raw.githubusercontent.com/liascript/CodeRunner/master/README.md
+
 @binder:
   url: https://mybinder.org
   repo: YOUR_GITHUB_USER/YOUR_REPO
@@ -143,7 +147,6 @@ In der folgenden, inhaltlich gleichen Abbildung können Sie den Python-Quellcode
 
 {{7}}
 
- 
 ```python
 import sys
 import numpy as np
@@ -208,7 +211,6 @@ def main():
 main()
 ```
 @Pyodide.eval
-
 
                                       {{8}}
 > __b.__ Für $a\Delta k=2\pi h$ mit $h \in \mathbb{Z} $ erscheint ein Beugungsmaximum. Ändern wir $\Delta k$ geringfügig und definieren uns ein $\epsilon$ in $a \Delta k=2\pi h+\epsilon$ so, dass $\epsilon$ den Ort des ersten Nulldurchgangs der Funktion $\sin(\frac{1}{²}Ma\Delta k)$ angibt. Zeigen Sie, dass gilt $\epsilon=\frac{2\pi}{M}$, so dass die Breite des Beugungsmaximums proportional zu $\frac{1}{M} $ ist und dadurch für große Werte von $M$ extrem schmal werden kann. 
