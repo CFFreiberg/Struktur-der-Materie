@@ -16,7 +16,7 @@ comment:  Struktur der Materie Übung 9
 }
 @end
 
-import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
+
 
 import: https://raw.githubusercontent.com/liaTemplates/Pyodide/master/README.md
 
