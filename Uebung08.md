@@ -144,20 +144,17 @@ In der folgenden, inhaltlich gleichen Abbildung können Sie den Python-Quellcode
 {{7}}
 
  
-``` python @plot_script
-# Quelle: https://matplotlib.org/stable/gallery/widgets/slider_snap_demo.html
-
+```python
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Button, Slider
 from matplotlib.widgets import Slider
-
+ 
 # The parametrized function to be plotted
 def f(variable, m):
     return np.sin(np.pi*variable*m)**2//np.sin(np.pi*variable)**2
-
-
+ 
 def main():
     x_min = -1.1
     x_max = 1.1
@@ -168,14 +165,14 @@ def main():
     #x_label = "xlabel"
     #y_label = "ylabel"
     y_label = "$\\|F|^2$"
-    
+   
     # Define slider parameters
     init_m = 4
     m_min = 1
     m_max = 30
     m_step = 1
     slider_label = "Anzahl der Atome"
-
+ 
     x = np.linspace(x_min, x_max, x_num)
     # Create the figure and the line that we will manipulate
     fig, ax = plt.subplots()
@@ -202,18 +199,15 @@ def main():
         m_slider.reset()
     # register the update function with each slider
     m_slider.on_changed(update)
-
+ 
     resetax = fig.add_axes([0.8, 0.025, 0.1, 0.04])
     button = Button(resetax, 'Reset', hovercolor='0.975')
-    button.on_clicked(reset)   
-
+    button.on_clicked(reset)  
+ 
     plt.show()
 main()
 ```
-@Pyodide.eval(`["main.py"]`, `python3 -m compileall .`, `python3 main.py`)
-
-
-
+@Pyodide.eval
 
 
                                       {{8}}
