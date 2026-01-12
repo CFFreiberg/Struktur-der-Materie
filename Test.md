@@ -18,9 +18,9 @@ comment:  Struktur der Materie Übung 9
 
 import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
-import: https://github.com/liascript/CodeRunner
+import: https://raw.githubusercontent.com/liaTemplates/Pyodide/master/README.md
 
-import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
+import: https://raw.githubusercontent.com/liascript/CodeRunner/master/README.md
 -->
 
 
@@ -28,24 +28,15 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 
 ## Aufgabe 1
-                                      {{0}}
-> __1.__ Edelgaskristalle werden durch das Lennard-Jones Potential beschrieben. Wie lautet die Gleichung für dieses Potential und welche Anteile sind darin wo enthalten? Welcher Anteil ist abstoßend, welcher anziehend?
+
+> __1.__ Edelgaskristalle 
 
 
 
-                                      {{1}}
-**Lösung Aufgabe 1:**
 
-                                      {{2}}
-Lennard-Jones Potential:
-$$ U(R)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\sigma}{R}\right)^6\right]$$
-Der positive  hoch-12-Term ist abstoßend (Pauli Prinzip).  
-Der negative hoch 6-Term ist anziehend (van der Waals-Wechselwirkung = induzierte Dipol-Dipol Welchselwirkung)  
 
-                                      {{3}}
-Im folgenden Python-Code können Sie unten links auf Ausführen (</>) drücken, dann bekommen Sie eine abbildung der einzelnen Anteile des Lennard-Jones Potentials
 
-{{3}}
+
 
 ``` python
 # Quelle: zusammenkopiert aus https://matplotlib.org
