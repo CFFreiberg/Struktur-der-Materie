@@ -63,17 +63,17 @@ def main():
     x_num = 100
     y_min = -1
     y_max = 1
-   # x_label = r"$\\dfrac{R }{\\sigma}$"
-   # y_label = r"$\\dfrac{U }{4\\cdot\\varepsilon}$"
+    x_label = "$\\dfrac{R }{\\sigma}$"
+    y_label = "$\\dfrac{U }{4\\cdot\\varepsilon}$"
     x = np.linspace(x_min, x_max, x_num)
     fig, ax = plt.subplots()
     line, = ax.plot(x, f1(x),'r--')
     line, = ax.plot(x, f2(x),'b--')
     line, = ax.plot(x, f3(x),'g')
-   # plt.legend((r"$+\\left (\\dfrac{\\sigma}{R}\\right)^{12}$", r"$-\\left (\\dfrac{\\sigma}{R}\\right)^{6}$", r"$+\\left (\\dfrac{\\sigma}{R}\\right)^{12}-\\left (\\dfrac{\\sigma}{R}\\right)^{6}$" ),loc='upper center', shadow=True)
+    plt.legend(("$+\\left (\\dfrac{\\sigma}{R}\\right)^{12}$", "$-\\left (\\dfrac{\\sigma}{R}\\right)^{6}$", "$+\\left (\\dfrac{\\sigma}{R}\\right)^{12}-\\left (\\dfrac{\\sigma}{R}\\right)^{6}$" ),loc='upper center', shadow=True)
     plt.grid(True)
-   # ax.set_xlabel(x_label)
-   # ax.set_ylabel(y_label)
+    ax.set_xlabel(x_label)
+    ax.set_ylabel(y_label)
     ax.set_ylim(y_min, y_max)
     
     plt.show()
