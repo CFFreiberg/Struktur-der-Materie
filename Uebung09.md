@@ -73,7 +73,7 @@ def main():
     x_num = 100
     y_min = -1
     y_max = 1
-    x_label = "$\\dfrac{R }{\\sigma}$"
+    x_label = "$\\dfrac{\\sigma }{R}$"
     y_label = "$\\dfrac{U }{4\\cdot\\varepsilon}$"
     x = np.linspace(x_min, x_max, x_num)
     fig, ax = plt.subplots()
