@@ -141,8 +141,8 @@ $$U_i=\ \sum_{j\ \neq i}\ U_{ij}$$
 
                                       {{3}}
 Dabei ist die Wechselwirkungsenergie 
-$$U_{ij}\ = \begin{cases}
-\lambda \cdot  \exp\bigg(\frac{-R}{\rho}\bigg)\ -\frac{q^2}{4 \pi \varepsilon_0 R}  &\text{für nächste Nachbarn, Abstoßung}\\
+$$U_{ij}(R)\ = \begin{cases}
+\overbrace{\lambda \cdot  \exp\bigg(\frac{-R}{\rho}\bigg)}^{\mathrm{Abstoßung}} -\frac{q^2}{4 \pi \varepsilon_0 R}  &\text{für nächste Nachbarn}\\
 \pm\frac{1}{p_{ij}}\frac{q^2}{4\pi\varepsilon_0 \cdot R}  &\text{alle anderen geometrischen Fälle}  
 \end{cases} $$
 
@@ -155,7 +155,7 @@ $$\alpha =\ \sum_{j}\pm\frac{1}{p_{ij}} $$
 und der Anzahl der nächsten Nachbarn $z$ ergibt sich
 
                                       {{5}}
-$$U_G=\ N\cdot U_i=N\bigg(z \cdot \lambda\cdot \exp\left(\frac{-R}{\rho}\right)-\frac{\alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R}\bigg)$$
+$$U_G(R)=\ N\cdot U_i=N\bigg(z \cdot \lambda\cdot \exp\left(\frac{-R}{\rho}\right)-\frac{\alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R}\bigg)$$
 
                                       {{6}}
 Der Gleichgewichtsabstand ergibt sich aus $\frac{\mathrm{d}U_G}{\mathrm{d}R} = 0$ 
