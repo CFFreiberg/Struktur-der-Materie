@@ -106,13 +106,13 @@ main()
 **Lösung Aufgabe 2:**
 
                                       {{2}}
-$$F=-\frac{dU(R)}{dR}$$
+$$F=-\left| \vec{\nabla }U(r) \right|=-\frac{\mathrm{d}U(r)}{\mathrm{d}r}$$
 
                                       {{3}}
 $$\begin{align*}
 
-\Rightarrow F&=\ -4\varepsilon\left(\frac{-12\sigma^{12}}{R^{13}}-\ \frac{-6\sigma^6}{R^7}\right)\\
-&=\ \frac{24\varepsilon}{R}\ \left[2\left(\frac{\sigma}{R}\right)^{12}-\left(\frac{\sigma}{R}\right)^6\right] 
+\Rightarrow F&=\ -4\varepsilon\left(\frac{-12\sigma^{12}}{r^{13}}-\ \frac{-6\sigma^6}{r^7}\right)\\
+&=\ \frac{24\varepsilon}{r}\ \left[2\left(\frac{\sigma}{r}\right)^{12}-\left(\frac{\sigma}{r}\right)^6\right] 
 \end{align*}$$
 
 ## Aufgabe 3 
@@ -158,7 +158,7 @@ und der Anzahl der nächsten Nachbarn $z$ ergibt sich
 $$U_G=\ N\cdot U_i=N\bigg(z \cdot \lambda\cdot \exp\left(\frac{-R}{\rho}\right)-\frac{\alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R}\bigg)$$
 
                                       {{6}}
-Der Gleichgewichtsabstand ergibt sich aus $\frac{dU_G}{dR} = 0$ 
+Der Gleichgewichtsabstand ergibt sich aus $\frac{\mathrm{d}U_G}{\mathrm{d}R} = 0$ 
 
                                       {{7}}
 $$-\frac{N}{\rho}z\ \lambda \exp \left(\frac{-R_{0}}{\rho}\right)+\frac{N\ \alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R_0^2}\ = 0$$
