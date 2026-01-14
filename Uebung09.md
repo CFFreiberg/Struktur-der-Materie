@@ -43,7 +43,7 @@ Der positive  hoch-12-Term ist abstoßend (Pauli Prinzip).
 Der negative hoch 6-Term ist anziehend (van der Waals-Wechselwirkung = induzierte Dipol-Dipol Welchselwirkung)  
 
                                       {{3}}
-Im folgenden Python-Code können Sie unten links auf Ausführen (</>) drücken, dann bekommen Sie eine abbildung der einzelnen Anteile des Lennard-Jones Potentials
+Im folgenden Python-Code können Sie unten links auf Ausführen (</>) drücken, dann bekommen Sie eine Abbildung der einzelnen Anteile des Lennard-Jones Potentials
 
 {{3}}
 
