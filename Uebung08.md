@@ -148,41 +148,39 @@ In der folgenden, inhaltlich gleichen Abbildung können Sie den Python-Quellcode
 {{7}}
 
 ```python
-import sys
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.widgets import Button, Slider
-from matplotlib.widgets import Slider
- 
+
 # The parametrized function to be plotted
-def f(variable, m):
-    return np.sin(np.pi*variable*m)**2//np.sin(np.pi*variable)**2
+def f(x, m):
+    return np.sin(np.pi*x*m)**2/np.sin(np.pi*x)**2
  
 def main():
+	# Settings for x- and y-axes
     x_min = -1.1
     x_max = 1.1
     x_num = 1000
-    y_min = 0
-    y_max = 100
     x_label = "$\\frac{\\Delta k \\cdot a }{2\\pi}$"
-    #x_label = "xlabel"
-    #y_label = "ylabel"
     y_label = "$\\|F|^2$"
    
     # Define slider parameters
     init_m = 4
     m_min = 1
-    m_max = 30
+    m_max = 40
     m_step = 1
     slider_label = "Anzahl der Atome"
- 
+    
+    # Calculate x and y
     x = np.linspace(x_min, x_max, x_num)
+    y = f(x, init_m)
+    
     # Create the figure and the line that we will manipulate
     fig, ax = plt.subplots()
-    line, = ax.plot(x, f(x, init_m), lw=3)
+    line, = ax.plot(x, y, lw=2.5)
     ax.set_xlabel(x_label)
     ax.set_ylabel(y_label)
-    ax.set_ylim(y_min, y_max)
+    ax.set_ylim(np.max(y)*(-.03), np.max(y)*1.05)
     # adjust the main plot to make room for the sliders
     fig.subplots_adjust(left=0.25, bottom=0.25)
     # Make a horizontal slider to control the frequency.
@@ -196,7 +194,9 @@ def main():
         valinit=init_m,
     )
     def update(val):
-        line.set_ydata(f(x, m_slider.val))
+        y = f(x, m_slider.val)
+        line.set_ydata(y)
+        ax.set_ylim(np.max(y)*(-.03), np.max(y)*1.05)
         fig.canvas.draw_idle()
     def reset(event):
         m_slider.reset()
