@@ -92,11 +92,12 @@ Eingesetzt in die  Bragg-Bedingung für Beugung (in die erste Ordnung) $\lambda=
 $$ \sin^2(\theta)=\left (\frac{\lambda}{2a} \right )^2(h^2+k^2+l^2)$$
 
                                       {{8}}
+************************************
 Eine Auftragung des Beugungsspektrums über $\sin ^2\theta$ und ein Vergleich mit den vorhandenen Reflexen bei den $h^2+k^2+l^2$-Werten ermöglicht eine Unterscheidung von sc-, bcc- und fcc-Gittern.
 
-                                      {{8}}
-![Intensität in Abhängigkeit vom Beugungswinkel](media/intensities.png "*Intensitätsverteilung in Abhängigkeit des Beugungswinkels;  Quelle:  [Rueddiger Mitdank](https://www.researchgate.net/profile/Ruediger-Mitdank/post/What-is-the-significance-of-h2-k2-l2/attachment/5d1b42d83843b0b982591bbc/AS%3A776182228332547%401562067672794/download/intensities.png?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InF1ZXN0aW9uIiwicGFnZSI6InF1ZXN0aW9uIn19)*")
 
+![Intensität in Abhängigkeit vom Beugungswinkel](media/intensities.png "*Intensitätsverteilung in Abhängigkeit des Beugungswinkels;  Quelle:  [Rueddiger Mitdank](https://www.researchgate.net/profile/Ruediger-Mitdank/post/What-is-the-significance-of-h2-k2-l2/attachment/5d1b42d83843b0b982591bbc/AS%3A776182228332547%401562067672794/download/intensities.png?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InF1ZXN0aW9uIiwicGFnZSI6InF1ZXN0aW9uIn19)*")
+************************************
 
 
 
@@ -226,14 +227,16 @@ Für die Umgebung der Maxima $a\Delta k=2\pi h + \epsilon $ folgt mit der Lösun
 $$|F|^2=\frac{\sin^2(\frac{1}{2}Ma\Delta k)}{\sin^2(\frac{1}{2}a \Delta k)}=\frac{\sin^2(\frac{1}{2}M(2\pi h+\epsilon))}{\sin^2(\frac{1}{2}(2 \pi  h + \epsilon))}$$
 
                                       {{12}}
+************************************
 Betrachten wir den Term im Zähler genauer. Mit den Additionstheoremen für den Sinus einer Summe $\sin(x_1​+x_2​)=\sin(x_1)\cdot  \mathrm{​cos}(x_2)​+\sin(x_2)\cdot \mathrm{​cos}(x_1)$ folgt​
 $$\sin(\frac{1}{2}M(2\pi h+\epsilon))=\sin(M \pi h+\frac{M\epsilon}{2})=\sin(M \pi h)\cdot \cos(\frac{M\epsilon}{2})+\sin(\frac{M\epsilon}{2})\cdot \cos(M\pi h)$$
 
-                                      {{12}}
+
 Es gilt $\sin(M \pi h)=0$ und $\cos(M\pi h)=\pm 1$ , deshalb folgt:
 
-                                      {{12}}
+
 $$\sin(\frac{1}{2}M(2\pi h+\epsilon))=\pm \sin(\frac{M\epsilon}{2}) $$
+************************************
 
                                       {{13}}
 Die erste Nullstelle von $\sin(\frac{M\epsilon}{2})$ ist bei $ \epsilon=\frac{2\pi}{M}$. Die "Breite des Maximums" $\epsilon$ wird also kleiner, wenn $M$ größer wird. 
@@ -330,28 +333,31 @@ $$\int e^{ax}\cdot x \cdot \sin(bx) dx=\frac{x\cdot e^{ax}}{a^2+b^2}[a \sin(bx)-
 Dabei ist $a=  \frac{-2}{a_0\cdot \Delta k}$ und $b=1$.
 
                                       {{21}}
+************************************
 Einsetzen der Integrationsgrenzen:
 
-                                      {{21}}
+
 + für $x\rightarrow \infty$ gilt $\frac{x\cdot e^{ax}}{a^2+b^2} \rightarrow 0$, da $a=a=  \frac{-2}{a_0\cdot \Delta k}$ negativ ist.
 + für $x\rightarrow \infty$ gilt $\frac{ e^{ax}}{a^2+b^2} \rightarrow 0$, da $a=a=  \frac{-2}{a_0\cdot \Delta k}$ negativ ist.
 + für $x\rightarrow 0$ gilt $\frac{x\cdot e^{ax}}{a^2+b^2} \rightarrow 0$, da $x\rightarrow 0$ im Produkt steht und $e^{ax} \rightarrow1$
 + für $x\rightarrow 0$ gilt $\frac{ e^{ax}}{a^2+b^2} \rightarrow \frac{1}{(a^2+b^2)^2}$
 
-                                      {{21}}
+
 Damit folgt für diesen Spezialfall der Integrationsgrenzen:
 $$\int_0^{\infty} e^{ax}\cdot x \cdot \sin(bx) dx=\frac{1}{(a^2+b^2)^2}\cdot 2 a b \cos(b\cdot 0)=\frac{2 a b}{(a^2+b^2)^2}$$
 
-                                      {{22}}
+
 Nun wird  $a=  \frac{-2}{a_0\cdot \Delta k}$ und $b=1$ zurück eingesetzt:
 $$f_H=  \frac{4}{a_0^3 \Delta k^3} \cdot \frac{2\left (-\frac{2}{\Delta k a_0} \cdot 1\right )}{\left (\left(-\frac{2}{\Delta k a_0}\right)^2 + 1^2 \right)^2}=\frac{-16}{a_0^4 \Delta k^4 \left (\left(-\frac{2}{\Delta k a_0}\right)^2 + 1^2 \right)^2}=\frac{-16}{  \left(4 +  \Delta k^2 a_0^2 \right)^2}$$
+************************************
 
                                       {{22}}
+************************************
 Beachten Sie:
 
-                                      {{22}}
 + für die Vorwärtsstreuung, d. h.  $\Delta k=0$      ist $ f_{H }=1$. Das entspricht der Ladung des H-Atoms .
 + für die Rutherford Streuung $\Delta k \cdot  a\gg 1 $   ist $ f_{H } \sim\ \frac{1}{\Delta k^4}$
+************************************
 
                                       {{23}}
 Bitte beachten Sie, dass bei der Streuung an einem einzelnen Atom alle Streuvektoren $\Delta k$ erlaubt sind, im Gegensatz zur Streuung am Kristall. 
