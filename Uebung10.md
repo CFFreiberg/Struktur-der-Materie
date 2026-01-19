@@ -93,7 +93,7 @@ Es gibt keine Wellenlängen, die größer sind als die Abmessungen des Kristalls
 Also: $\lambda \le b$, wobei $b$ die Abmessung des Kristalls sein soll.
 
 {{9}}
-![Beschränkung Wellenlänge durch Außenabmessungen](media/Piccolofloete.png "*Große Wellenlängen passen genauso wenig in einen kurzen Kristall wie tiefe Töne in eine Piccoloflöte; Quelle: C. Funke*")
+![Beschränkung Wellenlänge durch Außenabmessungen](media/Piccolofloete.png "*Große Wellenlängen passen genauso wenig in einen kurzen Kristall wie tiefe Töne in eine Piccoloflöte; Quelle: C. Funke*")<!--width="50%"-->
 
 
 {{10}}
@@ -162,6 +162,7 @@ $$v_\mathrm{p}=\frac{\omega}{K}$$
 
 ## Aufgabe 5 
                                       {{0}}
+                                    
 >__5.__ Betrachten Sie eine lineare monoatomare Kette aus äquidistanten Atomen der Masse $M$ im Abstand $a$, die um ihre Gleichgewichtslage kleine Schwingungen ausführen können (longitudinale Polarisation, harmonische Näherung). Eine Wechselwirkung bestehe ausschließlich zwischen nächsten Nachbarn und sei durch die Federkonstante $C$ charakterisiert. Die Position des n–ten Atoms sei durch $x_n(t) = n\cdot a + u_n(t)$ beschrieben.
 
                                       {{0}}
@@ -188,10 +189,13 @@ $$x_n(t) = n\cdot a + u_n(t)$$
 Dabei ist $u_n(t)$ die Auslenkung aus der Ruhelage. 
 
                                       {{4}}
-Wir leiten einfach mal eine Lösung unter Berücksichtigung aller Wechselwirkungen her und beschränken uns dann auf die nächsten Nachbar. (Natürlich könnte das auch gleich an dieser Stelle passieren;))
+************************************
 
-                                      {{4}}
+Wir leiten einfach mal eine Lösung unter Berücksichtigung aller Wechselwirkungen her und beschränken uns dann auf die nächsten Nachbar. (Natürlich könnte das auch gleich an dieser Stelle passieren;)
+
+
 Sei $M$ die Masse eines Atoms, $C_p$ die Kraftkonstante zum $p$-ten Nachbarn und $F_n$ die Kraft auf das Atom $n$. Dann gilt:
+************************************
 
                                       {{5}}
 $$F_n=\sum_{p\ne 0}C_p[u_{n+p}(t)-u_{n}(t)]$$
@@ -261,7 +265,7 @@ $$\begin{align*}\omega^2&=\frac{2C}{M}\bigg(2\sin^2\bigg(\frac{Ka}{2}\bigg)\bigg
 \end{align*}$$
 
 {{20}}
-![Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis](media/dispersionsrelation_Gitter_miteinatomiger_Basis.png "*Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis ($q=K$); Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")
+![Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis](media/dispersionsrelation_Gitter_miteinatomiger_Basis.png "*Dispersionsrelation der Gitterschwingungen für ein Kristallgitter mit einatomiger Basis ($q=K$); Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")<!--width="75%"-->
 
                                       {{21}}
 **Ergänzung: Eigenschaften von $\omega(K)$**
@@ -398,7 +402,7 @@ Optische Moden können nur bei einer mehratomigen Basis auftreten.
 **akustische Mode**: Auslenkung gleichphasig, Atome/Ionen schwingen miteinander.
 
 {{4}}
-![Vergleich von optischen und akustischen Transversalwellen von Phononen bei 2-atomiger Basis für kleine K](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Vergleich_optische_akustische_transversalwellen.svg/1280px-Vergleich_optische_akustische_transversalwellen.svg.png "*Vergleich von optischen und akustischen Transversalwellen von Phononen bei 2-atomiger Basis für kleine K; Quelle [wikipedia, wdwd](https://de.wikipedia.org/wiki/Phonon#/media/Datei:Vergleich_optische_akustische_transversalwellen.svg); [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/))*")
+![Vergleich von optischen und akustischen Transversalwellen von Phononen bei 2-atomiger Basis für kleine K](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Vergleich_optische_akustische_transversalwellen.svg/1280px-Vergleich_optische_akustische_transversalwellen.svg.png "*Vergleich von optischen und akustischen Transversalwellen von Phononen bei 2-atomiger Basis für kleine K; Quelle [wikipedia, wdwd](https://de.wikipedia.org/wiki/Phonon#/media/Datei:Vergleich_optische_akustische_transversalwellen.svg); [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/))*")<!--width="75%"-->
 
 
 ## Aufgabe 8 
