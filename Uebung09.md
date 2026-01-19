@@ -43,9 +43,10 @@ Der positive  hoch-12-Term ist abstoßend (Pauli Prinzip).
 Der negative hoch 6-Term ist anziehend (van der Waals-Wechselwirkung = induzierte Dipol-Dipol Welchselwirkung)  
 
                                       {{3}}
+************************************
 Im folgenden Python-Code können Sie unten links auf Ausführen (</>) drücken, dann bekommen Sie eine Abbildung der einzelnen Anteile des Lennard-Jones Potentials
 
-{{3}}
+
 
 ``` python
 # Quelle: zusammenkopiert aus https://matplotlib.org
@@ -90,6 +91,7 @@ def main():
 main()
 ```
 @Pyodide.eval(`["main.py"]`, `python3 -m compileall .`, `python3 main.py`)
+************************************
 
                                       {{4}}
 ![Lennard-Jones-Potential mit abstoßendem und anziehendem Anteil](media/Lennard-Jones-potential2.png "[Lennard-Jones-Potential; Quelle: MSU Department of Physics and Astronomy, Computational Math Science and Engineering and the Lyman Briggs College](https://physicsatmcl.commons.msu.edu/lennard-jones-potential/), [CC BY-NC-SA 4.0 Deed](https://creativecommons.org/licenses/by-nc-sa/4.0/)")
@@ -140,14 +142,16 @@ Die gesamte Gitterenergie ist die Summe über alle Wechselwirkungsenergien zwisc
 $$U_i=\ \sum_{j\ \neq i}\ U_{ij}$$
 
                                       {{3}}
+************************************
 Dabei ist die Wechselwirkungsenergie 
 $$U_{ij}(R)\ = \begin{cases}
 \overbrace{\lambda \cdot  \exp\bigg(\frac{-R}{\rho}\bigg)}^{\mathrm{Abstoßung}} -\frac{q^2}{4 \pi \varepsilon_0 R}  &\text{für nächste Nachbarn}\\
 \pm\frac{1}{p_{ij}}\frac{q^2}{4\pi\varepsilon_0 \cdot R}  &\text{alle anderen geometrischen Fälle}  
 \end{cases} $$
 
-                                      {{3}}
+
 Dabei sind $\lambda$ und $\rho$  materialabhängige Parameter und $p_{ij}=\frac{r_{ij}}{R}$ der relative Abstand .
+************************************
 
                                       {{4}}
 Mit der **Madelung-Konstanten**
@@ -218,19 +222,18 @@ Da die metallische Bindung ungerichtet ist, kristallisieren Metalle hauptsächli
 
 ## Aufgabe 8 
                                       {{0}}
+************************************
 >__8.__ Berechnen Sie zunächst die Madelungkonstante eines ebenen quadratischen Kristallgitters, berücksichtigen sie dabei Nachbarn, die in einem Quadrat mit der Kantenlänge von drei mal nächster-Nachbar-Abstand um ein Zentralatom liegen (siehe Abbildung unten). Nachbaratome auf dieser „Grenze“ werden nur anteilsmäßig miterfasst. 
 
 
-                                      {{0}}
-![Abbildung eines ebenen Ionengitters zur Veranschaulichung der Berechnung der Madelung-Konstanten](media/EbenesGitterMadelung.png "*Quelle:  A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik*")
+![Abbildung eines ebenen Ionengitters zur Veranschaulichung der Berechnung der Madelung-Konstanten](media/EbenesGitterMadelung.png "*Quelle:  A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik*")<!--width="50%"-->
 
 
-
-                                      {{0}}
 > Berechnen Sie dann die Näherung der Madelung-Konstanten für ein 3-dimensionalses Gitter für den in der Abbildung gezeigten Ausschnitt!
 
-                                      {{0}}
-![Abbildung eines dreidimensionalen Ionengitters zur Veranschaulichung der Berechnung der Madelung-Konstanten](media/3D-GitterMadelung.png "*Quelle:  A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik*")
+
+![Abbildung eines dreidimensionalen Ionengitters zur Veranschaulichung der Berechnung der Madelung-Konstanten](media/3D-GitterMadelung.png "*Quelle:  A. Armbrust, H. Janetzki, Aufgaben zur Festkörperphysik*")<!--width="50%"-->
+************************************
 
                                       {{1}}
 **Lösung Aufgabe 8:**
