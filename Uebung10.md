@@ -43,7 +43,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 | Photon  | elektromagnetische Welle     | 
 | Phonon  | elastische (mechanische) Welle        |   
 | Plasmon | kollektive Elektronenschwingung (Dichteschwankung von Ladungsträgern)|   
-|Magnon|magnetische Spin-Welle, Magnetisierungswelle | 
+|Magnon|magnetische Spin-Welle, Magnetisierungswelle, kollektive Anregung der Spin-Struktur in einem magnetisch geordneten Festkörper  | 
 |Polaron| Elektron-Phonon WW (Elektron und elastische Deformation)|
 |Exiton| Elektron- Loch- Paar (Polarisationswelle)|
 |Polariton| Phonon- Photon WW, starke Kopplung von Photon + Phonon|
@@ -72,7 +72,7 @@ Es gilt allgemein:
 $$ |K|=\frac{2 \pi}{\lambda} \Rightarrow \lambda=\frac{2\pi}{|K|}$$
 
                                       {{6}}
-Für elastische Wellen, die ja von real existierenden Atomen getragen werden, folgt für den  Wellenvektor $\vec{k}$ sinvollerweise also
+Für elastische Wellen, die ja von real existierenden Atomen getragen werden, folgt für den  Wellenvektor $\vec{K}$ sinvollerweise also
 $$
 \begin{align*}
 -\frac{2\pi}{2|K|} &\ge a \Rightarrow  \\
@@ -162,21 +162,23 @@ $$v_\mathrm{p}=\frac{\omega}{K}$$
 
 ## Aufgabe 5 
                                       {{0}}
-                                    
+************************************
+
 >__5.__ Betrachten Sie eine lineare monoatomare Kette aus äquidistanten Atomen der Masse $M$ im Abstand $a$, die um ihre Gleichgewichtslage kleine Schwingungen ausführen können (longitudinale Polarisation, harmonische Näherung). Eine Wechselwirkung bestehe ausschließlich zwischen nächsten Nachbarn und sei durch die Federkonstante $C$ charakterisiert. Die Position des n–ten Atoms sei durch $x_n(t) = n\cdot a + u_n(t)$ beschrieben.
 
-                                      {{0}}
+
 >__a)__ Zeigen Sie, dass die Auslenkung $u_n(t)$ des n–ten Atoms folgender Differentialgleichung genügt:
 
-                                      {{0}}
+
 $$ M\cdot \frac{\partial u_n(t)}{\partial t^2}=-C \left[2u_n(t)-u_{n+1}(t)-u_{n-1}(t)\right]$$
 
 
-                                      {{0}}
+
 >__b)__ Lösen Sie obige Gleichung mit dem Ansatz $u_n(t) = u  e^{i\omega t}e^{iKna}$ und leiten Sie eine Dispersionsrelation zwischen Frequenz $\omega$ und der Wellenzahl $K$  ab. 
 
-                                      {{0}}
+
 >__c)__ Diskutieren Sie den langwelligen Grenzfall $Ka \ll 1$ und zeigen Sie insbesondere, dass sich aus obiger Gleichung die (Schall–) Wellengeichung  $ \frac{\partial^2 u(x,t)}{\partial t^2}-v_s^2\frac{\partial^2 u(x,t)}{\partial x^2}=0$   ergibt, wenn man zur Kontinuumsbeschreibung $u_{n±1}(t) = u(x ± a, t)$ übergeht.
+************************************
 
                                       {{1}}
 **Lösung Aufgabe 5a:**
@@ -345,14 +347,15 @@ $$\Rightarrow \frac{\partial ^2 u}{\partial t^2}=v_s^2\frac{\partial ^2 u}{\part
 ## Aufgabe 6 
 
                                       {{0}}
+************************************
 >__6.__ Gegeben sei eine lineare, monoatomare, quasi-elastische Kette aus Atomen der Masse $M = 200 \,\mathrm{u}=200 \cdot 1,66054\cdot 10^{-24} \mathrm{g}$. Der Abstand zwischen benachbarten Atomen sei $a = 4 \, \mathrm{\AA}$. Beachten Sie nur Wechselwirkungen zwischen nächsten Nachbarn.
 
-                                      {{0}}
+
 >__a)__ Die Schallgeschwindigkeit sei $4000\, \mathrm{\frac{m}{s}}$. Wie groß ist die Koppelungskonstante $C$ zwischen benachbarten Atomen?
 
-                                      {{0}}
->__b)__ Wie groß ist die maximale Frequenz der (ungedämpften) Welle?
 
+>__b)__ Wie groß ist die maximale Frequenz der (ungedämpften) Welle?
+************************************
 
                                       {{1}}
 **Lösung Aufgabe 6a):**
@@ -371,11 +374,12 @@ $$\begin{align*} C=&\frac{v_s^2\cdot M}{a^2}\\
 \end{align*}$$
 
                                       {{4}}
+************************************
 **Lösung Aufgabe 6b):**
 
-                                      {{4}}
-$$\omega=2\sqrt{\frac{C}{M}}\sin\bigg(\frac{Ka}{2}\bigg)$$
 
+$$\omega=2\sqrt{\frac{C}{M}}\sin\bigg(\frac{Ka}{2}\bigg)$$
+************************************
                                       {{5}}
 $$\begin{align*}\Rightarrow \omega_\mathrm{max}&=2\sqrt{\frac{C}{M}}\cdot 1\\
 &=2\sqrt{\frac{33.2\,\mathrm{\frac{ N}{m}}}{200 \cdot 1.66054\cdot 10^{-27} \mathrm{kg}}} \\
@@ -396,10 +400,12 @@ $$\begin{align*}\Rightarrow \omega_\mathrm{max}&=2\sqrt{\frac{C}{M}}\cdot 1\\
 Optische Moden können nur bei einer mehratomigen Basis auftreten.
 
                                       {{3}}
+************************************
 **optische Mode**: Auslenkung gegenphasig, Atome/Ionen schwingen gegeneinander. Lassen sich bei Ionen durch Lichtwellen anregen, daher der Name
 
-                                      {{3}}
+
 **akustische Mode**: Auslenkung gleichphasig, Atome/Ionen schwingen miteinander.
+************************************
 
 {{4}}
 ![Vergleich von optischen und akustischen Transversalwellen von Phononen bei 2-atomiger Basis für kleine K](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Vergleich_optische_akustische_transversalwellen.svg/1280px-Vergleich_optische_akustische_transversalwellen.svg.png "*Vergleich von optischen und akustischen Transversalwellen von Phononen bei 2-atomiger Basis für kleine K; Quelle [wikipedia, wdwd](https://de.wikipedia.org/wiki/Phonon#/media/Datei:Vergleich_optische_akustische_transversalwellen.svg); [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/))*")<!--width="75%"-->
@@ -543,4 +549,4 @@ $$\begin {align*}\omega^2&=C\left(\frac{1}{M_1}+\frac{1}{M_{2\ }}\right)\pm C\sq
 ![Dispersionsrelation für ein Gitter mit zwei Atomen der Masse $M_1 <M_2$ in einer primitiven Elementarzelle](media/Dispersionsrelation2.png "*Dispersionsrelation für ein Gitter mit zwei Atomen der Masse $M_1 <M_2$ in einer primitiven Elementarzelle; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)* " )
 
 {{19}}
-In der Abbildung sieht man den Verlauf der Dispersionsrelation. Für die eindimensionale Anordnung mit zwei Atomen in der primitiven Basis gibt es genau einen akustischen und einen optischen Zweig. zwischen denen eine Frequenzlücke existiert.
+In der Abbildung sieht man den Verlauf der Dispersionsrelation. Für die eindimensionale Anordnung mit zwei Atomen in der primitiven Basis gibt es genau einen akustischen und einen optischen Zweig, zwischen denen eine Frequenzlücke existiert.
