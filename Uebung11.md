@@ -58,7 +58,7 @@ N&=\int_{1.\mathrm{BZ}}D(K)dK\overbrace{=}^{1\mathrm{dim}}\int_{-\frac{\pi}{a}}^
 Die konstante Zustandsdichte im $K$- Raum übersetzt sich über eine nichtlineare Dispersionskurve $\omega(K)$ in eine Zustandsdichte $D(\omega)$
 
                                       {{7}}
-![Herleitung der Zustandsdichte im Frequenzintervall mit Hilfe der Dispersionsrelation](media/Zustandsdichte_aus_Dispersionsrelation.png "*Herleitung der Zustandsdichte im Frequenzintervall mit Hilfe der Dispersionsrelation; $q=K$; Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")
+![Herleitung der Zustandsdichte im Frequenzintervall mit Hilfe der Dispersionsrelation](media/Zustandsdichte_aus_Dispersionsrelation.png "*Herleitung der Zustandsdichte im Frequenzintervall mit Hilfe der Dispersionsrelation; $q=K$; Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")<!--width="75%"-->
 
 
                                       {{8}}
@@ -72,7 +72,7 @@ Nun muss also $\frac{dK}{d\omega}$ oder $\frac{d\omega}{dK}$ hergeleitet werden.
 $$\omega=\omega_\mathrm{m}\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$$
 
 {{10}}
-![Bild Dispersionsrelation](media/A1_Omega_K.png "*Dispersionsrelation $\omega(K)$; Quelle: C. Funke*")
+![Bild Dispersionsrelation](media/A1_Omega_K.png "*Dispersionsrelation $\omega(K)$; Quelle: C. Funke*")<!--width="75%"-->
 
                                       {{11}}
 wobei für die maximale Frequenz  $\omega_\mathrm{m}=\sqrt{\frac{4C}{M}}$ gilt.
@@ -101,7 +101,7 @@ $$\begin{align*}D(\omega)&=\frac{N\cdot a}{\pi}\cdot \frac{dK}{d\omega}\\&=\frac
 Diese Funktion hat eine Singularität bei $\omega=\omega_\mathrm{m}$
 
 {{17}}
-![Bild Zustandsdichte](media/Zustandsdichte.png "*Zustandsdichte $D(\omega)$; Quelle: C. Funke*")
+![Bild Zustandsdichte](media/Zustandsdichte.png "*Zustandsdichte $D(\omega)$; Quelle: C. Funke*")<!--width="75%"-->
 
 ## Aufgabe 2 
 
@@ -139,17 +139,22 @@ D(\omega)&=\bigg|\frac{dN}{d\omega}\bigg|\\
                                       {{7}}
 $D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf $-\frac{\pi}{a}\le K \le \frac{\pi}{a}$. Die Frequenz, die zu $K_{max}=\pm\frac{\pi}{a}$ gehört, ist $\omega_0$. Größere Wellenvektoren sind nicht möglich, deshalb muss bei den zugehörigen Frequenzen auch die Zustandsdichte Null sein. Oder mathematisch argumentiert: für $\omega>\omega_0$ ist der Term $(\omega_0-\omega(K))^{1/2}$ und damit die Zustandsdichte rein imaginär.
 
+                                      {{7}}
+![Bild Zustandsdichte](media/optischerPhononenastZustandsdichte.png "*Zustandsdichte $D(\omega)$; Quelle: C. Funke*")<!--width="75%"-->
+
 
 ## Aufgabe 3
                                       {{0}}
+**********************************************
 > __3.__ Mittlere Wärmeausdehnung einer Kristallzelle (Na). 
 
-                                      {{0}}
+
 >__a)__ Schätzen Sie für eine primitive Elementarzelle eines Natriumkristalls bei $T=300\, \mathrm{K}$ die mittlere Wärmeausdehnung $\frac{\Delta V}{V}$ ab. Nehmen Sie dazu die  Gitterkonstante $a_\mathrm{Na}=4,225\, \AA$ an und den Kompressionsmodul $B$ zu $\mathrm{7 \cdot 10^{10} erg \cdot cm^{-3}= 7 \cdot 10^3 \,J\cdot cm^{-3}=  7 \cdot 10^9 \,J\cdot m^{-3}}$.  Beachten Sie, dass die Debye-Temperatur mit $\mathrm{158\, K}$ geringer als $\mathrm{300\, K}$ ist, so dass die thermische Energie von der Größenordnung von $\frac{1}{2}k_\mathrm{B}\cdot T$ ist (klassische Betrachtung).
 
-                                      {{0}}
+
 >__b)__ Benutzen Sie dieses Ergebnis, um die mittlere thermische Schwankung $\frac{\Delta a}{a}$ der Gitterkonstanten abzuschätzen.
 
+**********************************************
 
 
                                       {{1}}
@@ -212,7 +217,7 @@ $$\frac{\Delta a}{a}=\frac{1}{3}\frac{\Delta V}{V} \eqsim0.029$$
 Die Wärmeausdehnung lässt sich nur durch anharmonische Terme der Gitterenergie $\propto(r-r_0)^3$ und höherer Ordnung erklären, siehe folgende Abbildung. Bei höherer Temperatur werden höhere Schwingungszustände besetzt, deren Schwerpunkte für ein anharmonisches Potenzial bei größeren Gleichgewichtsabständen liegen. Dies führt im thermischen Mittel zu einem größeren Atomabstand.
 
                                       {{3}}
-![Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte](media/thermischeAusdehnunganharmonischeEffekte.png "*Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte.  Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")
+![Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte](media/thermischeAusdehnunganharmonischeEffekte.png "*Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte.  Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")<!--width="75%"-->
 
 
 ## Aufgabe 5 
