@@ -219,12 +219,14 @@ Da die metallische Bindung ungerichtet ist, kristallisieren Metalle hauptsächli
 - besonders zwischen F–H...F, O-H...O, N-H...F, C-H...N 
 - Wechselwirkung zwischen Wassermolekühlen
 
+                                      {{3}}
+***********************************************
 Wasserstoffbrückenbindungen sind maßgeblich für die besonderen physikalischen Eigenschaften des Wassers verantwortlich. Sie bewirken unter anderem die vergleichsweise hohe Oberflächenspannung von Wasser, die es Insekten wie dem Wasserläufer ermöglicht, sich auf der Wasseroberfläche fortzubewegen. Aufgrund dieser hohen Oberflächenspannung neigt Wasser außerdem zur Ausbildung von Tropfen.
 
 Darüber hinaus spielen Wasserstoffbrückenbindungen eine zentrale Rolle bei der Struktur des Wassers im festen Aggregatzustand. Im Eis führen sie zu einer offenen, geordneten Gitterstruktur, die bewirkt, dass Eis eine geringere Dichte als flüssiges Wasser besitzt. Dieses ungewöhnliche Verhalten wird als Anomalie des Wassers bezeichnet: Wasser erreicht seine maximale Dichte bei etwa 4 °C. Infolgedessen schwimmt Eis auf flüssigem Wasser, anstatt abzusinken.
 
 Wasserstoffbrückenbindungen sind jedoch keineswegs auf Wasser beschränkt, sondern in der Natur und insbesondere in der Biochemie weit verbreitet. In der DNA werden die komplementären Basenpaare durch Wasserstoffbrückenbindungen zusammengehalten. Auch in Proteinen tragen Wasserstoffbrückenbindungen wesentlich zur Stabilisierung sekundärer und tertiärer Strukturelemente bei und sind damit entscheidend für deren räumliche Struktur und Funktion.
-
+***********************************************
 
 ## Aufgabe 8 
                                       {{0}}
