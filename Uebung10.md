@@ -160,6 +160,12 @@ Dabei sind $a,b,c$ die drei Koordinatenrichtungen. Die Gruppengeschwindigkeit is
 Ergänzung: Die Phasengeschwindigkeit $v_\mathrm{p}$ ist
 $$v_\mathrm{p}=\frac{\omega}{K}$$
 
+## Modell für Phononen im Festkörper
+    --{{1}}--
+!?(https://youtu.be/NSgaLMHI_0I?si=F1f3wqAGenLcwtlI)
+
+
+
 ## Aufgabe 5 
                                       {{0}}
 ************************************
