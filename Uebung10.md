@@ -161,8 +161,8 @@ Ergänzung: Die Phasengeschwindigkeit $v_\mathrm{p}$ ist
 $$v_\mathrm{p}=\frac{\omega}{K}$$
 
 ## Modell für Phononen im Festkörper
-    --{{1}}--
-!?(https://youtu.be/NSgaLMHI_0I?si=F1f3wqAGenLcwtlI)
+
+[Link zu einer Visualisierung von Phononern im Festkörper auf der vimeo-Platform](https://vimeo.com/912603591?fl=pl&fe=sh)
 
 
 
