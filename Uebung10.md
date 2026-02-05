@@ -184,6 +184,10 @@ $$ M\cdot \frac{\partial u_n(t)}{\partial t^2}=-C \left[2u_n(t)-u_{n+1}(t)-u_{n-
 
 
 >__c)__ Diskutieren Sie den langwelligen Grenzfall $Ka \ll 1$ und zeigen Sie insbesondere, dass sich aus obiger Gleichung die (Schall–) Wellengeichung  $ \frac{\partial^2 u(x,t)}{\partial t^2}-v_s^2\frac{\partial^2 u(x,t)}{\partial x^2}=0$   ergibt, wenn man zur Kontinuumsbeschreibung $u_{n±1}(t) = u(x ± a, t)$ übergeht.
+
+![Auslenkung Netzebenen](media/AuslenkungNetzebenen.png "*Schematische Darstellung der Auslenkung der Netzebenen in einer longitudinalen (a) und einer transversalen Gitterschwingung (b); Die gestrichelten Linien geben die Gleichgewichtslage, die Pfeile die Auslenkung an; Quelle: Abb. 5.4. Rudolf Gross, Achim Marx, Festkörperphysik, Oldenbourg Verlag*")<!--width="75%"-->
+
+
 ************************************
 
                                       {{1}}
@@ -416,6 +420,8 @@ Optische Moden können nur bei einer mehratomigen Basis auftreten.
 {{4}}
 ![Vergleich von optischen und akustischen Transversalwellen von Phononen bei 2-atomiger Basis für kleine K](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Vergleich_optische_akustische_transversalwellen.svg/1280px-Vergleich_optische_akustische_transversalwellen.svg.png "*Vergleich von optischen und akustischen Transversalwellen von Phononen bei 2-atomiger Basis für kleine K; Quelle [wikipedia, wdwd](https://de.wikipedia.org/wiki/Phonon#/media/Datei:Vergleich_optische_akustische_transversalwellen.svg); [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/))*")<!--width="75%"-->
 
+{{5}}
+[Link zu Applet zu einer Visualisierung von optischen und akustischen Phononern im Festkörper](https://ph2.uni-koeln.de/lehre/applets-solid-state-physics/phonons)
 
 ## Aufgabe 8 
                                       {{0}}
