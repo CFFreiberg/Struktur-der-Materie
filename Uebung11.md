@@ -37,7 +37,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 **Lösung Aufgabe 1:**
 
                                       {{2}}
-Vorüberlegung zum Zusammenhang von $D(\omega)$ und $D(K)$: Die mit den endlichen Abmessungen des Kristalls verbundenen Randbedingungen (Knoten am Rand) bewirken, dass nur eine bestimmte Anzahl von Wellenvektoren möglich ist. Wenn wir den Wellenvektor $K$ auf die erste Brillouin-Zone beschränken, finden wir wegen $K\le\frac{\pi}{a}$ folgenden Satz von erlaubten Wellenvektoren: 
+Vorüberlegung zum Zusammenhang von $D(\omega)$ und $D(K)$: Die mit den endlichen Abmessungen des Kristalls verbundenen Randbedingungen (Knoten am Rand) bewirken, dass nur eine bestimmte Anzahl von Wellenvektoren möglich ist (genauere Herleitung   Kapitel 5.3.1.1 im Buch "Festkörperphysik" von R. Gross und A. Marx). Wenn wir den Wellenvektor $K$ auf die erste Brillouin-Zone beschränken, finden wir wegen $K\le\frac{\pi}{a}$ folgenden Satz von erlaubten Wellenvektoren: 
 $$K=\frac{\pi}{a}\cdot\frac{p}{N};\, p=0,1,2,3,....N$$
 
                                       {{3}}
@@ -49,9 +49,9 @@ $$D(K) = \frac{\text{Anzahl der Zustände}}{ \text{zugehöriges Volumen im K-Rau
                                       {{5}}
 Die Anzahl der Zustände muss im realen Raum und im Impulsraum gleich sein, und zwar der Anzahl der Atome:
 $$\begin{align*}
-N&=\int_{1.\mathrm{BZ}}D(K)dK\overbrace{=}^{1\mathrm{dim}}\int_{-\frac{\pi}{a}}^{+\frac{\pi}{a}}D(K)dK
-=\int_0^{\omega_m}D(\omega)d\omega\\
-&=2\int_{0}^{+\frac{\pi}{a}}D(K)dK
+N&=\int_{1.\mathrm{BZ}}D(K)\mathrm{d}K\overbrace{=}^{1\mathrm{dim}}\int_{-\frac{\pi}{a}}^{+\frac{\pi}{a}}D(K)\mathrm{d}K
+=\int_0^{\omega_m}D(\omega)\mathrm{d}\omega\\
+&=2\int_{0}^{+\frac{\pi}{a}}D(K)\mathrm{d}K
 \end{align*}$$
 
                                       {{6}}
@@ -63,7 +63,7 @@ Die konstante Zustandsdichte im $K$- Raum übersetzt sich über eine nichtlinear
 
                                       {{8}}
 Mit $D(K) =\frac{L}{2\pi}$ folgt also für 1 Dimension
-$$D(\omega)d\omega=2D(K)dK=\frac{L}{\pi}\cdot dK\cdot =\frac{L}{\pi}\cdot \frac{dK}{d\omega}\cdot d\omega$$
+$$D(\omega)\mathrm{d}\omega=2D(K)\mathrm{d}K=\frac{L}{\pi}\cdot \mathrm{d}K\cdot =\frac{L}{\pi}\cdot \frac{\mathrm{d}K}{\mathrm{d}\omega}\cdot \mathrm{d}\omega$$
 
 
 
@@ -72,7 +72,7 @@ Nun muss also $\frac{dK}{d\omega}$ oder $\frac{d\omega}{dK}$ hergeleitet werden.
 $$\omega=\omega_\mathrm{m}\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$$
 
 {{10}}
-![Bild Dispersionsrelation](media/A1_Omega_K.png "*Dispersionsrelation $\omega(K)$; Quelle: C. Funke*")<!--width="75%"-->
+![Bild Dispersionsrelation](media/A1_Omega_K.png "*Dispersionsrelation $\omega(K)$; Quelle: C. Funke*")<!--width="50%"-->
 
                                       {{11}}
 wobei für die maximale Frequenz  $\omega_\mathrm{m}=\sqrt{\frac{4C}{M}}$ gilt.
@@ -81,11 +81,11 @@ wobei für die maximale Frequenz  $\omega_\mathrm{m}=\sqrt{\frac{4C}{M}}$ gilt.
 $$\Rightarrow K=\frac{2}{a}\arcsin \bigg(\frac{\omega}{\omega_\mathrm{m}}\bigg)$$
 
                                       {{13}}
-Mit $\frac{d(\arcsin)}{dx}=\frac{1}{\sqrt{1-x^2}}$ folgt
+Mit $\frac{\mathrm{d}(\arcsin)}{\mathrm{d}x}=\frac{1}{\sqrt{1-x^2}}$ folgt
 
                                       {{14}}
 $$\begin{align*}
-\Rightarrow \frac{dK}{d\omega}&=\frac{2}{a}\frac{1}{\sqrt{1-\big(\frac{\omega}{\omega_\mathrm{m}}\big)^2}}\frac{1}{\omega_\mathrm{m}}\\
+\Rightarrow \frac{\mathrm{d}K}{\mathrm{d}\omega}&=\frac{2}{a}\frac{1}{\sqrt{1-\big(\frac{\omega}{\omega_\mathrm{m}}\big)^2}}\frac{1}{\omega_\mathrm{m}}\\
 &=\frac{2}{a} \frac{1}{\sqrt{\omega_\mathrm{m}^2-\omega^2}}
 \end{align*}$$
 
@@ -93,7 +93,7 @@ $$\begin{align*}
 
                                       {{15}}
 Daraus folgt insgesamt
-$$\begin{align*}D(\omega)&=\frac{N\cdot a}{\pi}\cdot \frac{dK}{d\omega}\\&=\frac{N\cdot a}{\pi}\cdot\frac{2}{a}\cdot  (\omega_\mathrm{m}^2-\omega^2)^{-\frac{1}{2}}\\
+$$\begin{align*}D(\omega)&=\frac{N\cdot a}{\pi}\cdot \frac{\mathrm{d}K}{\mathrm{d}\omega}\\&=\frac{N\cdot a}{\pi}\cdot\frac{2}{a}\cdot  (\omega_\mathrm{m}^2-\omega^2)^{-\frac{1}{2}}\\
 &=\frac{2N}{\pi}\frac{1}{\sqrt{\omega_\mathrm{m}^2-\omega^2}}
 \end{align*}$$
 
@@ -127,10 +127,10 @@ $$\Omega_K=\bigg(\frac{2\pi}{L}\bigg)^3$$
 Die Anzahl der Zustände $N$ mit Wellenvektor kleiner als $K$ ist damit $N=\frac{\Omega}{\Omega_K}$
 
                                       {{6}}
-Mit $D(\omega)d\omega=dN$ folgt für $\omega < \omega_0$:
+Mit $D(\omega)\mathrm{d}\omega=\mathrm{d}dN$ folgt für $\omega < \omega_0$:
 $$\begin{align*}
-D(\omega)&=\bigg|\frac{dN}{d\omega}\bigg|\\
-&=\bigg|\frac{d}{d\omega}\Bigg(\frac{\frac{4\pi}{3}\bigg(\sqrt{\frac{\omega_0-\omega(K)}{A}}\bigg)^3}{\bigg(\frac{2\pi}{L}\bigg)^3}\Bigg)\bigg|\\
+D(\omega)&=\bigg|\frac{\mathrm{d}N}{\mathrm{d}\omega}\bigg|\\
+&=\bigg|\frac{\mathrm{d}}{\mathrm{d}\omega}\Bigg(\frac{\frac{4\pi}{3}\bigg(\sqrt{\frac{\omega_0-\omega(K)}{A}}\bigg)^3}{\bigg(\frac{2\pi}{L}\bigg)^3}\Bigg)\bigg|\\
 &=\bigg|\bigg(\frac{L}{2\pi}\bigg)^3\frac{4\pi}{3}A^{-3/2}\cdot \frac{d}{d\omega}\bigg((\omega_0-\omega(K))^{3/2}\bigg)\bigg|\\
 &=\bigg|\bigg(\frac{L}{2\pi}\bigg)^3\frac{4\pi}{3}A^{-3/2}\cdot(-1)\cdot  \frac{3}{2}\cdot (\omega_0-\omega(K))^{1/2}\bigg|\\
 &=\bigg(\frac{L}{2\pi}\bigg)^3\frac{2\pi}{A^{3/2}}\cdot (\omega_0-\omega(K))^{1/2}
@@ -162,7 +162,7 @@ $D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf
 
                                       {{2}}
 Das Kompressionsmodul $B$ ist definiert über die zweite Ableitung der  potentiellen Energie des Kristalls $U$ nach der Volumenänderung $\Delta V$, also 
-$$B=V\frac{d^2U(\Delta V)}{d(\Delta V)^2}$$
+$$B=V\frac{\mathrm{d}^2U(\Delta V)}{\mathrm{d}(\Delta V)^2}$$
 
                                       {{3}}
 Nach zweimaligem Interieren nach $\Delta V$ auf beiden Seiten folgt:
@@ -217,7 +217,7 @@ $$\frac{\Delta a}{a}=\frac{1}{3}\frac{\Delta V}{V} \eqsim0.029$$
 Die Wärmeausdehnung lässt sich nur durch anharmonische Terme der Gitterenergie $\propto(r-r_0)^3$ und höherer Ordnung erklären, siehe folgende Abbildung. Bei höherer Temperatur werden höhere Schwingungszustände besetzt, deren Schwerpunkte für ein anharmonisches Potenzial bei größeren Gleichgewichtsabständen liegen. Dies führt im thermischen Mittel zu einem größeren Atomabstand.
 
                                       {{3}}
-![Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte](media/thermischeAusdehnunganharmonischeEffekte.png "*Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte.  Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")<!--width="75%"-->
+![Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte](media/thermischeAusdehnunganharmonischeEffekte.png "*Zur Veranschaulichung der thermischen Ausdehnung durch anharmonische Effekte.  Quelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut*")<!--width="50%"-->
 
 
 ## Aufgabe 5 
@@ -236,38 +236,38 @@ Mit der [Besetzungswahrscheinlichkeit $f$ für Bosonen](https://de.wikipedia.org
 $$f(\omega,T)=\frac{1}{e^{\frac{\hbar \omega}{k_\mathrm{B} T}}-1}$$
 
                                       {{3}}
-$$U(T)=3\int_0^{\omega_\mathrm{D}} \hbar \omega D(\omega)f(\omega,T)d\omega$$
+$$U(T)=3\int_0^{\omega_\mathrm{D}} \hbar \omega D(\omega)f(\omega,T)\mathrm{d}\omega$$
 Die 3 steht für zwei transversale und einen longitudinalen akustischen Ast. Einsetzen ergibt:
 
                                       {{4}}
 
-$$U(T)=3\int_0^{\omega_\mathrm{D}} \hbar \omega \frac{N}{\omega_\mathrm{D}}\frac{1}{e^{\frac{\hbar \omega}{k_\mathrm{B} T}}-1}d\omega$$  
+$$U(T)=3\int_0^{\omega_\mathrm{D}} \hbar \omega \frac{N}{\omega_\mathrm{D}}\frac{1}{e^{\frac{\hbar \omega}{k_\mathrm{B} T}}-1}\mathrm{d}\omega$$  
 
 {{5}}
 Mit den Substitutionen 
 $$\begin {align*}\\
 x&=\frac{\hbar\omega}{k_\mathrm{B} T}\\
 x_\mathrm{D}&=\frac{\hbar\omega_\mathrm{D}}{k_\mathrm{B} T}=\frac{\Theta_\mathrm{D}}{T}\\
-d\omega&=\frac{k_\mathrm{B} T}{\hbar} dx
+\mathrm{d}\omega&=\frac{k_\mathrm{B} T}{\hbar} \mathrm{d}x
 \end{align*}$$
 
                                       {{6}}
 Folgt
-$$U(T)=\frac{3N k_\mathrm{B} T^2}{\Theta_\mathrm{D}}\int_0^{x_\mathrm{D}}\frac{x}{e^x -1}dx$$
+$$U(T)=\frac{3N k_\mathrm{B} T^2}{\Theta_\mathrm{D}}\int_0^{x_\mathrm{D}}\frac{x}{e^x -1}\mathrm{d}x$$
 
                                       {{7}}
 **Fall 1, hohe Temperaturen, $T \gg\Theta_\mathrm{D}$, $x \rightarrow 0$**
 
                                       {{8}}
 Aus $e^x \approx 1+x$ folgt  
-$$\int_0^{x_\mathrm{D}}\frac{x}{e^x -1}dx=\int_0^{x_\mathrm{D}}\frac{x}{1+x -1}dx=\int_0^{x_\mathrm{D}}1dx=x_\mathrm{D}$$
+$$\int_0^{x_\mathrm{D}}\frac{x}{e^x -1}\mathrm{d}x=\int_0^{x_\mathrm{D}}\frac{x}{1+x -1}\mathrm{d}x=\int_0^{x_\mathrm{D}}1\mathrm{d}x=x_\mathrm{D}$$
 
                                       {{9}}
 $$\Rightarrow U(T)=\frac{3N k_\mathrm{B} T^2}{\Theta_\mathrm{D}}x_\mathrm{D}=3N k_\mathrm{B} T$$
 
                                       {{10}}
 Für die spezifische Wäreme gilt also
-$$c_\mathrm{V}=\frac{dU}{dT}=3Nk_\mathrm{B}$$
+$$c_\mathrm{V}=\frac{\mathrm{\mathrm{d}}U}{\mathrm{\mathrm{d}}T}=3Nk_\mathrm{B}$$
 
                                       {{11}}
 Das entspricht der [Regel von Dulong-Petit](Dulong-Petit-Gesetz).
@@ -276,11 +276,11 @@ Das entspricht der [Regel von Dulong-Petit](Dulong-Petit-Gesetz).
 **Fall 2, niedrige Temperaturen, $T \ll\Theta_\mathrm{D}$, $x \rightarrow \infty$**
 
                                       {{13}}
-$$\int_0^{\infty}\frac{x}{e^x -1}dx=\frac{\pi^2}{6}$$
+$$\int_0^{\infty}\frac{x}{e^x -1}\mathrm{d}x=\frac{\pi^2}{6}$$
 
                                       {{14}}
 $$\Rightarrow U(T)=\frac{3N k_\mathrm{B} T^2}{\Theta_\mathrm{D}}\frac{\pi^2}{6}=\frac{\pi^2N k_\mathrm{B} T^2}{2\Theta_\mathrm{D}}$$
 
                                       {{15}}
-$$c_\mathrm{V}=\frac{dU}{dT}=\frac{\pi^2N k_\mathrm{B} T}{\Theta_\mathrm{D}}\propto T$$
+$$c_\mathrm{V}=\frac{\mathrm{d}U}{\mathrm{d}T}=\frac{\pi^2N k_\mathrm{B} T}{\Theta_\mathrm{D}}\propto T$$
 Achtung, $c_\mathrm{V}\propto T$ gilt nur in 1D. Für 2D gilt $c_\mathrm{V}\propto T^2$ und für 3D gilt $c_\mathrm{V}\propto T^3$.
