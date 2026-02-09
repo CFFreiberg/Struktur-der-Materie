@@ -37,14 +37,15 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 **Lösung Aufgabe 1:**
 
                                       {{2}}
-Vorüberlegung zum Zusammenhang von $D(\omega)$ und $D(K)$: Die mit den endlichen Abmessungen des Kristalls verbundenen Randbedingungen (Knoten am Rand) bewirken, dass nur eine bestimmte Anzahl von Wellenvektoren möglich ist (genauere Herleitung   Kapitel 5.3.1.1 im Buch "Festkörperphysik" von R. Gross und A. Marx). Wenn wir den Wellenvektor $K$ auf die erste Brillouin-Zone beschränken, finden wir wegen $K\le\frac{\pi}{a}$ folgenden Satz von erlaubten Wellenvektoren: 
+Vorüberlegung zum Zusammenhang von $D(\omega)$ und $D(K)$: Die mit den endlichen Abmessungen des Kristalls verbundenen Randbedingungen (Knoten der Auslenkung $u$  am Rand: $u(0)=u(N\cdot a)=0$) bewirken, dass nur eine bestimmte Anzahl von Wellenvektoren möglich ist (genauere Herleitung   Kapitel 5.3.1.1 im Buch "Festkörperphysik" von R. Gross und A. Marx). 
+Wenn der Wellenvektor $K$ wie bisher auf die erste Brillouin-Zone beschränkt wird, finden wir wegen $K\le\frac{\pi}{a}$ folgenden Satz von erlaubten Wellenvektoren: 
 $$K=\frac{\pi}{a}\cdot\frac{p}{N};\, p=0,1,2,3,....N$$
 
                                       {{3}}
 Für die Zustandsdichte $D(K)$ im 1-dimensionalen Impulsraum gilt dann: 
 
                                       {{4}}
-$$D(K) = \frac{\text{Anzahl der Zustände}}{ \text{zugehöriges Volumen im K-Raum}}=\frac{N}{\frac{2\pi}{a}}=\frac{Na}{2\pi}=\frac{L}{2\pi}$$
+$$D(K) = \frac{\text{Anzahl der Zustände}}{ \text{zugehöriges "Volumen" im 1.-dim K-Raum}}=\frac{N}{\frac{2\pi}{a}}=\frac{Na}{2\pi}=\frac{L}{2\pi}$$
 
                                       {{5}}
 Die Anzahl der Zustände muss im realen Raum und im Impulsraum gleich sein, und zwar der Anzahl der Atome:
@@ -72,7 +73,7 @@ Nun muss also $\frac{dK}{d\omega}$ oder $\frac{d\omega}{dK}$ hergeleitet werden.
 $$\omega=\omega_\mathrm{m}\left|\sin{\left(\frac{1}{2}Ka\right)}\right|$$
 
 {{10}}
-![Bild Dispersionsrelation](media/A1_Omega_K.png "*Dispersionsrelation $\omega(K)$; Quelle: C. Funke*")<!--width="50%"-->
+![Bild Dispersionsrelation](media/A1_Omega_K.png "*Dispersionsrelation $\omega(K)$ für ein einatomiges lineares Gitter aus N Atomen mit Wechselwirkungen nur zwischen nächsten Nachbarn; Quelle: C. Funke*")<!--width="50%"-->
 
                                       {{11}}
 wobei für die maximale Frequenz  $\omega_\mathrm{m}=\sqrt{\frac{4C}{M}}$ gilt.
@@ -101,7 +102,7 @@ $$\begin{align*}D(\omega)&=\frac{N\cdot a}{\pi}\cdot \frac{\mathrm{d}K}{\mathrm{
 Diese Funktion hat eine Singularität bei $\omega=\omega_\mathrm{m}$
 
 {{17}}
-![Bild Zustandsdichte](media/Zustandsdichte.png "*Zustandsdichte $D(\omega)$; Quelle: C. Funke*")<!--width="75%"-->
+![Bild Zustandsdichte](media/Zustandsdichte.png "*Zustandsdichte $D(\omega)$ für ein einatomiges lineares Gitter aus N Atomen mit Wechselwirkungen nur zwischen nächsten Nachbarn; Quelle: C. Funke*")<!--width="75%"-->
 
 ## Aufgabe 2 
 
