@@ -141,7 +141,7 @@ D(\omega)&=\bigg|\frac{\mathrm{d}N}{\mathrm{d}\omega}\bigg|\\
 $D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf $-\frac{\pi}{a}\le K \le \frac{\pi}{a}$. Die Frequenz, die zu $K_{\mathrm{max}}=\pm\frac{\pi}{a}$ gehört, ist $\omega_0$. Größere Wellenvektoren sind nicht möglich, deshalb muss bei den zugehörigen Frequenzen auch die Zustandsdichte Null sein. Oder mathematisch argumentiert: für $\omega>\omega_0$ ist der Term $(\omega_0-\omega(K))^{1/2}$ und damit die Zustandsdichte rein imaginär.
 
                                       {{7}}
-![Bild Zustandsdichte](media/optischerPhononenastZustandsdichte.png "*Zustandsdichte $D(\omega)$ für optischen Phononenast mit der Dispersionsrelation der Form $\omega(K) = \omega_0 – A\cdot K^2$;3D; Quelle: C. Funke*")<!--width="75%"-->
+![Bild Zustandsdichte](media/optischerPhononenastZustandsdichte.png "*Zustandsdichte $D(\omega)$ für optischen Phononenast im 3-dim Gitter mit der Dispersionsrelation der Form $\omega(K) = \omega_0 – A\cdot K^2$;; Quelle: C. Funke*")<!--width="50%"-->
 
 
 ## Aufgabe 3
@@ -175,7 +175,7 @@ $$\Rightarrow B \cdot\frac{\Delta V^2}{2}=V\cdot U(\Delta V)$$
 $$\Rightarrow U(\Delta V)=\frac{1}{2}B\cdot V \cdot \bigg(\frac{\Delta V}{V}\bigg)^2 \eqsim\frac{1}{2}k_\mathrm{B} T$$
 
                                    {{6}}
-Diese potentielle Energie entspricht der potentiellen Energie einer gespannten Feder $\frac{1}{²}Cx^2$ mit der Federkonstanten $C$. Bei der thermischen Energie wird nur der Beitrag der reinen Volumenausdenhnung mit $\frac{1}{2}k_\mathrm{B} T$ berücksichtigt. Die Freiheitsgrade der Verzerrung (Schermodul) und der Verdrehung (Torsionsmodul) werden nicht angesprochen, dehalb nicht $\frac{3}{2}k_\mathrm{B} T$. 
+Diese potentielle Energie entspricht der potentiellen Energie einer gespannten Feder $\frac{1}{²}Cx^2$ mit der Federkonstanten $C=B\cdot V$. Bei der thermischen Energie wird nur der Beitrag der reinen Volumenausdenhnung mit $\frac{1}{2}k_\mathrm{B} T$ berücksichtigt. Die Freiheitsgrade der Verzerrung (Schermodul) und der Verdrehung (Torsionsmodul) werden nicht angesprochen, dehalb nicht $\frac{3}{2}k_\mathrm{B} T$. 
 
                                       {{7}}
 Damit folgt:
@@ -284,4 +284,4 @@ $$\Rightarrow U(T)=\frac{3N k_\mathrm{B} T^2}{\Theta_\mathrm{D}}\frac{\pi^2}{6}=
 
                                       {{15}}
 $$c_\mathrm{V}=\frac{\mathrm{d}U}{\mathrm{d}T}=\frac{\pi^2N k_\mathrm{B} T}{\Theta_\mathrm{D}}\propto T$$
-Achtung, $c_\mathrm{V}\propto T$ gilt nur in 1D. Für 2D gilt $c_\mathrm{V}\propto T^2$ und für 3D gilt $c_\mathrm{V}\propto T^3$.
+<span style="color:red">Achtung, $c_\mathrm{V}\propto T$ gilt nur in 1D. Für 2D gilt $c_\mathrm{V}\propto T^2$ und für 3D gilt $c_\mathrm{V}\propto T^3$.*</span>
