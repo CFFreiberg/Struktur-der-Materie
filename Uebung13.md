@@ -97,7 +97,7 @@ $$v_\mathrm{F} = \frac{\hbar}{m_\mathrm{e}} k_\mathrm{F}= \frac{1,05457\cdot 10^
 
                                       {{2}}
 Es gilt wieder:
-$$\int_{k(E)}^{k(E+\Delta E)} D(k)dk^3=\int_{E}^{E+\Delta E}D(E)dE$$
+$$\int_{k(E)}^{k(E+\Delta E)} D(k)\mathrm{d}k^3=\int_{E}^{E+\Delta E}D(E)\mathrm{d}E$$
 
                                       {{3}}
 Die periodischen Randbedingungen für die ebenen Wellen (Knotenpunkte am Kristallrand) bedingen wieder (wie bei den Phononen) eine Quantelung der erlaubten Zustände (Wellenvektoren). Das Volumen pro Zustand im 3D-Impulsraum ist $\frac{(2\pi)^3}{V}$. Da jeder $k$-Wellenvektor von 2 Elektronen mit entgegengesetztem Spin besetzt werden kann, ist die Zustandsdichte im Impulsraum damit 
@@ -107,14 +107,14 @@ $$D(k)=2\cdot \frac{V}{(2\pi)^3}$$
 
                                       {{5}}
 Damit kann die linke Seite der obigen Gleichung umgestellt werden:
-$$\int_{k(E)}^{k(E+\Delta E)} D(k)dk^3=\int_{k(E)}^{k(E+\Delta E)} 2\cdot \frac{V}{(2\pi)^3}dk^3=2\cdot \frac{V}{(2\pi)^3}\int_{k(E)}^{k(E+\Delta E)} dk^3$$
+$$\int_{k(E)}^{k(E+\Delta E)} D(k)\mathrm{d}k^3=\int_{k(E)}^{k(E+\Delta E)} 2\cdot \frac{V}{(2\pi)^3}\mathrm{d}k^3=2\cdot \frac{V}{(2\pi)^3}\int_{k(E)}^{k(E+\Delta E)} \mathrm{d}k^3$$
 
                                       {{6}}
 Die Flächen konstanter Energie im $k$-Raum sind wegen der Dispersionsrelation $E(k)=\frac{\hbar^2 k^2}{2m}$ Kugeloberflächen. $\Delta k$ sei die zu $\Delta E$ gehörige Änderung des Wellenvektors.  
 Für einen dreidimensionalen Festkörper erhalten wir für den Ausruck 
 
                                       {{7}}
-$$2\cdot \frac{V}{(2\pi)^3}\int_{k(E)}^{k(E+\Delta E)} dk^3=2\cdot \frac{V}{(2\pi)^3} \cdot \overbrace{4\pi k^2 \Delta k}^\text{Volumen von Kugelschale im k-Raum}$$
+$$2\cdot \frac{V}{(2\pi)^3}\int_{k(E)}^{k(E+\Delta E)} \mathrm{d}k^3=2\cdot \frac{V}{(2\pi)^3} \cdot \overbrace{4\pi k^2 \Delta k}^\text{Volumen von Kugelschale im k-Raum}$$
 
                                       {{8}}
 Damit ergibt sich mit für $\Delta k$ insgesamt: 
@@ -130,7 +130,7 @@ $$k=\sqrt{\frac{2mE}{\hbar^2}}$$
 
                                       {{11}}
 Für die Ableitung gilt damit:
-$$\frac{dk}{dE}=\sqrt{\frac{2m}{\hbar^2}}\cdot \frac{1}{2}\cdot E^{-\frac{1}{2}}$$
+$$\frac{\mathrm{d}k}{\mathrm{d}E}=\sqrt{\frac{2m}{\hbar^2}}\cdot \frac{1}{2}\cdot E^{-\frac{1}{2}}$$
 
                                       {{12}}
 Damit gilt für $D(E)$:
@@ -138,7 +138,8 @@ $$\begin{align*}D(E)&=2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi k^2\sqrt{\frac{2m}{\h
 &=2\cdot \frac{V}{(2\pi)^3} \cdot 4\pi \frac{2mE}{\hbar^2}\sqrt{\frac{2m}{\hbar^2}}\cdot \frac{1}{2}\cdot E^{-\frac{1}{2}}\\
 &=\frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\end{align*}$$
 
-
+                                      {{13}}
+![Zustandsdichte für ein 3D-Elektronengas](media/Zustandsdichte%20EGas3D.png "*Zustandsdichte für ein 3D-Elektronengas: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut, Abbildung 7.2*")<!--width="40%"-->
 
 
 
@@ -162,7 +163,7 @@ $$f(E,T)=\frac{1}{e^{(E-E_\mathrm{F})/k_\mathrm{B}T}+1}$$
 
                                       {{3}}
 Die Gesamtenergie der Elektronen ist gegeben durch
-$$E_\mathrm{ges}=\int_0^{\infin}E\cdot D(E)\cdot f(E,T)\cdot dE $$
+$$E_\mathrm{ges}=\int_0^{\infin}E\cdot D(E)\cdot f(E,T)\cdot \mathrm{d}E $$
 
                                       {{4}}
 Die mittlere Energie pro Elekron läßt sich berechnen zu:
@@ -175,7 +176,7 @@ Jetzt können die Zustandsdichte $D(E)$ (siehe Aufgabe 3) und die Verteilungsfun
 
                                       {{6}}
 $$\begin{align*}\overline{E}
-&=\frac{\int_0^{\infin}E\cdot \frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\cdot \frac{1}{e^{(E-E_\mathrm{F})/k_\mathrm{B}T}+1}\cdot dE}{\int_0^{\infin} \frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\cdot \frac{1}{e^{(E-E_\mathrm{F})/k_\mathrm{B}T}+1}\cdot dE}\\
+&=\frac{\int_0^{\infin}E\cdot \frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\cdot \frac{1}{e^{(E-E_\mathrm{F})/k_\mathrm{B}T}+1}\cdot \mathrm{d}E}{\int_0^{\infin} \frac{V}{2\pi^2} \bigg(\frac{2m}{\hbar^2}\bigg)^{\frac{3}{2}}E^{\frac{1}{2}}\cdot \frac{1}{e^{(E-E_\mathrm{F})/k_\mathrm{B}T}+1}\cdot \mathrm{d}E}\\
 \end{align*}$$
 
 {{7}}       
@@ -214,7 +215,9 @@ p&=-\frac{\partial U}{\partial V}\\
 &=-\frac{\partial }{\partial V}\bigg(N\cdot \frac{3}{5}\frac{\hbar^2}{2m_\mathrm{e}}\bigg(3\pi^2 \frac{N}{V}\bigg)^{\frac{2}{3}}\bigg)\\
 &=N\cdot \frac{3}{5}\frac{\hbar^2(3\pi^2N)^{\frac{2}{3}}}{2m_\mathrm{e}}\cdot (-\frac{2}{3})V^{-\frac{5}{3}}\\
 &=N\cdot V^{-1}\cdot \frac{2}{5}\frac{\hbar^2}{2m_\mathrm{e}}\cdot (\frac{3\pi^2N}{V})^{\frac{2}{3}}\\
-&=\frac{2}{5}\frac{N}{V}\cdot E_\mathrm{F}
+&=\frac{2}{5}\frac{N}{V} \cdot \color{blue}\frac{\hbar^2}{2m_\mathrm{e}} \cdot \bigg(3\pi^2 \frac{N}{V}\bigg)^{\frac{2}{3}}\\ 
+&=\color{gray} \frac{(3\pi^2 )^{\frac{2}{3}}}{5m_\mathrm{e}}\cdot \hbar^2 \cdot \bigg(\frac{N}{V}\bigg)^\frac{5}{3}\\
+&=\frac{2}{5}\frac{N}{V}\cdot \color{blue} E_\mathrm{F}
 \end{align*}$$
 
                                       {{7}}
@@ -222,6 +225,9 @@ Der Fermi-Druck ist nicht von der Temperatur abhängig und auch bei $T=0\, \math
 
                                       {{8}}
 $$p_\mathrm{Gas}=N\cdot k_\mathrm{B} \frac{T}{V}$$
+
+                                      {{9}}
+Anmerkung: Der Fermi-Druck verhindert, dass die Leitungselektronen unkontrolliert weiter verdichten. In Weißen Zwergen und Neutronensternen verhindert der Femidruck den Gravitationskollaps des Sternes.
 ## Aufgabe 6 
 
                                       {{0}}
@@ -312,7 +318,7 @@ $$C_p = \underbrace{\gamma \cdot T}_\text{elektronischer Anteil} + \underbrace{A
 In der Darstellung $\frac{C}{T}$ über $T^2$ ergibt sich dann eine Gerade. Der Schnittpunkt dieser Gerade mit der $y$-Achse ist der Sommerfeld-Koeffizient $\gamma$.
 
 {{4}}
-![Spezifische Wärme von Kalium bei tiefen Temperaturen](media/spezifische_Wärme_Kalium.png "*Spezifische Wärme von Kalium bei tiefen Temperaturen. Geplottet ist $C_p(T)$ gegen $T^2$ (Daten aus W.H. Lien, N.E. Phillips, Phys. Rev. 133, A1370 (1964)); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut *")
+![Spezifische Wärme von Kalium bei tiefen Temperaturen](media/spezifische_Wärme_Kalium.png "*Spezifische Wärme von Kalium bei tiefen Temperaturen. Geplottet ist $C_p(T)$ gegen $T^2$ (Daten aus W.H. Lien, N.E. Phillips, Phys. Rev. 133, A1370 (1964)); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut, Abb. 7.8 *")<!--width="60%"-->
 
 
 
@@ -395,7 +401,7 @@ Es gilt der Impulserhaltungssatz, wobei $G$ ein reziproker Gittervektor ist, $k$
 $$k' = k + K+ G  $$
 
                                       {{4}}
-![Elektron-Phonon-Streung: Umklappprozess](media/Umklappstreuung_Elektronen.png "Elektron-Phonon-Streung: Umklappprozess ($q=K$); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut ")<!--width="50%"-->
+![Elektron-Phonon-Streung: Umklappprozess](media/Umklappstreuung_Elektronen.png "*Elektron-Phonon-Streung: Umklappprozess ($q=K$); Bildquelle: Vorlesungsskript zur Vorlesung Festkörperphysik WS 1998/1999 und SS 1999, Prof. Dr. Rudolf Gross und Dr. Achim Marx, Walther-Meissner-Institut, Abb. 9.19*")<!--width="50%"-->
 
                                       {{5}}
 Nur Elektronen nahe der Fermikante $E_\mathrm{F}$ können (in freie Zustände) gestreut werden. Für eine Umpkappstreuung eines Elektrons an einen Phonon wird aber eine minimales $K_0=q_\text{min}$ benötigt. Bei tiefen Temperaturen wird diese Anregung unwahrscheinlicher.
