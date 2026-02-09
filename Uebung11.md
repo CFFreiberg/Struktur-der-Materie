@@ -107,7 +107,7 @@ Diese Funktion hat eine Singularität bei $\omega=\omega_\mathrm{m}$
 ## Aufgabe 2 
 
                                       {{0}}
-> __2.__	Zustandsdichte nicht stetig diffrenzierbar:  Angenommen, ein optischer Phononenast habe im Dreidimensionalen nahe $K=0$ die Form $\omega(K) = \omega_0 – A\cdot K^2$. Zeigen Sie, dass dann für $\omega < \omega_0$ gilt: $D(\omega)=\big(\frac{L}{2\pi}\big)^3\bigg(\frac{2\pi}{A^{\frac{3}{2}}}\bigg)\sqrt{\big(\omega_0-\omega\big)}$. Für  $\omega > \omega_0$ gilt $D(\omega) = 0$. Warum? In diesem Fall ist also die Ableitung der Zustandsdichte unstetig.
+> __2.__	Beispiel für nicht stetig diffrenzierbare Zustandsdichte: Angenommen, ein optischer Phononenast habe im Dreidimensionalen nahe $K=0$ die Form $\omega(K) = \omega_0 – A\cdot K^2$. Zeigen Sie, dass dann für $\omega < \omega_0$ gilt: $D(\omega)=\big(\frac{L}{2\pi}\big)^3\bigg(\frac{2\pi}{A^{\frac{3}{2}}}\bigg)\sqrt{\big(\omega_0-\omega\big)}$. Für  $\omega > \omega_0$ gilt $D(\omega) = 0$. Warum? In diesem Fall ist also die Ableitung der Zustandsdichte unstetig.
 
                                       {{1}}
 **Lösung Aufgabe 2:**
@@ -121,27 +121,27 @@ Das Volumen der Kugel mit Radius $K$ im reziproken Raum ist damit:
 $$\Omega=\frac{4\pi}{3}K^3=\frac{4\pi}{3}\bigg(\pm\sqrt{\frac{\omega_0-\omega(K)}{A}}\bigg)^3$$
 
                                       {{4}}
-Das Volumen eines $K$-Wertes im reziproken Raum ist:
+Das Volumen eines $K$-Wertes im 3.-dim. reziproken Raum ist:
 $$\Omega_K=\bigg(\frac{2\pi}{L}\bigg)^3$$
 
                                       {{5}}
 Die Anzahl der Zustände $N$ mit Wellenvektor kleiner als $K$ ist damit $N=\frac{\Omega}{\Omega_K}$
 
                                       {{6}}
-Mit $D(\omega)\mathrm{d}\omega=\mathrm{d}dN$ folgt für $\omega < \omega_0$:
+Mit $D(\omega)\mathrm{d}\omega=\mathrm{d}N$ folgt für $\omega < \omega_0$:
 $$\begin{align*}
 D(\omega)&=\bigg|\frac{\mathrm{d}N}{\mathrm{d}\omega}\bigg|\\
 &=\bigg|\frac{\mathrm{d}}{\mathrm{d}\omega}\Bigg(\frac{\frac{4\pi}{3}\bigg(\sqrt{\frac{\omega_0-\omega(K)}{A}}\bigg)^3}{\bigg(\frac{2\pi}{L}\bigg)^3}\Bigg)\bigg|\\
-&=\bigg|\bigg(\frac{L}{2\pi}\bigg)^3\frac{4\pi}{3}A^{-3/2}\cdot \frac{d}{d\omega}\bigg((\omega_0-\omega(K))^{3/2}\bigg)\bigg|\\
+&=\bigg|\bigg(\frac{L}{2\pi}\bigg)^3\frac{4\pi}{3}A^{-3/2}\cdot \frac{\mathrm{d}}{\mathrm{d}\omega}\bigg((\omega_0-\omega(K))^{3/2}\bigg)\bigg|\\
 &=\bigg|\bigg(\frac{L}{2\pi}\bigg)^3\frac{4\pi}{3}A^{-3/2}\cdot(-1)\cdot  \frac{3}{2}\cdot (\omega_0-\omega(K))^{1/2}\bigg|\\
 &=\bigg(\frac{L}{2\pi}\bigg)^3\frac{2\pi}{A^{3/2}}\cdot (\omega_0-\omega(K))^{1/2}
 \end{align*}$$
 
                                       {{7}}
-$D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf $-\frac{\pi}{a}\le K \le \frac{\pi}{a}$. Die Frequenz, die zu $K_{max}=\pm\frac{\pi}{a}$ gehört, ist $\omega_0$. Größere Wellenvektoren sind nicht möglich, deshalb muss bei den zugehörigen Frequenzen auch die Zustandsdichte Null sein. Oder mathematisch argumentiert: für $\omega>\omega_0$ ist der Term $(\omega_0-\omega(K))^{1/2}$ und damit die Zustandsdichte rein imaginär.
+$D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf $-\frac{\pi}{a}\le K \le \frac{\pi}{a}$. Die Frequenz, die zu $K_{\mathrm{max}}=\pm\frac{\pi}{a}$ gehört, ist $\omega_0$. Größere Wellenvektoren sind nicht möglich, deshalb muss bei den zugehörigen Frequenzen auch die Zustandsdichte Null sein. Oder mathematisch argumentiert: für $\omega>\omega_0$ ist der Term $(\omega_0-\omega(K))^{1/2}$ und damit die Zustandsdichte rein imaginär.
 
                                       {{7}}
-![Bild Zustandsdichte](media/optischerPhononenastZustandsdichte.png "*Zustandsdichte $D(\omega)$; Quelle: C. Funke*")<!--width="75%"-->
+![Bild Zustandsdichte](media/optischerPhononenastZustandsdichte.png "*Zustandsdichte $D(\omega)$ für optischen Phononenast mit der Dispersionsrelation der Form $\omega(K) = \omega_0 – A\cdot K^2$;3D; Quelle: C. Funke*")<!--width="75%"-->
 
 
 ## Aufgabe 3
