@@ -36,7 +36,7 @@ $\Rightarrow \varphi=\mathrm{arccos(\frac{1}{3})}=109,47°  $
 
 Volumen der Einheitszelle: $V_\mathrm{EZ}=a^3$
 
-Nun benötigen Sie einen Zusammenhang zischen Kugelvolumen und Gitterkonstante $a$. Die dichtest benachbarten Kugel sollen Stoß auf Stoß sitzen. 
+Nun benötigen Sie einen Zusammenhang zwischen Kugelvolumen und Gitterparameter $a$. Die dichtest benachbarten Kugel sollen Stoß auf Stoß sitzen. 
 Betrachten Sie folgende Abbildung und wenden Sie den Satz von Pythagoras zweimal an:
 
 ![Detail Diamantgitters](media/diamanatdetail.png)

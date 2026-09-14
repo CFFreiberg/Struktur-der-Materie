@@ -132,7 +132,7 @@ Aus dem linken Teilbild der Abbildung gilt für das senkrecht stehende rechtwink
 $$\left( \frac{c}{2} \right)^2=l^2-x^2$$
 
 {{25}}
-$x$ kann durch die Gitterkonsante $a$ ausgedrückt werden, siehe rechte Teilabbildung der obigen Abbildung:
+$x$ kann durch den Gitterparameter $a$ ausgedrückt werden, siehe rechte Teilabbildung der obigen Abbildung:
 $$x^2+\left( \frac{1}{3}a \right)^2=  \left( \frac{2}{3}a \right)^2$$
 $$\Rightarrow x^2= \frac{4}{9}a^2- \frac{1}{9}a^2=\frac{1}{3}a^2$$
 
@@ -195,7 +195,7 @@ $$\Rightarrow \varphi=\mathrm{arccos(\frac{1}{3})}=109,47°  $$
 Volumen der Einheitszelle: $V_\mathrm{EZ}=a^3$
 
 {{6}}
-Nun benötigen Sie einen Zusammenhang zwischen Kugelvolumen und Gitterkonstante $a$. Die dichtest benachbarten Kugel sollen Stoß auf Stoß sitzen. 
+Nun benötigen Sie einen Zusammenhang zwischen Kugelvolumen und Gitterparameter $a$. Die dichtest benachbarten Kugel sollen Stoß auf Stoß sitzen. 
 Betrachten Sie folgende Abbildung und wenden Sie den Satz von Pythagoras zweimal an:
 
 {{6}}
