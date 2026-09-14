@@ -15,7 +15,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 # Übung 3, Kristallgitter
 ## Aufgabe 1
->__1.__  Durch welches Bravais-Gitter lässt sich ein flächenzentriert tetragonales Gitter beschreiben. Welcher Zusammenhang besteht zwischen den Gitterkonstanten der beiden Gitter und dem Volumen der Einheitszellen?
+>__1.__  Durch welches Bravais-Gitter lässt sich ein flächenzentriert tetragonales Gitter beschreiben. Welcher Zusammenhang besteht zwischen den Gitterparametern der beiden Gitter und dem Volumen der Einheitszellen?
 
 ![flächenzentriertes tetragonales Gitter](media/flaechenzentriert_tetragonal.png "*Beispiel für flächenzentriertes tetragonales Gitter; Quelle:  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")
 
@@ -24,7 +24,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 {{1}}
 ************************************
-Ein flächenzentriertes tetragonales Gitter lässt sich durch eine 45° Drehung um die z-Achse in ein innenzentriertes tetragonales Gitter mit den Gitterkonstanten $a'= \frac{a}{\sqrt{2}}$ und
+Ein flächenzentriertes tetragonales Gitter lässt sich durch eine 45° Drehung um die z-Achse in ein innenzentriertes tetragonales Gitter mit dem Gitterparametern $a'= \frac{a}{\sqrt{2}}$ und
 $c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen.
 
 
@@ -32,7 +32,7 @@ $c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen.
 ************************************
  
 ## Aufgabe 2
->__2.__  Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed), charakterisiert durch den kleinsten Abstand $a_\mathrm{ccp}$ der Atome und den Abstand $c_\mathrm{ccp}$  (mit dem sich die Stapelung der dichtest gepackten Ebenen wiederholt) auf der einen Seite und einem entsprechenden fcc-Gitter (face centered cubic) mit der Gitterkonstanten $a_\mathrm{fcc}$? Bestimmen Sie die daraus resultierenden Beziehungen zu $a_\mathrm{ccp}$ und $c_\mathrm{ccp}$ eines ccp-Gitters.
+>__2.__  Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed), charakterisiert durch den kleinsten Abstand $a_\mathrm{ccp}$ der Atome und den Abstand $c_\mathrm{ccp}$  (mit dem sich die Stapelung der dichtest gepackten Ebenen wiederholt) auf der einen Seite und einem entsprechenden fcc-Gitter (face centered cubic) mit dem Gitterkparameter $a_\mathrm{fcc}$? Bestimmen Sie die daraus resultierenden Beziehungen zu $a_\mathrm{ccp}$ und $c_\mathrm{ccp}$ eines ccp-Gitters.
 
 Hinweis: Der Begriff fcc wird oft als Synonym für die kubisch dicht gepackte Struktur (ccp) in Metallen verwendet. Allerdings steht fcc für ein kubisch-flächenzentriertes Bravais-Gitter, das nicht unbedingt dicht gepackt ist, wenn eine Basis mit mehr als einem Atom auf die Gitterpunkte gesetzt wird. So sind z. B. das Diamant- und das Zinkblende-Gitter fcc, aber nicht dicht gepackt. 
 
@@ -54,12 +54,12 @@ Das ccp-Gitter weist in vertikaler Richtung die Reihenfolge ABCABCABC… dichtes
 ************************************
 
 {{2}}
-Die Raumdiagonale der kubischen Einheitszelle entspricht der
-"Gitterkonstanten" $c_\mathrm{ccp}$  des ccp-Gitters: $c_\mathrm{ccp} = \sqrt{3}\cdot a_\mathrm{fcc}$  
+Die Raumdiagonale der kubischen Einheitszelle entspricht dem
+"Gitterparameter" $c_\mathrm{ccp}$  des ccp-Gitters: $c_\mathrm{ccp} = \sqrt{3}\cdot a_\mathrm{fcc}$  
 
 {{3}}
 ************************************
-Der Zusammenhang zwischen der Gitterkonstanten $a_\mathrm{ccp}$ und dem normalen kubishen Gitterparameter $a_\mathrm{fcc}$ kann über folgende Abbildung hergeleitet werden:
+Der Zusammenhang zwischen dem Gitterparameter $a_\mathrm{ccp}$ und dem normalen kubishen Gitterparameter $a_\mathrm{fcc}$ kann über folgende Abbildung hergeleitet werden:
 
 
 ![Zusammenhang zwischen $a_\mathrm{ccp}$ und dem normalen kubishen Gitterparameter $a_\mathrm{fcc}$](media/a_ccp_a_fcc.png "*Blick auf kubische fcc Zelle in $[\bar{1}00]$-Richtung Bild erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="60%"--> 
@@ -112,7 +112,7 @@ Bemerkung: Sowohl die ccp-Kugelpackung als auch die hcp-Kugelpackung hat eine Ra
 + hcp: 12 NN
 
 ## Aufgabe 5
->__5.__  Silber hat ein fcc-Gitter. Seine Dichte beträgt $\rho_\mathrm{Ag}=10,49\,\mathrm{\frac{g}{cm^3}}$ und die molare Masse $M_\mathrm{Ag}=107,87 \mathrm{\frac{g}{Mol}}$. Bestimmen Sie die Gitterkonstante.
+>__5.__  Silber hat ein fcc-Gitter. Seine Dichte beträgt $\rho_\mathrm{Ag}=10,49\,\mathrm{\frac{g}{cm^3}}$ und die molare Masse $M_\mathrm{Ag}=107,87 \mathrm{\frac{g}{Mol}}$. Bestimmen Sie den Gitterparameter.
 
 
 {{0}}
@@ -143,7 +143,7 @@ $$
 $$\Rightarrow a=4,09 \cdot 10^{-8} \mathrm{cm}= 4,09 \cdot 10^{-10} \mathrm{m}$$
 
 ## Aufgabe 6
->__6.__ Geben Sie für Steinsalz die Koordinaten der Natrium- und Chlorionen in Einheiten der Gitterkonstanten $a$ an.
+>__6.__ Geben Sie für Steinsalz die Koordinaten der Natrium- und Chlorionen in Einheiten des Gitterparameters $a$ an.
 
 {{0}}
 **Lösung Aufgabe 6**
@@ -173,7 +173,7 @@ Na:  $(\frac{1}{2}, \frac{1}{2},\frac{1}{2})$;  $(0, 0,\frac{1}{2})$;  $(0, \fra
 ************************************
 
 ## Aufgabe 7
->__7.__ Geben Sie den kürzesten Abstand zwischen zwei Ionen im Kristallgitter mit Zinkblendestruktur bezogen auf die Gitterkonstante an.
+>__7.__ Geben Sie den kürzesten Abstand zwischen zwei Ionen im Kristallgitter mit Zinkblendestruktur bezogen auf den Gitterparameter an.
 
 {{0}}
 ************************************
