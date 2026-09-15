@@ -269,3 +269,9 @@ Die Längen im reziproken Raum können nicht direkt mit denen im realen Raum ver
 
 {{22}}
 Es bleibt noch anzumerken, dass die Winkel $\Theta_1$ und $\Theta_2$ zwar jeweils 30° sind. Bei genauem Betrachten wird jedoch deutlich, dass die Verdrehung zwischen $\vec{a}_1$ und $\vec{b}_1$ $\Theta_1=30°$ ist, zwischen $\vec{a}_2$ und $\vec{b}_2$ jedoch $\Theta_2=-30°$. Trotzdem wird von den $\vec{b}$-Vektoren ein hexagonales Gitter aufgespannt, welches durch eine 30°-Drehung (und Stauchung) in das ursprüngliche überführt werden kann.
+
+## Aufgabe 6
+>__6.__ Bitte bearbeiten Sie den Test Kristallographie im Opalkurs.
+
+## Aufgabe 7
+>__7.__ Bitte bearbeiten Sie den Test Stereographische Projektion im Opalkurs.
