@@ -25,7 +25,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 
 
-# Übung 5: 
+# Übung 5: Beugungsthemen 
 
 
 ## Aufgabe 1 (Komplexe Zahlen)
