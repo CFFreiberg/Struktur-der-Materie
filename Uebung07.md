@@ -25,7 +25,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 
 
-# Übung 7: 
+# Übung 7: Strukturfaktor
 
 ## Strukturfaktor?
 

@@ -25,7 +25,7 @@ import: https://raw.githubusercontent.com/liaTemplates/KekuleJS/master/README.md
 
 
 
-# Übung 6: 
+# Übung 6: Reziprokes Gitter
 
 
 ## Aufgabe 1
@@ -65,7 +65,7 @@ $$\vec{b}_3=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_2\times\vec{a}_3)=\frac{2\p
 
 {{11}}
 Durch den Vergleich mit den primitiven Translationsvektoren anderer Raumgitter erkennt man, dass
-es sich hierbei um ein kubisch raumzentriertes (bcc) Gitter mit Gitterkonstante $\frac{2 \pi}{a}$ handelt.
+es sich hierbei um ein kubisch raumzentriertes (bcc) Gitter mit dem Gitterparameter $\frac{2 \pi}{a}$ handelt.
 
 
 ## Aufgabe 2
