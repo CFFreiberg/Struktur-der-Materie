@@ -24,7 +24,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 9: 
+# Übung 9: Bindungen
 
 
 ## Aufgabe 1
