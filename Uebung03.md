@@ -32,7 +32,7 @@ $c' = c$ und $V_z' =\frac{1}{2} \cdot V_z$ überführen.
 ************************************
  
 ## Aufgabe 2
->__2.__  Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed), charakterisiert durch den kleinsten Abstand $a_\mathrm{ccp}$ der Atome und den Abstand $c_\mathrm{ccp}$  (mit dem sich die Stapelung der dichtest gepackten Ebenen wiederholt) auf der einen Seite und einem entsprechenden fcc-Gitter (face centered cubic) mit dem Gitterkparameter $a_\mathrm{fcc}$? Bestimmen Sie die daraus resultierenden Beziehungen zu $a_\mathrm{ccp}$ und $c_\mathrm{ccp}$ eines ccp-Gitters.
+>__2.__  Welcher Zusammenhang besteht zwischen einer ccp-Kugelpackung (cubic close packed), charakterisiert durch den kleinsten Abstand $a_\mathrm{ccp}$ der Atome und den Abstand $c_\mathrm{ccp}$  (mit dem sich die Stapelung der dichtest gepackten Ebenen wiederholt) auf der einen Seite und einem entsprechenden fcc-Gitter (face centered cubic) mit dem Gitterparameter $a_\mathrm{fcc}$? Bestimmen Sie die daraus resultierenden Beziehungen zu $a_\mathrm{ccp}$ und $c_\mathrm{ccp}$ eines ccp-Gitters.
 
 Hinweis: Der Begriff fcc wird oft als Synonym für die kubisch dicht gepackte Struktur (ccp) in Metallen verwendet. Allerdings steht fcc für ein kubisch-flächenzentriertes Bravais-Gitter, das nicht unbedingt dicht gepackt ist, wenn eine Basis mit mehr als einem Atom auf die Gitterpunkte gesetzt wird. So sind z. B. das Diamant- und das Zinkblende-Gitter fcc, aber nicht dicht gepackt. 
 
@@ -47,15 +47,14 @@ Hinweis: Der Begriff fcc wird oft als Synonym für die kubisch dicht gepackte St
 
 {{1}}
 ************************************
-Das ccp-Gitter weist in vertikaler Richtung die Reihenfolge ABCABCABC… dichtest gepackter Ebenen auf.
+Das ccp-Gitter weist in vertikaler Richtung die Reihenfolge $A \rightarrow B \rightarrow C\rightarrow A$ dichtest gepackter Ebenen auf.
 
-
-![kubische Einheitszelle kfz](media/kupfer.png "* Blick auf kubische fcc Zelle in [111]-Richtung; [Bildquelle](http://ruby.chemie.uni-freiburg.de/Vorlesung/Strukturtypen/elemente_kupfer.html)*")<!--width="60%"--> 
 ************************************
 
+
 {{2}}
-Die Raumdiagonale der kubischen Einheitszelle entspricht dem
-"Gitterparameter" $c_\mathrm{ccp}$  des ccp-Gitters: $c_\mathrm{ccp} = \sqrt{3}\cdot a_\mathrm{fcc}$  
+Die Raumdiagonale der kubischen Einheitszelle entspricht der
+"Stapelperiode" $c_\mathrm{ccp}$  des ccp-Gitters: $c_\mathrm{ccp} = \sqrt{3}\cdot a_\mathrm{fcc}$  
 
 {{3}}
 ************************************
@@ -81,16 +80,16 @@ $$c_\mathrm{ccp} = \sqrt{6} \cdot a_\mathrm{ccp}$$
 **Lösung Aufgabe 3**
 
 {{1}}
-![Vergleich Stapelfolgen ccp und hcp](media/VGLStapelfolgen.png "*Vergleich der Stapelfolgen für ccp und hcp Gitter; Quelle:  Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/), Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*")<!--width="60%"-->
+![Vergleich Stapelfolgen ccp und hcp](media/VGLStapelfolgen.png "*Vergleich der Stapelfolgen für ccp und hcp Gitter; Quelle:  Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/), Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*, (VESTA: (u,v,w)=(1,1,1); (h,k,l)=(-1,1,0))")<!--width="60%"-->
 
 
 {{2}}
-Das ccp-Gitter (links in der Abbildung) hat die Stapelfolge ABCABC der dichtest gepackten Ebenen. Das hcp-Gitter (rechts in der Abbildung) hat die Stapelfolge ABABAB der dichtest gepackten Ebenen. 
-Die "Wiederhollänge" beträgt bei ccp 3 Ebenenabstände, bei hcp 2 Ebenenabstände. Also ist $c_\mathrm{hcp} =\frac{2}{3}\cdot c_\mathrm{ccp} $
+Das ccp-Gitter (links in der Abbildung) hat die Stapelfolge $A \rightarrow B \rightarrow C\rightarrow A$ der dichtest gepackten Ebenen. Das hcp-Gitter (rechts in der Abbildung) hat die Stapelfolge $A \rightarrow B \rightarrow A$ der dichtest gepackten Ebenen. 
+Die "Wiederhollänge" beträgt bei ccp 3 Ebenenabstände, bei hcp 2 Ebenenabstände. Also ist $c_\mathrm{hcp} =\frac{2}{3}\cdot c_\mathrm{ccp} $.
 Daraus folgt mit dem Ergebnis von Aufgabe 2: 
 
 {{3}}
-$$c_\mathrm{hcp} = \frac{2}{3} \cdot  \sqrt{6} \cdot  a_\mathrm{ccp}= \sqrt{\frac{8}{3} }\cdot a_\mathrm{ccp}\eqsim 1,63 \cdot a_\mathrm{ccp} $$
+$$c_\mathrm{hcp}=\frac{2}{3}\cdot c_\mathrm{ccp} = \frac{2}{3} \cdot  \sqrt{6} \cdot  a_\mathrm{ccp}= \sqrt{\frac{8}{3} }\cdot a_\mathrm{ccp}\eqsim 1,63 \cdot a_\mathrm{ccp} $$
 
 {{4}}
 ************************************
@@ -98,6 +97,26 @@ Das Ergebnis ist das gleiche wie in Übung 2, Aufgabe 10. Warum?
 
 
 Bemerkung: Sowohl die ccp-Kugelpackung als auch die hcp-Kugelpackung hat eine Raumausfüllung von 74 %
+
+**Übersicht der wichtigsten Parameter**
+
+|Struktur|$a$ (Gitterparameter (der Ebene))|c Stapelhöhe| Bezug zu $a_\mathrm{ccp}$|
+|:----:|:----:|:----:|:----:|
+|ccp (fcc)|$a_\mathrm{fcc}=\sqrt{2}\cdot a_\mathrm{ccp}$|$c_\mathrm{ccp}=\sqrt{6}\cdot a_\mathrm{ccp}\\=\sqrt{3}\cdot a_\mathrm{fcc}$|$a_\mathrm{ccp}=\frac{a_\mathrm{fcc}}{\sqrt{2}}\\c_\mathrm{ccp}=\sqrt{6}\cdot a_\mathrm{ccp}$|
+|hcp |$a_\mathrm{hcp}= a_\mathrm{ccp}$|$c_\mathrm{hcp}=\sqrt{\frac{8}{3}}\cdot a_\mathrm{ccp}\\\simeq 1,\!633\cdot a_\mathrm{ccp}$|$a_\mathrm{ccp}=a_\mathrm{hcp}\\c_\mathrm{hcp}=\sqrt{\frac{8}{3}}\cdot a_\mathrm{ccp}$|
+
+Dabei sind:
+
+* $a_\mathrm{ccp}$: kleinster Atomabstand ($=2r$) (im atomaren Kugelmodell berühren sich die Atome)
+* $a_\mathrm{fcc}$: Gitterparameter der fcc-Struktur (kubische Einheitszelle)
+* $a_\mathrm{hcp}$: Gitterparameter der hcp-Struktur (in der Basalebene)
+* $c_\mathrm{ccp}$: Stapelhöhe der ABC-Sequenz (3 Ebenen)
+* $c_\mathrm{hcp}$: Stapelhöhe der AB-Sequenz (2 Ebenen)
+
+
+
+
+
 ************************************
 
 ## Aufgabe 4
