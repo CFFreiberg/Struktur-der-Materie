@@ -26,7 +26,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 13: 
+# Übung 13: Freies Elektronengas
 
 
 ## Aufgabe 1
@@ -271,7 +271,7 @@ $$\Rightarrow E_\mathrm{Ecke}=2\cdot E_\mathrm{Mitte}$$
 **Lösung Aufgabe 8**
 
                                       {{2}}
-Die 1. Brillouin- Zone eines sc-Gitters im 3D mit Gitterkonstante $a$ ist ein Würfel mit der Kantenlänge $\frac{2\pi}{a}$
+Die 1. Brillouin- Zone eines sc-Gitters im 3D mit Gitterparameter $a$ ist ein Würfel mit der Kantenlänge $\frac{2\pi}{a}$
 
                                       {{3}}
 Die [Raumdiagonale vom Würfel](https://www.matheretter.de/wiki/wurfel-raumdiagonale) errechnet sich mit Hilfe vom Satz des Pythagoras, wobei die Raumdiagonale durch eine Flächendiagonale und eine Kantenlänge aufgespannt wird. 
