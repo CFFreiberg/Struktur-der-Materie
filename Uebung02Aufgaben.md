@@ -97,6 +97,7 @@ mit $u_i \in  \mathbb{Z}$ und $\vec{a_i}$ linear unabhängige Bravais-Gittervekt
 
 {{3}}
 Es gibt 14 verschiedene Bravais-Gitter im 3-dimensionalem Raum, die in 7 Kristallsysteme klassifiziert sind.
+Das Gitter sieht von jedem Punkt aus betrachtet gleich aus.
 
 {{4}}
 > __3b) __Was beschreiben Punktgruppen?
@@ -198,6 +199,8 @@ Nein. Ein Penrose-Muster ist ein aperiodisches Muster, es besitzt keine periodis
 {{1}}
 $\Rightarrow$ faszinierendes Beispiel für aperiodische Strukturen, benötigt mindestens 2 verschiedene Baueinheiten (Polygone): *kite* = Drachen und *dart* = Pfeile.
 
+{{1}}
+![2011 Nobelpreis für Chemie für Daniel Shechtman ](https://physicsworld.com/a/quasicrystal-discovery-bags-2011-chemistry-nobel/)
 
 ## Aufgabe 6
 > __6) __Die Kristallsysteme wurden nach größtmöglicher Symmetrie des ausgewählten Achssystems unterschieden. 
