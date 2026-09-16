@@ -26,7 +26,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 10: 
+# Übung 10: Phononen
 
 
 ## Aufgabe 1
@@ -65,7 +65,7 @@ Wellenlängen, die kleiner sind als der (halbe) Abstand zwischen den Atomen, gib
 ![Beschränkung des Wellenvektors bei Phononen](media/phonon1.png "*[Beschränkung des Wellenvektors bei Phononen; Quelle: H. Föll (MaWi 2 Skript), Uni Kiel](https://www.tf.uni-kiel.de/matwis/amat/mw2_ge/kap_2/advanced/t2_1_1.html)*")
 
                                       {{4}}
-Also: $\frac{\lambda}{2} \ge a$, wobei $a$ die Gitterkonstante ist.
+Also: $\frac{\lambda}{2} \ge a$, wobei $a$ der Gitterparameter ist.
 
                                       {{5}}
 Es gilt allgemein: 
@@ -480,7 +480,7 @@ Der Summand $\frac{1}{2} \hbar \omega$ ist die Nullpunktsenergie des Schwingungs
 **Lösung Aufgabe 11:**
 
                                       {{2}}
-Wir betrachten eine unendlich lange  Kette aus der regelmäßigen Abfolge von den sich abwechselten Atomen der Massen $M_1$ und $M_2$ ($M_2 < M_1$) mit der Gitterkonstanten $a$ und der Federkonstanten $C$.
+Wir betrachten eine unendlich lange  Kette aus der regelmäßigen Abfolge von den sich abwechselten Atomen der Massen $M_1$ und $M_2$ ($M_2 < M_1$) mit dem Gitterparameter $a$ und der Federkonstanten $C$.
 
                                       {{3}}
 Die Auslenkung des Atoms "$s$" mit der Masse $M_1$ sei $u_s$
