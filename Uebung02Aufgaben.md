@@ -200,7 +200,7 @@ Nein. Ein Penrose-Muster ist ein aperiodisches Muster, es besitzt keine periodis
 $\Rightarrow$ faszinierendes Beispiel für aperiodische Strukturen, benötigt mindestens 2 verschiedene Baueinheiten (Polygone): *kite* = Drachen und *dart* = Pfeile.
 
 {{1}}
-![2011 Nobelpreis für Chemie für Daniel Shechtman ](https://physicsworld.com/a/quasicrystal-discovery-bags-2011-chemistry-nobel/)
+2011 Nobelpreis für Chemie für Daniel Shechtman, siehe [https://physicsworld.com/a/quasicrystal-discovery-bags-2011-chemistry-nobel](https://physicsworld.com/a/quasicrystal-discovery-bags-2011-chemistry-nobel)
 
 ## Aufgabe 6
 > __6) __Die Kristallsysteme wurden nach größtmöglicher Symmetrie des ausgewählten Achssystems unterschieden. 
