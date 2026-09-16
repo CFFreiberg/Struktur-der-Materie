@@ -26,7 +26,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 11: 
+# Übung 11: Dispersionsrelation, Zustandsdichte
 
 
 ## Aufgabe 1
@@ -150,10 +150,10 @@ $D(\omega)=0$ für $\omega>\omega_0$ da der Wellenvektor $K$ beschränkt ist auf
 > __3.__ Mittlere Wärmeausdehnung einer Kristallzelle (Na). 
 
 
->__a)__ Schätzen Sie für eine primitive Elementarzelle eines Natriumkristalls bei $T=300\, \mathrm{K}$ die mittlere Wärmeausdehnung $\frac{\Delta V}{V}$ ab. Nehmen Sie dazu die  Gitterkonstante $a_\mathrm{Na}=4,225\, \AA$ an und den Kompressionsmodul $B$ zu $\mathrm{7 \cdot 10^{10} erg \cdot cm^{-3}= 7 \cdot 10^3 \,J\cdot cm^{-3}=  7 \cdot 10^9 \,J\cdot m^{-3}}$.  Beachten Sie, dass die Debye-Temperatur mit $\mathrm{158\, K}$ geringer als $\mathrm{300\, K}$ ist, so dass die thermische Energie von der Größenordnung von $\frac{1}{2}k_\mathrm{B}\cdot T$ ist (klassische Betrachtung).
+>__a)__ Schätzen Sie für eine primitive Elementarzelle eines Natriumkristalls bei $T=300\, \mathrm{K}$ die mittlere Wärmeausdehnung $\frac{\Delta V}{V}$ ab. Nehmen Sie dazu den  Gitterparameter $a_\mathrm{Na}=4,225\, \AA$ an und den Kompressionsmodul $B$ zu $\mathrm{7 \cdot 10^{10} erg \cdot cm^{-3}= 7 \cdot 10^3 \,J\cdot cm^{-3}=  7 \cdot 10^9 \,J\cdot m^{-3}}$.  Beachten Sie, dass die Debye-Temperatur mit $\mathrm{158\, K}$ geringer als $\mathrm{300\, K}$ ist, so dass die thermische Energie von der Größenordnung von $\frac{1}{2}k_\mathrm{B}\cdot T$ ist (klassische Betrachtung).
 
 
->__b)__ Benutzen Sie dieses Ergebnis, um die mittlere thermische Schwankung $\frac{\Delta a}{a}$ der Gitterkonstanten abzuschätzen.
+>__b)__ Benutzen Sie dieses Ergebnis, um die mittlere thermische Schwankung $\frac{\Delta a}{a}$ des Gitterparameters abzuschätzen.
 
 **********************************************
 
@@ -208,7 +208,7 @@ $$\frac{\Delta a}{a}=\frac{1}{3}\frac{\Delta V}{V} \eqsim0.029$$
 
 ## Aufgabe 4 
                                       {{0}}
-> __4.__ Nullpunkts-Gitterauslenkung und Wärmeausdehnung:   Experimentelle Messungen zeigen, dass mit steigender Temperatur die Gitterkonstante wächst. Wie ist das mittels eines Potential-Modells erklärbar?
+> __4.__ Nullpunkts-Gitterauslenkung und Wärmeausdehnung:   Experimentelle Messungen zeigen, dass mit steigender Temperatur der Gitterparameter wächst. Wie ist das mittels eines Potential-Modells erklärbar?
 
 
                                       {{1}}
