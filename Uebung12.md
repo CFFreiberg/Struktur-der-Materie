@@ -26,7 +26,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 -->
 
 
-# Übung 12: 
+# Übung 12: Spezifische Wärme
 
 
 ## Aufgabe 1
