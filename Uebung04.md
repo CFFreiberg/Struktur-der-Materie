@@ -119,7 +119,28 @@ $$\vec{b}_3=\frac{2\pi}{V_\mathrm{EZ}}\cdot (\vec{a}_2\times\vec{a}_3)=\frac{2\p
 Das reziproke Gitter von bcc ist damit ein fcc-Gitter.
 
 ## Aufgabe 3
+
+**Quiz: Warum ist der Netzebenenabstand wichtig?**
+
+Welche Aussagen zum Abstand $d_{hkl}$ zwischen Netzebenenscharen in einem Kristall sind richtig?
+
+
+-[[x]]Der Netzebenenabstand bestimmt die Lage der Beugungsmaxima bei der Röntgenbeugung und ermöglicht damit die Bestimmung von Kristallstrukturen.
+
+-[[X]] Über den Netzebenenabstand kann mithilfe des Bragg-Gesetzes der Beugungswinkel bei bekannter Wellenlänge berechnet werden.
+
+-[[X]] Aus gemessenen Netzebenenabständen können Rückschlüsse auf Gitterparameter und Kristallstruktur gezogen werden.
+
+-[[ ]] Der Netzebenenabstand gibt direkt den Abstand zwischen zwei benachbarten Atomen innerhalb einer Netzebene an.
+
+-[[ ]] Der Netzebenenabstand ist für die Röntgenbeugung unerheblich, da nur die Atomabstände innerhalb einer Ebene die Beugung bestimmen.
+
+
+
 >__3.__  Beweisen Sie, dass der Abstand zwischen zwei aufeinanderfolgenden parallelen Ebenen des Gitters gleich $d_\mathrm{hkl}=\frac{2\pi}{|\vec{G}_\mathrm{min}|}$ ist. Dabei ist $\vec{G}_\mathrm{min}$ der zur Ebenenschar $(h,k,l)$ gehörige kleinste reziproke Gittervektor. 
+
+
+
 
 
 {{1}}
