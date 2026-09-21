@@ -88,8 +88,14 @@ Für kubische Gitter gilt:
 $$d_{hkl}=\frac{a}{\sqrt{h^2+k^2+l^2}}$$
 
                                       {{7}}
+******
 Eingesetzt in die  Bragg-Bedingung für Beugung (in die erste Ordnung) $\lambda=2\cdot d_{hkl}\cdot \sin(\theta)$ ergibt sich 
 $$ \sin^2(\theta)=\left (\frac{\lambda}{2a} \right )^2(h^2+k^2+l^2)$$
+
+
+
+
+******
 
                                       {{8}}
 ************************************
@@ -97,6 +103,11 @@ Eine Auftragung des Beugungsspektrums über $\sin ^2\theta$ und ein Vergleich mi
 
 
 ![Intensität in Abhängigkeit vom Beugungswinkel](media/intensities.png "*Intensitätsverteilung in Abhängigkeit des Beugungswinkels;  Quelle:  [Rueddiger Mitdank](https://www.researchgate.net/profile/Ruediger-Mitdank/post/What-is-the-significance-of-h2-k2-l2/attachment/5d1b42d83843b0b982591bbc/AS%3A776182228332547%401562067672794/download/intensities.png?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InF1ZXN0aW9uIiwicGFnZSI6InF1ZXN0aW9uIn19)*")
+
+
+>[!TIP]
+>Vesta -> Utilities -> Powder Diffraction -> Calculate
+
 ************************************
 
 
@@ -104,7 +115,7 @@ Eine Auftragung des Beugungsspektrums über $\sin ^2\theta$ und ein Vergleich mi
 ## Aufgabe 2 (Zusammenhang der Breite des Beugungsmaximums mit der Größe des Kristalls)
 
 
-> __2.__  Betrachten Sie einen linearen (eindimensionalen)  Kristall mit den  Gitterpunkten $r=m\cdot a$ mit  $m \in \mathbb{Z}$ und $a=$ Gitterparameter. Auf jedem der Gitterpunkte sitzt ein identisches, punktförmiges Streuzentrum. Die Atome werden von einer kohärenten Welle angeregt. In Analogie zur Streuamplitude in einem realen Kristall $F=\sum_G \int n_G \cdot \exp(-i\vec{G}\cdot\vec{r})\cdot dV$  ist die Gesamtstreuamplitude der Streustrahlung proportional zu  $F=f\cdot \sum_{m=0}^M  \exp(-i\Delta k \cdot m \cdot a )$.  Die Summe über $M$ Gitterpunkte hat unter Verwendung der Reihenentwicklung 
+> __2.__  Betrachten Sie einen linearen (eindimensionalen)  Kristall mit den  Gitterpunkten $r=m\cdot a$ mit  $m \in \mathbb{Z}$ und $a=$ Gitterparameter. Auf jedem der Gitterpunkte sitzt ein identisches, punktförmiges Streuzentrum. Die Atome werden von einer kohärenten Welle angeregt. In Analogie zur Streuamplitude in einem realen Kristall $F=\sum_G \int n_G \cdot \exp(-i\vec{G}\cdot\vec{r})\cdot dV$  ist die Gesamtstreuamplitude der Streustrahlung proportional zu  $F=f\cdot \sum_{m=0}^M  \underbrace{\exp(-i\Delta k \cdot a \cdot m )}_{x^m}$.  Die Summe über $M$ Gitterpunkte hat unter Verwendung der Reihenentwicklung 
 > $$ \sum_{m=0}^{M-1}x^m=\frac{1-x^M}{1-x}$$
 > den Wert 
 > $$F=\frac{1-\exp(-iM(a\cdot \Delta k))}{1-\exp(-i(a\cdot \Delta k))}$$
@@ -128,11 +139,11 @@ $$|F|^2 \equiv F\cdot \bar{F}=\frac{1-\exp(-iM(a\cdot \Delta k))}{1-\exp(-i(a\cd
 $$\Rightarrow |F|^2=\frac{1-\exp(+iM(a\cdot \Delta k))-\exp(-iM(a\cdot \Delta k))+1}{1-\exp(+i(a\cdot \Delta k))-\exp(-i(a\cdot \Delta k))+1}$$ 
 
                                       {{4}}
-Da $e^{ix}=\cos(x)+i\sin(x)$ folgt mit $e^{ix}+e^{-ix}=2\cos(x)$
+Da **$e^{ix}=\cos(x)+i\sin(x)$**<!-- style="color: red" --> folgt mit **$e^{ix}+e^{-ix}=2\cos(x)$**<!-- style="color: red" -->
 $$\Rightarrow |F|^2=\frac{2-2\cos(Ma\Delta k)}{2-2\cos(a \Delta k)}=\frac{1-\cos(Ma\Delta k)}{1-\cos(a \Delta k)}$$
 
                                       {{5}}
-Mit $\cos(2x)=1-2\sin^2(x)$ folgt:
+Mit **$\cos(2x)=1-2\sin^2(x)$**<!-- style="color: red" --> folgt:
 $$\Rightarrow |F|^2=\frac{1-(1-2\sin^2(\frac{1}{2}Ma\Delta k))}{1-(1-2\sin^2(\frac{1}{2}a \Delta k))}=\frac{\sin^2(\frac{1}{²}Ma\Delta k)}{\sin^2(\frac{1}{2}a \Delta k)}$$
 
                                       {{6}}
@@ -228,7 +239,7 @@ $$|F|^2=\frac{\sin^2(\frac{1}{2}Ma\Delta k)}{\sin^2(\frac{1}{2}a \Delta k)}=\fra
 
                                       {{12}}
 ************************************
-Betrachten wir den Term im Zähler genauer. Mit den Additionstheoremen für den Sinus einer Summe $\sin(x_1​+x_2​)=\sin(x_1)\cdot  \mathrm{​cos}(x_2)​+\sin(x_2)\cdot \mathrm{​cos}(x_1)$ folgt​
+Betrachten wir den Term im Zähler genauer. Mit den Additionstheoremen für den Sinus einer Summe **$\sin(x_1​+x_2​)=\sin(x_1)\cdot  \mathrm{​cos}(x_2)​+\sin(x_2)\cdot \mathrm{​cos}(x_1)$**<!-- style="color: red" --> folgt​
 $$\sin(\frac{1}{2}M(2\pi h+\epsilon))=\sin(M \pi h+\frac{M\epsilon}{2})=\sin(M \pi h)\cdot \cos(\frac{M\epsilon}{2})+\sin(\frac{M\epsilon}{2})\cdot \cos(M\pi h)$$
 
 
@@ -239,7 +250,7 @@ $$\sin(\frac{1}{2}M(2\pi h+\epsilon))=\pm \sin(\frac{M\epsilon}{2}) $$
 ************************************
 
                                       {{13}}
-Die erste Nullstelle von $\sin(\frac{M\epsilon}{2})$ ist bei $ \epsilon=\frac{2\pi}{M}$. Die "Breite des Maximums" $\epsilon$ wird also kleiner, wenn $M$ größer wird. 
+Die erste Nullstelle von $\sin(\frac{M\epsilon}{2})$ ist bei $ \epsilon=\frac{2\pi}{M}$. Die "halbe Breite des Maximums" $\epsilon$ wird also kleiner, wenn $M$ größer wird. 
 
 ## Aufgabe 3 (Formfaktor H-Atom)
 
