@@ -38,7 +38,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
                                       {{2}}
 Lennard-Jones Potential:
-$$ U(R)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\sigma}{R}\right)^6\right]$$
+$$ U(R)=4 \varepsilon \left [ \left ( \frac{\sigma}{r} \right)^{12}-\left(\frac{\sigma}{r}\right)^6\right]$$
 Der positive  hoch-12-Term ist abstoßend (Pauli Prinzip).  
 Der negative hoch 6-Term ist anziehend (van der Waals-Wechselwirkung = induzierte Dipol-Dipol Welchselwirkung)  
 
@@ -74,14 +74,14 @@ def main():
     x_num = 100
     y_min = -1
     y_max = 1
-    x_label = "$\\dfrac{R }{\\sigma}$"
+    x_label = "$\\dfrac{r }{\\sigma}$"
     y_label = "$\\dfrac{U }{4\\cdot\\varepsilon}$"
     x = np.linspace(x_min, x_max, x_num)
     fig, ax = plt.subplots()
     line, = ax.plot(x, f1(x),'r--')
     line, = ax.plot(x, f2(x),'b--')
     line, = ax.plot(x, f3(x),'g')
-    plt.legend(("$+\\left (\\dfrac{\\sigma}{R}\\right)^{12}$", "$-\\left (\\dfrac{\\sigma}{R}\\right)^{6}$", "$+\\left (\\dfrac{\\sigma}{R}\\right)^{12}-\\left (\\dfrac{\\sigma}{R}\\right)^{6}$" ),loc='upper center', shadow=True)
+    plt.legend(("$+\\left (\\dfrac{\\sigma}{r}\\right)^{12}$", "$-\\left (\\dfrac{\\sigma}{r}\\right)^{6}$", "$+\\left (\\dfrac{\\sigma}{r}\\right)^{12}-\\left (\\dfrac{\\sigma}{r}\\right)^{6}$" ),loc='upper center', shadow=True)
     plt.grid(True)
     ax.set_xlabel(x_label)
     ax.set_ylabel(y_label)
@@ -108,7 +108,7 @@ main()
 **Lösung Aufgabe 2:**
 
                                       {{2}}
-$$F=-\left| \vec{\nabla }U(r) \right|=-\frac{\mathrm{d}U(r)}{\mathrm{d}r}$$
+$$F=-\left| \vec{\nabla }U(r) \right|=-\frac{\mathrm{d}U(r)}{\mathrm{d}r}=-\frac{\mathrm{d}}{\mathrm{d}r}\left( 4 \varepsilon \left [ \left ( \frac{\sigma}{r} \right)^{12}-\left(\frac{\sigma}{r}\right)^6\right] \right)$$
 
                                       {{3}}
 $$\begin{align*}
@@ -125,7 +125,7 @@ $$\begin{align*}
 **Lösung Aufgabe 3:**
 
                                       {{2}}
-Der Beitrag der  van der Waals-Wechselwirkung zur anziehenden Wechselwirkung beträgt ca. 1 – 2%  
+Der Beitrag der  van der Waals-Wechselwirkung zur anziehenden Wechselwirkung beträgt ca. 1 – 2%.  
 Der Hauptbeitrag der anziehenden Wechselwirkung ist die elektrostatische Anziehung, die auch **Madelung-Energie** genannt wird.
 
 
@@ -144,13 +144,13 @@ $$U_i=\ \sum_{j\ \neq i}\ U_{ij}$$
                                       {{3}}
 ************************************
 Dabei ist die Wechselwirkungsenergie 
-$$U_{ij}(R)\ = \begin{cases}
-\overbrace{\lambda \cdot  \exp\bigg(\frac{-R}{\rho}\bigg)}^{\mathrm{Abstoßung}} -\frac{q^2}{4 \pi \varepsilon_0 R}  &\text{für nächste Nachbarn}\\
-\pm\frac{1}{p_{ij}}\frac{q^2}{4\pi\varepsilon_0 \cdot R}  &\text{alle anderen geometrischen Fälle}  
+$$U_{ij}(r)\ = \begin{cases}
+\overbrace{\lambda \cdot  \exp\bigg(\frac{-r}{\rho}\bigg)}^{\mathrm{Abstoßung}} -\frac{q^2}{4 \pi \varepsilon_0 r}  &\text{für nächste Nachbarn}\\
+\pm\frac{1}{p_{ij}}\frac{q^2}{4\pi\varepsilon_0 \cdot r}  &\text{alle anderen geometrischen Fälle}  
 \end{cases} $$
 
 
-Dabei sind $\lambda$ und $\rho$  materialabhängige Parameter und $p_{ij}=\frac{r_{ij}}{R}$ der relative Abstand .
+Dabei sind $\lambda$ und $\rho$  materialabhängige Parameter und $p_{ij}=\frac{r_{ij}}{r}$ der relative Abstand .
 ************************************
 
                                       {{4}}
@@ -159,20 +159,20 @@ $$\alpha =\ \sum_{j}\pm\frac{1}{p_{ij}} $$
 und der Anzahl der nächsten Nachbarn $z$ ergibt sich
 
                                       {{5}}
-$$U_G(R)=\ N\cdot U_i=N\bigg(z \cdot \lambda\cdot \exp\left(\frac{-R}{\rho}\right)-\frac{\alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R}\bigg)$$
+$$U_G(r)=\ N\cdot U_i=N\bigg(z \cdot \lambda\cdot \exp\left(\frac{-r}{\rho}\right)-\frac{\alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot r}\bigg)$$
 
                                       {{6}}
-Der Gleichgewichtsabstand ergibt sich aus $\frac{\mathrm{d}U_G}{\mathrm{d}R} = 0$ 
+Der Gleichgewichtsabstand ergibt sich aus $\frac{\mathrm{d}U_G}{\mathrm{d}r} = 0$ 
 
                                       {{7}}
-$$-\frac{N}{\rho}z\ \lambda \exp \left(\frac{-R_{0}}{\rho}\right)+\frac{N\ \alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R_0^2}\ = 0$$
+$$-\frac{N}{\rho}z\ \lambda \exp \left(\frac{-r_{0}}{\rho}\right)+\frac{N\ \alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot r_0^2}\ = 0$$
 
                                       {{8}}
-$$\Rightarrow z\ \lambda \exp \left(\frac{-R_0}{\rho}\right)= \frac{ \rho \cdot \alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R_0^2} $$
+$$\Rightarrow z\ \lambda \exp \left(\frac{-r_0}{\rho}\right)= \frac{ \rho \cdot \alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot r_0^2} $$
 
                                       {{9}}
-Damit ergibt sich für den Gleichgewichtsabstand $R_0$ die gesamte Gitterenergie
-$$U_G=-N\frac{\alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R_0}\bigg(1-\frac{\rho}{R_0}\bigg)$$
+Damit ergibt sich für den Gleichgewichtsabstand $r_0$ die gesamte Gitterenergie
+$$U_G=-N\frac{\alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot r_0}\bigg(1-\frac{\rho}{r_0}\bigg)$$
 
 ## Aufgabe 5 
                                       {{0}}
@@ -185,8 +185,26 @@ $$U_G=-N\frac{\alpha \cdot  q^2}{4\pi\varepsilon_0 \cdot R_0}\bigg(1-\frac{\rho}
 Bei der metallischen Bindung sind die Valenzelektronen gleichmäßig über das ganze Metall "verschmiert" und sind nicht an einem oder zwei Atomen lokalisiert (im Gegensatz zur kovalenten Bindung). Diese Valenzelktronen bilden einen "See" von ungebundenen, delokalisierten Elektronen, in dem die verbleibenden positiven Ionenrümpfe eingebettet sind. Die Bindungsenergie der metallischen Bindung kommt durch die Reduktion der kinetischen Energie der Valenzelektronen zustande.
 
                                       {{3}}
-Zusatzinfos:
-Da die metallische Bindung ungerichtet ist, kristallisieren Metalle hauptsächlich in dicht gepackten Strukturen. Die Bindungsenergie ist mit ca. 1 eV eher klein. Die Bindungsenergie von Alkalimetallen (Li, Na, K, Rb, Cs, Fr) ist wesentlich kleiner als die von Alkali-Halogenid-Kristallen (LiF, NaCl), da bei ersteren die interatomaren Abstände größer sind, was zu einer Verringerung der kinetischen Energie der Valenzeleektronen führt. Bei Übergangsmetallen gibt es wegen der Wechselwirkung zwischen inneren Elektronenschalen (d-Elektronen) höhrere Bindungsenergien.
+> [!Tip]
+>Da die metallische Bindung im Wesentlichen ungerichtet ist, können Atome ihre Bindungen in vielen Richtungen ausbilden. Daher kristallisieren viele Metalle in dicht gepackten Strukturen, beispielsweise in kubisch-flächenzentrierten (fcc) oder hexagonal-dichtesten (hcp) Strukturen.
+>Die Bindungsenergie (pro Atom) einfacher Metalle liegen typischerweise in der Größenordnung von einigen Elektronenvolt pro Atom; bei Alkalimetallen sind sie vergleichsweise klein. Ursache dafür ist unter anderem, dass ihre Valenzelektronen nur schwach an die Atomrümpfe gebunden sind und die metallische Bindung daher relativ schwach ist. 
+>Bei Übergangsmetallen tragen zusätzlich die teilweise besetzten (d)-Elektronen wesentlich zur metallischen Bindung bei. Ihre stärkere Wechselwirkung mit den Elektronen benachbarter Atome erhöht die Kohäsionsenergie gegenüber den einfachen (s)-Metallen.
+
+
+                                      {{4}}
+> [!Note]
+>**Heisenbergsche Unschärferelation und metallische Bindung**: Die Heisenbergsche Unschärferelation lautet $$
+\Delta x \cdot\Delta p \geq \frac{\hbar}{2}.
+$$ Wird ein Elektron auf einen kleinen Raumbereich $\Delta x$ beschränkt, muss seine Impulsunschärfe $\Delta p$ groß sein. Damit steigt seine kinetische Energie näherungsweise wie $$
+E_\mathrm{kin}
+\sim
+\frac{(\Delta p)^2}{2m}
+\propto
+\frac{1}{(\Delta x)^2}.
+$$ Je stärker die Elektronen räumlich eingeengt werden, desto höher ist daher ihre kinetische Energie. Bei einem Metall sind die Valenzelektronen nicht mehr an ein einzelnes Atom gebunden, sondern über viele Atome delokalisiert. Dadurch können sie einen größeren Raumbereich einnehmen und ihre kinetische Energie vergleichsweise niedrig halten.
+
+
+
 
 ## Aufgabe 6 
 
@@ -264,11 +282,17 @@ $$\begin{align*}
 \end{align*}$$
 
                                       {{5}}
+
 Für das gezeigte 3D-Gitter gilt:
 $$\begin{align*} 
 \alpha_1 &=\ 6\frac{+1}{1}\frac{1}{2}\ +12\frac{-1}{\sqrt2}\frac{1}{4}+8\frac{+1}{\sqrt3}\frac{1}{8}\\
  &=\ 1,456..
 \end{align*}$$
+
+                                      {{6}}
+> [!IMPORTANT]
+> Plus (+) oder Minus (-) je nach Definition
+
 
 ## Aufgabe 9
                                       {{0}}
