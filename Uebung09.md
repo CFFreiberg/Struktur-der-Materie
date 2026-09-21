@@ -311,7 +311,7 @@ $$\begin{align*}
 
                                       {{2}}
 Mit dem Lennard- Jones Potential 
-$ U(r)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\sigma}{R}\right)^6\right]$ ergibt sich für die Gesamtenergie $U_\mathrm{G}$ bei insgesamt $N$ Atomen und damit $\frac{N}{2}$ Atompaaren
+$ U(R)=4 \varepsilon \left [ \left ( \frac{\sigma}{R} \right)^{12}-\left(\frac{\sigma}{R}\right)^6\right]$ ergibt sich für die Gesamtenergie $U_\mathrm{G}$ bei insgesamt $N$ Atomen und damit $\frac{N}{2}$ Atompaaren
 
                                       {{3}}
 $$\begin {align*}
@@ -320,10 +320,10 @@ U_\mathrm{G}&=\frac{4N}{2} \varepsilon\left[\sum\limits_{i,j\ne i}{\left(\frac{\
 &=2N\varepsilon\left[A_{12}\left(\frac{\sigma}{R}\right)^{12}-A_6\left(\frac{\sigma}{R}\right)^6\right]\end{align*}$$
 
                                       {{4}}
-Für den Gleichgewichtsabstand $R_0$ muss die Gesamtenergie ein Minimum haben, also $\frac{dU_\mathrm{G}}{dR}\vert_{R_0}=0$ gelten:  
+Für den Gleichgewichtsabstand $R_0$ muss die Gesamtenergie ein Minimum haben, also $\frac{\mathrm{d}U_\mathrm{G}}{\mathrm{d}R}\vert_{R_0}=0$ gelten:  
 
                                       {{5}}
-$$\frac{dU_\mathrm{G}}{dR} \bigg|_{R_0}=-2N\varepsilon \left[12A_{12}\frac{\sigma^{12}}{R_0^{13}}-6 A_6\frac{\sigma^6}{R_0^7} \right]=0\\$$
+$$\frac{\mathrm{d}U_\mathrm{G}}{\mathrm{d}R} \bigg|_{R_0}=-2N\varepsilon \left[12A_{12}\frac{\sigma^{12}}{R_0^{13}}-6 A_6\frac{\sigma^6}{R_0^7} \right]=0\\$$
 
                                       {{6}}
 $$\Rightarrow 2A_{12}\frac{\sigma^{12}}{R_0^{13}}=A_6\frac{\sigma^6}{R_0^7}$$
@@ -360,7 +360,7 @@ Daraus folgt:
 $$U_\mathrm{G}^{\mathrm{hcp}}:U_\mathrm{G}^{\mathrm{fcc}}:U_\mathrm{G}^{\mathrm{bcc}}=1:0,99989:0,95660$$
 
                                 {{14}}
-- Theoretisch wäre also das hcp-Gitter am stabilsten, aber die energetischen Unterschiede zum fcp-Gitter sind klein. 
+- Theoretisch wäre also das hcp-Gitter am stabilsten, aber die energetischen Unterschiede zum fcc-Gitter sind klein. 
 - Das bcc-Gitter sollte nicht vorkommen 
 
                                 {{15}}
@@ -384,5 +384,5 @@ $$
 \end{align*}$$
 
                                       {{3}}
-Anmerkung: Der beobachtete Wert der Bindungsenergie ist $-0,751 \mathrm{\frac{kJ}{mol}}$, also wesentlich weniger als berechnet. Quantenmechanische Korrekturen spielen hier eine wichtige Rolle.
-Einen kristallinen Festkörper mit hcp Struktur  bildet Wasserstoff unterhalb von 14,02 K. 
+> [!Note]
+> Der beobachtete Wert der Bindungsenergie ist $-0,751 \mathrm{\frac{kJ}{mol}}$, also wesentlich weniger als berechnet. Quantenmechanische Korrekturen spielen hier eine wichtige Rolle. Einen kristallinen Festkörper mit hcp Struktur  bildet Wasserstoff unterhalb von 14,02 K. 
