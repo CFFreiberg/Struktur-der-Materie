@@ -47,6 +47,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 |Polaron| Elektron-Phonon WW (Elektron und elastische Deformation)|
 |Exiton| Elektron- Loch- Paar (Polarisationswelle)|
 |Polariton| Phonon- Photon WW, starke Kopplung von Photon + Phonon|
+|Elektron| "Teilchen"|
 
 
 
@@ -105,7 +106,8 @@ $$\begin{align*}
  \end{align*}$$
 
 {{11}}
-Hinweis: Aus den endlichen Abmessungen eines Kristalls folgen Randbedingungen für die Schwingungsgleichungen. Lösungen sind nur möglich, wenn an den Rändern des Kristalls Knoten der Wellen liegen. Daraus folgt dann eine Quantisierung des Wellenvektors $K$
+> [!NOTE]
+> Aus den endlichen Abmessungen eines Kristalls folgen Randbedingungen für die Schwingungsgleichungen. Lösungen sind nur möglich, wenn an den Rändern des Kristalls Knoten der Wellen liegen. Daraus folgt dann eine Quantisierung des Wellenvektors $K$
 
 ## Aufgabe 3 
                                       {{0}}
@@ -180,7 +182,7 @@ $$ M\cdot \frac{\partial u_n(t)}{\partial t^2}=-C \left[2u_n(t)-u_{n+1}(t)-u_{n-
 
 
 
->__b)__ Lösen Sie obige Gleichung mit dem Ansatz $u_n(t) = u  e^{i\omega t}e^{iKna}$ und leiten Sie eine Dispersionsrelation zwischen Frequenz $\omega$ und der Wellenzahl $K$  ab. 
+>__b)__ Lösen Sie obige Gleichung mit dem Ansatz $u_n(t) = u \cdot e^{i\omega t}\cdot e^{iKna}$ und leiten Sie eine Dispersionsrelation zwischen Frequenz $\omega$ und der Wellenzahl $K$  ab. 
 
 
 >__c)__ Diskutieren Sie den langwelligen Grenzfall $Ka \ll 1$ und zeigen Sie insbesondere, dass sich aus obiger Gleichung die (Schall–) Wellengeichung  $ \frac{\partial^2 u(x,t)}{\partial t^2}-v_s^2\frac{\partial^2 u(x,t)}{\partial x^2}=0$   ergibt, wenn man zur Kontinuumsbeschreibung $u_{n±1}(t) = u(x ± a, t)$ übergeht.
@@ -260,16 +262,16 @@ $$
 \Rightarrow -M\cdot \omega ^2 \cdot u e^{i\omega t}\cdot e^{iKna}&=C \cdot  [e^{i(n+1)Ka}-e^{i(n)Ka}+e^{i(n-1)Ka}-e^{i(n)Ka}]\cdot u e^{i\omega t}\\
 &=C \cdot  [e^{i(n+1)Ka}+e^{i(n-1)Ka}-2e^{i(n)Ka}]\cdot u e^{i\omega t}\\
 
-\Rightarrow  -M\cdot \omega^2&=C\cdot  [\underbrace{ e^{i(+1)Ka}+e^{i(-1)Ka}}_{2\cos(Ka)}-2]\\
-\Rightarrow -M\cdot \omega^2&=C\cdot[2\cdot\cos(Ka)-2]\cdot 
+\Rightarrow  -M\cdot \omega^2&=C\cdot  [\underbrace{ e^{i(+1)Ka}+e^{i(-1)Ka}}_{\color{Red} 2\cos(Ka)}-2]\\
+\Rightarrow -M\cdot \omega^2&=C\cdot[\color{Red} 2\cdot\cos(Ka)\color{Black}-2]   
 \end{align*}$$
 
                                       {{18}}
 Damit folgt dann:
-$$\omega^2=\frac{2C}{M}(1-\cos(Ka))$$
+$$\omega^2=\frac{2C}{M}(\color{Cyan} 1-\cos(Ka))$$
 
                                       {{19}}
-Jetzt wird noch die Gleichheit $1-\cos(x)=2\sin^2(\frac{x}{2})$ eingesetzt:
+Jetzt wird noch die Gleichheit $\color{Cyan}1-\cos(x)\color{Black}=2\sin^2(\frac{x}{2})$ eingesetzt:
 
                                       {{20}}
 $$\begin{align*}\omega^2&=\frac{2C}{M}\bigg(2\sin^2\bigg(\frac{Ka}{2}\bigg)\bigg)\\
