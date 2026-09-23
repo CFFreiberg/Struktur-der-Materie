@@ -39,7 +39,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
                                       {{2}}
 Vorüberlegung zum Zusammenhang von $D(\omega)$ und $D(K)$: Die mit den endlichen Abmessungen des Kristalls verbundenen Randbedingungen (Knoten der Auslenkung $u$  am Rand: $u(0)=u(N\cdot a)=0$) bewirken, dass nur eine bestimmte Anzahl von Wellenvektoren möglich ist (genauere Herleitung   Kapitel 5.3.1.1 im Buch "Festkörperphysik" von R. Gross und A. Marx). 
 Wenn der Wellenvektor $K$ wie bisher auf die erste Brillouin-Zone beschränkt wird, finden wir wegen $K\le\frac{\pi}{a}$ folgenden Satz von erlaubten Wellenvektoren: 
-$$K=\frac{\pi}{a}\cdot\frac{p}{N};\, p=0,1,2,3,....N$$
+$$K=\underbrace{\frac{\pi}{\color{Green} a}\cdot\frac{p}{\color{Green} N}}_{\color{Green} L};\, p=0,1,2,3,....N$$
 
                                       {{3}}
 Für die Zustandsdichte $D(K)$ im 1-dimensionalen Impulsraum gilt dann: 
@@ -107,7 +107,7 @@ Diese Funktion hat eine Singularität bei $\omega=\omega_\mathrm{m}$
 ## Aufgabe 2 
 
                                       {{0}}
-> __2.__	Beispiel für nicht stetig diffrenzierbare Zustandsdichte: Angenommen, ein optischer Phononenast habe im Dreidimensionalen nahe $K=0$ die Form $\omega(K) = \omega_0 – A\cdot K^2$. Zeigen Sie, dass dann für $\omega < \omega_0$ gilt: $D(\omega)=\big(\frac{L}{2\pi}\big)^3\bigg(\frac{2\pi}{A^{\frac{3}{2}}}\bigg)\sqrt{\big(\omega_0-\omega\big)}$. Für  $\omega > \omega_0$ gilt $D(\omega) = 0$. Warum? In diesem Fall ist also die Ableitung der Zustandsdichte unstetig.
+> __2.__	Beispiel für nicht stetig differenzierbare Zustandsdichte: Angenommen, ein optischer Phononenast habe im Dreidimensionalen nahe $K=0$ die Form $\omega(K) = \omega_0 – A\cdot K^2$. Zeigen Sie, dass dann für $\omega < \omega_0$ gilt: $D(\omega)=\big(\frac{L}{2\pi}\big)^3\bigg(\frac{2\pi}{A^{\frac{3}{2}}}\bigg)\sqrt{\big(\omega_0-\omega\big)}$. Für  $\omega > \omega_0$ gilt $D(\omega) = 0$. Warum? In diesem Fall ist also die Ableitung der Zustandsdichte unstetig.
 
                                       {{1}}
 **Lösung Aufgabe 2:**
@@ -224,7 +224,7 @@ Die Wärmeausdehnung lässt sich nur durch anharmonische Terme der Gitterenergie
 ## Aufgabe 5 
 
                                       {{0}}
-> __5.__ Spezifische Wärme einer linearen einatomigen Kette:  Berechnen Sie für akustische Phononen die innere Energie und die spezifische Wärme einer einatomigen Kette für die Grenzfälle einer hohen und einer niedrigen Temperatur. Nutzen Sie dabei die Debye-Näherung $D(\omega)= \frac{N}{\omega_\mathrm{D}}= $, wobei $\omega_\mathrm{D}=k_\mathrm{B} \cdot \Theta_\mathrm{D}$
+> __5.__ Spezifische Wärme einer linearen einatomigen Kette:  Berechnen Sie für akustische Phononen die innere Energie und die spezifische Wärme einer einatomigen Kette für die Grenzfälle einer hohen und einer niedrigen Temperatur. Nutzen Sie dabei die Debye-Näherung $D(\omega)= \frac{N}{\omega_\mathrm{D}}=\frac{L}{\pi}\cdot\frac{1}{v_s} $, wobei $\omega_\mathrm{D}=k_\mathrm{B} \cdot \Theta_\mathrm{D}$
 
 
 **Lösung Aufgabe 5:**
@@ -261,7 +261,7 @@ $$U(T)=\frac{3N k_\mathrm{B} T^2}{\Theta_\mathrm{D}}\int_0^{x_\mathrm{D}}\frac{x
 
                                       {{8}}
 Aus $e^x \approx 1+x$ folgt  
-$$\int_0^{x_\mathrm{D}}\frac{x}{e^x -1}\mathrm{d}x=\int_0^{x_\mathrm{D}}\frac{x}{1+x -1}\mathrm{d}x=\int_0^{x_\mathrm{D}}1\mathrm{d}x=x_\mathrm{D}$$
+$$\int_0^{x_\mathrm{D}}\frac{x}{e^x -1}\mathrm{d}x=\int_0^{x_\mathrm{D}}\frac{x}{1+x -1}\mathrm{d}x=\int_0^{x_\mathrm{D}}1\cdot \mathrm{d}x=x_\mathrm{D}$$
 
                                       {{9}}
 $$\Rightarrow U(T)=\frac{3N k_\mathrm{B} T^2}{\Theta_\mathrm{D}}x_\mathrm{D}=3N k_\mathrm{B} T$$
