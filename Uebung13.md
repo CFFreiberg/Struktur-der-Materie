@@ -31,7 +31,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 
 ## Aufgabe 1
                                       {{0}}
-> __1.__ Warum ist kondensierte Materie für Leitungselektronen so durchlässig?
+> __1.__ Warum ist kondensierte Materie (in metallischer Bindung) für Leitungselektronen so durchlässig?
 
                                       {{1}}
 **Lösung Aufgabe 1:**
@@ -111,7 +111,7 @@ $$\int_{k(E)}^{k(E+\Delta E)} D(k)\mathrm{d}k^3=\int_{k(E)}^{k(E+\Delta E)} 2\cd
 
                                       {{6}}
 Die Flächen konstanter Energie im $k$-Raum sind wegen der Dispersionsrelation $E(k)=\frac{\hbar^2 k^2}{2m}$ Kugeloberflächen. $\Delta k$ sei die zu $\Delta E$ gehörige Änderung des Wellenvektors.  
-Für einen dreidimensionalen Festkörper erhalten wir für den Ausruck 
+Für einen dreidimensionalen Festkörper erhalten wir für den Ausdruck 
 
                                       {{7}}
 $$2\cdot \frac{V}{(2\pi)^3}\int_{k(E)}^{k(E+\Delta E)} \mathrm{d}k^3=2\cdot \frac{V}{(2\pi)^3} \cdot \overbrace{4\pi k^2 \Delta k}^\text{Volumen von Kugelschale im k-Raum}$$
@@ -168,7 +168,7 @@ $$E_\mathrm{ges}=\int_0^{\infin}E\cdot D(E)\cdot f(E,T)\cdot \mathrm{d}E $$
                                       {{4}}
 Die mittlere Energie pro Elekron läßt sich berechnen zu:
 $$\begin{align*}\overline{E}&=\frac{E_\mathrm{ges}}{N}\\
-&=\frac{\int_0^{\infin}E\cdot D(E)\cdot f(E,T)\cdot dE}{\int_0^{\infin} D(E)\cdot f(E,T)\cdot dE}\\
+&=\frac{\int_0^{\infin}E\cdot D(E)\cdot f(E,T)\cdot \mathrm{d}E}{\int_0^{\infin} D(E)\cdot f(E,T)\cdot \mathrm{d}E}\\
 \end{align*}$$
 
                                       {{5}}
@@ -183,7 +183,7 @@ $$\begin{align*}\overline{E}
 Für $T=0\,\mathrm{K}$ ist die Verteilungsfunktion eine Stufenfunktion mit Sprung bei $E_\mathrm{F}$, unterhalb von $E_\mathrm{F}$ ist der Wert 1, oberhalb Null.
 $$\begin{align*}
 \overline{E}
-&=\frac{\int_0^{E_\mathrm{F}}E^{\frac{3}{2}}dE}{\int_0^{E_\mathrm{F}}E^{\frac{1}{2}}dE}\\
+&=\frac{\int_0^{E_\mathrm{F}}E^{\frac{3}{2}}\mathrm{d}E}{\int_0^{E_\mathrm{F}}E^{\frac{1}{2}}\mathrm{d}E}\\
 &=\frac{\frac{2}{5}E_\mathrm{F}^{\frac{5}{2}}}{\frac{2}{3}E_\mathrm{F}^{\frac{3}{2}}}\\
 &=\frac{3}{5}E_\mathrm{F}
 \end{align*}$$
@@ -223,11 +223,19 @@ p&=-\frac{\partial U}{\partial V}\\
                                       {{7}}
 Der Fermi-Druck ist nicht von der Temperatur abhängig und auch bei $T=0\, \mathrm{K}$ vorhanden. Ein klassisches ideales Gas mit $N$ Teilchen hat den Druck 
 
-                                      {{8}}
-$$p_\mathrm{Gas}=N\cdot k_\mathrm{B} \frac{T}{V}$$
+{{8}}
+************************************
 
-                                      {{9}}
-Anmerkung: Der Fermi-Druck verhindert, dass die Leitungselektronen unkontrolliert weiter verdichten. In Weißen Zwergen und Neutronensternen verhindert der Femidruck den Gravitationskollaps des Sternes.
+$$p_\mathrm{Gas}=N\cdot k_\mathrm{B} \frac{T}{V}=\color{Cyan}n\cdot R \frac{T}{V}$$
+
+wobei $N$ die Anzahl der Teilchen, $k_\mathrm{B}=1,380649 \cdot 10^{23} \mathrm{\frac{J}{K}}$ die Boltzmannkonstante,   $n$ die Stoffmenge (Anzahl der Mole) und $R=8,314\mathrm{\frac{J}{mol \cdot K}}$ die universelle Gaskonstante ist.
+************************************
+
+
+                                    {{9}}
+> [!NOTE]
+> Der Fermi-Druck verhindert, dass die Leitungselektronen unkontrolliert weiter verdichten. In Weißen Zwergen und Neutronensternen verhindert der Femidruck den Gravitationskollaps des Sternes.
+
 ## Aufgabe 6 
 
                                       {{0}}
@@ -407,3 +415,5 @@ $$k' = k + K+ G  $$
 Nur Elektronen nahe der Fermikante $E_\mathrm{F}$ können (in freie Zustände) gestreut werden. Für eine Umpkappstreuung eines Elektrons an einen Phonon wird aber eine minimales $K_0=q_\text{min}$ benötigt. Bei tiefen Temperaturen wird diese Anregung unwahrscheinlicher.
 
 
+## Aufgabe 14
+>__14.__ Bitte bearbeiten Sie im Opalkurs den Test [Formeln und Vorgehensweisen](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/1013219356/CourseNode/1770781126784509010)
