@@ -154,9 +154,9 @@ Zahl der Phononen im Bereich $\omega_1$ bis $\omega_2$ im 3D:
 
                                       {{3}}
 $$ \begin{align*}
-\Delta N&=3\int_{\omega_1}^{\omega_2} D(\omega)\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} d\omega\\
-&=3\int_{\omega_1}^{\omega_2} \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} d\omega\\
-&=3\int_{f_1}^{f_2} \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^\frac{\hbar 2\pi f}{k_\mathrm{B} T}-1} d(2\pi f)
+\Delta N&=3\int_{\omega_1}^{\omega_2} \color{green}D(\omega)\color{black}\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} \mathrm{d}\omega\\
+&=3\int_{\omega_1}^{\omega_2}\color{green} \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\color{black}\cdot \frac{1}{e^\frac{\hbar \omega}{k_\mathrm{B} T}-1} \mathrm{d}\omega\\
+&=3\int_{f_1}^{f_2} \frac{l^3 (2\pi f)^2}{2\pi^2 v_\mathrm{s}^3}\cdot \frac{1}{e^\frac{\hbar 2\pi f}{k_\mathrm{B} T}-1} \mathrm{d}(2\pi f)
 \end{align*}$$
 
                                       {{4}}
@@ -167,7 +167,7 @@ Betrachten wir den Exponenten im Exponentialterm für die größte Frequenz $4,1
 $$\frac{\hbar 2\pi f}{k_\mathrm{B} T}=\frac{hf}{k_\mathrm{B} T}=\mathrm{\frac{6,6\cdot 10^{-34}Js\cdot 4,1 \, MHz}{1,381\cdot 10^{-23}\frac{J}{K} \cdot 300\,K}}=6,5\cdot 10^{-7}$$
 
                                       {{6}}
-Der Exponent ist also sehr klein, die Exponentailfunktion lässt sich deshalb gut als Taylorreihenentwicklung $e^x=1+x+\frac{x^2}{2!}+\frac{x^2}{3!}+...$  darstellen, wobei die Reihe nach dem linearen Term abgebrochen werden kann.
+Der Exponent ist also sehr klein, die Exponentailfunktion lässt sich deshalb gut als Taylorreihenentwicklung $e^x=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+...$  darstellen, wobei die Reihe nach dem linearen Term abgebrochen werden kann.
 
                                       {{7}}
 
@@ -215,7 +215,7 @@ D(\omega)d(\omega) &=3 \frac{l^3 \omega^2}{2\pi^2 v_\mathrm{s}^3}\cdot \Delta \o
 ## Aufgabe 6 
 
                                       {{0}}
-> __6.__ Ein Laserstrahl  der Wellenlänge $\lambda=694\, \mathrm{nm}$ durchläuft einen Quarzkristall. Dabei findet eine inelastische Wechselwirkung zwischen Photonen und akustischen Phononen (Dispersionsrelation: $\Omega = v_\mathrm{s} \cdot K$) ohne Gitter-Rückstoß statt (Brillouin-Streunung). Berechnen Sie die maximale Frequenz der hierdurch ausgelösten mechanischen Schwingungen und geben Sie die Frequenzverschiebung des gestreuten Lichtes an. (Schallgeschwindigkeit $v_\mathrm{s} = 6000 \,\mathrm{\frac{m}{s}}$, Brechungsindex des Kristalls $n=1,54$)
+> __6.__ Ein Laserstrahl  der Wellenlänge $\lambda=694\, \mathrm{nm}$ durchläuft einen Quarzkristall. Dabei findet eine inelastische Wechselwirkung zwischen Photonen und akustischen Phononen (Dispersionsrelation: $\Omega = v_\mathrm{s} \cdot K$) ohne Gitter-Rückstoß statt (Brillouin-Streuung). Berechnen Sie die maximale Frequenz der hierdurch ausgelösten mechanischen Schwingungen und geben Sie die Frequenzverschiebung des gestreuten Lichtes an. (Schallgeschwindigkeit $v_\mathrm{s} = 6000 \,\mathrm{\frac{m}{s}}$, Brechungsindex des Kristalls $n=1,54$)
 
                                       {{0}}
 Hinweis: Benutzen Sie in dieser Aufgabe wird $\Omega$, $K$ für die Beschreibung von Phononen, und $\omega$,$k$ für die Beschreibung von Photonen.
@@ -302,3 +302,4 @@ C_V&=\frac{12 \pi^4 }{5}N_\mathrm{A}k_\mathrm{B}\bigg(\frac{T}{\Theta_\mathrm{D}
 &=\mathrm{\frac{12 \pi^4 }{5}\cdot 6,02214\cdot 10^{23} \frac{1}{mol}\cdot 1,38 \cdot 10^{-23}\mathrm{\frac{J}{K}}\bigg(\frac{50\, K}{400\, K}\bigg)^3}\\
 &=\mathrm{3,79 \frac{J}{mol\cdot K} }
 \end{align*}$$
+
