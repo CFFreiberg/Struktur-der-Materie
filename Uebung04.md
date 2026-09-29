@@ -21,7 +21,7 @@ comment:  Struktur der Materie Übung 4
 -->
 
 
-# Übung 4
+# Übung 4: Kristallgitter
 
 
 ## Aufgabe 1

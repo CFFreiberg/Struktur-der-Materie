@@ -228,9 +228,11 @@ $$N_\mathrm{Atome/EZ}=8\cdot\frac{1}{8}+6 \cdot\frac{1}{2}=4$$
 ![Oktaederlücke im fcc-Gitter](https://upload.wikimedia.org/wikipedia/commons/c/c7/Oktaederl%C3%BCcke.png "*Oktaederlücke im fcc-Gitter, Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Oktaederl%C3%BCcke)*")<!--width="60%"-->
 
 
+
+
 ``` @Kekule.load3d(mol)
-Picture 1                                                                       
-  PPPPPPPP          3D                              
+Picture 1                                                 
+  PPPPPPPP    3D                              
 
  14 36  0  0  0  0  0  0  0  0  0     
     0.0000    0.0000    3.5819 Cu  0  0  0  1
