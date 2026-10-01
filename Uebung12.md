@@ -47,7 +47,7 @@ import: https://raw.githubusercontent.com/LiaTemplates/Pyodide/master/README.md
 |$T_\mathrm{D}=\Theta _{{\mathrm {D}}}={\frac {\hbar \cdot \omega _{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}={\frac {\hbar \cdot v_{{\mathrm {D}}}}{k_{{\mathrm {B}}}}}\cdot {\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot N}{V}}}}$| $\Theta_\mathrm{E}=\frac{\hbar \omega_\mathrm{E}}{k_\mathrm{B}}$|
 |$\omega_\mathrm{D}=\sqrt[ {3}]{{\frac {6\cdot \pi ^{2}\cdot v_\mathrm{s}^3 N}{V}}}=v_\mathrm{s}\cdot K_\mathrm{D}$|$\omega_\mathrm{E}$, nur eine Frequenz| |
 |$D_{3d}(\omega)=\frac{V}{2\pi^2v_\mathrm{s}^3} \omega^2$|$D(\omega)=N \delta(\omega-\omega_E)$|
-|$K_\mathrm{D}=\sqrt[{3}]{6\cdot \pi^2\frac{N}{V}}=\frac{\omega_\mathrm{D}}{v_\mathrm{s}}$| |$3rN$ wechselwirkungsfreie Schwingungsmoden |
+|$K_\mathrm{D}=\sqrt[{3}]{6\cdot \pi^2\frac{N}{V}}=\frac{\omega_\mathrm{D}}{v_\mathrm{s}}$| |$3RN$ wechselwirkungsfreie Schwingungsmoden |
 |für $T \ll \Theta_\mathrm{D}$ gilt $C_V^\mathrm{D}=\frac{12 \pi^4}{5} N k_\mathrm{B} (\frac{T}{\Theta_\mathrm{D}})^3 \propto T^3$| $C_V^\mathrm{E}=\begin{cases}   3Nk_\mathrm{B} \big(\frac{\Theta_E}{T} \big)^2 e^{-\Theta_E/T} &\text{für } T\ll \Theta_E \\   3Nk_\mathrm{B} &\text{für } T\gg \Theta_E \end{cases} $|$3Nk_\mathrm{B}$|
 
 
