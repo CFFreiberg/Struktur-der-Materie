@@ -232,7 +232,7 @@ Es gibt 7 Kristallsysteme
 >Trigonal      $\rightarrow$ Symmetrie / Kristallsystem  <br>
 >Rhomboedrisch $\rightarrow$ Gitter / Gittersystem 
 
-![Beispiel für Calcit in rhomboedrischer und in hexagonaler Aufstellung](https://www.periodni.com/gallery/relationship_between_rhombohedral_and_hexagonal_cell.png)
+![Beispiel für Calcit in rhomboedrischer und in hexagonaler Aufstellung](https://www.periodni.com/gallery/relationship_between_rhombohedral_and_hexagonal_cell.png "*Bildquelle:(https://www.periodni.com/de/kristallsysteme-und-bravais-gitter.html) Beispiel für Calcit in rhomboedrischer und in hexagonaler Aufstellung*")
 ************************************
 
 ## Aufgabe 7
