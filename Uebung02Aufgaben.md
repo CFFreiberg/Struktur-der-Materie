@@ -243,9 +243,9 @@ Es gibt 7 Kristallsysteme
 |       |               |
 | :-------------: |:----------------:|
 |zwei Spiegelebenen (mindestens 2 kristallographisch verschiedene)|alle 4-zähligen Drehachsen|
-|![Würfel](media/Wuerfel.png) |![Würfel](media/Wuerfel.png) |
+|![Würfel](media/Wuerfel.png)<!--width="60%"-->  |![Würfel](media/Wuerfel.png)<!--width="60%"-->  |
 |alle 3-zähligen Drehachsen|alle 2-zähligen Drehachsen (ohne die 4-zähligen)|
-|![Würfel](media/Wuerfel.png) | ![Würfel](media/Wuerfel.png)|
+|![Würfel](media/Wuerfel.png)<!--width="60%"-->  | ![Würfel](media/Wuerfel.png)<!--width="60%"--> |
 *Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
 {{0}}
@@ -256,9 +256,9 @@ Es gibt 7 Kristallsysteme
 |       |               |
 | :-------------: |:----------------:|
 |zwei Spiegelebenen (mindestens 2 kristallographisch verschiedene)|alle 4-zähligen Drehachsen|
-|![Würfel](media/WuerfelSpiegel.png) |![Würfel](media/Wuerfel4zDrehachse.png) |
+|![Würfel](media/WuerfelSpiegel.png)<!--width="60%"-->  |![Würfel](media/Wuerfel4zDrehachse.png) <!--width="60%"--> |
 |alle 3-zähligen Drehachsen|alle 2-zähligen Drehachsen (ohne die 4-zähligen)|
-|![Würfel](media/Wuerfel3zDrehachse.png) | ![Würfel](media/Wuerfel2zDrehachse.png)|
+|![Würfel](media/Wuerfel3zDrehachse.png)<!--width="60%"--> | ![Würfel](media/Wuerfel2zDrehachse.png)<!--width="60%"--> |
 
 {{1}}
 *[Bildquelle ETHzürich, Geometrie, Tom Ilmanen](https://metaphor.ethz.ch/x/2020/hs/401-1511-00L/sc/lec11.pdf)*
@@ -270,8 +270,8 @@ Es gibt 7 Kristallsysteme
 <!-- data-type="none" --> 
 |       |               | |
 | :-------------: |:----------------:|:----------------:|
-|![Millersche Indices?](media/Mi1.png)|![Millersche Indices?](media/Mi2.png)| ![Millersche Indices?](media/Mi3.png)|
-|![Millersche Indices?](media/Mi4.png)|![Millersche Indices?](media/Mi5.png)| ![Millersche Indices?](media/Mi6.png)|
+|![Millersche Indices?](media/Mi1.png)<!--width="60%"--> |![Millersche Indices?](media/Mi2.png)<!--width="60%"--> | ![Millersche Indices?](media/Mi3.png)<!--width="60%"--> |
+|![Millersche Indices?](media/Mi4.png)<!--width="60%"--> |![Millersche Indices?](media/Mi5.png)<!--width="60%"--> | ![Millersche Indices?](media/Mi6.png)<!--width="60%"--> |
 
 *Bilder erstellt mit [VESTA](https://jp-minerals.org/vesta/en/):  Claudia Funke licensed under [CC BY-NC-SA ](https://creativecommons.org/licenses/by-nc-sa/4.0/)*
 
@@ -282,9 +282,9 @@ Es gibt 7 Kristallsysteme
 <!-- data-type="none" --> 
 |       |               | |
 | :-------------: |:----------------:|:----------------:|
-|![Millersche Indices?](media/Mi1.png)|![Millersche Indices?](media/Mi2.png)| ![Millersche Indices?](media/Mi3.png)|
+|![Millersche Indices?](media/Mi1.png)<!--width="60%"--> |![Millersche Indices?](media/Mi2.png)<!--width="60%"--> | ![Millersche Indices?](media/Mi3.png)<!--width="60%"--> |
 |(100)|(110)|(111)|
-|![Millersche Indices?](media/Mi4L.png)|![Millersche Indices?](media/Mi5L.png)| ![Millersche Indices?](media/Mi6L.png)|
+|![Millersche Indices?](media/Mi4L.png)<!--width="60%"--> |![Millersche Indices?](media/Mi5L.png)<!--width="60%"--> | ![Millersche Indices?](media/Mi6L.png)<!--width="60%"--> |
 |(123)|(200)|(211)|
 
 {{1}}
