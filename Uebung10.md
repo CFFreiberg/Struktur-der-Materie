@@ -73,10 +73,10 @@ Es gilt allgemein:
 $$ |K|=\frac{2 \pi}{\lambda} \Rightarrow \lambda=\frac{2\pi}{|K|}$$
 
                                       {{6}}
-Für elastische Wellen, die ja von real existierenden Atomen getragen werden, folgt für den  Wellenvektor $\vec{K}$ sinvollerweise also
+Für elastische Wellen, die ja von real existierenden Atomen getragen werden, folgt für den  Wellenvektor $\vec{K}$ sinnvollerweise also
 $$
 \begin{align*}
--\frac{2\pi}{2|K|} &\ge a \Rightarrow  \\
+\frac{1}{2}\cdot\frac{2\pi}{|K|} &\ge a \Rightarrow  \\
 -\pi &\le K\cdot a \le\pi  \\
 -\frac{\pi}{a} &\le K \le \frac{\pi}{a}
 
