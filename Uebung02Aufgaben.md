@@ -174,15 +174,15 @@ $\Rightarrow$ 230 Raumgruppen
 | int. Symbol     |       grafisches Symbol       |  Symmetrieoperation |
 | :------------- |:----------------:| :-------:|
 |1| - | Identität|
-|2|![180](media/Drehung180.png)<!--width="10%"-->| Drehung um 180°|
-|3|![120](media/Drehung120.png)<!--width="20%"--> | Drehung um 120°|
-|4|![90](media/Drehung90.png)<!--width="20%"--> | Drehung um 90°|
-|6| ![60](media/Drehung60.png)<!--width="20%"-->| Drehung um 60°|
+|2|![180](media/Drehung180.png)<!--width="5%"-->| Drehung um 180°|
+|3|![120](media/Drehung120.png)<!--width="10%"--> | Drehung um 120°|
+|4|![90](media/Drehung90.png)<!--width="10%"--> | Drehung um 90°|
+|6| ![60](media/Drehung60.png)<!--width="10%"-->| Drehung um 60°|
 |$\bar{1}$|  ![Invesionszentrum](media/Invesionszentrum.png)<!--width="10%"--> | Inversionszentrum|
-|$\bar{2}=m$|![Spiegelebene](media/Spiegelebene1.png)<!--width="20%"--> oder ![Spiegelebene](media/Spiegelebene2.png)<!--width="20%"-->  |zweizählige Drehinversionsachse bzw. Spiegelebene senkrecht zur Zeichenebene (oben) oder in der Zeichenebene (unten) |
-|$\bar{3}=3+\bar{1}$|![Drehinversion](media/Drehinvesion120.png)<!--width="20%"-->|Drehung um 120° gefolgt von Inversion|
-|$\bar{4}$|![Drehinversion](media/Drehinvesion90.png)<!--width="20%"-->|Drehung um 90° gefolgt von Inversion|
-|$\bar{6}=3+m \perp 3$|![Drehinversion](media/Drehinvesion60.png)<!--width="20%"-->|Drehung um 60° gefolgt von Inversion|
+|$\bar{2}=m$|![Spiegelebene](media/Spiegelebene1.png)<!--width="10%"--> oder ![Spiegelebene](media/Spiegelebene2.png)<!--width="10%"-->  |zweizählige Drehinversionsachse bzw. Spiegelebene senkrecht zur Zeichenebene (oben) oder in der Zeichenebene (unten) |
+|$\bar{3}=3+\bar{1}$|![Drehinversion](media/Drehinvesion120.png)<!--width="10%"-->|Drehung um 120° gefolgt von Inversion|
+|$\bar{4}$|![Drehinversion](media/Drehinvesion90.png)<!--width="10%"-->|Drehung um 90° gefolgt von Inversion|
+|$\bar{6}=3+m \perp 3$|![Drehinversion](media/Drehinvesion60.png)<!--width="10%"-->|Drehung um 60° gefolgt von Inversion|
 
 
 ## Aufgabe 5
@@ -232,7 +232,7 @@ Es gibt 7 Kristallsysteme
 >Trigonal      $\rightarrow$ Symmetrie / Kristallsystem  <br>
 >Rhomboedrisch $\rightarrow$ Gitter / Gittersystem 
 
-![Beispiel für Calcit in rhomboedrischer und in hexagonaler Aufstellung](https://www.periodni.com/gallery/relationship_between_rhombohedral_and_hexagonal_cell.png "*Bildquelle:(https://www.periodni.com/de/kristallsysteme-und-bravais-gitter.html) Beispiel für Calcit in rhomboedrischer und in hexagonaler Aufstellung*")
+![Beispiel für Calcit in rhomboedrischer und in hexagonaler Aufstellung](https://www.periodni.com/gallery/relationship_between_rhombohedral_and_hexagonal_cell.png "*Bildquelle:(https://www.periodni.com/de/kristallsysteme-und-bravais-gitter.html) Beispiel für Calcit in rhomboedrischer und in hexagonaler Aufstellung*")<!--width="60%"--> 
 ************************************
 
 ## Aufgabe 7
