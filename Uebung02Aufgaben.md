@@ -220,7 +220,7 @@ Es gibt 7 Kristallsysteme
 | triklin | $1$, $\bar{1}$  | 1| primitiv | $a\ne b\ne c$, $\alpha \ne \beta \ne \gamma$ | ![triklines Gitter](media/7Ktriklin.png)|
 | monoklin |$2$, $m$,  $2/m$ | 2|   primitiv, basiszentriert |$a\ne b\ne c$, $\alpha = \gamma =90° \ne\beta$  |  ![monoklines Gitter](media/7Kmonoklin.png)|
 | orthorhombisch |$222$, $mm2$, $mmm$ | 4 | primitiv, basiszentriert, raumzentriert, flächenzentriert |$a\ne b\ne c$, $\alpha =\beta = \gamma =90° $|  ![orthorhombisches Gitter](media/7Korthorombisch.png)|
-| trigonal  | $3$, $\bar{3}$, $32$, $3m$, $\bar{3}m$| 1 | primitiv |rhomboedrische Einstellung     $a= b=c$, $\alpha =\beta = \gamma \ne 90° $|  ![rhomboedrisches Gitter](media/7Krhomboedrisch.png)|
+| trigonal  | $3$, $\bar{3}$, $32$, $3m$, $\bar{3}m$| 1 | primitiv |rhomboedrische Aufstellung     $a= b=c$, $\alpha =\beta = \gamma \ne 90° $|  ![rhomboedrisches Gitter](media/7Krhomboedrisch.png)|
 | tetragonal |$4$, $\bar{4}$, $4/m$, $422$, $4mm$, $\bar{4}2m$, $4/mmm$ | 2 | primitiv,  raumzentriert |$a= b\ne c$, $\alpha =\beta = \gamma =90° $|  ![tetragonales Gitter](media/7Ktetragonal.png)|
 | hexagonal | $6$, $\bar{6}$, $6/m$, $622$, $6mm$,$\bar{6}m2$, $6/mmm$| 1 | primitiv |$a= b \ne c$, $\alpha =\beta = 90°$,$\gamma=120°$  |  ![hexagonales Gitter](media/7Khexagonal.png)|
 | kubisch |$23$, $m\bar{3}$, $432$, $\bar{4}3m$, $m\bar{3}m$ | 3 | primitiv,  raumzentriert, flächenzentriert |$a= b=c$, $\alpha =\beta = \gamma =90° $|  ![kubisches Gitter](media/7Kkubisch.png)|
