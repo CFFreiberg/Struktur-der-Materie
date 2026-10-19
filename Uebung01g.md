@@ -157,7 +157,6 @@ Außerdem werden die Kugeln an den Ecken jeweils von dem darüberliegenden/darun
 Diese Kugeln zählen dann insgesamt für das rot eingezeichnete Prisma: $\frac{4\cdot \frac{1}{6}+4 \cdot \frac{1}{3}}{2}=\frac{4}{2} \cdot \frac{3}{6}=1$.
 Das entspricht der im Mittel ebenfalls richtigen Rechnung mit $8\cdot\frac{1}{8}$ (für die Ecke eines kubischen Gitters).
 Zusätzlich kommt noch die "orangene" Kugel im kompletten Volumen hinzu. Also gilt:
-
  $N_K=1+1=2$
 
 {{30}}
