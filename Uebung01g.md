@@ -198,7 +198,7 @@ Nun benötigen Sie einen Zusammenhang zwischen Kugelvolumen und Gitterparameter 
 Betrachten Sie folgende Abbildung und wenden Sie den Satz von Pythagoras zweimal an:
 
 {{6}}
-![Detail Diamantgitters](media/diamanatdetail.png "*Ausschnitt aus Diamantgitter (ein Achtel der Einheitszelle) zum Erkennen der geometrischen Zusammenhänge zwischen $l$, $x$ und $\frac{a}{4}$; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik*")
+![Detail Diamantgitters](media/diamanatdetail.png "*Ausschnitt aus Diamantgitter (ein Achtel der Einheitszelle) zum Erkennen der geometrischen Zusammenhänge zwischen $l$, $x$ und $\frac{a}{4}$; Quelle: A. Ambrust, H. Janetzki, Aufgaben zur Festkörperphysik, ergänzt um eine Kugel hinten rechts*")
 
 {{7}}
 Dann folgt:
